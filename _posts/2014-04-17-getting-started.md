@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to the OME Blog
-categories: blog
+categories: welcome
 ---
 
 Blog posts coming soon!
