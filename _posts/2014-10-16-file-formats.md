@@ -66,7 +66,12 @@ and supported, so in OME, we refer to these as *proprietary file formats*
 
 So why isn't there a single standard for image files?
 
-There are have been several efforts to standardise image file formats-- DICOM, OME-TIFF, NifTi and cellH5 are just some examples.  We've discussed the advantages and disadvantages of various standards previously ([Linkert et al, 2010](http://jcb.rupress.org/content/189/5/777l)). Overall, data standards suffer from two inherent problems that limit their practical implementation and utility, and thus their full adoption:
+There are have been several efforts to standardise image file formats-- DICOM,
+OME-TIFF, NifTi and cellH5 are just some examples.  We've discussed the
+advantages and disadvantages of various standards previously
+([Linkert et al, 2010](http://jcb.rupress.org/content/189/5/777l)). Overall,
+data standards suffer from two inherent problems that limit their practical
+implementation and utility, and thus their full adoption:
 
 1. In rapidly innovating fields, like imaging, a data standard is always
    obsolete-- the next generation technology that has the community so excited
@@ -143,8 +148,8 @@ structure can be supported, any update or change-- an additional metadata
 element, a change data type-- makes a new version of the file format
 incompatible with the software, and usually causes the software to crash,
 which is especially inconvenient for the user. With a few hundred different
-imaging systems currently available, each with a few updates per year, it's no 
-wonder that users [report spending so much time dealing with image file formats](http://www.eurobioimaging.eu/sites/default/files/D11.1%20State%20of%20the%20art%20and%20community%20requirements%20in%20Biomedical%20Image%20Analysis,%20Storage%20and%20Remote%20%20Access.pdf)
+imaging systems currently available, each with a few updates per year, it's no
+wonder that users [report spending so much time dealing with image file formats](http://www.eurobioimaging.eu/sites/default/files/D11.1%20State%20of%20the%20art%20and%20community%20requirements%20in%20Biomedical%20Image%20Analysis,%20Storage%20and%20Remote%20%20Access.pdf).
 
 ###What to do?
 
