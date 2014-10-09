@@ -9,9 +9,9 @@ categories: File-formats
 Imaging technology-- including probes and molecular reporters, acquisition
 systems, and data analysis tools-- is one of the great success stories of
 modern science. From the mid-20th century onward, a steady stream of new
-imaging modalities have been the foundation for modern life and biomedical
+imaging modalities has been the foundation for modern life and biomedical
 sciences. Since the late 1970s, the use of electronic detectors that detect
-analogue signals and convert them to digital measurements has rapidly
+analog signals and convert them to digital measurements has rapidly
 increased, transforming imaging into a computational science. Initially, rapid
 growth of CPU power (Moore's Law observes that it doubles approximately every
 two years) kept pace with improvements in detector speed, size, and cost, so
@@ -52,12 +52,12 @@ definition, but it is probably the only viable one to use.
 
 A file format is a mechanism for storing data on digital media. It's a defined
 way to read and write the pixel data and image metadata produced by a specific
-imaging system onto a hard disc or other storage medium. With so many
+imaging system onto a hard disk or other storage medium. With so many
 different imaging modalities in use in the life and biomedical sciences, the
 number of file formats has proliferated so that, in practice, every time a new
 type or a new implementation of an imaging modality is developed, a new file
-format is developed to support this new system's image metadata. The result is
-that there are approximately as many file formats as imaging systems
+format is introduced to support this new system's image metadata. The result
+is that there are approximately as many file formats as imaging systems
 available. Most are private, in the sense that they are not openly documented 
 and supported, so in OME, we refer to these as *proprietary file formats*
 (PFFs).
@@ -66,7 +66,7 @@ and supported, so in OME, we refer to these as *proprietary file formats*
 
 So why isn't there a single standard for image files?
 
-There are have been several efforts to standardise image file formats-- DICOM,
+There are have been several efforts to standardize image file formats-- DICOM,
 OME-TIFF, NifTi and cellH5 are just some examples.  We've discussed the
 advantages and disadvantages of various standards previously
 ([Linkert et al, 2010](http://jcb.rupress.org/content/189/5/777l)). Overall,
@@ -86,7 +86,7 @@ implementation and utility, and thus their full adoption:
    standard, and they also serve as the basis for the development of software
    that reads and writes the standard. These powerful concepts underpin the
    standard file format and the model. However, when a new modality, or even a
-   new implementation of an existing modality requires a new, unanticipated
+   new implementation of an existing modality, requires a new, unanticipated
    data element or relationship, the model and format can't intrinsically
    support it.
 
@@ -118,15 +118,16 @@ image viewers.
 Almost all file formats use an established or known standard-- for example,
 TIFF to store the pixel data, XML to store metadata and so on. Several use
 some extension of these basic standards. While many use roughly similar
-mechanisms to store pixel data and image metadata, in almost cases the
+mechanisms to store pixel data and image metadata, in most cases the
 specific implementations differ enough to require a specific reader for every
 file format.
 
 Since the 1990s, the push towards multidimensional imaging has meant that an
 "image" contains frames from a combination of several optical sections,
-channels, time points, lifetime, phase, etc. The pixel data from each frame
+channels, time points, phases, etc. The pixel data from each frame
 can be stored as individual files or sometimes combined into multi-frame
-files, e.g. all frames from a single timepoint stored as a multi-page TIFF.
+files, e.g. all the frames from a single timepoint can be stored as a
+multi-page TIFF.
 The image metadata is usually stored in a separate text file sometimes as free
 text, sometimes in a format like XML. The result is that a single
 multidimensional image or imaging experiment is often stored in dozens,
@@ -145,7 +146,7 @@ formats (i.e. anyone who wants to develop their own analysis tools and methods
 for their imaging experiments), the use of free text or other undefined image
 metadata structures is especially problematic. While any specific metadata
 structure can be supported, any update or change-- an additional metadata
-element, a change data type-- makes a new version of the file format
+element, a changed data type-- makes a new version of the file format
 incompatible with the software, and usually causes the software to crash,
 which is especially inconvenient for the user. With a few hundred different
 imaging systems currently available, each with a few updates per year, it's no
@@ -153,15 +154,15 @@ wonder that users [report spending so much time dealing with image file formats]
 
 ###What to do?
 
-So, if data format standardisation is not really possible, what’s the
+So, if data format standardization is not really possible, what’s the
 solution? In 2002, Kevin Eliceiri and Curtis Rueden (LOCI, Madison), proposed
 the concept of Bio-Formats: accept that the panoply of file formats will
 always be a necessary consequence of a rapidly innovating field, and build a
 library that could translate as many formats as possible into a common
 metadata model which any software could consume. Together with OME, LOCI began
-working on this concept: rather than standardising the original data format,
-find ways to standardise the interface into the data, and make the use and
-adoption of this interface as easy as possible.  
+working on this concept: rather than standardizing the original data format,
+find ways to standardize the interface into the data, and make the use and
+adoption of this interface as easy as possible.
 
 In our next chapter, we’ll look at how this approach actually helps build an
 image metadata standard.
