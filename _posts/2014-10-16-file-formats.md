@@ -71,9 +71,9 @@ So why isn't there a single standard for image files?
 There are have been several efforts to standardize image file formats-- DICOM,
 OME-TIFF, NifTi and cellH5 are just some examples.  We've discussed the
 advantages and disadvantages of various standards previously
-([Linkert et al, 2010](http://jcb.rupress.org/content/189/5/777l)). Overall,
-data standards suffer from two inherent problems that limit their practical
-implementation and utility, and thus their full adoption:
+([Linkert et al., 2010](http://jcb.rupress.org/content/189/5/777.full)).
+Overall, data standards suffer from two inherent problems that limit their
+practical implementation and utility, and thus their full adoption:
 
 1. In rapidly innovating fields, like imaging, a data standard is always
    obsolete-- the next generation technology that has the community so excited
