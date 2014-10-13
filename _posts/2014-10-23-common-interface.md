@@ -22,13 +22,13 @@ extensible.
 A common interface for accessing image data requires a known specification for
 that data. When OME started (around 2001) there weren’t any defined
 specifications available for biological imaging. The most advanced
-specification available was DICOM (
-[Digital Imaging and Communications in Medicine](http://medical.nema.org/Dicom/about-DICOM.html)
-) but this was very tightly linked to medical imaging and required, for
-example, a patient’s name to generate a valid file. In OME we began
+specification available was DICOM
+([Digital Imaging and Communications in Medicine](http://medical.nema.org/Dicom/about-DICOM.html))
+but this was very tightly linked to medical imaging and required, for
+example, a patient’s name to generate a valid file. In OME, we began
 defining the elements and components of biological imaging systems,
 illumination devices, objective lenses, detectors, etc. We referred to this
-specification as The OME Data Model (see
+specification as the OME Data Model (see
 [Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47)). For each
 element of an imaging system, it provides a definition, and, critically, a
 specific statement of the relationship of that element to others, e.g.
@@ -54,8 +54,8 @@ Bio-Formats uses the OME Data Model as its internal specification, and cannot
 only read metadata from proprietary files but can write OME-XML in an OME-TIFF
 file. Thus the OME Data Model, via Bio-Formats, is a specification for
 converting and also writing image data. Any software tool that uses
-Bio-Formats has access to all the
-[formats Bio-Formats supports] (https://www.openmicroscopy.org/site/support/bio-formats5/supported-formats.html)
+Bio-Formats has access to
+[all the formats Bio-Formats supports](https://www.openmicroscopy.org/site/support/bio-formats/supported-formats.html)
 as well as export to OME-TIFF.
 
 ###Multi-dimensional data
@@ -68,16 +68,16 @@ monochrome detector is 5D, but the 3rd spatial dimension (by convention often
 referred to as “z”), time and channel values are all set to 1.
 
 This representation has proven quite powerful, as it supports many of the most
-common imaging modalities. However with the appearance of new modalities e.g.
+common imaging modalities. However with the appearance of new modalities, e.g.
 HCS, FLIM, LSFM, and OPT, the need to express even more dimensions has become
-more and more important.  For screening, we extended the OME Data Model to
-include [representations of screens, plates and wells] (http://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html).
+more and more important. For screening, we extended the OME Data Model to
+include [representations of screens, plates and wells](http://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html).
 In our experience, we have seen 6, 7 and 8 dimensional images and anticipate
 that even higher dimensions will appear as imaging modalities evolve. For the
-moment, OME has settled on taking the core 5D image model and extending into 
+moment, OME has settled on taking the core 5D image model and extending into
 larger dimensions using a
-[modulo-based approach] (http://www.openmicroscopy.org/site/support/ome-model/developers/6d-7d-and-8d-storage.html.
-This approach keeps the original 5D model intact but  gives a simple way to
+[modulo-based approach](http://www.openmicroscopy.org/site/support/ome-model/developers/6d-7d-and-8d-storage.html).
+This approach keeps the original 5D model intact but gives a simple way to
 support images with larger dimensionality and avoids writing explicit models
 for many rapidly evolving domains. This has been successfully used for FLIM
 and OPT imaging. In the longer term, we anticipate the need to expand OME’s
@@ -94,7 +94,7 @@ common denominator where basic metadata can be reliably stored. For more
 application-specific metadata, the OME Data Model provides a variety of ways
 for extending the specification with custom annotations of various types. Full
 details are provided in the original paper describing how the model works
-[Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47) and in the
+([Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47)) and in the
 [Data Model specification pages]
 (http://www.openmicroscopy.org/site/support/ome-model/).
 These custom annotations provide an enormous flexibility but also mean that
@@ -109,7 +109,7 @@ specification is made available.
 The result of using a common specification that cannot specify every advanced,
 cutting edge biological imaging system means that the solution is always
 incomplete and very likely unable to support the latest innovations in
-biological imaging. Moreover any updates made to the model to support new
+biological imaging. Moreover, any updates made to the model to support new
 innovations will likely become obsolete within a few months as new innovations
 or updates are added. The OME Data Model also does not provide comprehensive
 support for all imaging modalities. For example, while fluorescence is well
@@ -133,6 +133,6 @@ standard interface to scientific image data. This approach can be considered
 an indirect way of establishing an imaging metadata standard: while accepting
 all the limitations of a common metadata specification, OME’s approach has
 allowed many thousands of scientists worldwide easier access to their image
-data. In OME we believe this is the pragmatic, user-focused way of developing
+data. In OME, we believe this is the pragmatic, user-focused way of developing
 an imaging standard.
 
