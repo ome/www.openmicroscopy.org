@@ -31,14 +31,15 @@ Thus, this Blog, and our first topic, File Formats.
 
 ###Image data and metadata
 
-A digital image are written to disk in a *file format* that stores the *pixel*
+A digital image is written to disk in a *file format* that stores the *pixel*
 data (sometimes referred to as the binary data) and the *image metadata*. This
 term is often a catch-all phrase, and ends up describing any data associated
 with the pixel data that might have some value. Image metadata includes
 detector settings, illumination parameters (e.g. in photon-based imaging), and
 pulse sequences (e.g. in magnetic resonance imaging). Generally,
 interpretation of an image requires access to image pixel data and image
-metadata to correctly represent the dimensions of the image, the pixel size.
+metadata to correctly represent the dimensions of the image, the pixel size,
+etc.
 
 In our experience, we've seen many different implied definitions of image
 metadata (we call them "implied" because it's rare for anyone to actually
