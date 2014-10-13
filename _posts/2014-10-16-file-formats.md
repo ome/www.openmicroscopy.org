@@ -69,6 +69,8 @@ So why isn't there a single standard for image files?
 
 ![xkcd on how standards profilerate](http://imgs.xkcd.com/comics/standards.png)
 
+[xkcd.com](https://xkcd.com/license.html)
+
 There are have been several efforts to standardize image file formats-- DICOM,
 OME-TIFF, NifTi and cellH5 are just some examples.  We've discussed the
 advantages and disadvantages of various standards previously
