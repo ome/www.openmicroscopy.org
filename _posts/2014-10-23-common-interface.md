@@ -80,9 +80,12 @@ larger dimensions using a
 This approach keeps the original 5D model intact but gives a simple way to
 support images with larger dimensionality and avoids writing new individual
 models for many rapidly evolving domains. This has been successfully used for
-FLIM and OPT imaging. In the longer term, we anticipate the need to expand
+[FLIM](https://www.openmicroscopy.org/site/products/partner/flimfit)
+and OPT imaging. In the longer term, we anticipate the need to expand
 OME’s Data Model to a much more extensible approach, and are working with
-several groups on this problem.
+several groups on this problem. In particular, we are following the
+[ImgLib2](http://imglib2.net) project's work on building an N-dimensional
+image library.
 
 ###A least common denominator
 
