@@ -13,8 +13,9 @@ imaging modalities has been the foundation for modern life and biomedical
 sciences. Since the late 1970s, the use of electronic detectors that detect
 analog signals and convert them to digital measurements has rapidly
 increased, transforming imaging into a computational science. Initially, rapid
-growth of CPU power (Moore's Law observes that it doubles approximately every
-two years) kept pace with improvements in detector speed, size, and cost, so
+growth of CPU power (c.f.
+[Moore's Law](http://en.wikipedia.org/wiki/Moore%27s_law)) kept pace with
+improvements in detector speed, size, and cost, so
 that image processing and analysis has largely been achieved on desktop or
 laptop computers. However, in the past two decades, the combination of
 increasingly sophisticated imaging techniques with improvements in automation
