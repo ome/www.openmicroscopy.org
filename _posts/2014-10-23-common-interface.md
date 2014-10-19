@@ -12,7 +12,7 @@ evolving and innovative field of imaging. We argued that defining a single
 metadata standard for scientific images is difficult at best and almost
 certainly impractical. Instead, we have attempted to provide a standardized
 interface to metadata and pixel data so that we provide a single point of
-access to many different image files. That point of access is Bio-Formats. In
+access to many different image files. That point of access is [Bio-Formats](https://www.openmicroscopy.org/site/products/bio-formats). In
 this entry, we discuss the technical foundation for Bio-Formats and how it
 provides a single metadata description that is both well-defined and
 extensible.
