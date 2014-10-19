@@ -35,8 +35,8 @@ specific statement of the relationship of that element to others, e.g.
 numerical aperture is a property of an objective, which is part of an imaging
 instrument, and so on. The Model was repeatedly updated, improving the
 specification and matching it to newly developed imaging technologies. When
-Kevin Eliceiri and Curtis Rueden proposed what became Bio-Formats they
-realized that the OME Data Model  was a useful tool – it was an open,
+Kevin Eliceiri and Curtis Rueden ([LOCI](http://loci.wisc.edu/)) proposed what became Bio-Formats they
+realized that the OME Data Model was a useful tool – it was an open,
 supported and evolving specification into which they could convert any
 incoming data. Because it was expressed in XML, it could be used to define
 Bio-Formats’ metadata specifications.
@@ -119,12 +119,9 @@ support for all imaging modalities. For example, while fluorescence is well
 supported, including XML elements 'Illumination', 'Filter Set', and
 'Detector', high-end transmitted light techniques such as Differential
 Interference Contrast are not well supported-- there are no elements
-describing the shear of a Wollaston prism. The expectation has always been
-that experts in this technique would extend the Data Model to support
-alternative imaging types, using real-world applications as a guide. It seems
-likely that the OME Data Model will always be at least somewhat incomplete--
-all imaging modalities used by all scientists will never be completely
-described.
+describing the shear of a Wollaston prism. Adressing such a deficit involves 
+identifying partners who can help define critical data elements and their relationships. 
+This is the approach we used to extend the OME Data Model to support HCS data-- [OME ScreenPlateWell](https://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html). Feedback from [TDS Dresden](http://www.mpi-cbg.de/facilities/profiles/ht-tds.html), Harvard's [ICCB](http://iccb.med.harvard.edu/) and others was coalesced into an extension of the OME Data Model. In a rapidly innovating field like imaging, the OME Data Model will always be at least somewhat incomplete, as newly developed modalities mature and can then be included in the speciication. 
 
 Regardless of these significant limitations, the approach adopted by OME has
 proven to be reasonably successful and effective. With a fairly rich
