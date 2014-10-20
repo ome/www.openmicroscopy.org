@@ -12,7 +12,7 @@ evolving and innovative field of imaging. We argued that defining a single
 metadata standard for scientific images is difficult at best and almost
 certainly impractical. Instead, we have attempted to provide a standardized
 interface to metadata and pixel data so that we provide a single point of
-access to many different image files. That point of access is [Bio-Formats](https://www.openmicroscopy.org/site/products/bio-formats). In
+access to many different image files. That point of access is [Bio-Formats](http://www.openmicroscopy.org/site/products/bio-formats). In
 this entry, we discuss the technical foundation for Bio-Formats and how it
 provides a single metadata description that is both well-defined and
 extensible.
@@ -55,7 +55,7 @@ only can it read metadata from proprietary files but it can also write OME-XML
 in an OME-TIFF file. Thus the OME Data Model, via Bio-Formats, is a
 specification for converting and also writing image data. Any software tool
 that uses Bio-Formats has access to
-[all the formats Bio-Formats supports](https://www.openmicroscopy.org/site/support/bio-formats/supported-formats.html)
+[all the formats Bio-Formats supports](http://www.openmicroscopy.org/site/support/bio-formats/supported-formats.html)
 as well as export to OME-TIFF.
 
 ###Multi-dimensional data
@@ -80,7 +80,7 @@ larger dimensions using a
 This approach keeps the original 5D model intact but gives a simple way to
 support images with larger dimensionality and avoids writing new individual
 models for many rapidly evolving domains. This has been successfully used for
-[FLIM](https://www.openmicroscopy.org/site/products/partner/flimfit)
+[FLIM](http://www.openmicroscopy.org/site/products/partner/flimfit)
 and OPT imaging. In the longer term, we anticipate the need to expand
 OME’s Data Model to a much more extensible approach, and are working with
 several groups on this problem. In particular, we are following the
@@ -119,9 +119,9 @@ support for all imaging modalities. For example, while fluorescence is well
 supported, including XML elements 'Illumination', 'Filter Set', and
 'Detector', high-end transmitted light techniques such as Differential
 Interference Contrast are not well supported-- there are no elements
-describing the shear of a Wollaston prism. Adressing such a deficit involves 
+describing the shear of a Wollaston prism. Addressing such a deficit involves 
 identifying partners who can help define critical data elements and their relationships. 
-This is the approach we used to extend the OME Data Model to support HCS data-- [OME ScreenPlateWell](https://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html). Feedback from [TDS Dresden](http://www.mpi-cbg.de/facilities/profiles/ht-tds.html), Harvard's [ICCB](http://iccb.med.harvard.edu/) and others was coalesced into an extension of the OME Data Model. In a rapidly innovating field like imaging, the OME Data Model will always be at least somewhat incomplete, as newly developed modalities mature and can then be included in the speciication. 
+This is the approach we used to extend the OME Data Model to support HCS data-- [OME ScreenPlateWell](http://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html). Feedback from [TDS Dresden](http://www.mpi-cbg.de/facilities/profiles/ht-tds.html), Harvard's [ICCB](http://iccb.med.harvard.edu/) and others was coalesced into an extension of the OME Data Model. In a rapidly innovating field like imaging, the OME Data Model will always be at least somewhat incomplete, as newly developed modalities mature and can then be included in the speciication. 
 
 Regardless of these significant limitations, the approach adopted by OME has
 proven to be reasonably successful and effective. With a fairly rich
