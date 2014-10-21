@@ -55,8 +55,7 @@ only can it read metadata from proprietary files but it can also write OME-XML
 in an OME-TIFF file. Thus the OME Data Model, via Bio-Formats, is a
 specification for converting and also writing image data. Any software tool
 that uses Bio-Formats has access to
-[all the formats Bio-Formats supports](http://www.openmicroscopy.org/site/support/bio-formats/supported-formats.html)
-as well as export to OME-TIFF.
+[all the formats Bio-Formats supports](http://www.openmicroscopy.org/site/support/bio-formats/supported-formats.html).
 
 ###Multi-dimensional data
 
@@ -121,7 +120,7 @@ supported, including XML elements 'Illumination', 'Filter Set', and
 Interference Contrast are not well supported-- there are no elements
 describing the shear of a Wollaston prism. Addressing such a deficit involves 
 identifying partners who can help define critical data elements and their relationships. 
-This is the approach we used to extend the OME Data Model to support HCS data-- [OME ScreenPlateWell](http://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html). Feedback from [TDS Dresden](http://www.mpi-cbg.de/facilities/profiles/ht-tds.html), Harvard's [ICCB](http://iccb.med.harvard.edu/) and others was coalesced into an extension of the OME Data Model. In a rapidly innovating field like imaging, the OME Data Model will always be at least somewhat incomplete, as newly developed modalities mature and can then be included in the speciication. 
+This is the approach we used to extend the OME Data Model to support HCS data-- [OME ScreenPlateWell](http://www.openmicroscopy.org/site/support/ome-model/developers/screen-plate-well.html). Feedback from [TDS Dresden](http://www.mpi-cbg.de/facilities/profiles/ht-tds.html), Harvard's [ICCB](http://iccb.med.harvard.edu/) and others was coalesced into an extension of the OME Data Model. In a rapidly innovating field like imaging, the OME Data Model will always be at least somewhat incomplete, as newly developed modalities mature and can then be included in the specification. 
 
 Regardless of these significant limitations, the approach adopted by OME has
 proven to be reasonably successful and effective. With a fairly rich
