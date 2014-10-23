@@ -106,7 +106,7 @@ stored and accessed by any application, while application-specific metadata
 can be stored and will be accessible to third parties if the appropriate
 specification is made available.
 
-###A frustratingly complete, always obsolete, amazingly effective solution
+###A frustratingly incomplete, always obsolete, amazingly effective solution
 
 Using a common specification that cannot specify every advanced,
 cutting edge biological imaging system results in a solution that is always
