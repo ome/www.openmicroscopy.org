@@ -18,11 +18,11 @@ Java library, available under an open source license
 ([GPL version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)). It
 plugs into many other
 [software tools](http://www.openmicroscopy.org/site/support/bio-formats5/users/index.html)
-including ImageJ, Matlab, KNIME, CellProfiler and many others.
+including ImageJ, Matlab, KNIME, and CellProfiler.
  
 We distribute Bio-Formats under an open source license so that the technology
 is available for the widest possible set of use cases, and to allow us to
-engage, hopefully rapidly and productively with the community. Scientists and
+engage, hopefully rapidly and productively, with the community. Scientists and
 software developers can use Bio-Formats for whatever purpose they wish and can
 make whatever changes they need to its source code. The architecture of
 Bio-Formats allows it to be used as a “plug-in”, enabling any tool that uses
@@ -47,10 +47,10 @@ This panoply of PFFs raises the question of how a project like Bio-Formats
 could ever succeed. During the initial phases of Bio-Formats development, ca.
 2002-2004, Kevin Eliceiri and Jason Swedlow approached several commercial
 imaging system vendors, requesting specifications for each vendor’s PFFs (at
-that time, several imaging companies maintained several imaging formats, each
-for a different imaging modality). Proposing to build software against these
-specifications made sense. Simultaneously, the team at
-[LOCI](http://loci.wisc.edu) began reverse engineering PFFs they had access to
+that time, several imaging companies each maintained several different imaging
+formats for different imaging modalities). Proposing to build software against
+these PFF specifications made sense. Simultaneously, the team at
+[LOCI](http://loci.wisc.edu) began reverse-engineering PFFs they had access to
 and including support for them in the early versions of Bio-Formats as well.
 It rapidly became apparent that specifications, in the few cases where they
 were available, were sometimes out of date, often incomplete and, critically,
@@ -92,7 +92,7 @@ However, the jury is still out on the impact of this trend. We now routinely
 see multiple versions of the “same” PFF. This amounts to different
 implementations of metadata structures being used by the different imaging
 systems manufactured by a single company. Thus while the file extensions have
-unified, the diversity of image file sets seem to be still increasing. For
+unified, the diversity of image file sets seems to be still increasing. For
 Bio-Formats, this trend has created a problem — a file that is supported based
 on its file name or extension may not be supported simply because we have
 never received an example of a particular version of a PFF. The only solution
@@ -107,7 +107,7 @@ modalities. In the near future, OME’s goal is to continue to expand the
 imaging modalities supported by Bio-Formats especially to target new 3D
 imaging technologies (e.g.
 [LSFM](http://en.wikipedia.org/wiki/Light_sheet_fluorescence_microscopy),
-[HREM](http://en.wikipedia.org/wiki/High-resolution_transmission_electron_microscopy),
+[HREM](http://embryoimaging.org/about),
 and [OPT](http://en.wikipedia.org/wiki/Optical_projection_tomography)). We
 also note that there is an increasing scientific drive to develop and perform
 correlative imaging, where imaging of a single sample at two or more different
@@ -125,7 +125,7 @@ One of the challenges of building and maintaining Bio-Formats is the scale of
 its user community. The number of requests that arrive on a daily basis for
 updates to Bio-Formats swamps our current development capacity. We are
 currently seeking funding to grow the numbers of developers on the Bio-Formats
-team and hopefully will grow the team in 2015.
+team and hopefully will expand the team in 2015.
  
 Most of the time, a request for support for a new or updated PFF comes as a
 simple request for work. We accept these in the best spirit of open source
@@ -147,8 +147,8 @@ several years. Watch this space… or maybe get involved!
 As noted above, the rapid pace of innovation and scale of usage means that the
 Bio-Formats team is always facing a
 [very long queue](https://trac.openmicroscopy.org.uk/ome/query?status=accepted&status=new&status=reopened&component=Bio-Formats&group=type&max=1000&col=id&col=summary&col=status&col=owner&col=priority&col=milestone&col=time&col=changetime&col=reporter&col=cc&report=44&order=priority)
-of requests, bugs, etc (in software management-speak, our “backlog”). We treat
-this queue somewhat flexibly. When we see very large numbers of requests
+of requests, bugs, etc. (in software management-speak, our “backlog”). We
+treat this queue somewhat flexibly. When we see very large numbers of requests
 around a single file format, we will prioritize that file format — more users
 means more impact for our software. Sometimes there is work to do that is a
 priority for us — adding support for units or a whole new imaging domain are
@@ -156,7 +156,7 @@ examples. Inevitably, there are times when updates to PFFs take much longer
 than we would like. Anyone who makes a request to the Bio-Formats development
 team can be cc’d on the tickets that
 [track our progress](https://www.openmicroscopy.org/community/viewforum.php?f=13)
-and are always welcome to contact the team to check on status. Repeated
+and is always welcome to contact the team to check on status. Repeated
 requests from a single individual do count, but we are strongly influenced by
 similar requests from multiple individuals.
 
@@ -169,5 +169,4 @@ if you can — help us test, send us feedback, or even develop new solutions.
 Building a strong consortium of academic, industrial and commercial partners
 is the best way to make the project successful and useful for our whole
 community.
-
 
