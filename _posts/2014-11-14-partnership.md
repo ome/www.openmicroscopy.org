@@ -28,12 +28,12 @@ make whatever changes they need to its source code. The architecture of
 Bio-Formats allows it to be used as a “plug-in”, enabling any tool that uses
 it to access a large number of proprietary file formats (PFFs). This
 flexibility has resulted in substantial uptake of Bio-Formats — it is
-started >10,000 times each day and installed in many thousands of sites
-worldwide.
+installed in many thousands of sites worldwide and started more than 10,000
+times each day.
 
 ###By the community
 
-The success of the Bio-Formats project is heartening but what really
+The success of the Bio-Formats project is heartening, but what really
 differentiates it is the way its development process links in with the
 community.
  
@@ -62,11 +62,11 @@ experiments.
 The effect of that realization was extremely profound. Over the years, simply
 by asking Bio-Formats users over and over (and over and over…) again to “send
 us the data”, the OME team has built up a substantial library of datasets
-submitted by users. Currently we hold over 30,000 datasets amounting to >2 TBs
-of image data. Each of the represented PFFs have been reverse engineered and
-supported in Bio-Formats. Since 2012, we have used essentially this whole
-library of images to test Bio-Formats on a daily basis (to view this testing
-live, see the [OME CI system](http://ci.openmicroscopy.org/view/Bio-Formats/)).
+submitted by users. Currently we hold over 30,000 datasets amounting to more
+than 2 TBs of image data. Each of the represented PFFs have been reverse
+engineered and supported in Bio-Formats. Since 2012, we have used essentially
+this whole library of images to test Bio-Formats on a daily basis (to view
+this testing live, see the [OME CI system](http://ci.openmicroscopy.org/view/Bio-Formats/)).
 By no means is this repository complete and, as noted above, the datasets we
 hold are at best barely up-to-date with the latest changes in file formats and
 the newest imaging technologies. It is however unquestionably a great
