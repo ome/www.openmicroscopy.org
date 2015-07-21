@@ -33,9 +33,9 @@ Instead, a small configuration change is needed in OMERO. This will remove the
 no-longer supported ciphers, allowing both old and new OMERO clients, whether
 with or without the Java patches, to work normally.
 
-If you are an OMERO user, and your version of Java is upgraded, you should
-contact your system administrator to ask for the following procedure to be
-followed.
+If you are an OMERO user, you should ensure your version of Java is upgraded
+to take advantage of the security update, and contact your system
+administrator to ask for the following procedure to be followed.
 
 If you are an OMERO administrator and you either have received user complaints
 or want to forestall them, you can arrange a short restart with your users,
@@ -52,13 +52,14 @@ take the following steps:
 
 The patch above will be included in the next release of OMERO (5.1.3) but we
 are providing it in the meantime for users currently completely blocked by
-this issue. We’re looking into further modifications to the IceSSL
-configuration to make your connections more secure.
+this issue as we encourage everyone to update their Java to take advantage of
+this latest security fix. We’re looking into further modifications to the
+IceSSL configuration to make your connections more secure.
 
 One caveat may be that safer connections invariably include more processing
 overhead, which may be most notable in OMERO.web. We’ll provide suggestions in
 the release on how to have a faster connection to a local web server while
-keeping the safer connection for OMERO.java.
+keeping the safer connection for OMERO clients.
 
 Further, we’ll make the connection settings configurable, so that should a
 future version of Java remove a cipher that OMERO is using, you’ll be able to
