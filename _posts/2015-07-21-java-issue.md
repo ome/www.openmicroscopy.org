@@ -44,7 +44,7 @@ download the patch from
 take the following steps:
 
 >$ cd OMERO.server-5.1.2-ice35-b45  
->$ patch -p1 < ../0001-Disable-SSL-ciphers-unsupported-by-Java.patch  
+>$ patch -p1 < ../java_issue_2015-07-21.txt  
 >patching file etc/grid/templates.xml  
 >$ bin/omero admin deploy
 
