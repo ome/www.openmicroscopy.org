@@ -22,12 +22,12 @@ usually require one of our software components to be released with a very fast
 turnaround without modifying other components. A second example is the release
 of urgent bug fixes or support for new file formats in Bio-Formats. In the
 current approach, these updates are held back until a full release of OMERO
-and Bio-Formats is ready-- delaying access and use by a very large community.
+and Bio-Formats is ready, delaying access and use by a very large community.
 A single release cycle across all components also does not scale with the
 diversity, the needs and the size of our user community.
 
 Starting with the 5.1.3 release, we are separating our various software, both
-at the codebase and release level. We call this process decoupling.  This
+at the codebase and release level. We call this process *decoupling*.  This
 follows a development pattern adopted by other open-source softwares - see for
 example http://imagej.net/Architecture.
 
@@ -36,24 +36,25 @@ included as a Git submodule of the OMERO source code since 2011. As of OMERO
 5.1.3, Bio-Formats is now treated as any other dependency of OMERO, like
 Hibernate or Spring. This means:
 
-- Bio-Formats is now released independently of OMERO as was the case for Bio-Formats 5.1.3 (announcement).
-- Bio-Formats source code is no longer embedded either directly or via submodule.
+- Bio-Formats is now released independently of OMERO as was the case for [Bio-Formats 5.1.3](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7859) and [OMERO 5.1.3](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7869).
+- Bio-Formats source code is no longer embedded either directly or via a submodule.
 - Bio-Formats is no longer built as part of the OMERO build system. Instead, the JARs are referenced by their version and consumed from the OME artifactory as part of the build.
 
-Bio-Formats decoupling comes at some cost-- it increases the testing burden
+Bio-Formats decoupling comes at some cost--it increases the testing burden
 and the complexity of our build system, but delivers important benefits to the
-communities that use and Bio-Formats-- ImageJ, Fiji, CellProfiler, KNIME,
+communities that use and Bio-Formats--ImageJ, Fiji, CellProfiler, KNIME,
 Matlab, and others.
 
 In the near future, other components of OMERO and Bio-Formats may undergo the
 same split process. Amongst potential decoupling candidates are:
 
-- all C++ projects for both OMERO and Bio-Formats.
+- all C++ projects for both OMERO and Bio-Formats
 - all Bio-Formats and OMERO code generation
 - OME documentation
 
 We hope this change is useful for the community. One of the great things about
 open source software is the ability to learn, change, and adapt, especially as
-we integrate feedback from the community. We welcome comments from users and
-developers, and any ideas on how we can continue to improve the tools we
-deliver.
+we integrate feedback from the
+[community](https://www.openmicroscopy.org/site/community/). We welcome
+comments from users and developers, and any ideas on how we can continue to
+improve the tools we deliver.
