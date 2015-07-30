@@ -40,9 +40,9 @@ Hibernate or Spring. This means:
 - Bio-Formats source code is no longer embedded either directly or via a submodule.
 - Bio-Formats is no longer built as part of the OMERO build system. Instead, the JARs are referenced by their version and consumed from the OME artifactory as part of the build.
 
-Bio-Formats decoupling comes at some cost--it increases the testing burden
+Bio-Formats decoupling comes at some cost, it increases the testing burden
 and the complexity of our build system, but delivers important benefits to the
-communities that use and Bio-Formats--ImageJ, Fiji, CellProfiler, KNIME,
+communities that use and Bio-Formats such as ImageJ, Fiji, CellProfiler, KNIME,
 Matlab, and others.
 
 In the near future, other components of OMERO and Bio-Formats may undergo the
