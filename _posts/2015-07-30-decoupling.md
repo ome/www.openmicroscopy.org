@@ -1,8 +1,8 @@
-+---
-+layout: post
-+title: Decoupling
-+categories: future-plans community
-+---
+---
+layout: post
+title: Decoupling
+categories: future-plans community
+---
 
 We are in the process of getting rid of submodules and separating our code into
 smaller repositories. Why? And why should developers and users care?
