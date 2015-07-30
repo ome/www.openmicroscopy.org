@@ -1,7 +1,7 @@
 +---
 +layout: post
-+title: Latest Java security issue
-+categories: tech-issues
++title: Decoupling
++categories: future-plans community
 +---
 
 We are in the process of getting rid of submodules and separating our code into
