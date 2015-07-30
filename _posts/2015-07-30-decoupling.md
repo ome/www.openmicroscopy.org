@@ -42,7 +42,7 @@ Hibernate or Spring. This means:
 
 Bio-Formats decoupling comes at some cost, it increases the testing burden
 and the complexity of our build system, but delivers important benefits to the
-communities that use and Bio-Formats such as ImageJ, Fiji, CellProfiler, KNIME,
+communities that use Bio-Formats such as ImageJ, Fiji, CellProfiler, KNIME,
 Matlab, and others.
 
 In the near future, other components of OMERO and Bio-Formats may undergo the
