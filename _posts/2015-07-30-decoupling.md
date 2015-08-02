@@ -46,7 +46,8 @@ Bio-Formats decoupling comes at some cost, it increases the testing burden
 and the complexity of our build system, but delivers important benefits to the
 communities that use Bio-Formats such as [ImageJ](http://imagej.nih.gov/ij/),
 [Fiji](http://fiji.sc/Fiji), [CellProfiler](http://www.cellprofiler.org/),
-[KNIME](https://www.knime.org/), [Matlab](https://www.knime.org/), and others.
+[KNIME](https://www.knime.org/),
+[Matlab](http://www.mathworks.com/products/matlab/), and others.
 
 In the near future, other components of OMERO and Bio-Formats may undergo the
 same split process. Amongst potential decoupling candidates are:
