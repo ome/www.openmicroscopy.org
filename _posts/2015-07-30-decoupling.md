@@ -43,7 +43,9 @@ OMERO, like Hibernate or Spring. This means:
 
 - Bio-Formats is now released independently of OMERO as was the case for [Bio-Formats 5.1.3](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7859) and [OMERO 5.1.3](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7869).
 - Bio-Formats source code is no longer embedded either directly or via a submodule.
-- Bio-Formats is no longer built as part of the OMERO build system. Instead, the JARs are referenced by their version and consumed from the
+- Bio-Formats is no longer built as part of the
+  [OMERO build system](http://www.openmicroscopy.org/site/support/omero5.1/developers/build-system.html).
+  Instead, the JARs are referenced by their version and consumed from the
   [OME artifactory](http://artifacts.openmicroscopy.org/) as part of the build.
 
 Bio-Formats decoupling comes at some cost, it increases the testing burden
