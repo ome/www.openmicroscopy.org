@@ -9,8 +9,12 @@ smaller repositories. Why? And why should developers and users care?
 
 The OME development workflow has been following a single, integrated approach
 for the last couple of years. This means that all components of the OME stack,
-including OMERO and Bio-Formats are versioned globally and released
-simultaneously. The only notable exception to this rule is the OME Data Model
+including
+[OMERO](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7869) and
+[Bio-Formats](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7859)
+are versioned globally and released simultaneously. The only notable exception
+to this rule is the
+[OME Data Model](https://www.openmicroscopy.org/site/support/ome-model/)
 which is released on its own release cycle to be consumed by major versions of
 Bio-Formats and OMERO.
 
