@@ -6,16 +6,17 @@ categories: tech-issues
 
 ##OMERO and Java Web Start
 
-For the past few years, the Java Desktop clients could be distributed as Java Web Start Applications. This feature was requested by several institutions.
-We totally acknowledge that it is a practical and still active way to distribute the applications. But, due to the steady increase of issues not under our control, continuing to support the use of Java Web Start for distribution of the OMERO Desktop clients is not unsustainable and is likely to become impossible in the near future.
+For the past few years, we have supported the distribution of the OMERO Java desktop clients as Java Web Start Applications. This feature was requested by several institutions and we are aware that some continue to use it.
+We acknowledge that Java Web Start is a practical and still active way to distribute the applications. But, due to the steady increase of issues not under our control, continuing to support the use of Java Web Start for distribution of the OMERO Desktop clients is not sustainable and is likely to become impossible in the near future.
 
 Java applets and almost all [NPAPI](https://en.wikipedia.org/wiki/NPAPI) plugins are becoming obsolete and
 are being replaced by Web-based technologies, probably for the better due to the security risks that plugins bring.
 NPAPI plugins have now been removed from the latest version of Google Chrome and Chromium.
-The days of Java Web Start applications are probably numbered.
+We believe the days of Java Web Start applications are probably numbered.
 
 In recently released versions of OMERO, we made significant effort to unify the OMERO Desktop and Web clients.
-With new import options available via, for example, OMERO.dropbox or in-place, more features like ROI support being worked on in the Web client and the removal of Java support in Google Chrome, we feel that it is time to deprecate the distribution of our Desktop clients as Java Web Start Applications. As such, we will be deprecating this feature in the upcoming 5.1.4 release and will stop releasing them from OMERO version 5.2. We understand that this will cause issues for some of our community but we really have no choice in the longer term. We will continue to expand the functionality of the web client to try to mitigate this as much as we can.
+With new import options available via, for example, OMERO.dropbox or in-place, more features like ROI support being worked on in the Web client and the removal of Java support in Google Chrome, we feel that it is time to deprecate the distribution of our Desktop clients as Java Web Start Applications. We emphasise that this decision is really out of our control, and reflects the current trends in security policies being enforced in web browsers.
+As such, we will be deprecating Java Web Start in the upcoming 5.1.4 release and will stop releasing them from OMERO version 5.2. We understand that this will cause issues for some members of our community but we really have no choice in the longer term. We will continue to expand the functionality of the OMERO web client to try to mitigate this as much as we can.
 
 Below we discuss the technical background behind this decision in more detail.
 
