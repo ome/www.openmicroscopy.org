@@ -1,10 +1,8 @@
 ---
 layout: post
 title: The slow death of Java Web Start
-categories: tech-issues
+categories: tech-issues future-plans
 ---
-
-##OMERO and Java Web Start
 
 For the past few years, we have supported the distribution of the OMERO Java desktop clients as Java Web Start Applications. This feature was requested by several institutions and we are aware that some continue to use it.
 We acknowledge that Java Web Start is a practical and still active way to distribute the applications. But, due to the steady increase of issues not under our control, continuing to support the use of Java Web Start for distribution of the OMERO Desktop clients is not sustainable and is likely to become impossible in the near future.
