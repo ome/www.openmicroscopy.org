@@ -15,8 +15,8 @@ NPAPI plugins have now been removed from the latest version of Google Chrome and
 We believe the days of Java Web Start applications are probably numbered.
 
 In recently released versions of OMERO, we made significant effort to unify the OMERO Desktop and Web clients.
-With new import options available via, for example, OMERO.dropbox or in-place, more features like ROI support being worked on in the Web client and the removal of Java support in Google Chrome, we feel that it is time to deprecate the distribution of our Desktop clients as Java Web Start Applications. We emphasise that this decision is really out of our control, and reflects the current trends in security policies being enforced in web browsers.
-As such, we will be deprecating Java Web Start in the upcoming 5.1.4 release and will stop releasing them from OMERO version 5.2. We understand that this will cause issues for some members of our community but we really have no choice in the longer term. We will continue to expand the functionality of the OMERO web client to try to mitigate this as much as we can.
+With new import options available via, for example, OMERO.dropbox or in-place, more features like ROI support being worked on in the Web client and the removal of Java support in Google Chrome, we feel that it is time to deprecate the distribution of our Desktop clients as Java Web Start Applications. We emphasize that this decision is really out of our control, and reflects the current trends in security policies being enforced in web browsers.
+As such, we will be deprecating Java Web Start in the upcoming 5.1.4 release and will stop providing these applications from OMERO version 5.2. We understand that this will cause issues for some members of our community but we really have no choice in the longer term. We will continue to expand the functionality of the OMERO web client to try to mitigate this as much as we can.
 
 Below we discuss the technical background behind this decision in more detail.
 
