@@ -13,9 +13,9 @@ With the [release of OMERO 5.2.0](https://www.openmicroscopy.org/community/viewt
 the beginning of November 2015, the current situation with OMERO versions is
 as follows:
 
-- The last release of the **OMERO 5.0.x** line was September 2014.  This 
-  version of OMERO and all earlier ones are now unmaintained - we won’t be 
-  updating the 5.0.x line of OMERO; anyone who continues to use them does so 
+- The last release of the **OMERO 5.0.x** line was February 2015.  This
+  version of OMERO and all earlier ones are now unmaintained - we won’t be
+  updating the 5.0.x line of OMERO; anyone who continues to use them does so
   at their own risk.
 
 - **OMERO 5.1.x** is now in “maintenance” - we will provide updates for
