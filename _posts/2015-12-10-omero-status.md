@@ -21,8 +21,8 @@ as follows:
 - **OMERO 5.1.x** is now in “maintenance” - we will provide updates for
   major security issues but we won’t be releasing bug fixes or any performance
   enhancements. To access these, you must upgrade to the 5.2.x line. We expect
-  to continue this level of support until the release of OMERO 5.3 (Spring
-  2016).
+  to continue this level of support until the release of OMERO 5.3 (currently
+  aimed for Spring 2016).
 
 - **OMERO 5.2.x** is the new stable line and will be updated with bug fixes
   and enhancements as point releases at least until OMERO 5.3 is released. We
@@ -96,6 +96,6 @@ But next, we want to make ROIs first class
 citizens in OME’s applications. This means we will add an 'ROI Folder'
 concept, which will allow users and analytic tools to cluster ROIs just like
 they already do with images and tags. All of these new capabilities will start
-to appear in OMERO 5.3 (Spring 2016) and in several point releases through
-2016.
+to appear in OMERO 5.3 (currently scheduled for Spring 2016) and in several
+point releases through 2016.
 
