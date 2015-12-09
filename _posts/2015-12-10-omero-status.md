@@ -4,8 +4,8 @@ title: OMERO status update
 categories: future-plans community
 ---
 
-Here’s a quick update on the status of various versions of OMERO, and our
-intended future development directions.
+This is a quick update on the status of various versions of OMERO, and some
+discussion about our future development plans and aspirations.
 
 ##Releases, maintenance and deprecation
 
@@ -21,8 +21,8 @@ as follows:
 - **OMERO 5.1.x** is now in “maintenance” - we will provide updates for
   major security issues but we won’t be releasing bug fixes or any performance
   enhancements. To access these, you must upgrade to the 5.2.x line. We expect
-  to continue this level of support until the release of OMERO 5.3 (currently
-  aimed for the end of the 1st quarter of 2016).
+  to continue this level of support until the release of OMERO 5.3 (Spring
+  2016).
 
 - **OMERO 5.2.x** is the new stable line and will be updated with bug fixes
   and enhancements as point releases at least until OMERO 5.3 is released. We
@@ -85,14 +85,14 @@ ongoing data-focussed projects (e.g. [MULTIMOT](http://multimot.org/) and
 [CORBEL](https://www.elixir-europe.org/news/corbel-sets-out-establish-common-infrastructure-biomedical-research)).
 We have already built defined tools for metadata import into the IDR (see the
 [code repository](https://github.com/openmicroscopy/idr-metadata)) and will
-aim to harmonise these with other projects that are collecting metadata on
+aim to harmonize these with other projects that are collecting metadata on
 scientific datasets (e.g. [BioStudies](http://www.ebi.ac.uk/biostudies/)).
 Import of metadata from spreadsheets and other text-based tabular formats will
 be supported, but we will also be supporting more modern, powerful data
 formats (e.g. HDF5).  We will use new resources that provide online services
 for controlled vocabularies (e.g. EBI's [Ontology Lookup Service](http://www.ebi.ac.uk/ols/beta/)).
 
-In addition to all of these features, we want to make ROIs first class
+But next, we want to make ROIs first class
 citizens in OME’s applications. This means we will add an 'ROI Folder'
 concept, which will allow users and analytic tools to cluster ROIs just like
 they already do with images and tags. All of these new capabilities will start
