@@ -63,7 +63,7 @@ configurations. Some of our longer term goals:
   powerful and able to support the creation of increasingly complex data
   visualisations.
 
-As always, there are a long list of things to do, and we always appreciate any
+As always, there is a long list of things to do, and we always appreciate any
 feedback or comments on our work, goals or directions. All of this work is
 aimed at improving and expanding OME’s support for the heterogeneous metadata
 which is the foundation of much of modern science (an early vision of the
