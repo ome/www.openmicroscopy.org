@@ -5,45 +5,36 @@ categories: file-formats data-model future-plans
 ---
 
 This is an update about what we are working on in the Bio-Formats codebase for
-the next few months. As this is where the OME Data Model lives, it covers both
-model development work and the Bio-Formats project as consumed by our users.
+the next few months. As this is where the OME Data Model lives, it covers our
+current and upcoming work on the Model and the Bio-Formats project.
 
 ##Current Bio-Formats development focus
 
 The release of [5.1.7 back in December](http://www.openmicroscopy.org/site/news/release-of-bio-formats-5.1.7)
 is likely to be the last regularly planned release of Bio-Formats 5.1.x.
 Bio-Formats development has now shifted to focus on 5.2.0 in the develop
-branch. We hope to release Bio-Formats version 5.2.0 in Spring 2016. You can
-follow our progress on the [public Trello board](https://trello.com/b/OHTqY4pc/bio-formats-5-2-0).
+branch. There are two points for Bio-Formats users to note:
 
-There are few main points to note:
-
-* the develop branch will include development schema versions and should not
-  be used for writing OME files (OME-XML, OME-TIFF) until Bio-Formats 5.2.0 is
-  released
-* this is because the primary aim of the Bio-Formats 5.2.0 work is to upgrade
+* the primary aim of the Bio-Formats 5.2.0 work is to upgrade
   our OME Data Model (as discussed below) to provide critical new
   functionality for many of our users
 * our regular Bio-Formats Java schedule of monthly releases will be suspended
   and non-critical bug fixes and new format support will have a lower priority
   until this model work is complete
-* both the OME Data Model and the C++ code in Bio-Formats will be migrated out
-  of the main Java Bio-Formats repository and enter into their own release
-  cycle as OME-Files
 
-We also aim to extend our support of experimental and analytic metadata—more
-about this in a later entry. In brief, our aim is to package and release all
-the work we’ve done on the Image Data Repository as tools for the community to
-use to access a broad range of types of metadata.
+For developers using Bio-Formats, the develop branch will include development schema versions and should not be used for writing OME files (OME-XML, OME-TIFF) until Bio-Formats 5.2.0 is released.
+
+We hope to release Bio-Formats version 5.2.0 in Spring 2016. You can follow
+our progress on the [public Trello board](https://trello.com/b/OHTqY4pc/bio-formats-5-2-0).
 
 ##Data Model work
 
-The main effort of the upcoming Data Model work will be focused on a
-folder-like structure for storing Regions of Interest (ROIs), as discussed in
-the [most recent OMERO status post](http://blog.openmicroscopy.org/future-plans/community/2015/12/09/omero-status/).
-This work is aimed to be consumed by OMERO 5.3.
+The main effort of the Bio-Formats 5.2.0 development work will be focused on
+updating the Data Model to include a folder-like structure for storing Regions
+of Interest (ROIs), as discussed in the
+[most recent OMERO status post](http://blog.openmicroscopy.org/future-plans/community/2015/12/09/omero-status/).
 
-Regions of Interest are core features of the OME Data model currently stored
+Regions of Interest are core features of the OME Data Model currently stored
 as image components without any ordering or structure. We have identified
 several use cases across a wide range of imaging domains from high content
 screening to digital pathology where this representation limits the ROI
@@ -60,7 +51,15 @@ browse and filter ROIs at the model-level. To address it, we will introduce a
 folder concept allowing the ROIs within an image to be grouped in a
 hierarchical manner.
 
+We aim to update OMERO to include ROI Folders and release this as version 5.3
+during Spring 2016.
+
 If you are interested in our design process, you can follow the discussion on the [issues in our Design GitHub repository](https://github.com/openmicroscopy/design/issues).
+
+We also aim to extend our support of experimental and analytic metadata—more
+about this in a later entry. In brief, our aim is to package and release all
+the work we’ve done on the Image Data Repository as tools for the community to
+use to access a broad range of types of metadata.
 
 ##New format support
 
