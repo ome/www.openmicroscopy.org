@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows support update
-categories: tech-issues future-plans
+categories: tech-issues future-plans deployment
 ---
 
 The OME team has always been committed to building specifications and software
@@ -10,9 +10,9 @@ users as possible, including those with limited IT support/budget. In keeping
 with our open source ethos and the fact we rely on public and charity grant
 funding, we also try to use open source tools as part of our workflows for
 testing, building and deploying our products wherever possible.  We do support
-commercial OS and platforms — we build and test OMERO.insight on Windows,
-actively work to support accessing the OMERO and Bio-Formats APIs in Matlab,
-and actively support browsing OMERO.web using IE.
+commercial operating systems and platforms — we build and test OMERO.insight
+on Windows, actively work to support accessing the OMERO and Bio-Formats APIs
+in Matlab, and actively support browsing OMERO.web using IE.
 
 Since the beginning of the OMERO project, we have actively tested and
 supported builds and tests of OMERO.server on Windows. Several users—
@@ -41,7 +41,8 @@ of new functionality and robust, reliable testing.
 The focus of our OMERO 5.2.1 release was on deployment, following feedback
 from system administrators (e.g. [this forum thread](https://www.openmicroscopy.org/community/viewtopic.php?f=5&t=7924)).
 We improved our server installation guides and OMERO.web deployment
-documentation and provided stepwise deployment scripts, e.g. for CentOS 6 with
+documentation, and provided stepwise deployment scripts, e.g. for CentOS 6
+with
 Python 2.7. We extensively used [Docker](https://www.docker.com/) to test our
 Linux installation scripts and also to test our installation documentation.
 All the installation scripts are available (see
@@ -49,7 +50,8 @@ All the installation scripts are available (see
 system each time a commit is pushed.
 
 During the development phase of OMERO 5.2.1, we dedicated a large amount of
-extra resources—devops team and cores—to test the Windows installation
+extra resources—from the devops team and in terms of computing hardware—to
+test the Windows installation
 scripts and improve our installation documentation. This level of effort will
 not scale with the introduction of new elements to our testing matrix e.g. Ice
 3.6 support. Moreover, we have other critical priorities—public repositories
@@ -67,7 +69,8 @@ We simply can’t afford to do so.
 For all these reasons, from version 5.3, we will not be able to support
 OMERO.server on Windows. Again, this is a build and testing issue, so if
 anyone out there would like to contribute their time, energy, expertise and
-cores to provide Windows support, we’d welcome them doing so. Instead, we will
+compute resources to provide Windows support, we’d welcome them doing so.
+Instead, we will
 focus on ensuring we provide the best support we can for a range of unix-based
 systems, continuing the effort to make OMERO.server easier to install,
 maintain and manage.
