@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Joy of File Formats
-categories: File-formats
+categories: file-formats
 ---
 
 ###What's the problem?
