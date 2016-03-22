@@ -71,7 +71,7 @@ OMERO.server on Windows. Again, this is a build and testing issue, so if
 anyone out there would like to contribute their time, energy, expertise and
 compute resources to provide Windows support, we’d welcome them doing so.
 Instead, we will
-focus on ensuring we provide the best support we can for a range of unix-based
+focus on ensuring we provide the best support we can for a range of UNIX-like
 systems, continuing the effort to make OMERO.server easier to install,
 maintain and manage.
 
