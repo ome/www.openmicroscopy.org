@@ -4,7 +4,7 @@ title: The OME Approach to a Common Interface
 categories: file-formats data-model
 ---
 
-###Introduction
+## Introduction
 
 In the previous entry, we examined the challenges presented by supporting a
 wide variety of file formats that represent data outputs in the rapidly
@@ -17,7 +17,7 @@ this entry, we discuss the technical foundation for Bio-Formats and how it
 provides a single metadata description that is both well-defined and
 extensible.
 
-###The OME Data Model
+## The OME Data Model
 
 A common interface for accessing image data requires a known specification for
 that data. When OME started (around 2001) there weren’t any defined
@@ -57,7 +57,7 @@ specification for converting and also writing image data. Any software tool
 that uses Bio-Formats has access to
 [all the formats Bio-Formats supports](http://www.openmicroscopy.org/site/support/bio-formats/supported-formats.html).
 
-###Multi-dimensional data
+## Multi-dimensional data
 
 From its earliest versions, the OME Data Model supported a 5D image, including
 3 spatial dimensions, time, and frequency (often referred to as “channel”).
@@ -86,7 +86,7 @@ several groups on this problem. In particular, we are following the
 [ImgLib2](http://imglib2.net) project's work on building an N-dimensional
 image library.
 
-###A least common denominator
+## A least common denominator
 
 As noted in our first entry to this blog, conversion of original metadata into
 some kind of common model inherently risks data loss. There is a compromise
@@ -106,7 +106,7 @@ stored and accessed by any application, while application-specific metadata
 can be stored and will be accessible to third parties if the appropriate
 specification is made available.
 
-###A frustratingly incomplete, always obsolete, amazingly effective solution
+## A frustratingly incomplete, always obsolete, amazingly effective solution
 
 Using a common specification that cannot specify every advanced,
 cutting edge biological imaging system results in a solution that is always

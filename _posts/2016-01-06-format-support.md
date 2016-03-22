@@ -9,7 +9,7 @@ about when we expect to support 3D HISTECH .mrxs files. This sort of request
 isn’t particularly unusual and the reply gives an insight into one of the key 
 challenges we face.
 
-##Just because we don’t have a reader, doesn’t mean we haven’t done any work
+## Just because we don’t have a reader, doesn’t mean we haven’t done any work
 
 3D HISTECH .mrxs is an example of a complex format, the design of which does
 not make our work any easier. In fact, we can say with some confidence that
@@ -35,7 +35,7 @@ obviously the work to produce it started even further back than that). Nikon
 ND2 and Zeiss CZI are other examples of formats with a complex design that
 makes them very difficult for us to support.
 
-##We won’t deliver something that doesn’t do the job well enough
+## We won’t deliver something that doesn’t do the job well enough
 
 One thing to understand about our work, strategy and commitment to supporting
 all file formats, especially formats used in production-scale facilities that
@@ -70,7 +70,7 @@ requires time consuming and computationally expensive reprocessing and pyramid
 creation, just because of the implementation choices made by the format
 designers.
 
-##A philosophical point about our funding and resources
+## A philosophical point about our funding and resources
 
 The OME Consortium and the wider development community have worked steadily
 since 2002, funded mostly by grants from non-profit charities and public
@@ -103,7 +103,7 @@ applaud this trend; ultimately it means scientists, clinicians, engineers and
 developers spend less time dealing with data formats and more time doing
 science, developing new technologies and treating patients.
 
-##What you can do
+## What you can do
 
 The community has the power to change this situation. You are paying for these
 proprietary formats. You can condition your purchase, continued payment of

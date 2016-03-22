@@ -18,7 +18,7 @@ As such, we will be deprecating Java Web Start in the upcoming 5.1.4 release and
 
 Below we discuss the technical background behind this decision in more detail.
 
-##Background
+## Background
 
 Java Web Start was introduced in 2001 to allow applications to be launched through browsers or directly via the Java Network Launching Protocol (JNLP).
 
@@ -35,7 +35,7 @@ Rich Internet Applications must contain two things:
 
 Due to vulnerabilities affecting Java plugins, security experts frequently recommend users disable Java at least in their browser. Since 2013, Firefox, Google Chrome and other browsers have started to block plugins by default.
 
-##What does it mean for desktop developers/administrators?
+## What does it mean for desktop developers/administrators?
 
 To deploy Java Web Start, one first needs to get familiar with [Deployment Rule Sets](https://blogs.oracle.com/java-platform-group/entry/introducing_deployment_rule_sets).
 Administrators can then create a list of known-safe applications and manage compatibility between
@@ -44,7 +44,7 @@ Each browser will have their own set of dialogs and control mechanisms.
 
 It is getting harder and harder to distribute Java Web Start applications for developers and/or administrators.
 
-##What about Browser support?
+## What about Browser support?
 
 The Java plugin for web browsers relies on the cross-platform plugin architecture [NPAPI](https://en.wikipedia.org/wiki/NPAPI), which has been supported by all major web browsers for the past 10 years.
 In version 45 (released Sept 2015), Google Chrome has dropped support for [NPAPI plugins like Java](https://support.google.com/chrome/answer/6213033).

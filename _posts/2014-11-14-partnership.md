@@ -11,7 +11,7 @@ and Bio-Formats, to explain OME’s efforts to deliver a common library for
 accessing scientific image data. In this next entry, we describe how we work
 with the community to build Bio-Formats.
 
-###For the community
+## For the community
 
 [Bio-Formats](http://www.openmicroscopy.org/site/products/bio-formats) is a
 Java library, available under an open source license
@@ -31,7 +31,7 @@ flexibility has resulted in substantial uptake of Bio-Formats — it is
 installed in many thousands of sites worldwide and started more than 10,000
 times each day.
 
-###By the community
+## By the community
 
 The success of the Bio-Formats project is heartening, but what really
 differentiates it is the way its development process links in with the
@@ -72,7 +72,7 @@ hold are at best barely up-to-date with the latest changes in file formats and
 the newest imaging technologies. It is however unquestionably a great
 reference for our work.
 
-###On Convergence and Diversity…
+## On Convergence and Diversity…
 
 Rarely a day goes by where the OME Team is not contacted for
 [some issue or problem](https://www.openmicroscopy.org/community/viewforum.php?f=13)
@@ -100,7 +100,7 @@ we have for improving this situation is working more closely with some of the
 commercial vendors to get a better specification of how their different
 imaging systems are supported in their file formats.
 
-###Expanding the domains
+## Expanding the domains
 
 Over the years the OME Data Model has grown to support many different imaging
 modalities. In the near future, OME’s goal is to continue to expand the
@@ -119,7 +119,7 @@ This is part of an explicit effort to build the foundation for expanding
 Bio-Formats capabilities into new domains and to express the linkages between
 different domains.
 
-###Being a Partner
+## Being a Partner
 
 One of the challenges of building and maintaining Bio-Formats is the scale of
 its user community. The number of requests that arrive on a daily basis for
@@ -142,7 +142,7 @@ different PFFs to different individuals and entities, while maintaining the
 commitment to code review, QA and testing that we have developed over the last
 several years. Watch this space… or maybe get involved!
 
-###The infinite backlog…
+## The infinite backlog…
 
 As noted above, the rapid pace of innovation and scale of usage means that the
 Bio-Formats team is always facing a
@@ -160,7 +160,7 @@ and is always welcome to contact the team to check on status. Repeated
 requests from a single individual do count, but we are strongly influenced by
 similar requests from multiple individuals.
 
-###Meeting the challenge together
+## Meeting the challenge together
 
 As we work to provide a single common access mechanism for scientific image
 data, please do [send us examples](http://qa.openmicroscopy.org.uk/qa/upload/)

@@ -25,7 +25,7 @@ Windows, OMERO.web browsing on IE and continue to provide full support for
 Bio-Formats on Windows (including the C++ components of this project). The
 reasons for this decision are outlined below.
 
-##Ever-increasing technical challenges
+## Ever-increasing technical challenges
 
 Our Continuous Integration (CI) system uses [Travis](https://travis-ci.org/)
 and allows the OME Consortium’s work to be built and tested on a per-commit

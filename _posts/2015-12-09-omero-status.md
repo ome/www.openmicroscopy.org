@@ -7,7 +7,7 @@ categories: future-plans community
 This is a quick update on the status of various versions of OMERO, and some
 discussion about our future development plans and aspirations.
 
-##Releases, maintenance and deprecation
+## Releases, maintenance and deprecation
 
 With the [release of OMERO 5.2.0](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7922) at
 the beginning of November 2015, the current situation with OMERO versions is
@@ -44,7 +44,7 @@ We recognise that often groups wishing to use OMERO do not have access to a
 dedicated sysadmin and are trying to alleviate the burden as much as possible.
 You can follow progress on the [OMERO 5.2.1 board](https://trello.com/b/HdHaudmw/omero-5-2-1).
 
-##What’s next?
+## What’s next?
 
 With OMERO’s use expanding in numbers and in breadth of domains, we are
 focussing our efforts on making OMERO even more powerful - ensuring that it

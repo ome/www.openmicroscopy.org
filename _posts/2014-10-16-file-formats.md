@@ -4,7 +4,7 @@ title: The Joy of File Formats
 categories: file-formats
 ---
 
-###What's the problem?
+### What's the problem?
 
 Imaging technology-- including probes and molecular reporters, acquisition
 systems, and data analysis tools-- is one of the great success stories of
@@ -30,7 +30,7 @@ limiting factor in making a scientific discovery.
 
 Thus, this Blog, and our first topic, File Formats.
 
-###Image data and metadata
+## Image data and metadata
 
 A digital image is written to disk in a *file format* that stores the *pixel*
 data (sometimes referred to as the binary data) and the *image metadata*. This
@@ -50,7 +50,7 @@ measurements or other analytic results. In OME, we call anything saved in an
 incoming file format "image metadata". As we will see, this is a very broad
 definition, but it is probably the only viable one to use.
 
-###What's a file format?
+## What's a file format?
 
 A file format is a mechanism for storing data on digital media. It's a defined
 way to read and write the pixel data and image metadata produced by a specific
@@ -64,7 +64,7 @@ available. Most are private, in the sense that they are not openly documented
 and supported, so in OME, we refer to these as *proprietary file formats*
 (PFFs).
 
-###Data standards and lossy data storage
+## Data standards and lossy data storage
 
 So why isn't there a single standard for image files?
 
@@ -119,7 +119,7 @@ standard, "private fields" are used by the commercial imaging system
 manufacturers to store proprietary metadata hidden from view from standard
 image viewers.
 
-###How different are different file formats?
+## How different are different file formats?
 
 Almost all file formats use an established or known standard-- for example,
 TIFF to store the pixel data, XML to store metadata and so on. Several use
@@ -158,7 +158,7 @@ which is especially inconvenient for the user. With a few hundred different
 imaging systems currently available, each with a few updates per year, it's no
 wonder that users [report spending so much time dealing with image file formats](http://www.eurobioimaging.eu/sites/default/files/D11.1%20State%20of%20the%20art%20and%20community%20requirements%20in%20Biomedical%20Image%20Analysis,%20Storage%20and%20Remote%20%20Access.pdf).
 
-###What to do?
+## What to do?
 
 So, if data format standardization is not really possible, what’s the
 solution? In 2002, Kevin Eliceiri and Curtis Rueden (LOCI, Madison), proposed

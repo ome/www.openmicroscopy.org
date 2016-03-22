@@ -8,7 +8,7 @@ This is an update about what we are working on in the Bio-Formats codebase for
 the next few months. As this is where the OME Data Model lives, it covers our
 current and upcoming work on the Model and the Bio-Formats project.
 
-##Current Bio-Formats development focus
+## Current Bio-Formats development focus
 
 The release of [5.1.7 back in December](http://www.openmicroscopy.org/site/news/release-of-bio-formats-5.1.7)
 is likely to be the last regularly planned release of Bio-Formats 5.1.x.
@@ -27,7 +27,7 @@ For developers using Bio-Formats, the develop branch will include development sc
 We hope to release Bio-Formats version 5.2.0 in Spring 2016. You can follow
 our progress on the [public Trello board](https://trello.com/b/OHTqY4pc/bio-formats-5-2-0).
 
-##Data Model work
+## Data Model work
 
 The main effort of the Bio-Formats 5.2.0 development work will be focused on
 updating the Data Model to include a folder-like structure for storing Regions
@@ -61,7 +61,7 @@ about this in a later entry. In brief, our aim is to package and release all
 the work we’ve done on the Image Data Repository as tools for the community to
 use to access a broad range of types of metadata.
 
-##New format support
+## New format support
 
 Despite the focus on the Data Model, 5.2.0 will also introduce two new
 formats. These are scheduled to be Becker & Hickl SPC and Princeton
@@ -83,7 +83,7 @@ releases so the whole community can follow what is upcoming (these will be
 listed on the [Getting Started Trello board](https://trello.com/b/4EXb35xQ/getting-started)).
 
 
-##OME-Files
+## OME-Files
 
 The OME Data Model and Bio-Formats C++ will be decoupled from the main
 Bio-Formats code repository and renamed as OME-Files. This new API will

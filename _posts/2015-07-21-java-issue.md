@@ -9,7 +9,7 @@ after a Java upgrade, it was no longer possible to connect to the OMERO server
 using OMERO.insight. Since then we’ve been looking into the issue. A fix is
 ready as well as a few steps for the future.
 
-##Background
+## Background
 
 A recent security vulnerability in Java
 
@@ -27,7 +27,7 @@ connecting to an OMERO server due to a handshake error in Ice. Since the
 router used by OMERO (Glacier2) is not written in Java, just updating the Java
 version on the server is not enough to prevent the issue.
 
-##Workaround
+## Workaround
 
 Instead, a small configuration change is needed in OMERO. This will remove the
 no-longer supported ciphers, allowing both old and new OMERO clients, whether
@@ -48,7 +48,7 @@ take the following steps:
 >patching file etc/grid/templates.xml  
 >$ bin/omero admin deploy
 
-##What we're doing about it
+## What we're doing about it
 
 The patch above will be included in the next release of OMERO (5.1.3) but we
 are providing it in the meantime for users currently completely blocked by
