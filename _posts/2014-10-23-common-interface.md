@@ -97,8 +97,7 @@ application-specific metadata, the OME Data Model provides a variety of ways
 for extending the specification with custom annotations of various types. Full
 details are provided in the original paper describing how the model works
 ([Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47)) and in the
-[Data Model specification pages]
-(http://www.openmicroscopy.org/site/support/ome-model/).
+[Data Model specification pages](http://www.openmicroscopy.org/site/support/ome-model/).
 These custom annotations provide an enormous flexibility but also mean that
 custom versions of an OME-compliant specification can be generated. We
 consider this to be a reasonable compromise that allows common metadata to be
