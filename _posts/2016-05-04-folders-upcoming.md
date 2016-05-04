@@ -15,13 +15,13 @@ new top-level model object.
 ## Using ROI Folders
 
 Our initial focus is on supporting ROI-based Folder workflows.
-OMERO.insight, OMERO.web and OMERO.cli will offer some support for users to have
-their images' ROIs organized into a hierarchy of folders. We have
-several use cases in mind: for example, one may wish to sort cells into
-phenotypes or assign ontology terms to them, or an analysis script may
-track entities across a set of images and use a folder for each entity
-to store sightings of it. We expect the community to think of many more
-uses for folders.
+OMERO.insight, OMERO.web and OMERO.cli will offer some support for users
+to have their images' ROIs organized into a hierarchy of folders. We
+have several use cases in mind: for example, one may wish to sort cells
+into phenotypes or assign ontology terms to them, or an analysis script
+may track entities across a set of images and use a folder for each
+entity to store sightings of it. We expect the community to think of
+many more uses for folders.
 
 Folders may seem rather like datasets in their implementation: in our
 current draft of the Data Model one may name folders, add a description,
@@ -39,11 +39,15 @@ A ROI may be both on an image and in some folders. When a scientist
 views the ROIs of an image in OMERO.insight or OMERO.web they will be
 able to see how those ROIs are organized into folders. Work is ongoing
 in both clients to deliver at least some ability to work with ROIs and
-folder hierarchies in OMERO 5.3.0. On [Twitter](https://twitter.com/openmicroscopy/status/710155229682126848), [YouTube](https://www.youtube.com/watch?v=rkwQ8lzpAFs) [and](https://github.com/openmicroscopy/design/issues/14) [elsewhere](https://github.com/openmicroscopy/design/issues/15) we have already published some
-screenshots of how OMERO.insight can be used to organize ROIs into
-folders and we are working on usability features such as making images
-searchable by the name of a folder that contains any of the image's
-ROIs.
+folder hierarchies in OMERO 5.3.0. On
+[Twitter](https://twitter.com/openmicroscopy/status/710155229682126848),
+[YouTube](https://www.youtube.com/watch?v=rkwQ8lzpAFs)
+[and](https://github.com/openmicroscopy/design/issues/14)
+[elsewhere](https://github.com/openmicroscopy/design/issues/15) we have
+already published some screenshots of how OMERO.insight can be used to
+organize ROIs into folders and we are working on usability features such
+as making images searchable by the name of a folder that contains any of
+the image's ROIs.
 
 ## OMERO.server and scripts
 
