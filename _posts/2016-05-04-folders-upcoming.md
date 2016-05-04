@@ -39,7 +39,7 @@ A ROI may be both on an image and in some folders. When a scientist
 views the ROIs of an image in OMERO.insight or OMERO.web they will be
 able to see how those ROIs are organized into folders. Work is ongoing
 in both clients to deliver at least some ability to work with ROIs and
-folder hierarchies in OMERO 5.3.0. We have already published some
+folder hierarchies in OMERO 5.3.0. On [Twitter](https://twitter.com/openmicroscopy/status/710155229682126848), [YouTube](https://www.youtube.com/watch?v=rkwQ8lzpAFs) [and](https://github.com/openmicroscopy/design/issues/14) [elsewhere](https://github.com/openmicroscopy/design/issues/15) we have already published some
 screenshots of how OMERO.insight can be used to organize ROIs into
 folders and we are working on usability features such as making images
 searchable by the name of a folder that contains any of the image's
