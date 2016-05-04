@@ -74,8 +74,5 @@ may supersede everything from tag sets to datasets but, in starting out
 by allowing only a couple of kinds of content, and then only in a strict
 tree of folders, we take a conservative approach that allows us to
 adjust our plans based on how the community reacts to the introduction
-of folders in OMERO. We certainly do not wish to regret making folders
-too flexible too soon and to have to rein them in at a later date.
-Still, the OME team will be eager to understand what further ideas come
-to your mind as you someday begin to use folders in OMERO 5.3 so that we
-can better support your workflows.
+of folders in OMERO. We will welcome your input on how you see folders
+being used in your workflows.
