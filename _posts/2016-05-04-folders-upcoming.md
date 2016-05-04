@@ -14,8 +14,8 @@ new top-level model object.
 
 ## Using ROI Folders
 
-Our initial focus is on supporting ROI-based Folder workflows. Both
-OMERO.insight and OMERO.web will offer some support for users to have
+Our initial focus is on supporting ROI-based Folder workflows.
+OMERO.insight, OMERO.web and OMERO.cli will offer some support for users to have
 their images' ROIs organized into a hierarchy of folders. We have
 several use cases in mind: for example, one may wish to sort cells into
 phenotypes or assign ontology terms to them, or an analysis script may
