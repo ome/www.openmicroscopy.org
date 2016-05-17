@@ -57,10 +57,11 @@ are represented will see that a folder has a `parentFolder` property for
 its parent, if any, and `childFolders` and `roiLinks` properties for its
 contents, as they might expect.
 
-In our current draft of the new OME Data Model folders may directly
-contain images. The graphical clients may ignore such links, relying
-instead on folder-image linkage via ROIs as above, but folder objects
-offer an additional `imageLinks` property that may be useful for
+In our current draft of the new OME Data Model folders may *directly*
+contain images regardless of ROIs. One may expect the graphical clients to ignore this
+experimental feature, relying
+instead on folder-image linkage via ROIs as above, but the
+additional `imageLinks` property of folder objects may be useful for
 grouping images in a different way within a hierarchy.
 
 One concern with writing scripts may be that processing an arbitrarily
