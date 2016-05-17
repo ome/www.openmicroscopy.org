@@ -58,11 +58,11 @@ its parent, if any, and `childFolders` and `roiLinks` properties for its
 contents, as they might expect.
 
 In our current draft of the new OME Data Model folders may *directly*
-contain images regardless of ROIs. One may expect the graphical clients to ignore this
-experimental feature, relying
-instead on folder-image linkage via ROIs as above, but the
-additional `imageLinks` property of folder objects may be useful for
-grouping images in a different way within a hierarchy.
+contain images regardless of ROIs. One may expect the graphical clients
+to ignore this experimental feature, relying instead on folder-image
+linkage via ROIs as above, but the additional `imageLinks` property of
+folder objects may be useful for grouping images in a different way
+within a hierarchy.
 
 One concern with writing scripts may be that processing an arbitrarily
 deep folder hierarchy could require many separate calls to the `IQuery`
