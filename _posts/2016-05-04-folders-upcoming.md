@@ -4,12 +4,11 @@ title: Upcoming support for ROI Folders
 categories: data-model future-plans
 ---
 
-For many months the OME team has been working on what will become a new
+For several months the OME team has been working on what will soon be released as the new
 2016 OME Data Model. The OME Data Model specifies Regions of Interest
 (ROIs) in terms of a set of Shapes. As OMERO 5.3 will use the new Data
-Model, the upcoming changes include an initial round of adjusting how
-the Data Model and OMERO each represent Shapes so that the two match
-better. They will each also include a significant addition: *Folders*, a
+Model, the upcoming changes include an initial round of adjustments that ensure consistency between Shape representations in
+the Data Model and OMERO. They will each also include a significant addition: *Folders*, a
 new top-level model object.
 
 ## Using ROI Folders
@@ -23,19 +22,19 @@ may track entities across a set of images and use a folder for each
 entity to store sightings of it. We expect the community to think of
 many more uses for folders.
 
-Folders may seem rather like datasets in their implementation: in our
-current draft of the Data Model one may name folders, add a description,
+Folders may seem rather like Datasets in their implementation: in our
+current draft of the Data Model one may name Folders, add a description,
 even annotate them, exactly as with datasets. The most obvious
-difference from datasets is what folders may contain: ROIs, but also
+difference from Datasets is what Folders may contain: ROIs, but also
 other folders, even a mix of both. Folders may be nested arbitrarily
-deeply but with a caveat: a folder may have only one parent. The same
-dataset can be put into many projects but the folder hierarchy is a
+deeply but with a caveat: a Folder may have only one parent. The same
+Dataset can be put into many projects but the Folder hierarchy is a
 strict tree. This simplifies the user interface and speeds up
 processing.
 
 ## Graphical clients
 
-A ROI may be both on an image and in some folders. When a scientist
+An ROI may be both on an image and in some folders. When a scientist
 views the ROIs of an image in OMERO.insight or OMERO.web they will be
 able to see how those ROIs are organized into folders. Work is ongoing
 in both clients to deliver at least some ability to work with ROIs and
@@ -52,8 +51,8 @@ the image's ROIs.
 ## OMERO.server and scripts
 
 Users of the Blitz API are well aware that it allows a wider range of
-actions than the graphical clients support. Those exploring how folders
-are represented will see that a folder has a `parentFolder` property for
+actions than the graphical clients support. Those exploring how Folders
+are represented will see that a Folder has a `parentFolder` property for
 its parent, if any, and `childFolders` and `roiLinks` properties for its
 contents, as they might expect.
 
@@ -61,23 +60,23 @@ In our current draft of the new OME Data Model folders may *directly*
 contain images regardless of ROIs. One may expect the graphical clients
 to ignore this experimental feature, relying instead on folder-image
 linkage via ROIs as above, but the additional `imageLinks` property of
-folder objects may be useful for grouping images in a different way
+Folder objects may be useful for grouping images in a different way
 within a hierarchy.
 
 One concern with writing scripts may be that processing an arbitrarily
-deep folder hierarchy could require many separate calls to the `IQuery`
+deep Folder hierarchy could require many separate calls to the `IQuery`
 query service. OMERO 5.3.0 will include two new `Request` subclasses for
 queries, `FindParents` and `FindChildren`, that can be used to traverse
 hierarchies arbitrarily far in one call: for instance, to ask which
-images are contained in a set of folders or in any of their subfolders.
+images are contained in a set of Folders or in any of their subfolders.
 
 ## The future of Folders
 
 We have considered proposals for containing other objects, like plates,
-wells and annotations, in folders. One can imagine that someday folders
+wells and annotations, in Folders. One can imagine that someday Folders
 may supersede everything from tag sets to datasets but, in starting out
 by allowing only a couple of kinds of content, and then only in a strict
-tree of folders, we take a conservative approach that allows us to
+tree of Folders, we take a conservative approach that allows us to
 adjust our plans based on how the community reacts to the introduction
-of folders in OMERO. We will welcome your input on how you see folders
+of Folders in OMERO. We welcome your input on how you see Folders
 being used in your workflows.
