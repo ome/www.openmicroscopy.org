@@ -4,12 +4,13 @@ title: Upcoming support for ROI Folders
 categories: data-model future-plans
 ---
 
-For several months the OME team has been working on what will soon be released as the new
-2016 OME Data Model. The OME Data Model specifies Regions of Interest
-(ROIs) in terms of a set of Shapes. As OMERO 5.3 will use the new Data
-Model, the upcoming changes include an initial round of adjustments that improve consistency between Shape representations in
-the Data Model and OMERO. They will each also include a significant addition: *Folders*, a
-new top-level model object.
+For several months the OME team has been working on what will soon be
+released as the new 2016 OME Data Model. The OME Data Model specifies
+Regions of Interest (ROIs) in terms of a set of Shapes. As OMERO 5.3
+will use the new Data Model, the upcoming changes include an initial
+round of adjustments that improve consistency between Shape
+representations in the Data Model and OMERO. They will each also include
+a significant addition: *Folders*, a new top-level model object.
 
 ## Using ROI Folders
 
@@ -78,5 +79,5 @@ may supersede everything from tag sets to datasets but, in starting out
 by allowing only a couple of kinds of content, and then only in a strict
 tree of Folders, we take a conservative approach that allows us to
 adjust our plans based on how the community reacts to the introduction
-of Folders in OMERO. We welcome your input on how you see Folders
-being used in your workflows.
+of Folders in OMERO. We welcome your input on how you see Folders being
+used in your workflows.
