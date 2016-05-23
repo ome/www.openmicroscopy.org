@@ -7,7 +7,7 @@ categories: data-model future-plans
 For several months the OME team has been working on what will soon be released as the new
 2016 OME Data Model. The OME Data Model specifies Regions of Interest
 (ROIs) in terms of a set of Shapes. As OMERO 5.3 will use the new Data
-Model, the upcoming changes include an initial round of adjustments that ensure consistency between Shape representations in
+Model, the upcoming changes include an initial round of adjustments that improve consistency between Shape representations in
 the Data Model and OMERO. They will each also include a significant addition: *Folders*, a
 new top-level model object.
 
