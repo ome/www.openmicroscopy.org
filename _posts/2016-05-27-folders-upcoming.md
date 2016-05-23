@@ -51,11 +51,13 @@ the image's ROIs.
 
 ## OMERO.server and scripts
 
-Users of the [Blitz API](http://www.openmicroscopy.org/site/support/omero5.2/developers/Modules/Api.html) are well aware that it allows a wider range of
-actions than the graphical clients support. Those exploring how Folders
-are represented will see that a Folder has a `parentFolder` property for
-its parent, if any, and `childFolders` and `roiLinks` properties for its
-contents, as they might expect.
+Users of the [Blitz
+API](http://www.openmicroscopy.org/site/support/omero5.2/developers/Modules/Api.html)
+are well aware that it allows a wider range of actions than the
+graphical clients support. Those exploring how Folders are represented
+will see that a Folder has a `parentFolder` property for its parent, if
+any, and `childFolders` and `roiLinks` properties for its contents, as
+they might expect.
 
 In our current draft of the new OME Data Model folders may *directly*
 contain images regardless of ROIs. One may expect the graphical clients
