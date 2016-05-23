@@ -49,6 +49,8 @@ organize ROIs into folders and we are working on usability features such
 as making images searchable by the name of a folder that contains any of
 the image's ROIs.
 
+![ROI Folder screenshot](/images/ROI-Folder-Insight.png){:width="100%"}
+
 ## OMERO.server and scripts
 
 Users of the [Blitz
