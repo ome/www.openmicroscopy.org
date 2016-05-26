@@ -12,9 +12,10 @@ The OME Data Model defines a
 element with an
 [AffineTransform](https://www.openmicroscopy.org/Schemas/Documentation/Generated/OME-2015-01/ROI_xsd.html#AffineTransform)
 type that is used to transform a Shape's position in the image in
-various ways: scaling, rotations and more. These transformations are performed within the two dimensions of the image's *x*, *y* plane. In order to properly locate a
-Region of Interest (ROI) on an image any geometric transformations of
-its Shapes *must* be taken into account.
+various ways: scaling, rotations and more. These transformations are
+performed within the two dimensions of the image's *x*, *y* plane. In
+order to properly locate a Region of Interest (ROI) on an image any
+geometric transformations of its Shapes *must* be taken into account.
 
 
 ## The OME Data Model transformation matrix
