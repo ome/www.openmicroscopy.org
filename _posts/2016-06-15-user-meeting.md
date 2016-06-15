@@ -4,7 +4,7 @@ title: OME 2016 Users Meeting
 categories: community
 ---
 
-For those of you who couldn’t make it to Dundee for OME 2016 or maybe just
+For those of you who couldn’t make it to Dundee for OME 2016, or maybe just
 didn’t get to all the sessions you wanted to, we have a range of content on
 our downloads site--notes, slides and even movie versions of workshop
 presentations--available to browse from
@@ -30,7 +30,7 @@ also be keen to feature your stories on this blog if you’d like to submit
 something longer e.g. with screenshots - you can open a PR at
 [github.com/ome/blog/](https://github.com/ome/blog/) or just drop us
 an email and we’ll get back to you for details. Did you know we maintain a
-list of publication using our tools on
+list of publications using our tools on
 [www.openmicroscopy.org/site/about/publications](http://www.openmicroscopy.org/site/about/publications)? We are always happy to hear of new citations
 to add.
 
