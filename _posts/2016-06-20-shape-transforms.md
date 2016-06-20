@@ -92,11 +92,7 @@ A02
 A12
 : translation of *y*
 
-The accompanying graph shows an example translation of <math
-display="inline"><mi
-mathvariant="italic">A02</mi><mo>=</mo><mn>35</mn></math> in *x* and
-<math display="inline"><mi
-mathvariant="italic">A12</mi><mo>=</mo><mn>-65</mn></math> in *y*. The
+The accompanying graph shows an example translation of <math display="inline"><mi mathvariant="italic">A02</mi><mo>=</mo><mn>35</mn></math> in *x* and <math display="inline"><mi mathvariant="italic">A12</mi><mo>=</mo><mn>-65</mn></math> in *y*. The
 above representation of affine transformations reflects a common
 approach in computational geometry and works well.
 
