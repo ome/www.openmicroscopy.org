@@ -1,0 +1,9 @@
+.marketing-hero.home-large-hero {
+    background: rgba(240, 240, 240, 1) repeat scroll center center / cover ;
+    padding: 180px 0 200px;
+}
+
+hr.whitespace {
+    border: none;
+    height: 1.875rem;
+}
