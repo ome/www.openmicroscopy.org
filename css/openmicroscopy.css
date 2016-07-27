@@ -1,3 +1,5 @@
+.menu > li > a.logo { padding: 0 1rem; }
+
 .marketing-hero.home-large-hero {
     background: rgba(240, 240, 240, 1) repeat scroll center center / cover ;
     padding: 180px 0 200px;
