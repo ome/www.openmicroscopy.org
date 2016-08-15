@@ -18,3 +18,31 @@ p.link {
     border-width: 0px;
     box-shadow: none;
 }
+
+.header {
+    background: #074E68;
+    background-size: cover;
+    overflow: visible;
+    padding-top: 2.5rem;
+    padding-bottom: 4.9rem;
+    position: relative;
+    text-align: center; }
+    .header .headline {
+        color: #ffe;
+}
+
+.header-subnav {
+    float: none;
+    position: absolute; bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; }
+    .header-subnav li {
+    display: inline-block;
+    float: none;
+ }
+    .header-subnav li a {
+    font-size: 0.75rem;
+    padding: 0.9rem 1rem;
+}
+    
