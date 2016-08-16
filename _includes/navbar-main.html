@@ -1,29 +1,34 @@
-        <div class="top-bar">
+        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">Menu</div>
+        </div>        
+        
+        <div class="top-bar" id="example-menu">
             <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
                     <li class="menu-text"><a class="logo" href="index.html">OME logo</a></li>
-                    <li><a href="about.html">About Us</a>
-                            <ul class="menu">
-                                <li><a href="teams.html">OME Teams</a></li>
-                                <li><a href="contributors.html">Contributors</a></li>
-                                <li><a href="commercial-partners.html">Commercial Partners</a></li>
-                            </ul>
+                    <li class="has-submenu"><a href="about.html">About Us</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="teams.html">OME Teams</a></li>
+                            <li><a href="contributors.html">Contributors</a></li>
+                            <li><a href="commercial-partners.html">Commercial Partners</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
             <div class="top-bar-right">
                 <ul class="dropdown menu" data-dropdown-menu>
-                    <li><a href="products.html">Products</a>
-                            <ul class="menu">
-                                <li><a href="omero.html">OMERO</a></li>
-                                <li><a href="#">Bio-Formats</a></li>
-                                <li><a href="#">OME-Files</a></li>
-                            </ul>
+                    <li class="has-submenu"><a href="products.html">Products</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="omero.html">OMERO</a></li>
+                            <li><a href="#">Bio-Formats</a></li>
+                            <li><a href="#">OME-Files</a></li>
+                        </ul>
                     </li>
-                    <li><a href="#">Support</a>
-                            <ul class="menu">
-                                <li><a href="#">Docs</a></li>
-                            </ul>
+                    <li class="has-submenu"><a href="#">Support</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="#">Docs</a></li>
+                        </ul>
                     </li>
                     <li><a href="getting-started.html">Getting Started with OMERO</a></li>
                 </ul>
