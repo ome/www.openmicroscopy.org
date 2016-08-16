@@ -39,10 +39,15 @@ p.link {
     width: 100%; }
     .header-subnav li {
     display: inline-block;
-    float: none;
- }
+    float: none; }
     .header-subnav li a {
     font-size: 0.75rem;
     padding: 0.9rem 1rem;
+}
+
+.contributors-list div {
+    padding-bottom: 20px; }
+    .contributors-list a {
+    font-size: 90%;       
 }
     
