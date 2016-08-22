@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OMERO Image Chooser
+title: OMEROImageChooser
 categories: community tools
 ---
 
