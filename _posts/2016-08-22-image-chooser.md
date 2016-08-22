@@ -26,7 +26,7 @@ desktop  client or adding an OMERO interface to existing code.
 The source is available from [https://github.com/imperial-photonics/omeUiUtils](https://github.com/imperial-photonics/omeUiUtils)
 
 A ready-to-use .jar file compatible with OMERO 5.2.x  can be also  downloaded
-from [https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/0.1.5#files](https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/0.1.5#files)
+from [https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/](https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/_latestVersion)
 
 There are a number of options available, depending what feedback is needed from the user. The screenshots below illustrate some of these.
 
