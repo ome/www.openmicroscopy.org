@@ -23,12 +23,16 @@ OMERO.insight. It can easily be called from Java or Matlab code and is
 presented as a quick and relatively easy path to either developing a new OMERO
 desktop  client or adding an OMERO interface to existing code. 
 
-The source is available from [https://github.com/imperial-photonics/omeUiUtils](https://github.com/imperial-photonics/omeUiUtils)
+The source is available from [https://github.com/imperial-photonics/omeUiUtils](https://github.com/imperial-photonics/omeUiUtils).
 
 A ready-to-use .jar file compatible with OMERO 5.2.x  can be also  downloaded
-from [https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/](https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/_latestVersion)
+from [https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/](https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/_latestVersion).
 
-There are a number of options available, depending what feedback is needed from the user. The screenshots below illustrate some of these.
+For instructions on how to integrate with Maven/Gradle, refer to the
+[bintray user documentation](https://bintray.com/docs/usermanual/formats/formats_mavenrepositories.html#_working_with_maven).
+
+There are a number of options available, depending what feedback is needed
+from the user. The screenshots below illustrate some of these.
 
 1. Selecting one or more images:
 ![selecting images in the UI](/images/Images.png)
