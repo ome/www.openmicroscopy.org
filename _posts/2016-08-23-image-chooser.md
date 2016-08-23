@@ -29,7 +29,7 @@ A ready-to-use .jar file compatible with OMERO 5.2.x  can be also  downloaded
 from [https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/](https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/_latestVersion).
 
 For instructions on how to integrate with Maven/Gradle, refer to the
-[bintray user documentation](https://bintray.com/docs/usermanual/formats/formats_mavenrepositories.html#_working_with_maven).
+[Bintray user documentation](https://bintray.com/docs/usermanual/formats/formats_mavenrepositories.html#_working_with_maven).
 
 There are a number of options available, depending what feedback is needed
 from the user. The screenshots below illustrate some of these.
