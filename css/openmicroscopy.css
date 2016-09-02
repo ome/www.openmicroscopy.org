@@ -45,9 +45,17 @@ p.link {
     padding: 0.9rem 1rem;
 }
 
+.consortium-list div {
+    padding-bottom: 20px; }
+    span.institution  {
+    font-size: 90%;
+    padding-left: 5px;       
+}
+
 .contributors-list div {
     padding-bottom: 20px; }
     .contributors-list a {
-    font-size: 90%;       
+    font-size: 90%;
+    padding-left: 5px;       
 }
     
