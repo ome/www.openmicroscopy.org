@@ -1,0 +1,30 @@
+        <!-- begin Big Images -->
+        <hr class="whitespace">        
+        <div class="row column text-center">
+            <h2>Big Images Support</h2>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <div class="row horizontal">
+                    <div class="column">
+                        <p>In 4.4.0 we have continued to work to enhance features such as the importing and viewing of big image formats added in 4.3. On the importer side, we've updated the clients (both the standalone OMERO.importer and the new built-in import feature from OMERO.insight) to import these new larger file formats more efficiently. Now, instead of processing the image data from these large files locally (on your desktop or laptop computer, for example), the new import process only extracts the metadata locally before uploading the raw files directly to the server, where they can be further processed remotely. This saves a substantial amount of time when importing these larger file types.</p>
+                        <img class="thumbnail" src="http://placehold.it/1000x300">                    
+                        <p>The server-side rendering engine now supports the creation of tiles at multiple zoom levels, which allows these large images to be more efficiently viewed over low bandwidth connections. Both the web and Insight clients support the panning and zooming of big images in much the same way as Google maps. We've also added a new navigation "mini view" of your big images, allowing you to quickly see where you are in the landscape of these large files.</p>
+                        <p>For developers, the support of Big images and tiling extends to the OMERO API, allowing you to access raw pixel data by tile.</p>
+                        <a href="http://cvs.openmicroscopy.org.uk/snapshots/movies/omero-4-3/mov/BigImages.mov" target="_blank" class="button expanded">Watch the Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <div class="warning callout">
+                    <h3>ROI Support</h3>
+                    <p>In OMERO 4.4.0, we've added support for drawing ROIs on big images in OMERO.insight. These can also be viewed in the OMERO.web client.</p>                
+                </div>
+            </div>
+        </div>
+        <hr class="whitespace">
+        <!-- end Big Images --> 
