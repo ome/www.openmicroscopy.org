@@ -1,19 +1,20 @@
         <!-- begin Big Images -->
         <hr class="whitespace">        
         <div class="row column text-center">
-            <p>Is this section relevant to Scientists/Your Institution? If so, may I have please have a blurb? (There was a blurb for Developers already in the original copy. Feel free to rewrite.)</p>
             <h3>Big Images Support</h3>
+            <p>File formats just keep getting more complex but OME tools keep evolving too - from extending file format support via Bio-Formats to improving support for visualization in OMERO clients, we’re always innovating for the community.</p>
         </div>
         <hr>
         <div class="row">
             <div class="medium-10 medium-centered columns">
                 <div class="row horizontal">
                     <div class="column">
-                        <p>In 4.4.0 we have continued to work to enhance features such as the importing and viewing of big image formats added in 4.3. On the importer side, we've updated the clients (both the standalone OMERO.importer and the new built-in import feature from OMERO.insight) to import these new larger file formats more efficiently. Now, instead of processing the image data from these large files locally (on your desktop or laptop computer, for example), the new import process only extracts the metadata locally before uploading the raw files directly to the server, where they can be further processed remotely. This saves a substantial amount of time when importing these larger file types.</p>
+                        <p>OMERO is designed with big images in mind. Both OMERO.web and the desktop client OMERO.insight support panning and zooming of big images in much the same way as Google maps, and there’s a ‘mini view’ to help you keep track of where in the image you are, especially useful when you’re zooming in. As well as viewing, you can also draw Regions of Interest and coming in OMERO 5.3.0 is the ‘Folders’ functionality, allowing you to group these ROIs and make them more usable when you have hundreds on an image. Importing images is as efficient as possible with processing occurring on the server after the files have been uploaded and file integrity reports ensure you can safely avoid data duplication because you know your data is safely stored and can be exported in a variety of formats if needed.</p>
                         <img class="thumbnail" src="http://placehold.it/1000x300">                    
-                        <p>The server-side rendering engine now supports the creation of tiles at multiple zoom levels, which allows these large images to be more efficiently viewed over low bandwidth connections. Both the web and Insight clients support the panning and zooming of big images in much the same way as Google maps. We've also added a new navigation "mini view" of your big images, allowing you to quickly see where you are in the landscape of these large files.</p>
-                        <p>For developers, the support of Big images and tiling extends to the OMERO API, allowing you to access raw pixel data by tile.</p>
+                        <p>{{page.paragraph}}</p>
+                        <p>Bio-Formats also plays a crucial role in supporting a range of big image file formats. Our team of developers work hard to troubleshoot images submitted by the community and improve the quality of the file support with regular bug-fix releases of this file format translation tool.</p>
                         <a href="http://cvs.openmicroscopy.org.uk/snapshots/movies/omero-4-3/mov/BigImages.mov" target="_blank" class="button expanded">Watch the Video</a>
+                        <p style="color: red;">[N.B. we’ll need a new video here too, probably an IDR demo would work, I’ll chase that up at some point - Helen]</p>
                     </div>
                 </div>
             </div>
