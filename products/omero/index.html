@@ -9,7 +9,6 @@ title: OMERO
                     <h5 class="hero-subheader small-12 medium-12 large-12">From the microscope to publication, OMERO handles all your images in a secure central repository. You can view, organize, analyze and share your data from anywhere you have internet access. Work with your images from a desktop app (Windows, Mac or Linux), from the web or from 3rd party software. Over 140 image file formats supported, including all major microscope formats.</h5>
                     <br>
                     <a href="{{ site.baseurl }}/omero/downloads.html" class="large button sites-button hide-for-small-only">Download [Version X.X.X]</a>
-                    <a href="https://www.openmicroscopy.org/site/support/omero/sysadmins/unix/index.html" target="_blank" class="large button sites-button hide-for-small-only">Server Installation Guide</a>
                 </div>
             </div>
             <hr class="whitespace">
@@ -27,7 +26,7 @@ title: OMERO
         <hr class="whitespace">
         <div class="row column text-center">
             <h2>The Power of OMERO</h2>
-            <h5 class="subheader">AA complete platform for managing your images, OMERO has many features and expansion points to integrate with your existing tools.</h5>
+            <h5 class="subheader">A complete platform for managing your images, OMERO has many features and expansion points to integrate with your existing tools.</h5>
         </div>
         <hr>
         <div class="column row">
@@ -48,7 +47,7 @@ title: OMERO
                             <img src="http://placehold.it/300x300"/>
                         </div>
                         <div class="medium-8 columns">
-                            <p>Browse the images on your local machine or file-system, select and add them to the import queue. OMERO uploads the images in their original format, stores them securely with all their metadata, and generates thumbnails for browsing. Bio-Formats (part of the OME project) allows OMERO to support over 140 image file formats, including all the major biological microscopy, HCS, tissue scanner and graphics formats. For a complete list of formats see <a href="https://www.openmicroscopy.org/site/support/bio-formats5/supported-formats.html" target="_blank">Supported Formats</a>. Import can be performed from the 'OMERO.insight' desktop application, or via the command line. OMERO also supports a <a ref="https://www.openmicroscopy.org/site/support/omero5.2/sysadmins/dropbox.html" target="_blank">'Drop-box'</a> on the server where any files copied to a specified directory are automatically imported.</p>
+                            <p>Browse the images on your local machine or file-system, select and add them to the import queue. OMERO uploads the images in their original format, stores them securely with all their metadata, and generates thumbnails for browsing. Bio-Formats allows OMERO to support over 140 image file formats, including all the major biological microscopy, HCS, tissue scanner and graphics formats. For a complete list of formats see <a href="https://www.openmicroscopy.org/site/support/bio-formats5/supported-formats.html" target="_blank">Supported Formats</a>. Import can be performed from the OMERO.insight desktop app, or via the command line. OMERO also supports a <a ref="https://www.openmicroscopy.org/site/support/omero/sysadmins/dropbox.html" target="_blank">'Drop-box'</a> on the server where any files copied to a specified directory are automatically imported.</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +56,7 @@ title: OMERO
                     <h3 class=" text-center">Organize</h3>
                     <div class="row horizontal">
                         <div class="medium-8 columns">
-                            <p class="text-right">You can access your data in OMERO from any platform. Our client applications run on any OS (Windows, Mac or Linux) and the OMERO.web client runs in your browser. OMERO lets you organise your data how you want using 'Projects' and 'Datasets' to manage your images. You can create tags and tag groups to annotate images with key-words of your choice. OMERO also supports rating, comments, and file attachments. Once annotated, you can browse, filter or search your images by their annotations and export a table of tag-counts for a Dataset of images. Users of OMERO can be organized into groups, each with different permissions levels, allowing you to collaborate with your colleagues. You can share and annotate the data you want with the people you want.</p>
+                            <p class="text-right">You can access your data in OMERO from any platform. Our client apps run on any OS (Windows, Mac or Linux) and the OMERO.web app runs in your browser. OMERO lets you organise your data how you want using 'Projects' and 'Datasets' to manage your images. You can create tags and tag groups to annotate images with key-words of your choice. OMERO also supports rating, comments, and file attachments. Once annotated, you can browse, filter or search your images by their annotations and export a table of tag-counts for a Dataset of images. Users of OMERO can be organized into groups, each with different permissions levels, allowing you to collaborate with your colleagues. You can share and annotate the data you want with the people you want.</p>
                         </div>
                         <div class="medium-4 columns">
                             <img src="http://placehold.it/300x300"/>
@@ -72,7 +71,7 @@ title: OMERO
                             <img src="http://placehold.it/300x300"/>
                         </div>
                         <div class="medium-8 columns">
-                            <p>In OMERO, you can view your images in multiple dimensions, scrolling through Z-sections and time-points. Turn channels on and off, change channel colours and adjust rendering settings. You can also copy and paste settings between images. Viewing images remotely in OMERO is fast, because you don't need to download the whole image to view it. OMERO simply renders the planes you want and sends the rendered image to the client. Even if you want to view a Z-projection: OMERO does the projection on the server and sends you the result. OMERO also supports 'Big' images with viewers that allow you to pan and zoom in a 'Google maps' manner.</p>
+                            <p>In OMERO, you can view your images in multiple dimensions, scrolling through Z-sections and time-points. Turn channels on and off, change channel colours and adjust rendering settings. You can also copy and paste settings between images. Viewing images remotely in OMERO is fast, because you don't need to download the whole image to view it. OMERO simply renders the planes you want and sends the rendered image to the client app. Even if you want to view a Z-projection: OMERO does the projection on the server and sends you the result. OMERO also supports 'Big' images with viewers that allow you to pan and zoom in a 'Google maps' manner.</p>
                         </div>
                     </div>
                 </div>
@@ -81,8 +80,8 @@ title: OMERO
                     <h3 class=" text-center">Analyze</h3>
                     <div class="row horizontal">
                         <div class="medium-8 columns">
-                            <p class="text-right">In OMERO, you can draw regions of interest on your images and measure their dimensions and pixel intensities, exporting the data as a spread-sheet. OMERO supports Python scripting, allowing you to write analysis scripts that run on the server. These scripts can be launched from the OMERO.insight client allowing all users to access additional functionality on the server.</p>                            
-                            <p class="text-right">OMERO's open API allows clients written in Java, Python, C++ or Matlab to access image data and save analysis results back to the server, making OMERO a powerful platform for 3rd party analysis tools. OMERO includes a simple ImageJ plugin which allows ImageJ to access images on OMERO. For more info, please see the <a href="https://www.openmicroscopy.org/site/support/omero5/developers/" target="_blank">OMERO developer section</a>.</p>
+                            <p class="text-right">In OMERO, you can draw regions of interest on your images and measure their dimensions and pixel intensities, exporting the data as a spread-sheet. OMERO supports Python scripting, allowing you to write analysis scripts that run on the server. These scripts can be launched from the apps allowing all users to access additional functionality on the server.</p>                            
+                            <p class="text-right">OMERO's open API allows client apps written in Java, Python, C++ or MATLAB to access image data and save analysis results back to the server, making OMERO a powerful platform for 3rd party analysis tools. OMERO includes a simple ImageJ plugin which allows ImageJ/Fiji to access images on OMERO. For more info, please see the <a href="https://www.openmicroscopy.org/site/support/omero5/developers/" target="_blank">OMERO developer section</a>.</p>
                         </div>
                         <div class="medium-4 columns">
                             <img src="http://placehold.it/300x300"/>
