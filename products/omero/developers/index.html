@@ -9,37 +9,50 @@ usergroup: Developers
         <div class="row column text-center">
             <h3>OMERO is designed to be extended and integrated with other tools</h3>
             <hr>
-            <h5 class="subheader">As an open source project, OMERO welcomes contributions from external developers. You are welcome to write your own client code or extend the server to suit your needs and there is a whole community and extensive documentation provided to support you. You can write in Java, Python, C++ or MATLAB to modify existing clients or the server, build your own custom clients or web apps, or develop scripts to run analysis on the server. All the code is available via GitHub and the API is public and documented.
+            <h5 class="subheader"><p>OMERO is an open source client/server system written in Java for visualizing, managing, and annotating microscope images and metadata. The OMERO API allows clients to be written in Java, Python, C++ or MATLAB. The OMERO platform includes a Java client OMERO.insight, a Python-based web client OMERO.web, a Command Line Interface which uses Python, and a Java ImageJ plugin. OMERO also supports a scripting service which allows Python scripts to be run on the server and called from any of the other clients.</p>
+                <p>You are welcome to write your own client code or scripts, or extend the server to suit your needs, and there is a whole community and extensive documentation to support you.</p>
             </h5>
             <img class="thumbnail" src="http://placehold.it/1000x300">
         </div>
         <!-- end Why Use OMERO -->
         
         <!-- begin Key Features -->
-        <hr class="whitespace">        
+        <hr class="whitespace">
         <div class="row column text-center">
             <h3>Key Features</h3>
-            <h5 class="subheader">The strength of OMERO lies in its in interoperability. Some of the key features which enable this are highlighted here.</h5>
+            <h5 class="subheader">The strength of OMERO lies in its interoperability. Some of the main extension points are highlighted below.</h5>
         </div>        
         <hr>        
         <div class="row small-up-2 large-up-4">
             <div class="column text-center">
                 <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
-                <h5>Open Source Software</h5>
-                <p>OME source code is available under the <a href="#">GNU General public license</a> or through commercial license from <a href="http://www.glencoesoftware.com" target="_blank">Glencoe Software</a>.</p>
-                <a class="button hollow tiny expanded" href="https://github.com/openmicroscopy" target="_blank">Contribute to the Code</a>
+                <h5>Open Source</h5>
+                <p>All OMERO source code is available under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General public license</a> or through commercial license from <a href="http://www.glencoesoftware.com" target="_blank">Glencoe Software</a>.</p>
+                <a class="button hollow tiny expanded" href="https://github.com/openmicroscopy" target="_blank">Find us on GitHub</a>
             </div>
             <div class="column text-center">
                 <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
-                <h5>Extending OMERO</h5>
-                <p>Write your own Web and Java apps using the OMERO APIs, we have tips, tools and resources useful for working with the OMERO API.</p>
-                <a class="button hollow tiny expanded" href="http://www.openmicroscopy.org/site/support/omero/developers/GettingStarted.html" target="_blank">Get Started</a>
+                <h5>Public API</h5>
+                <p>Work with your data in Python, Java, MATLAB and C++.</p>
+                <a class="button hollow tiny expanded" href="http://www.openmicroscopy.org/site/support/omero/developers/index.html#using-the-omero-api" target="_blank">View Developer Guides</a>
             </div>
             <div class="column text-center">
                 <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
-                <h5>Python Blitz API</h5>
-                <p>The Python 'Blitz' Gateway provides an easy-to-use API for OMERO making it easier to work with your data in Python.</p>
-                <a class="button hollow tiny expanded" href="https://www.openmicroscopy.org/site/support/omero/developers/Python.html" target="_blank">View Developer Guide</a>
+                <h5>OMERO.web</h5>
+                <p>Use the OMERO.web framework to build web applications for OMERO.</p>
+                <a class="button hollow tiny expanded" href="http://www.openmicroscopy.org/site/support/omero/developers/Web.html" target="_blank">View Developer Guide</a>
+            </div>
+            <div class="column text-center">
+                <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
+                <h5>OMERO clients</h5>
+                <p>Develop Blitz clients that use the API and the Ice remoting framework.</p>
+                <a class="button hollow tiny expanded" href="http://www.openmicroscopy.org/site/support/omero/developers/GettingStarted/AdvancedClientDevelopment.html" target="_blank">View Developer Guide</a>
+            </div>
+            <div class="column text-center">
+                <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
+                <h5>OMERO.cli</h5>
+                <p>Use the CLI to work with OMERO objects and write plugins.</p>
+                <a class="button hollow tiny expanded" href="https://www.openmicroscopy.org/site/support/omero/developers/cli/index.html" target="_blank">View Developer Guide</a>
             </div>
             <div class="column text-center">
                 <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
@@ -49,9 +62,15 @@ usergroup: Developers
             </div>
             <div class="column text-center">
                 <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
-                <h5>Tabular Data Support</h5>
-                <p>HDF-based storage of measurement results with an API for exporting to Excel using OMERO.tables.</p>
-                <a class="button hollow tiny expanded" href="https://www.openmicroscopy.org/site/support/omero/developers/analysis.html#storing-external-data-in-omero" target="_blank">View Developer Guide</a>
+                <h5>Analysis</h5>
+                <p>Save your analysis results to OMERO.server or use OMERO.tables to store columnar data.</p>
+                <a class="button hollow tiny expanded" href="http://www.openmicroscopy.org/site/support/omero/developers/index.html#analysis" target="_blank">View Developer Guide</a>
+            </div>
+            <div class="column text-center">
+                <img class="thumbnail" src="http://placehold.it/300x300" alt="Liza to illustrate">
+                <h5>OMERO.server</h5>
+                <p>Extend the OMERO.server by writing your own services or using the OMERO.grid infrastructure to manage your own processes.</p>
+                <a class="button hollow tiny expanded" href="http://www.openmicroscopy.org/site/support/omero/developers/Server/ExtendingOmero.html" target="_blank">View Developer Guide</a>
             </div>
         </div>
         <!-- end Key Features -->
