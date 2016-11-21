@@ -1,3 +1,14 @@
+body {
+    font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #455a64;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+}
+
 .menu > li > a.logo { padding: 0 1rem; }
 
 .marketing-hero {
