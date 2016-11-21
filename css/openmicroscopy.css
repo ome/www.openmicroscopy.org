@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
 }
 
+.button {
+    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .menu > li > a.logo { padding: 0 1rem; }
 
 .marketing-hero {
