@@ -1,0 +1,15 @@
+{% include head.html %}
+
+        <header class="header">            
+            <h1 class="headline">OMERO for {{page.usergroup}}</h1>            
+            <ul class="header-subnav">
+                <li><a href="index.html">Overview</a></li>            
+                <li><a href="getting-started.html">Getting Started</a></li>            
+                <li><a href="features.html">Full Feature List</a></li>            
+                <li><a href="docs.html">Documentation</a></li>            
+            </ul>            
+        </header>
+
+{{ content }}
+
+{% include foot.html %}
