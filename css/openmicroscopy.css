@@ -21,6 +21,50 @@ h1, h2, h3, h4, h5, h6 {
     padding: 180px 0 200px;
 }
 
+/* ---------- main navigation ----------*/
+.top-bar {
+    background-color: #455a64;
+    border-bottom: 1px solid #263238;
+}
+
+.top-bar ul {
+    background-color: #455a64;
+}
+
+.nav-secondary, .nav-secondary ul {
+    background-color: #37474f;
+    border-bottom: 1px solid #263238;
+    font-size: 0.875em;
+    height: 36px;
+}
+
+.nav-secondary > .top-bar-right > .menu > li > a {
+    color: #eceff1;
+}
+
+.nav-secondary > .top-bar-right > .menu > li > a:hover {
+    color: #fff;
+}
+
+.nav-secondary > .top-bar-right > .menu > li > a i {
+    vertical-align: top;
+}
+
+#main-menu a {
+    color: #eceff1;
+    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+}
+
+#main-menu a:hover {
+    color: #fff;
+}
+
+#main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: #eceff1 transparent transparent;
+}
+  
 /* ---------- hero background images ----------*/
 .marketing-hero {
     background-color: transparent;
