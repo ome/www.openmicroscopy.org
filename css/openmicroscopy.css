@@ -21,6 +21,26 @@ h1, h2, h3, h4, h5, h6 {
     padding: 180px 0 200px;
 }
 
+/* ---------- hero background images ----------*/
+.marketing-hero {
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#bg-image-main {
+    background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.jpg');
+    font-weight: bold;
+}
+
+.bg-image-text-container {
+    background-color: rgba(255,255,255,0.35);
+    border-radius: 4px;
+    color: #111;
+    padding: 40px 30px;
+}
+
 hr.whitespace {
     border: none;
     height: 1.875rem;
