@@ -78,8 +78,13 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 /* ---------- hero background images ----------*/
+.logo-hero {
+    margin-bottom: 30px;
+    width: 200px;
+}
+
 .marketing-hero, .callout {
-    background-color: transparent;
+    background-color: #000;
     background-position: center center;
     background-repeat: repeat;
     background-size: cover;
@@ -93,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 
 [id^="bg-image-"] p { font-weight: bold; }
 
-#bg-image-main { background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.jpg'); }
+#bg-image-main { background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.svg'); }
 #bg-image-about { background-image: url('../img/bg/0007-03--2005-08-02_Well_83_Field_1_Spot_83.jpg'); }
 #bg-image-teams { background-image: url('../img/bg/JL_120731_S6A_Well_F-7.jpg'); }
 #bg-image-contributors { background-image: url('../img/bg/LT0002_02_Well_E2_Field_1.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
@@ -107,9 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 #bg-image-getting-started { background-image: url('../img/bg/Plate8_Actinome1_Well_B05_Field_1.jpg'); }
 
 .bg-image-text-container {
-    background-color: rgba(255,255,255,0.35);
+    background-color: transparent;
     border-radius: 4px;
-    color: #111;
+    color: #fff;
     padding: 40px 30px;
     text-shadow: none;
 }
