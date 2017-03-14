@@ -22,18 +22,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ---------- main navigation ----------*/
+.logo {
+    display: inline;
+    width: 150px;
+}
+
 .top-bar {
-    background-color: #455a64;
-    border-bottom: 1px solid #263238;
+    background-color: #263238;
+    border-bottom: 1px solid #000;
 }
 
 .top-bar ul {
-    background-color: #455a64;
+    background-color: #263238;
+}
+
+.top-bar ul li {
+    vertical-align: middle;
 }
 
 .nav-secondary, .nav-secondary ul {
     background-color: #37474f;
-    border-bottom: 1px solid #263238;
+    border-bottom: 1px solid #000;
     font-size: 0.875em;
     height: 36px;
 }
@@ -50,6 +59,9 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: top;
 }
 
+#main-menu .is-dropdown-submenu {
+    border-color: #000;
+}
 #main-menu a {
     color: #eceff1;
     font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
@@ -76,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 [id^="bg-image-"] {
     color: #fff;
-    text-shadow: 0px 1px 2px rgba(0,0,1,.2);
+    text-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
 
 [id^="bg-image-"] p { font-weight: bold; }
