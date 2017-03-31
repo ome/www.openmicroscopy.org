@@ -1,0 +1,4 @@
+name: OME  Website
+markdown: kramdown
+
+baseurl: /www.openmicroscopy.org
