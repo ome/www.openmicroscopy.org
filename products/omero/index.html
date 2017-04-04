@@ -29,89 +29,74 @@ title: OMERO
             <h5 class="subheader">A complete platform for managing your images, OMERO has many features and expansion points to integrate with your existing tools.</h5>
         </div>
         <hr>
-        <div class="column row">
-            <ul class="tabs" data-tabs id="example-tabs">
-                <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Import</a></li>
-                <li class="tabs-title"><a href="#panel2">Organize</a></li>
-                <li class="tabs-title"><a href="#panel3">View</a></li>
-                <li class="tabs-title"><a href="#panel4">Analyze</a></li>
-                <li class="tabs-title"><a href="#panel5">Publish</a></li>
-                <li class="tabs-title"><a href="#panel6">Export</a></li>
-            </ul>
-            <div class="tabs-content" data-tabs-content="example-tabs">
-                <!-- begin Panel 1 options -->
-                <div class="tabs-panel is-active" id="panel1">
-                    <h3 class=" text-center">Import</h3>
-                    <div class="row horizontal">
-                        <div class="medium-4 columns">
-                            <img src="http://placehold.it/300x300"/>
-                        </div>
-                        <div class="medium-8 columns">
-                            <p>Browse the images on your local machine or file-system, select and add them to the import queue. OMERO uploads the images in their original format, stores them securely with all their metadata, and generates thumbnails for browsing. Bio-Formats allows OMERO to support over 140 image file formats, including all the major biological microscopy, HCS, tissue scanner and graphics formats. For a complete list of formats see <a href="https://www.openmicroscopy.org/site/support/bio-formats5/supported-formats.html" target="_blank">Supported Formats</a>. Import can be performed from the OMERO.insight desktop app, or via the command line. OMERO also supports a <a ref="https://www.openmicroscopy.org/site/support/omero/sysadmins/dropbox.html" target="_blank">'Drop-box'</a> on the server where any files copied to a specified directory are automatically imported.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- begin Panel 2 options -->
-                <div class="tabs-panel" id="panel2">
-                    <h3 class=" text-center">Organize</h3>
-                    <div class="row horizontal">
-                        <div class="medium-8 columns">
-                            <p class="text-right">You can access your data in OMERO from any platform. Our client apps run on any OS (Windows, Mac or Linux) and the OMERO.web app runs in your browser. OMERO lets you organise your data how you want using 'Projects' and 'Datasets' to manage your images. You can create tags and tag groups to annotate images with key-words of your choice. OMERO also supports rating, comments, and file attachments. Once annotated, you can browse, filter or search your images by their annotations and export a table of tag-counts for a Dataset of images. Users of OMERO can be organized into groups, each with different permissions levels, allowing you to collaborate with your colleagues. You can share and annotate the data you want with the people you want.</p>
-                        </div>
-                        <div class="medium-4 columns">
-                            <img src="http://placehold.it/300x300"/>
-                        </div>
-                    </div>
-                </div>
-                <!-- begin Panel 3 options -->
-                <div class="tabs-panel" id="panel3">
-                    <h3 class=" text-center">View</h3>
-                    <div class="row horizontal">
-                        <div class="medium-4 columns">
-                            <img src="http://placehold.it/300x300"/>
-                        </div>
-                        <div class="medium-8 columns">
-                            <p>In OMERO, you can view your images in multiple dimensions, scrolling through Z-sections and time-points. Turn channels on and off, change channel colours and adjust rendering settings. You can also copy and paste settings between images. Viewing images remotely in OMERO is fast, because you don't need to download the whole image to view it. OMERO simply renders the planes you want and sends the rendered image to the client app. Even if you want to view a Z-projection: OMERO does the projection on the server and sends you the result. OMERO also supports 'Big' images with viewers that allow you to pan and zoom in a 'Google maps' manner.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- begin Panel 4 options -->
-                <div class="tabs-panel" id="panel4">
-                    <h3 class=" text-center">Analyze</h3>
-                    <div class="row horizontal">
-                        <div class="medium-8 columns">
-                            <p class="text-right">In OMERO, you can draw regions of interest on your images and measure their dimensions and pixel intensities, exporting the data as a spread-sheet. OMERO supports Python scripting, allowing you to write analysis scripts that run on the server. These scripts can be launched from the apps allowing all users to access additional functionality on the server.</p>                            
-                            <p class="text-right">OMERO's open API allows client apps written in Java, Python, C++ or MATLAB to access image data and save analysis results back to the server, making OMERO a powerful platform for 3rd party analysis tools. OMERO includes a simple ImageJ plugin which allows ImageJ/Fiji to access images on OMERO. For more info, please see the <a href="https://www.openmicroscopy.org/site/support/omero5/developers/" target="_blank">OMERO developer section</a>.</p>
-                        </div>
-                        <div class="medium-4 columns">
-                            <img src="http://placehold.it/300x300"/>
-                        </div>
-                    </div>
-                </div>
-                <!-- begin Panel 5 options -->
-                <div class="tabs-panel" id="panel5">
-                    <h3 class=" text-center">Publish</h3>
-                    <div class="row horizontal">
-                        <div class="medium-4 columns">
-                            <img src="http://placehold.it/300x300"/>
-                        </div>
-                        <div class="medium-8 columns">
-                            <p>With OMERO you can publish your raw data straight from the server. You can use URLs to link directly to the web-based image viewer in a manuscript or embed images directly into your website. You can control the level of access members of the public have to your data, for example by restricting downloads, and use the permissions system to allow or disallow comments, ratings etc.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- begin Panel 6 options -->
-                <div class="tabs-panel" id="panel6">
-                    <h3 class=" text-center">Export</h3>
-                    <div class="row horizontal">
-                        <div class="medium-8 columns">
-                            <p class="text-right">Export your images together with their metadata in their original file format or as ome.tiff files, supported by many other image analysis packages, or open them directly in ImageJ. Export data as a movie or as auto-generated figures ready for presentation.</p>
-                        </div>
-                        <div class="medium-4 columns">
-                            <img src="http://placehold.it/300x300"/>
-                        </div>
-                    </div>
-                </div>
+        <div class="row small-up-2 large-up-3">
+            <div class="column">
+                <a href="{{ site.baseurl }}/products/omero/import/">
+                    <img class="thumbnail" src="http://placehold.it/300x150">
+                </a>
+                <h5 class="text-center">Import</h5>
+                <p class="text-center">
+                    Import over 150 image formats from microscope, graphics and other imaging formats.
+                    Use the Insight client, command line interface or transfer files directly
+                    to OMERO.
+                </p>
+                <a href="{{ site.baseurl }}/products/omero/import/" class="button expanded">Learn More</a>
+            </div>
+            <div class="column">
+                <a href="{{ site.baseurl }}/products/omero/organize/">
+                    <img class="thumbnail" src="http://placehold.it/300x150">
+                </a>
+                <h5 class="text-center">Organize</h5>
+                <p class="text-center">
+                    Annotate your data with Tags, Comments, Files and more.
+                    Browse or Search your images and share with collaborators.
+                    High Content Screening data is also supported.
+                </p>
+                <a href="{{ site.baseurl }}/products/omero/organize/" class="button expanded">Learn More</a>
+            </div>
+            <div class="column">
+                <a href="{{ site.baseurl }}/products/omero/view/">
+                    <img class="thumbnail" src="http://placehold.it/300x150">
+                </a>
+                <h5 class="text-center">View</h5>
+                <p class="text-center">
+                    Use OMERO.insight and OMERO.web to work with image data over the internet from anywhere. Browse thumbnails, image previews and view in full multi-dimensional viewer.
+                </p>
+                <a href="{{ site.baseurl }}/products/omero/view/" class="button expanded">Learn More</a>
+            </div>
+        </div>
+        <div class="row small-up-2 large-up-3">
+            <div class="column">
+                <a href="{{ site.baseurl }}/products/omero/analyze/">
+                    <img class="thumbnail" src="http://placehold.it/300x150">
+                </a>
+                <h5 class="text-center">Analyze</h5>
+                <p class="text-center">
+                    Use ImageJ, MATLAB, R, scripts and other tools to run analysis on data in OMERO and save results on the server.
+                </p>
+                <a href="{{ site.baseurl }}/products/omero/analyze/" class="button expanded">Learn More</a>
+            </div>
+            <div class="column">
+                <a href="{{ site.baseurl }}/products/omero/export/">
+                    <img class="thumbnail" src="http://placehold.it/300x150">
+                </a>
+                <h5 class="text-center">Export</h5>
+                <p class="text-center">
+                    Download your original image data from anywhere,
+                    export as OME-TIFF or movie formats or quickly create
+                    figures for publication.
+                </p>
+                <a href="{{ site.baseurl }}/products/omero/export/" class="button expanded">Learn More</a>
+            </div>
+            <div class="column">
+                <a href="#">
+                    <img class="thumbnail" src="http://placehold.it/300x150">
+                </a>
+                <h5 class="text-center">Publish? Utility Functions?</h5>
+                <p class="text-center">
+                    Helen - what copy can we put here?
+                </p>
+                <a href="#" class="button expanded">Learn More</a>
             </div>
         </div>
         <!-- end OMERO capabilities -->
