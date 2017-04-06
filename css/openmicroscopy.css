@@ -1,8 +1,122 @@
+body {
+    font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #455a64;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.button {
+    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .menu > li > a.logo { padding: 0 1rem; }
 
 .marketing-hero {
     background: rgba(240, 240, 240, 1) repeat scroll center center / cover ;
     padding: 180px 0 200px;
+}
+
+/* ---------- main navigation ----------*/
+.logo {
+    display: inline;
+    width: 150px;
+}
+
+.top-bar {
+    background-color: #263238;
+    border-bottom: 1px solid #000;
+}
+
+.top-bar ul {
+    background-color: #263238;
+}
+
+.top-bar ul li {
+    vertical-align: middle;
+}
+
+.nav-secondary, .nav-secondary ul {
+    background-color: #37474f;
+    border-bottom: 1px solid #000;
+    font-size: 0.875em;
+    height: 36px;
+}
+
+.nav-secondary > .top-bar-right > .menu > li > a {
+    color: #eceff1;
+}
+
+.nav-secondary > .top-bar-right > .menu > li > a:hover {
+    color: #fff;
+}
+
+.nav-secondary > .top-bar-right > .menu > li > a i {
+    vertical-align: top;
+}
+
+#main-menu .is-dropdown-submenu {
+    border-color: #000;
+}
+#main-menu a {
+    color: #eceff1;
+    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+}
+
+#main-menu a:hover {
+    color: #fff;
+}
+
+#main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: #eceff1 transparent transparent;
+}
+  
+/* ---------- hero background images ----------*/
+.logo-hero {
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.marketing-hero, .callout {
+    background-color: #000;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+[id^="bg-image-"] {
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+[id^="bg-image-"] p { font-weight: bold; }
+
+#bg-image-main { background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.svg'); }
+#bg-image-about { background-image: url('../img/bg/0007-03--2005-08-02_Well_83_Field_1_Spot_83.jpg'); }
+#bg-image-teams { background-image: url('../img/bg/JL_120731_S6A_Well_F-7.jpg'); }
+#bg-image-contributors { background-image: url('../img/bg/LT0002_02_Well_E2_Field_1.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
+#bg-image-commercial-partners { background-image: url('../img/bg/MDA-MB-231_siGENOME_1A_0451_1A_Well_I10_Field_1.jpg'); }
+#bg-image-licensing { background-image: url('../img/bg/plate3_8_010_Well_58_Field_1_Spot_58.jpg'); }
+#bg-image-products { background-image: url('../img/bg/Plate8_Actinome1_Well_G17_Field_1.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
+#bg-image-omero { background-image: url('../img/bg/Plate8_Actinome1_Well_K12_Field_1.jpg'); }
+#bg-image-bio-formats { background-image: url('../img/bg/Plate8_Actinome1_Well_O02_Field_1.jpg'); }
+#bg-image-ome-files { background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.jpg'); }
+#bg-image-support { background-image: url('../img/bg/WT_plate1_Well_G-13.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
+#bg-image-getting-started { background-image: url('../img/bg/Plate8_Actinome1_Well_B05_Field_1.jpg'); }
+
+.bg-image-text-container {
+    background-color: transparent;
+    border-radius: 4px;
+    color: #fff;
+    padding: 40px 30px;
+    text-shadow: none;
 }
 
 hr.whitespace {
@@ -20,30 +134,41 @@ p.link {
 }
 
 .header {
-    background: #074E68;
+    background: #cc0;
     background-size: cover;
     overflow: visible;
     padding-top: 2.5rem;
     padding-bottom: 4.9rem;
-    position: relative;
+    position: relative;  
     text-align: center; }
     .header .headline {
-        color: #ffe;
-}
+        color: #eceff1; }
 
 .header-subnav {
     float: none;
+    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;    
+    margin: 0 auto;
     position: absolute; bottom: 0;
     text-align: center;
-    margin: 0 auto;
     width: 100%; }
     .header-subnav li {
     display: inline-block;
     float: none; }
     .header-subnav li a {
-    font-size: 0.75rem;
-    padding: 0.9rem 1rem;
-}
+        color: #eceff1;
+        display: block;
+        font-size: 0.75rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 0.9rem 1rem;        
+        text-transform: uppercase;        
+        transition: all 0.35s ease-in-out; }
+        .header-subnav li a.is-active {
+            background: rgba(250, 250, 250, 0.15); }
+        .header-subnav li a:hover {
+            background: rgba(250, 250, 250, 0.15);
+            color: #fff;
+            transition: all 0.35s ease-in-out; }
 
 .consortium-list div {
     padding-bottom: 20px; }

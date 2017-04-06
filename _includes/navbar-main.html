@@ -1,12 +1,23 @@
-        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+        <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
             <button class="menu-icon" type="button" data-toggle></button>
             <div class="title-bar-title">Menu</div>
         </div>        
         
-        <div class="top-bar" id="example-menu">
+        <div class="nav-secondary">
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><a href="https://twitter.com/openmicroscopy" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/company/ome---open-microscopy-environment" target="_blank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/openmicroscopy" target="_blank"><i class="fa fa-fw fa-facebook"></i> Facebook</a></li>
+                    <li><a href="http://webchat.freenode.net/?channels=%23ome&uio=d4" target="_blank"><i class="fa fa-fw fa-comments"></i> IRC</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="main-nav-bar top-bar" id="main-menu">
             <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
-                    <li class="menu-text"><a class="logo" href="{{ site.baseurl }}/index.html">OME logo</a></li>
+                    <li><a class="logo" href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/logos/ome.svg" alt="OME logo" /></a></li>
                     <li class="has-submenu"><a href="{{ site.baseurl }}/about/">About Us</a>
                         <ul class="submenu menu vertical" data-submenu>
                             <li><a href="{{ site.baseurl }}/about/teams/">OME Teams</a></li>
@@ -27,6 +38,7 @@
                         </ul>
                     </li>
                     <li><a href="{{ site.baseurl }}/support/">Support</a></li>
+                    <li><a href="http://www.openmicroscopy.org/site/support">Docs</a></li>
                     <li><a href="{{ site.baseurl }}/getting-started/">Getting Started</a></li>
                 </ul>
             </div>

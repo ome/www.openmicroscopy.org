@@ -1,0 +1,19 @@
+{% include head.html %}
+
+        <header class="header">            
+            <h1 class="headline">{{page.feature}} with OMERO</h1>            
+            <ul class="header-subnav">
+                <li><a href="{{ site.baseurl }}/products/omero/"><i class="fa fa-arrow-left"></i> Overview</a></li>
+                <li><a href="{{ site.baseurl }}/products/omero/new/">NEW</a></li>
+                <li><a href="{{ site.baseurl }}/products/omero/import/">Import</a></li>            
+                <li><a href="{{ site.baseurl }}/products/omero/organize/">Organize</a></li>            
+                <li><a href="{{ site.baseurl }}/products/omero/view/">View</a></li>            
+                <li><a href="{{ site.baseurl }}/products/omero/analyze/">Analyze</a></li> 
+                <li><a href="{{ site.baseurl }}/products/omero/publish/">Publish</a></li>
+                <li><a href="{{ site.baseurl }}/products/omero/export/">Export</a></li>           
+            </ul>            
+        </header>
+
+{{ content }}
+
+{% include foot.html %}
