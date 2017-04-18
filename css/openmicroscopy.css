@@ -1,3 +1,4 @@
+/* ---------- global ----------*/
 body {
     font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
     font-weight: 400;
@@ -19,6 +20,16 @@ h1, h2, h3, h4, h5, h6 {
 .marketing-hero {
     background: rgba(240, 240, 240, 1) repeat scroll center center / cover ;
     padding: 180px 0 200px;
+}
+
+hr.whitespace {
+    border: none;
+    height: 1.875rem;
+}
+
+.their-logo, .their-logo:hover {
+    border-width: 0px;
+    box-shadow: none;
 }
 
 /* ---------- main navigation ----------*/
@@ -76,6 +87,43 @@ h1, h2, h3, h4, h5, h6 {
 #main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
     border-color: #eceff1 transparent transparent;
 }
+
+.header {
+    background: #cc0;
+    background-size: cover;
+    overflow: visible;
+    padding-top: 2.5rem;
+    padding-bottom: 4.9rem;
+    position: relative;  
+    text-align: center; }
+    .header .headline {
+        color: #eceff1; }
+
+.header-subnav {
+    float: none;
+    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;    
+    margin: 0 auto;
+    position: absolute; bottom: 0;
+    text-align: center;
+    width: 100%; }
+    .header-subnav li {
+    display: inline-block;
+    float: none; }
+    .header-subnav li a {
+        color: #eceff1;
+        display: block;
+        font-size: 0.75rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 0.9rem 1rem;        
+        text-transform: uppercase;        
+        transition: all 0.35s ease-in-out; }
+        .header-subnav li a.is-active {
+            background: rgba(250, 250, 250, 0.15); }
+        .header-subnav li a:hover {
+            background: rgba(250, 250, 250, 0.15);
+            color: #fff;
+            transition: all 0.35s ease-in-out; }
   
 /* ---------- hero background images ----------*/
 .logo-hero {
@@ -119,57 +167,10 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: none;
 }
 
-hr.whitespace {
-    border: none;
-    height: 1.875rem;
-}
+/* ---------- graphics: logos ----------*/
 
-p.link {
-    /* Liza to add style */
-}
 
-.their-logo, .their-logo:hover {
-    border-width: 0px;
-    box-shadow: none;
-}
-
-.header {
-    background: #cc0;
-    background-size: cover;
-    overflow: visible;
-    padding-top: 2.5rem;
-    padding-bottom: 4.9rem;
-    position: relative;  
-    text-align: center; }
-    .header .headline {
-        color: #eceff1; }
-
-.header-subnav {
-    float: none;
-    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;    
-    margin: 0 auto;
-    position: absolute; bottom: 0;
-    text-align: center;
-    width: 100%; }
-    .header-subnav li {
-    display: inline-block;
-    float: none; }
-    .header-subnav li a {
-        color: #eceff1;
-        display: block;
-        font-size: 0.75rem;
-        font-weight: bold;
-        letter-spacing: 1px;
-        padding: 0.9rem 1rem;        
-        text-transform: uppercase;        
-        transition: all 0.35s ease-in-out; }
-        .header-subnav li a.is-active {
-            background: rgba(250, 250, 250, 0.15); }
-        .header-subnav li a:hover {
-            background: rgba(250, 250, 250, 0.15);
-            color: #fff;
-            transition: all 0.35s ease-in-out; }
-
+/* ---------- pages: About ----------*/
 .consortium-list div {
     padding-bottom: 20px; }
     span.institution  {
