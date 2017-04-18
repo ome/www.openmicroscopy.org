@@ -168,7 +168,21 @@ hr.whitespace {
 }
 
 /* ---------- graphics: logos ----------*/
+.thumbnail {
+    border: none;
+    box-shadow: none;
+}
 
+.thumbnail:focus, .thumbnail:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.logomark {
+    background-color: #e3f2fd;
+    border-radius: 4px;
+    max-width: 125px;
+}
 
 /* ---------- pages: About ----------*/
 .consortium-list div {
