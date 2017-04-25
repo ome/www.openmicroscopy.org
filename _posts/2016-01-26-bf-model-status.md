@@ -38,7 +38,7 @@ Regions of Interest are core features of the OME Data Model currently stored
 as image components without any ordering or structure. We have identified
 several use cases across a wide range of imaging domains from high content
 screening to digital pathology where this representation limits the ROI
-usability. For instance, the [Image Data Resource](http://idr.openmicroscopy.org/)
+usability. For instance, the [Image Data Resource](http://idr.openmicroscopy.org/)[^1]
 built by OME contains several datasets where each image is associated with
 several hundreds of thousands of ROIs (nice examples are [here](http://idr.openmicroscopy.org/webclient/?show=well-590686),
 [here](http://idr.openmicroscopy.org/tara/webclient/?show=plate-362), and
@@ -91,3 +91,5 @@ provide the reference implementation for working with the file formats defined
 by the Open Microscopy Environment—OME-XML and OME-TIFF—in Java and C++
 and the new development cycle will allow us to get updates out to our users as
 quickly as possible.
+
+[^1]: At time of publication, this was referred to as the 'Image Data Repository'.
