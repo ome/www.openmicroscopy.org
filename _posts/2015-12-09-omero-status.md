@@ -99,4 +99,4 @@ they already do with images and tags. All of these new capabilities will start
 to appear in OMERO 5.3 (currently scheduled for Spring 2016) and in several
 point releases through 2016.
 
-[^1]: At time of publication, this was referred to as the 'Image Data Repository'.
+[^1]: At the time of publication, this was referred to as the 'Image Data Repository'.

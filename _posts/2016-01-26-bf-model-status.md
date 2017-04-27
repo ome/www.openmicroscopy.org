@@ -92,4 +92,4 @@ by the Open Microscopy Environment—OME-XML and OME-TIFF—in Java and C++
 and the new development cycle will allow us to get updates out to our users as
 quickly as possible.
 
-[^1]: At time of publication, this was referred to as the 'Image Data Repository'.
+[^1]: At the time of publication, this was referred to as the 'Image Data Repository'.
