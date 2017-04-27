@@ -88,17 +88,6 @@ hr.whitespace {
     border-color: #eceff1 transparent transparent;
 }
 
-.header {
-    background: #cc0;
-    background-size: cover;
-    overflow: visible;
-    padding-top: 2.5rem;
-    padding-bottom: 4.9rem;
-    position: relative;  
-    text-align: center; }
-    .header .headline {
-        color: #eceff1; }
-
 .header-subnav {
     float: none;
     font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;    
@@ -124,6 +113,28 @@ hr.whitespace {
             background: rgba(250, 250, 250, 0.15);
             color: #fff;
             transition: all 0.35s ease-in-out; }
+            
+/* ---------- header background images ----------*/
+.header {
+    background: #000;
+    background-size: cover;
+    overflow: visible;
+    padding-top: 2.5rem;
+    padding-bottom: 4.9rem;
+    position: relative;  
+    text-align: center; }
+    .header .headline {
+        color: #eceff1; }
+        
+[id^="header-bg-"] {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+#header-bg-scientists { background-image: url('../img/bg/omero-scientist.jpg'); }
+#header-bg-developers { background-image: url('../img/bg/omero-developer.jpg'); }
+#header-bg-institutions { background-image: url('../img/bg/omero-institution.jpg'); }
   
 /* ---------- hero background images ----------*/
 .logo-hero {
@@ -134,7 +145,7 @@ hr.whitespace {
 .marketing-hero, .callout {
     background-color: #000;
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     
 }
