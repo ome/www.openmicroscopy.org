@@ -146,7 +146,7 @@ hr.whitespace {
 
 [id^="bg-image-"] p { font-weight: bold; }
 
-#bg-image-main { background-image: url('../img/bg/main.svg'); }
+#bg-image-main { background-image: url('../img/bg/main.jpg'); }
 #bg-image-about { background-image: url('../img/bg/about.jpg'); }
 #bg-image-teams { background-image: url('../img/bg/teams.jpg'); }
 #bg-image-contributors { background-image: url('../img/bg/contributors.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
