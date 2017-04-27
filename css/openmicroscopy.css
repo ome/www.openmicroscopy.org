@@ -1,3 +1,4 @@
+/* ---------- global ----------*/
 body {
     font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
     font-weight: 400;
@@ -16,9 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu > li > a.logo { padding: 0 1rem; }
 
-.marketing-hero {
-    background: rgba(240, 240, 240, 1) repeat scroll center center / cover ;
-    padding: 180px 0 200px;
+hr.whitespace {
+    border: none;
+    height: 1.875rem;
+}
+
+.their-logo, .their-logo:hover {
+    border-width: 0px;
+    box-shadow: none;
 }
 
 /* ---------- main navigation ----------*/
@@ -76,73 +82,6 @@ h1, h2, h3, h4, h5, h6 {
 #main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
     border-color: #eceff1 transparent transparent;
 }
-  
-/* ---------- hero background images ----------*/
-.logo-hero {
-    margin-bottom: 30px;
-    width: 200px;
-}
-
-.marketing-hero, .callout {
-    background-color: #000;
-    background-position: center center;
-    background-repeat: repeat;
-    background-size: cover;
-    
-}
-
-[id^="bg-image-"] {
-    color: #fff;
-    text-shadow: 0px 1px 2px rgba(0,0,0,.2);
-}
-
-[id^="bg-image-"] p { font-weight: bold; }
-
-#bg-image-main { background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.svg'); }
-#bg-image-about { background-image: url('../img/bg/0007-03--2005-08-02_Well_83_Field_1_Spot_83.jpg'); }
-#bg-image-teams { background-image: url('../img/bg/JL_120731_S6A_Well_F-7.jpg'); }
-#bg-image-contributors { background-image: url('../img/bg/LT0002_02_Well_E2_Field_1.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
-#bg-image-commercial-partners { background-image: url('../img/bg/MDA-MB-231_siGENOME_1A_0451_1A_Well_I10_Field_1.jpg'); }
-#bg-image-licensing { background-image: url('../img/bg/plate3_8_010_Well_58_Field_1_Spot_58.jpg'); }
-#bg-image-products { background-image: url('../img/bg/Plate8_Actinome1_Well_G17_Field_1.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
-#bg-image-omero { background-image: url('../img/bg/Plate8_Actinome1_Well_K12_Field_1.jpg'); }
-#bg-image-bio-formats { background-image: url('../img/bg/Plate8_Actinome1_Well_O02_Field_1.jpg'); }
-#bg-image-ome-files { background-image: url('../img/bg/Plate10_Actinome1_Well_G01_Field_1.jpg'); }
-#bg-image-support { background-image: url('../img/bg/WT_plate1_Well_G-13.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
-#bg-image-getting-started { background-image: url('../img/bg/Plate8_Actinome1_Well_B05_Field_1.jpg'); }
-
-.bg-image-text-container {
-    background-color: transparent;
-    border-radius: 4px;
-    color: #fff;
-    padding: 40px 30px;
-    text-shadow: none;
-}
-
-hr.whitespace {
-    border: none;
-    height: 1.875rem;
-}
-
-p.link {
-    /* Liza to add style */
-}
-
-.their-logo, .their-logo:hover {
-    border-width: 0px;
-    box-shadow: none;
-}
-
-.header {
-    background: #cc0;
-    background-size: cover;
-    overflow: visible;
-    padding-top: 2.5rem;
-    padding-bottom: 4.9rem;
-    position: relative;  
-    text-align: center; }
-    .header .headline {
-        color: #eceff1; }
 
 .header-subnav {
     float: none;
@@ -169,7 +108,103 @@ p.link {
             background: rgba(250, 250, 250, 0.15);
             color: #fff;
             transition: all 0.35s ease-in-out; }
+            
+/* ---------- header background images ----------*/
+.header {
+    background: #000;
+    background-size: cover;
+    overflow: visible;
+    padding-top: 2.5rem;
+    padding-bottom: 4.9rem;
+    position: relative;  
+    text-align: center; }
+    .header .headline {
+        color: #eceff1; }
+        
+[id^="header-bg-"] {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+#header-bg-scientists { background-image: url('../img/bg/omero-scientist.jpg'); }
+#header-bg-developers { background-image: url('../img/bg/omero-developer.jpg'); }
+#header-bg-institutions { background-image: url('../img/bg/omero-institution.jpg'); }
+  
+/* ---------- hero background images ----------*/
+.marketing-hero {
+    padding: 180px 0 200px;
+}
 
+.marketing-hero, .callout {
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+[id^="bg-image-"] {
+    color: #fff;
+    text-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+[id^="bg-image-"] p { font-weight: bold; }
+
+#bg-image-main { background-image: url('../img/bg/main.jpg'); }
+#bg-image-about { background-image: url('../img/bg/about.jpg'); }
+#bg-image-teams { background-image: url('../img/bg/teams.jpg'); }
+#bg-image-contributors { background-image: url('../img/bg/contributors.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
+#bg-image-commercial-partners { background-image: url('../img/bg/commercial-partners.jpg'); }
+#bg-image-licensing { background-image: url('../img/bg/licensing.jpg'); }
+#bg-image-products { background-image: url('../img/bg/products.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
+#bg-image-omero { background-image: url('../img/bg/omero.jpg'); }
+#bg-image-bio-formats { background-image: url('../img/bg/bio-formats.jpg'); }
+#bg-image-ome-files { background-image: url('../img/bg/ome-files.jpg'); }
+#bg-image-support { background-image: url('../img/bg/support.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
+#bg-image-getting-started { background-image: url('../img/bg/getting-started.jpg'); }
+
+.bg-image-text-container {
+    background-color: transparent;
+    border-radius: 4px;
+    color: #fff;
+    padding: 40px 30px;
+    text-shadow: none;
+}
+
+/* ---------- graphics: logos ----------*/
+.logo-hero {
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.section-title-logo { max-height: 70px; }
+
+.section-title-img-logo {
+    background-color: #eceff1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    min-height: 120px;
+    padding: 25px;
+}
+
+.thumbnail {
+    border: none;
+    box-shadow: none;
+}
+
+.thumbnail:focus, .thumbnail:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.logomark {
+    background-color: #e3f2fd;
+    border-radius: 4px;
+    max-width: 125px;
+}
+
+/* ---------- pages: About ----------*/
 .consortium-list div {
     padding-bottom: 20px; }
     span.institution  {
