@@ -132,11 +132,6 @@ hr.whitespace {
 #header-bg-institutions { background-image: url('../img/bg/omero-institution.jpg'); }
   
 /* ---------- hero background images ----------*/
-.logo-hero {
-    margin-bottom: 30px;
-    width: 200px;
-}
-
 .marketing-hero {
     padding: 180px 0 200px;
 }
@@ -178,6 +173,21 @@ hr.whitespace {
 }
 
 /* ---------- graphics: logos ----------*/
+.logo-hero {
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.section-title-logo { max-height: 70px; }
+
+.section-title-img-logo {
+    background-color: #eceff1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    min-height: 120px;
+    padding: 25px;
+}
+
 .thumbnail {
     border: none;
     box-shadow: none;
