@@ -1,7 +1,7 @@
 {% include head.html %}
 
-        <header class="header">            
-            <h1 class="headline">OMERO for {{page.usergroup}}</h1>            
+        <header class="header" id="header-bg-{{page.usergroup}}">            
+            <h1 class="headline">OMERO for <span style="text-transform: capitalize;">{{page.usergroup}}</span></h1>            
             <ul class="header-subnav">
                 <li><a href="{{ site.baseurl }}/products/omero/"><i class="fa fa-arrow-left"></i> Overview</a></li>
                 <li><a href="index.html">Summary</a></li>            
