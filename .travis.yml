@@ -8,4 +8,4 @@ env:
 install: bundle install
 script:
     - bundle exec jekyll build
-    - bundle exec htmlproofer ./_site
+    # - bundle exec htmlproofer ./_site
