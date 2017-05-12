@@ -220,6 +220,14 @@ hr.whitespace {
 .icon-fa-one-third { }
 .icon-fa-one-fourth { }
 
+/* ---------- graphics: OMERO features ----------*/
+.omero-feature {
+    max-width: 128px;
+}
+
+.icon-fa-one-third { }
+.icon-fa-one-fourth { }
+
 /* ---------- pages: About ----------*/
 .consortium-list div {
     padding-bottom: 20px; }
