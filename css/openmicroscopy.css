@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
 }
 
+a {
+    font-weight: bold;    
+}
+
 .button {
     font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
     text-transform: uppercase;
@@ -68,6 +72,7 @@ hr.whitespace {
 #main-menu .is-dropdown-submenu {
     border-color: #000;
 }
+
 #main-menu a {
     color: #eceff1;
     font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
@@ -203,6 +208,25 @@ hr.whitespace {
     border-radius: 4px;
     max-width: 125px;
 }
+
+/* ---------- graphics: FontAwesome icons ----------*/
+[class^="icon-fa-"] {
+    background-color: transparent;
+    color: #009688;
+    padding: 25px 50px;
+    text-align: center;
+}
+
+.icon-fa-one-third { }
+.icon-fa-one-fourth { }
+
+/* ---------- graphics: OMERO features ----------*/
+.omero-feature {
+    max-width: 128px;
+}
+
+.icon-fa-one-third { }
+.icon-fa-one-fourth { }
 
 /* ---------- pages: About ----------*/
 .consortium-list div {
