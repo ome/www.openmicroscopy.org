@@ -182,6 +182,12 @@ hr.whitespace {
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
+.hero-main-header, div.callout > div.text-center h1 {
+    font-family: Montserrat;
+    text-shadow: 1px 5px 15px rgba(0,0,0,1);
+    text-transform: uppercase;
+}
+
 /* ---------- graphics: logos ----------*/
 .logo-hero {
     margin-bottom: 30px;
