@@ -170,17 +170,23 @@ hr.whitespace {
 #bg-image-getting-started { background-image: url('../img/bg/getting-started.jpg'); }
 
 .bg-image-text-container {
-    background-color: transparent;
-    border-radius: 4px;
+    background-color: rgba(0,0,0,.25);
+    border-radius: 8px;
     color: #fff;
     padding: 40px 30px;
     text-shadow: none;
+}
+
+.hero-subheader {
+    font-weight: bold;
+    text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
 /* ---------- graphics: logos ----------*/
 .logo-hero {
     margin-bottom: 30px;
     height: 70px;
+    text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
 .section-title-logo { max-height: 70px; }
