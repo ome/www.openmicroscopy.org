@@ -182,8 +182,9 @@ hr.whitespace {
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
-.hero-main-header, div.callout > div.text-center h1 {
+.hero-main-header, div.callout > div.text-center h1, .headline {
     font-family: Montserrat;
+    font-size: 2.5rem;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
     text-transform: uppercase;
 }
