@@ -165,12 +165,13 @@ hr.whitespace {
 #bg-image-products { background-image: url('../img/bg/products.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
 #bg-image-omero { background-image: url('../img/bg/omero.jpg'); }
 #bg-image-bio-formats { background-image: url('../img/bg/bio-formats.jpg'); }
+#bg-image-community { background-image: url('../img/bg/community.jpg'); }
 #bg-image-ome-files { background-image: url('../img/bg/ome-files.jpg'); }
 #bg-image-support { background-image: url('../img/bg/support.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
 #bg-image-getting-started { background-image: url('../img/bg/getting-started.jpg'); }
 
 .bg-image-text-container {
-    background-color: rgba(0,0,0,.25);
+    background-color: transparent;
     border-radius: 8px;
     color: #fff;
     padding: 40px 30px;
