@@ -7,5 +7,5 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 install: bundle install
 script:
-    - bundle exec jekyll build
-    # - bundle exec htmlproofer ./_site
+    - bundle exec jekyll build  -d _site/www.openmicroscopy.org
+    - bundle exec htmlproofer ./_site --disable-external || echo "Failed"
