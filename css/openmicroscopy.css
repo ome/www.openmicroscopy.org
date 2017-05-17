@@ -165,22 +165,36 @@ hr.whitespace {
 #bg-image-products { background-image: url('../img/bg/products.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
 #bg-image-omero { background-image: url('../img/bg/omero.jpg'); }
 #bg-image-bio-formats { background-image: url('../img/bg/bio-formats.jpg'); }
+#bg-image-community { background-image: url('../img/bg/community.jpg'); }
 #bg-image-ome-files { background-image: url('../img/bg/ome-files.jpg'); }
 #bg-image-support { background-image: url('../img/bg/support.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
 #bg-image-getting-started { background-image: url('../img/bg/getting-started.jpg'); }
 
 .bg-image-text-container {
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #fff;
     padding: 40px 30px;
     text-shadow: none;
+}
+
+.hero-subheader {
+    font-weight: bold;
+    text-shadow: 1px 5px 15px rgba(0,0,0,1);
+}
+
+.hero-main-header, div.callout > div.text-center h1, .headline {
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    text-shadow: 1px 5px 15px rgba(0,0,0,1);
+    text-transform: uppercase;
 }
 
 /* ---------- graphics: logos ----------*/
 .logo-hero {
     margin-bottom: 30px;
     height: 70px;
+    text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
 .section-title-logo { max-height: 70px; }
