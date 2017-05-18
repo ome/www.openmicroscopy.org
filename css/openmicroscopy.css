@@ -223,6 +223,23 @@ hr.whitespace {
     max-width: 125px;
 }
 
+.container-card-2 {
+    border: 1px solid #cfd8dc;
+    border-width: 3px 1px 1px;
+    display: block;
+    margin-bottom: 50px;
+    min-height: 400px;
+    padding: 40px 50px;
+}
+
+.container-card-2:first-child { margin-left: 50px; }
+.container-card-2:nth-child(2) { margin-right: 50px; }
+
+.top-blue { border-top-color: #03a9f4; }
+.top-gray { border-top-color: #b0bec5; }
+.top-green { border-top-color: #009688; }
+.top-red { border-top-color: #ef5350; }
+
 /* ---------- graphics: FontAwesome icons ----------*/
 [class^="icon-fa-"] {
     background-color: transparent;
@@ -231,16 +248,10 @@ hr.whitespace {
     text-align: center;
 }
 
-.icon-fa-one-third { }
-.icon-fa-one-fourth { }
-
 /* ---------- graphics: OMERO features ----------*/
 .omero-feature {
     max-width: 128px;
 }
-
-.icon-fa-one-third { }
-.icon-fa-one-fourth { }
 
 /* ---------- pages: About ----------*/
 .consortium-list div {
