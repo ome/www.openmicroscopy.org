@@ -200,6 +200,17 @@ hr.whitespace {
 
 .card-public-server { min-height: 420px; }
 
+.card-docs { min-height: 300px; }
+    .card-docs > .card-section > h5 { min-height: 180px; }
+    .card-docs > .card-section > p { min-height: 130px; }
+    .card-docs.top-blue:hover { background-color: #03a9f4; }
+    .card-docs.top-gray:hover { background-color: #b0bec5; }
+    .card-docs.top-green:hover { background-color: #009688; }
+    .card-docs.top-red:hover { background-color: #ef5350; }
+    .card-docs:hover, .card-docs:hover > .card-section > a { color: #fff; }
+    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px; }
+
+
 .top-blue { border-top-color: #03a9f4; }
 .top-gray { border-top-color: #b0bec5; }
 .top-green { border-top-color: #009688; }
