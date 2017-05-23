@@ -200,6 +200,17 @@ hr.whitespace {
 
 .card-public-server { min-height: 420px; }
 
+.card-getting-started { min-height: 480px; }
+    .card-getting-started > .card-section > p { min-height: 130px; }
+    .card-getting-started > .card-section > i.fa {
+        background-color: #eceff1;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        display: block;
+        margin: 20px 0;
+        padding: 30px;
+        text-align: center; }
+
 .card-docs { min-height: 300px; }
     .card-docs > .card-section > h5 { min-height: 180px; }
     .card-docs > .card-section > p { min-height: 130px; }
@@ -215,6 +226,11 @@ hr.whitespace {
 .top-gray { border-top-color: #b0bec5; }
 .top-green { border-top-color: #009688; }
 .top-red { border-top-color: #ef5350; }
+
+.icon-blue { color: #03a9f4; }
+.icon-gray { color: #b0bec5; }
+.icon-green { color: #009688; }
+.icon-red { color: #ef5350; }
 
 /* ---------- graphics: logos ----------*/
 .logo-hero {
