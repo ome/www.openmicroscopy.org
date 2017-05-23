@@ -190,6 +190,21 @@ hr.whitespace {
     text-transform: uppercase;
 }
 
+/* ---------- cards ----------*/
+.card {
+    border: 1px solid #cfd8dc;
+    border-width: 3px 1px 1px;
+    margin: 20px 0px 40px;
+    padding: 40px 50px;
+}
+
+.card-public-server { min-height: 420px; }
+
+.top-blue { border-top-color: #03a9f4; }
+.top-gray { border-top-color: #b0bec5; }
+.top-green { border-top-color: #009688; }
+.top-red { border-top-color: #ef5350; }
+
 /* ---------- graphics: logos ----------*/
 .logo-hero {
     margin-bottom: 30px;
@@ -222,23 +237,6 @@ hr.whitespace {
     border-radius: 4px;
     max-width: 125px;
 }
-
-.container-card-2 {
-    border: 1px solid #cfd8dc;
-    border-width: 3px 1px 1px;
-    display: block;
-    margin-bottom: 50px;
-    min-height: 400px;
-    padding: 40px 50px;
-}
-
-.container-card-2:first-child { margin-left: 50px; }
-.container-card-2:nth-child(2) { margin-right: 50px; }
-
-.top-blue { border-top-color: #03a9f4; }
-.top-gray { border-top-color: #b0bec5; }
-.top-green { border-top-color: #009688; }
-.top-red { border-top-color: #ef5350; }
 
 /* ---------- graphics: FontAwesome icons ----------*/
 [class^="icon-fa-"] {
