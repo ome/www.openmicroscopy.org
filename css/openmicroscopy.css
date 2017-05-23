@@ -198,6 +198,12 @@ hr.whitespace {
     padding: 40px 50px;
 }
 
+.card-feature {
+    border: none;
+    padding: 20px;
+}
+    .card-feature > .card-section > p { min-height: 100px; }
+    
 .card-public-server { min-height: 420px; }
 
 .card-getting-started { min-height: 480px; }
