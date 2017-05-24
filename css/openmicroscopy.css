@@ -190,6 +190,54 @@ hr.whitespace {
     text-transform: uppercase;
 }
 
+/* ---------- cards ----------*/
+.card {
+    border: 1px solid #cfd8dc;
+    border-width: 3px 1px 1px;
+    margin: 20px 0px 40px;
+    padding: 40px 50px;
+}
+
+.card-feature {
+    border: none;
+    padding: 20px;
+}
+    .card-feature > .card-section > p { min-height: 100px; }
+    
+.card-public-server { min-height: 420px; }
+
+.card-getting-started { min-height: 480px; }
+    .card-getting-started > .card-section > p { min-height: 130px; }
+    .card-getting-started > .card-section > i.fa {
+        background-color: #eceff1;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        display: block;
+        margin: 20px 0;
+        padding: 30px;
+        text-align: center; }
+
+.card-docs { min-height: 300px; }
+    .card-docs > .card-section > h5 { min-height: 180px; }
+    .card-docs > .card-section > p { min-height: 130px; }
+    .card-docs.top-blue:hover { background-color: #03a9f4; }
+    .card-docs.top-gray:hover { background-color: #b0bec5; }
+    .card-docs.top-green:hover { background-color: #009688; }
+    .card-docs.top-red:hover { background-color: #ef5350; }
+    .card-docs:hover, .card-docs:hover > .card-section > a { color: #fff; }
+    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px; }
+
+
+.top-blue { border-top-color: #03a9f4; }
+.top-gray { border-top-color: #b0bec5; }
+.top-green { border-top-color: #009688; }
+.top-red { border-top-color: #ef5350; }
+
+.icon-blue { color: #03a9f4; }
+.icon-gray { color: #b0bec5; }
+.icon-green { color: #009688; }
+.icon-red { color: #ef5350; }
+
 /* ---------- graphics: logos ----------*/
 .logo-hero {
     margin-bottom: 30px;
@@ -222,23 +270,6 @@ hr.whitespace {
     border-radius: 4px;
     max-width: 125px;
 }
-
-.container-card-2 {
-    border: 1px solid #cfd8dc;
-    border-width: 3px 1px 1px;
-    display: block;
-    margin-bottom: 50px;
-    min-height: 400px;
-    padding: 40px 50px;
-}
-
-.container-card-2:first-child { margin-left: 50px; }
-.container-card-2:nth-child(2) { margin-right: 50px; }
-
-.top-blue { border-top-color: #03a9f4; }
-.top-gray { border-top-color: #b0bec5; }
-.top-green { border-top-color: #009688; }
-.top-red { border-top-color: #ef5350; }
 
 /* ---------- graphics: FontAwesome icons ----------*/
 [class^="icon-fa-"] {
