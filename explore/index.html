@@ -25,13 +25,13 @@ title: Explore
         <div class="row column text-center">
             <div class="small-12 columns">
                 <h2>OME for Scientists</h2>
-                <h5 class="subheader">Read any image data from Java, Image/Fiji (link to), GNU Octave/MATLAB, Python, R with Bio-Formats.</h5>
+                <h5 class="subheader">Read any image data from Java, <a href="https://imagej.net/Welcome" target="_blank">Image</a>/<a href="https://fiji.sc/" target="_blank">Fiji</a>, GNU Octave/MATLAB, Python, R with Bio-Formats.</h5>
             </div>
         </div>
         <hr>
         <div class="row column text-center">
             <p>Sign up for our <a href="http://help.openmicroscopy.org/demo-server.html">demo server</a> to test out the functionality with your own data.</p>
-            <p>Already using ImageJ/Fiji? Check out the <a href="https://www.openmicroscopy.org/site/support/bio-formats5.4/users/index.html#using-bio-formats-with-imagej-and-fiji">Bio-Formats</a> plugin</p>
+            <p>Already using ImageJ/Fiji? Check out the <a href="https://www.openmicroscopy.org/site/support/bio-formats5.4/users/index.html#using-bio-formats-with-imagej-and-fiji">Bio-Formats</a> plugin.</p>
         </div>
         <!-- end section for OMERO for Scientists -->
         
@@ -46,6 +46,7 @@ title: Explore
         <hr>
         <div class="row small-up-1 medium-up-2">
             <div class="column">
+                <h5 class="text-center">Start a Server with Ansible</h5>
                 <code class="html">
                     # Start a server with ansible<br>
                     ansible-galaxy install openmicroscopy.omero-server<br>
@@ -61,6 +62,7 @@ title: Explore
                 </code>
             </div>
             <div class="column">
+                <h5 class="text-center">Start a Server in Docker</h5>
                 <code class="html">
                     # Start a server in docker<br>
                     docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres<br>
@@ -69,6 +71,56 @@ title: Explore
                         -p 4063:4063 -p 4064:4064 \<br>
                         openmicroscopy/omero-grid master<br>
                 </code>
+            </div>
+        </div>
+        <div class="row small-up-1 medium-up-3">
+            <div class="column">
+                <h5 class="text-center">Useful DevOps links</h5>
+                <hr>
+                <p>Explore some examples to useful DevOps below:</p>
+                <ul>
+                    <li>Ansible examples:
+                        <ul>
+                            <li><a href="https://github.com/openmicroscopy/ansible-public-omero-example">Public OMERO</a></li>
+                            <li><a href="https://github.com/openmicroscopy/ansible-role-omero-server">OMERO Server</a></li>
+                            <li><a href="https://github.com/openmicroscopy/ansible-role-omero-web">OMERO Web</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://github.com/openmicroscopy/omero-grid-docker">Docker</a></li>
+                    <li><a href="https://anaconda.org/bioconda/python-omero">Python OMERO</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h5 class="text-center">Client Development</h5>
+                <hr>
+                <p >Interested in client development? Check out the following repos for examples:</p>
+                <ul>
+                    <li><a href="https://github.com/ome/minimal-omero-client">Java client</a></li>
+                    <li>Web apps:
+                        <ul>
+                            <li><a href="https://github.com/ome/omero-figure">OMERO.figure</a></li>
+                            <li><a href="https://github.com/ome/omero-mapr">OMERO.mapr</a></li>
+                            <li><a href="https://github.com/ome/omero-iviewer">OMERO.iviewer</a></li>
+                            <li><a href="https://github.com/ome/omero-gallery">OMERO.gallery</a></li>
+                            <li><a href="https://github.com/MicronOxford/webtagging">OMERO.webtagging</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </div>
+            <div class="column">
+                <h5 class="text-center">Image Analysis</h5>
+                <hr>
+                <p>See how OMERO and Bio-Formats integrate with other tools for performing image analysis tasks:</p>
+                <ul>
+                    <li><a href="https://github.com/ome/rOMERO-gateway">R OMERO</a></li>
+                    <li><a href="https://github.com/ome/scripts">Scripts</a> and <a href="https://github.com/openmicroscopy/omero-example-scripts">more scripts</a></li>
+                    <li>Testing environments for <a href="https://www.gnu.org/software/octave/">Octave</a>:
+                        <ul>
+                            <li><a href="https://github.com/openmicroscopy/octave-docker">Octave Docker</a></li>
+                            <li><a href="https://github.com/openmicroscopy/bio-formats-octave-docker">Bio-Formats Octave Docker</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
         
