@@ -31,6 +31,15 @@ hr.whitespace {
     box-shadow: none;
 }
 
+code.html {
+    background: #eceff1 none repeat scroll 0 0;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+    padding: 1rem 4rem 1rem 1rem;
+}
+
 /* ---------- main navigation ----------*/
 .logo {
     display: inline;

@@ -35,6 +35,43 @@ title: Explore
         </div>
         <!-- end section for OMERO for Scientists -->
         
+        <!-- begin section for OMERO for Developers -->
+        <hr class="whitespace">
+        <div class="row column text-center">
+            <div class="small-12 columns">
+                <h2>OME for Developers</h2>
+                <h5 class="subheader">DevOps familiar with Docker or Ansible? Check out our repos to get set up with a test server:</h5>
+            </div>
+        </div>
+        <hr>
+        <div class="row small-up-1 medium-up-2">
+            <div class="column">
+                <code class="html">
+                    # Start a server with ansible<br>
+                    ansible-galaxy install openmicroscopy.omero-server<br>
+                    cat playbook.yml &lt;&lt;EOF<br>
+                    - hosts: localhost<br>
+                      roles:<br>
+                      - role: openmicroscopy.omero-server<br>
+                        postgresql_users_databases:<br>
+                        - user: omero<br>
+                          password: omero<br>
+                          databases: [omero]<br>
+                    EOF<br>
+                </code>
+            </div>
+            <div class="column">
+                <code class="html">
+                    # Start a server in docker<br>
+                    docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres<br>
+                    docker run -d --name omero-master --link postgres:db \<br>
+                        -e DBUSER=postgres -e DBPASS=postgres -e DBNAME=postgres \<br>
+                        -p 4063:4063 -p 4064:4064 \<br>
+                        openmicroscopy/omero-grid master<br>
+                </code>
+            </div>
+        </div>
+        
         <!-- begin section for OMERO for Institutions -->
         <hr class="whitespace">
         <div class="row column text-center">
