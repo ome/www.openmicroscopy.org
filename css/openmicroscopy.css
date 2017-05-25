@@ -192,7 +192,8 @@ hr.whitespace {
 
 /* ---------- cards ----------*/
 .card {
-    border: 1px solid #cfd8dc;
+    border-color: #cfd8dc;
+    border-style: solid;
     border-width: 3px 1px 1px;
     margin: 20px 0px 40px;
     padding: 40px 50px;
@@ -220,10 +221,10 @@ hr.whitespace {
 .card-docs { min-height: 300px; }
     .card-docs > .card-section > h5 { min-height: 180px; }
     .card-docs > .card-section > p { min-height: 130px; }
-    .card-docs.top-blue:hover { background-color: #03a9f4; }
-    .card-docs.top-gray:hover { background-color: #b0bec5; }
-    .card-docs.top-green:hover { background-color: #009688; }
-    .card-docs.top-red:hover { background-color: #ef5350; }
+    .card-docs.top-blue:hover { background-color: #03a9f4; border-color: #03a9f4; }
+    .card-docs.top-gray:hover { background-color: #b0bec5; border-color: #b0bec5; }
+    .card-docs.top-green:hover { background-color: #009688; border-color: #009688; }
+    .card-docs.top-red:hover { background-color: #ef5350; border-color: #ef5350; }
     .card-docs:hover, .card-docs:hover > .card-section > a { color: #fff; }
     .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px; }
 
