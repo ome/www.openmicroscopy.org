@@ -8,4 +8,4 @@ env:
 install: bundle install
 script:
     - bundle exec jekyll build  -d _site/www.openmicroscopy.org
-    - bundle exec htmlproofer ./_site --disable-external || echo "Failed"
+    - bundle exec htmlproofer ./_site --disable-external
