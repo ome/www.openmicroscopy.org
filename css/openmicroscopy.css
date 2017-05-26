@@ -188,6 +188,7 @@ code.html {
 }
 
 .hero-subheader {
+    color: #fff;
     font-weight: bold;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
