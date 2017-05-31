@@ -1,22 +1,18 @@
 /* ---------- global ----------*/
 body {
-    font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #455a64;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
 }
 
 a {
     font-weight: bold;    
-}
-
-.button {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
 }
 
 .menu > li > a.logo { padding: 0 1rem; }
@@ -39,6 +35,16 @@ code.html {
     overflow-x: auto;
     padding: 1rem 4rem 1rem 1rem;
 }
+
+/* ---------- buttons ----------*/
+.button {
+    border-radius: 30px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-red { background-color: #df283f; }
+.btn-red:hover { background-color: #ce2945; }
 
 /* ---------- main navigation ----------*/
 .logo {
@@ -75,7 +81,7 @@ code.html {
 #main-menu a {
     color: #37474f;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 0.8125rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
 }
 
@@ -136,10 +142,6 @@ code.html {
 #header-bg-institutions { background-image: url('../img/bg/omero-institution.jpg'); }
   
 /* ---------- hero background images ----------*/
-.marketing-hero {
-    padding: 50px 0;
-}
-
 .marketing-hero, .callout {
     background-color: #000;
     background-position: center center;
@@ -153,9 +155,18 @@ code.html {
     text-shadow: 0px 1px 2px rgba(0,0,0,.2);
 }
 
-[id^="bg-image-"] p { font-weight: bold; }
+[id^="bg-image-"] > div.text-center p, p.hero-subheader {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
 
-#bg-image-main { background-image: url('../img/bg/main.jpg'); }
+#bg-image-main { 
+    background-image: url('../img/bg/hero-consortium.svg'), url('../img/bg/main.jpg');
+    background-position: center 20px, center center;
+    background-size: 1290px 500px, cover; }
 #bg-image-about { background-image: url('../img/bg/about.jpg'); }
 #bg-image-teams { background-image: url('../img/bg/teams.jpg'); }
 #bg-image-contributors { background-image: url('../img/bg/contributors.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
@@ -171,23 +182,18 @@ code.html {
 
 .bg-image-text-container {
     background-color: transparent;
-    border-radius: 8px;
-    color: #fff;
-    padding: 40px 30px;
+    padding: 130px 0px;
     text-shadow: none;
 }
 
-.hero-subheader {
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 1px 5px 15px rgba(0,0,0,1);
-}
-
 .hero-main-header, div.callout > div.text-center h1, .headline {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.65rem;
+    font-weight: normal;
+    line-height: 1.125;
+    margin-bottom: 20px;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
-    text-transform: uppercase;
 }
 
 /* ---------- cards ----------*/
@@ -241,8 +247,8 @@ code.html {
 
 /* ---------- graphics: logos ----------*/
 .logo-hero {
-    margin-bottom: 30px;
-    height: 70px;
+    margin-bottom: 10px;
+    height: 40px;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
