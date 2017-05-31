@@ -15,7 +15,7 @@ a {
 }
 
 .button {
-    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
@@ -43,63 +43,53 @@ code.html {
 /* ---------- main navigation ----------*/
 .logo {
     display: inline;
-    width: 150px;
+    width: 200px;
 }
 
 .top-bar {
-    background-color: #263238;
-    border-bottom: 1px solid #000;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .top-bar ul {
-    background-color: #263238;
+    background-color: #fff;
+    padding: 25px 0;
 }
 
 .top-bar ul li {
     vertical-align: middle;
 }
 
-.nav-secondary, .nav-secondary ul {
-    background-color: #37474f;
-    border-bottom: 1px solid #000;
-    font-size: 0.875em;
-    height: 36px;
-}
-
-.nav-secondary > .top-bar-right > .menu > li > a {
-    color: #eceff1;
-}
-
-.nav-secondary > .top-bar-right > .menu > li > a:hover {
-    color: #fff;
-}
-
-.nav-secondary > .top-bar-right > .menu > li > a i {
-    vertical-align: top;
+#main-menu {
+    margin: 0 auto;
+    max-width: 1290px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
 }
 
 #main-menu .is-dropdown-submenu {
-    border-color: #000;
+    border-color: #fff;
 }
 
 #main-menu a {
-    color: #eceff1;
-    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    color: #37474f;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     text-transform: uppercase;
 }
 
 #main-menu a:hover {
-    color: #fff;
+    color: #03a9f4;
 }
 
 #main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
-    border-color: #eceff1 transparent transparent;
+    border-color: #37474f transparent transparent;
 }
 
 .header-subnav {
     float: none;
-    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;    
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;    
     margin: 0 auto;
     position: absolute; bottom: 0;
     text-align: center;
@@ -194,7 +184,7 @@ code.html {
 }
 
 .hero-main-header, div.callout > div.text-center h1, .headline {
-    font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2.5rem;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
     text-transform: uppercase;
