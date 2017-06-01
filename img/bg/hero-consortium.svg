@@ -101,14 +101,6 @@
 	<circle class="st4" cx="1236" cy="352" r="8"/>
 	<circle class="st4" cx="60" cy="208" r="8"/>
 </g>
-<g id="connection" class="st5">
-	<g class="st6">
-		<polyline class="st7" points="240,362 74,335.6 216,240 132,90 290,48 		"/>
-		<polyline class="st7" points="1058,214 1120,350 928,370 858,350 		"/>
-		<polyline class="st7" points="524,410 394,350 216,240 60,208 		"/>
-		<polyline class="st7" points="1236,352 1120,350 1220,224 1170,80 1054,76 		"/>
-	</g>
-</g>
 <g id="objects">
 	<g id="share">
 		<g>
@@ -438,16 +430,6 @@
 				<circle class="st11" cx="1098" cy="370" r="8"/>
 			</g>
 		</g>
-	</g>
-</g>
-<g id="palette">
-	<g>
-		<circle class="st11" cx="512" cy="-30" r="5"/>
-		<circle class="st15" cx="526" cy="-30" r="5"/>
-		<circle class="st16" cx="540" cy="-30" r="5"/>
-		<circle class="st17" cx="554" cy="-30" r="5"/>
-		<circle class="st18" cx="568" cy="-30" r="5"/>
-		<circle class="st19" cx="582" cy="-30" r="5"/>
 	</g>
 </g>
 </svg>
