@@ -242,17 +242,23 @@ h6 { color: #90a4ae;
 .card-consortium {
     border-color: #eceff1;
     border-top-width: 1px;
-    font-size: 12px;
+    color: #1d8dcd;
+    font-size: 13px;
     margin: 2pxpx 2px;
     text-align: center;
     padding: 2px;   
+    }
+    .card-consortium:hover {
+    background-color: #1d8dcd;
+    color: #fff;        
 }
 
 .card-feature {
     border: none;
     padding: 20px;
     }
-    .card-feature > .card-section > p { min-height: 100px; }
+    .card-feature > .card-section > p { min-height: 100px;
+}
     
 .card-public-server { min-height: 420px; }
 
@@ -265,7 +271,8 @@ h6 { color: #90a4ae;
         display: block;
         margin: 20px 0;
         padding: 30px;
-        text-align: center; }
+        text-align: center; 
+}
 
 .card-docs { min-height: 300px; }
     .card-docs > .card-section > h5 { min-height: 180px; }
@@ -275,7 +282,8 @@ h6 { color: #90a4ae;
     .card-docs.top-green:hover { background-color: #009688; border-color: #009688; }
     .card-docs.top-red:hover { background-color: #ef5350; border-color: #ef5350; }
     .card-docs:hover, .card-docs:hover > .card-section > a { color: #fff; }
-    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px; }
+    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px;
+}
 
 
 .top-blue { border-top-color: #03a9f4; }
