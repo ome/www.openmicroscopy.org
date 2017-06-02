@@ -198,6 +198,9 @@ h6 { color: #90a4ae;
     text-shadow: none;
 }
 
+.bg-image-text-container-cta { padding: 50px 0px; }
+.bg-image-text-container-cta > p { margin-bottom: 30px; }
+
 .hero-main-header, div.callout > div.text-center h1, .headline {
     color: #fff;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
