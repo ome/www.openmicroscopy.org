@@ -44,7 +44,10 @@ h4 { color: #1c4a87;
      font-size: 1.5rem; }
 h5 { color: #546e7a;
      font-size: 1rem; }
-h6 { font-size: 1rem; }
+h6 { color: #90a4ae;
+     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-size: .75rem;
+     font-weight: normal; }
 
 .subheader { 
     color: #607d8b;
