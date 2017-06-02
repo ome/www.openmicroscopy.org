@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-no-anchor
 title: Commercial Partners
 ---     
         <div class="callout large primary" id="bg-image-commercial-partners">
@@ -138,12 +138,16 @@ title: Commercial Partners
         </div>
         <!-- end OME Partnership -->
         
+        <hr class="whitespace">
+        {% include back-to-top.html %}
+        
         <!-- begin Thank You -->
         <hr class="whitespace">
-        <header class="marketing-hero home-large-hero">
-            <div class="row homepage">
-                <div class="text-center">
-                    <h4 class="hero-subheader">The OME project is grateful to all the organizations for their input and suggestions for the design and implementation of OME interfaces and schema.</h2>
+        <header class="marketing-hero" style="background-image: url('{{ site.baseurl }}/img/bg/commercial-partners.jpg');">
+            <div class="row">
+                <div class="small-12 medium-8 medium-offset-2 columns bg-image-text-container-cta text-center">
+                    <p class="hero-subheader">The OME project is grateful to all the organizations for their input and suggestions for the design and implementation of OME interfaces and schema.</p>
+                    <a href="{{ site.baseurl }}/explore/" class="medium btn-red button sites-button hide-for-small-only" style="text-shadow: none;">Explore OME in Action</a>
                 </div>
             </div>
         </header>

@@ -8,14 +8,23 @@ body {
 
 a { color: #1d8dcd;
     font-weight: 600; }
+    
 a#back-to-top {
+    border: 1px solid transparent;
+    border-radius: 25px;
     color: #df283f;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
-    font-weight: normal;    
+    font-weight: normal;
+    padding: 10px;
+    -webkit-transition: border-color .25s; 
+        transition: border-color .25s;    
+    }
+    a#back-to-top:hover { 
+        border: 1px solid #ce2945;        
+        color: #ce2945; }
+    a#back-to-top > i { margin-right: 6px;
 }
-a#back-to-top:hover { color: #ce2945; }
-a#back-to-top > i { margin-right: 6px; }
 
 hr { border-color: #cfd8dc; }
 hr.whitespace {
@@ -159,7 +168,8 @@ h6 { color: #90a4ae;
         .header-subnav li a:hover {
             background: rgba(250, 250, 250, 0.15);
             color: #fff;
-            transition: all 0.35s ease-in-out; }
+            transition: all 0.35s ease-in-out;
+}
             
 /* ========== hero background images ==========*/
 .marketing-hero, .callout {
