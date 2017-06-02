@@ -1,18 +1,15 @@
-/* ---------- global ----------*/
+/* ========== global ==========*/
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    line-height: 1.5;
-    color: #455a64;
+    font-size: 16px;
+    color: #607d8b;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: normal;
-}
+a { color: #1d8dcd;
+    font-weight: 600; }
 
-a { font-weight: bold; }
-
+hr { border-color: #cfd8dc; }
 hr.whitespace {
     border: none;
     height: 1.875rem;
@@ -32,7 +29,29 @@ code.html {
     padding: 1rem 4rem 1rem 1rem;
 }
 
-/* ---------- buttons ----------*/
+/* ========== headings ========== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { color: #455a64;
+     font-size: 1.975rem; }
+h3 { color: #455a64;
+     font-size: 1.75rem; }
+h4 { color: #1c4a87;
+     font-size: 1.5rem; }
+h5 { color: #546e7a;
+     font-size: 1rem; }
+h6 { font-size: 1rem; }
+
+.subheader { 
+    color: #607d8b;
+    font-size: 1.125rem;
+ }
+
+/* ========== buttons ==========*/
 .button {
     color: #eceff1;
     border-radius: 30px;
@@ -46,7 +65,16 @@ code.html {
 .btn-red { background-color: #df283f; }
 .btn-red:hover { background-color: #ce2945; }
 
-/* ---------- main navigation ----------*/
+.button.hollow {
+    border-color: #128669;
+    color: #128669;
+}
+.button.hollow:hover {
+    border-color: #127559;
+    color: #127559;
+}
+
+/* ========== main navigation ==========*/
 .logo {
     display: inline;
     width: 200px;
@@ -122,7 +150,7 @@ code.html {
             color: #fff;
             transition: all 0.35s ease-in-out; }
             
-/* ---------- hero background images ----------*/
+/* ========== hero background images ==========*/
 .marketing-hero, .callout {
     background-color: #000;
     background-position: center center;
@@ -177,7 +205,7 @@ code.html {
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
-/* ---------- header background images ----------*/
+/* ========== header background images ==========*/
 .header {
     background: #000;
     background-size: cover;
@@ -199,7 +227,7 @@ code.html {
 #header-bg-developers { background-image: url('../img/bg/omero-developer.jpg'); }
 #header-bg-institutions { background-image: url('../img/bg/omero-institution.jpg'); }
 
-/* ---------- cards ----------*/
+/* ========== cards ==========*/
 .card {
     border-color: #cfd8dc;
     border-style: solid;
@@ -208,10 +236,19 @@ code.html {
     padding: 40px 50px;
 }
 
+.card-consortium {
+    border-color: #eceff1;
+    border-top-width: 1px;
+    font-size: 12px;
+    margin: 2pxpx 2px;
+    text-align: center;
+    padding: 2px;   
+}
+
 .card-feature {
     border: none;
     padding: 20px;
-}
+    }
     .card-feature > .card-section > p { min-height: 100px; }
     
 .card-public-server { min-height: 420px; }
@@ -248,7 +285,7 @@ code.html {
 .icon-green { color: #009688; }
 .icon-red { color: #ef5350; }
 
-/* ---------- graphics: logos ----------*/
+/* ========== graphics: logos ==========*/
 .logo-hero {
     margin-bottom: 10px;
     height: 40px;
@@ -281,7 +318,7 @@ code.html {
     max-width: 125px;
 }
 
-/* ---------- graphics: FontAwesome icons ----------*/
+/* ========== graphics: FontAwesome icons ==========*/
 [class^="icon-fa-"] {
     background-color: transparent;
     color: #009688;
@@ -289,12 +326,50 @@ code.html {
     text-align: center;
 }
 
-/* ---------- graphics: OMERO features ----------*/
+/* ========== graphics: OMERO features ==========*/
 .omero-feature {
     max-width: 128px;
 }
 
-/* ---------- pages: About ----------*/
+/* ========== page: About ==========*/
+#team-swedlow > div.column {
+    border: 1px solid transparent;
+    padding-top: 15px;    
+}
+#team-swedlow > div.column:hover {
+    background-color: #eceff1;
+    border-color: #eceff1;    
+}
+a.team-member > h5 {
+    color: #546e7a;
+}
+a.team-member > p.job-title { 
+    min-height: 50px;
+}
+p.job-title {
+    color: #b0bec5;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: .75em;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reveal {
+    border-radius: 4px;
+    padding: 30px 30px 20px;
+}
+.reveal > p { font-size: 14px; }
+.reveal > p:not(.job-title)::first-letter {
+    color: #1c4a87;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 30px;
+    word-wrap: normal;
+}
+#development-teams > .column {
+    margin-bottom: -30px;
+}
+
 .consortium-list div {
     padding-bottom: 20px; }
     span.institution  {
@@ -308,4 +383,4 @@ code.html {
     font-size: 90%;
     padding-left: 5px;       
 }
-    
+
