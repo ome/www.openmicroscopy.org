@@ -8,6 +8,14 @@ body {
 
 a { color: #1d8dcd;
     font-weight: 600; }
+a#back-to-top {
+    color: #df283f;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;    
+}
+a#back-to-top:hover { color: #ce2945; }
+a#back-to-top > i { margin-right: 6px; }
 
 hr { border-color: #cfd8dc; }
 hr.whitespace {
