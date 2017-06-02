@@ -350,6 +350,16 @@ h6 { color: #90a4ae;
     max-width: 125px;
 }
 
+#powered-sites > div > a > img, #thank-you-sites > div > a > img { 
+    cursor: auto;
+    filter: grayscale(100%);
+    -webkit-transition: filter .65s; 
+        transition: filter .65s; 
+    }
+    #powered-sites > div > a > img:hover, #thank-you-sites > div > a > img:hover {
+    filter: grayscale(0%);
+}
+
 /* ========== graphics: FontAwesome icons ==========*/
 [class^="icon-fa-"] {
     background-color: transparent;
