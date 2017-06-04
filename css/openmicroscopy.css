@@ -69,7 +69,12 @@ h6 { color: #90a4ae;
 .subheader { 
     color: #607d8b;
     font-size: 1.125rem;
- }
+}
+
+.header-blue { color: #1d8dcd; }
+.header-indigo { color: #1c4a87; }
+.header-green { color: #128669; }
+.header-red { color: #df283f; }
 
 /* ========== buttons ==========*/
 .button {
@@ -261,13 +266,16 @@ h6 { color: #90a4ae;
 }
 
 .card-consortium {
+    background-color: transparent;
     border-color: #eceff1;
     border-top-width: 1px;
     color: #1d8dcd;
     font-size: 13px;
     margin: 2pxpx 2px;
     text-align: center;
-    padding: 2px;   
+    padding: 2px;
+    -webkit-transition: background-color .65s; 
+        transition: background-color .65s;   
     }
     .card-consortium:hover {
     background-color: #1d8dcd;
@@ -305,7 +313,6 @@ h6 { color: #90a4ae;
     .card-docs:hover, .card-docs:hover > .card-section > a { color: #fff; }
     .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px;
 }
-
 
 .top-blue { border-top-color: #03a9f4; }
 .top-gray { border-top-color: #b0bec5; }
@@ -369,9 +376,21 @@ h6 { color: #90a4ae;
 }
 
 /* ========== graphics: OMERO features ==========*/
-.omero-feature {
-    max-width: 128px;
+.omero-feature-container  { margin-bottom: 40px; }
+    .omero-feature-container > h4 {
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: .95rem;
+        font-weight: normal;
+        text-transform: uppercase; }
+    .omero-feature-container > p {
+        font-size: 14px;
+        min-height: 45px;
+        padding: 0 45px; }
+    .omero-feature-container.tall-content > p {
+        min-height: 70px;
 }
+
+.omero-feature { max-width: 128px; }
 
 /* ========== page: About ==========*/
 #team-swedlow > div.column {
