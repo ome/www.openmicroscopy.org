@@ -375,6 +375,11 @@ h6 { color: #90a4ae;
     text-align: center;
 }
 
+/* ========== graphics: illustrations ==========*/
+.user-group-illustration {
+    max-width: 256px;
+}
+
 /* ========== graphics: OMERO features ==========*/
 .omero-feature-container  { margin-bottom: 40px; }
     .omero-feature-container > h4 {
