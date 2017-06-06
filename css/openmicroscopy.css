@@ -6,6 +6,11 @@ body {
     color: #607d8b;
 }
 
+p {
+    line-height: 1.75;
+    margin-bottom: 2em;
+}
+
 a { color: #1d8dcd;
     font-weight: 600; }
     
@@ -27,6 +32,7 @@ a#back-to-top {
 }
 
 hr { border-color: #cfd8dc; }
+hr.invisible { visibility: hidden; }
 hr.whitespace {
     border: none;
     height: 1.875rem;
@@ -67,7 +73,7 @@ h6 { color: #90a4ae;
      font-weight: normal; }
 
 .subheader { 
-    color: #607d8b;
+    color: #546e7a;
     font-size: 1.125rem;
 }
 
@@ -85,6 +91,8 @@ h6 { color: #90a4ae;
 }
 .button:hover { color: #fff; }
 
+.btn-blue { background-color: #1d8dcd; }
+.btn-blue:hover { background-color: #1e8cbc; }
 .btn-indigo { background-color: #1c4a87; }
 .btn-indigo:hover { background-color: #1b4777; } 
 .btn-red { background-color: #df283f; }
@@ -176,13 +184,11 @@ h6 { color: #90a4ae;
             transition: all 0.35s ease-in-out;
 }
             
-/* ========== hero background images ==========*/
+/* ========== hero background images / callouts ==========*/
 .marketing-hero, .callout {
-    background-color: #000;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 [id^="bg-image-"] {
@@ -370,9 +376,33 @@ h6 { color: #90a4ae;
 /* ========== graphics: FontAwesome icons ==========*/
 [class^="icon-fa-"] {
     background-color: transparent;
-    color: #009688;
-    padding: 25px 50px;
+    border: 1px solid transparent;
+    border-radius: 150px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
     text-align: center;
+}
+
+.icon-fa-big {
+    padding: 30px;
+}
+
+.icon-fa-blue {
+    color: #03a9f4;
+    border-color: #03a9f4;
+}
+.icon-fa-gray {
+    color: #b0bec5;
+    border-color: #b0bec5;
+}
+.icon-fa-green {
+    color: #009688;
+    border-color: #009688;
+}
+.icon-fa-red {
+    color: #ef5350;
+    border-color: #ef5350;
 }
 
 /* ========== graphics: illustrations ==========*/
@@ -382,21 +412,34 @@ h6 { color: #90a4ae;
 }
 
 /* ========== graphics: OMERO features ==========*/
-.omero-feature-container  { margin-bottom: 40px; }
-    .omero-feature-container > h4 {
+.omero-feature-container, .omero-key-feature-container  { margin-bottom: 40px; }
+    .omero-feature-container > h4, .omero-key-feature-container > h4 {
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: .95rem;
         font-weight: normal;
         text-transform: uppercase; }
     .omero-feature-container > p {
-        font-size: 14px;
+        color: #546e7a;
+        font-size: .88rem;
+        line-height: 1.375;
         min-height: 45px;
         padding: 0 45px; }
-    .omero-feature-container.tall-content > p, .tall-caption {
+    .omero-feature-container.tall-content > p {
         min-height: 80px;
 }
 
+.tall-caption {
+    min-height: 85px;
+}
+
+.omero-key-feature-container > p {
+    font-size: .88rem;
+    line-height: 1.375;
+    padding: 0;
+}
+
 .omero-feature { max-width: 128px; }
+.omero-feature-png { max-width: 100px; }
 
 /* ========== page: About ==========*/
 #team-swedlow > div.column {
