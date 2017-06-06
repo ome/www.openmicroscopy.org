@@ -376,7 +376,7 @@ h6 { color: #90a4ae;
 /* ========== graphics: FontAwesome icons ==========*/
 [class^="icon-fa-"] {
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 1px solid #b0bec5;
     border-radius: 150px;
     color: #fff;
     margin-bottom: 20px;
@@ -384,26 +384,12 @@ h6 { color: #90a4ae;
     text-align: center;
 }
 
-.icon-fa-big {
-    padding: 30px;
-}
+.icon-fa-big { padding: 30px; }
 
-.icon-fa-blue {
-    color: #03a9f4;
-    border-color: #03a9f4;
-}
-.icon-fa-gray {
-    color: #b0bec5;
-    border-color: #b0bec5;
-}
-.icon-fa-green {
-    color: #009688;
-    border-color: #009688;
-}
-.icon-fa-red {
-    color: #ef5350;
-    border-color: #ef5350;
-}
+.icon-fa-blue { color: #03a9f4; }
+.icon-fa-gray { color: #b0bec5; }
+.icon-fa-green { color: #009688; }
+.icon-fa-red { color: #ef5350; }
 
 /* ========== graphics: illustrations ==========*/
 .user-group-illustration {
