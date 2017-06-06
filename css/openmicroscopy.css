@@ -331,7 +331,7 @@ h6 { color: #90a4ae;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
-.section-title-logo { max-height: 70px; }
+.section-title-logo { max-height: 60px; }
 
 .section-title-img-logo {
     background-color: #eceff1;
@@ -377,6 +377,7 @@ h6 { color: #90a4ae;
 
 /* ========== graphics: illustrations ==========*/
 .user-group-illustration {
+    margin-bottom: 20px;
     max-width: 256px;
 }
 
@@ -391,8 +392,8 @@ h6 { color: #90a4ae;
         font-size: 14px;
         min-height: 45px;
         padding: 0 45px; }
-    .omero-feature-container.tall-content > p {
-        min-height: 70px;
+    .omero-feature-container.tall-content > p, .tall-caption {
+        min-height: 80px;
 }
 
 .omero-feature { max-width: 128px; }
