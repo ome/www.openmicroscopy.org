@@ -310,14 +310,19 @@ h6 { color: #90a4ae;
 }
 
 .card-docs { min-height: 300px; }
-    .card-docs > .card-section > h5 { font-weight: 600; min-height: 130px; }
+    .card-docs > .card-section > h5 { 
+        color: #1c4a87;
+        font-weight: 600; 
+        min-height: 130px; }
     .card-docs > .card-section > span { font-size: .88rem; }
     .card-docs.top-blue:hover { background-color: #03a9f4; border-color: #03a9f4; }
     .card-docs.top-gray:hover { background-color: #b0bec5; border-color: #b0bec5; }
     .card-docs.top-green:hover { background-color: #009688; border-color: #009688; }
     .card-docs.top-red:hover { background-color: #ef5350; border-color: #ef5350; }
-    .card-docs:hover, .card-docs:hover > .card-section > .doc-title, .card-docs:hover > .card-section > .doc-cta { color: #fff; }
-    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px; }
+    .card-docs:hover, 
+    .card-docs:hover > .card-section > .doc-title,
+    .card-docs:hover > .card-section > p.card-caption,
+    .card-docs:hover > .card-section > .doc-cta { color: #fff; }    
     .doc-cta { color: #1d8dcd; font-size: .88rem; font-weight: 600;
 }
 
