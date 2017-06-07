@@ -320,10 +320,40 @@ h6 { color: #90a4ae;
     .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px;
 }
 
+.card-resource {
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 25px 20px 30px 30px; }
+    .card-resource > .card-section > i.fa {
+        border: 1px solid;
+        border-radius: 120px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .card-resource > .card-section > h4 {
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: uppercase;
+}
+
+p.card-caption {
+    color: #455a64;
+    font-size: .90rem;
+    line-height: 1.475;
+    padding: 0;
+}
+
 .top-blue { border-top-color: #03a9f4; }
 .top-gray { border-top-color: #b0bec5; }
 .top-green { border-top-color: #009688; }
 .top-red { border-top-color: #ef5350; }
+
+.border-blue { border-color: #03a9f4; }
+.border-gray { border-color: #b0bec5; }
+.border-green { border-color: #009688; }
+.border-red { border-color: #ef5350; }
 
 .icon-blue { color: #03a9f4; }
 .icon-gray { color: #b0bec5; }
@@ -479,4 +509,3 @@ p.job-title {
     font-size: 90%;
     padding-left: 5px;       
 }
-
