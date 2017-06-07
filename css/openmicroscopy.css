@@ -310,28 +310,33 @@ h6 { color: #90a4ae;
 }
 
 .card-docs { min-height: 300px; }
-    .card-docs > .card-section > h5 { min-height: 180px; }
-    .card-docs > .card-section > p { min-height: 130px; }
+    .card-docs > .card-section > h5 { font-weight: 600; min-height: 130px; }
+    .card-docs > .card-section > span { font-size: .88rem; }
     .card-docs.top-blue:hover { background-color: #03a9f4; border-color: #03a9f4; }
     .card-docs.top-gray:hover { background-color: #b0bec5; border-color: #b0bec5; }
     .card-docs.top-green:hover { background-color: #009688; border-color: #009688; }
     .card-docs.top-red:hover { background-color: #ef5350; border-color: #ef5350; }
-    .card-docs:hover, .card-docs:hover > .card-section > a { color: #fff; }
-    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px;
+    .card-docs:hover, .card-docs:hover > .card-section > .doc-title, .card-docs:hover > .card-section > .doc-cta { color: #fff; }
+    .card-docs > .card-section > a:hover { border-bottom: 1px dotted #fff; padding-bottom: 5px; }
+    .doc-cta { color: #1d8dcd; font-size: .88rem; font-weight: 600;
 }
 
-.card-resource {
+.card-support {
     border-top-width: 1px;
     border-radius: 4px;
     margin-bottom: 20px;
     padding: 25px 20px 30px 30px; }
-    .card-resource > .card-section > i.fa {
+    .card-support > .card-section > i.fa {
         border: 1px solid;
         border-radius: 120px;
         margin-bottom: 30px;
         padding: 20px;
     }
-    .card-resource > .card-section > h4 {
+    .card-support > .card-section > img {
+        margin: 0 auto 15px;
+        max-height: 80px;
+    }
+    .card-support > .card-section > h4 {
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 1rem;
         font-weight: normal;
@@ -341,6 +346,7 @@ h6 { color: #90a4ae;
 p.card-caption {
     color: #455a64;
     font-size: .90rem;
+    font-weight: normal;
     line-height: 1.475;
     padding: 0;
 }
