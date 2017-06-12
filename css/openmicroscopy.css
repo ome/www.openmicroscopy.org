@@ -298,8 +298,9 @@ h6 { color: #90a4ae;
     
 .card-public-server { min-height: 420px; }
 
-.card-getting-started { min-height: 480px; }
-    .card-getting-started > .card-section > p { min-height: 130px; }
+.card-getting-started { 
+    margin-bottom: 20px;
+    padding: 25px 20px 30px 30px; }
     .card-getting-started > .card-section > i.fa {
         background-color: #eceff1;
         border: 1px solid transparent;
@@ -307,13 +308,23 @@ h6 { color: #90a4ae;
         display: block;
         margin: 20px 0;
         padding: 30px;
-        text-align: center; 
+        text-align: center; }
+    .card-getting-started > .card-section > p.card-caption { 
+        min-height: 90px;
+        text-align: center; }
+    .card-getting-started > .card-section > h4 {
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
 }
+    
 
 .card-docs { min-height: 300px; }
     .card-docs > .card-section > h5 { 
         color: #1c4a87;
-        font-weight: 600; 
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 400; 
         min-height: 130px; }
     .card-docs > .card-section > span { font-size: .88rem; }
     .card-docs.top-blue:hover { background-color: #03a9f4; border-color: #03a9f4; }
