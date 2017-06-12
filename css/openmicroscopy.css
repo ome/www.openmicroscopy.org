@@ -220,7 +220,7 @@ h6 { color: #90a4ae;
 #bg-image-community { background-image: url('../img/bg/community.jpg'); }
 #bg-image-ome-files { background-image: url('../img/bg/ome-files.jpg'); }
 #bg-image-support { background-image: url('../img/bg/support.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
-#bg-image-getting-started { background-image: url('../img/bg/explore.jpg'); }
+#bg-image-explore { background-image: url('../img/bg/explore.jpg'); }
 
 .bg-image-text-container {
     background-color: transparent;
