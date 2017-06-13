@@ -15,14 +15,19 @@ title: Explore
         <hr class="whitespace">
         <div class="row column text-center">
             <div class="small-12 columns">
-                <h2>OME for Scientists</h2>
-                <h5 class="subheader">Try out OME products with your own microscopy data.</h5>
+                <h2 class="header-red">OME for Scientists</h2>
+                <p class="subheader">Try out OME products with your own microscopy data.</p>
             </div>
         </div>
         <hr>
-        <div class="row column text-center">
-            <p>Sign up for our <a href="http://help.openmicroscopy.org/demo-server.html">demo server</a> to test out the functionality with your own data.</p>
-            <p><a href="{{ site.baseurl }}/products/bio-formats/">Bio-Formats</a> lets you read image data from Java, <a href="https://imagej.net/Welcome" target="_blank">ImageJ</a>/<a href="https://fiji.sc/" target="_blank">Fiji</a>, GNU Octave/MATLAB, Python and R. If you're already using Fiji, it comes bundled with the <a href="https://www.openmicroscopy.org/site/support/bio-formats/users/index.html#using-bio-formats-with-imagej-and-fiji">Bio-Formats plugin</a> automatically.</p>
+        <div class="row">
+            <img class="medium-3 medium-offset-1 columns" alt="OMERO for Scientists" src="{{ site.baseurl }}/img/icons/user-groups_scientists.svg">
+            <div class="medium-8 columns">
+                <p>Sign up for our <a href="http://help.openmicroscopy.org/demo-server.html">demo server</a> to test out the functionality with your own data.</p>
+                <p><a href="{{ site.baseurl }}/products/bio-formats/">Bio-Formats</a> lets you read image data from Java, <a href="https://imagej.net/Welcome" target="_blank">ImageJ</a>/<a href="https://fiji.sc/" target="_blank">Fiji</a>, GNU Octave/MATLAB, Python and R. If you're already using Fiji, it comes bundled with the <a href="https://www.openmicroscopy.org/site/support/bio-formats/users/index.html#using-bio-formats-with-imagej-and-fiji">Bio-Formats plugin</a> automatically.</p>
+                <hr class="invisible">
+                <p><a class="button small" href="http://help.openmicroscopy.org/demo-server.html">Sign up for Demo Server</a>
+            </div>
         </div>
         <!-- end section for OMERO for Scientists -->
         
@@ -30,46 +35,54 @@ title: Explore
         <hr class="whitespace">
         <div id="devs-explore" class="row column text-center">
             <div class="small-12 columns">
-                <h2>OME for Developers</h2>
+                <h2 class="header-blue">OME for Developers</h2>
                 <h5 class="subheader">DevOps familiar with Docker or Ansible? Check out our repos to get set up with a test server:</h5>
             </div>
         </div>
         <hr>
-        <div class="row small-up-1 medium-up-2">
-            <div class="column">
+        <div class="row">
+            <div class="small-12 medium-3 column">
+                <hr class="invisible">
+                <img alt="OMERO for Developers" src="{{ site.baseurl }}/img/icons/user-groups_developers.svg">
+            </div>
+            <div class="medium-4 medium-offset-1 column">
                 <h5 class="text-center">Start a Server with Ansible</h5>
                 <code class="html">
-                    # Start a server with ansible<br>
-                    ansible-galaxy install openmicroscopy.omero-server<br>
-                    cat playbook.yml &lt;&lt;EOF<br>
-                    - hosts: localhost<br>
-                      roles:<br>
-                      - role: openmicroscopy.omero-server<br>
-                        postgresql_users_databases:<br>
-                        - user: omero<br>
-                          password: omero<br>
-                          databases: [omero]<br>
-                    EOF<br>
+                # Start a server with ansible<br>
+                ansible-galaxy install openmicroscopy.omero-server<br>
+                cat playbook.yml &lt;&lt;EOF<br>
+                - hosts: localhost<br>
+                  roles:<br>
+                  - role: openmicroscopy.omero-server<br>
+                    postgresql_users_databases:<br>
+                    - user: omero<br>
+                      password: omero<br>
+                      databases: [omero]<br>
+                EOF<br>
                 </code>
             </div>
-            <div class="column">
+            <div class="medium-4 column end">
                 <h5 class="text-center">Start a Server in Docker</h5>
                 <code class="html">
-                    # Start a server in docker<br>
-                    docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres<br>
-                    docker run -d --name omero-master --link postgres:db \<br>
-                        -e DBUSER=postgres -e DBPASS=postgres -e DBNAME=postgres \<br>
-                        -p 4063:4063 -p 4064:4064 \<br>
-                        openmicroscopy/omero-grid master<br>
+                # Start a server in docker<br>
+                docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres<br>
+                docker run -d --name omero-master --link postgres:db \<br>
+                    -e DBUSER=postgres -e DBPASS=postgres -e DBNAME=postgres \<br>
+                    -p 4063:4063 -p 4064:4064 \<br>
+                    openmicroscopy/omero-grid master<br>
+                <br>
+                <br>
+                <br>
                 </code>
             </div>
         </div>
-        <div class="row small-up-1 medium-up-3">
-            <div class="column">
-                <h5 class="text-center">Useful DevOps links</h5>
-                <hr>
-                <p>Explore some example DevOps resources below:</p>
-                <ul>
+        <hr class="invisible">
+        <div class="row">
+            <div class="medium-1 columns"><i class="icon-fa-red fa fa-link fa-2x"></i></div>
+            <div class="medium-3 columns omero-key-feature-container">
+                <h5>Useful DevOps links</h5>
+                <p>Explore some example DevOps link resources below:</p>
+                <ul class="dev-ops-links">
                     <li>Ansible examples:
                         <ul>
                             <li><a href="https://github.com/openmicroscopy/ansible-public-omero-example">Public OMERO</a></li>
@@ -81,11 +94,11 @@ title: Explore
                     <li><a href="https://anaconda.org/bioconda/python-omero">Python OMERO</a></li>
                 </ul>
             </div>
-            <div class="column">
-                <h5 class="text-center">Client Development</h5>
-                <hr>
-                <p >Interested in client development? Check out the following repos for examples:</p>
-                <ul>
+            <div class="medium-1 columns"><i class="icon-fa-blue fa fa-laptop fa-2x"></i></div>
+            <div class="medium-3 columns omero-key-feature-container">
+                <h5>Client Development</h5>
+                <p>Interested in client development? Check out the following repos for examples:</p>
+                <ul class="dev-ops-links">
                     <li><a href="https://github.com/ome/minimal-omero-client">Java client</a></li>
                     <li>Web apps:
                         <ul>
@@ -98,11 +111,11 @@ title: Explore
                     </li> 
                 </ul>
             </div>
-            <div class="column">
-                <h5 class="text-center">Image Analysis</h5>
-                <hr>
+            <div class="medium-1 columns"><i class="icon-fa-green fa fa-image fa-2x"></i></div>
+            <div class="medium-3 columns omero-key-feature-container">
+                <h5>Image Analysis</h5>
                 <p>See how OMERO and Bio-Formats integrate with other tools for performing image analysis tasks:</p>
-                <ul>
+                <ul class="dev-ops-links">
                     <li><a href="https://github.com/ome/rOMERO-gateway">R OMERO</a></li>
                     <li><a href="https://github.com/aoles/RBioFormats">R and Bio-Formats</a></li>
                     <li><a href="https://github.com/openmicroscopy/bio-formats-examples">How to consume Bio-Formats</a></li>
@@ -120,63 +133,63 @@ title: Explore
         </div>
         
         <!-- begin section for OMERO for Institutions -->
-        <hr class="whitespace">
+        <hr class="invisible">
         <div id="public-servers" class="row column text-center">
             <div class="small-12 columns">
-                <h2>OME at Institutions</h2>
+                <h2 class="header-green">OME at Institutions</h2>
                 <h5 class="subheader">Explore examples of public access
                     OMERO.servers</h5>
             </div>
         </div>
         <hr>
-        
-        <div class="row small-up-1 medium-up-2">
-            <div class="column">
+        <div class="row">
+            <div class="small-12 medium-3 column">
+                <hr class="invisible">
+                <img alt="OMERO for Institutions" src="{{ site.baseurl }}/img/icons/user-groups_institutions.svg">
+            </div>
+            <div class="medium-4 medium-offset-1 column">
                 <div class="card card-public-server top-red">
-                    <div class="text-center"><img class="thumbnail omero-feature" alt="OMERO server" src="{{ site.baseurl }}/img/icons/omero-features-icons_server.svg"></div>
                     <div class="card-section">
-                        <h4 class="text-center">LINCS</h4>
-                        <p>The <a href="http://lincs.hms.harvard.edu/" target="_blank">LINCS program at Harvard Medical School</a>
-                        provides a great example of how an OMERO.server can be configured to <a href="https://lincs-omero.hms.harvard.edu/webclient/userdata/?experimenter=-1"target="_blank">host public images</a>, allowing <a href="http://scholar.harvard.edu/jiarenlin/links/lincs-omero-images" target="_blank">individual scientists</a> to link to their own images for sharing.</p>
+                        <h4>LINCS</h4>
+                        <p class="card-caption">The <a href="http://lincs.hms.harvard.edu/" target="_blank">LINCS program at Harvard Medical School</a>
+                        provides a great example of how an OMERO.server can be configured to <a href="https://lincs-omero.hms.harvard.edu/webclient/userdata/?experimenter=-1"target="_blank">host public images</a>, allowing <a href="http://scholar.harvard.edu/jiarenlin/links/lincs-omero-images" target="_blank">individual scientists</a> to link to their own images for sharing with others.</p>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="medium-4 column end">
                 <div class="card card-public-server top-gray">
-                    <div class="text-center"><img class="thumbnail omero-feature" alt="OMERO server" src="{{ site.baseurl }}/img/icons/omero-features-icons_server.svg"></div>
                     <div class="card-section">
-                        <h4 class="text-center">The Queensland Brain Institute</h4>
-                        <p>The Queensland Brain Institute's <a href="http://web.qbi.uq.edu.au/microscopy/the-facility/" target="_blank"> Advanced Microimaging and Analysis Facility</a> also <a href="http://web.qbi.uq.edu.au/microscopy/omero-basics/">uses OMERO</a>, including to <a href="https://omerocloud.qbi.uq.edu.au/webclient/"target="_blank">host public images</a>.</p>
+                        <h4>The Queensland Brain Institute</h4>
+                        <p class="card-caption">The Queensland Brain Institute's <a href="http://web.qbi.uq.edu.au/microscopy/the-facility/" target="_blank"> Advanced Microimaging and Analysis Facility</a> also <a href="http://web.qbi.uq.edu.au/microscopy/omero-basics/">uses OMERO</a>, including to <a href="https://omerocloud.qbi.uq.edu.au/webclient/"target="_blank">host public images</a>.</p>
                     </div>
                 </div>
             </div>
-            <div class="column">
+        </div>
+        <div class="row">
+            <div class="medium-4 medium-offset-4 column">
                 <div class="card card-public-server top-blue">
-                    <div class="text-center"><img class="thumbnail omero-feature" alt="OMERO server" src="{{ site.baseurl }}/img/icons/omero-features-icons_server.svg"></div>
                     <div class="card-section">
-                        <h4 class="text-center">The Centre for Cell Imaging</h4>
-                        <p><a href="https://cci.liv.ac.uk" target="_blank">The Centre for Cell Imaging</a> at the University of Liverpool uses <a href="https://cci02.liv.ac.uk/gallery/" target="_blank">OMERO.gallery</a> to host public images, which can then be viewed in the <a href="https://cci02.liv.ac.uk/webgateway/img_detail/27203/" target="_blank">full OMERO.web image viewer</a>.</p>
+                        <h4>The Centre for Cell Imaging</h4>
+                        <p class="card-caption"><a href="https://cci.liv.ac.uk" target="_blank">The Centre for Cell Imaging</a> at the University of Liverpool uses <a href="https://cci02.liv.ac.uk/gallery/" target="_blank">OMERO.gallery</a> to host public images, which can then be viewed in the <a href="https://cci02.liv.ac.uk/webgateway/img_detail/27203/" target="_blank">full OMERO.web image viewer</a>.</p>
                     </div>
                 </div>
             </div>
-            <div class="column">
+            <div class="medium-4 column end">
                 <div class="card card-public-server top-green">
-                    <div class="text-center"><img class="thumbnail omero-feature" alt="OMERO server" src="{{ site.baseurl }}/img/icons/omero-features-icons_server.svg"></div>
                     <div class="card-section">
-                        <h4 class="text-center">IDR</h4>
-                        <p><a href="http://idr.openmicroscopy.org" target="_blank">The Image Data Resource</a> is a collaboration between OME, EMBL-EBI and the University of Bristol, to make datasets from published scientific studies publicly available for viewing and data reuse and reanalysis.</p>
+                        <h4>IDR</h4>
+                        <p class="card-caption"><a href="http://idr.openmicroscopy.org" target="_blank">The Image Data Resource</a> is a collaboration between OME, EMBL-EBI and the University of Bristol, to make datasets from published scientific studies publicly available for viewing and data reuse and reanalysis.</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- end section for OMERO for Institution -->
         
-        <!-- begin Sites Powered by OME Technology -->
-        <!-- Haven't created this as a separate block to insert here and on main index page because I've listed LINCS and IDR separately on this page -->        
+        <!-- begin Sites Powered by OME Technology -->       
+        <hr class="invisible">
         <div class="row column text-center">
-            <h5 class="subheader">Other sites using custom front-ends but OME technology behind the scenes</h5>
-        </div>        
-        <hr>        
+            <h5>Other sites using custom front-ends but OME technology behind the scenes</h5>
+        </div>      
         <div id="powered-sites" class="row medium-up-3 large-up-4">
             <div class="column"><a href="http://jcb-dataviewer.rupress.org/" target="_blank"><img class="thumbnail their-logo" src="{{ site.baseurl }}/img/logos/user_jcb.gif" alt="The Journal of Cell Biology"></a></div>
             <div class="column"><a href="http://www.cellimagelibrary.org/" target="_blank"><img class="thumbnail their-logo" src="{{ site.baseurl }}/img/logos/user_ascb.gif" alt="Cell Image Library"></a></div>

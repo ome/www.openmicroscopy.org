@@ -43,10 +43,18 @@ hr.whitespace {
     box-shadow: none;
 }
 
+ul.dev-ops-links, ul.dev-ops-links ul {
+    font-size: .90rem;
+    line-height: 1.375;
+    list-style: circle;
+    list-style-position: inside;
+}
+
 code.html {
     background: #eceff1 none repeat scroll 0 0;
     border-radius: 4px;
     display: block;
+    font-size: .88rem;
     margin-bottom: 1.5rem;
     overflow-x: auto;
     padding: 1rem 4rem 1rem 1rem;
@@ -65,8 +73,9 @@ h3 { color: #455a64;
      font-size: 1.75rem; }
 h4 { color: #1c4a87;
      font-size: 1.5rem; }
-h5 { color: #546e7a;
-     font-size: 1rem; }
+h5 { color: #1c4a87;
+     font-size: 1.1rem;
+     font-weight: 600; }
 h6 { color: #90a4ae;
      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
      font-size: .75rem;
@@ -296,7 +305,16 @@ h6 { color: #90a4ae;
     .card-feature > .card-section > p { min-height: 100px;
 }
     
-.card-public-server { min-height: 420px; }
+.card-public-server { 
+    min-height: 265px;
+    padding: 30px; }
+    .card-public-server > .card-section > h4 {
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+}
 
 .card-getting-started { 
     margin-bottom: 20px;
@@ -491,6 +509,7 @@ p.card-caption {
 }
 a.team-member > h5 {
     color: #546e7a;
+    font-weight: normal;
 }
 a.team-member > p.job-title { 
     min-height: 50px;
