@@ -356,11 +356,24 @@ h6 { color: #90a4ae;
     .doc-cta { color: #1d8dcd; font-size: .88rem; font-weight: 600;
 }
 
+.card-download {
+    border-top-width: 1px;
+    margin-bottom: 30px;
+    padding: 25px 20px 30px;
+    text-align: center; }
+    .card-download > .card-section > i.fa { margin: 0px auto 30px; }
+    .card-download > .card-section > img {
+        margin: 0 auto 15px;
+        max-height: 100px;
+}
+div.medium-4 > .card-download { min-height: 394px; }
+div.medium-3 > .card-download { min-height: 518px; }
+
 .card-support {
     border-top-width: 1px;
     border-radius: 4px;
     margin-bottom: 20px;
-    padding: 25px 20px 30px 30px; }
+    padding: 25px 25px 30px; }
     .card-support > .card-section > i.fa {
         border: 1px solid;
         border-radius: 120px;
