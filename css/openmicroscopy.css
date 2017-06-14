@@ -422,7 +422,7 @@ p.card-caption {
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
-.section-title-logo { max-height: 60px; }
+.section-title-logo { max-height: 30px; }
 
 .section-title-img-logo {
     margin-bottom: 20px;
