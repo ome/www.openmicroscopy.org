@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #607d8b;
+    color: #455a64;
 }
 
 p {
@@ -67,23 +67,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 2.5rem; }
-h2 { color: #455a64;
+h2 { color: #263238;
      font-size: 1.975rem; }
-h3 { color: #455a64;
+h3 { color: #263238;
      font-size: 1.75rem; }
 h4 { color: #1c4a87;
      font-size: 1.5rem; }
 h5 { color: #1c4a87;
      font-size: 1.1rem;
      font-weight: 600; }
-h6 { color: #90a4ae;
+h6 { color: #455a64;
      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
      font-size: .75rem;
      font-weight: normal; }
 
 .subheader { 
-    color: #546e7a;
+    color: #607d8b;
     font-size: 1.125rem;
+    font-weight: 400;
 }
 
 .header-blue { color: #1d8dcd; }
@@ -521,14 +522,14 @@ p.card-caption {
     border-color: #eceff1;    
 }
 a.team-member > h5 {
-    color: #546e7a;
+    color: #455a64;
     font-weight: normal;
 }
 a.team-member > p.job-title { 
     min-height: 50px;
 }
 p.job-title {
-    color: #b0bec5;
+    color: #90a4ae;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: .75em;
     font-weight: 500;
