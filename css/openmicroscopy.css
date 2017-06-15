@@ -561,3 +561,28 @@ p.job-title {
     font-size: 90%;
     padding-left: 5px;       
 }
+
+/* ========== footer ==========*/
+#footer {
+    background-color: #eceff1;
+    border: none;
+    border-top: 1px solid #cfd8dc;
+    font-size: .85rem;
+    margin-bottom: 0px;
+}
+
+#footer a { color: #78909c; }
+#footer a:hover { color: #03a9f4; }
+
+#footer h6 { text-transform: uppercase; }
+
+#footer .badge {
+    background-color: #1c4a87;
+    border-radius: 1px;
+}
+
+.footer-logo {
+    filter: brightness(0%);
+    margin-bottom: 30px;
+    max-height: 30px;
+}
