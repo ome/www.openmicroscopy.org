@@ -383,7 +383,7 @@ div.medium-3 > .card-download { min-height: 518px; }
     }
     .card-support > .card-section > img {
         margin: 0 auto 15px;
-        max-height: 80px;
+        max-height: 44px;
     }
     .card-support > .card-section > h4 {
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -422,7 +422,7 @@ p.card-caption {
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
-.section-title-logo { max-height: 30px; }
+.section-title-logo { max-height: 36px; }
 
 .section-title-img-logo {
     margin-bottom: 20px;
@@ -440,9 +440,8 @@ p.card-caption {
 }
 
 .logomark {
-    background-color: #e3f2fd;
-    border-radius: 4px;
-    max-width: 125px;
+    height: 60px;
+    margin-bottom: 10px;
 }
 
 #powered-sites > div > a > img, #thank-you-sites > div > a > img { 
@@ -457,16 +456,16 @@ p.card-caption {
 
 /* ========== graphics: FontAwesome icons ==========*/
 [class^="icon-fa-"] {
-    background-color: transparent;
+    background-color: transparent;   
     border: 1px solid #b0bec5;
-    border-radius: 150px;
+    border-radius: 120px;
     color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
+    height: 80px;
+    margin: 0 auto 20px;    
+    padding: 22px 20px 0px;
     text-align: center;
+    width: 80px;  
 }
-
-.icon-fa-big { padding: 30px; }
 
 .icon-fa-blue { color: #03a9f4; }
 .icon-fa-gray { color: #b0bec5; }

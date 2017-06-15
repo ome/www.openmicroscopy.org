@@ -11,30 +11,33 @@ title: About Us
         
         <!-- begin About intro -->
         <hr class="whitespace">        
-        <div class="row medium-3">
-            <img class="thumbnail" alt="OME logo" src="{{ site.baseurl }}/img/logos/ome.svg">
+        <div class="row text-center">
+            <img style="margin-bottom: 30px; max-height: 80px;" alt="OME logo" src="{{ site.baseurl }}/img/logos/ome.svg">
         </div>
         <div class="row column text-center">
             <h2>The Open Microscopy Environment</h2>        
         <hr>
-            <p>We produce open tools to support data management for microscopy. Designed to interact with existing commercial software, all OME formats and software are free, and all OME source code is available under the GNU General public license or more permissive open source licenses, or through commercial license from <a href="{{ site.baseurl }}/about/commercial-partners/">Glencoe Software</a>.</p>
+            <p class="medium-10 medium-offset-1">We produce open tools to support data management for microscopy. Designed to interact with existing commercial software, all OME formats and software are free, and all OME source code is available under the GNU General public license or more permissive open source licenses, or through commercial license from <a href="{{ site.baseurl }}/about/commercial-partners/">Glencoe Software</a>.</p>
         </div>
-        <hr class="whitespace">
-        <div class="row text-center">
-            <div class="medium-4 columns">
+        <hr class="invisible">
+        <div class="row">
+            <div class="medium-1 columns"><i class="icon-fa-red fa fa-users fa-2x"></i></div>
+            <div class="medium-3 columns">
                 <h4>The OME Teams</h4>
                 <p>OME developers are based in universities and research institutes around the world.</p>
-                <a href="{{ site.baseurl }}/about/teams/" class="button expanded">Meet the Teams</a>
+                <a href="{{ site.baseurl }}/about/teams/" class="button small hollow">Meet the Teams</a>
             </div>
-            <div class="medium-4 columns">
+            <div class="medium-1 columns"><i class="icon-fa-blue fa fa-gift fa-2x"></i></div>
+            <div class="medium-3 columns">
                 <h4>Contributors</h4>
                 <p>We receive direct contribution to the OME software from groups and individuals.</p>
-                <a href="{{ site.baseurl }}/about/contributors/" class="button expanded">See the List</a>
+                <a href="{{ site.baseurl }}/about/contributors/" class="button small hollow">See the List</a>
             </div>
-            <div class="medium-4 columns">
+            <div class="medium-1 columns"><i class="icon-fa-green fa fa-handshake-o fa-2x"></i></div>
+            <div class="medium-3 columns">
                 <h4>Commercial Partners</h4>
                 <p>We collaborate with commercial imaging hardware and software manufacturers on their projects.</p>
-                <a href="{{ site.baseurl }}/about/commercial-partners/" class="button expanded">Get a Commercial License</a>
+                <a href="{{ site.baseurl }}/about/commercial-partners/" class="button small hollow">Get a Commercial License</a>
             </div>
         </div>
         <!-- end About intro -->
@@ -43,40 +46,30 @@ title: About Us
         <hr class="whitespace">        
         <div class="row column text-center">
             <h2>Project Goals</h2>
-            <h5 class="subheader">OME seeks to build specifications and software that allow scientists open, flexible, scalable and performant access to their imaging data.</h5>
+            <p class="subheader medium-8 medium-offset-2">OME seeks to build specifications and software that allow scientists open, flexible, scalable and performant access to their imaging data.</p>
         </div>        
         <hr>        
         <div class="row column">
             <p>OME is committed to building and releasing high quality, open source, well-supported software for the scientific imaging community. Our tools should work regardless of location, processing environment or data type.</p>             
             <p>The project’s foundation is an open metadata specification, the OME Data Model. This defines and describes the metadata elements and relationships that the project uses and supports. Using this specification, we build and release:</p>
-        </div>        
+        </div>
         <div class="row">
-            <div class="column large-2">
-                <img class="thumbnail logomark" alt="OMERO logo" src="{{ site.baseurl }}/img/logos/omero-logomark.svg">
-            </div>
-            <div class="column large-10">
-                <h5>OMERO</h5>
+            <div class="medium-4 columns">
+                <h3><img src="{{ site.baseurl }}/img/logos/omero-logomark.svg" alt="OMERO logo" class="logomark" /></h3>                
+                <h4>OMERO</h4>
                 <p>An enterprise image data management platform that enables access, processing, sharing, analysis and where appropriate publication of scientific image data and metadata.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="column large-2">
-                <img class="thumbnail logomark" alt="Bio-Formats logo" src="{{ site.baseurl }}/img/logos/bio-formats-logomark.svg">
-            </div>
-            <div class="column large-10">
-                <h5>Bio-Formats</h5>
+            <div class="medium-4 columns">
+                <h3><img src="{{ site.baseurl }}/img/logos/bio-formats-logomark.svg" alt="Bio-Formats logo" class="logomark" /></h3>                
+                <h4>Bio-Formats</h4>
                 <p>A software plug-in that reads >140 proprietary file formats and converts them to an open, OME-based model that any software can use.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="column large-2">
-                <img class="thumbnail logomark" alt="OME Files logo" src="{{ site.baseurl }}/img/logos/ome-files-logomark.svg">
-            </div>
-            <div class="column large-10">
-                <h5>OME Files</h5>
+            <div class="medium-4 columns">
+                <h3><img src="{{ site.baseurl }}/img/logos/ome-files-logomark.svg" alt="OME Files logo" class="logomark" /></h3>                
+                <h4>OME Files</h4>
                 <p>A reference implementation that reads and writes OME-TIFF, an open file format that combines the popular, broadly supported TIFF format for storing binary pixel data, with an OME-based XML metadata header.</p>
             </div>
-        </div>
+        </div>      
         <div class="row column">
             <p>All of OME’s work and projects are funded by peer-reviewed grants are undertaken as collaborations with academic, industrial or commercial partners, so that the development of new tools and capabilities is always tied to real world, scientific use cases.  Each individual partnership produces specific extensions to <a href="{{ site.baseurl }}/about/contributors/">Bio-Formats</a> and <a href="{{ site.baseurl }}/products/omero/">OMERO</a> and these are always distributed to the global OME community to maximize the return and benefit of work and investment.</p>
         </div>
@@ -135,35 +128,30 @@ title: About Us
             </div>
         </div>
         <hr>
-        <div class="row"><p class="text-center">Examples of OME’s resources are used in the following:</p></div>
-        <div class="row medium-up-3 large-up-3 consortium-list">
-            <div class="large-expand columns"><a target="_blank" href="http://knime.org/">KNIME</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://fiji.sc/">Fiji</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://endrov.net/">Endrov</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://icy.bioimageanalysis.org/">Icy</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://www.xuvtools.org/">XuvTools</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://www.orbicule.com/macnification/">Macnification</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://www.cellprofiler.org/">CellProfiler</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://www.bioimage.ucsb.edu/bisque">Bisque</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://www.farsight-toolkit.org/">FARSIGHT</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://cbia.fi.muni.cz/user_dirs/i3dlib_doc/i3dcore/">i3dcore</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://www.perkinelmer.com/pages/020/cellularimaging/products/columbus.xhtml">PerkinElmer’s Columbus&reg;</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://www.bitplane.com/">Bitplane’s Imaris</a></div>
-        </div>
-        <div class="row text-center">
-            <p>And many others!</p>
-        </div>
-        <hr class="whitespace">
-        <div class="row"><p class="text-center">Places that publish image data with OMERO and Bio-Formats:</p></div>
-        <div class="row medium-up-3 large-up-3 consortium-list">
-            <div class="large-expand columns"><a target="_blank" href="http://jcb-dataviewer.rupress.org/">JCB DataViewer</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://srdr.stowers.org/">Stowers Data Repository</a></div>                        
-            <div class="large-expand columns"><a target="_blank" href="http://cellimagelibrary.org/">The Cell: An Image Library</a></div>            
-            <div class="large-expand columns"><a target="_blank" href="http://lincs.hms.harvard.edu/">LINCS</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://ssbd.qbic.riken.jp/">SSBD Database</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://www.ebi.ac.uk/pdbe/emdb/index.html/">Protein Data Bank Europe</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://movincell.org/">MoveinCell</a></div>
-            <div class="large-expand columns"><a target="_blank" href="http://omero.rcs.griffith.edu.au/webtest/searchmetacatalogue/">Griffith University: Microscopy Library Public Collections</a></div>
+        <div id="partnerships" class="row small-up-2 medium-up-3">
+            <h5 class="text-center">Examples of OME’s resources are used in the following:</h5>
+            <div class="column"><a target="_blank" href="http://knime.org/"><div class="card-consortium card"><div class="card-section">KNIME</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://fiji.sc/"><div class="card-consortium card"><div class="card-section">Fiji</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://endrov.net/"><div class="card-consortium card"><div class="card-section">Endrov</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://icy.bioimageanalysis.org/"><div class="card-consortium card"><div class="card-section">Icy</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.xuvtools.org/"><div class="card-consortium card"><div class="card-section">XuvTools</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.orbicule.com/macnification/"><div class="card-consortium card"><div class="card-section">Macnification</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.cellprofiler.org/"><div class="card-consortium card"><div class="card-section">CellProfiler</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.bioimage.ucsb.edu/bisque"><div class="card-consortium card"><div class="card-section">Bisque</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.farsight-toolkit.org/"><div class="card-consortium card"><div class="card-section">FARSIGHT</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://cbia.fi.muni.cz/user_dirs/i3dlib_doc/i3dcore/"><div class="card-consortium card"><div class="card-section">i3dcore</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.perkinelmer.com/pages/020/cellularimaging/products/columbus.xhtml"><div class="card-consortium card"><div class="card-section">PerkinElmer’s Columbus&reg;</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.bitplane.com/"><div class="card-consortium card"><div class="card-section">Bitplane’s Imaris</div></div></a></div>  
+            <hr class="invisible">
+            <h5 class="text-center">Places that publish image data with OMERO and Bio-Formats:</h5>
+            <div class="column"><a target="_blank" href="http://jcb-dataviewer.rupress.org/"><div class="card-consortium card"><div class="card-section">JCB DataViewer</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://srdr.stowers.org/"><div class="card-consortium card"><div class="card-section">Stowers Data Repository</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://cellimagelibrary.org/"><div class="card-consortium card"><div class="card-section">The Cell: An Image Library</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://lincs.hms.harvard.edu/"><div class="card-consortium card"><div class="card-section">LINCS</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://ssbd.qbic.riken.jp/"><div class="card-consortium card"><div class="card-section">SSBD Database</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://www.ebi.ac.uk/pdbe/emdb/index.html/"><div class="card-consortium card"><div class="card-section">Protein Data Bank Europe</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://movincell.org/"><div class="card-consortium card"><div class="card-section">MoveinCell</div></div></a></div>
+            <div class="column"><a target="_blank" href="http://omero.rcs.griffith.edu.au/webtest/searchmetacatalogue/"><div class="card-consortium card"><div class="card-section">Griffith University: Microscopy Library Public Collections</div></div></a></div>
         </div>
         <hr class="whitespace">
         <!-- end Growing the Consortium section -->
