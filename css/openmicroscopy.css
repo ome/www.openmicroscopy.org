@@ -562,6 +562,11 @@ p.job-title {
     padding-left: 5px;       
 }
 
+/* ========== page: Community ==========*/
+#community-posts h2 a {
+    font-weight: normal;
+}
+
 /* ========== footer ==========*/
 #footer {
     background-color: #eceff1;
