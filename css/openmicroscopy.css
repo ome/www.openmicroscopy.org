@@ -367,8 +367,8 @@ h6 { color: #455a64;
         margin: 0 auto 15px;
         max-height: 100px;
 }
-div.medium-4 > .card-download { min-height: 394px; }
-div.medium-3 > .card-download { min-height: 518px; }
+div.medium-4 > .card-download { min-height: 372px; }
+div.medium-3 > .card-download { min-height: 491px; }
 
 .card-support {
     border-top-width: 1px;
@@ -590,4 +590,5 @@ p.job-title {
     filter: brightness(0%);
     margin-bottom: 30px;
     max-height: 30px;
+    color: #ffffff;
 }
