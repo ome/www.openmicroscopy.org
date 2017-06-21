@@ -381,8 +381,8 @@ div.medium-3 > .card-download { min-height: 518px; }
         margin-bottom: 30px;
         padding: 20px;
     }
-    .card-support > .card-section > img {
-        margin: 0 auto 15px;
+    .card-support > .card-section > div > img.thumbnail {
+        margin: 0 0 15px;
         max-height: 44px;
     }
     .card-support > .card-section > h4 {
