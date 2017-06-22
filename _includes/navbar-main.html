@@ -1,19 +1,10 @@
         <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
             <button class="menu-icon" type="button" data-toggle></button>
             <div class="title-bar-title">Menu</div>
-        </div>        
-        
-        <div class="nav-secondary">
-            <div class="top-bar-right">
-                <ul class="menu">
-                    <li><a href="https://twitter.com/openmicroscopy" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
-                    <li><a href="https://www.linkedin.com/company/ome---open-microscopy-environment" target="_blank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a></li>
-                    <li><a href="https://www.facebook.com/openmicroscopy" target="_blank"><i class="fa fa-fw fa-facebook"></i> Facebook</a></li>
-                    <li><a href="http://webchat.freenode.net/?channels=%23ome&uio=d4" target="_blank"><i class="fa fa-fw fa-comments"></i> IRC</a></li>
-                </ul>
-            </div>
         </div>
         
+        <!--<div data-sticky-container>
+        <div class="main-nav-bar top-bar" id="main-menu" data-sticky data-options="marginTop:0;">-->
         <div class="main-nav-bar top-bar" id="main-menu">
             <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
@@ -24,6 +15,15 @@
                             <li><a href="{{ site.baseurl }}/about/contributors/">Contributors</a></li>
                             <li><a href="{{ site.baseurl }}/about/commercial-partners/">Commercial Partners</a></li>
                             <li><a href="{{ site.baseurl }}/about/licensing/">Licensing</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="{{ site.baseurl }}/community/">Community</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="{{ site.baseurl }}/community/news/">News</a></li>
+                            <li><a href="{{ site.baseurl }}/community/events/">Events</a></li>
+                            <li><a href="{{ site.baseurl }}/community/careers/">Careers</a></li>
+                            <li><a href="{{ site.baseurl }}/community/users-meeting-notes/">Users Meeting Notes</a></li>
+                            <li><a href="http://blog.openmicroscopy.org/">Blog</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -39,7 +39,8 @@
                     </li>
                     <li><a href="{{ site.baseurl }}/support/">Support</a></li>
                     <li><a href="http://www.openmicroscopy.org/site/support">Docs</a></li>
-                    <li><a href="{{ site.baseurl }}/explore/">Explore</a></li>
+                    <li><a href="{{ site.baseurl }}/explore/" class="button btn-indigo" style="color: #eceff1; margin-left: 10px;">Explore</a></li>
                 </ul>
             </div>
         </div>
+        <!--</div> make header sticky? -->

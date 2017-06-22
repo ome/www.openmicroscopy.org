@@ -1,17 +1,16 @@
 ---
-layout: default
+layout: default-no-anchor
 title: Bio-Formats
 ---          
         <header class="marketing-hero" id="bg-image-bio-formats">
             <div class="row homepage text-center bg-image-text-container">
-                <div class="small-12 medium-12 columns">
+                <div class="small-12 columns">
                     <h1 class="hero-main-header"><img src="{{ site.baseurl }}/img/logos/bio-formats-white.svg" alt="Bio-Formats logo" class="logo-hero" /></h1>
-                    <h3 class="hero-subheader small-10 medium-10 large-10 medium-offset-1 large-offset-1">The solution for reading proprietary microscopy image data and metadata</h3>
+                    <p class="hero-subheader small-12">The solution for reading proprietary microscopy image data and metadata</p>
                     <br>
-                    <a href="{{ site.baseurl }}/products/bio-formats/downloads/" class="large button sites-button hide-for-small-only">Download Version 5.5.0</a>
+                    <a href="{{ site.baseurl }}/products/bio-formats/downloads/" class="large button sites-button hide-for-small-only btn-red">Download Version 5.5.0</a>
                 </div>
             </div>
-            <hr class="whitespace">
         </header>
         
         <!-- begin -->
@@ -59,16 +58,18 @@ title: Bio-Formats
             <p>Bio-Formats is a community project and we welcome your input. You can find guidance on <a href="http://www.openmicroscopy.org/site/support/bio-formats/about/bug-reporting.html" target="_blank">reporting a bug</a>, upload files to our <a href="http://qa.openmicroscopy.org.uk/qa/upload/" target="_blank">QA system</a> for testing, and contact us via our mailing lists or forums. Further information about how the OME team works and how you can contribute to our projects is in the <a href="http://www.openmicroscopy.org/site/support/contributing/" target="_blank">Contributing Developer Documentation</a>.</p>
         </div>
         <!-- end -->
+        
+        <hr class="whitespace">
+        {% include back-to-top.html %}
+        
         <!-- begin CTA -->
         <hr class="whitespace">
-        <header class="marketing-hero home-large-hero" style="background-image: url('{{ site.baseurl }}/img/bg/bio-formats.jpg');">
-            <div class="row homepage">
-                <div class="text-center">
-                    <h4 class="hero-subheader">Get started working with your images now</h4>
-                    <p></p>
-                    <p><a href="{{ site.baseurl }}/products/bio-formats/downloads/" class="large button sites-button hide-for-small-only" style="text-shadow: none;">Download Bio-Formats</a></p>
+        <header class="marketing-hero" style="background-image: url('{{ site.baseurl }}/img/bg/bio-formats.jpg');">
+            <div class="row">
+                <div class="small-12 columns bg-image-text-container-cta text-center">
+                    <p class="hero-subheader">Get started working with your images now</p>
+                    <a href="{{ site.baseurl }}/products/bio-formats/downloads/" class="large btn-red button sites-button hide-for-small-only" style="text-shadow: none;">Download Bio-Formats</a>
                 </div>
             </div>
         </header>
         <!-- end CTA -->
-        
