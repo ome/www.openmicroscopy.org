@@ -563,9 +563,35 @@ p.job-title {
 }
 
 /* ========== page: Community ==========*/
-#community-posts h2 a {
-    font-weight: normal;
+#community-posts h2 a { font-weight: normal; }
+
+.event-row {
+    border-bottom: 1px dotted #cfd8dc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;    
 }
+h2.event-day { 
+    font-size: 1.5rem;
+    margin-bottom: 40px; }
+h3.event-title, h3.event-title > a { 
+    font-size: 1.2rem;
+    font-weight: 600; }
+h4.event-speaker { 
+    color: #455a64;
+    font-size: 1rem; }
+h5.event-time { 
+    color: #263238; }
+
+ul.event-workshop {
+    list-style: circle;
+    list-style-position: inside; }
+    ul.event-workshop > li.event-workshop-title {
+        font-weight: 600;
+        list-style: none;
+    }
+    span.event-workshop-room {
+        text-transform: uppercase;
+    }
 
 /* ========== footer ==========*/
 #footer {
