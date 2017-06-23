@@ -370,6 +370,17 @@ h6 { color: #455a64;
 div.medium-4 > .card-download { min-height: 372px; }
 div.medium-3 > .card-download { min-height: 491px; }
 
+.card-download-small {
+    border-top-width: 1px;
+    margin-bottom: 30px;
+    padding: 5px 5px 20px;
+    text-align: center; }
+    .card-download-small > .card-section > h5 { margin-bottom: 15px; }
+    .card-download-small > .card-section > img {
+        margin: 0 auto 15px;
+        max-height: 100px;
+}
+
 .card-support {
     border-top-width: 1px;
     border-radius: 4px;
@@ -617,4 +628,4 @@ ul.event-workshop {
     margin-bottom: 30px;
     max-height: 30px;
     color: #ffffff;
-}
+}c
