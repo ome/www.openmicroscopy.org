@@ -2,13 +2,20 @@
 layout: default
 ---
         <!-- begin Post -->
-        <hr class="whitespace">
-        <div class="row">
-            <div class="small-12 column">
-                <h1>Liza will style all of this.</h1>
+        <div class="callout large primary" id="bg-image-teams">
+            <div class="row column text-center">
                 <h1>{{page.title}}</h1>
-                <h2>{{page.intro-blurb}}</h2>
-                {{content}}
+                <p>{{page.intro-blurb}}</p>
             </div>
         </div>
-        <!-- end Post -->                      
+        <hr class="invisible">        
+        <div class="text-center">
+            <a id="back-to-top" href="{{ site.baseurl }}/community/news/"><i class="fa fa-arrow-left"></i> back to News</a>
+        </div>
+        <hr class="invisible">        
+        <div class="row">
+            <div class="columns">
+            {{content}}
+            </div>
+        </div>
+        <!-- end Post -->
