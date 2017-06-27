@@ -2,3 +2,26 @@ name: OME  Website
 markdown: kramdown
 
 baseurl: /www.openmicroscopy.org
+
+bf:
+ version: 5.5.2
+
+omero:
+ version: 5.3.2
+ build: b62
+
+omecommoncpp:
+  version: 5.4.0
+
+omemodel:
+  version: 5.5.1
+
+omeqtwidgets:
+ version: 5.4.0
+ 
+omefiles:
+ version: 0.3.2
+ build: 22
+
+omecmakesuperbuild:
+ version: 0.3.2
