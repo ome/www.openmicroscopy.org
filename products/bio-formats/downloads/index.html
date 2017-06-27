@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-no-anchor
 title: Bio-Formats Downloads
 ---     
         <div class="callout large primary" id="bg-image-bio-formats">
@@ -12,6 +12,7 @@ title: Bio-Formats Downloads
         <hr class="whitespace">
         <div class="row">
             <h3 class="text-center">Tools</h3>
+            <hr>
             <div class="small-12 medium-3 columns">                
                 <div class="card card-download">
                     <div class="card-section">
@@ -59,8 +60,8 @@ title: Bio-Formats Downloads
         </div>
         <hr class="invisible">
         <div class="row">
-            <div class="medium-4 text-center column"><h3>API</h3></div>
-            <div class="medium-8 text-center column"><h3>Code</h3></div>
+            <div class="medium-4 text-center column"><h3>API</h3><hr></div>
+            <div class="medium-8 text-center column"><h3>Code</h3><hr></div>
         </div>
         <div class="row">
             <div class="small-12 medium-4 columns">
@@ -99,67 +100,19 @@ title: Bio-Formats Downloads
                 </div>
             </div>
         </div>
+        <!-- end Download options -->
         <hr class="invisible">
-        <div class="row">
-            <div>
-                <h3 class="text-center">Components</h3>
-                <hr class="invisible">
-                <div class="row medium-up-1 large-up-1">
-                    <table class="responsive text-center">
-                        <tbody>
-                            <tr>
-                                <th>Project</th>
-                                <th>5.5.0</th>
-                            </tr>
-                            <tr>
-                                <th colspan="2">Package</th>
-                            </tr>
-                            <tr>
-                                <td>Bio-Formats package</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/bioformats_package.jar">bioformats_package.jar</a></td>
-                            </tr>
-                            <tr>
-                                <td>LOCI Tools</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/loci_tools.jar">loci_tools.jar</a></td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">Core</th>
-                            </tr>
-                            <tr>
-                                <td>Bio-Formats API library</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/formats-api.jar">formats-api.jar</a></td>
-                            </tr>
-                            <tr>
-                                <td>Bio-Formats BSD library</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/formats-bsd.jar">formats-bsd.jar</a></td>
-                            </tr>
-                            <tr>
-                                <td>Bio-Formats GPL library</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/formats-gpl.jar">formats-gpl.jar</a></td>
-                            </tr>
-                            <tr>
-                                <td>Bio-Formats Plugins for ImageJ</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/bio-formats_plugins.jar">bio-formats_plugins.jar</a></td>
-                            </tr>
-                            <tr>
-                                <td>Bio-Formats testing framework</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/bio-formats-testing-framework.jar">bio-formats-testing-framework.jar</a></td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">Fork</th>
-                            </tr>
-                            <tr>
-                                <td>JAI Image I/O Tools</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/jai_imageio.jar">jai_imageio.jar</a></td>
-                            </tr>
-                            <tr>
-                                <td>TurboJPEG</td>
-                                <td><a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/turbojpeg.jar">turbojpeg.jar</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+        
+        {% include back-to-top.html %}
+        
+        <!-- begin CTA -->
+        <hr class="whitespace">
+        <header class="marketing-hero" style="background-image: url('{{ site.baseurl }}/img/bg/bio-formats.jpg');">
+            <div class="row">
+                <div class="small-12 columns bg-image-text-container-cta text-center">
+                    <p class="hero-subheader">All components available for this version of Bio-Formats are available here:</p>
+                    <a href="https://downloads.openmicroscopy.org/bio-formats/5.5.0/artifacts/?C=M;O=D" class="large btn-red button sites-button hide-for-small-only" style="text-shadow: none;">Download Components</a>
                 </div>
             </div>
-        </div> 
-        <!-- end Download options -->
-        <hr class="whitespace">
+        </header>
+        <!-- end CTA -->

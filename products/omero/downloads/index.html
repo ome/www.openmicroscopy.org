@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-no-anchor
 title: OMERO Downloads
 ---     
         <div class="callout large primary" id="bg-image-omero">
@@ -12,10 +12,11 @@ title: OMERO Downloads
         <hr class="whitespace">                                
         <div class="row">
             <h3 class="text-center">OMERO clients</h3>
+            <hr>
             <div class="small-12 medium-4 columns">
                 <div class="card card-download">
                     <div class="card-section">
-                        <i class="border-red icon-red fa fa-windows fa-4x"></i>
+                        <img alt="Windows logo" src="{{ site.baseurl }}/img/logos/3rd-party_windows.png">
                         <h5>Windows</h5>
                         <h6>OMERO.insight-5.3.2-ice36-b62-win.zip</h6>
                         <p></p>
@@ -26,7 +27,7 @@ title: OMERO Downloads
             <div class="small-12 medium-4 columns">
                 <div class="card card-download">
                     <div class="card-section">
-                        <i class="border-blue icon-blue fa fa-apple fa-4x"></i>
+                        <img alt="MacOS X logo" src="{{ site.baseurl }}/img/logos/3rd-party_macosx.jpg">
                         <h5>Mac OS X</h5>
                         <h6>OMERO.insight-5.3.2-ice36-b62-mac.zip</h6>
                         <p></p>
@@ -37,7 +38,7 @@ title: OMERO Downloads
             <div class="small-12 medium-4 columns">
                 <div class="card card-download">
                     <div class="card-section">
-                        <i class="border-green icon-green fa fa-linux fa-4x"></i>
+                        <img alt="Linux logo" src="{{ site.baseurl }}/img/logos/3rd-party_linux.png">
                         <h5>Linux</h5>
                         <h6>OMERO.insight-5.3.2-ice36-b62-linux.zip</h6>
                         <p></p>
@@ -48,8 +49,8 @@ title: OMERO Downloads
         </div>
         <hr class="invisible">
         <div class="row">
-            <div class="medium-8 text-center column"><h3>OMERO plugins</h3></div>
-            <div class="medium-4 text-center column"><h3>OMERO server</h3></div>
+            <div class="medium-8 text-center column"><h3>OMERO plugins</h3><hr></div>
+            <div class="medium-4 text-center column"><h3>OMERO server</h3><hr></div>
         </div>
         <div class="row">
             <div class="small-12 medium-4 columns">
@@ -140,5 +141,18 @@ title: OMERO Downloads
             </div>
         </div>             
         <!-- end Download options -->
+        <hr class="invisible">
         
+        {% include back-to-top.html %}
+        
+        <!-- begin CTA -->
         <hr class="whitespace">
+        <header class="marketing-hero" style="background-image: url('{{ site.baseurl }}/img/bg/omero-omero.jpg');">
+            <div class="row">
+                <div class="small-12 columns bg-image-text-container-cta text-center">
+                    <p class="hero-subheader">All components available for this version of OMERO are available here:</p>
+                    <a href="http://downloads.openmicroscopy.org/omero/5.3.2/artifacts/?C=N;O=A" class="large btn-red button sites-button hide-for-small-only" style="text-shadow: none;">Download Components</a>
+                </div>
+            </div>
+        </header>
+        <!-- end CTA -->

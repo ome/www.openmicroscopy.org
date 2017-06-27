@@ -225,7 +225,7 @@ h6 { color: #455a64;
 #bg-image-commercial-partners { background-image: url('../img/bg/commercial-partners.jpg'); }
 #bg-image-licensing { background-image: url('../img/bg/licensing.jpg'); }
 #bg-image-products { background-image: url('../img/bg/products.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
-#bg-image-omero { background-image: url('../img/bg/omero.jpg'); }
+#bg-image-omero { background-image: url('../img/bg/omero-omero.jpg'); }
 #bg-image-bio-formats { background-image: url('../img/bg/bio-formats.jpg'); }
 #bg-image-community { background-image: url('../img/bg/community.jpg'); }
 #bg-image-ome-files { background-image: url('../img/bg/ome-files.jpg'); }
@@ -269,9 +269,9 @@ h6 { color: #455a64;
     background-size: cover;
 }
         
-#header-bg-scientists { background-image: url('../img/bg/omero-scientist.jpg'); }
-#header-bg-developers { background-image: url('../img/bg/omero-developer.jpg'); }
-#header-bg-institutions { background-image: url('../img/bg/omero-institution.jpg'); }
+#header-bg-scientists { background-image: url('../img/bg/omero-scientists.jpg'); }
+#header-bg-developers { background-image: url('../img/bg/omero-developers.jpg'); }
+#header-bg-institutions { background-image: url('../img/bg/omero-institutions.jpg'); }
 
 /* ========== cards ==========*/
 .card {
@@ -369,6 +369,17 @@ h6 { color: #455a64;
 }
 div.medium-4 > .card-download { min-height: 372px; }
 div.medium-3 > .card-download { min-height: 491px; }
+
+.card-download-small {
+    border-top-width: 1px;
+    margin-bottom: 30px;
+    padding: 5px 5px 20px;
+    text-align: center; }
+    .card-download-small > .card-section > h5 { margin-bottom: 15px; }
+    .card-download-small > .card-section > img {
+        margin: 0 auto 15px;
+        max-height: 100px;
+}
 
 .card-support {
     border-top-width: 1px;
@@ -617,4 +628,4 @@ ul.event-workshop {
     margin-bottom: 30px;
     max-height: 30px;
     color: #ffffff;
-}
+}c
