@@ -17,4 +17,4 @@ Starting mid-May, the breaking OMERO work initiated on a separate branch will be
 
 [3] https://ci.openmicroscopy.org/view/DEV/
 
-[4] [OME Forums or mailing lists]({{ site.baseurl }}/support/contributing/)
+[4] https://www.openmicroscopy.org/site/support/contributing/
