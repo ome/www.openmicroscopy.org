@@ -1,0 +1,80 @@
+---
+layout: post
+title: Release of OME Files C++ 0.2.3
+intro-blurb: The OME team is pleased to announce the release of OME Files C++ 0.2.3
+---
+Today we are releasing OME Files C++ 0.2.3.
+
+OME Files is a reference implementation of the OME Data Model and OME-TIFF file format for the storage and interchange of biological imaging data and metadata.  It provides support for:
+
+-  The OME Data Model (model objects, metadatastore, XSL transforms and XML validation)
+-  OME-TIFF reader
+-  OME-TIFF writer
+
+This release contains minor bugfixes only.
+
+Changes in this release include:
+
+-  OME-TIFF bugfix for Plane element handling
+
+**Downloads**
+
+The software release is available at [downloads.openmicroscopy.org/ome-files-cpp/0.2.3/](http://downloads.openmicroscopy.org/ome-files-cpp/0.2.3/).
+This page includes links to the individual repositories and source releases, as well as the documentation and binary builds of the collection for several common platforms, including Windows, Linux and MacOS X.
+
+**Changes since ome-files-cpp 0.2.2**
+
+*OME Common*
+
+-  No changes
+
+*OME XML*
+
+-  No changes
+
+*OME Files*
+
+-  Update OME-TIFF reader handling of Plane elements with missing TheZ, TheT or TheC attributes to match the Java OME-TIFF reader.
+
+*OME QtWidgets*
+
+-  No changes
+
+*Super-Build 0.2.3*
+
+-  Support building on MacOS X 10.12 and provide MacOS X 10.12 binary build
+-  Package changes:
+    -  ome-files 0.2.3: Updated package
+    -  ome-xml 5.2.4: Updated package (currently part of the Bio-Formats sources)
+
+**Future changes**
+
+Upcoming improvements include:
+
+*OME XML*
+
+-  The OME-XML component has been split out of the Bio-Formats git repository into a [new repository](https://github.com/ome/ome-model/). The next release will switch to using this repository.  There will be no functional changes.
+
+*OME Files*
+
+-  improvements to automated integration testing of OME-TIFF files
+-  additional improvements to support for advanced OME-XML features such as Modulo, and older OME-XML versions
+
+*Super-Build*
+
+-  further improvements for building on Windows
+-  updating of the set of platforms binary builds are provided for
+-  initial support for C++11
+
+You can find further information on which features will be included in upcoming releases via the [Trello board for version 0.3.0](https://trello.com/b/wA1T35Ld/ome-files-c-0-3-0)
+(note that this is a work in progress and subject to change).
+
+**Errata**
+
+Support for building on Windows with msbuild is currently non-functional; please use Ninja for the time being.
+
+On Windows, "ome-files info" will display an error if run from a directory containing a space in it. As a workaround, use "libexec\ome\files\info.exe" directly.
+
+**Support**
+
+For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/).
