@@ -7,7 +7,7 @@ intro-blurb: Registration is now open for the following two OMERO training works
 
 **Biological Imaging Data Management for Facility Managers**
 
-http://training.csx.cam.ac.uk/bioinformatics/event/1769270
+[Event page](http://training.csx.cam.ac.uk/bioinformatics/event/1769270)
 
 In this one-day course, we will show Facility Managers how they can
 use OMERO to manage users, groups, and their microscopy, HCS and
@@ -17,7 +17,7 @@ digital pathology data.
 
 **Biological Imaging Data Management for Life Scientists**
 
-http://training.csx.cam.ac.uk/bioinformatics/event/1769278
+[Event page](http://training.csx.cam.ac.uk/bioinformatics/event/1769278)
 
 In this one-day course, we will show users how to import, organise,
 view, search, annotate, and publish imaging data using
