@@ -1,0 +1,46 @@
+---
+layout: post
+title: Release of Bio-Formats 5.3.4
+intro-blurp: The OME Consortium are pleased to announce the release of Bio-Formats 5.3.4
+---
+Dear All,
+
+Today we are releasing Bio-Formats 5.3.4, a bug fix release which includes the following changes:
+
+Bug fixes:
+
+-  ImageJ
+    -  fix for a NullPointerException when exporting images that were not opened via the Bio-Formats importer, and thus do not have a complete OMEXMLMetadata store
+-  Java 1.9
+    -  fix compile and runtime errors to enable building with Java 1.9
+
+File format support:
+
+-  ECAT7
+    -  update to add support for different versions of ECAT7 files (thanks to Torsten Stöter)
+
+Updated build system:
+
+-  updated dependency for ome-model in the POM to version 5.4.0. This allows for improved ROI handling by enabling support for Shape objects with Transform attributes. OME-XML schema version remains unchanged as OME schema 2016-06
+
+Documentation improvements:
+
+-  new public sample files added for ECAT7 (thanks to Torsten Stöter)
+-  new public sample files added for Leica LIF (thanks to Michael Goelzer)
+-  new specification document (Version 3.2) for Leica LIF
+-  updated links to OMERO documentation as a result of decoupling
+
+Full details can be found at [www.openmicroscopy.org/site/support/bio-formats5.3/about/whats-new.html](http://www.openmicroscopy.org/site/support/bio-formats5.3/about/whats-new.html)
+
+The software is available at:
+
+[downloads.openmicroscopy.org/bio-formats/5.3.4](http://downloads.openmicroscopy.org/bio-formats/5.3.4)
+
+and will shortly be available from the Java-8 update site for Fiji users.
+
+Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
+
+Regards,
+
+The OME Team
+

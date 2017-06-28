@@ -1,0 +1,93 @@
+---
+layout: post
+title: Release of OME Files C++ 0.3.2
+intro-blurp: The OME Consortium are pleased to announce the release of OME Files C++ 0.3.2
+---
+OME Files is a reference implementation of the OME Data Model and OME-TIFF file format for the storage and interchange of biological imaging data and metadata.  It provides support for:
+
+-  the OME Data Model (model objects, metadata store, XSL transforms and XML validation)
+-  OME-TIFF reading
+-  OME-TIFF writing
+
+This release contains a single bugfix for the Minimal TIFF writer to align its setting of the PlanarConfiguration TIFF tag with the OME-TIFF writer.
+
+**Downloads**
+
+The software release is available at 
+
+[downloads.openmicroscopy.org/ome-files-cpp/0.3.2/](http://downloads.openmicroscopy.org/ome-files-cpp/0.3.2/)
+
+This page includes links to the individual repositories and source releases, as well as the documentation and binary builds of the collection for several common platforms, including Windows, Linux and MacOS X.
+
+**Upgrading from 0.3.1**
+
+No changes required.
+
+**Changes since ome-files-cpp 0.3.1**
+
+*OME Common*
+
+-  No changes
+
+*OME Model*
+
+-  No changes
+
+*OME Files*
+
+-  MinimalTIFFWriter: align interleaved setting and PlanarConfiguration TIFF tag with the OMETIFFWriter
+
+*OME QtWidgets*
+
+-  No changes
+
+*Super-Build 0.3.2*
+
+Package changes:
+
+-  ome-files 0.3.2: Updated package
+
+**Future changes**
+
+Upcoming improvements include:
+
+*All components*
+
+-  Enabling of additional C++11 features following testing of compiler support and compatibility
+-  Further performance profiling and scalability improvements
+
+*OME XML*
+
+-  Support for the use of custom annotations with the OME-XML data model API
+-  This generalized annotation support will also be used for existing annotations including Modulo and OriginalMetadata
+-  Improved and more comprehensive OME-XML and OME-TIFF samples
+-  Improved documentation and code samples
+
+*OME Files*
+
+-  Improvements to automated integration testing of OME-TIFF files
+
+*Super-Build*
+
+-  Further improvements for building on Windows, including initial VS2017 support
+-  Updating of the set of platforms binary builds are provided for
+
+
+You can find further information on which features will be included in upcoming releases via the Trello board 
+
+[next release](https://trello.com/b/WFYWCvoV/ome-files-0-4-0)
+
+(note that this is a work in progress and subject to change).
+
+**Errata**
+
+See https://www.openmicroscopy.org/site/support/ome-files-cpp-staging/ome-cmake-superbuild/manual/html/errata.html for this release.
+
+**Support**
+
+Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
+
+Kind regards,
+
+The OME team
+ 
