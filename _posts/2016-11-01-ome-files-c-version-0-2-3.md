@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release of OME Files C++ 0.2.3
-intro-blurb: The OME Consortium are pleased to announce the release of OME Files C++ 0.2.3
+intro-blurb: The OME Team is pleased to announce the release of OME Files C++ 0.2.3
 ---
 Today we are releasing OME Files C++ 0.2.3.
 
