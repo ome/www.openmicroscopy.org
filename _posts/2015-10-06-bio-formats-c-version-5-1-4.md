@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release of Bio-Formats-C++ 5.1.4
-intro-blurb: The OME Team is pleased to announce the release of Bio-Formats-C++ 5.1.4 binary builds and ome-cmake-superbuild package
+intro-blurb: The OME team is pleased to announce the release of Bio-Formats-C++ 5.1.4 binary builds and ome-cmake-superbuild package
 ---
 Today we have released the binary builds of Bio-Formats-C++ 5.1.4, together with the ome-cmake-superbuild package used for building Bio-Formats-C++ and its dependencies on Windows and other platforms.  This is a new package split out from the Bio-Formats sources, which may be used to build the libraries required by Bio-Formats such as zlib, bzip2, icu, boost, libtiff and xerces-c.
 
