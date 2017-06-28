@@ -10,7 +10,3 @@ For further details, see [meeting 2017](https://www.openmicroscopy.org/site/even
 Speakers and registration information will be announced soon.
 
 We look forward to seeing you!
-
-Regards,
-
-The OME Team
