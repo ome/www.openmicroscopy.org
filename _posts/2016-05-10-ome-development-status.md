@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title: OME Development Status
-intro-blurb: With the recent release of OMERO 5.2.3 and Bio-Formats 5.1.10, the OME team is now focusing on the preparation of the workshops for our annual OME Users meeting
+intro-blurb: Status of development and focus shifts for OMERO, Bio-Formats, CI and documentation
 ---
 Dear all,
 
