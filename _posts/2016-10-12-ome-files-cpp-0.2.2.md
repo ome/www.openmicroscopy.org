@@ -1,0 +1,86 @@
+---
+layout: post
+title: Release of OME Files C++ 0.2.2
+intro-blurb: The OME Consortium are pleased to announce the release of OME Files C++ 0.2.2
+---
+
+Today we are releasing OME Files C++ 0.2.2.
+
+OME Files is a reference implementation of the OME Data Model and OME-TIFF file format for the storage and interchange of biological imaging data and metadata.  It provides support for:
+
+*  The OME Data Model (model objects, metadatastore, XSL transforms and XML validation)
+*  OME-TIFF reader
+*  OME-TIFF writer
+
+The major focus of this release is to extend the support for features in older OME-XML model versions and to improve the support for automated testing all OME-XML and OME-TIFF features.  This will continue for the following release.
+
+Major changes in this release include:
+
+*  OME-TIFF reader and writer updates
+
+**Downloads**
+
+The software release is available at http://downloads.openmicroscopy.org/ome-files-cpp/0.2.2/
+
+This page includes links to the individual repositories and source releases, as well as the documentation and binary builds of the collection for several common platforms, including Windows, Linux and MacOS X.
+
+**Changes since ome-files-cpp 0.2.0**
+
+*OME Common*
+
+*  Boost 1.54 is the minimum supported version
+*  Add support for Boost 1.62
+
+*OME XML*
+
+*  OME-XML 2016-06 schema incremented to version 2; additional enumerations added for AcquisitionModel (BrightField, SweptFieldConfocal and SPIM)
+*  Boost updates (same as OME Common)
+
+*OME Files*
+
+*  Remove support for libtiff versions older than 4.0.3
+*  Support invocation of the ome-files command via a symlink, to allow packaging for MacOS X with homebrew
+*  Correct TIFF COLORMAP and TRANSFERFUNCTION handling; the colour maps are used by the (get|set)(8|16)BitLookupTable methods in FormatReader and FormatWriter for the TIFF and OME-TIFF file formats
+*  Boost updates (same as OME Common)
+
+*OME QtWidgets*
+
+*  Boost updates (same as OME Common)
+
+*Super-Build 0.2.2*
+
+*  Document the support status of each supported platform
+*  Package changes:
+    -  ome-common 5.3.2: Updated package
+    -  ome-files 0.2.2: Updated package
+    -  ome-xml 5.2.3: Updated package (currently part of the Bio-Formats sources)
+    -  ome-qtwidgets 5.3.2: Updated package
+    -  boost 1.62: Updated package
+    -  gtest 1.8.0: Updated package
+
+**Future changes**
+
+Upcoming improvements include:
+
+*OME Files*
+
+*  improvements to automated integration testing of OME-TIFF files
+*  additional improvements to support for advanced OME-XML features such as Modulo, and older OME-XML versions
+
+*Super-Build*
+
+*  further improvements for building on Windows
+*  updating of the set of platforms binary builds are provided for
+
+
+**Errata**
+
+Support for building on Windows with *msbuild* is currently non-functional; please use *Ninja* for the time being.
+
+On Windows, "ome-files info" will display an error if run from a directory containing a space in it. As a workaround, use "libexec\ome\files\info.exe" directly.
+
+**Support**
+
+For any problems or comments, please use the OME forums or mailing lists:
+
+http://www.openmicroscopy.org/site/community
