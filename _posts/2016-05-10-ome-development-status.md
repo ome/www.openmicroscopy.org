@@ -1,0 +1,26 @@
+
+---
+layout: post
+title: OME Development Status
+intro-blurb: With the recent release of OMERO 5.2.3 and Bio-Formats 5.1.10, the OME team is now focusing on the preparation of the workshops for our annual OME Users meeting
+---
+Dear all,
+
+With the recent release of OMERO 5.2.3 and Bio-Formats 5.1.10, the OME team is now focusing on the preparation of the workshops for our annual OME Users meeting [1].
+
+For the upcoming OMERO milestones, our efforts will be shifting towards the delivery of OMERO 5.3.0 which already includes the OME data model additions [2]. As a consequence, OMERO 5.2.x now enters maintenance mode and will only be released in the case of security vulnerabilities, and support for OMERO 5.1.x will be dropped. On the Bio-Formats side, Bio-Formats 5.1.x will only release critical bug fixes to allow ourselves to complete the work on Bio-Formats 5.2.0.
+
+For developers:
+
+Starting mid-May, the breaking OMERO work initiated on a separate branch will be merged into the develop branch. This development branch will contain the new model work, breaking API changes and development database upgrades and should be considered as unstable. Most of the Continuous Integration will be happening on the OME Jenkins CI [3]. The contributing documentation [4] will be updated as part of this work to document the new development process.
+
+Regards,
+The OME team
+
+[1] https://www.openmicroscopy.org/site/community/minutes/meetings/11th-annual-users-meeting-2016
+
+[2] http://blog.openmicroscopy.org/file-formats/data-model/future-plans/2016/01/26/bf-model-status/
+
+[3] https://ci.openmicroscopy.org/view/DEV/
+
+[4] https://www.openmicroscopy.org/site/support/contributing/
