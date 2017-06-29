@@ -1,4 +1,8 @@
 /* ========== global ==========*/
+.no-js .top-bar {
+  display: none;
+}
+
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -121,6 +125,7 @@ h6 { color: #455a64;
 /* ========== main navigation ==========*/
 .logo {
     display: inline;
+    height: 50px;
     width: 200px;
 }
 
