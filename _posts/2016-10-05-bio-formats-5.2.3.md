@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release of Bio-Formats 5.2.3
-intro-blurb: The OME Consortium are pleased to announce the release of Bio-Formats 5.2.3
+intro-blurb: The OME team is pleased to announce the release of Bio-Formats 5.2.3
 ---
 
 Today we are releasing Bio-Formats 5.2.3, a bug-fix release. 
@@ -32,7 +32,8 @@ Other improvements:
     -  added acquisition modes BrightField, SweptFieldConfocal and SPIM
     -  added parsing for Laser Scan Confocal and Swept Field Confocal
 
-The software is available to download now and will shortly be available from
-the Java-8 update site for Fiji users ([archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.5.1)).
+The software is available to download now at 
+[http://downloads.openmicroscopy.org/bio-formats/5.5.1](http://downloads.openmicroscopy.org/bio-formats/5.5.1).
 
-Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
+Any problems or comments, please use the
+[OME Forums or mailing lists]({{ site.baseurl }}/support/).
