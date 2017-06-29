@@ -3,7 +3,7 @@ layout: post
 title: Release of OMERO & Bio-Formats 5.0.6
 intro-blurb: The OME Consortium is pleased to announce the release of OMERO & Bio-Formats 5.0.6
 ---
-Two security vulnerabilities have been discovered in versions of OMERO up to and including 5.0.5. 
+Two security vulnerabilities have been discovered in versions of OMERO up to and including 5.0.5.
 **System administrators should review the "Security Vulnerabilities" pages on the OME website:**
 
 http://www.openmicroscopy.org/site/products/omero/secvuln
