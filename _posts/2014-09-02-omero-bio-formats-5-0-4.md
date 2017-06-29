@@ -19,9 +19,9 @@ Bio-Formats improvements include:
 
 Full details are available on the OMERO Github milestone[1] and the Bio-Formats Github milestone[2] pages.
 
-The software is available from 
+The software is available from
 [archived downloads](http://downloads.openmicroscopy.org/omero/5.0.4/)
-and 
+and
 [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.4/)
 
 For information on upgrading your server, see the upgrade guide for system administrators - http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html
