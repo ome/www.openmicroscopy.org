@@ -1,14 +1,15 @@
         <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
             <button class="menu-icon" type="button" data-toggle></button>
-            <div class="title-bar-title">Menu</div>
+            <div class="title-bar-title"></div>
         </div>
         
         <!--<div data-sticky-container>
         <div class="main-nav-bar top-bar" id="main-menu" data-sticky data-options="marginTop:0;">-->
         <div class="main-nav-bar top-bar" id="main-menu">
             <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
-                    <li><a class="logo" href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/logos/ome-main-nav.svg" alt="OME logo" /></a></li>
+                <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="accordion medium-dropdown">
+                    <li class="hide-for-small-only"><a class="logo" href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/logos/ome-main-nav.svg" alt="OME logo" /></a></li>
+                    <li class="show-for-small-only"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/logos/ome-logomark.svg" alt="OME logo" style="height:32px; width:32px;"/></a></li>
                     <li class="has-submenu"><a href="{{ site.baseurl }}/about/">About Us</a>
                         <ul class="submenu menu vertical" data-submenu>
                             <li><a href="{{ site.baseurl }}/about/teams/">OME Teams</a></li>
@@ -28,7 +29,7 @@
                 </ul>
             </div>
             <div class="top-bar-right">
-                <ul class="dropdown menu" data-dropdown-menu>
+                <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="accordion medium-dropdown">
                     <li class="has-submenu"><a href="{{ site.baseurl }}/products/">Products</a>
                         <ul class="submenu menu vertical" data-submenu>
                             <li><a href="{{ site.baseurl }}/products/omero/">OMERO</a></li>
@@ -38,7 +39,8 @@
                     </li>
                     <li><a href="{{ site.baseurl }}/support/">Support</a></li>
                     <li><a href="http://www.openmicroscopy.org/site/support">Docs</a></li>
-                    <li><a href="{{ site.baseurl }}/explore/" class="button btn-indigo" style="color: #eceff1; margin-left: 10px;">Explore</a></li>
+                    <li class="hide-for-small-only"><a href="{{ site.baseurl }}/explore/" class="button btn-indigo" style="color: #eceff1; margin-left: 10px;">Explore</a></li>
+                    <li class="show-for-small-only"><a href="{{ site.baseurl }}/explore/">Explore</a></li>
                 </ul>
             </div>
         </div>
