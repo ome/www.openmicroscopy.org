@@ -22,7 +22,7 @@ For Bio-Formats:
 
 Full details can be found at [Bio-Formats version history](http://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html)
 
-The software is available at: [downloads.openmicroscopy.org/bio-formats/5.1.0/] http://downloads.openmicroscopy.org/bio-formats/5.1.0 and the C++ implementation is available from: [downloads.openmicroscopy.org/bio-formats-cpp/5.1.0/](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.0/)
+The software is available at: [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.1.0) and the C++ implementation is available from: [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.0/)
 
 For OMERO:
 
@@ -37,7 +37,7 @@ For OMERO:
 
 Further details are available on the What's New pages:
 
-[omero5.1/users/whatsnew.html](http://www.openmicroscopy.org/site/support/omero5.1/users/whatsnew.html) [omero5.1/sysadmins/whatsnew.html](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/whatsnew.html) [omero5.1/developers/whatsnew.html](http://www.openmicroscopy.org/site/support/omero5.1/developers/whatsnew.html)
+[Users](http://www.openmicroscopy.org/site/support/omero5.1/users/whatsnew.html) [Sysadmins](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/whatsnew.html) [Developers](http://www.openmicroscopy.org/site/support/omero5.1/developers/whatsnew.html)
 
 External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 version histories on [omero5.1/users/history.html](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
 
