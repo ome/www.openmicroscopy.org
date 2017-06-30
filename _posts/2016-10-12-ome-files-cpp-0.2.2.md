@@ -3,7 +3,6 @@ layout: post
 title: Release of OME Files C++ 0.2.2
 intro-blurb: The OME team is pleased to announce the release of OME Files C++ 0.2.2
 ---
-
 Today we are releasing OME Files C++ 0.2.2.
 
 OME Files is a reference implementation of the OME Data Model and OME-TIFF
@@ -25,8 +24,7 @@ Major changes in this release include:
 
 **Downloads**
 
-The software release is available at 
-[http://downloads.openmicroscopy.org/ome-files-cpp/0.2.2/](http://downloads.openmicroscopy.org/ome-files-cpp/0.2.2/).
+[archived downloads](http://downloads.openmicroscopy.org/ome-files-cpp/0.2.2/)
 
 This page includes links to the individual repositories and source releases, as well as the documentation and binary builds of the collection for several common platforms, including Windows, Linux and MacOS X.
 

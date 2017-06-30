@@ -3,7 +3,6 @@ layout: post
 title: Release of Bio-Formats 5.2.4
 intro-blurb: The OME team is pleased to announce the release of Bio-Formats 5.2.4
 ---
-
 Today we are releasing Bio-Formats 5.2.4, a bug-fix release mainly addressing
 a regression that was introduced in 5.2.0.
 
@@ -16,8 +15,8 @@ Improvements for two formats:
 
 Full details can be found in the [Bio-Formats version history](http://www.openmicroscopy.org/site/support/bio-formats5.2/about/whats-new.html)
 
-The software is available at 
-[downloads.openmicroscopy.org/bio-formats/5.2.4/](http://downloads.openmicroscopy.org/bio-formats/5.2.4).
-
 Any problems or comments, please use the
 [OME Forums or mailing lists]({{ site.baseurl }}/support/).
+
+The software is available at 
+[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.2.4).
