@@ -3,11 +3,9 @@ layout: post
 title: Release of Bio-Formats-C++ 5.1.8
 intro-blurb: The OME Consortium are pleased to announce the release of Bio-Formats-C++ 5.1.8
 ---
-Dear All,
-
 Today we have released the binary builds of Bio-Formats-C++ 5.1.8, together with the ome-cmake-superbuild package used for building Bio-Formats-C++ and its dependencies on Windows and other platforms.  With our current C++ development efforts being devoted to the upcoming 5.2.0 release, this release contains no new features, and is restricted to security updates in our third-party dependencies.  Future 5.1 releases will also be restricted to serious bugfixes and security updates.
 
-See http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.8/ for links to the source releases, documentation and API reference, and binary builds for a number of platforms including Windows, Linux and MacOS X.
+See [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.8/) for links to the source releases, documentation and API reference, and binary builds for a number of platforms including Windows, Linux and MacOS X.
 
 Bio-Formats changes:
 
@@ -35,9 +33,6 @@ CMake Super-Build components:
 -  xerces-c 3.1.2
 -  zlib 1.2.8
 
-The software release is available at: http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.8
+The software release is available at: [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.8)
 
-For any problems or comments, please use the OME forums or mailing lists: http://www.openmicroscopy.org/site/community
-
-Roger Leigh
-on behalf of the OME team
+For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

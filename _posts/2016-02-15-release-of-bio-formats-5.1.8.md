@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Release of Bio-Formats 5.1.4
+title: Release of Bio-Formats 5.1.8
 intro-blurb: The OME Consortium are pleased to announce the release of Bio-Formats 5.1.8
 ---
-Dear All,
-
 Today we are releasing Bio-Formats 5.1.8, a point release focusing on bug fixing:
 
 Java bug fixes, including:
@@ -42,15 +40,8 @@ C++:
 - Ensure file and writer state consistency upon close failure
 
 The software is available at:
-http://downloads.openmicroscopy.org/bio-formats/5.1.8
+[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.1.8)
 
 The C++ superbuilds and platform builds will be released shortly.
 
-Any problems or comments, please use the OME Forums or mailing lists:
-
-http://www.openmicroscopy.org/site/community
-
-Regards,
-
-The OME Team
-
+Any problems or comments, please use the [OME Forums or mailing lists] ({{ site.baseurl }}/support/)
