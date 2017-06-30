@@ -24,7 +24,8 @@ Major changes in this release include:
 
 **Downloads**
 
-[archived downloads](http://downloads.openmicroscopy.org/ome-files-cpp/0.2.2/)
+The software is available at:
+[archived downloads](http://downloads.openmicroscopy.org/ome-files-cpp/0.2.2/).
 
 This page includes links to the individual repositories and source releases, as well as the documentation and binary builds of the collection for several common platforms, including Windows, Linux and MacOS X.
 

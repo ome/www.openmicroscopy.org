@@ -34,4 +34,5 @@ Other improvements:
 Any problems or comments, please use the
 [OME Forums or mailing lists]({{ site.baseurl }}/support/).
 
-[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.5.1)
+The software is available at:
+[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.5.1).
