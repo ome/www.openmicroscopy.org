@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Release of OMERO & Bio-Formats 5.1.0
-intro-blurb: The OME consortium is pleased to announce the release of OMERO & Bio-Formats 5.1.0
+intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Formats 5.1.0
 ---
-
-Dear All,
 
 Today we are releasing OMERO and Bio-Formats 5.1.0. This is a full, production-ready release of OME's new software tools. With this release, the 5.0.x line enters maintenance mode and while we will continue to support it throughout 2015, it will only be updated for major bug fixes and security issues. We will not be releasing any further updates to the 4.4.x line.
 
@@ -53,9 +51,6 @@ Upgrade information is at [server upgrade page](http://www.openmicroscopy.org/si
 
 Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/).
 
-Regards,
-
-The OME Team
 
 [1] Thanks to Christophe Sommer [2] Thanks to Lee Kamentsky [3] Thanks to Lee Kamentsky and Sebastien Simard [4] Thanks to Brian Long
 
