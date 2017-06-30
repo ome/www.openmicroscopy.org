@@ -24,7 +24,11 @@ Bio-Formats fixes include:
     * Minor core formats (OME/XML/TIFF) improvements
     * Minor doc improvements - Eclipse build instructions and documenting using Bio-Formats in Python (extensive developer doc improvements coming in 5.1)
 
-The software is available from [downloads.openmicroscopy.org/omero/5.0.7/](http://downloads.openmicroscopy.org/omero/5.0.7/) and [downloads.openmicroscopy.org/bio-formats/5.0.7/](http://downloads.openmicroscopy.org/bio-formats/5.0.7/)
+The software is available for OMERO from
+[archived downloads](http://downloads.openmicroscopy.org/omero/5.0.7/)
+and for Bio-Formats from
+[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.7/)
+
 
 For information on upgrading your server, see the upgrade guide for system administrators - [server upgrade page](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html)
 
