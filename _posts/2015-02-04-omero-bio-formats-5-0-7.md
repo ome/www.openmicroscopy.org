@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Release of OMERO & Bio-Formats 5.0.7
-intro-blurb: The OME Consortium is pleased to announce the release of OMERO & Bio-Formats 5.0.7
+intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Formats 5.0.7
 ---
 
 Today we are launching 5.0.7, a bug-fixing release.
