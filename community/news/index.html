@@ -7,6 +7,7 @@ main-blurb: New releases and other announcements
         <hr class="whitespace">
         <div id="community-posts" class="row">
 {% if paginator.total_pages > 1 %}
+        <div class="small-12 medium-8 medium-offset-2 columns">
         <ul class="pagination">
           <li>
           {% if paginator.previous_page %}
@@ -34,6 +35,7 @@ main-blurb: New releases and other announcements
           {% endif %}
           </li>
         </ul>
+    </div>
 {% endif %}
 {% for post in paginator.posts %}
             <div class="small-12 medium-8 medium-offset-2 columns"></h6>
