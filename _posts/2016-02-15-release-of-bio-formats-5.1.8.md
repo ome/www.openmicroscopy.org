@@ -1,0 +1,47 @@
+---
+layout: post
+title: Release of Bio-Formats 5.1.8
+intro-blurb: The OME Consortium are pleased to announce the release of Bio-Formats 5.1.8
+---
+Today we are releasing Bio-Formats 5.1.8, a point release focusing on bug fixing:
+
+Java bug fixes, including:
+
+- FEI TIFF
+    - fixed stage position parsing and whitespace handling (thanks to Antoine Vandecreme)
+- Pyramid TIFF
+    - fixed tile reading when a cache (.bfmemo) file is present
+- MicroManager
+    - updated to parse JSON data from tags 50839 and 51123
+    - fixed to detect *_metadata.txt files in addition to metadata.txt files
+    - fixed to handle datasets with each stack in a single file
+- OME-XML
+    - updated to make .ome.xml an official extension
+- OME-TIFF
+    - fixed to ignore invalid BinaryOnly elements
+- TIFF
+    - fixed caching of BigTIFF files
+- Slidebook
+    - fixed handling of montages in Slidebook6Reader (thanks to Richard Myers)
+- Performance improvement for writing files to disk (thanks to Stephane Dallongeville)
+- Build system
+    - fixed Maven POMs to reduce calls to artifacts.openmicroscopy.org
+    - fixed bioformats_package.jar to include the loci.formats.tools package
+
+Documentation updates, including:
+
+- updated format pages to include links to example data
+- clarified description of Qu for MATLAB (thanks to Carnë Draug)
+- added installation instructions for Octave (thanks to Carnë Draug)
+
+C++:
+
+- Bugfixes to the OME-TIFF writer to correct use of the metadata store with multiple series
+- Ensure file and writer state consistency upon close failure
+
+The software is available at:
+[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.1.8)
+
+The C++ superbuilds and platform builds will be released shortly.
+
+Any problems or comments, please use the [OME Forums or mailing lists] ({{ site.baseurl }}/support/)
