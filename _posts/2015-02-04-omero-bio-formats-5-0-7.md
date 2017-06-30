@@ -34,5 +34,3 @@ For information on upgrading your server, see the upgrade guide for system admin
 
 For full details of the next major release, see the 5.1 milestone page - [5.1 milestone page](http://trac.openmicroscopy.org.uk/ome/milestone/5.1.0)
 
-Kind regards, The OME team
-
