@@ -4,7 +4,7 @@ markdown: kramdown
 baseurl: /www.openmicroscopy.org
 
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 10
 paginate_path: "/community/news/page:num/"
 
 bf:
