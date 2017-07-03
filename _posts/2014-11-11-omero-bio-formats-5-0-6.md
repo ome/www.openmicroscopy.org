@@ -12,7 +12,7 @@ We do not consider either 2014-SV3 CSRF or 2014-SV4 POODLE to be critical vulner
 
 The new version is available from the 5.0.6 downloads page - [archived downloads](http://downloads.openmicroscopy.org/omero/5.0.6/)
 
-For information on the upgrade from 4.4.x or 5.0.x to 5.0.6, see the OMERO5 instructions - http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html
+For information on the upgrade from 4.4.x or 5.0.x to 5.0.6, see the OMERO5 instructions - [http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html)
 
 
 Bio-Formats 5.0.6 is also being released, although not due to a security vulnerability. Bug fixes include:

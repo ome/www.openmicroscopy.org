@@ -9,7 +9,7 @@ and up to and including 5.0.4.
 **System administrators should review the "Security Vulnerabilities"
 pages on the OME website:**
 
-http://www.openmicroscopy.org/site/products/omero/secvuln
+[http://www.openmicroscopy.org/site/products/omero/secvuln](http://www.openmicroscopy.org/site/products/omero/secvuln)
 
 The more critical of the two, 2014-SV2, provides a workaround which can and should be applied immediately.
 
@@ -23,12 +23,12 @@ respective downloads page:
 
 For information on the upgrade from 4.4.x or 5.0.x to 5.0.5, see the OMERO5 instructions:
 
-https://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html
+[https://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html](https://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html)
 
 For information on the upgrade from 4.4.x to 4.4.12, see the OMERO4 instructions, but upgrading
 directly to 5.0.5 would be preferred:
 
-https://www.openmicroscopy.org/site/support/omero4/sysadmins/server-upgrade.html
+[https://www.openmicroscopy.org/site/support/omero4/sysadmins/server-upgrade.html](https://www.openmicroscopy.org/site/support/omero4/sysadmins/server-upgrade.html)
 
 Note that version 4.4.12 introduces the same password salting that is used in the 5.0 series.
 The implications of this improvement to server security are described in a warning among the
