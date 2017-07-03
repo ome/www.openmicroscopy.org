@@ -58,7 +58,3 @@ http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html
 Any problems or comments, please use the OME Forums or mailing lists:
 
 http://www.openmicroscopy.org/site/community
-
-Regards,
-
-The OME Team
