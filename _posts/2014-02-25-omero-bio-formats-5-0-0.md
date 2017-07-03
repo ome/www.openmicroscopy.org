@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release of OMERO & Bio-Formats 5.0.0
-intro-blurb: The OME consortium is pleased to announce the full production-ready release of OMERO & Bio-Formats 5.0.0
+intro-blurb: The OME team are pleased to announce the full production-ready release of OMERO & Bio-Formats 5.0.0
 ---
 Today we are releasing OMERO and Bio-Formats 5.0.0. This is a full,
 production-ready release of OME's new software tools. With this
