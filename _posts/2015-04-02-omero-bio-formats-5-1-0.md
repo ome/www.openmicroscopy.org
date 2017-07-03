@@ -39,7 +39,7 @@ Further details are available on the What's New pages:
 
 [Users](http://www.openmicroscopy.org/site/support/omero5.1/users/whatsnew.html) [Sysadmins](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/whatsnew.html) [Developers](http://www.openmicroscopy.org/site/support/omero5.1/developers/whatsnew.html)
 
-External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 version histories on [version histories](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
+External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 [version histories](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
 
 The software is available at: [downloads.openmicroscopy.org/omero/5.1.0](http://downloads.openmicroscopy.org/omero/5.1.0)
 
