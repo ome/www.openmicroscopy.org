@@ -83,7 +83,7 @@ for more information.  We are working on obtaining code signing certs
 and will deliver signed client builds as soon as we can.
 
 Any problems or comments, please use the OME [forums or mailing
-lists](http://www.openmicroscopy.org/site/community).
+lists]({{ site.baseurl }}/support/).
 
 
 [1] Thanks to Jean-Yves Tinevez

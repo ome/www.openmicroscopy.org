@@ -65,5 +65,5 @@ For information on upgrading your server, see [the server upgrade
 documentation](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html).
 
 
-Any problems or comments, please use the OME [Forums or mailing
-lists](http://www.openmicroscopy.org/site/community).
+Any problems or comments, please use the OME [forums or mailing
+lists]({{ site.baseurl }}/support/).

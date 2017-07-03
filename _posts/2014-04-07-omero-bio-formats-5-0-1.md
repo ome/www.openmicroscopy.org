@@ -55,6 +55,5 @@ http://downloads.openmicroscopy.org/bio-formats/5.0.1/
 For information on upgrading your server, see
 http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html
 
-Any problems or comments, please use the OME Forums or mailing lists:
-
-http://www.openmicroscopy.org/site/community
+Any problems or comments, please use the OME [forums or mailing
+lists]({{ site.baseurl }}/support/).
