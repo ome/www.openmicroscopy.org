@@ -61,7 +61,7 @@ Bio-Formats download
 page](http://downloads.openmicroscopy.org/bio-formats/5.0.2/).
 
 
-For information on upgrading your server, see [the server upgrade
+For information on upgrading your server, see the [server upgrade
 documentation](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html).
 
 
