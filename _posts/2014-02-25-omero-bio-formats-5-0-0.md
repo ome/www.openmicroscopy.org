@@ -7,7 +7,7 @@ Today we are releasing OMERO and Bio-Formats 5.0.0. This is a full,
 production-ready release of OME's new software tools. With this
 release, the 4.4.x line enters maintenance mode and while we will
 continue to support it throughout 2014, it will only be updated for
-major bug fixes.  We've provided scripts to upgrade OMERO 4.4.x
+major bug fixes. We've provided scripts to upgrade OMERO 4.4.x
 installations to 5.0.0.
 
 The 5.0.0 release represents a major change in how the OMERO server
@@ -27,13 +27,13 @@ AFI, Inveon, MPI-BPC Imspector, Bio-Rad SCN, Yokogawa CellVoyager [1],
 LaVision Imspector, PCORAW, and Woolz [2].
 
 In addition, 5.0.0 continues our effort to support new
-multidimensional images.  We previously enabled support for FLIM data
+multidimensional images. We previously enabled support for FLIM data
 in OMERO.server, and the FLIMfit application built by the Imperial
-team.  We've now added support for FLIM data in OMERO.insight.
+team. We've now added support for FLIM data in OMERO.insight.
 
 The changes in Bio-Formats and OMERO 5.0.0 are especially important
 for sites working with large multi-GB datasets, e.g., long time lapse,
-HCS and digital pathology data.  With this foundation, we will deliver
+HCS and digital pathology data. With this foundation, we will deliver
 support for other multidimensional modalities (e.g., light sheet
 microscopy) later in 2014.
 
@@ -79,7 +79,7 @@ applications, including OMERO.searcher, u-track and several others.
 NOTE: Sites that use Java Webstart may see Java security exceptions.
 Please see [this forum
 post](https://www.openmicroscopy.org/community/viewtopic.php?f=5&t=7410)
-for more information.  We are working on obtaining code signing certs
+for more information. We are working on obtaining code signing certs
 and will deliver signed client builds as soon as we can.
 
 Any problems or comments, please use the OME [forums or mailing
