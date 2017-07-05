@@ -24,16 +24,17 @@ Bio-Formats improvements include:
 
 
 For OMERO users, this release includes:
-    
+
 - Import improvements especially for large image datasets;
-- Allowing rendering settings to be shared between users; 
+- Allowing rendering settings to be shared between users;
 - Downloading original files from the command line;
 - Improvements to the way OMERO.matlab handles annotations;
 - Improvements to tagging workflows in the clients;
-- Further work on [code signing](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-webstart-codesigning.html) for webstart and accompanying documentation;
+- Further work on [code signing](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-webstart-codesigning.html)
+  for webstart and accompanying documentation;
 - Disk space usage reporting for OMERO.web admins;
 - Custom webstart intro page templates;
-- Enabling searching by Image ID in the clients.
+- Enabling searching by Image ID in the clients.;
 
 Developers, script creators, and other power users should note that
 we've adopted [flake8](https://pypi.python.org/pypi/flake8) formatting
