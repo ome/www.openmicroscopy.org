@@ -51,8 +51,8 @@ For Bio-Formats:
 - Updated component names, .jar file names, and Maven artefact names
 - Improved continuous integration testing
 
-The software is available
-[here](http://downloads.openmicroscopy.org/bio-formats/5.0.0).
+The software is available from [archived
+downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.0).
 
 
 For OMERO:
@@ -67,8 +67,8 @@ For OMERO:
 - New help guide for installing the plugins needed to use [OMERO with ImageJ](http://help.openmicroscopy.org/imagej.html)
 - 'What's New' summaries for [users](http://www.openmicroscopy.org/site/support/omero5/users/whatsnew.html), [sysadmins](http://www.openmicroscopy.org/site/support/omero5/sysadmins/whatsnew.html) and [developers](http://www.openmicroscopy.org/site/support/omero5/developers/whatsnew.html) to help you quickly identify updates
 
-The software is available
-[here](http://downloads.openmicroscopy.org/omero/5.0.0).
+The software is available from [archived
+downloads](http://downloads.openmicroscopy.org/omero/5.0.0).
 
 Upgrade information is available
 [here](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html).
