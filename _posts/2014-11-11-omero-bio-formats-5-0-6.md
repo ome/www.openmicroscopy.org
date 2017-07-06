@@ -22,7 +22,7 @@ Bio-Formats 5.0.6 is also being released, although not due to a security vulnera
 -  Image dimensions for Zeiss CZI and Nikon ND2
 -  Support for Leica LIF files produced by LAS AF 4.0 and later
 
-The new version is available from   [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.6/)
+The new version is available from [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.6/)
 
 
 **Note that OpenJDK8 is not yet supported by OMERO or Bio-Formats.**
