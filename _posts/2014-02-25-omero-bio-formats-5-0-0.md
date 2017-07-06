@@ -73,7 +73,7 @@ downloads](http://downloads.openmicroscopy.org/omero/5.0.0).
 Upgrade information is available in the [server upgrade
 documentation](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html).
 
-In the near future, the OME Consortium will release updates to several
+In the near future, the OME team will release updates to several
 applications, including OMERO.searcher, u-track and several others.
 
 NOTE: Sites that use Java Webstart may see Java security exceptions.

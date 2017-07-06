@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release of Bio-Formats-C++ 5.1.8
-intro-blurb: The OME Consortium are pleased to announce the release of Bio-Formats-C++ 5.1.8
+intro-blurb: The OME team are pleased to announce the release of Bio-Formats-C++ 5.1.8
 ---
 Today we have released the binary builds of Bio-Formats-C++ 5.1.8, together with the ome-cmake-superbuild package used for building Bio-Formats-C++ and its dependencies on Windows and other platforms.  With our current C++ development efforts being devoted to the upcoming 5.2.0 release, this release contains no new features, and is restricted to security updates in our third-party dependencies.  Future 5.1 releases will also be restricted to serious bugfixes and security updates.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release of OMERO & Bio-Formats 5.0.5
-intro-blurb: The OME Consortium is pleased to announce the release of OMERO & Bio-Formats 5.0.5
+intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Formats 5.0.5
 ---
 Two security vulnerabilities have been discovered in versions of OMERO up to and including 4.4.11
 and up to and including 5.0.4.
