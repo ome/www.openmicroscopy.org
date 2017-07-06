@@ -7,7 +7,7 @@ Today we are releasing OMERO and Bio-Formats 5.1.2. This is a point release that
 
 **Bio-Formats**
 
-Bio-Formats 5.1.2 adds writing support for OME-TIFF to the native C++ implementation, allows export of OME BigTIFF, and adds a Slidebook6 reader (many thanks to Richard Myers of 3i - Intelligent Imaging Innovations [https://www.intelligent-imaging.com](https://www.intelligent-imaging.com)
+Bio-Formats 5.1.2 adds writing support for OME-TIFF to the native C++ implementation, allows export of OME BigTIFF, and adds a Slidebook6 reader (many thanks to Richard Myers of 3i - [Intelligent Imaging Innovations](https://www.intelligent-imaging.com)
 
 Other improvements include:
 
@@ -25,9 +25,9 @@ Other improvements include:
 
 Full details can be found at [Bio-Formats version history](http://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html])
 
-The software is available at:
+The software is available at
 [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.1.2)
-and the C++ implementation is available from:
+and the C++ implementation is available from
 [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.2/)
 
 **OMERO**
@@ -55,12 +55,12 @@ Critical bug fixes include:
 * in-place import file handle leak
 * various unicode and unit failures (thanks to Tristan Nowak for his help in identifying several of these bugs)
  
-Full details are available at [http://www.openmicroscopy.org/site/support/omero5.1/users/history.html](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
+Full details are available at [OMERO version history](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
 
-The software is available at:
+The software is available at
 [archived downloads](http://downloads.openmicroscopy.org/omero/5.1.2)
 
-Upgrade information is at [http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html).
+Upgrade information is at [server upgrade page](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html).
 
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

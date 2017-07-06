@@ -33,6 +33,6 @@ CMake Super-Build components:
 -  xerces-c 3.1.2
 -  zlib 1.2.8
 
-The software release is available at: [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.8)
+The software release is available at [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.8).
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

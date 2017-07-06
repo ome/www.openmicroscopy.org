@@ -5,7 +5,7 @@ intro-blurb: The OME team is pleased to announce the release of Bio-Formats-C++ 
 ---
 Today we have released the binary builds of Bio-Formats-C++ 5.1.6, together with the ome-cmake-superbuild package used for building Bio-Formats-C++ and its dependencies on Windows and other platforms.
 
-See [http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.6/](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.6/) for links to the source releases, documentation and API reference, and binary builds for a number of platforms.
+See [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.6/) for links to the source releases, documentation and API reference, and binary builds for a number of platforms.
 
 Bio-Formats C++ changes include:
 
@@ -23,6 +23,6 @@ Superbuild changes include:
     - boost-1.58: Removed (no longer used)
     - png: Updated to 1.6.19
 
-The software release is available at [http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.6](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.6)
+The software release is available at [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.6).
 
-Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
+For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

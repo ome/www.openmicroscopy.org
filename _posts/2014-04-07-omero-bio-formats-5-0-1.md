@@ -48,10 +48,7 @@ and the Bio-Formats [GitHub
 milestone](https://github.com/openmicroscopy/bioformats/issues?milestone=14&page=1&state=closed)
 pages.
 
-The software is available from [the OMERO download
-page](http://downloads.openmicroscopy.org/omero/5.0.1/) and [the
-Bio-Formats download
-page](http://downloads.openmicroscopy.org/bio-formats/5.0.1/).
+The software is available from [OMERO archived downloads](http://downloads.openmicroscopy.org/omero/5.0.1/) and [Bio-Formats archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.1/).
 
 For information on upgrading your server, see the [server upgrade
 documentation](http://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html).

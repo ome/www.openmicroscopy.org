@@ -56,10 +56,7 @@ Further details are available on
 [trac](https://trac.openmicroscopy.org.uk/ome/milestone/5.0.2).
 
 
-The software is available from [the OMERO download
-page](http://downloads.openmicroscopy.org/omero/5.0.2/) and [the
-Bio-Formats download
-page](http://downloads.openmicroscopy.org/bio-formats/5.0.2/).
+The software is available from [OMERO archived downloads](http://downloads.openmicroscopy.org/omero/5.0.2/) and [Bio-Formats archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.2/).
 
 
 For information on upgrading your server, see the [server upgrade

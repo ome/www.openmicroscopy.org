@@ -37,11 +37,11 @@ For OMERO:
 
 Further details are available on the What's New pages:
 
-[Users](http://www.openmicroscopy.org/site/support/omero5.1/users/whatsnew.html) [Sysadmins](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/whatsnew.html) [Developers](http://www.openmicroscopy.org/site/support/omero5.1/developers/whatsnew.html)
+[Users](http://www.openmicroscopy.org/site/support/omero5.1/users/whatsnew.html), [Sysadmins](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/whatsnew.html) and [Developers](http://www.openmicroscopy.org/site/support/omero5.1/developers/whatsnew.html).
 
-External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 [version histories](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
+External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 [Bio-Formats version history](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
 
-The software is available at: [downloads.openmicroscopy.org/omero/5.1.0](http://downloads.openmicroscopy.org/omero/5.1.0)
+The software is available at [archived downloads](http://downloads.openmicroscopy.org/omero/5.1.0)
 
 Upgrade information is at [server upgrade page](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html.
 
@@ -49,8 +49,7 @@ Upgrade information is at [server upgrade page](http://www.openmicroscopy.org/si
 
 **NOTE: Upgrades to OMERO.web break both OMERO.figure (version 1.0.0 and earlier) and OMERO.webtagging (version 1.1.0 and earlier). We will be releasing updated versions which are compatible with OMERO 5.1 imminently but in the meantime, you should not upgrade if you rely on either of these optional extensions.**
 
-Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/).
+For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
 
 
 [1] Thanks to Christophe Sommer [2] Thanks to Lee Kamentsky [3] Thanks to Lee Kamentsky and Sebastien Simard [4] Thanks to Brian Long
-
