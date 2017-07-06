@@ -58,7 +58,7 @@ The software is available from
 and
 [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.3/)
 
-For information on upgrading your server, see [http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html)
+For information on upgrading your server, see [http://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html](http://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
 
@@ -67,4 +67,4 @@ For any problems or comments, please use the [OME Forums or mailing lists]({{ si
 
 [2] http://help.openmicroscopy.org/search.html
 
-[3] https://www.openmicroscopy.org/site/support/omero5/sysadmins/search.html
+[3] https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/search.html
