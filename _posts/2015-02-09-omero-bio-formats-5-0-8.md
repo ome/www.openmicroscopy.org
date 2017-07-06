@@ -9,7 +9,7 @@ This release fixes one specific issue causing OMERO.insight to crash when trying
 The software is available from OMERO Downloads - [archived downloads](http://downloads.openmicroscopy.org/omero/5.0.8/)
 
 For information on upgrading your server, see the upgrade guide for
-system administrators - [server upgrade page](http://www.openmicroscopy.org/site/support/omero5/sysadmins/server-upgrade.html)
+system administrators - [server upgrade page](http://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
 
 Bio-Formats 5.0.8 is also being released today to keep the version numbers in sync. However, there are no changes to the code.
 
