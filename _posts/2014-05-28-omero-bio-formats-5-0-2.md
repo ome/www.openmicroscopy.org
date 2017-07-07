@@ -53,7 +53,7 @@ For system administrators, changes include:
 
 
 Further details are available on
-[trac](https://trac.openmicroscopy.org.uk/ome/milestone/5.0.2).
+[Trac](https://trac.openmicroscopy.org.uk/ome/milestone/5.0.2).
 
 
 The software is available from [OMERO archived downloads](https://downloads.openmicroscopy.org/omero/5.0.2/) and [Bio-Formats archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.2/).

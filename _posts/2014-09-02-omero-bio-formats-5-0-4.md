@@ -17,7 +17,7 @@ Bio-Formats improvements include:
 -  support for PicoQuant .bin files (thanks to Ian Munro)
 
 
-Full details are available on the [OMERO Github milestone](https://github.com/openmicroscopy/openmicroscopy/issues?q=milestone%3A5.0.4+is%3Aclosed) and the [Bio-Formats Github milestone](https://github.com/openmicroscopy/bioformats/issues?q=milestone%3A5.0.4+is%3Aclosed) pages.
+Full details are available on the [OMERO GitHub milestone](https://github.com/openmicroscopy/openmicroscopy/issues?q=milestone%3A5.0.4+is%3Aclosed) and the [Bio-Formats GitHub milestone](https://github.com/openmicroscopy/bioformats/issues?q=milestone%3A5.0.4+is%3Aclosed) pages.
 
 The software is available from
 [OMERO archived downloads](https://downloads.openmicroscopy.org/omero/5.0.4/)
