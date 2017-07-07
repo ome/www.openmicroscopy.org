@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JPEG XR compression support coming to Bio-Formats
-intro-blurb: The OME team are delighted to announce that thanks to a collaboration between Glencoe Software and Carl Zeiss Microscopy GmbH, support for whole slide images compressed with the JPEG XR compression scheme is coming to Bio-Formats
+intro-blurb: The OME team is delighted to announce that thanks to a collaboration between Glencoe Software and Carl Zeiss Microscopy GmbH, support for whole slide images compressed with the JPEG XR compression scheme is coming to Bio-Formats
 ---
 Glencoe Software and ZEISS will collaborate to extend the Bio-Formats library to support whole slide images
  with the JPEG XR compression scheme, like those recorded by the ZEISS Axio Scan.Z1 virtual slide scanner. 
