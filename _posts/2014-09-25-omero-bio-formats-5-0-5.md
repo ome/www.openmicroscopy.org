@@ -6,20 +6,16 @@ intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Form
 Two security vulnerabilities have been discovered in versions of OMERO up to and including 4.4.11
 and up to and including 5.0.4.
 
-**System administrators should review the "Security Vulnerabilities"
-pages on the OME website:**
-
-[http://www.openmicroscopy.org/site/products/omero/secvuln](http://www.openmicroscopy.org/site/products/omero/secvuln)
+**System administrators should review the [Security Vulnerabilities pages]((https://www.openmicroscopy.org/site/products/omero/secvuln)) on the OME website**
 
 The more critical of the two, 2014-SV2, provides a workaround which can and should be applied immediately.
-
 
 
 An upgrade of all installations is highly recommended. The new versions are available from the
 respective downloads page:
 
- - [archived downloads](http://downloads.openmicroscopy.org/omero/5.0.5/)
- - [archived downloads](http://downloads.openmicroscopy.org/omero/4.4.12/)
+ - [archived downloads](https://downloads.openmicroscopy.org/omero/5.0.5/)
+ - [archived downloads](https://downloads.openmicroscopy.org/omero/4.4.12/)
 
 For information on the upgrade from 4.4.x or 5.0.x to 5.0.5, see the [OMERO 5 instructions](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
 
@@ -38,6 +34,6 @@ Changes include:
  - Documentation improvements
  - Support for non-spectral Prairie 5.2 datasets
 
-The new version is available from [archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.5/).
+The new version is available from [archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.5/).
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

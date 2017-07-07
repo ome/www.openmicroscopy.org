@@ -23,12 +23,12 @@ Other improvements include:
     * Metamorph/MetaXpress TIFF - improved UIC1 metadata tag parsing
     * Leica LIF - improved metadata handling
 
-Full details can be found at [Bio-Formats version history](http://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html])
+Full details can be found at [Bio-Formats version history](https://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html])
 
 The software is available at
-[archived downloads](http://downloads.openmicroscopy.org/bio-formats/5.1.2)
+[archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.1.2)
 and the C++ implementation is available from
-[archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.2/)
+[archived downloads](https://downloads.openmicroscopy.org/bio-formats-cpp/5.1.2/)
 
 **OMERO**
 
@@ -55,12 +55,12 @@ Critical bug fixes include:
 * in-place import file handle leak
 * various unicode and unit failures (thanks to Tristan Nowak for his help in identifying several of these bugs)
  
-Full details are available at [OMERO version history](http://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
+Full details are available at [OMERO version history](https://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
 
 The software is available at
-[archived downloads](http://downloads.openmicroscopy.org/omero/5.1.2)
+[archived downloads](https://downloads.openmicroscopy.org/omero/5.1.2)
 
-Upgrade information is at [server upgrade page](http://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html).
+Upgrade information is at [server upgrade page](https://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html).
 
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

@@ -7,7 +7,7 @@ Today we have released the binary builds of Bio-Formats C++ 5.1.4, together with
 
 The major goal of this release was porting Bio-Formats C++ to Microsoft Windows, initially supporting Visual Studio 2013 (VS2013). This goal was realised, with Bio-Formats 5.1.4 (released on 07/09/15) being buildable with both VS2013 and also with VS2012. The CMake Super-Build released today works with VS2013 with the "Visual Studio 12 2013" (msbuild) generator; work has been done to support additional versions of Visual Studio and additional generators, which will be completed in subsequent releases.
 
-See [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.4/)
+See [archived downloads](https://downloads.openmicroscopy.org/bio-formats-cpp/5.1.4/)
 for links to the source releases, documentation and API reference, and binary builds for a number of platforms which now include Windows with VS2013.
 
 Bio-Formats Windows portability changes:
@@ -57,6 +57,6 @@ CMake Super-Build changes:
 -  Updated libtiff to 4.0.6; this provides BigTIFF support for Windows
 -  Allowed building from libtiff CVS HEAD
 
-The software release is available at [archived downloads](http://downloads.openmicroscopy.org/bio-formats-cpp/5.1.4).
+The software release is available at [archived downloads](https://downloads.openmicroscopy.org/bio-formats-cpp/5.1.4).
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/).

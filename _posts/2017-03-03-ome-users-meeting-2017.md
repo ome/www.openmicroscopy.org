@@ -14,4 +14,3 @@ We’ll continue the tradition of starting the meeting with Lightning Talks from
 Workshops will be announced soon and will cover a range of OME functionality— Bio-Formats, OMERO and IDR.  We’ll also have demos of tools from members of the community. 
 
 We look forward to welcoming you to Dundee and several exciting days discussing imaging data in biosciences research.
-
