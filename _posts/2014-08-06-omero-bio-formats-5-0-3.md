@@ -49,7 +49,7 @@ For system administrators, changes include:
 
 Note that the generated Apache 2.2 config contains a Rewrite rule `(RewriteRule ^/?$ /omero/ [R])` which no longer works (404 error), possibly due to changes in the OMERO.web custom prefix auto-configuration. Removing the rule fixes things.
 
-Further details are available on [trac](https://trac.openmicroscopy.org.uk/ome/milestone/5.0.3)
+Further details are available on [Trac](https://trac.openmicroscopy.org.uk/ome/milestone/5.0.3)
 
 To see details of the actual code changes and the specific issues they are addressing, refer to the GitHub milestone pages for OMERO and Bio-Formats.
 
