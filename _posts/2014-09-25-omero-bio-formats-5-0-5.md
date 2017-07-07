@@ -6,7 +6,7 @@ intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Form
 Two security vulnerabilities have been discovered in versions of OMERO up to and including 4.4.11
 and up to and including 5.0.4.
 
-**System administrators should review the [Security Vulnerabilities pages]((https://www.openmicroscopy.org/site/products/omero/secvuln)) on the OME website**
+**System administrators should review the [Security Vulnerabilities pages](https://www.openmicroscopy.org/site/products/omero/secvuln) on the OME website**
 
 The more critical of the two, 2014-SV2, provides a workaround which can and should be applied immediately.
 
