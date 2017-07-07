@@ -3,7 +3,7 @@ layout: post
 title: Release of Bio-Formats-C++ 5.1.4
 intro-blurb: The OME team is pleased to announce the release of Bio-Formats-C++ 5.1.4 binary builds and ome-cmake-superbuild package
 ---
-Today we have released the binary builds of Bio-Formats-C++ 5.1.4, together with the ome-cmake-superbuild package used for building Bio-Formats-C++ and its dependencies on Windows and other platforms.This is a new package split out from the Bio-Formats sources, which may be used to build the libraries required by Bio-Formats such as zlib, bzip2, icu, boost, libtiff and xerces-c.
+Today we have released the binary builds of Bio-Formats-C++ 5.1.4, together with the ome-cmake-superbuild package used for building Bio-Formats-C++ and its dependencies on Windows and other platforms. This is a new package split out from the Bio-Formats sources, which may be used to build the libraries required by Bio-Formats such as zlib, bzip2, icu, boost, libtiff and xerces-c.
 
 The major goal of this release was porting Bio-Formats-C++ to Microsoft Windows, initially supporting Visual Studio 2013 (VS2013). This goal was realised, with Bio-Formats 5.1.4 (released on 07/09/15) being buildable with both VS2013 and also with VS2012.  The CMake Super-Build released today works with VS2013 with the "Visual Studio 12 2013" (msbuild) generator; work has been done to support additional versions of Visual Studio and additional generators, which will be completed in subsequent releases.
 
