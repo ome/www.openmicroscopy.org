@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Release of Bio-Formats-C++ 5.1.6
+title: Release of Bio-Formats C++ 5.1.6
 intro-blurb: The OME team is pleased to announce the release of Bio-Formats C++ 5.1.6 binary builds and ome-cmake-superbuild package
 ---
 Today we have released the binary builds of Bio-Formats C++ 5.1.6, together with the ome-cmake-superbuild package used for building Bio-Formats C++ and its dependencies on Windows and other platforms.
