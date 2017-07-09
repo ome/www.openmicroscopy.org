@@ -6,6 +6,15 @@ main-blurb: New releases and other announcements
         <!-- begin News -->
         <hr class="whitespace">
         <div id="community-posts" class="row">
+{% for post in paginator.posts %}
+            <div class="small-12 medium-8 medium-offset-2 columns">
+                <h6><i class="fa fa-calendar"></i> {{post.date | date: "%B %d, %Y"}}</h6>
+                <h2><a href="{{ post.url | relative_url }}">{{post.title}}</a></h2>
+                <p class="card-caption">{{post.intro-blurb}}</p>
+                <div class="row"></div>
+            </div>
+            <hr class="medium-8">
+{% endfor %}
 {% if paginator.total_pages > 1 %}
         <div class="small-12 medium-8 medium-offset-2 columns">
         <ul class="pagination">
@@ -37,15 +46,6 @@ main-blurb: New releases and other announcements
         </ul>
     </div>
 {% endif %}
-{% for post in paginator.posts %}
-            <div class="small-12 medium-8 medium-offset-2 columns">
-                <h6><i class="fa fa-calendar"></i> {{post.date | date: "%B %d, %Y"}}</h6>
-                <h2><a href="{{ post.url | relative_url }}">{{post.title}}</a></h2>
-                <p class="card-caption">{{post.intro-blurb}}</p>
-                <div class="row"></div>
-            </div>
-            <hr class="medium-8">
-{% endfor %}
         </div>
         <!-- end News -->
         <hr class="whitespace">
