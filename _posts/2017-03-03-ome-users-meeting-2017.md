@@ -3,7 +3,7 @@ layout: post
 title: Speakers announced for OME Users Meeting 2017
 intro-blurb: The OME team is pleased to announce the draft programme for the OME Users Meeting 2017, to be held in Dundee on 31st May to June 2nd.
 ---
-The draft programme for the [OME Users Meeting 2017]({{ site.baseurl }}/community/events/12th-annual-users-meeting-2017.html) is now available.
+The draft programme for the [OME Users Meeting 2017]({{ site.baseurl }}/about/events/12th-annual-users-meeting-2017.html) is now available.
 
 The programme features speakers across the range of academic, non-profit and industrial environments who will be discussing their work in the fields of bioresearch, drug discovery and scientific publication.  As usual, we have a pretty international crowd— we’ve invited speakers from Europe, USA and Asia.  
 
