@@ -19,7 +19,7 @@ main-blurb: New releases and other announcements
           {% for page in (1..paginator.total_pages) %}
           <li>
             {% if page == paginator.page %}
-              <em>{{ page }}</em>
+              {{ page }}
             {% elsif page == 1 %}
               <a href="{{ '/community/news' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
