@@ -30,7 +30,7 @@ main-blurb: New releases and other announcements
             {% if page == paginator.page %}
               {{ page }}
             {% elsif page == 1 %}
-              <a href="{{ '/community/news' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+              <a href="{{ '/announcements' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
               <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
             {% endif %}
