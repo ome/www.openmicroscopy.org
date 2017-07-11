@@ -5,7 +5,7 @@ baseurl: /www.openmicroscopy.org
 
 gems: [jekyll-paginate]
 paginate: 10
-paginate_path: "/community/news/page:num/"
+paginate_path: "/announcements/page:num/"
 
 bf:
  version: 5.5.2
