@@ -8,24 +8,24 @@ paginate: 10
 paginate_path: "/announcements/page:num/"
 
 bf:
- version: 5.5.2
+ version: 5.5.3
 
 omero:
  version: 5.3.3
  build: b63
 
 omecommoncpp:
-  version: 5.4.0
+  version: 5.4.2
 
 omemodel:
-  version: 5.5.1
+  version: 5.5.6
 
 omeqtwidgets:
- version: 5.4.0
+ version: 5.4.2
  
 omefiles:
- version: 0.3.2
- build: 22
+ version: 0.4.0
+ build: 24
 
 omecmakesuperbuild:
- version: 0.3.2
+ version: 0.4.0
