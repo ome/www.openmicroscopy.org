@@ -47,33 +47,27 @@ title: Explore
             </div>
             <div class="medium-4 medium-offset-1 column">
                 <h5 class="text-center">Start a Server with Ansible</h5>
-                <code class="html">
-                # Start a server with ansible<br>
-                ansible-galaxy install openmicroscopy.omero-server<br>
-                cat playbook.yml &lt;&lt;EOF<br>
-                - hosts: localhost<br>
-                  roles:<br>
-                  - role: openmicroscopy.omero-server<br>
-                    postgresql_users_databases:<br>
-                    - user: omero<br>
-                      password: omero<br>
-                      databases: [omero]<br>
-                EOF<br>
-                </code>
+                <pre><code class="html"># Start a server with ansible
+ansible-galaxy install openmicroscopy.omero-server
+cat playbook.yml &lt;&lt;EOF
+- hosts: localhost
+  roles:
+  - role: openmicroscopy.omero-server
+    postgresql_users_databases:
+    - user: omero
+      password: omero
+      databases: [omero]
+EOF</code></pre>
             </div>
             <div class="medium-4 column end">
                 <h5 class="text-center">Start a Server in Docker</h5>
-                <code class="html">
-                # Start a server in docker<br>
-                docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres<br>
-                docker run -d --name omero-master --link postgres:db \<br>
-                    -e DBUSER=postgres -e DBPASS=postgres -e DBNAME=postgres \<br>
-                    -p 4063:4063 -p 4064:4064 \<br>
-                    openmicroscopy/omero-grid master<br>
-                <br>
-                <br>
-                <br>
-                </code>
+                <pre><code class="html"># Start a server in docker
+docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres
+docker run -d --name omero-master --link postgres:db \
+    -e DBUSER=postgres -e DBPASS=postgres -e DBNAME=postgres \
+    -p 4063:4063 -p 4064:4064 \
+    openmicroscopy/omero-grid master
+</code></pre>
             </div>
         </div>
         <hr class="invisible">
@@ -90,7 +84,7 @@ title: Explore
                             <li><a href="https://github.com/openmicroscopy/ansible-role-omero-web">OMERO Web</a></li>
                         </ul>
                     </li>
-                    <li><a href="https://github.com/openmicroscopy/omero-grid-docker">Docker</a></li>
+                    <li><a href="https://github.com/openmicroscopy/omero-server-docker">Docker</a></li>
                     <li><a href="https://anaconda.org/bioconda/python-omero">Python OMERO</a></li>
                 </ul>
             </div>
@@ -179,7 +173,7 @@ title: Explore
                 <div class="card card-public-server top-green">
                     <div class="card-section">
                         <h4>IDR</h4>
-                        <p class="card-caption"><a href="http://idr.openmicroscopy.org" target="_blank">The Image Data Resource</a> is a collaboration between OME, EMBL-EBI and the University of Bristol, to make datasets from published scientific studies publicly available for viewing and data reuse and reanalysis.</p>
+                        <p class="card-caption"><a href="https://idr.openmicroscopy.org" target="_blank">The Image Data Resource</a> is a collaboration between OME, EMBL-EBI and the University of Bristol, to make datasets from published scientific studies publicly available for viewing and data reuse and reanalysis.</p>
                     </div>
                 </div>
             </div>
