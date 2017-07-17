@@ -32,6 +32,6 @@ and
 
 For information on upgrading your server, see the [upgrade guide](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html) for system administrators.
 
-For full details of the next major release, see the [5.1 milestone page](https://trac.openmicroscopy.org.uk/ome/milestone/5.1.0)
+For full details of the next major release, see the [5.1 milestone page](https://trac.openmicroscopy.org/ome/milestone/5.1.0)
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)
