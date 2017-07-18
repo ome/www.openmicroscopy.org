@@ -23,7 +23,7 @@ Other improvements include:
     * Metamorph/MetaXpress TIFF - improved UIC1 metadata tag parsing
     * Leica LIF - improved metadata handling
 
-Full details can be found at [Bio-Formats version history](https://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html])
+Full details can be found at [Bio-Formats version history](https://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html)
 
 The software is available at
 [archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.1.2)
