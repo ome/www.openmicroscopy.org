@@ -126,6 +126,8 @@ h6 { color: #455a64;
     color: #127559;
 }
 
+.button.tiny { font-size: .65rem; }
+
 /* ========== main navigation ==========*/
 .logo {
     display: inline;
