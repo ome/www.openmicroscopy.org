@@ -232,6 +232,7 @@ h6 { color: #455a64;
     background-image: url('../img/bg/hero-consortium.svg'), url('../img/bg/main.jpg');
     background-position: center 50px, center center;
     background-size: 1290px 500px, cover; }
+#bg-image-main-plain { background-image: url('../img/bg/main.jpg'); }    
 #bg-image-about { background-image: url('../img/bg/about.jpg'); }
 #bg-image-teams { background-image: url('../img/bg/teams.jpg'); }
 #bg-image-contributors { background-image: url('../img/bg/contributors.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
