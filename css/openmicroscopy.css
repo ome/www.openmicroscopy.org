@@ -420,7 +420,7 @@ div.medium-3 > .card-download { min-height: 491px; }
         text-transform: uppercase;
 }
 
-p.card-caption {
+p.card-caption, span.card-caption {
     color: #455a64;
     font-size: .90rem;
     font-weight: normal;
@@ -590,10 +590,10 @@ p.job-title {
     padding-left: 5px;       
 }
 
-/* ========== page: Community ==========*/
+/* ========== section: News ==========*/
 #community-posts h2 a { font-weight: normal; }
 
-.event-row {
+.event-row, .secvul-row {
     border-bottom: 1px dotted #cfd8dc;
     margin-bottom: 15px;
     padding-bottom: 10px;    
@@ -604,6 +604,9 @@ h2.event-day {
 h3.event-title, h3.event-title > a { 
     font-size: 1.2rem;
     font-weight: 600; }
+h3.secvul-heading {
+    font-size: 1.5rem;    
+}
 h4.event-speaker { 
     color: #455a64;
     font-size: 1rem; }
