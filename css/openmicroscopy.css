@@ -598,15 +598,19 @@ p.job-title {
     margin-bottom: 15px;
     padding-bottom: 10px;    
 }
+.secvul-row {
+    padding-top: 25px;
+}
 h2.event-day { 
     font-size: 1.5rem;
     margin-bottom: 40px; }
 h3.event-title, h3.event-title > a { 
     font-size: 1.2rem;
     font-weight: 600; }
-h3.secvul-heading {
-    font-size: 1.5rem;    
-}
+h3.secvul-heading { font-size: 1.5rem; }
+    h3.secvul-heading > i.fa {
+        width: 35px;
+    }
 h4.event-speaker { 
     color: #455a64;
     font-size: 1rem; }
