@@ -2,7 +2,7 @@
 layout: news-security
 filename: security
 title: 2017-SV1 Filename Mutability
-main-blurb: affects OMERO versions 5.2.7 and earlier
+main-blurb: affects OMERO4 versions 4.3.3 and earlier, and 4.4.3 and earlier
 ---          
                 
         <!-- begin SecVul -->
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
+                <p class="secvul-description">An LDAP authentication vulnerability has been found in OMERO.server.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The uniqueness constraint on (path, name, repo) does not prevent this because of the trick of using "/./" (maybe for some repos "/../") or whatever in the path. The fix is to disallow new path/name with ".." and "." components when editing existing OriginalFile instances.</p>
+                <p class="secvul-description">When OMERO.server has LDAP authentication enabled and the LDAP server allows anonymous binds the use of an empty ("") password via the OMERO.server API permits logging in as any LDAP-based user.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -28,7 +28,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">OMERO.server up to and including 5.2.7.</p>
+                <p class="secvul-description">OMERO.server between 4.3.0 and 4.3.3 inclusive, and all 4.4 servers prior to 4.4.3</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +36,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description">A remote attacker could possibly login to accounts he/she is not permitted to access via the OMERO.server API. Logins via OMERO.insight or OMERO.web are not affected.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -44,7 +44,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">None <i class="fa fa-frown-o"></i></p>
+                <p class="secvul-description">Disable LDAP authentication.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -52,11 +52,17 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.8. </p>
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 4.3.4. </p>
             </div>
         </div>
-        
+         <div class="secvul-row row">
+                <div class="small-12 medium-3 columns">
+                    <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
+                </div>
+                <div class="small-12 medium-9 columns">
+                    <p class="secvul-description">Sebastien Besson for notifying the OME team of this security issue via the <a href="http://lists.openmicroscopy.org.uk/pipermail/ome-devel/2012-January/002118.html" target="_blank">ome-devel mailing list</a>. </p>
+                </div>
+            </div>
         
         <!-- end SecVul -->
         <hr class="whitespace">
-        

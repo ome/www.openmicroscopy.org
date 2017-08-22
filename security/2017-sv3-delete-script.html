@@ -1,7 +1,7 @@
 ---
 layout: news-security
 filename: security
-title: 2017-SV1 Filename Mutability
+title: 2017-SV3 Delete Script
 main-blurb: affects OMERO versions 5.2.7 and earlier
 ---          
                 
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
+                <p class="secvul-description">Users even without permission could still delete official scripts even though they got an error when they tried.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The uniqueness constraint on (path, name, repo) does not prevent this because of the trick of using "/./" (maybe for some repos "/../") or whatever in the path. The fix is to disallow new path/name with ".." and "." components when editing existing OriginalFile instances.</p>
+                <p class="secvul-description">The ordering of statements in the script service was such that the underlying file on the filesystem could be removed before model object permissions on the original file were checked. The fix was to move some code forward from the light admin work that adds extra permissions checking to the script service so that a "have I permission to delete this OriginalFile?" check is made before launching into anything that touches the filesystem.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +36,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description">All scripts could be removed.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -59,4 +59,3 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
         
         <!-- end SecVul -->
         <hr class="whitespace">
-        
