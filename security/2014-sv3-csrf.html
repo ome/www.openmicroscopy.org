@@ -1,8 +1,8 @@
 ---
 layout: news-security
 filename: security
-title: 2017-SV1 Filename Mutability
-main-blurb: affects OMERO versions 5.2.7 and earlier
+title: 2014-SV3 CSRF
+main-blurb: affects OMERO.web versions 5.0.5 and earlier
 ---          
                 
         <!-- begin SecVul -->
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
+                <p class="secvul-description">Forms in OMERO.web are susceptible to <a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" target="_blank">CSRF</a> attacks.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,9 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The uniqueness constraint on (path, name, repo) does not prevent this because of the trick of using "/./" (maybe for some repos "/../") or whatever in the path. The fix is to disallow new path/name with ".." and "." components when editing existing OriginalFile instances.</p>
+                <p class="secvul-description">CSRF (cross-site request forgery) is also known as a one-click attack or session riding. It's a type of malicious exploit where unauthorized commands are transmitted from a user that the website trusts.
+
+                </p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -28,7 +30,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">OMERO.server up to and including 5.2.7.</p>
+                <p class="secvul-description">OMERO.web versions prior to 5.0.6.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +38,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description">If a user can be convinced or tricked into opening an untrusted webpage from a browser where they've previously logged into OMERO, the OMERO.web session can be reused to access OMERO as that user.<br><br>Due to the complexity of such an exploit, we do not consider this a critical security vulnerability.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -44,7 +46,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">None <i class="fa fa-frown-o"></i></p>
+                <p class="secvul-description">Users should actively logout when finished working with OMERO.web and take care when accessing non-trusted websites.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -52,11 +54,17 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.8. </p>
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.0.6. </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Leif Nixon for notifying the OME team of this security issue via <a href="{{ site.baseurl }}/security/index.html#secvuln-reporting">our secure mailing list</a> and filing a <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2014-7198">CVE (CVE-2014-7198)</a>.</p>
             </div>
         </div>
         
-        
         <!-- end SecVul -->
         <hr class="whitespace">
-        

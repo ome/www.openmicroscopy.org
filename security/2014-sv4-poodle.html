@@ -1,8 +1,8 @@
 ---
 layout: news-security
 filename: security
-title: 2017-SV1 Filename Mutability
-main-blurb: affects OMERO versions 5.2.7 and earlier
+title: 2014-SV4 POODLE
+main-blurb: affects OMERO versions 5.0.5 and earlier
 ---          
                 
         <!-- begin SecVul -->
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
+                <p class="secvul-description">The POODLE attack, also known as <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566" target="_blank">CVE-2014-3566</a> can make use of SSLv3 if enabled.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The uniqueness constraint on (path, name, repo) does not prevent this because of the trick of using "/./" (maybe for some repos "/../") or whatever in the path. The fix is to disallow new path/name with ".." and "." components when editing existing OriginalFile instances.</p>
+                <p class="secvul-description">From the CVE: "The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the POODLE issue."</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -28,7 +28,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">OMERO.server up to and including 5.2.7.</p>
+                <p class="secvul-description">All OMERO components (server, Java, Python, C++) prior to 5.0.6.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +36,8 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description">The POODLE attack is a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank">man-in-the-middle</a> and therefore "can succeed only when the attacker can impersonate each endpoint to the satisfaction of the other". As with 2014-SV3-CSRF, only if a user can be convinced or tricked into opening an untrusted connection can the POODLE attack be used.<br><br>
+Due to the complexity of such an exploit, we do not consider this a critical security vulnerability.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -44,7 +45,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">None <i class="fa fa-frown-o"></i></p>
+                <p class="secvul-description">Use <a href="http://downloads.openmicroscopy.org/resources/security/2014-SV4/2014-SV4-poodle.patch" target="_blank">2014-SV4-poodle.patch</a> to disable SSLv3.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -52,11 +53,10 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.8. </p>
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.0.6. </p>
             </div>
         </div>
         
         
         <!-- end SecVul -->
         <hr class="whitespace">
-        

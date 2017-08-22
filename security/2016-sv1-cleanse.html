@@ -1,8 +1,8 @@
 ---
 layout: news-security
 filename: security
-title: 2017-SV1 Filename Mutability
-main-blurb: affects OMERO versions 5.2.7 and earlier
+title: 2016-SV2 Share
+main-blurb: affects OMERO versions 5.2.3 and earlier
 ---          
                 
         <!-- begin SecVul -->
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
+                <p class="secvul-description">The cleanse.py script which is used by the "bin/omero admin cleanse" command can lead to data loss.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The uniqueness constraint on (path, name, repo) does not prevent this because of the trick of using "/./" (maybe for some repos "/../") or whatever in the path. The fix is to disallow new path/name with ".." and "." components when editing existing OriginalFile instances.</p>
+                <p class="secvul-description">If the cleanse.py script is run by an operating system user who has permission to delete from the filesystem used for OMERO's binary repository but who is logged into OMERO as a non-administrative user (not a member of the OMERO "system" group) then the cleanse operation will delete other users' images, attachments, and other files that the OMERO user does not have permission to access.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -28,7 +28,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">OMERO.server up to and including 5.2.7.</p>
+                <p class="secvul-description">OMERO.server up to and including 5.2.3.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +36,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description">Potential for data loss.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -44,7 +44,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">None <i class="fa fa-frown-o"></i></p>
+                <p class="secvul-description">Use the <a href="http://downloads.openmicroscopy.org/resources/security/2016-SV1/2016-SV1-cleanse.patch" target="_blank">2016-SV1-cleanse.patch</a> to patch cleanse.py.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -52,11 +52,17 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.8. </p>
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.4.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Carnë Draug for notifying the OME team of this security issue.</p>
             </div>
         </div>
         
-        
         <!-- end SecVul -->
         <hr class="whitespace">
-        
