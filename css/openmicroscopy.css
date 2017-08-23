@@ -538,6 +538,16 @@ p.card-caption {
 .omero-feature-png { max-width: 100px; }
 
 /* ========== section: About ==========*/
+.citation {
+    border-radius: 2px;
+    background-color: #e3f2fd;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+a.pmid::before { content: "PMID: "; }
+
 #team-swedlow > div.column {
     border: 1px solid transparent;
     padding-top: 15px;    
@@ -590,16 +600,6 @@ p.job-title {
     font-size: 90%;
     padding-left: 5px;       
 }
-
-.citation {
-    border-radius: 2px;
-    background-color: #e3f2fd;
-    font-style: italic;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-}
-
-a.pmid::before { content: "PMID: "; }
 
 /* ========== page: Community ==========*/
 #community-posts h2 a { font-weight: normal; }
