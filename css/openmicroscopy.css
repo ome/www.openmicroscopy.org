@@ -609,7 +609,9 @@ h3.event-title, h3.event-title > a {
     font-weight: 600; }
 h3.secvul-heading { font-size: 1.5rem; }
     h3.secvul-heading > i.fa {
-        width: 35px;
+        width: 35px; }
+    h5.secvul-version {
+        color: #455a64;
     }
 h4.event-speaker { 
     color: #455a64;
