@@ -6,68 +6,98 @@ main-blurb: Known vulnerabilities, workarounds, and resolutions
 ---                      
         <!-- begin Security -->
         <hr class="whitespace">
-        <div id="community-posts" class="row">
-
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 5.2.7 and earlier</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2017-sv1-filename-mutability.html">2017-SV1 Filename Mutability</a></h3>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2017-sv2-edit-rw.html">2017-SV2 Edit in RW Group</a></h3>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2017-sv3-delete-script.html">2017-SV3 Delete Script</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 5.2.4 and earlier</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2016-sv2-share.html">2016-SV2 Share</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 5.2.3 and earlier</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2016-sv1-cleanse.html">2016-SV1 Cleanse</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO version 5.1</h5>
-                <h3 class="secvul-report"><a href="http://blog.openmicroscopy.org/tech-issues/2015/07/21/java-issue/" target="_blank">Java TLS Vulnerabilities Prior to 8u51, 7u85 and 6u101</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO version 5.0.6 or later</h5>
-                <h3 class="secvul-report"><a href="http://blog.openmicroscopy.org/tech-issues/2015/07/21/java-issue/" target="_blank">Java TLS Vulnerabilities Prior to 8u51, 7u85 and 6u101</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 5.0.0 - 5.0.5</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2014-sv3-csrf.html">2014-SV3 CSRF</a></h3>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2014-sv4-poodle.html">2014-SV4 POODLE</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 5.0.0 - 5.0.4</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2014-sv1-unicode-passwords.html">2014-SV1 Unicode Passwords</a></h3>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2014-sv2-empty-passwords.html">2014-SV2 Empty Passwords</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO version 4.4.12</h5>
-                <h3 class="secvul-report">No known vulnerabilities</h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 4.x - 4.4.11</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2014-sv1-unicode-passwords.html">2014-SV1 Unicode Passwords</a></h3>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2014-sv2-empty-passwords.html">2014-SV2 Empty Passwords</a></h3>
-            </div>
-            <hr class="medium-10">
-            <div class="small-12 medium-10 medium-offset-1 columns">
-                <h5 class="secvul-version"><i class="fa fa-code-fork"></i> OMERO versions 4.x - 4.4.3</h5>
-                <h3 class="secvul-report"><a href="{{ site.baseurl }}/security/2012-sv1-ldap-authenication.html">2012-SV1 LDAP Authentication</a></h3>
-            </div>
-            <hr class="medium-10">
+        <div id="secvul-posts" class="row">
+            <table>
+                <thead>
+                    <tr>
+                    <th width="200">Affected Versions</th>
+                    <th>Vulnerabilities</th>
+                    <th width="150">Fixed In</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5.2.7 and earlier</td>
+                        <td><a href="{{ site.baseurl }}/security/2017-sv1-filename-mutability.html">2017-SV1 Filename Mutability</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.2.7 and earlier</td>
+                        <td><a href="{{ site.baseurl }}/security/2017-sv2-edit-rw.html">2017-SV2 Edit in RW Group</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.2.7 and earlier</td>
+                        <td><a href="{{ site.baseurl }}/security/2017-sv3-delete-script.html">2017-SV3 Delete Script</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.2.4 and earlier</td>
+                        <td><a href="{{ site.baseurl }}/security/2016-sv2-share.html">2016-SV2 Share</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.2.3 and earlier</td>
+                        <td><a href="{{ site.baseurl }}/security/2016-sv1-cleanse.html">2016-SV1 Cleanse</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.1</td>
+                        <td><a href="http://blog.openmicroscopy.org/tech-issues/2015/07/21/java-issue/" target="_blank">Java TLS Vulnerabilities Prior to 8u51, 7u85 and 6u101</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.0.6 or later</td>
+                        <td><a href="http://blog.openmicroscopy.org/tech-issues/2015/07/21/java-issue/" target="_blank">Java TLS Vulnerabilities Prior to 8u51, 7u85 and 6u101</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.0.0 - 5.0.5</td>
+                        <td><a href="{{ site.baseurl }}/security/2014-sv3-csrf.html">2014-SV3 CSRF</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.0.0 - 5.0.5</td>
+                        <td><a href="{{ site.baseurl }}/security/2014-sv4-poodle.html">2014-SV4 POODLE</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.0.0 - 5.0.4</td>
+                        <td><a href="{{ site.baseurl }}/security/2014-sv1-unicode-passwords.html">2014-SV1 Unicode Passwords</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>5.0.0 - 5.0.4</td>
+                        <td><a href="{{ site.baseurl }}/security/2014-sv2-empty-passwords.html">2014-SV2 Empty Passwords</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>4.4.12</td>
+                        <td>No known vulnerabilities</td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>4.x - 4.4.11</td>
+                        <td><a href="{{ site.baseurl }}/security/2014-sv1-unicode-passwords.html">2014-SV1 Unicode Passwords</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>4.x - 4.4.11</td>
+                        <td><a href="{{ site.baseurl }}/security/2014-sv2-empty-passwords.html">2014-SV2 Empty Passwords</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                    <tr>
+                        <td>4.x - 4.4.3</td>
+                        <td><a href="{{ site.baseurl }}/security/2012-sv1-ldap-authenication.html">2012-SV1 LDAP Authentication</a></td>
+                        <td>[ data ]</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <!-- end Security -->
         <hr class="whitespace">
         <div id="secvuln-reporting" class="row">
-            <div class="small-12 medium-10 medium-offset-1 columns">
+            <div class="small-12">
                 <div class="callout primary">
                     <p>If you discover a security vulnerability or would like to report a security issue privately and securely, please <a href="mailto:security@openmicroscopy.org.uk">email us</a>. You can use GPG keys to communicate with us securely. If you do, please upload your GPG public key or supply it to us in some other way, so that we can reply securely too:</p>
                     <ul class="fa-ul">
