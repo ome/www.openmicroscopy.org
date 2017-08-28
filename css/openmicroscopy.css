@@ -240,6 +240,7 @@ h6 { color: #455a64;
 #bg-image-news { background-image: url('../img/bg/news.jpg'); }
 #bg-image-announcements { background-image: url('../img/bg/announcements.jpg'); }
 #bg-image-events { background-image: url('../img/bg/events.jpg'); }
+#bg-image-security { background-image: url('../img/bg/security.jpg'); }
 #bg-image-careers { background-image: url('../img/bg/careers.jpg'); }
 #bg-image-products { background-image: url('../img/bg/products.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
 #bg-image-omero { background-image: url('../img/bg/omero-omero.jpg'); }
@@ -421,7 +422,7 @@ div.medium-3 > .card-download { min-height: 491px; }
         text-transform: uppercase;
 }
 
-p.card-caption {
+p.card-caption, span.card-caption {
     color: #455a64;
     font-size: .90rem;
     font-weight: normal;
@@ -591,13 +592,16 @@ p.job-title {
     padding-left: 5px;       
 }
 
-/* ========== page: Community ==========*/
+/* ========== section: News ==========*/
 #community-posts h2 a { font-weight: normal; }
 
-.event-row {
+.event-row, .secvul-row {
     border-bottom: 1px dotted #cfd8dc;
     margin-bottom: 15px;
     padding-bottom: 10px;    
+}
+.secvul-row {
+    padding-top: 25px;
 }
 h2.event-day { 
     font-size: 1.5rem;
@@ -605,6 +609,12 @@ h2.event-day {
 h3.event-title, h3.event-title > a { 
     font-size: 1.2rem;
     font-weight: 600; }
+h3.secvul-heading { font-size: 1.5rem; }
+    h3.secvul-heading > i.fa {
+        width: 35px; }
+    h5.secvul-version {
+        color: #455a64;
+    }
 h4.event-speaker { 
     color: #455a64;
     font-size: 1rem; }
