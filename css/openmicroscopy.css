@@ -538,7 +538,17 @@ p.card-caption, span.card-caption {
 .omero-feature { max-width: 128px; }
 .omero-feature-png { max-width: 100px; }
 
-/* ========== page: About ==========*/
+/* ========== section: About ==========*/
+.citation {
+    border-radius: 2px;
+    background-color: #e3f2fd;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+a.pmid::before { content: "PMID: "; }
+
 #team-swedlow > div.column {
     border: 1px solid transparent;
     padding-top: 15px;    
