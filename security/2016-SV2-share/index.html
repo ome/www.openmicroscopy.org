@@ -47,10 +47,10 @@ main-blurb: affects OMERO versions 5.2.4 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description"><a href="http://downloads.openmicroscopy.org/resources/" target="_blank">SQL scripts are provided for the 5.1 and 5.2 databases</a> which:</p>
+                <p class="secvul-description">Use either the provided SQL scripts to delete all shares and disable the creation of shares:</p>
                 <ul>
-                    <li>delete all shares</li>
-                    <li>disable the creation of shares</li>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v5.2.5/sql/psql/OMERO5.2__0/OMERO5.2-delete-and-disable-shares.sql" target="_blank">OMERO5.2-delete-and-disable-shares.sql</a> (5.2), or</li>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v5.2.5/sql/psql/OMERO5.1__1/OMERO5.1-delete-and-disable-shares.sql" target="_blank">OMERO5.1-delete-and-disable-shares.sql</a> (5.1).</li>
                 </ul>
                 <p class="secvul-description">These scripts can be run against a running server with no downtime. If you are not actively using the shares functionality, this is a safe course of action. To see if your users have created any shares use:</p>
                 <pre><code class="html">psql omero -c "select count(*) from share"</code></pre>
