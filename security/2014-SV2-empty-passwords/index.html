@@ -49,15 +49,15 @@ main-blurb: affects OMERO4 versions 4.4.11 and earlier and OMERO5 versions 5.0.4
                     Use the provided SQL to disable affected accounts and the provided patches to prevent further empty password creation.</p>
                 <p class="secvul-description">
                     Warning: After running the following SQL, <strong>users with empty passwords will be immediately locked out</strong>.
-                    Either</p>
+                    Either:</p>
                 <ul>
-                    <li><code>sql/psql/OMERO5.0__0/2014-SV2-empty-passwords-list.sql</code> (5.0.5), or</li>
-                    <li><code>sql/psql/OMERO4.4__0/2014-SV2-empty-passwords-list.sql</code> (4.4.12)</li>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v.5.0.5/sql/psql/OMERO5.0__0/2014-SV2-empty-passwords-list.sql" target="_blank">2014-SV2-empty-passwords-list.sql</a> (5.0), or</li>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v.4.4.12/sql/psql/OMERO4.4__0/2014-SV2-empty-passwords-list.sql" target="_blank">2014-SV2-empty-passwords-list.sql</a> (4.4)</li>
                 </ul>
-                <p class="secvul-description">will list the users which are affected. To lock accounts, use either:</p>
+                <p class="secvul-description">will list the users who are affected. To lock accounts, use either:</p>
                 <ul>
-                    <li><code>sql/psql/OMERO5.0__0/2014-SV2-empty-passwords-fix.sql</code> (5.0.5), or</li>
-                    <li><code>sql/psql/OMERO4.4__0/2014-SV2-empty-passwords-fix.sql</code> (4.4.12)</li>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v.5.0.5/sql/psql/OMERO5.0__0/2014-SV2-empty-passwords-fix.sql" target="_blank">2014-SV2-empty-passwords-fix.sql</a> (5.0), or</li>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v.4.4.12/sql/psql/OMERO4.4__0/2014-SV2-empty-passwords-fix.sql" target="_blank">2014-SV2-empty-passwords-fix.sql</a> (4.4)</li>
                 </ul>
                 <p class="secvul-description">For a quick check, use this SQL:</p>
                     <pre><code class="html">select e.id,
