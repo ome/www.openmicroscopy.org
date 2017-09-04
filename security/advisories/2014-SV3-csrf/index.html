@@ -1,8 +1,8 @@
 ---
-layout: news-security
+layout: security-advisory
 filename: security
-title: 2016-SV1 Cleanse
-main-blurb: affects OMERO versions 5.2.3 and earlier
+title: 2014-SV3 CSRF
+main-blurb: affects OMERO.web versions 5.0.5 and earlier
 ---          
                 
         <!-- begin SecVul -->
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The cleanse.py script which is used by the "bin/omero admin cleanse" command can lead to data loss.</p>
+                <p class="secvul-description">Forms in OMERO.web are susceptible to <a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" target="_blank">CSRF</a> attacks.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,9 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">If the cleanse.py script is run by an operating system user who has permission to delete from the filesystem used for OMERO's binary repository but who is logged into OMERO as a non-administrative user (not a member of the OMERO "system" group) then the cleanse operation will delete other users' images, attachments, and other files that the OMERO user does not have permission to access.</p>
+                <p class="secvul-description">CSRF (cross-site request forgery) is also known as a one-click attack or session riding. It's a type of malicious exploit where unauthorized commands are transmitted from a user that the website trusts.
+
+                </p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -28,7 +30,7 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">OMERO.server up to and including 5.2.3.</p>
+                <p class="secvul-description">OMERO.web versions prior to 5.0.6.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +38,8 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">Potential for data loss.</p>
+                <p class="secvul-description">If a user can be convinced or tricked into opening an untrusted webpage from a browser where they've previously logged into OMERO, the OMERO.web session can be reused to access OMERO as that user.</p>
+                <p class="secvul-description">Due to the complexity of such an exploit, we do not consider this a critical security vulnerability.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -44,7 +47,7 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">Use the <a href="http://downloads.openmicroscopy.org/resources/security/2016-SV1/2016-SV1-cleanse.patch" target="_blank">2016-SV1-cleanse.patch</a> to patch cleanse.py.</p>
+                <p class="secvul-description">Users should actively logout when finished working with OMERO.web and take care when accessing non-trusted websites.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -52,7 +55,7 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.4.</p>
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.0.6. </p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -60,7 +63,7 @@ main-blurb: affects OMERO versions 5.2.3 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">Carnë Draug for notifying the OME team of this security issue.</p>
+                <p class="secvul-description">Leif Nixon for notifying the OME team of this security issue via <a href="{{ site.baseurl }}/security/index.html#secvuln-reporting">our secure mailing list</a> and filing a <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2014-7198">CVE (CVE-2014-7198)</a>.</p>
             </div>
         </div>
         

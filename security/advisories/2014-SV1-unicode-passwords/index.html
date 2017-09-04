@@ -1,8 +1,8 @@
 ---
-layout: news-security
+layout: security-advisory
 filename: security
-title: 2017-SV3 Delete Script
-main-blurb: affects OMERO versions 5.2.7 and earlier
+title: 2014-SV1 Unicode Passwords
+main-blurb: affects OMERO4 versions 4.4.11 and earlier and OMERO5 versions 5.0.4 and earlier
 ---          
                 
         <!-- begin SecVul -->
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">Users even without permission could still delete official scripts even though they got an error when they tried.</p>
+                <p class="secvul-description">The incorrect encoding of passwords with LATIN-1 rather than UTF-8 caused a reduction in the entropy of passwords with Unicode characters.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">The ordering of statements in the script service was such that the underlying file on the filesystem could be removed before model object permissions on the original file were checked. The fix was to move some code forward from the light admin work that adds extra permissions checking to the script service so that a "have I permission to delete this OriginalFile?" check is made before launching into anything that touches the filesystem.</p>
+                <p class="secvul-description">Unicode characters in user passwords were being encoded with the LATIN-1 (ISO-8859-1) character set. These extended characters were converted to a subset of the ASCII character set, reducing the strength of the passwords.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -28,7 +28,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">OMERO.server up to and including 5.2.7.</p>
+                <p class="secvul-description">OMERO.server up to and including 4.4.11, and 5.0 servers prior to 5.0.5.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +36,8 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All scripts could be removed.</p>
+                <p class="secvul-description">A remote attacker could possibly login to accounts he/she is not permitted to access. With a list of current users, the attacker could attempt to login as each user using a limited set of passwords. The primary concern are users with <strong>strictly</strong> Unicode passwords who are highly vulnerable.</p>
+                <p class="secvul-description">Note: OMERO accounts which are backed by LDAP are <strong>not</strong> affected.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -52,7 +53,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.2.8. </p>
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 4.4.12 or preferably 5.0.5. System administrators should request that users who might have used extended characters reset their passwords after upgrading. There is no need to choose a new password.</p>
             </div>
         </div>
         

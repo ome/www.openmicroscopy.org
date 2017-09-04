@@ -1,7 +1,7 @@
 ---
-layout: news-security
+layout: security-advisory
 filename: security
-title: 2017-SV2 Edit in RW Group
+title: 2017-SV1 Filename Mutability
 main-blurb: affects OMERO versions 5.2.7 and earlier
 ---          
                 
@@ -12,7 +12,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A normal user in a read-write group can edit official scripts.</p>
+                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -20,7 +20,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">Official scripts are in the "user" group. A normal user in a read-write group can edit official scripts because the server would check the current group permissions and see they were permissive. The fix was to increase the cases in which the server would instead look at the group permissions of the object actually being edited rather than those of the user's current group.</p>
+                <p class="secvul-description">The uniqueness constraint on (path, name, repo) does not prevent this because of the trick of using "/./" (maybe for some repos "/../") or whatever in the path. The fix is to disallow new path/name with ".." and "." components when editing existing OriginalFile instances.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -36,7 +36,7 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">High severity. Any users in a read-write group could edit any script and corrupt or delete data in OMERO.server.</p>
+                <p class="secvul-description">High severity.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -59,3 +59,4 @@ main-blurb: affects OMERO versions 5.2.7 and earlier
         
         <!-- end SecVul -->
         <hr class="whitespace">
+        
