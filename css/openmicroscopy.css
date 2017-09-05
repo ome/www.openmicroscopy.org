@@ -715,7 +715,7 @@ ul.pagination li a {
     -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
-    background: #eceff1;
+    background: #f0f5f9;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
