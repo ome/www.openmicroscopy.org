@@ -4,14 +4,14 @@ title: Release of OMERO & Bio-Formats 5.0.6
 intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Formats 5.0.6
 ---
 Two security vulnerabilities have been discovered in versions of OMERO up to and including 5.0.5.
-**System administrators should review the [Security Vulnerabilities pages](https://www.openmicroscopy.org/site/products/omero/secvuln) on the OME website**
+**System administrators should review the [Security Advisories]({{ site.baseurl }}/security/advisories/) on the OME website**
 
 
 We do not consider either 2014-SV3 CSRF or 2014-SV4 POODLE to be critical vulnerabilities due to the difficulty of exploiting them. **However, we do highly recommend all installations be upgraded.**
 
 The new version is available [archived downloads](https://downloads.openmicroscopy.org/omero/5.0.6/)
 
-For information on the upgrade from 4.4.x or 5.0.x to 5.0.6, see the [OMERO 5 instructions](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
+For information on the upgrade from 4.4.x or 5.0.x to 5.0.6, see the [OMERO 5 instructions](https://docs.openmicroscopy.org/omero/5.0.0/sysadmins/server-upgrade.html)
 
 
 Bio-Formats 5.0.6 is also being released, although not due to a security vulnerability. Bug fixes include:
