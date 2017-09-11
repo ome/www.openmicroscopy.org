@@ -6,7 +6,7 @@ intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Form
 Two security vulnerabilities have been discovered in versions of OMERO up to and including 4.4.11
 and up to and including 5.0.4.
 
-**System administrators should review the [Security Vulnerabilities pages](https://www.openmicroscopy.org/site/products/omero/secvuln) on the OME website**
+**System administrators should review the [Security Advisories page]({{ site.baseurl }}/security/advisories/) on the OME website**
 
 The more critical of the two, 2014-SV2, provides a workaround which can and should be applied immediately.
 
@@ -17,10 +17,10 @@ respective downloads page:
  - [archived downloads](https://downloads.openmicroscopy.org/omero/5.0.5/)
  - [archived downloads](https://downloads.openmicroscopy.org/omero/4.4.12/)
 
-For information on the upgrade from 4.4.x or 5.0.x to 5.0.5, see the [OMERO 5 instructions](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
+For information on the upgrade from 4.4.x or 5.0.x to 5.0.5, see the [OMERO 5 instructions](https://docs.openmicroscopy.org/omero/5.0.5/sysadmins/server-upgrade.html)
 
 For information on the upgrade from 4.4.x to 4.4.12, see the OMERO4 instructions, but upgrading
-directly to 5.0.5 would be preferred, see [server upgrade](https://www.openmicroscopy.org/site/support/omero4/sysadmins/server-upgrade.html)
+directly to 5.0.5 would be preferred, see [server upgrade](https://docs.openmicroscopy.org/omero/4.4.12/sysadmins/server-upgrade.html)
 
 Note that version 4.4.12 introduces the same password salting that is used in the 5.0 series.
 The implications of this improvement to server security are described in a warning among the
