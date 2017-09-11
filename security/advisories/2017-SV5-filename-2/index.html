@@ -1,0 +1,68 @@
+---
+layout: security-advisory
+filename: security
+title: 2017-SV5 Filename Mutability 2
+main-blurb: affects OMERO versions 5.3.3 and earlier
+---          
+                
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">A user could create an OriginalFile and adjust its path such that it now points to another user's file on the underlying filesystem, then manipulate the user's data.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Security relies on the uniqueness constraint on (path, name, repo) on the originalfile table in the database. 2017-SV5 adjusts that constraint to be insensitive to certain variations in the use of "/" characters.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.server up to and including 5.3.3</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">High severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Apply the provided SQL script to prevent the update of originalfile path and name with certain variations in the use of "/" characters:</p>
+                <ul>
+                    <li><a href="https://raw.githubusercontent.com/openmicroscopy/openmicroscopy/v5.3.4/sql/psql/OMERO5.3__0/OMERO5.3-index-files.sql" target="_blank">OMERO5.3-index-files.sql</a> (5.3), or</li>
+                    <li><a href="http://downloads.openmicroscopy.org/resources/security/2017-SV5/" target="_blank">OMERO5.2-index-files.sql</a> (5.2)</li>
+                </ul>
+                <p class="secvul-description">If the script fails, then it is possible that file manipulation has taken place. Please contact <code>security@openmicroscopy.org</code> for help.</p>
+                <p class="secvul-description">As always when applying a database upgrade, please take a <a href="http://docs.openmicroscopy.org/latest/omero/sysadmins/server-upgrade.html">database backup beforehand</a>.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.3.4. </p>
+            </div>
+        </div>
+        
+        
+        <!-- end SecVul -->
+        <hr class="whitespace">
