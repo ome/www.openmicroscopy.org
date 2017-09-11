@@ -744,12 +744,12 @@ ul.pagination li a {
 .marketing-site-content-section-block-subheader { margin-bottom: 20px; }
 
 
-.twitter-feature-section {
+.social-media-feature-section {
     background: transparent;
     padding: 1rem;
 }
 
-.twitter-feature-section-outer {
+.social-media-feature-section-outer {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -761,17 +761,17 @@ ul.pagination li a {
 }
 
 @media print, screen and (min-width: 40em) {
-  .twitter-feature-section-outer {
+  .social-media-feature-section-outer {
     max-width: 75%;
   }
 }
 
-.twitter-feature-section-headline {
+.social-media-feature-section-headline {
     margin-bottom: 2rem;
     text-align: center;
 }
 
-.twitter-feature-section-inner {
+.social-media-feature-section-inner {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -783,7 +783,7 @@ ul.pagination li a {
           justify-content: center;
 }
 
-.twitter-feature-section-feature {
+.social-media-feature-section-feature {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -802,27 +802,27 @@ ul.pagination li a {
           flex-direction: column;
 }
 
-.twitter-feature-section-feature.top-left {
+.social-media-feature-section-feature.top-left {
     border-right: 1px solid #eceff1;
     border-bottom: 1px solid #eceff1;
 }
-    .twitter-feature-section-feature.top-right { border-bottom: 1px solid #eceff1; }
-    .twitter-feature-section-feature.bottom-left { border-right: 1px solid #eceff1; }
+    .social-media-feature-section-feature.top-right { border-bottom: 1px solid #eceff1; }
+    .social-media-feature-section-feature.bottom-left { border-right: 1px solid #eceff1; }
 
-.twitter-feature-section-feature .twitter-handle {
+.social-media-feature-section-feature .account-handle {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 0px;    
 }
 
-.twitter-feature-section-feature .twitter-handle > a { font-weight: 600; }
-.twitter-feature-section-feature .twitter-desc { margin-bottom: 0; }
+.social-media-feature-section-feature .account-handle > a { font-weight: 600; }
+.social-media-feature-section-feature .account-desc { margin-bottom: 0; }
 
-a.twitter-profile {
+a.account-profile {
     margin-right: 1rem;    
 }
 
-img.twitter-profile-pic {
+img.account-profile-pic {
     border: 2px solid #cfd8dc;
     border-radius: 2px;
     margin-right: 2.25rem;
@@ -831,7 +831,7 @@ img.twitter-profile-pic {
 }
 
 @media print, screen and (min-width: 40em) {
-  .twitter-feature-section-feature {
+  .social-media-feature-section-feature {
     padding: 2rem;
     -webkit-flex: 1 0 50%;
         -ms-flex: 1 0 50%;
