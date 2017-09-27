@@ -91,6 +91,13 @@ h6 { color: #455a64;
      font-size: .75rem;
      font-weight: normal; }
 
+h3.subdivider { 
+    border-bottom: 1px dotted #cfd8dc;
+    margin-bottom: 20px;
+    padding-bottom: 10px; }
+    h4.subdivider { margin-top: 20px;
+}
+
 .subheader { 
     color: #607d8b;
     font-size: 1.125rem;
@@ -232,6 +239,7 @@ h6 { color: #455a64;
     background-image: url('../img/bg/hero-consortium.svg'), url('../img/bg/main.jpg');
     background-position: center 50px, center center;
     background-size: 1290px 500px, cover; }
+#bg-image-main-plain { background-image: url('../img/bg/main.jpg'); }    
 #bg-image-about { background-image: url('../img/bg/about.jpg'); }
 #bg-image-teams { background-image: url('../img/bg/teams.jpg'); }
 #bg-image-contributors { background-image: url('../img/bg/contributors.jpg'); text-shadow: 0px 1px 7px rgba(0,0,0,1); }
@@ -643,14 +651,12 @@ ul.event-workshop {
     }
 
 ul.pagination li a {
-    color: #455a64;
-    }
-    ul.pagination li a.current:hover {
-        color: #455a64; 
-    }
+    color: #455a64; }
     ul.pagination li a:hover {
-        background-color: #eceff1;
-}
+        background-color: #eceff1; }
+    ul.pagination li.disabled {
+        color: #b0bec5;
+    }
 
 /* ========== footer ==========*/
 #footer {
@@ -677,3 +683,14 @@ ul.pagination li a {
     max-height: 30px;
     color: #ffffff;
 }
+
+p.tiny-print {
+    font-size: 11px;
+}
+
+ul.site-map {
+    list-style: none;
+    margin-left: 0; }
+    ul.site-map li ul li {
+        list-style: "- ";
+    }

@@ -18,7 +18,7 @@ main-blurb: New releases and other announcements
 {% endfor %}
 {% if paginator.total_pages > 1 %}
         <div class="small-12 medium-8 medium-offset-2 columns">
-        <ul class="pagination" role="navigation">
+        <ul class="pagination">
           <li>
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
@@ -29,7 +29,7 @@ main-blurb: New releases and other announcements
           {% for page in (1..paginator.total_pages) %}
           <li>
             {% if page == paginator.page %}
-              <a class="current">{{ page }}</a>
+              {{ page }}
             {% elsif page == 1 %}
               <a href="{{ '/announcements' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
             {% else %}
