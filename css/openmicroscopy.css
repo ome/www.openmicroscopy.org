@@ -91,7 +91,7 @@ h6 { color: #455a64;
      font-size: .75rem;
      font-weight: normal; }
 
-h3.subdivider, h4.subdivider { 
+h3.subdivider { 
     border-bottom: 1px dotted #cfd8dc;
     margin-bottom: 20px;
     padding-bottom: 10px; }
