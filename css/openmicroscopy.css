@@ -677,3 +677,5 @@ ul.pagination li a {
     max-height: 30px;
     color: #ffffff;
 }
+
+p.tiny-print { font-size: 11px; }
