@@ -91,6 +91,13 @@ h6 { color: #455a64;
      font-size: .75rem;
      font-weight: normal; }
 
+h3.subdivider { 
+    border-bottom: 1px dotted #cfd8dc;
+    margin-bottom: 20px;
+    padding-bottom: 10px; }
+    h4.subdivider { margin-top: 20px;
+}
+
 .subheader { 
     color: #607d8b;
     font-size: 1.125rem;
