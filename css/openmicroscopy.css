@@ -679,6 +679,8 @@ ul.pagination li a {
     color: #ffffff;
 }
 
+p.tiny-print { font-size: 11px; }
+
 /* ========== social ==========*/
 .marketing-site-content-section {
     display: -webkit-flex;
