@@ -271,6 +271,18 @@ h6 { color: #455a64;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
 
+.hero-button-2 { margin-left: 15px; }
+
+a.hero-link {
+    color: #eceff1;
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline; }
+        a.hero-link:hover {
+            color: #fff;
+}
+    
+
 /* ========== header background images ==========*/
 .header {
     background: #000;
