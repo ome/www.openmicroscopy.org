@@ -50,7 +50,7 @@ main-blurb: affects OMERO versions 5.3.4 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">For OMERO 5.3.x it is possible to disable the guest user by setting a password for the guest user with the CLI command <code>bin/omero user password guest</code> (you should also review any files belonging to "guest").
+                <p class="secvul-description">For OMERO 5.3.x it is possible to disable the guest user by setting a password for the guest user with the CLI command <code>bin/omero user password guest</code> (you should also review any files belonging to "guest"). You will also need to disable the OMERO.web version checker using <code>bin/omero config set -- omero.web.check_version false</code> to allow the web client to connect.
                 </p>
                 <p class="secvul-description">For OMERO 5.2.x there is no workaround as disabling the guest user will prevent users from being able to log in via OMERO.web and OMERO.insight.
                 </p>
