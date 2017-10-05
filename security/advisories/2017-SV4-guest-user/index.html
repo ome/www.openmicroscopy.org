@@ -20,9 +20,9 @@ main-blurb: affects OMERO versions 5.3.4 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">A “guest” user is enabled by default on all OMERO systems to allow clients to request non-sensitive information on startup e.g. the current server version. A few commands failed to check for the guest user and therefore allowed user-like actions. This included current sessions requests which allowed "bin/omero sessions who" to disclose information about when other users were logged in. Additionally,  "bin/omero script upload" would permit the upload of files.
+                <p class="secvul-description">A "guest" user is enabled by default on all OMERO systems to allow clients to request non-sensitive information on startup e.g. the current server version. A few commands failed to check for the guest user and therefore allowed user-like actions. This included current sessions requests which allowed "bin/omero sessions who" to disclose information about when other users were logged in. Additionally,  "bin/omero script upload" would permit the upload of files.
                 </p>
-                <p class="secvul-description">A review was performed of all API methods, disabling all but the bare minimum of calls that are needed by “guest”. Future versions may loosen the restriction to re-allow some minimal actions by “guest”.
+                <p class="secvul-description">A review was performed of all API methods, disabling all but the bare minimum of calls that are needed by "guest". Future versions may loosen the restriction to re-allow some minimal actions by "guest".
                 </p>
                 <p class="secvul-description">The fix prevents the guest user from making any omero.cmd calls or from retrieving any unnecessary services. It also prevents the guest user from creating or editing any non-system data objects, including images, files and annotations.
                 </p>
