@@ -691,13 +691,15 @@ ul.pagination li a {
     text-transform: uppercase;
 }
 
-button.media-option-active {
-    border-bottom: 4px solid #03a9f4;
+button.media-option {
+    border-bottom: 4px solid transparent; }
+    button.media-option-active {
+        border-bottom: 4px solid #03a9f4;
 }
 
 .media-options-bar button svg,
 .media-options-bar button i,
-.media-options-bar button img {
+.media-options-bar button img {    
     font-size: 2rem;
     max-height: 2rem;
     max-width: 2rem;
