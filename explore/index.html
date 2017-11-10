@@ -61,12 +61,24 @@ EOF</code></pre>
             </div>
             <div class="medium-4 column end">
                 <h5 class="text-center">Start a Server in Docker</h5>
-                <pre><code class="html"># Start a server in docker
-docker run -d --name postgres -e POSTGRES_PASSWORD=postgres postgres
-docker run -d --name omero-master --link postgres:db \
-    -e DBUSER=postgres -e DBPASS=postgres -e DBNAME=postgres \
-    -p 4063:4063 -p 4064:4064 \
-    openmicroscopy/omero-grid master
+                <pre><code class="html">version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=postgres
+  omero:
+    image: openmicroscopy/omero-server:5.4
+    environment:
+      - CONFIG_omero_db_user=postgres
+      - CONFIG_omero_db_name=postgres
+      - CONFIG_omero_db_pass=postgres
+      - ROOTPASS=omero
+  web:
+    image: openmicroscopy/omero-web-standalone:master
+    ports:
+      - 4080:4080
 </code></pre>
             </div>
         </div>
