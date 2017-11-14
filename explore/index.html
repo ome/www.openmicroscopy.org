@@ -61,24 +61,7 @@ EOF</code></pre>
             </div>
             <div class="medium-4 column end">
                 <h5 class="text-center">Start a Server in Docker</h5>
-                <pre><code class="html">version: '3'
-
-services:
-  db:
-    image: postgres
-    environment:
-      - POSTGRES_PASSWORD=postgres
-  omero:
-    image: openmicroscopy/omero-server:5.4
-    environment:
-      - CONFIG_omero_db_user=postgres
-      - CONFIG_omero_db_name=postgres
-      - CONFIG_omero_db_pass=postgres
-      - ROOTPASS=omero
-  web:
-    image: openmicroscopy/omero-web-standalone:master
-    ports:
-      - 4080:4080
+                <pre><code class="html">{% include docker-compose.yml %}
 </code></pre>
             </div>
         </div>
