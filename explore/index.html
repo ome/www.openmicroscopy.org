@@ -46,18 +46,8 @@ title: Explore
                 <img alt="OMERO for Developers" src="{{ site.baseurl }}/img/icons/user-groups_developers.svg">
             </div>
             <div class="medium-4 medium-offset-1 column">
-                <h5 class="text-center">Start a Server with Ansible</h5>
-                <pre><code class="html"># Start a server with ansible
-ansible-galaxy install openmicroscopy.omero-server
-cat playbook.yml &lt;&lt;EOF
-- hosts: localhost
-  roles:
-  - role: openmicroscopy.omero-server
-    postgresql_users_databases:
-    - user: omero
-      password: omero
-      databases: [omero]
-EOF</code></pre>
+                <h5 class="text-center">Deploy an OMERO server with Ansible</h5>
+                <p>Ansible can deploy an OMERO.server with the same production configuration that we use in the OME. <a href="https://github.com/ome/ansible-examples-omero">Take a look at the examples in this repository.</a></p>
             </div>
             <div class="medium-4 column end">
                 <h5 class="text-center">Start a Server in Docker</h5>
