@@ -1,0 +1,55 @@
+---
+layout: security-advisory
+filename: security
+title: 2017-SV6 Job-File Link
+main-blurb: affects OMERO 5.3 versions 5.3.5 and earlier and OMERO 5.4 versions 5.4.1 and earlier
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">A user can gain permissions to edit a previously unused official script by running that script then having an administrator give all that user's data to an accomplice.
+                    That script may then be edited to perform arbitrary operations with the permissions of users who subsequently run the script.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">The implementation of <a href="https://downloads.openmicroscopy.org/latest/omero5.4/api/slice2html/omero/cmd/Chgrp2.html">Chgrp2</a>, <a href="https://downloads.openmicroscopy.org/latest/omero5.4/api/slice2html/omero/cmd/Chown2.html">Chown2</a> and <a href="https://downloads.openmicroscopy.org/latest/omero5.4/api/slice2html/omero/cmd/Delete2.html">Delete2</a> assumed that <a href="https://docs.openmicroscopy.org/latest/omero5.4/developers/Model/EveryObject.html#job">jobs</a> link to <a href="https://docs.openmicroscopy.org/latest/omero5.4/developers/Model/EveryObject.html#originalfile">files</a> that have the same owner and group as the job.
+                    This is not true of jobs related to OMERO scripts.
+                    The previous <a href="https://docs.openmicroscopy.org/latest/omero5.4/developers/Server/ObjectGraphs.html">graph transition rules</a> wrongly assumed that performing an operation on a job or its link meant that it was safe to implicitly include linked files in that operation.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.server 5.3 up to and including 5.3.5.<br/>
+                  OMERO.server 5.4 up to and including 5.4.1.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:H/MPR:L/MUI:R/MS:U/MC:H/MI:H/MA:H" target="_blank">CVSS score 6.6 vector AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:H/MPR:L/MUI:R/MS:U/MC:H/MI:H/MA:H</a></p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.3.6 or 5.4.2.</p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
