@@ -17,17 +17,17 @@ omero:
  build: b75
 
 omecommoncpp:
-  version: 5.4.2
+  version: 5.5.0
 
 omemodel:
-  version: 5.5.7
+  version: 5.6.0
 
 omeqtwidgets:
- version: 5.4.2
+ version: 5.4.3
  
 omefiles:
- version: 0.4.0
- build: 24
+ version: 0.5.0
+ build: 25
 
 omecmakesuperbuild:
- version: 0.4.0
+ version: 0.5.0
