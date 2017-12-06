@@ -66,6 +66,17 @@ code.html {
     padding: 1rem 4rem 1rem 1rem;
 }
 
+span.has-tip {
+    border-color: #546E7A;
+    color: #546E7A;
+}
+
+.tooltip {
+    border-radius: 4px;
+    max-width: 400px;
+    min-width: 400px;
+}
+
 .four-oh-four {
     max-width: 600px;
 }
