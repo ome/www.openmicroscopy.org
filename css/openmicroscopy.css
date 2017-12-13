@@ -431,15 +431,19 @@ div.medium-3 > .card-download { min-height: 491px; }
         margin-bottom: 30px;
         padding: 20px;
     }
-    .card-support > .card-section > div > img.thumbnail, a.card-as-link > div > img.thumbnail {
+    .card-support > .card-section > div > img.thumbnail {
         margin: 0 0 15px;
         max-height: 44px;
     }
-    .card-support > .card-section > h4, a.card-as-link > h4 {
+    .card-support > .card-section > h4 {
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 1rem;
         font-weight: normal;
         text-transform: uppercase;
+}
+
+a.card-as-link > .card-support:hover {
+    border: 1px solid #03a9f4;
 }
 
 p.card-caption, span.card-caption {
