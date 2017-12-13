@@ -435,7 +435,7 @@ div.medium-3 > .card-download { min-height: 491px; }
         margin: 0 0 15px;
         max-height: 44px;
     }
-    .card-support > .card-section > h4 {
+    .card-support > .card-section > h4, a.card-as-link > h4 {
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 1rem;
         font-weight: normal;
