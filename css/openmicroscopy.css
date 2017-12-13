@@ -445,6 +445,9 @@ div.medium-3 > .card-download { min-height: 491px; }
 a.card-as-link > .card-support:hover {
     border: 1px solid #03a9f4;
 }
+    a.card-as-link > div > div > p.card-caption {
+        height: 148px;
+    }
 
 p.card-caption, span.card-caption {
     color: #455a64;
