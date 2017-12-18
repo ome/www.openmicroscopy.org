@@ -290,6 +290,14 @@ a.hero-link {
             color: #fff;
 }
 
+p.hero-subheader > a {
+    color: #eceff1;
+    text-decoration: underline; }
+    a.hero-link:hover {
+                color: #fff;
+}
+    
+
 /* ========== header background images ==========*/
 .header {
     background: #000;
