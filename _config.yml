@@ -20,7 +20,7 @@ omecommoncpp:
   version: 5.5.0
 
 omemodel:
-  version: 5.6.0
+  version: 5.6.1
 
 omeqtwidgets:
  version: 5.4.3
