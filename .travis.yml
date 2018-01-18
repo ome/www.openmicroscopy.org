@@ -11,7 +11,7 @@ install: bundle install
 script:
     - bundle exec jekyll build  -d _site/www.openmicroscopy.org
     - bundle exec htmlproofer ./_site --disable-external
-    - cd _includes; docker build -t omero-c7 .
-    - docker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d --name omero-c7 omero-c7
-    - docker exec omero-c7 bash /tmp/omero-c7.sh
-    - echo TODO - add docker-compose test after merge
+    #- cd _includes; docker build -t omero-c7 .
+    #- docker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d --name omero-c7 omero-c7
+    #- docker exec omero-c7 bash /tmp/omero-c7.sh
+    #- echo TODO - add docker-compose test after merge
