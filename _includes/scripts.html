@@ -6,14 +6,23 @@
     <script src="{{ site.baseurl }}/js/responsive-tables.js"></script>
     <script>
         $(document).foundation();
+        try {
+            var path = document.location.pathname;
+            $(".media-option").each(function(i, el) {
+                if (el.parentNode.href.indexOf(path) !== -1) {
+                    $(el).addClass('media-option-active');
+                    return false;
+                }
+            });
+        } catch(ignored) {}
     </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', '{{ site.ga_token }}', 'auto');
       ga('send', 'pageview');
-    
+
     </script>
