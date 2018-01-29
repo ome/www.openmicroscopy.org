@@ -13,8 +13,8 @@ bf:
  version: 5.7.3
 
 omero:
- version: 5.4.2
- build: b76
+ version: 5.4.3
+ build: b77
 
 omecommoncpp:
   version: 5.5.0
