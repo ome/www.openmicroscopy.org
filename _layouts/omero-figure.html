@@ -1,0 +1,21 @@
+{% include head.html %}
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="header" id="bg-image-omero">
+            <a href="https://github.com/ome/figure">
+              <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+            </a>
+          <a id="forkme_banner" href="demo/#file/1">Try the DEMO!</a>
+
+          <h1 id="project_title">OMERO.figure</h1>
+          <div class="row show-for-small-only" style="height: 120px;"></div>           
+          <ul class="header-subnav">
+              <li><a href="{{ site.baseurl }}/omero/"><i class="fa fa-arrow-left"></i> Overview</a></li>
+              <li><a href="http://help.openmicroscopy.org/figure.html">User manual</a></li>
+          </ul>    
+         </header>
+
+{{ content }}
+{% include cta-omero.html %}
+{% include foot.html %}
