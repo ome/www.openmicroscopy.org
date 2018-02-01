@@ -177,7 +177,7 @@ h3.subdivider {
     border-color: #fff;
 }
 
-#main-menu a {
+#main-menu a, .menu-subnav a {
     color: #37474f;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.85rem;
@@ -218,6 +218,23 @@ h3.subdivider {
             background: rgba(250, 250, 250, 0.15);
             color: #fff;
             transition: all 0.35s ease-in-out;
+}
+
+.menu-subnav {
+    background-color: #263238;
+}
+
+.menu-subnav a {
+    color: #ECEFF1;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;    
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+}
+
+.menu-subnav li a:hover, .menu-subnav li a.is-active {
+    color: #03a9f4;
 }
             
 /* ========== hero background images / callouts ==========*/

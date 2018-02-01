@@ -1,11 +1,12 @@
 {% include head.html %}
 
+        {% include navbar-sub-omero.html %}
+        
         <header class="header" id="bg-image-omero">            
             <h1 class="headline">{{page.feature}} with OMERO</h1>
             <div class="row show-for-small-only" style="height: 120px;"></div>           
             <ul class="header-subnav">
-                <li><a href="{{ site.baseurl }}/omero/"><i class="fa fa-arrow-left"></i> Overview</a></li>
-                <li><a href="{{ site.baseurl }}/omero/new/">NEW</a></li>
+                <li><a class="is-active" href="{{ site.baseurl }}/omero/new/">NEW</a></li>
                 <li><a href="{{ site.baseurl }}/omero/import/">Import</a></li>            
                 <li><a href="{{ site.baseurl }}/omero/organize/">Organize</a></li>            
                 <li><a href="{{ site.baseurl }}/omero/view/">View</a></li>            
