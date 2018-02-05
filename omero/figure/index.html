@@ -25,9 +25,10 @@ title: OMERO.figure
     <!-- begin Intro -->
     <hr class="invisible">
     <section id="figure-intro" class="row">
-        <div class="small-11 small-offset-1 columns text-center">
+        <div class="small-12 columns text-center">
             <h1>How does it work?</h1>
-            <p>
+            <hr>
+            <p class="small-10 small-offset-1">
                 OMERO.figure combines OMERO’s powerful image rendering and
                 metadata to provide a tool for rapid figure creation. Each panel
                 of the figure becomes a multi-dimensional image viewer, allowing
@@ -46,8 +47,9 @@ title: OMERO.figure
     <hr class="invisible">
     <section id="figure-videos">    
         <div class="small-12 columns">
-            <div class="media-block-grid-header small-12 medium-12 columns text-center">
+            <div class="small-12 medium-12 columns text-center">
                 <h2>Videos</h2>
+                <hr>
                 <p>Here are some video demos to help you get started.</p>
             </div>
             <div class="row small-up-1 medium-up-3 text-center">            
@@ -77,60 +79,81 @@ title: OMERO.figure
     </section>
     <!-- end Videos -->
           
-    <div class="row column text-center">
-        <h2>Shortcuts for common tasks</h2>
-        <p>
-            Many tasks of figure creation are very time consuming when done
+    <!-- begin Features -->
+    <section id="figure-features" class="row column">
+        <div class="small-12 medium-12 columns text-center">
+            <h2>Shortcuts for common tasks</h2>
+            <hr>
+            <p>Many tasks of figure creation are very time consuming when done
             manually. OMERO.figure provides tools to get the job done quickly.
             All of these features work with multiple selected panels at once,
-            making it easy to keep similar panels in sync.
-          <ul>
-            <li><strong>Align to grid</strong>: snap panels to
-                perfectly-spaced rows and columns.
-            </li>
-            <li><strong>Adjust rendering settings</strong>: toggle channels,
-                change colours and adjust levels.
-            </li>
-            <li><strong>Clever labels</strong>: labels are bound to the chosen
-                spot on each panel and can
-                be auto-generated from image metadata.
-            </li>
-            <li><strong>Copy and paste</strong>: duplicate rows or columns
-                instantly, aligned perfectly.
-            </li>
-            <li><strong>Scroll Z and Time</strong>: move image panels through
-                Z and Time dimensions.
-            </li>
-            <li><strong>Zoom, Pan and Rotate</strong>: crop your images simply
-                by zooming, panning and rotating the viewport without ever
-                losing the full image.
-            </li>
-            <li><strong>Crop to ROI</strong>: use Regions of Interest from the
-                OMERO server to crop images.
-            </li>
-            <li><strong>Accurate scalebars</strong>: use the pixel size
-                metadata from OMERO to add 'live' scalebars that update as you
-                zoom.
-            </li>
-            <li><strong>Full undo and redo</strong>: for extra convenience.
-            </li>
-            <li><strong>Set 'dpi'</strong>: you can control the resolution of
-                images embedded in exported PDF pages.
-            </li>
-            <li><strong>Multi-page figures</strong>: create, edit and view
-                several figure pages within one OMERO.figure file at
-                once.
-            </li>
-            <li><strong>Export TIFF or PNG</strong>: export as multi-page PNGs
-                or TIFF images (at 300 dpi) suitable for journal submission or
-                further editing.
-            </li>
-            <li><strong>Export with panel images</strong>: optionally export
-                all panels as separate TIFFs to validate figure building steps
-                or for use elsewhere.
-            </li>
-          </ul>
-        </p>
+            making it easy to keep similar panels in sync.</p>
+        </div>
+        <hr class="invisible"/>
+        <div class="row small-up-1 medium-up-4">
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-th fa-2x"></i>
+                <h5>Align to grid</h5>
+                <p>Snap panels to perfectly-spaced rows and columns.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-sliders fa-2x"></i>
+                <h5>Adjust rendering settings</h5>
+                <p>Toggle channels, change colors and adjust levels.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-tags fa-2x"></i>
+                <h5>Clever labels</h5>
+                <p>Labels are bound to the chosen spot on each panel and can be auto-generated from image metadata.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-paste fa-2x"></i>
+                <h5>Copy and paste</h5>
+                <p>Duplicate rows or columns instantly, aligned perfectly.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-arrows-alt fa-2x"></i>
+                <h5>Scroll Z and Time</h5>
+                <p>Move image panels through Z and Time dimensions.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-search-plus fa-2x"></i>
+                <h5>Zoom, Pan and Rotate</h5>
+                <p>Crop your images simply by zooming, panning and rotating the viewport without ever losing the full image.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-crop fa-2x"></i>
+                <h5>Crop to ROI</h5>
+                <p>Use Regions of Interest from the OMERO server to crop images.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-signal fa-2x"></i>
+                <h5>Accurate scalebars</h5>
+                <p>Use the pixel size metadata from OMERO to add 'live' scalebars that update as you zoom.
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-image fa-2x"></i>
+                <h5>Set 'dpi'</h5>
+                <p>You can control the resolution of images embedded in exported PDF pages.</p>
+            </div>     
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-copy fa-2x"></i>
+                <h5>Multi-page figures</h5>
+                <p>Create, edit and view several figure pages within one OMERO.figure file at once.</p>
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-share fa-2x"></i>
+                <h5>Export TIFF or PNG</h5>
+                <p>Export as multi-page PNGs or TIFF images (at 300 dpi) suitable for journal submission or further editing.
+            </div>
+            <div class="figure-feature column">
+                <i class="icon-fa-blue fa fa-share-square fa-2x"></i>
+                <h5>Export with panel images</h5>
+                <p>Optionally export all panels as separate TIFFs to validate figure building steps or for use elsewhere.</p>
+            </div>
+        </div>
+    </section>
+    <!--end Features-->
 
         <h2>Power of the web</h2>
         <p>
@@ -139,4 +162,3 @@ title: OMERO.figure
             even make them public, so everyone can explore your figures
             interactively.
         </p>
-    </div>
