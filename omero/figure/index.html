@@ -2,31 +2,83 @@
 layout: omero-figure
 title: OMERO.figure
 ---
-    <hr class="whitespace">        
+    <header class="marketing-hero marketing-hero-omero-figure">
+        <div class="row text-center bg-image-text-container-short">
+            <div class="small-12 columns">
+                <div class="medium-6 columns">
+                    <div class="responsive-embed">
+                        <iframe src="//www.youtube.com/embed/mjlNBUoGKRc?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="medium-5 columns">
+                    <h1 class="hero-main-header"><img src="{{ site.baseurl }}/img/logos/omero-figure.svg" alt="OMERO.figure logo" /></h1>
+                    <h4>Create fast figures<br>from your OMERO images</h4>
+                    <br>
+                    <a href="https://pypi.python.org/pypi/omero-figure/" class="large btn-red button sites-button" style="text-shadow: none;">Install OMERO.figure</a>
+                    <a href="{{ site.baseurl }}/2018/01/30/figure-3-2-0.html" class="hero-link-dark" style="text-shadow: none;">Read the Release Announcement</a>
+                    <a href="http://help.openmicroscopy.org/figure.html" target="_blank" class="hero-link-dark">Read the Docs</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- begin Intro -->
+    <hr class="invisible">
+    <section id="figure-intro" class="row">
+        <div class="small-11 small-offset-1 columns text-center">
+            <h1>How does it work?</h1>
+            <p>
+                OMERO.figure combines OMERO’s powerful image rendering and
+                metadata to provide a tool for rapid figure creation. Each panel
+                of the figure becomes a multi-dimensional image viewer, allowing
+                you to zoom and pan, adjust rendering settings and even scroll
+                through Z and Time. Figures can be exported as TIFF images or PDF
+                documents, so you can move seamlessly to other editing tools such
+                as Adobe Illustrator.
+            </p>
+            <h5 class="subheader"><a href="http://www.lifesci.dundee.ac.uk/news/2015/mar/4/winner-cls-innovator-year-award-2015-open-microscopy-environment-will-moore-petr"><i class="fa fa-trophy"></i> Winner of CLS Innovator of the Year Award <i class="fa fa-long-arrow-right"></i> Read More</a>
+            </h5>
+        </div>
+    </section>
+    <!-- end Intro -->
+    
+    <!-- begin Videos -->
+    <hr class="invisible">
+    <section id="figure-videos">    
+        <div class="small-12 columns">
+            <div class="media-block-grid-header small-12 medium-12 columns text-center">
+                <h2>Videos</h2>
+                <p>Here are some video demos to help you get started.</p>
+            </div>
+            <div class="row small-up-1 medium-up-3 text-center">            
+                <div class="media-block column">
+                    <div class="responsive-embed">
+                      <iframe width="420" height="315" src="//www.youtube.com/embed/8ZKAcowl4Tk?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h4>Getting Started</h4>
+                    <p>Begin by browsing and selecting images from the OMERO.web client. Copy and paste the image link into OMERO.figure to add images to a new figure. Save your figure to OMERO and export it to a PDF.</p>
+                </div>
+                <div class="media-block column">
+                    <div class="responsive-embed">
+                      <iframe width="420" height="315" src="//www.youtube.com/embed/be8RbKi7VJY?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h4>Comparing Images</h4>
+                    <p>Arrange image panels by copy and pasting, dragging and snapping to grid. Compare similar panels by applying the same rendering settings, time-points, zoom, and rotation.</p>
+                </div>
+                <div class="media-block column">
+                    <div class="responsive-embed">
+                      <iframe width="420" height="315" src="//www.youtube.com/embed/qzSPFGlRHNQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h4>Adding Scalebars and Labels</h4>
+                    <p>Add scalebars using pixel sizes from OMERO. Add labels to panels, based on channel metadata, time-stamps or free text. </p>
+                </div>          
+            </div>
+        </div>     
+    </section>
+    <!-- end Videos -->
+          
     <div class="row column text-center">
-          <h5 class="subheader"><a href="http://www.lifesci.dundee.ac.uk/news/2015/mar/4/winner-cls-innovator-year-award-2015-open-microscopy-environment-will-moore-petr">
-          Winner of CLS Innovator of the Year Award
-          </h5>
-          <p>Read more...</p>
-          </a>
-
-        <h2>Fast figures from your OMERO images</h2>
-
-        <iframe width="640" height="360" src="//www.youtube.com/embed/mjlNBUoGKRc?rel=0" frameborder="0" allowfullscreen></iframe>
-
-        <h2>Smart figures with metadata</h2>
-        <p>
-            OMERO.figure combines OMERO's powerful image rendering and
-            metadata to provide a tool for rapid figure creation. Each panel
-            of the figure becomes a multi-dimensional image viewer, allowing
-            you to zoom and pan, adjust rendering settings and even scroll
-            through Z and Time. Figures can be exported as TIFF images or PDF
-            documents, so you can move seamlessly to other editing tools such
-            as Adobe Illustrator.
-        </p>
-
         <h2>Shortcuts for common tasks</h2>
-        <iframe width="640" height="360" src="//www.youtube.com/embed/be8RbKi7VJY?rel=0" frameborder="0" allowfullscreen></iframe>
         <p>
             Many tasks of figure creation are very time consuming when done
             manually. OMERO.figure provides tools to get the job done quickly.
@@ -79,8 +131,6 @@ title: OMERO.figure
             </li>
           </ul>
         </p>
-
-        <iframe width="640" height="360" src="//www.youtube.com/embed/qzSPFGlRHNQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
         <h2>Power of the web</h2>
         <p>

@@ -265,11 +265,21 @@ h3.subdivider {
 #bg-image-explore { background-image: url('../img/bg/explore.jpg'); }
 #bg-image-social { background-image: url('../img/bg/social.jpg'); }
 
-.bg-image-text-container {
+.marketing-hero-omero-figure {
+    background: #CFD8DC url('../img/bg/figures.svg') center center repeat;
+    background-size: 124px 124px;
+}
+
+.bg-image-text-container, .bg-image-text-container-short {
     background-color: transparent;
     padding: 130px 0px;
     text-shadow: none;
 }
+
+.bg-image-text-container-short {
+    padding: 50px 0px;
+}
+
 
 .bg-image-text-container-cta { padding: 50px 0px; }
 .bg-image-text-container-cta > p { margin-bottom: 30px; }
@@ -293,6 +303,15 @@ a.hero-link {
     text-decoration: underline; }
         a.hero-link:hover {
             color: #fff;
+}
+
+a.hero-link-dark {
+    color: #455A64;
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline; }
+        a.hero-link-dark:hover {
+            color: #37474F;
 }
 
 p.hero-subheader > a {
