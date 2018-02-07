@@ -7,14 +7,29 @@
     <script>
         $(document).foundation();
         try {
-            var paths = document.location.pathname.split('/').filter(
-                function(el) { return el.trim() !== ''});
+            var omitEmpty = function(el) { return el.trim() !== ''};
+            var paths = document.location.pathname.split('/').filter(omitEmpty);
             var path = paths[paths.length-1];
-            $(".menu-subnav li a").each(function(i, el) {
-                if (el.href.indexOf(path) !== -1) {
+            var setActiveNavOption = function(el) {
+                var subPaths = el.href.split('/').filter(omitEmpty);
+                var subPath = subPaths[subPaths.length-1];
+                if (subPath === path) {
                     $(el).addClass('is-active');
+                    return true
+                }
+                return false;
+            }
+            var hasSubMenu = false;
+            $(".header-subnav li a").each(function(i, el) {
+                var isMatch = setActiveNavOption(el);
+                if (isMatch) {
+                    hasSubMenu = true;
                     return false;
                 }
+            });
+            if (hasSubMenu) path = paths[paths.length-2];
+            $(".menu-subnav li a").each(function(i, el) {
+                if (setActiveNavOption(el)) return false;
             });
         } catch(ignored) {}
     </script>
