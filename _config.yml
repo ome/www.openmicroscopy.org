@@ -3,7 +3,9 @@ markdown: kramdown
 
 baseurl: /www.openmicroscopy.org
 
-gems: [jekyll-paginate]
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate
 paginate: 10
 paginate_path: "/announcements/page:num/"
 
