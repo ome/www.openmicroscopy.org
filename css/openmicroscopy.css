@@ -659,6 +659,15 @@ p.job-title {
     padding-left: 5px;       
 }
 
+.logo-display {
+    border: 1px solid #CFD8DC;
+    border-radius: 4px;
+    margin-bottom: 20px; }
+    .logo-display > img {
+        max-height: 150px;
+        padding: 20px;
+}
+
 /* ========== section: News ==========*/
 #community-posts h2 a { font-weight: normal; }
 
