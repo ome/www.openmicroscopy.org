@@ -259,10 +259,13 @@ h3.subdivider {
 
 #bg-image-users-meeting { 
     background-color: #CFD8DC;
-    background-image: url('../img/bg/plane.svg'), url('../img/bg/waves.svg'), url('../img/bg/tay-road-bridge.svg'), url('../img/bg/hills.svg'), linear-gradient(to bottom, #99DBFA, #1C4A87 50%);
-    background-position: left 58% top 30px, center bottom, center bottom, center bottom, center center;
-    background-repeat: no-repeat, repeat-x, repeat-x, repeat-x, no-repeat;
-    background-size: 374px 90px, 1290px 128px, 120px 220px, 1290px 348px, cover; }
+    background-image: url('../img/bg/plane.svg'), url('../img/bg/submarine.svg'), url('../img/bg/waves.svg'), url('../img/bg/tay-road-bridge.svg'), url('../img/bg/hills.svg'), linear-gradient(to bottom, #99DBFA, #1C4A87 50%);
+    background-position: left 58% top 30px, bottom 10px center, center bottom, center bottom, center bottom, center center;
+    background-repeat: no-repeat, no-repeat, repeat-x, repeat-x, repeat-x, no-repeat;
+    background-size: 374px 90px, 325px 78px, 1290px 128px, 120px 220px, 1290px 348px, cover; }
+    .event-highlight {
+        position: relative; top: 50px;
+    }
 #bg-image-main { 
     background-image: url('../img/bg/hero-consortium.svg'), url('../img/bg/main.jpg');
     background-position: center 50px, center center;
