@@ -737,10 +737,10 @@ ul.pagination li a {
 
 p.tiny-print { font-size: 11px; }
 
-ul.site-map {
+ul.no-list-style {
     list-style: none;
     margin-left: 0; }
-    ul.site-map li ul li {
+    ul.no-list-style li ul li {
         list-style: "- ";
 }
 
