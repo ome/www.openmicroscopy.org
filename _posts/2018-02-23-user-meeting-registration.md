@@ -13,11 +13,11 @@ Registration is open until 30th April 2018 and is £115 per person, including
 lunches, refreshments, dinners on 30th and 31st May, and airport transfers by
 bus if required.
 
-You will be invited to give a lightning talk or poster during the registration
-process. Please do consider presenting your work as these contributions set
-the scene for the community priorities and requirements that are the focus of
-the rest of the meeting. The deadline for lightning talk titles and poster
-abstracts is Tuesday 8th May.
+You will be invited to give a lightning talk or present a poster during the
+registration process. Please do consider presenting your work as these
+contributions set the scene for the community priorities and requirements that
+are the focus of the rest of the meeting. The deadline for lightning talk
+titles and poster abstracts is Tuesday 8th May.
 
 We are working on the [program]({{site.baseurl}}/events/13th-annual-users-meeting-2018.html) and
 aim to release this in the next few weeks.
