@@ -668,6 +668,15 @@ p.job-title {
     padding-left: 5px;       
 }
 
+.logo-display {
+    border: 1px solid #CFD8DC;
+    border-radius: 4px;
+    margin-bottom: 20px; }
+    .logo-display > img {
+        max-height: 150px;
+        padding: 20px;
+}
+
 /* ========== section: News ==========*/
 #community-posts h2 a { font-weight: normal; }
 
@@ -746,10 +755,10 @@ ul.pagination li a {
 
 p.tiny-print { font-size: 11px; }
 
-ul.site-map {
+ul.no-list-style {
     list-style: none;
     margin-left: 0; }
-    ul.site-map li ul li {
+    ul.no-list-style li ul li {
         list-style: "- ";
 }
 
