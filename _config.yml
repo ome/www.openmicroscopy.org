@@ -16,7 +16,7 @@ bf:
 
 omero:
  version: 5.4.4
- build: b78
+ build: b82
 
 omecommoncpp:
   version: 5.5.0
