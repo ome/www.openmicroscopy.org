@@ -296,6 +296,12 @@ h3.subdivider {
     background-size: 124px 124px;
 }
 
+.marketing-hero-omero-iviewer {
+    background: #CFD8DC url('../img/bg/iviewer.svg') center center repeat;
+    background-size: 124px 124px;
+}
+
+
 .bg-image-text-container, .bg-image-text-container-short {
     background-color: transparent;
     padding: 130px 0px;
