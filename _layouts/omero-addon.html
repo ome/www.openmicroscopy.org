@@ -1,0 +1,17 @@
+{% include head.html %}
+{% include navbar-sub-omero.html %}
+{{ content }}
+    <!-- begin CTA -->
+    <hr class="whitespace">
+    <header class="marketing-hero marketing-hero-omero-{{ page.keyword }}">
+        <div class="row">
+            <div class="small-12 columns bg-image-text-container-cta text-center">
+                <h2>{{ page.cta-heading }}</h2>
+                <p>{{ page.cta-blurb }}</p>
+                <a href="{{ site.baseurl }}{{ page.cta-1-link }}" class="medium btn-red button sites-button">{{ page.cta-1-text }}</a>
+                <a href="{{ page.cta-2-link }}" class="medium btn-red button sites-button">{{ page.cta-2-text }}</a>
+            </div>
+        </div>
+    </header>
+    <!-- end CTA -->
+{% include foot.html %}

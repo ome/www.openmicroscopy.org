@@ -1,5 +1,5 @@
 ---
-layout: omero-usergroup
+layout: omero-usergroup-sci
 title: OMERO for Scientists
 usergroup: scientists
 ---     
@@ -13,7 +13,7 @@ usergroup: scientists
         <div class="row">
             <img class="medium-3 medium-offset-2 columns" alt="OMERO for Scientists" src="{{ site.baseurl }}/img/icons/user-groups_scientists.svg">
             <div class="medium-5 end columns">
-                <p>OMERO handles all your images using a secure central repository, from the microscope to publication.</p>
+                <p>OMERO handles all your images using a secure central repository, from the microscope to <a href="{{ site.baseurl }}/omero/features/publish/">publication</a>.</p>
                 <p>Using the power of Bio-Formats, OMERO supports over 140 image file formats, including all major microscope formats.</p>
             </div>
         </div>
@@ -21,42 +21,54 @@ usergroup: scientists
                 
         <div class="row small-up-12 medium-up-3">        
             <div class="column">
+                <a href="{{ site.baseurl }}/omero/features/import/">
                 <i class="icon-fa-red fa fa-upload fa-2x"></i>
+                </a>
                 <div class="omero-key-feature-container">
                     <h4>Import Data</h4>
                     <p>Upload your data via the desktop app or command line, use our custom dropbox tool, or have your facility manager import it for you</p>
                 </div>
             </div>
             <div class="column">
+                <a href="{{ site.baseurl }}/omero/features/organize/">
                 <i class="icon-fa-red fa fa-sitemap fa-2x"></i>
+                </a>
                 <div class="omero-key-feature-container">
                     <h4>Organize</h4>
                     <p>View and organize your data from anywhere you have internet access</p>
                 </div>
             </div>
             <div class="column">
+                <a href="{{ site.baseurl }}/omero/features/view/">
                 <i class="icon-fa-red fa fa-eye fa-2x"></i>
+                </a>
                 <div class="omero-key-feature-container">
                     <h4>View</h4>
                     <p>Work with your images using the OMERO.insight desktop app, with OMERO.web in your browser, or from 3rd party software</p>
                 </div>
             </div>
             <div class="column">
+                <a href="{{ site.baseurl }}/omero/features/analyze/">
                 <i class="icon-fa-red fa fa-line-chart fa-2x"></i>
+                </a>
                 <div class="omero-key-feature-container">
                     <h4>Analyze</h4>
                     <p>Use ImageJ, MATLAB, R, scripts and other tools to run analysis on data in OMERO and save results on the server</p>
                 </div>
             </div>
             <div class="column">
+                <a href="{{ site.baseurl }}/omero/features/organize/">
                 <i class="icon-fa-red fa fa-share fa-2x"></i>
+                </a>
                 <div class="omero-key-feature-container">
                     <h4>Share</h4>
                     <p>Share data with collaborators or your PI via URLs</p>
                 </div>
             </div>
             <div class="column">
+                <a href="{{ site.baseurl }}/omero/features/publish/">
                 <i class="icon-fa-red fa fa-rocket fa-2x"></i>
+                </a>
                 <div class="omero-key-feature-container">
                     <h4>Publish</h4>
                     <p>Publish direct from the server via a customized website or embedded viewer</p>
@@ -113,8 +125,8 @@ usergroup: scientists
             <div class="medium-1 columns"><img class="omero-feature thumbnail" alt="OMERO feature" src="{{ site.baseurl }}/img/icons/omero-features-icons_create-figures.svg"></div>
             <div class="omero-key-feature-container medium-3 columns end">
                 <h4>Draw Figures</h4>
-                <p>Use <a href="http://figure.openmicroscopy.org" target="_blank">OMERO.figure</a> to draw figures quickly and easily for publications, presentations and meetings, save them on the OMERO server, and export as vector graphics.</p>
-                <a class="button hollow tiny" href="http://help.openmicroscopy.org/figure.html" target="_blank">View User Guide</a>
+                <p>Use <a href="{{ site.baseurl }}/omero/figure/">OMERO.figure</a> to draw figures quickly and easily for publications, presentations and meetings, save them on the OMERO server, and export as vector graphics.</p>
+                <a class="button hollow tiny" href="{{ site.baseurl }}/omero/figure/">Find out more about OMERO.<span class="lowercase">f</span>igure</a>
             </div>
         </div>
         <hr class="invisible">

@@ -77,6 +77,10 @@ span.has-tip {
     min-width: 400px;
 }
 
+code.highlighter-rouge {
+    background-color: #f9f9f9;
+    border-color: #d4d4d4;
+
 .four-oh-four {
     max-width: 600px;
 }
@@ -183,7 +187,7 @@ h3.subdivider {
     border-color: #fff;
 }
 
-#main-menu a {
+#main-menu a, .menu-subnav a {
     color: #37474f;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.85rem;
@@ -225,6 +229,23 @@ h3.subdivider {
             color: #fff;
             transition: all 0.35s ease-in-out;
 }
+
+.menu-subnav {
+    background-color: #263238;
+}
+
+.menu-subnav a {
+    color: #ECEFF1;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;    
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+}
+
+.menu-subnav li a:hover, .menu-subnav li a.is-active {
+    color: #03a9f4;
+}
             
 /* ========== hero background images / callouts ==========*/
 .marketing-hero, .callout {
@@ -246,6 +267,15 @@ h3.subdivider {
     text-shadow: 1px 1px 3px rgba(0,0,0,1);
 }
 
+#bg-image-users-meeting { 
+    background-color: #81D4FA;
+    background-image: url('../img/bg/plane.png'), url('../img/bg/clouds.png'), url('../img/bg/submarine.png'), url('../img/bg/waves.png'), url('../img/bg/tay-road-bridge.png'), url('../img/bg/hills.png'), linear-gradient(to bottom, #99DBFA, #1C4A87 50%);
+    background-position: center top 30px, top center, bottom 10px center, center bottom, center bottom, center bottom, center center;
+    background-repeat: no-repeat, repeat-x, no-repeat, repeat-x, repeat-x, repeat-x, no-repeat;
+    background-size: 374px 90px, 1290px 125px, 325px 78px, 1290px 128px, 120px 220px, 1290px 348px, cover; }
+    .event-highlight {
+        position: relative; top: 50px;
+    }
 #bg-image-main { 
     background-image: url('../img/bg/hero-consortium.svg'), url('../img/bg/main.jpg');
     background-position: center 50px, center center;
@@ -272,11 +302,27 @@ h3.subdivider {
 #bg-image-explore { background-image: url('../img/bg/explore.jpg'); }
 #bg-image-social { background-image: url('../img/bg/social.jpg'); }
 
-.bg-image-text-container {
+.marketing-hero-omero-figure {
+    background: #CFD8DC url('../img/bg/figures.svg') center center repeat;
+    background-size: 124px 124px;
+}
+
+.marketing-hero-omero-iviewer {
+    background: #CFD8DC url('../img/bg/iviewer.svg') center center repeat;
+    background-size: 124px 124px;
+}
+
+
+.bg-image-text-container, .bg-image-text-container-short {
     background-color: transparent;
     padding: 130px 0px;
     text-shadow: none;
 }
+
+.bg-image-text-container-short {
+    padding: 50px 0px;
+}
+
 
 .bg-image-text-container-cta { padding: 50px 0px; }
 .bg-image-text-container-cta > p { margin-bottom: 30px; }
@@ -290,6 +336,34 @@ h3.subdivider {
     margin-bottom: 20px;
     text-shadow: 1px 5px 15px rgba(0,0,0,1);
 }
+
+.hero-button-2 { margin-left: 15px; }
+
+a.hero-link {
+    color: #eceff1;
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline; }
+        a.hero-link:hover {
+            color: #fff;
+}
+
+a.hero-link-dark {
+    color: #455A64;
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline; }
+        a.hero-link-dark:hover {
+            color: #37474F;
+}
+
+p.hero-subheader > a {
+    color: #eceff1;
+    text-decoration: underline; }
+    a.hero-link:hover {
+                color: #fff;
+}
+    
 
 /* ========== header background images ==========*/
 .header {
@@ -442,6 +516,13 @@ div.medium-3 > .card-download { min-height: 491px; }
         font-weight: normal;
         text-transform: uppercase;
 }
+
+a.card-as-link > .card-support:hover {
+    border: 1px solid #03a9f4;
+}
+    a.card-as-link > div > div > p.card-caption {
+        height: 148px;
+    }
 
 p.card-caption, span.card-caption {
     color: #455a64;
@@ -621,6 +702,15 @@ p.job-title {
     .contributors-list a {
     font-size: 90%;
     padding-left: 5px;       
+}
+
+.logo-display {
+    border: 1px solid #CFD8DC;
+    border-radius: 4px;
+    margin-bottom: 20px; }
+    .logo-display > img {
+        max-height: 150px;
+        padding: 20px;
 }
 
 /* ========== section: News ==========*/
@@ -824,10 +914,10 @@ table.files-listing > tbody > tr > td > i.fa { margin-right: 8px; }
 
 p.tiny-print { font-size: 11px; }
 
-ul.site-map {
+ul.no-list-style {
     list-style: none;
     margin-left: 0; }
-    ul.site-map li ul li {
+    ul.no-list-style li ul li {
         list-style: "- ";
 }
 
