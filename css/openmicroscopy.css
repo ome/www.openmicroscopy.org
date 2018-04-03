@@ -298,7 +298,7 @@ h3.subdivider {
 #bg-image-community { background-image: url('../img/bg/community.jpg'); }
 #bg-image-ome-files { background-image: url('../img/bg/ome-files.jpg'); }
 #bg-image-support { background-image: url('../img/bg/support.jpg'); text-shadow: 0px 1px 1px rgba(0,0,0,1); }
-#bg-image-media { background-image: url('../img/bg/media.jpg'); }
+#bg-image-training { background-image: url('../img/bg/training.jpg'); }
 #bg-image-docs { background-image: url('../img/bg/docs.jpg'); }
 #bg-image-explore { background-image: url('../img/bg/explore.jpg'); }
 #bg-image-social { background-image: url('../img/bg/social.jpg'); }
@@ -764,15 +764,15 @@ ul.pagination li a {
         background-color: #eceff1;
 }
 
-/* ========== page: Media ==========*/
-.media-options-bar-container {
+/* ========== page: Training ==========*/
+.training-subnav-bar-container {
     background-color: #eceff1;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
 }
 
-.media-options-bar {
+.training-subnav-bar {
     background: transparent;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -785,7 +785,7 @@ ul.pagination li a {
           justify-content: space-around;    
 }
 
-.media-options-bar button {
+.training-subnav-bar button {
     color: #37474f;
     cursor: pointer;
     padding: 1.25rem;
@@ -793,22 +793,22 @@ ul.pagination li a {
     text-transform: uppercase;
 }
 
-button.media-option {
+button.training-subnav {
     border-bottom: 4px solid transparent; }
-    button.media-option-active {
+    button.training-option-active {
         border-bottom: 4px solid #03a9f4;
 }
 
-.media-options-bar button svg,
-.media-options-bar button i,
-.media-options-bar button img {    
+.training-subnav-bar button svg,
+.training-subnav-bar button i,
+.training-subnav-bar button img {    
     font-size: 2rem;
     max-height: 2rem;
     max-width: 2rem;
     text-align: center;
 }
 
-span.media-type {   
+span.training-type {   
     display: block;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: .8rem;
@@ -817,9 +817,9 @@ span.media-type {
 
 table.files-listing > tbody > tr > td > i.fa { margin-right: 8px; }
 
-.media-block { margin-bottom: 20px; }
+.training-block { margin-bottom: 20px; }
 
-.media-block .media-block-title {
+.training-block .training-block-title {
     font-size: .85rem;
     font-weight: 600;
     letter-spacing: 1px;
