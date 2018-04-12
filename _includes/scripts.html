@@ -9,11 +9,11 @@
         try {
              // helper function to filter out empty paths (trailing slash)
             var omitEmpty = function(el) { return el.trim() !== ''};
-            
+
             // extract last path bit from url
             var paths = document.location.pathname.split('/').filter(omitEmpty);
             var path = paths[paths.length-1];
-            
+
             // helper function to find and set active option
             var setActiveNavOption = function(el) {
                 var subPaths = el.href.split('/').filter(omitEmpty);
@@ -24,25 +24,25 @@
                 }
                 return false;
             }
-            
-            // check if we have a .header-subnav match?
+
+            // check if we have a .custom-nav match?
             var hasSubMenu = false;
-            $(".header-subnav li a").each(function(i, el) {
+            $(".custom-nav .custom-nav-option").each(function(i, el) {
                 var isMatch = setActiveNavOption(el);
                 if (isMatch) {
                     hasSubMenu = true;
                     return false;
                 }
             });
-            
-            // find corresponding path bit for .menu-subnav option
+
+            // find corresponding path bit for .custom-subnav option
             if (hasSubMenu && paths.length > 1) {
                 var parentPath = paths[paths.length-2];
                 if (parentPath !== 'omero') path = parentPath;
             }
-            
-            // set .menu-subnav option
-            $(".menu-subnav li a").each(function(i, el) {
+
+            // set .custom-subnav option
+            $(".custom-subnav .custom-nav-option").each(function(i, el) {
                 if (setActiveNavOption(el)) return false;
             });
         } catch(ignored) {}
@@ -52,8 +52,8 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', '{{ site.ga_token }}', 'auto');
       ga('send', 'pageview');
-    
+
     </script>
