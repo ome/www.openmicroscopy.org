@@ -19,9 +19,9 @@ main-blurb: affects OMERO 5 versions 5.4.7 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-		<p class="secvul-description">The <a href="https://github.com/openmicroscopy/openmicroscopy/pull/5273" target="_blank">OMERO PR #5273</a> describes a <q>hackish solution</q> of:</p>
+		<p class="secvul-description">The <a href="https://github.com/openmicroscopy/openmicroscopy/pull/5273" target="_blank">OMERO PR #5273</a> describes a process to:</p>
 		<blockquote class="secvul-description">&hellip; establish a secret key when the server starts up, tell it to the database then, when we try to set the <tt>originalfile.repo</tt> column, have a database trigger look for that secret key prefixing <tt>originalfile.name</tt> &hellip;</blockquote>
-		<p class="secvul-description">OMERO.server affords considerable privilege to those who wield that secret key. The key can leak when the scripts service detects a new script and returns names with that key prefix to a user who is querying the list of scripts.</p>
+		<p class="secvul-description">OMERO.server affords considerable privilege to those who wield that secret key. The key can leak when the scripts service detects a new script because subsequently the server returns script names with that key prefix to the <em>first</em> user who queries the list of scripts. Use of <tt>bin/omero script list</tt> suffices to call <a href="http://downloads.openmicroscopy.org/latest/omero5.4/api/slice2html/omero/api/IScript.html#getScripts">IScript::getScripts()</a> and trigger the leak.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -38,7 +38,7 @@ main-blurb: affects OMERO 5 versions 5.4.7 and earlier
             </div>
             <div class="small-12 medium-9 columns">
                 <p class="secvul-description">Medium severity.</p>
-                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:L/MAC:H/MPR:L/MUI:R/MS:U/MC:H/MI:H/MA:H" target="_blank">CVSS score 6.2 vector AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:L/MAC:H/MPR:L/MUI:R/MS:U/MC:H/MI:H/MA:H</a></p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:L/MAC:H/MPR:H/MUI:R/MS:C/MC:H/MI:H/MA:H" target="_blank">CVSS score 6.7 vector AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:L/MAC:H/MPR:H/MUI:R/MS:C/MC:H/MI:H/MA:H</a></p>
             </div>
         </div>
         <div class="secvul-row row">
