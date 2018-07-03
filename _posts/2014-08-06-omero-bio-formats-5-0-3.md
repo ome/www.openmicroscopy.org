@@ -27,7 +27,7 @@ For OMERO users, this release includes:
 - Webclient: Group user switching now works on tablets and handles long group/user lists better.
 - Webclient: Downloading of original files is now available when multiple images are selected.
 
-Don't miss the new User guide [search page](http://help.openmicroscopy.org/search.html)!
+Don't miss the new User guide [search page](https://help.openmicroscopy.org/search.html)!
 
 Developers, script creators, and other power users may be interested in:
 

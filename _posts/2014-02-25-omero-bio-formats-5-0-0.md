@@ -64,7 +64,7 @@ For OMERO:
 - CLI plugin allowing access to tags and tag sets from the [command line](https://www.openmicroscopy.org/site/support/omero5.0/users/command-line-interface.html)
 - Modulo (FLIM/SPIM) support in OMERO.insight
 - Many bug fixes including thumbnails, plates, tables and LDAP
-- New help guide for installing the plugins needed to use [OMERO with ImageJ](http://help.openmicroscopy.org/imagej.html)
+- New help guide for installing the plugins needed to use [OMERO with ImageJ](https://help.openmicroscopy.org/imagej.html)
 - 'What's New' summaries for [users](https://www.openmicroscopy.org/site/support/omero5.0/users/whatsnew.html), [sysadmins](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/whatsnew.html) and [developers](https://www.openmicroscopy.org/site/support/omero5.0/developers/whatsnew.html) to help you quickly identify updates
 
 The software is available from [archived
