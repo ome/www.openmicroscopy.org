@@ -12,9 +12,9 @@ main-blurb: affects OMERO.web versions 5.4.6 and earlier
             </div>
             <div class="small-12 medium-9 columns">
                 <p class="secvul-description">If an error occurred in logins to OMERO.web,
-                the http response returned to the user contained the user's password. This was
+                the HTTP response returned to the user contained the user's password. This was
                 included in the feedback submitted to the OME QA system, although in both
-                cases the password was not visible but hidden in the page's html source.
+                cases the password was not visible but hidden in the page's HTML source.
                 </p>
             </div>
         </div>
@@ -25,13 +25,13 @@ main-blurb: affects OMERO.web versions 5.4.6 and earlier
             <div class="small-12 medium-9 columns">
 		    <p class="secvul-description">
                 Django generates an error response if an unexpected error occurs. This includes
-                data in the http POST dictionary. The OMERO.web feedback tool allows users
+                data in the HTTP POST dictionary. The OMERO.web feedback tool allows users
                 to submit any errors to the OME team's QA database. This included the user's
-                password. This behaviour has existed in all versions of OMERO.web but errors
+                password. This behavior has existed in all versions of OMERO.web but errors
                 within the login process were rarely seen until
                 <a href="https://github.com/openmicroscopy/openmicroscopy/pull/5699">recent changes</a>
                 in OMERO 5.4.6 which causes an error if the OMERO.server was not running or was
-                an incompatible version. This issue has also been fixed for OMERO 5.4.7 in
+                an incompatible version. This issue has been fixed for OMERO 5.4.7 in
                 <a href="https://github.com/openmicroscopy/openmicroscopy/pull/5769">#5769</a>.
             </p>
             </div>
@@ -58,7 +58,7 @@ main-blurb: affects OMERO.web versions 5.4.6 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">Don't submit login errors to the OME team</p>
+                <p class="secvul-description">Do not submit login errors to the OME team.</p>
             </div>
         </div>
         <div class="secvul-row row">
