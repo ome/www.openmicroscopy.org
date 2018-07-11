@@ -1,17 +1,9 @@
 language: ruby
 sudo: required
-cache: bundler
-rvm: 2.3.3
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
 services:
-  - docker
-install: bundle install
+- docker
+
 script:
-    - bundle exec jekyll build  -d _site/www.openmicroscopy.org
-    - bundle exec htmlproofer ./_site --disable-external
-    #- cd _includes; docker build -t omero-c7 .
-    #- docker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d --name omero-c7 omero-c7
-    #- docker exec omero-c7 bash /tmp/omero-c7.sh
-    #- echo TODO - add docker-compose test after merge
+    - docker run -it --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build --config _config.yml,_prod.yml
+    - docker run -it  --rm -v $(pwd)/_site:/site -it jekyll/builder:pages /usr/gem/bin/htmlproofer /site --disable-external
