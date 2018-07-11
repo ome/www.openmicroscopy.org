@@ -1,6 +1,7 @@
 name: OME  Website
 markdown: kramdown
 
+url: ''
 repository: openmicroscopy/www.openmicroscopy.org
 baseurl: /www.openmicroscopy.org
 
