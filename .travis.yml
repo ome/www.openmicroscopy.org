@@ -7,7 +7,7 @@ services:
 script:
   - docker run -it --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build --config _config.yml,_prod.yml
   - docker run -it  --rm -v $(pwd)/_site:/site -it jekyll/builder:pages /usr/gem/bin/htmlproofer /site --disable-external
-  - tar -zcvf wwww.openmicroscopy.org.tar.gz _site
+  - tar -zcvf wwww.openmicroscopy.org.tar.gz -C _site ./
 
 deploy:
   provider: releases
