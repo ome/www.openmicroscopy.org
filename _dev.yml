@@ -1,3 +1,0 @@
-destination: /var/www/www-dev.openmicroscopy.org/html/
-site_title: dev
-permalink: /blog/:year/:month/:day/:title.html
