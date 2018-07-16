@@ -11,11 +11,11 @@ main-blurb: affects OMERO.web versions 5.4.6 and earlier
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">If an error occurred in logins to OMERO.web,
-                the HTTP response returned to the user contained the user's password. This was
+                <p class="secvul-description">If an error occurrs in logins to OMERO.web,
+                the HTTP response returned to the user contains the user's password. This is
                 also included in the feedback submitted to the
                 <a href="https://www.openmicroscopy.org/qa2/">OME QA system</a>.
-                However, in both cases the password was not visible in the browser but
+                However, in both cases the password is not visible in the browser but
                 hidden in the page's HTML source. Each issue submitted to the OME QA system is
                 accessible only to the OMERO team and the user who submitted it.
                 </p>
@@ -29,7 +29,7 @@ main-blurb: affects OMERO.web versions 5.4.6 and earlier
 		    <p class="secvul-description">
                 Django generates an error response if an unexpected error occurs. This includes
                 data in the HTTP POST dictionary. The OMERO.web feedback tool allows users
-                to submit any errors to the OME team's QA database. This included the user's
+                to submit any errors to the OME team's QA database. This includes the user's
                 password. This behavior has existed in all versions of OMERO.web but errors
                 within the login process were rarely seen until
                 <a href="https://github.com/openmicroscopy/openmicroscopy/pull/5699">recent changes</a>
