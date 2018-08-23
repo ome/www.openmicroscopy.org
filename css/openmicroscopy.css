@@ -337,6 +337,14 @@ a.hero-link {
             color: #fff;
 }
 
+a.hero-link-inline {
+    color: #eceff1;
+    margin-left: 20px;
+    text-decoration: underline; }
+        a.hero-link:hover {
+            color: #fff;
+}
+
 a.hero-link-dark {
     color: #455A64;
     display: block;
