@@ -190,6 +190,12 @@ h3.subdivider {
     color: #03a9f4;
 }
 
+/* These top menu links only expand submenu - we don't want them to look like links */
+#main-menu .has-submenu>a:hover {
+    color: #37474f;
+    cursor: default;
+}
+
 #main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after { border-color: #37474f transparent transparent; }
 
 .header-subnav {
