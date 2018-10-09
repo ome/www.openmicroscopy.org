@@ -17,8 +17,8 @@ bf:
  version: 5.9.2
 
 omero:
- version: 5.4.8
- build: b99
+ version: 5.4.9
+ build: b101
 
 omecommoncpp:
   version: 5.5.0
