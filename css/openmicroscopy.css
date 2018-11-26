@@ -701,6 +701,10 @@ p.job-title {
     margin-bottom: -30px;
 }
 
+#standards > .column {
+    margin-bottom: -30px;
+}
+
 .consortium-list div {
     padding-bottom: 20px; }
     span.institution  {
