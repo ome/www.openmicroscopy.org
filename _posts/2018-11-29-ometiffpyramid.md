@@ -91,13 +91,13 @@ consuming Bio-Formats 6.0.0 not too long after release.
 
 Once this work is completed, our next aims in terms of formats will be:
 
-*   continue the work on OME formats using new binary vessels also presented
+*   Continue the work on OME formats using new binary vessels also presented
     at the [2018 Users Meeting](https://downloads.openmicroscopy.org/presentations/2018/Users-Meeting/Workshops/NewFileFormats/).
     Bio-Formats 6.0.0-m3 already includes a reader for the
     [Keller Lab Block](https://bitbucket.org/fernandoamat/keller-lab-block-filetype)
     format and Bio-Formats 6 will include a reader for the
     [Big DataViewer format](https://imagej.net/BigDataViewer#About_the_BigDataViewer_data_format).
-*   work with the community to keep OME-Files C++ support for pyramidal OME-TIFF in
+*   Work with the community to keep OME-Files C++ support for pyramidal OME-TIFF in
     sync with the Java changes - read [this ome-users thread](http://lists.openmicroscopy.org.uk/pipermail/ome-users/2018-November/007300.html)
-    to know more about recent improvements driven by the community 
+    to know more about recent improvements driven by the community.
 
