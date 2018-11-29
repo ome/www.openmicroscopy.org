@@ -7,8 +7,8 @@ categories: file-formats community
 
 # Designing an open multi-resolution file format
 
-In 2012, the OME Consortium started working on the support of multi-resolution
-or pyramidal proprietary file formats. The result of this work was the
+In 2012, the OME Consortium started working on the support of multi-resolution,
+or pyramidal, proprietary file formats. The result of this work was the
 addition of several proprietary whole slide image (WSI) file format readers in
 Bio-Formats releases during 2013-2017. As often happens, proprietary file
 format (PFF) readers are only part of the solution required by the scientific
@@ -77,7 +77,7 @@ Leica/Aperio, Hamamatsu, and Zeiss.
 
 We are also working on ongoing performance improvements to ensure consumers
 can write compliant OME-TIFF rapidly either using the API directly or via our
-end-users tools like the Bio-Formats  command-line utility, the ImageJ plugin
+end-users tools like the Bio-Formats command-line utility, the ImageJ plugin
 or the OMERO exporter.
 
 Finally, we will review the API changes necessary so that Bio-Formats can read
@@ -86,7 +86,7 @@ backwards-compatible for the last two years following our last release of the
 OME model. At present, we believe a new major version of Bio-Formats 6.0.0
 including breaking API changes will be released by the end of 2018. An OMERO
 release that supports Bio-Formats 6.0.0 will follow, but the exact date is not
-yet known. For  those of you following our develop branch, you will see IDR
+yet known. For those of you following our develop branch, you will see IDR
 consuming Bio-Formats 6.0.0 not too long after release.
 
 Once this work is completed, our next aims in terms of formats will be:
@@ -97,7 +97,7 @@ Once this work is completed, our next aims in terms of formats will be:
     [Keller Lab Block](https://bitbucket.org/fernandoamat/keller-lab-block-filetype)
     format and Bio-Formats 6 will include a reader for the
     [Big DataViewer format](https://imagej.net/BigDataViewer#About_the_BigDataViewer_data_format).
-*   work with the community to keep support for pyramidal OME-TIFF in OME
-    Files C++ - read [this ome-users thread](http://lists.openmicroscopy.org.uk/pipermail/ome-users/2018-November/007300.html)
+*   work with the community to keep OME-Files C++ support for pyramidal OME-TIFF in
+    sync with the Java changes - read [this ome-users thread](http://lists.openmicroscopy.org.uk/pipermail/ome-users/2018-November/007300.html)
     to know more about recent improvements driven by the community 
 
