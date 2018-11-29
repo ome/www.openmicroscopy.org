@@ -30,9 +30,9 @@ generating files in production is not without risk. Compatibility between the
 various formats and software version is usually a key target of the process.
 The principal challenges are:
 
-*   Maintaining the usability of new files using either older versions of OME
+*   maintaining the usability of new files using either older versions of OME
     software or third-party software
-*   Minimizing the risks of conflicts of the proposed extension with other
+*   minimizing the risks of conflicts of the proposed extension with other
     specifications
 
 The OME team has reviewed several approaches for representing multi-resolution
