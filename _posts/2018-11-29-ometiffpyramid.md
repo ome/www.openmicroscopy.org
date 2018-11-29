@@ -23,7 +23,7 @@ Therefore, we started working on an extension to the OME-TIFF format
 specification to support pyramidal resolutions at the beginning of 2018. This
 scoping exercise resulted in a
 [formal open proposal](https://openmicroscopy.github.io/design/OME005/)
-announced to the community in 2018.
+announced to the community in February 2018.
 
 Extending a widely adopted format specification with hundreds of instruments
 generating files in production is not without risk. Compatibility between the
@@ -62,7 +62,7 @@ an OMERO server.
 
 Since then, we focused our efforts on the generation of pyramidal OME-TIFF
 files using Bio-Formats. As of today, we are proud to have a milestone release of Bio-Formats available
-[here](http://downloads.openmicroscopy.org/bio-formats/6.0.0-m3/) with full
+[here](https://downloads.openmicroscopy.org/bio-formats/6.0.0-m3/) with full
 support for reading and writing open OME-TIFF files with support for pyramids.
 The software allows both the conversion of existing proprietary file formats
 as well as the generation of pyramidal levels from large resolution planes.
@@ -91,7 +91,7 @@ consuming Bio-Formats 6.0.0 not too long after release.
 
 Once this work is completed, our next aims in terms of formats will be:
 
-*   continue the work on OME formats using new binary vessels also presente
+*   continue the work on OME formats using new binary vessels also presented
     at the [2018 Users Meeting](https://downloads.openmicroscopy.org/presentations/2018/Users-Meeting/Workshops/NewFileFormats/).
     Bio-Formats 6.0.0-m3 already includes a reader for the
     [Keller Lab Block](https://bitbucket.org/fernandoamat/keller-lab-block-filetype)
