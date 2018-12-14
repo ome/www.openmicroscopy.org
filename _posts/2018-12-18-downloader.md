@@ -52,7 +52,7 @@ links that, perhaps via a `Fileset/` directory, link to files in
 files are located together. On systems with the GNU Core Utilities
 installed a command like:
 
-`` showinf `realpath Image/1234/Binary/my-image.fmt` ``
+    showinf `realpath Image/1234/Binary/my-image.fmt`
 
 can be used to conveniently direct Bio-Formats' command-line tools to
 the directory that includes the binary and companion files together.
