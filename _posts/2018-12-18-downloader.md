@@ -27,7 +27,8 @@ linking the server objects.
 OMERO.downloader is designed to handle situations in which not all the
 specified data can be downloaded in a single session. If download is
 interrupted then it can be resumed by repeating the same command line
-invocation.
+invocation. If files have already been downloaded then they will not be
+fetched again.
 
 
 # Downloading original files
