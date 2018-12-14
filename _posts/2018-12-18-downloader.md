@@ -76,7 +76,11 @@ The OME-XML is stored in two forms: First, each top-level schema object
 is stored independently in separate files, e.g., in
 `Image/1234/Metadata/image-1234.ome.xml`. Soft links exist among related
 model objects, e.g., `Image/1234/Annotation/567` may link to
-`Annotation/567/` which contains `Metadata/annotation-567.ome.xml`.
+`Annotation/567/` which contains `Metadata/annotation-567.ome.xml`. To
+use those files and links to list the IDs of the images that are tagged
+as "anaphase":
+
+    grep -lr '^<Tag.*<Value>anaphase<' Image/*/Annotation/*/Metadata/ | cut -f 2 -d / | sort -nu
 
 Second, each specified model object is assembled from the various object
 files into a single OME-XML document, e.g.,
