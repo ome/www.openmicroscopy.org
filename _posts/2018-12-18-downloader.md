@@ -19,9 +19,9 @@ storage and processing.
 We now release OMERO.downloader v0.1.0, a Java application that acts as
 a command-line OMERO client. It writes selected data from an OMERO
 server into a local directory and creates soft links to represent some
-of the metadata linking the server objects. This is still an early
-version missing many features but should already add significant value
-for some use cases.
+of the relationships among server objects. This is still an early
+version missing many features but it can already download some original
+files and metadata.
 
 OMERO.downloader is designed to handle situations in which not all the
 specified data can be downloaded in a single session. If download is
