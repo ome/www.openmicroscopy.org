@@ -12,13 +12,13 @@ sets grow in size it becomes a correspondingly greater challenge to
 provide access to that data. This motivates the creation of server-side
 solutions such as the IDR's
 [Virtual Analysis Environment](https://idr-analysis.openmicroscopy.org/).
-
 For the past couple of years the OME team has been investigating ways to
 improve users' ability to obtain data from OMERO for client-side storage
-and processing. We now release OMERO.downloader v0.1.0 which is still an
+and processing.
+
+We now release OMERO.downloader v0.1.0 which is still an
 early version missing many features but should already add significant
 value for some use cases.
-
 OMERO.downloader is a Java application that acts as a command-line OMERO
 client. It writes selected data from an OMERO server into a local
 directory and creates soft links to represent some of the metadata
