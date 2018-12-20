@@ -16,7 +16,7 @@ For the past couple of years the OME team has also been investigating
 ways to improve users' ability to obtain data from OMERO for client-side
 storage and processing.
 
-We now release OMERO.downloader v0.1.0, a Java application that acts as
+We now release [OMERO.downloader v0.1.0](https://github.com/ome/omero-downloader/releases/download/v0.1.0/OMERO.downloader-0.1.0-release.zip), a Java application that acts as
 a command-line OMERO client. It writes selected data from an OMERO
 server into a local directory and creates soft links to represent some
 of the relationships among server objects. This is still an early
