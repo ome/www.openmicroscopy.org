@@ -190,6 +190,12 @@ h3.subdivider {
     color: #03a9f4;
 }
 
+/* These top menu links only expand submenu - we don't want them to look like links */
+#main-menu .has-submenu>a:hover {
+    color: #37474f;
+    cursor: default;
+}
+
 #main-menu .dropdown.menu > li.is-dropdown-submenu-parent > a::after { border-color: #37474f transparent transparent; }
 
 .header-subnav {
@@ -596,6 +602,14 @@ p.card-caption, span.card-caption {
     width: 80px;  
 }
 
+/* e.g. omero/apps, /news pages, ensure that icons don't get too close to text. PR #249 */
+@media print, screen and (min-width: 40em) {
+    .row>div.medium-1 [class^="icon-fa-"] {
+        float: right;
+        margin-right: -15px;
+    }
+}
+
 .icon-fa-blue { color: #03a9f4; }
 .icon-fa-gray { color: #b0bec5; }
 .icon-fa-green { color: #009688; }
@@ -684,6 +698,10 @@ p.job-title {
     word-wrap: normal;
 }
 #partnerships > .column {
+    margin-bottom: -30px;
+}
+
+#standards > .column {
     margin-bottom: -30px;
 }
 
