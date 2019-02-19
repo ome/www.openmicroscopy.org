@@ -1,3 +1,4 @@
+---
 language: ruby
 sudo: required
 
@@ -10,12 +11,15 @@ script:
 
 before_deploy:
   - tar -zcvf ${TRAVIS_REPO_SLUG#*/}.tar.gz -C _site ./
-  - export BODY="$(sha256sum --tag ${TRAVIS_REPO_SLUG#*/}.tar.gz)"
+  - sha256sum --tag ${TRAVIS_REPO_SLUG#*/}.tar.gz > SHASUMS
+  - export BODY="$(cat SHASUMS)"
 
 deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
-  file: ${TRAVIS_REPO_SLUG#*/}.tar.gz
+  file:
+    - ${TRAVIS_REPO_SLUG#*/}.tar.gz
+    - SHASUMS
   body: ${BODY}
   skip_cleanup: true
   on:
