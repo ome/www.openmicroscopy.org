@@ -52,7 +52,7 @@ For Bio-Formats:
 - Improved continuous integration testing
 
 The software is available from [archived
-downloads](http://downloads.openmicroscopy.org/bio-formats/5.0.0).
+downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.0).
 
 
 For OMERO:
