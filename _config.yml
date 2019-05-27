@@ -35,3 +35,9 @@ omefiles:
 
 omecmakesuperbuild:
  version: 0.5.0
+
+omeroinsight:
+  version: 5.5.0-m3
+
+omeromatlab:
+  version: 5.5.0-m1
