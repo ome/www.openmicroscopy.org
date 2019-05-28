@@ -18,6 +18,7 @@ bf:
 
 omero:
  version: 5.4.10
+ majorversion: 5.4
  build: b105
  insight:
   version: 5.5.0-m3
