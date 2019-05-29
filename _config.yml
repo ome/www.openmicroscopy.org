@@ -21,9 +21,9 @@ omero:
  majorversion: 5.4
  build: b105
  insight:
-  version: 5.5.0-m3
+  version: 5.5.0
  matlab:
-  version: 5.5.0-m1
+  version: 5.5.0
 
 omecommoncpp:
   version: 5.5.0
