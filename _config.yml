@@ -17,7 +17,7 @@ bf:
  version: 6.1.0
 
 omero:
- version: 5.5.0-rc2
+ version: 5.5.0-rc3
  majorversion: 5.5
  build: b118
  insight:
