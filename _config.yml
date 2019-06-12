@@ -17,11 +17,11 @@ bf:
  version: 6.1.0
 
 omero:
- version: 5.5.0-rc3
+ version: 5.5.0
  majorversion: 5.5
  build: b118
  insight:
-  version: 5.5.1
+  version: 5.5.2
  matlab:
   version: 5.5.0
 
