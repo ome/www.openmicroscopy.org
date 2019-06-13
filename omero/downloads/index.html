@@ -6,8 +6,8 @@ title: OMERO Downloads
         
         <div class="callout large primary" id="bg-image-omero">
             <div class="row column text-center">
-                <h1>OMERO {{ site.omero.version }} Downloads</h1>
-                <a href="{{ site.baseurl }}/2019/01/24/omero-5-4-10.html" class="large btn-red button sites-button" style="text-shadow: none;">Read the Release Announcement</a>
+                <h1>OMERO {{ site.omero.majorversion }} Downloads</h1>
+                <a href="{{ site.baseurl }}/2019/06/13/omero-5-5-0.html" class="large btn-red button sites-button" style="text-shadow: none;">Read the Release Announcement</a>
                 <a href="https://docs.openmicroscopy.org/omero/{{ site.omero.version }}/" target="_blank" class="hero-link">Read the Docs</a>
             </div>
         </div>
@@ -18,7 +18,7 @@ title: OMERO Downloads
             <h3 class="text-center">OMERO clients</h3>
             <hr>
             <div class="column">
-                <p>A standard OMERO user just needs to download the client package with the same major version as their institutional server (e.g., 5.3.0 clients will connect to 5.3.5 servers but not to 5.4.0 servers). Full instructions for installation are on the <a href="https://help.openmicroscopy.org/">help site</a>.</p>
+                <p>A standard OMERO user just needs to download the client package with the same major version as their institutional server (e.g. 5.3.0 clients will connect to 5.3.5 servers but not to 5.4.0 servers). Full instructions for installation are on the <a href="https://help.openmicroscopy.org/">help site</a>.</p>
                 <p>If you do not have an institutional server, you can <a href="http://qa.openmicroscopy.org.uk/registry/demo_account/">apply for an account on our demo server</a>.</p>
             </div>
             <div class="small-12 medium-4 columns">
@@ -26,9 +26,10 @@ title: OMERO Downloads
                     <div class="card-section">
                         <img alt="Windows logo" src="{{ site.baseurl }}/img/logos/3rd-party_windows.png">
                         <h5>Windows</h5>
-                        <h6>OMERO.insight-{{ site.omero.version }}-ice36-{{ site.omero.build }}-win.zip</h6>
-                        <p></p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.insight-{{ site.omero.version }}-ice36-{{ site.omero.build }}-win.zip" class="button hollow small"><i class="fa fa-download"></i> Download (78.39 MB)</a>
+                        <h6>OMERO.insight-{{ site.omero.insight.version }}.exe</h6>
+                        <a href="https://github.com/ome/omero-insight/releases/download/v{{ site.omero.insight.version }}/OMERO.insight-{{ site.omero.insight.version }}.exe" class="button hollow small"><i class="fa fa-download"></i> Download (119 MB)</a>
+                        <h6>OMERO.insight-{{ site.omero.insight.version }}.msi</h6>
+                        <a href="https://github.com/ome/omero-insight/releases/download/v{{ site.omero.insight.version }}/OMERO.insight-{{ site.omero.insight.version }}.msi" class="button hollow small"><i class="fa fa-download"></i> Download (147 MB)</a>
                     </div>
                 </div>
             </div>
@@ -37,9 +38,9 @@ title: OMERO Downloads
                     <div class="card-section">
                         <img alt="MacOS X logo" src="{{ site.baseurl }}/img/logos/3rd-party_macosx.jpg">
                         <h5>Mac OS X</h5>
-                        <h6>OMERO.insight-{{ site.omero.version }}-ice36-{{ site.omero.build }}-mac.zip</h6>
+                        <h6>OMERO.insight-{{ site.omero.insight.version }}.dmg</h6>
                         <p></p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.insight-{{ site.omero.version }}-ice36-{{ site.omero.build }}-mac.zip" class="button hollow small"><i class="fa fa-download"></i> Download (78.17 MB)</a>
+                        <a href="https://github.com/ome/omero-insight/releases/download/v{{ site.omero.insight.version }}/OMERO.insight-{{ site.omero.insight.version }}.dmg" class="button hollow small"><i class="fa fa-download"></i> Download (142 MB)</a>
                     </div>
                 </div>
             </div>
@@ -48,9 +49,9 @@ title: OMERO Downloads
                     <div class="card-section">
                         <img alt="Linux logo" src="{{ site.baseurl }}/img/logos/3rd-party_linux.png">
                         <h5>Linux</h5>
-                        <h6>OMERO.insight-{{ site.omero.version }}-ice36-{{ site.omero.build }}-linux.zip</h6>
+                        <h6>OMERO.insight-{{ site.omero.insight.version }}.zip</h6>
                         <p></p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.insight-{{ site.omero.version }}-ice36-{{ site.omero.build }}-linux.zip" class="button hollow small"><i class="fa fa-download"></i> Download (78.04 MB)</a>
+                        <a href="https://github.com/ome/omero-insight/releases/download/v{{ site.omero.insight.version }}/OMERO.insight-{{ site.omero.insight.version }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (74 MB)</a>
                     </div>
                 </div>
             </div>
@@ -66,9 +67,9 @@ title: OMERO Downloads
                     <div class="card-section">
                         <img class="thumbnail omero-feature" alt="OMERO feature" src="{{ site.baseurl }}/img/icons/omero-features-icons_fiji.png">
                         <h5>Image J / Fiji</h5>
-                        <h6>OMERO.insight-ij-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
+                        <h6>OMERO.imagej-{{ site.omero.insight.version }}.zip</h6>
                         <p class="card-caption">View instructions at <a href="https://help.openmicroscopy.org/imagej.html" target="_blank">Using ImageJ with OMERO</a>.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.insight-ij-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (70.23 MB)</a>
+                        <a href="https://github.com/ome/omero-insight/releases/download/v{{ site.omero.insight.version }}/OMERO.imagej-{{ site.omero.insight.version }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (74 MB)</a>
                     </div>
                 </div>
             </div>
@@ -77,9 +78,9 @@ title: OMERO Downloads
                     <div class="card-section">
                         <img class="thumbnail omero-feature" alt="OMERO feature" src="{{ site.baseurl }}/img/icons/omero-features-icons_matlab.png">
                         <h5>Matlab</h5>
-                        <h6>OMERO.matlab-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
+                        <h6>OMERO.matlab-{{ site.omero.matlab.version }}.zip</h6>
                         <p class="card-caption">View instructions at <a href="https://docs.openmicroscopy.org/omero/{{ site.omero.version }}/developers/Matlab.html" target="_blank">OMERO Matlab language bindings</a>.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.matlab-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (22.49 MB)</a>
+                        <a href="https://github.com/ome/omero-matlab/releases/download/v{{ site.omero.matlab.version }}/OMERO.matlab-{{ site.omero.matlab.version }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (54 MB)</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@ title: OMERO Downloads
                         <h5>Server (Ice 3.6)</h5>
                         <h6>OMERO.server-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
                         <p class="card-caption">View installation guides in <a href="https://docs.openmicroscopy.org/omero/{{ site.omero.version }}/sysadmins/index.html" target="_blank">System Administrator documentation</a>.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.server-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (155.8 MB)</a>
+                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.server-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (260 MB)</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +106,7 @@ title: OMERO Downloads
                         <h5>API Documentation</h5>
                         <h6>OMERO.apidoc-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
                         <p class="card-caption">The OMERO API documentation is also available to read on the web <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/api/">here</a>.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.apidoc-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (34.48 MB)</a>
+                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.apidoc-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (22 MB)</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@ title: OMERO Downloads
                         <h5>Python (Ice 3.6)</h5>
                         <h6>OMERO.py-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
                         <p class="card-caption">OMERO.py can be used to install OMERO.web decoupled from the OMERO.server, see the <a href="https://docs.openmicroscopy.org/omero/{{ site.omero.version }}/sysadmins/unix/install-web/web-deployment.html">OMERO.web documentation</a> for details.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.py-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (9.09 MB)</a>
+                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.py-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (8.7 MB)</a>
                     </div>
                 </div>
             </div>
@@ -129,7 +130,7 @@ title: OMERO Downloads
                         <h5>Java (Ice 3.6)</h5>
                         <h6>OMERO.java-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
                         <p class="card-caption">The OMERO Java API documentation is available to read on the web <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/api/">here</a>.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.java-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (80.81 MB)</a>
+                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.java-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (125 MB)</a>
                     </div>
                 </div>
             </div>
@@ -158,8 +159,6 @@ title: OMERO Downloads
         <header class="marketing-hero" style="background-image: url('{{ site.baseurl }}/img/bg/omero-omero.jpg');">
             <div class="row">
                 <div class="small-12 columns bg-image-text-container-cta text-center">
-                    <p class="hero-subheader">All components available for this version of OMERO are available here:</p>
-                    <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/?C=N;O=A" class="large btn-red button sites-button" style="text-shadow: none;">Download Components</a>
                     <p class="hero-subheader">Previous versions are available via the <a href="https://downloads.openmicroscopy.org/omero/">downloads index</a></p>
                 </div>
             </div>
