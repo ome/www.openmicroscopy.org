@@ -56,6 +56,20 @@ ul.dev-ops-links, ul.dev-ops-links ul {
     list-style-position: inside;
 }
 
+p.dev-ops-links {
+    margin-bottom: 0.5em;
+}
+
+.fa-square-bracket:before {
+    content: '[';
+    font-size: 120%;
+}
+
+.fa-square-bracket:after {
+    content: ']';
+    font-size: 120%;
+}
+
 code.html {
     background: #eceff1 none repeat scroll 0 0;
     border-radius: 4px;
