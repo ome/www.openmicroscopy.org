@@ -35,8 +35,8 @@ title: Explore
         <hr class="whitespace">
         <div id="devs-explore" class="row column text-center">
             <div class="small-12 columns">
-                <h2 class="header-blue">OME for Developers</h2>
-                <h5 class="subheader">DevOps familiar with Docker or Ansible? Check out our repos to get set up with a test server:</h5>
+                <h2 class="header-blue">OME for Developers and Sysadmins</h2>
+                <h5 class="subheader">Are you a developer or sysadmin familiar with Docker or Ansible? Check out our <a href="https://github.com/ome/omero-deployment-examples">repository of deployment examples</a> to get set up with a test server</h5>
             </div>
         </div>
         <hr>
@@ -47,10 +47,8 @@ title: Explore
             </div>
             <div class="medium-4 medium-offset-1 column">
                 <h5 class="text-center">Deploy an OMERO server on CentOS 7 with Ansible</h5>
-                <p>Ansible can deploy an OMERO.server with the same production configuration that we use in the OME.
-                <a href="https://github.com/ome/ansible-examples-omero">Take a look at the examples in this repository.</a></p>
-                <pre><code class="html">{% include omero-c7.sh %}
-                </code></pre>
+                <p>Ansible can deploy an OMERO.server with the same production configuration that we use in the OME.</p>
+                <div><a href="https://github.com/ome/ansible-example-omero-onenode/" target="_blank" class="btn-blue button">Single node (all-in-one)</a></div>
             </div>
             <div class="medium-4 column end">
                 <h5 class="text-center">Start a Server in Docker</h5>
@@ -58,38 +56,40 @@ title: Explore
                     Or launch all the Docker containers you need with this <a href="https://docs.docker.com/compose/" target="_blank">docker-compose</a>
                     example:
                 </p>
-                <pre><code class="html">{% include docker-compose.yml %}
-</code></pre>
+                <div><a href="https://github.com/ome/docker-example-omero" target="_blank" class="btn-blue button">OMERO docker-compose</a></div>
             </div>
         </div>
         <hr class="invisible">
         <div class="row">
             <div class="medium-1 columns"><i class="icon-fa-red fa fa-link fa-2x"></i></div>
             <div class="medium-3 columns omero-key-feature-container">
-                <h5>Useful DevOps links</h5>
-                <p>Explore some example DevOps link resources below:</p>
+                <h5>Useful installation and deployment links</h5>
+                <p class="dev-ops-links">Production ansible roles</p>
                 <ul class="dev-ops-links">
-                    <li>Ansible examples:
-                        <ul>
-                            <li><a href="https://github.com/ome/ansible-examples-omero/tree/master/public-user">Public OMERO</a></li>
-                            <li><a href="https://github.com/openmicroscopy/ansible-role-omero-server">OMERO Server</a></li>
-                            <li><a href="https://github.com/openmicroscopy/ansible-role-omero-web">OMERO Web</a></li>
-                        </ul>
+                    <li><a href="https://github.com/ome/ansible-role-omero-server">OMERO Server</a></li>
+                    <li><a href="https://github.com/ome/ansible-role-omero-web">OMERO Web</a></li>
+                </ul>
+                <p class="dev-ops-links">Production docker images</p>
+                <ul class="dev-ops-links">
+                    <li><a href="https://hub.docker.com/r/openmicroscopy/omero-server">OMERO server</a>
+                        <a href="https://github.com/openmicroscopy/omero-server-docker" title="omero-server-docker on GitHub">
+                        <span class="fa-square-bracket"><i class="fa fa-fw fa-github"></i></span></a>
                     </li>
-                    <li>Docker examples:
-                        <ul>
-                            <li><a href="https://github.com/openmicroscopy/omero-server-docker">OMERO Server</a></li>
-                            <li><a href="https://github.com/openmicroscopy/omero-web-docker">OMERO Web</a></li>
-                            <li><a href="https://hub.docker.com/r/openmicroscopy/">Our Docker Hub</a></li>
-                        </ul>
+                    <li><a href="https://hub.docker.com/r/openmicroscopy/omero-web">OMERO web</a>
+                        <a href="https://github.com/openmicroscopy/omero-web-docker" title="omero-web-docker on GitHub">
+                        <span class="fa-square-bracket"><i class="fa fa-fw fa-github"></i></span></a>
                     </li>
-                    <li><a href="https://anaconda.org/bioconda/python-omero">or Python OMERO on Bioconda</a></li>
+                    <li><a href="https://hub.docker.com/r/openmicroscopy/">Our Docker Hub</a></li>
+                </ul>
+                <p class="dev-ops-links">Bioconda</p>
+                <ul class="dev-ops-links">
+                    <li><a href="https://anaconda.org/bioconda/python-omero">Python OMERO</a></li>
                 </ul>
             </div>
             <div class="medium-1 columns"><i class="icon-fa-blue fa fa-laptop fa-2x"></i></div>
             <div class="medium-3 columns omero-key-feature-container">
                 <h5>Client Development</h5>
-                <p>Interested in client development? Check out the following repos for examples:</p>
+                <p class="dev-ops-links">Interested in client development? Check out the following repos for examples:</p>
                 <ul class="dev-ops-links">
                     <li><a href="https://github.com/ome/minimal-omero-client">Java client</a></li>
                     <li>Web apps:
@@ -107,7 +107,7 @@ title: Explore
             <div class="medium-1 columns"><i class="icon-fa-green fa fa-image fa-2x"></i></div>
             <div class="medium-3 columns omero-key-feature-container">
                 <h5>Image Analysis</h5>
-                <p>See how OMERO and Bio-Formats integrate with other tools for performing image analysis tasks:</p>
+                <p class="dev-ops-links">See how OMERO and Bio-Formats integrate with other tools for performing image analysis tasks:</p>
                 <ul class="dev-ops-links">
                     <li><a href="https://github.com/ome/rOMERO-gateway">R OMERO</a></li>
                     <li><a href="https://github.com/aoles/RBioFormats">R and Bio-Formats</a></li>
