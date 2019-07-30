@@ -995,3 +995,7 @@ img.account-profile-pic {
             flex-direction: row;
   }
 }
+
+.event-future {
+    color: #df283f;
+}
