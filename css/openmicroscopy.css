@@ -275,6 +275,7 @@ h3.subdivider {
     font-weight: 600;
     margin-bottom: 5px;
     text-shadow: 1px 1px 3px rgba(0,0,0,1);
+    line-height: 1.4rem;
 }
 
 #bg-image-users-meeting { 
@@ -993,4 +994,8 @@ img.account-profile-pic {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+}
+
+.event-future {
+    color: #df283f;
 }
