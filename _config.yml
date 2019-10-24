@@ -14,7 +14,7 @@ paginate_path: "/announcements/page:num/"
 future: true
 
 bf:
- version: 6.2.1
+ version: 6.3.0
 
 omero:
  version: 5.4.10
