@@ -265,8 +265,9 @@ section.announcement {
     font-weight: bold;
     padding: 10px;
     text-align: center; }
-section.announcement .styled-link {
+section.announcement a.styled-link {
     color: #fff;
+    cursor: pointer;
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
