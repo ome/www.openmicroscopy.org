@@ -260,13 +260,13 @@ h3.subdivider {
 /* ========== hero background images / callouts ==========*/
 section.announcement {
     background-color: #03a9f4;
-    color: #263238;
+    color: #fff;
     font-size: 14px;
     font-weight: bold;
     padding: 10px;
     text-align: center; }
 section.announcement .styled-link {
-    color: white;
+    color: #fff;
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
