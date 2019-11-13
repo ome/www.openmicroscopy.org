@@ -19,7 +19,7 @@ p {
 
 a { color: #1d8dcd;
     font-weight: 600; }
-    
+
 a#back-to-top {
     border: 1px solid transparent;
     border-radius: 25px;
@@ -28,11 +28,11 @@ a#back-to-top {
     font-size: 12px;
     font-weight: normal;
     padding: 10px;
-    -webkit-transition: border-color .25s; 
-        transition: border-color .25s;    
+    -webkit-transition: border-color .25s;
+        transition: border-color .25s;
     }
-    a#back-to-top:hover { 
-        border: 1px solid #ce2945;        
+    a#back-to-top:hover {
+        border: 1px solid #ce2945;
         color: #ce2945; }
     a#back-to-top > i { margin-right: 6px;
 }
@@ -110,14 +110,14 @@ h6 { color: #455a64;
      font-size: .75rem;
      font-weight: normal; }
 
-h3.subdivider { 
+h3.subdivider {
     border-bottom: 1px dotted #cfd8dc;
     margin-bottom: 20px;
     padding-bottom: 10px; }
     h4.subdivider { margin-top: 20px;
 }
 
-.subheader { 
+.subheader {
     color: #607d8b;
     font-size: 1.125rem;
     font-weight: 400;
@@ -141,7 +141,7 @@ h3.subdivider {
 .btn-blue { background-color: #1d8dcd; }
 .btn-blue:hover { background-color: #1e8cbc; }
 .btn-indigo { background-color: #1c4a87; }
-.btn-indigo:hover { background-color: #1b4777; } 
+.btn-indigo:hover { background-color: #1b4777; }
 .btn-red { background-color: #df283f; }
 .btn-red:hover { background-color: #ce2945; }
 
@@ -195,7 +195,7 @@ h3.subdivider {
     color: #37474f;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.85rem;
-    font-weight: 500;    
+    font-weight: 500;
     text-rendering: optimizeLegibility;
     text-transform: uppercase;
 }
@@ -214,7 +214,7 @@ h3.subdivider {
 
 .header-subnav {
     float: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0 auto;
     position: absolute; bottom: 0;
     text-align: center;
@@ -228,9 +228,9 @@ h3.subdivider {
         font-size: 0.85rem;
         font-weight: 500;
         letter-spacing: 1px;
-        padding: 0.9rem 1rem;        
+        padding: 0.9rem 1rem;
         text-rendering: optimizeLegibility;
-        text-transform: uppercase;        
+        text-transform: uppercase;
         transition: all 0.35s ease-in-out; }
         .header-subnav li a.is-active {
             background: rgba(250, 250, 250, 0.15); }
@@ -248,7 +248,7 @@ h3.subdivider {
     color: #ECEFF1;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 0.85rem;
-    font-weight: 500;    
+    font-weight: 500;
     text-rendering: optimizeLegibility;
     text-transform: uppercase;
 }
@@ -256,12 +256,12 @@ h3.subdivider {
 .menu-subnav li a:hover, .menu-subnav li a.is-active {
     color: #03a9f4;
 }
-            
+
 /* ========== hero background images / callouts ==========*/
 .marketing-hero, .callout {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
 }
 
 [id^="bg-image-"] {
@@ -278,7 +278,7 @@ h3.subdivider {
     line-height: 1.4rem;
 }
 
-#bg-image-users-meeting { 
+#bg-image-users-meeting {
     background-color: #81D4FA;
     background-image: url('../img/bg/plane.png'), url('../img/bg/clouds.png'), url('../img/bg/submarine.png'), url('../img/bg/waves.png'), url('../img/bg/tay-road-bridge.png'), url('../img/bg/hills.png'), linear-gradient(to bottom, #99DBFA, #1C4A87 50%);
     background-position: center top 30px, top center, bottom 10px center, center bottom, center bottom, center bottom, center center;
@@ -287,7 +287,7 @@ h3.subdivider {
     .event-highlight {
         position: relative; top: 50px;
     }
-#bg-image-main { 
+#bg-image-main {
     background-image: url('../img/bg/hero-consortium.svg'), url('../img/bg/main.jpg');
     background-position: center 50px, center center;
     background-size: 1290px 500px, cover; }
@@ -381,7 +381,7 @@ p.hero-subheader > a {
     a.hero-link:hover {
                 color: #fff;
 }
-    
+
 
 /* ========== header background images ==========*/
 .header {
@@ -390,17 +390,17 @@ p.hero-subheader > a {
     overflow: visible;
     padding-top: 2.5rem;
     padding-bottom: 4.9rem;
-    position: relative;  
+    position: relative;
     text-align: center; }
     .header .headline {
         color: #eceff1; }
-        
+
 [id^="header-bg-"] {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-        
+
 #header-bg-scientists { background-image: url('../img/bg/omero-scientists.jpg'); }
 #header-bg-developers { background-image: url('../img/bg/omero-developers.jpg'); }
 #header-bg-institutions { background-image: url('../img/bg/omero-institutions.jpg'); }
@@ -423,12 +423,12 @@ p.hero-subheader > a {
     margin: 2pxpx 2px;
     text-align: center;
     padding: 2px;
-    -webkit-transition: background-color .65s; 
-        transition: background-color .65s;   
+    -webkit-transition: background-color .65s;
+        transition: background-color .65s;
     }
     .card-consortium:hover {
     background-color: #1d8dcd;
-    color: #fff;        
+    color: #fff;
 }
 
 .card-feature {
@@ -437,8 +437,8 @@ p.hero-subheader > a {
     }
     .card-feature > .card-section > p { min-height: 100px;
 }
-    
-.card-public-server { 
+
+.card-public-server {
     min-height: 265px;
     padding: 30px; }
     .card-public-server > .card-section > h4 {
@@ -449,7 +449,7 @@ p.hero-subheader > a {
             text-transform: capitalize;
 }
 
-.card-getting-started { 
+.card-getting-started {
     margin-bottom: 20px;
     padding: 25px 20px 30px 30px; }
     .card-getting-started > .card-section > i.fa {
@@ -460,7 +460,7 @@ p.hero-subheader > a {
         margin: 20px 0;
         padding: 30px;
         text-align: center; }
-    .card-getting-started > .card-section > p.card-caption { 
+    .card-getting-started > .card-section > p.card-caption {
         min-height: 90px;
         text-align: center; }
     .card-getting-started > .card-section > h4 {
@@ -469,23 +469,23 @@ p.hero-subheader > a {
             font-weight: 400;
             text-transform: capitalize;
 }
-    
+
 
 .card-docs { min-height: 300px; }
-    .card-docs > .card-section > h5 { 
+    .card-docs > .card-section > h5 {
         color: #1c4a87;
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-weight: 400; 
+        font-weight: 400;
         min-height: 130px; }
     .card-docs > .card-section > span { font-size: .88rem; }
     .card-docs.top-blue:hover { background-color: #03a9f4; border-color: #03a9f4; }
     .card-docs.top-gray:hover { background-color: #b0bec5; border-color: #b0bec5; }
     .card-docs.top-green:hover { background-color: #009688; border-color: #009688; }
     .card-docs.top-red:hover { background-color: #ef5350; border-color: #ef5350; }
-    .card-docs:hover, 
+    .card-docs:hover,
     .card-docs:hover > .card-section > .doc-title,
     .card-docs:hover > .card-section > p.card-caption,
-    .card-docs:hover > .card-section > .doc-cta { color: #fff; }    
+    .card-docs:hover > .card-section > .doc-cta { color: #fff; }
     .doc-cta { color: #1d8dcd; font-size: .88rem; font-weight: 600;
 }
 
@@ -594,11 +594,11 @@ p.card-caption, span.card-caption {
     margin-bottom: 10px;
 }
 
-#powered-sites > div > a > img, #thank-you-sites > div > a > img { 
+#powered-sites > div > a > img, #thank-you-sites > div > a > img {
     cursor: auto;
     filter: grayscale(100%);
-    -webkit-transition: filter .65s; 
-        transition: filter .65s; 
+    -webkit-transition: filter .65s;
+        transition: filter .65s;
     }
     #powered-sites > div > a > img:hover, #thank-you-sites > div > a > img:hover {
     filter: grayscale(0%);
@@ -606,15 +606,15 @@ p.card-caption, span.card-caption {
 
 /* ========== graphics: FontAwesome icons ==========*/
 [class^="icon-fa-"] {
-    background-color: transparent;   
+    background-color: transparent;
     border: 1px solid #b0bec5;
     border-radius: 120px;
     color: #fff;
     height: 80px;
-    margin: 0 auto 20px;    
+    margin: 0 auto 20px;
     padding: 22px 20px 0px;
     text-align: center;
-    width: 80px;  
+    width: 80px;
 }
 
 /* e.g. omero/apps, /news pages, ensure that icons don't get too close to text. PR #249 */
@@ -679,17 +679,17 @@ a.pmid::before { content: "PMID: "; }
 
 #team-swedlow > div.column {
     border: 1px solid transparent;
-    padding-top: 15px;    
+    padding-top: 15px;
 }
 #team-swedlow > div.column:hover {
     background-color: #eceff1;
-    border-color: #eceff1;    
+    border-color: #eceff1;
 }
 a.team-member > h5 {
     color: #455a64;
     font-weight: normal;
 }
-a.team-member > p.job-title { 
+a.team-member > p.job-title {
     min-height: 50px;
 }
 p.job-title {
@@ -724,14 +724,14 @@ p.job-title {
     padding-bottom: 20px; }
     span.institution  {
     font-size: 90%;
-    padding-left: 5px;       
+    padding-left: 5px;
 }
 
 .contributors-list div {
     padding-bottom: 20px; }
     .contributors-list a {
     font-size: 90%;
-    padding-left: 5px;       
+    padding-left: 5px;
 }
 
 .logo-display {
@@ -749,15 +749,15 @@ p.job-title {
 .event-row, .secvul-row {
     border-bottom: 1px dotted #cfd8dc;
     margin-bottom: 15px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 .secvul-row {
     padding-top: 25px;
 }
-h2.event-day { 
+h2.event-day {
     font-size: 1.5rem;
     margin-bottom: 40px; }
-h3.event-title, h3.event-title > a { 
+h3.event-title, h3.event-title > a {
     font-size: 1.2rem;
     font-weight: 600; }
 h3.secvul-heading { font-size: 1.5rem; }
@@ -766,10 +766,10 @@ h3.secvul-heading { font-size: 1.5rem; }
     h5.secvul-version {
         color: #455a64;
     }
-h4.event-speaker { 
+h4.event-speaker {
     color: #455a64;
     font-size: 1rem; }
-h5.event-time { 
+h5.event-time {
     color: #263238; }
 
 ul.event-workshop {
@@ -787,7 +787,7 @@ ul.pagination li a {
     color: #455a64;
     }
     ul.pagination li a.current:hover {
-        color: #455a64; 
+        color: #455a64;
     }
     ul.pagination li a:hover {
         background-color: #eceff1;
@@ -963,14 +963,14 @@ ul.no-list-style {
 .social-media-feature-section-feature .account-handle {
     font-size: 1.25rem;
     font-weight: bold;
-    margin-bottom: 0px;    
+    margin-bottom: 0px;
 }
 
 .social-media-feature-section-feature .account-handle > a { font-weight: 600; }
 .social-media-feature-section-feature .account-desc { margin-bottom: 0; }
 
 a.account-profile {
-    margin-right: 1rem;    
+    margin-right: 1rem;
 }
 
 img.account-profile-pic {
