@@ -40,3 +40,10 @@ omefiles:
 
 omecmakesuperbuild:
  version: 0.5.0
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+    include_posts:
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
