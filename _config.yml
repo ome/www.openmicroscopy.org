@@ -1,7 +1,7 @@
 name: OME  Website
 markdown: kramdown
 
-url: ''
+url: https://www.openmicroscopy.org
 repository: openmicroscopy/www.openmicroscopy.org
 baseurl: /www.openmicroscopy.org
 
@@ -33,7 +33,7 @@ omemodel:
 
 omeqtwidgets:
  version: 5.4.3
- 
+
 omefiles:
  version: 0.5.0
  build: 25
