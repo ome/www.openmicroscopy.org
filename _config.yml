@@ -17,13 +17,13 @@ bf:
  version: 6.3.1
 
 omero:
- version: 5.5.1
- majorversion: 5.5
- build: b122
+ version: 5.6.0
+ majorversion: 5.6
+ build: b138
  insight:
-  version: 5.5.6
+  version: 5.5.8
  matlab:
-  version: 5.5.1
+  version: 5.5.3
 
 omecommoncpp:
   version: 5.5.0
