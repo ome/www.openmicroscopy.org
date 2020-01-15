@@ -7,7 +7,7 @@ title: OMERO Downloads
         <div class="callout large primary" id="bg-image-omero">
             <div class="row column text-center">
                 <h1>OMERO {{ site.omero.majorversion }} Downloads</h1>
-                <a href="{{ site.baseurl }}/2019/07/10/omero-5-5-1.html" class="large btn-red button sites-button" style="text-shadow: none;">Read the Release Announcement</a>
+                <a href="{{ site.baseurl }}/2020/01/15/omero-5-6-0.html" class="large btn-red button sites-button" style="text-shadow: none;">Read the Release Announcement</a>
                 <a href="https://docs.openmicroscopy.org/omero/{{ site.omero.version }}/" target="_blank" class="hero-link">Read the Docs</a>
             </div>
         </div>
@@ -18,8 +18,21 @@ title: OMERO Downloads
             <h3 class="text-center">OMERO clients</h3>
             <hr>
             <div class="column">
-                <p>A standard OMERO user just needs to download the client package with the same major version as their institutional server (e.g. 5.3.0 clients will connect to 5.3.5 servers but not to 5.4.0 servers). Full instructions for installation are on the <a href="https://help.openmicroscopy.org/">help site</a>.</p>
-                <p>If you do not have an institutional server, you can <a href="http://qa.openmicroscopy.org.uk/registry/demo_account/">apply for an account on our demo server</a>.</p>
+
+                <p>A standard OMERO user just needs to download the client
+                package with a compatible version for their institutional
+                server (e.g. 5.5.8 clients will connect to 5.6.0 servers but
+                not to 5.4.0 servers). Full instructions for installation are
+                on the <a href="https://help.openmicroscopy.org/">help
+                site</a>.</p>
+
+                <p>If you do not have an institutional server, you can take
+                advantage of the OMERO platform hosted by the OME team in
+                Dundee and sign up for a free demo account at
+                <a href="https://demo.openmicroscopy.org/signup/">https://demo.openmicroscopy.org/signup/</a>.
+                You will received an email with your username and password allowing you to connect
+                to the server in Scotland.
+
             </div>
             <div class="small-12 medium-4 columns">
                 <div class="card card-download">
@@ -116,9 +129,12 @@ title: OMERO Downloads
                     <div class="card-section">
                         <img class="thumbnail omero-feature" alt="OMERO feature" src="{{ site.baseurl }}/img/icons/omero-features-icons_python.svg">
                         <h5>Python (Ice 3.6)</h5>
-                        <h6>OMERO.py-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip</h6>
-                        <p class="card-caption">OMERO.py can be used to install OMERO.web decoupled from the OMERO.server, see the <a href="https://docs.openmicroscopy.org/omero/{{ site.omero.version }}/sysadmins/unix/install-web/web-deployment.html">OMERO.web documentation</a> for details.</p>
-                        <a href="https://downloads.openmicroscopy.org/omero/{{ site.omero.version }}/artifacts/OMERO.py-{{ site.omero.version }}-ice36-{{ site.omero.build }}.zip" class="button hollow small"><i class="fa fa-download"></i> Download (8.7 MB)</a>
+                        <p class="card-caption">
+                        OMERO.py libraries can be downloaded from PyPI
+                        or from the ome conda channel.
+                        </p>
+                        <a href="https://pypi.org/user/ome/" class="button hollow small"><i class="fa fa-download"></i>PyPI</a>
+                        <a href="https://anaconda.org/ome" class="button hollow small"><i class="fa fa-download"></i>Conda Channel</a>
                     </div>
                 </div>
             </div>
