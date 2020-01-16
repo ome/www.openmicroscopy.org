@@ -30,6 +30,22 @@ sites_powered:
     - site_link: https://human-embryology.org/wiki/Main_Page
       src: dec.jpg
       alt_text: Digital Embryology Consortium
+many_thanks:
+    - site_link: https://github.com/openmicroscopy
+      src: github.gif
+      alt_text: GitHub
+    - site_link: https://trac.openmicroscopy.org/
+      src: trac.gif
+      alt_text: Trac
+    - site_link: https://ci.openmicroscopy.org/
+      src: jenkins.gif
+      alt_text: Jenkins
+    - site_link: https://travis-ci.org/openmicroscopy/openmicroscopy
+      src: travis.gif
+      alt_text: Travis
+    - site_link: http://www.agilosoftware.com/
+      src: agilo.gif
+      alt_text: Agilo
 ---
         <!-- begin banner announcement -->
         <section class="announcement">
@@ -96,8 +112,8 @@ sites_powered:
         </div>
         <hr>
         <div id="powered-sites" class="row medium-up-4 large-up-5">
-        {% for logo in page.sites_powered %}
-            <div class="column"><a href="{{ logo.site_link }}" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_{{ logo.src }}" alt="{{ logo.alt_text }} logo"></a></div>
+        {% for logo_sp in page.sites_powered %}
+            <div class="column"><a href="{{ logo_sp.site_link }}" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_{{ logo_sp.src }}" alt="{{ logo_sp.alt_text }} logo"></a></div>
         {% endfor %}
         </div>
         <!-- end Sites Powered by OME Technology -->
@@ -109,11 +125,9 @@ sites_powered:
         </div>
         <hr>
         <div id="thank-you-sites" class="row medium-up-5 large-up-5">
-            <div class="column"><a href="https://github.com/openmicroscopy" target="_blank"><img class="thumbnail their-logo" src="img/logos/thanks_github.gif" alt="GitHUb"></a></div>
-            <div class="column"><a href="https://trac.openmicroscopy.org/" target="_blank"><img class="thumbnail their-logo" src="img/logos/thanks_trac.gif" alt="Trac"></a></div>
-            <div class="column"><a href="https://ci.openmicroscopy.org/" target="_blank"><img class="thumbnail their-logo" src="img/logos/thanks_jenkins.gif" alt="Jenkins"></a></div>
-            <div class="column"><a href="https://travis-ci.org/openmicroscopy/openmicroscopy" target="_blank"><img class="thumbnail their-logo" src="img/logos/thanks_travis.gif" alt="Travis"></a></div>
-            <div class="column"><a href="http://www.agilosoftware.com/" target="_blank"><img class="thumbnail their-logo" src="img/logos/thanks_agilo.gif" alt="Agilo"></a></div>
+        {% for logo_mt in page.many_thanks %}
+            <div class="column"><a href="{{ logo_mt.site_link }}" target="_blank"><img class="thumbnail their-logo" src="img/logos/thanks_{{ logo_mt.src }}" alt="{{ logo_mt.alt_text }} logo"></a></div>
+        {% endfor %}
         </div>
         <hr class="whitespace">
         <!-- end Many Thanks -->
