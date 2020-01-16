@@ -2,6 +2,34 @@
 layout: default
 title: Home
 meta_description: The Open Microscopy Environment (OME) is a consortium of universities, research labs, industry and developers producing open-source software and format standards for microscopy data.
+sites_powered:
+    - site_link: http://jcb-dataviewer.rupress.org/
+      src: jcb.gif
+      alt_text: The Journal of Cell Biology
+    - site_link: http://www.cellimagelibrary.org/
+      src: ascb.gif
+      alt_text: Cell Image Library
+    - site_link: http://www.stowers.org/research/publications/odr
+      src: stowers.gif
+      alt_text: Stowers Institute for Medical Research
+    - site_link: http://lincs.hms.harvard.edu/
+      src: lincs.gif
+      alt_text: LINCS
+    - site_link: http://ssbd.qbic.riken.jp/
+      src: ssbd.gif
+      alt_text: SSBD Database
+    - site_link: http://www.ebi.ac.uk/pdbe/emdb/index.html/
+      src: pdbe.gif
+      alt_text: Protein Data Bank Europe
+    - site_link: http://movincell.org/
+      src: movincell.gif
+      alt_text: Movincell
+    - site_link: https://idr.openmicroscopy.org/about/
+      src: idr.gif
+      alt_text: IDR
+    - site_link: https://human-embryology.org/wiki/Main_Page
+      src: dec.jpg
+      alt_text: Digital Embryology Consortium
 ---
         <!-- begin banner announcement -->
         <section class="announcement">
@@ -88,15 +116,9 @@ meta_description: The Open Microscopy Environment (OME) is a consortium of unive
         </div>
         <hr>
         <div id="powered-sites" class="row medium-up-4 large-up-5">
-            <div class="column"><a href="http://jcb-dataviewer.rupress.org/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_jcb.gif" alt="The Journal of Cell Biology"></a></div>
-            <div class="column"><a href="http://www.cellimagelibrary.org/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_ascb.gif" alt="Cell Image Library"></a></div>
-            <div class="column"><a href="http://www.stowers.org/research/publications/odr" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_stowers.gif" alt="Stowers Institute for Medical Research"></a></div>
-            <div class="column"><a href="http://lincs.hms.harvard.edu/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_lincs.gif" alt="LINCS"></a></div>
-            <div class="column"><a href="http://ssbd.qbic.riken.jp/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_ssbd.gif" alt="SSBD Database"></a></div>
-            <div class="column"><a href="http://www.ebi.ac.uk/pdbe/emdb/index.html/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_pdbe.gif" alt="Protein Data Bank Europe"></a></div>
-            <div class="column"><a href="http://movincell.org/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_movincell.gif" alt="Movincell"></a></div>
-            <div class="column"><a href="https://idr.openmicroscopy.org/about/" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_idr.gif" alt="IDR"></a></div>
-            <div class="column"><a href="https://human-embryology.org/wiki/Main_Page" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_dec.jpg" alt="Digital Embryology Consortium"></a></div>
+        {% for logo in page.sites_powered %}
+            <div class="column"><a href="{{ logo.site_link }}" target="_blank"><img class="thumbnail their-logo" src="img/logos/user_{{ logo.src }}" alt="{{ logo.alt_text }}"></a></div>
+        {% endfor %}
         </div>
         <!-- end Sites Powered by OME Technology -->
 
