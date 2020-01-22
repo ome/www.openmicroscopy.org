@@ -58,6 +58,50 @@ consortium:
     - member_name: "Dr Gianluigi Zanetti"
       member_link: "http://www.crs4.it/research/data-intensive-computing/"
       institution: "CRS4, Sardinia"
+partnerships1:
+    - group1_name: "KNIME"
+      group1_link: "http://knime.org/"
+    - group1_name: "Fiji"
+      group1_link: "http://fiji.sc/"
+    - group1_name: "Endrov"
+      group1_link: "http://endrov.net/"
+    - group1_name: "Icy"
+      group1_link: "http://icy.bioimageanalysis.org/"
+    - group1_name: "XuvTools"
+      group1_link: "http://www.xuvtools.org/"
+    - group1_name: "Macnification"
+      group1_link: "http://www.orbicule.com/macnification/"
+    - group1_name: "CellProfiler"
+      group1_link: "http://www.cellprofiler.org/"
+    - group1_name: "Bisque"
+      group1_link: "http://www.bioimage.ucsb.edu/bisque"
+    - group1_name: "FARSIGHT"
+      group1_link: "http://www.farsight-toolkit.org/"
+    - group1_name: "i3dcore"
+      group1_link: "http://cbia.fi.muni.cz/user_dirs/i3dlib_doc/i3dcore/"
+    - group1_name: "PerkinElmer’s Columbus&reg;"
+      group1_link: "http://www.perkinelmer.com/pages/020/cellularimaging/products/columbus.xhtml"
+    - group1_name: "Bitplane’s Imaris"
+      group1_link: "http://www.bitplane.com/"
+partnerships2:
+    - group2_name: "JCB DataViewer"
+      group2_link: "http://jcb-dataviewer.rupress.org/"
+    - group2_name: "Stowers Data Repository"
+      group2_link: "http://srdr.stowers.org/"
+    - group2_name: "The Cell: An Image Library"
+      group2_link: "http://cellimagelibrary.org/"
+    - group2_name: "LINCS"
+      group2_link: "http://lincs.hms.harvard.edu/"
+    - group2_name: "SSBD Database"
+      group2_link: "http://ssbd.qbic.riken.jp/"
+    - group2_name: "Protein Data Bank Europe"
+      group2_link: "http://www.ebi.ac.uk/pdbe/emdb/index.html/"
+    - group2_name: "MoveinCell"
+      group2_link: "http://movincell.org/"
+    - group2_name: "Griffith University: Microscopy Library Public Collections"
+      group2_link: "http://omero.rcs.griffith.edu.au/webtest/searchmetacatalogue/"
+    - group2_name: "Electron Microscopy Public Image Archive (EMPIAR)"
+      group2_link: "https://www.ebi.ac.uk/pdbe/emdb/empiar/"
 ---
         <div class="callout large primary" id="bg-image-about">
             <div class="row column text-center">
@@ -177,29 +221,14 @@ consortium:
         <hr>
         <div id="partnerships" class="row small-up-2 medium-up-3">
             <h5 class="text-center">Examples of OME’s resources are used in the following:</h5>
-            <div class="column"><a target="_blank" href="http://knime.org/"><div class="card-consortium card"><div class="card-section">KNIME</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://fiji.sc/"><div class="card-consortium card"><div class="card-section">Fiji</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://endrov.net/"><div class="card-consortium card"><div class="card-section">Endrov</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://icy.bioimageanalysis.org/"><div class="card-consortium card"><div class="card-section">Icy</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.xuvtools.org/"><div class="card-consortium card"><div class="card-section">XuvTools</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.orbicule.com/macnification/"><div class="card-consortium card"><div class="card-section">Macnification</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.cellprofiler.org/"><div class="card-consortium card"><div class="card-section">CellProfiler</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.bioimage.ucsb.edu/bisque"><div class="card-consortium card"><div class="card-section">Bisque</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.farsight-toolkit.org/"><div class="card-consortium card"><div class="card-section">FARSIGHT</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://cbia.fi.muni.cz/user_dirs/i3dlib_doc/i3dcore/"><div class="card-consortium card"><div class="card-section">i3dcore</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.perkinelmer.com/pages/020/cellularimaging/products/columbus.xhtml"><div class="card-consortium card"><div class="card-section">PerkinElmer’s Columbus&reg;</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.bitplane.com/"><div class="card-consortium card"><div class="card-section">Bitplane’s Imaris</div></div></a></div>
+            {% for group in page.partnerships1 %}
+            <div class="column"><a target="_blank" href="{{ group.group1_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group1_name }}</div></div></a></div>
+            {% endfor %}
             <hr class="invisible">
             <h5 class="text-center">Places that publish image data with OMERO and Bio-Formats:</h5>
-            <div class="column"><a target="_blank" href="http://jcb-dataviewer.rupress.org/"><div class="card-consortium card"><div class="card-section">JCB DataViewer</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://srdr.stowers.org/"><div class="card-consortium card"><div class="card-section">Stowers Data Repository</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://cellimagelibrary.org/"><div class="card-consortium card"><div class="card-section">The Cell: An Image Library</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://lincs.hms.harvard.edu/"><div class="card-consortium card"><div class="card-section">LINCS</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://ssbd.qbic.riken.jp/"><div class="card-consortium card"><div class="card-section">SSBD Database</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://www.ebi.ac.uk/pdbe/emdb/index.html/"><div class="card-consortium card"><div class="card-section">Protein Data Bank Europe</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://movincell.org/"><div class="card-consortium card"><div class="card-section">MoveinCell</div></div></a></div>
-            <div class="column"><a target="_blank" href="http://omero.rcs.griffith.edu.au/webtest/searchmetacatalogue/"><div class="card-consortium card"><div class="card-section">Griffith University: Microscopy Library Public Collections</div></div></a></div>
-            <div class="column"><a target="_blank" href="https://www.ebi.ac.uk/pdbe/emdb/empiar/"><div class="card-consortium card"><div class="card-section">Electron Microscopy Public Image Archive (EMPIAR)</div></div></a></div>
+            {% for group in page.partnerships2 %}
+            <div class="column"><a target="_blank" href="{{ group.group2_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group2_name }}</div></div></a></div>
+            {% endfor %}
         </div>
         <hr class="whitespace">
         <!-- end Growing the Consortium section -->
