@@ -51,6 +51,31 @@ swedlow_lab:
       surname: Wong
       job_title: Curator
       bio: "Frances Wong joined the OME team in September 2018 as a curator. She received her PhD in Developmental Biology from the University of Edinburgh. She then carried out post-doctoral research in molecular biology, genetics, genomics, neuroscience and biomedical imaging. She has also worked on atlas-based gene expression databases and created new online scientific resources."
+development_teams:
+    - team_name: Glencoe Software
+      link: "https://www.glencoesoftware.com/about/team/"
+    - team_name: Baldock Lab
+      link: "http://www.hgu.mrc.ac.uk/people/r.baldock.html"
+    - team_name: Bertrand Lab
+      link: "https://www.mri.cnrs.fr/en/"
+    - team_name: Brazma Lab
+      link: "http://www.ebi.ac.uk/research/brazma"
+    - team_name: Carazo-Salas Lab
+      link: "http://research-information.bristol.ac.uk/en/persons/rafael-e-carazo-salas(a7638b29-53e4-49ba-82b5-98b21d82f41f).html"
+    - team_name: Danuser Lab
+      link: "http://profiles.utsouthwestern.edu/profile/139751/gaudenz-danuser.html"
+    - team_name: Davis Lab
+      link: "http://www.ilandavis.com/home.html"
+    - team_name: Eliceiri Lab
+      link: "https://loci.wisc.edu"
+    - team_name: French Lab
+      link: "http://www.imperial.ac.uk/photonics"
+    - team_name: Murphy Lab
+      link: "http://murphylab.web.cmu.edu"
+    - team_name: Shorte Lab
+      link: "http://research.pasteur.fr/en/team/imagopole/"
+    - team_name: Zanetti Lab
+      link: "http://www.crs4.it/research/data-intensive-computing/"
 ---
         <!-- begin MapBox -->
         <header class="marketing-hero" id="bg-image-teams">
@@ -120,18 +145,9 @@ swedlow_lab:
         <hr class="medium-10">
         <div class="row small-12 medium-8">
             <div id="partnerships" class="row small-up-2 medium-up-3 large-up-4">
-                <div class="column"><a target="_blank" href="https://glencoesoftware.com/about/team/"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Glencoe Software</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://www.hgu.mrc.ac.uk/people/r.baldock.html"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Baldock Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="https://www.mri.cnrs.fr/en/"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Bertrand Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://www.ebi.ac.uk/research/brazma"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Brazma Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://research-information.bristol.ac.uk/en/persons/rafael-e-carazo-salas(a7638b29-53e4-49ba-82b5-98b21d82f41f).html"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Carazo-Salas Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://profiles.utsouthwestern.edu/profile/139751/gaudenz-danuser.html"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Danuser Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://www.ilandavis.com/home.html"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Davis Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="https://loci.wisc.edu"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Eliceiri Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://www.imperial.ac.uk/photonics"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> French Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://murphylab.web.cmu.edu"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Murphy Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://research.pasteur.fr/en/team/imagopole/"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Shorte Lab</div></div></a></div>
-                <div class="column"><a target="_blank" href="http://www.crs4.it/research/data-intensive-computing/"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> Zanetti Lab</div></div></a></div>
+                {% for devteam in page.development_teams %}
+                <div class="column"><a target="_blank" href="{{ devteam.link }}"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> {{ devteam.team_name }}</div></div></a></div>
+                {% endfor %}
             </div>
         </div>
         <hr class="whitespace">
