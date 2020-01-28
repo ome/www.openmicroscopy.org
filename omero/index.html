@@ -11,42 +11,42 @@ power_of_omero:
       fa_icon: star
     - power: import
       description: Import over 150 image formats from microscope, graphics and other imaging formats. Use the Insight client, command line interface or transfer files directly to OMERO.
-      link: import/
+      link: features/import/
       icon_color: blue
       fa_icon: upload
     - power: organize
       description: Annotate your data with Tags, Comments, Files and more. Browse or Search your images and share with collaborators.
-      link: organize/
+      link: features/organize/
       icon_color: green
       fa_icon: sitemap
     - power: view
       description: Use OMERO clients to work with image data over the internet from anywhere. Browse thumbnails, image previews and view in full multi-dimensional viewer. High Content Screening data is also supported.
-      link: view/
+      link: features/view/
       icon_color: blue
       fa_icon: eye
     - power: analyze
       description: Use ImageJ, MATLAB, R, scripts and other tools to run analysis on data in OMERO and save results on the server.
-      link: analyze/
+      link: features/analyze/
       icon_color: green
       fa_icon: line-chart
     - power: publish
       description: Publish your raw data straight from the server using URLs to link directly to the web-based image viewer in a manuscript or embed images into your website.
-      link: publish/
+      link: features/publish/
       icon_color: red
       fa_icon: rocket
     - power: export
       description: Download your original image data from anywhere, export as OME-TIFF or movie formats or quickly create figures for publication.
-      link: export/
+      link: features/export/
       icon_color: green
       fa_icon: share
     - power: teach
       description: Set up a Virtual Microscope and connect OMERO into a virtual learning environment.
-      link: learning/
+      link: features/learning/
       icon_color: red
       fa_icon: graduation-cap
     - power: administrate
       description: Manage users and groups, send automated emails from the server, use institutional authentication, and more.
-      link: utility/
+      link: features/utility/
       icon_color: blue
       fa_icon: building
     - power: apps
@@ -98,13 +98,13 @@ power_of_omero:
         <div class="row small-up-12 medium-up-3">
             {% for feature in page.power_of_omero %}
             <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/{{ feature.link }}">
+                <a href="{{ site.baseurl }}/omero/{{ feature.link }}">
                 <i class="icon-fa-{{ feature.icon_color }} fa fa-{{ feature.fa_icon }} fa-2x"></i>
                 </a>
                 <div class="omero-key-feature-container">
                     <h4>{{ feature.power }}</h4>
                     <p>{{ feature.description }}</p>
-                    <a href="{{ site.baseurl }}/omero/features/{{ feature.link }}" class="button small">Learn more</a>
+                    <a href="{{ site.baseurl }}/omero/{{ feature.link }}" class="button small">Learn more</a>
                 </div>
             </div>
             {% endfor %}
