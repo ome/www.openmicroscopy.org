@@ -8,6 +8,7 @@ baseurl: /www.openmicroscopy.org
 plugins:
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-sitemap
 paginate: 10
 paginate_path: "/announcements/page:num/"
 
@@ -40,10 +41,3 @@ omefiles:
 
 omecmakesuperbuild:
  version: 0.5.0
-
-sitemap:
-    filename: "/sitemap.xml"
-    exclude:
-    include_posts:
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
