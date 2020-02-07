@@ -2,7 +2,59 @@
 layout: default-no-anchor
 title: OMERO
 usergroup: omero
----          
+meta_description: OMERO handles all your images in a secure central repository, allowing you to view, organize, analyze and share your data from anywhere you have internet access.
+power_of_omero:
+    - power: new
+      description: The recent releases of OMERO are packed full of new features and functionality.
+      link:
+      icon_color: red
+      fa_icon: star
+    - power: import
+      description: Import over 150 image formats from microscope, graphics and other imaging formats. Use the Insight client, command line interface or transfer files directly to OMERO.
+      link: features/import/
+      icon_color: blue
+      fa_icon: upload
+    - power: organize
+      description: Annotate your data with Tags, Comments, Files and more. Browse or Search your images and share with collaborators.
+      link: features/organize/
+      icon_color: green
+      fa_icon: sitemap
+    - power: view
+      description: Use OMERO clients to work with image data over the internet from anywhere. Browse thumbnails, image previews and view in full multi-dimensional viewer. High Content Screening data is also supported.
+      link: features/view/
+      icon_color: blue
+      fa_icon: eye
+    - power: analyze
+      description: Use ImageJ, MATLAB, R, scripts and other tools to run analysis on data in OMERO and save results on the server.
+      link: features/analyze/
+      icon_color: green
+      fa_icon: line-chart
+    - power: publish
+      description: Publish your raw data straight from the server using URLs to link directly to the web-based image viewer in a manuscript or embed images into your website.
+      link: features/publish/
+      icon_color: red
+      fa_icon: rocket
+    - power: export
+      description: Download your original image data from anywhere, export as OME-TIFF or movie formats or quickly create figures for publication.
+      link: features/export/
+      icon_color: green
+      fa_icon: share
+    - power: teach
+      description: Set up a Virtual Microscope and connect OMERO into a virtual learning environment.
+      link: features/learning/
+      icon_color: red
+      fa_icon: graduation-cap
+    - power: administrate
+      description: Manage users and groups, send automated emails from the server, use institutional authentication, and more.
+      link: features/utility/
+      icon_color: blue
+      fa_icon: building
+    - power: apps
+      description: Enhance your install with OMERO apps.
+      link: apps/
+      icon_color: red
+      fa_icon: cog
+---
         {% include navbar-sub-omero.html %}
 
         <header class="marketing-hero" id="bg-image-omero">
@@ -24,144 +76,41 @@ usergroup: omero
                 </div>
             </div>
         </header>
-        
-        <hr class="whitespace">        
+
+        <hr class="whitespace">
         <div class="row column text-center">
             <h2>Getting Started</h2>
             <h5 class="subheader">With our dedicated user help website and extensive technical documentation, all the information to get you started with OMERO is linked in the sections below. The institutional section is aimed at both facility managers and system administrators.</h5>
         </div>
         <hr>
         {% include omero-users.html %}
-        
+
         <!-- begin OMERO capabilities -->
         <hr class="whitespace">
         <div class="row column text-center">
             <h2>The Power of OMERO</h2>
-            <h5 class="subheader">A complete platform for managing your 
-                images, OMERO has many features and expansion points to 
+            <h5 class="subheader">A complete platform for managing your
+                images, OMERO has many features and expansion points to
                 integrate with your existing tools.</h5>
         </div>
         <hr>
         <hr class="invisible">
-        <div class="row small-up-12 medium-up-3">        
+        <div class="row small-up-12 medium-up-3">
+            {% for feature in page.power_of_omero %}
             <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/">
-                <i class="icon-fa-red fa fa-star fa-2x"></i>
+                <a href="{{ site.baseurl }}/omero/{{ feature.link }}">
+                <i class="icon-fa-{{ feature.icon_color }} fa fa-{{ feature.fa_icon }} fa-2x"></i>
                 </a>
                 <div class="omero-key-feature-container">
-                    <h4>NEW</h4>
-                    <p>The recent releases of OMERO are packed full of new 
-                    features and functionality.</p>
-                    <a href="{{ site.baseurl }}/omero/features/" class="button small">Learn more</a>
+                    <h4>{{ feature.power }}</h4>
+                    <p>{{ feature.description }}</p>
+                    <a href="{{ site.baseurl }}/omero/{{ feature.link }}" class="button small">Learn more</a>
                 </div>
             </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/import/">
-                <i class="icon-fa-blue fa fa-upload fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Import</h4>
-                    <p>Import over 150 image formats from microscope, graphics 
-                    and other imaging formats.
-                    Use the Insight client, command line interface or transfer 
-                    files directly to OMERO.</p>
-                    <a href="{{ site.baseurl }}/omero/features/import/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/organize/">
-                <i class="icon-fa-green fa fa-sitemap fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Organize</h4>
-                    <p>Annotate your data with Tags, Comments, Files and more.
-                    Browse or Search your images and share with collaborators.</p>
-                    <a href="{{ site.baseurl }}/omero/features/organize/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/view/">
-                <i class="icon-fa-blue fa fa-eye fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>View</h4>
-                    <p>Use OMERO clients to work with image data over the 
-                    internet from anywhere. Browse thumbnails, image previews 
-                    and view in full multi-dimensional viewer. High Content 
-                    Screening data is also supported.</p>
-                    <a href="{{ site.baseurl }}/omero/features/view/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/analyze/">
-                <i class="icon-fa-green fa fa-line-chart fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Analyze</h4>
-                    <p>Use ImageJ, MATLAB, R, scripts and other tools to run 
-                    analysis on data in OMERO and save results on the server.</p>
-                    <a href="{{ site.baseurl }}/omero/features/analyze/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/publish/">
-                <i class="icon-fa-red fa fa-rocket fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Publish</h4>
-                    <p>Publish your raw data straight from the server using URLs
-                    to link directly to the web-based image viewer in a
-                    manuscript or embed images into your website.</p>
-                    <a href="{{ site.baseurl }}/omero/features/publish/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/export/">
-                <i class="icon-fa-green fa fa-share fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Export</h4>
-                    <p>Download your original image data from anywhere,
-                    export as OME-TIFF or movie formats or quickly create
-                    figures for publication.</p>
-                    <a href="{{ site.baseurl }}/omero/features/export/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/learning/">
-                <i class="icon-fa-red fa fa-graduation-cap fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Teach</h4>
-                    <p>Set up a Virtual Microscope and connect OMERO into a
-                    virtual learning environment.</p>
-                    <a href="{{ site.baseurl }}/omero/features/learning/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/features/utility/">
-                <i class="icon-fa-blue fa fa-building fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Administrate</h4>
-                    <p>Manage users and groups, send automated emails from the
-                    server, use institutional authentication, and more.</p>
-                    <a href="{{ site.baseurl }}/omero/features/utility/" class="button small">Learn more</a>
-                </div>
-            </div>
-            <div class="column">
-                <a href="{{ site.baseurl }}/omero/apps/">
-                <i class="icon-fa-red fa fa-cog fa-2x"></i>
-                </a>
-                <div class="omero-key-feature-container">
-                    <h4>Apps</h4>
-                    <p>Enhance your install with OMERO apps.</p>
-                    <a href="{{ site.baseurl }}/omero/apps/" class="button small">Learn more</a>
-                </div>
-            </div>            
-        </div>        
+            {% endfor %}
+        </div>
         <!-- end OMERO capabilities -->
-        
+
         <hr class="whitespace">
         {% include back-to-top.html %}
         {% include cta-omero.html %}
