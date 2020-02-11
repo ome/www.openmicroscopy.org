@@ -1,7 +1,7 @@
 name: OME  Website
 markdown: kramdown
 
-url: https://www.openmicroscopy.org
+url: https://snoopycrimecop.github.io/www.openmicroscopy.org
 repository: openmicroscopy/www.openmicroscopy.org
 baseurl: /www.openmicroscopy.org
 
