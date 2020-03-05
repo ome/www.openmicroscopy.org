@@ -51,6 +51,50 @@ swedlow_lab:
       surname: Wong
       job_title: Curator
       bio: "Frances Wong joined the OME team in September 2018 as a curator. She received her PhD in Developmental Biology from the University of Edinburgh. She then carried out post-doctoral research in molecular biology, genetics, genomics, neuroscience and biomedical imaging. She has also worked on atlas-based gene expression databases and created new online scientific resources."
+alumni:
+    - fullname: Chris Allan
+      githubname: chris-allan
+    - fullname: Colin Blackburn
+      githubname: ximenesuk
+    - fullname: Andrea Falconi
+      githubname: c0c0n3
+    - fullname: Gus Ferguson
+      githubname: gusferguson
+    - fullname: Helen Flynn
+      githubname: hflynn
+    - fullname: Stefan Frank
+    - fullname: Kelli Griffis
+    - fullname: Emma Hill
+    - fullname: Kenny Gillen
+      githubname: kennethgillen
+    - fullname: Riad Gozim
+      githubname: rgozim
+    - fullname: Roger Leigh
+      githubname: rleigh-codelibre
+    - fullname: Simone Leo
+      githubname: simleo
+    - fullname: Scott Littlewood
+      githubname: scottlittlewood
+    - fullname: Brian Loranger
+    - fullname: Scott Loynton
+    - fullname: Donald MacDonald
+    - fullname: Andrew Patterson
+      githubname: qidane
+    - fullname: Blazej Pindelski
+      githubname: bpindelski
+    - fullname: Gabriella Rustici
+    - fullname: Aleksandra Tarkowska
+      githubname: olatarkowska
+    - fullname: Joyce Walsh
+    - fullname: Harald Waxenegger
+      githubname: waxenegger
+    - fullname: Simon Wells
+      githubname: siwells
+    - fullname: Harald Waxenegger
+      githubname: waxenegger
+    - fullname: Eleanor Williams
+      githubname: eleanorwilliams
+    - fullname: Wilma Woudenberg
 development_teams:
     - team_name: Glencoe Software
       link: "https://www.glencoesoftware.com/about/team/"
@@ -162,109 +206,15 @@ development_teams:
             </div>
             <hr>
             <div class="row medium-up-2 large-up-3 contributors-list">
+                {% for dev in page.alumni %}
                 <div class="large-expand columns">
-                Chris Allan <a href="https://github.com/chris-allan" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+                {{ dev.fullname }} 
+                {% if dev.githubname %}
+                <a href="https://github.com/{{ dev.githubname }}/" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a> 
+                {% endif %}
                 </div>
+                {% endfor %}
 
-                <div class="large-expand columns">
-                Colin Blackburn <a href="https://github.com/ximenesuk" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Andrea Falconi <a href="https://github.com/c0c0n3" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Gus Ferguson <a href="https://github.com/gusferguson" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Helen Flynn <a href="https://github.com/hflynn" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Stefan Frank
-                </div>
-
-                <div class="large-expand columns">
-                Kelli Griffis
-                </div>
-
-                <div class="large-expand columns">
-                Emma Hill
-                </div>
-
-                <div class="large-expand columns">
-                Kenny Gillen <a href="https://github.com/kennethgillen" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Riad Gozim <a href="https://github.com/rgozim" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Roger Leigh <a href="https://github.com/rleigh-codelibre" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Simone Leo <a href="https://github.com/simleo" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Scott Littlewood <a href="https://github.com/scottlittlewood" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Brian Loranger
-                </div>
-
-                <div class="large-expand columns">
-                Scott Loynton
-                </div>
-
-                <div class="large-expand columns">
-                Donald MacDonald
-                </div>
-
-                <div class="large-expand columns">
-                Andrew Patterson <a href="https://github.com/qidane" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Blazej Pindelski <a href="https://github.com/bpindelski" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Balaji Ramalingam <a href="https://github.com/bramalingam" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Gabriella Rustici
-                </div>
-
-                <div class="large-expand columns">
-                Aleksandra Tarkowska <a href="https://github.com/olatarkowska" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Joyce Walsh
-                </div>
-
-                <div class="large-expand columns">
-                Harald Waxenegger <a href="https://github.com/waxenegger" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Simon Wells <a href=" https://github.com/siwells" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Eleanor Williams <a href="https://github.com/eleanorwilliams" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                </div>
-
-                <div class="large-expand columns">
-                Wilma Woudenberg
-                </div>
             </div>
             <hr class="whitespace">
             <!-- end Former OME Team Members -->
