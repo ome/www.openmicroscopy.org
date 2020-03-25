@@ -1,0 +1,64 @@
+---
+layout: security-advisory
+filename: security
+title: 2018-SV2 Script Name UUID
+main-blurb: affects OMERO 5 versions 5.4.6 and earlier
+redirect_from:
+  - /security/advisories/2018-SV2-script-name-uuid/
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">A remote user can determine a server's node UUID after a script is placed directly into the server's scripts directory. That UUID can then be used to log in to the server as the <q>root</q> user thus providing the associated system privileges. Further, closing that login session seriously disables the server until it is restarted.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+		<p class="secvul-description">The <a href="https://github.com/openmicroscopy/openmicroscopy/pull/5273" target="_blank">OMERO PR #5273</a> describes a process to:</p>
+		<blockquote class="secvul-description">&hellip; establish a secret key when the server starts up, tell it to the database then, when we try to set the <tt>originalfile.repo</tt> column, have a database trigger look for that secret key prefixing <tt>originalfile.name</tt> &hellip;</blockquote>
+		<p class="secvul-description">OMERO.server affords considerable privilege to those who wield that secret key. The key can leak when the scripts service detects a new script because subsequently the server returns script names with that key prefix to the <em>first</em> user who queries the list of scripts. Use of <tt>bin/omero script list</tt> suffices to call <a href="https://downloads.openmicroscopy.org/latest/omero5.4/api/slice2html/omero/api/IScript.html#getScripts">IScript::getScripts()</a> and trigger the leak.</p>
+		<p class="secvul-description">This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2018-1000635">CVE-2018-1000635</a>.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.server from 5.4.0 to 5.4.6 inclusive.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Medium severity.</p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:L/MAC:H/MPR:H/MUI:R/MS:C/MC:H/MI:H/MA:H" target="_blank">CVSS score 6.7 vector AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:L/MAC:H/MPR:H/MUI:R/MS:C/MC:H/MI:H/MA:H</a></p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Manage server-side scripts <em>only</em> via the clients, not by directly manipulating the server's filesystem.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.4.7.</p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">

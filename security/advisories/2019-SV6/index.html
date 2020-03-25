@@ -1,0 +1,55 @@
+---
+layout: security-advisory
+filename: security
+title: 2019-SV6 Group Owner Context
+main-blurb: affects OMERO.server versions 5.1.0 to 5.6.0
+redirect_from:
+  - /security/advisories/2019-SV6-group-owner-context/
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO does not fully restrict the actions of group owners to within their group.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+		<p class="secvul-description">OMERO allows group owners to perform various actions as another member of their group. In some cases, these actions are not restricted to the group they own.</p>
+		<p class="secvul-description">OMERO 5.6.1 adds a server-side check that the session context for a group owner is limited to their groups.</p>
+		<p class="secvul-description">This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-6752">CVE-2020-6752</a>.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.server before 5.6.1.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Low severity.</p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N/E:F/RL:O/RC:C" target="_blank">CVSS score 3.6 vector AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N/E:F/RL:O/RC:C</a></p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.6.1.</p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">

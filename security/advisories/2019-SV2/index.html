@@ -1,0 +1,55 @@
+---
+layout: security-advisory
+filename: security
+title: 2019-SV2 Group Permissions
+main-blurb: affects OMERO.server versions 5.1.0 to 5.6.0
+redirect_from:
+  - /security/advisories/2019-SV2-group-permissions/
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Permissions on OMERO model objects may be circumvented during certain operations such as move and delete.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+        <p class="secvul-description">The OMERO Blitz API offers several <a href="https://docs.openmicroscopy.org/omero-blitz/5.5.6/slice2html/omero/cmd/GraphModify2.html"><q>graph operations</q></a> that modify user data. The code checks permissions manually as it operates.</p>
+        <p class="secvul-description">OMERO 5.6.1 improves the permissions query to take account of a model object's group context and ensure that all graph operations comply with the user's permissions.</p>
+        <p class="secvul-description">This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-9943">CVE-2019-9943</a>.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.server from 5.1.0 to 5.6.0 inclusive.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Medium severity.</p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:N/E:P/RL:O/RC:C" target="_blank">CVSS score 5.3 vector AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:N/E:P/RL:O/RC:C</a></p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.6.1.</p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">

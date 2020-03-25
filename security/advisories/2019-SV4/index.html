@@ -1,0 +1,92 @@
+---
+layout: security-advisory
+filename: security
+title: 2019-SV4 Web Referrer Leakage
+main-blurb: affects OMERO.web versions 5.6.1 and earlier
+redirect_from:
+  - /security/advisories/2019-SV4-web-referrer-leakage/
+---
+<!-- begin SecVul -->
+<hr class="whitespace">
+
+<div class="secvul-row row">
+    <div class="small-12 medium-3 columns">
+        <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+    </div>
+    <div class="small-12 medium-9 columns">
+        <p class="secvul-description">
+            If an attacker tricks a user into clicking a malicious link in OMERO.web, the information in the URL and query parameters may be exposed in the referrer header seen by the target.
+        </p>
+    </div>
+</div>
+
+<div class="secvul-row row">
+    <div class="small-12 medium-3 columns">
+        <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+    </div>
+    <div class="small-12 medium-9 columns">
+        <p class="secvul-description">
+            When a hyperlink on a webpage is clicked most browsers default to sending the full URL of the current page in the HTTP referrer header to the target server of the hyperlink.
+            If the URL of the current page includes sensitive information, for example query parameters or object IDs, this information is sent in the referrer header and can be seen by the linked server.
+        </p>
+
+        <p class="secvul-description">
+            This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-7932">CVE-2020-7932</a>.
+        </p>
+    </div>
+</div>
+
+<div class="secvul-row row">
+    <div class="small-12 medium-3 columns">
+        <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+    </div>
+    <div class="small-12 medium-9 columns">
+        <p class="secvul-description">
+            OMERO.web, all versions prior to 5.6.3.
+        </p>
+    </div>
+</div>
+
+<div class="secvul-row row">
+    <div class="small-12 medium-3 columns">
+        <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+    </div>
+    <div class="small-12 medium-9 columns">
+        <p class="secvul-description">
+            Major severity.
+        </p>
+        <p class="secvul-description">
+            <a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N/E:H/RL:O/RC:C/CR:L/IR:L/AR:L/MAV:N/MAC:L/MPR:L/MUI:R/MS:C/MC:H/MI:H/MA:N" target="_blank">CVSS score 5.9 vector AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N/E:H/RL:O/RC:C/CR:L/IR:L/AR:L/MAV:N/MAC:L/MPR:L/MUI:R/MS:C/MC:H/MI:H/MA:N</a>.
+        </p>
+    </div>
+</div>
+
+<div class="secvul-row row">
+    <div class="small-12 medium-3 columns">
+        <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
+    </div>
+    <div class="small-12 medium-9 columns">
+        Set the HTML <tt>&lt;meta&gt; Referrer</tt> tag in all OMERO.web django templates and/or set the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy"></a><tt>Referrer-Policy</tt> header</a> in the webserver proxying OMERO.web.
+        Note that Internet Explorer 11 has limited support for <tt>&lt;meta&gt; Referrer</tt> and no support for the <tt>Referrer-Policy</tt> header.
+    </div>
+</div>
+<div class="secvul-row row">
+    <div class="small-12 medium-3 columns">
+        <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+    </div>
+    <div class="small-12 medium-9 columns">
+        <p class="secvul-description">
+            All OMERO.web servers should be upgraded to at least 5.6.3.
+            If your users are using Internet Explorer 11 (IE11) consider setting <tt>omero.web.html_meta_referrer</tt> to <tt>origin</tt> instead of the default <tt>origin-when-crossorigin</tt> which is not understood by IE11.
+        </p>
+        <p>
+            For additional information see:
+            <ul>
+                <li><a href="https://www.w3.org/TR/referrer-policy/#referrer-policies">https://www.w3.org/TR/referrer-policy/#referrer-policies</a></li>
+                <li><a href="https://caniuse.com/#feat=referrer-policy">https://caniuse.com/#feat=referrer-policy</a></li>
+            </ul>
+        </p>
+    </div>
+</div>
+<!-- end SecVul -->
+<hr class="whitespace">

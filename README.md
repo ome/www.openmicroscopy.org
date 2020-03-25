@@ -14,3 +14,9 @@ feedback and contribute.
 
 All content is released under 
 [Creative Commmons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Building
+
+You can build and serve the pages using Jekyll and Docker with:
+
+    $ ./docker_startup.sh

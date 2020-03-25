@@ -1,0 +1,55 @@
+---
+layout: security-advisory
+filename: security
+title: 2019-SV3 User Privacy
+main-blurb: affects OMERO.server 5 versions 5.6.0 and earlier
+redirect_from:
+  - /security/advisories/2019-SV3-user-privacy/
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO makes the details of each user available to all users.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+		<p class="secvul-description">An OMERO <a href="https://docs.openmicroscopy.org/omero/5.6/developers/Model/EveryObject.html#experimenter">Experimenter</a> instance exists for every OMERO user and its fields are readable by other users. This is inconsistent with the principles of good data privacy.</p>
+		<p class="secvul-description">OMERO 5.6.1 obscures users' details from other normal users, unless they are colleagues in a non-private group.</p>
+		<p class="secvul-description">This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2019-16245">CVE-2019-16245</a>.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.server before 5.6.1.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Medium severity.</p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:H/RL:O/RC:C" target="_blank">CVSS score 5.1 vector AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:H/RL:O/RC:C</a></p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.servers should be upgraded to at least 5.6.1.</p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">

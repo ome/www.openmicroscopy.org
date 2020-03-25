@@ -1,7 +1,7 @@
 name: OME  Website
 markdown: kramdown
 
-url: https://snoopycrimecop.github.io
+url: https://ome.github.io
 repository: openmicroscopy/www.openmicroscopy.org
 baseurl: /www.openmicroscopy.org
 
@@ -18,9 +18,9 @@ bf:
  version: 6.4.0
 
 omero:
- version: 5.6.0
+ version: 5.6.1
  majorversion: 5.6
- build: b136
+ build: b225
  insight:
   version: 5.5.9
  matlab:
