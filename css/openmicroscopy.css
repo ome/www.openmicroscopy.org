@@ -128,6 +128,11 @@ h3.subdivider {
 .header-green { color: #128669; }
 .header-red { color: #df283f; }
 
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.text-shadow-dark { text-shadow: 1px 1px 3px rgba(0,0,0,1); }
+.text-shadow-light { text-shadow: 1px 1px 3px rgba(255,255,255,1); }
+
 /* ========== buttons ==========*/
 .button {
     color: #eceff1;
@@ -293,14 +298,6 @@ section.announcement a.styled-link {
     line-height: 1.4rem;
 }
 
-#bg-image-ome-community-meeting-2020 {
-    background-image: url('../img/bg/remote-world.svg'), linear-gradient(180deg, #fff, #1f4579);
-    background-position: center top 30px;
-    background-repeat: no-repeat;
-    background-size: 1200px, 100%; }
-    .event-highlight {
-        position: relative; top: 50px;
-    }
 #bg-image-users-meeting {
     background-color: #81D4FA;
     background-image: url('../img/bg/plane.png'), url('../img/bg/clouds.png'), url('../img/bg/submarine.png'), url('../img/bg/waves.png'), url('../img/bg/tay-road-bridge.png'), url('../img/bg/hills.png'), linear-gradient(to bottom, #99DBFA, #1C4A87 50%);
@@ -334,6 +331,13 @@ section.announcement a.styled-link {
 #bg-image-docs { background-image: url('../img/bg/docs.jpg'); }
 #bg-image-explore { background-image: url('../img/bg/explore.jpg'); }
 #bg-image-social { background-image: url('../img/bg/social.jpg'); }
+
+#bg-hero-ome-community-meeting-2020 {
+    background-image: url('../img/bg/remote-world.svg'), linear-gradient(180deg, #fff, #546E7A);
+    background-position: center top 30px;
+    background-repeat: no-repeat;
+    background-size: 1200px, 100%;
+    color: #263238; }
 
 .marketing-hero-omero-figure {
     background: #CFD8DC url('../img/bg/figures.svg') center center repeat;
