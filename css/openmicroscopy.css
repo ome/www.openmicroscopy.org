@@ -293,6 +293,14 @@ section.announcement a.styled-link {
     line-height: 1.4rem;
 }
 
+#bg-image-ome-community-meeting-2020 {
+    background-image: url('../img/bg/remote-world.svg'), linear-gradient(180deg, #fff, #1f4579);
+    background-position: center top 30px;
+    background-repeat: no-repeat;
+    background-size: 1200px, 100%; }
+    .event-highlight {
+        position: relative; top: 50px;
+    }
 #bg-image-users-meeting {
     background-color: #81D4FA;
     background-image: url('../img/bg/plane.png'), url('../img/bg/clouds.png'), url('../img/bg/submarine.png'), url('../img/bg/waves.png'), url('../img/bg/tay-road-bridge.png'), url('../img/bg/hills.png'), linear-gradient(to bottom, #99DBFA, #1C4A87 50%);
