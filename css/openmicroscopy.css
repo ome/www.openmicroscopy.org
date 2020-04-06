@@ -89,6 +89,17 @@ code.highlighter-rouge {
     max-width: 600px;
 }
 
+/* ========== brand colors ==========*/
+.ome-blue { color: #1d8dcd; }
+.ome-green { color: #128669; }
+.ome-red { color: #df283f; }
+.ome-navy { color: #1c4a87; }
+
+.bg-ome-blue { background-color: #1d8dcd; }
+.bg-ome-green { background-color: #128669; }
+.bg-ome-red { background-color: #df283f; }
+.bg-ome-navy { background-color: #1c4a87; }
+
 /* ========== headings ========== */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
