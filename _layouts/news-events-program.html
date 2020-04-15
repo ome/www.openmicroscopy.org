@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<header class="header" id="bg-image-events">
+    <h1 class="headline">{{ page.title }}</h1>
+    <p>{{page.main-blurb}}</p>
+    <div class="row show-for-small-only" style="height: 120px;"></div>
+    <ul class="header-subnav">
+      <li><a href="{{ site.baseurl }}">Day 1 <span class="hide-for-small-only">- Tue May 26</span></a></li>
+      <li><a href="{{ site.baseurl }}">Day 2 <span class="hide-for-small-only">- Wed May 27</span></a></li>
+      <li><a href="{{ site.baseurl }}">Day 3 <span class="hide-for-small-only">- Thu May 28</span></a></li>
+    </ul>
+</header>
+
+<hr class="invisible">
+<div class="text-center">
+    <a id="back-to-top" href="{{ site.baseurl }}/events/"><i class="fa fa-arrow-left"></i> back to Events</a>
+</div>
+
+{{ content }}
