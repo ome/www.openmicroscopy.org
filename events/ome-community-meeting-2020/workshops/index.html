@@ -1,0 +1,44 @@
+---
+layout: ome-community-meeting-program-2020
+nav-workshops: active
+title: Day 3 - Thursday, May 28
+subheader: Lorem ipsum summary of second day events
+schedule:
+    - time: "11:45 - 12:10"
+      type: Workshop
+      title: "OMERO Analysis Workflows"
+    - time: "12:10 - 12:35"
+      type: Workshop
+      title: "QuPath"
+    - time: "12:35 - 13:00"
+      type: Workshop
+      title: "Napari"
+    - time: "13:00 - 13:25"
+      type: Workshop
+      title: "OME Ontology and the Open Science World"
+    - time: "12:35 - 13:30"
+      type:
+      title: "Lunch/Posters"
+    - time: "14:00 - 14:30"
+      type: "Invited Talk #1"
+      title: "(Ola and Omer?)"
+    - time: "15:00 - 16:00"
+      type: "Invited Talk #2"
+      title: "Vertex?"
+    - time: "16:00 - 16:30"
+      type:
+      title: Coffee
+    - time: "16:30 - 17:30"
+      type:
+      title: Analysis
+---
+
+{% for agenda_item in page.schedule %}
+<div class="row">
+    <div class="medium-2 columns bold">{{ agenda_item.time }}</div>
+    <div class="medium-10 columns">
+        <h4>{{ agenda_item.type }}: {{ agenda_item.title }}</h4>
+    </div>
+</div>
+<hr class="invisible">
+{% endfor %}
