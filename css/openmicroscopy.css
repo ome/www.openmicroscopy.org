@@ -144,6 +144,11 @@ h3.subdivider {
 .text-shadow-dark { text-shadow: 1px 1px 3px rgba(0,0,0,1); }
 .text-shadow-light { text-shadow: 1px 1px 3px rgba(255,255,255,1); }
 
+.margin-top { margin-top: 20px;}
+.margin-right { margin-right: 20px;}
+.margin-bottom { margin-bottom: 20px;}
+.margin-left { margin-left: 20px;}
+
 /* ========== buttons ==========*/
 .button {
     color: #eceff1;
