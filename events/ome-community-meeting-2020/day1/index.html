@@ -2,33 +2,59 @@
 layout: ome-community-meeting-program-2020
 nav-day1: active
 title: Day 1 - Tuesday, May 26
-subheader: Lorem ipsum summary of first day events
+subheader: Exploring National and Transnational Image Data Resources
 schedule:
-    - time: ""
-      type: Special Topic
-      title: "National/Trans-National Public Image Data Resources"
+    - type: Special Topic
+      title: "National/Transnational Public Image Data Resources"
+      videos: yes
+      vid_title1: IDR
+      vid_speaker1: "Sebastien Besson & Frances Wong"
+      vid_title2: SSBD
+      vid_speaker2: Shuichi Onami
+      vid_title3: BioImage Archive
+      vid_speaker3: "Ugis Sarkans & Alvis Brazma"
+      vid_title4: "Global BioImaging/EOSC"
+      vid_speaker4: Federica Paina
     - time: "11:00 - 13:00"
       type: Discussion
       title: "Directions for National/Transnational Resources"
     - time: "16:00 - 17:00"
       type: Keynote
       title: "Helen Parkinson"
-    - time: ""
-      type: Special Topic
+    - type: Special Topic
       title: "Project/Institutional Resources"
+      videos: yes
+      vid_title1: Pancreatlas
+      vid_speaker1: "Marcela Brissova"
+      vid_title2: AICS
+      vid_speaker2: Graham Johnson
+      vid_title3: HTAN
+      vid_speaker3: "Peter Sorger"
+      vid_title4: "BIAFLOWS"
+      vid_speaker4: ???
     - time: "17:00 - 19:00"
       type: Discussion
       title: "Directions for National/Transnational Resources"
     - time: "19:00 - ???"
-      type: Hangout
-      title:
+      type:
+      title: Hangout
 ---
 
 {% for agenda_item in page.schedule %}
 <div class="row">
-    <div class="medium-2 columns bold">{{ agenda_item.time }}</div>
-    <div class="medium-10 columns">
-        <h4>{{ agenda_item.type }}: {{ agenda_item.title }}</h4>
+    <div class="medium-2 medium-offset-2 columns bold">{% if agenda_item.time %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time }}</div>
+    <div class="medium-8 columns">
+        <h5>{{ agenda_item.type }}{% if agenda_item.type %}:{% endif %} {{ agenda_item.title }}</h5>
+        {% if agenda_item.videos %}
+        <h6>Relevant Video Talks</h6>
+        <ul>
+            {% if agenda_item.vid_title1 %}<li>{{ agenda_item.vid_title1 }} (Speaker(s): {{ agenda_item.vid_speaker1 }})</li>{% endif %}
+            {% if agenda_item.vid_title2 %}<li>{{ agenda_item.vid_title2 }} (Speaker(s): {{ agenda_item.vid_speaker2 }})</li>{% endif %}
+            {% if agenda_item.vid_title3 %}<li>{{ agenda_item.vid_title3 }} (Speaker(s): {{ agenda_item.vid_speaker3 }})</li>{% endif %}
+            {% if agenda_item.vid_title4 %}<li>{{ agenda_item.vid_title4 }} (Speaker(s): {{ agenda_item.vid_speaker4 }})</li>{% endif %}
+            {% if agenda_item.vid_title5 %}<li>{{ agenda_item.vid_title5 }} (Speaker(s): {{ agenda_item.vid_speaker5 }})</li>{% endif %}
+        </ul>
+        {% endif %}
     </div>
 </div>
 <hr class="invisible">

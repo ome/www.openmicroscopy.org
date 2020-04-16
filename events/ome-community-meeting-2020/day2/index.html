@@ -2,11 +2,17 @@
 layout: ome-community-meeting-program-2020
 nav-day2: active
 title: Day 2 - Wednesday, May 27
-subheader: Lorem ipsum summary of second day events
+subheader: Talks on data application and workflow, and what’s next
 schedule:
-    - time: ""
-      type: Special Topic
+    - type: Special Topic
       title: "Data Models and Formats"
+      videos: yes
+      vid_title1: OME OWL
+      vid_speaker1: "Norio Kobayashi"
+      vid_title2: Next Gen File Formats
+      vid_speaker2: Josh Moore
+      vid_title3: + ??
+      vid_speaker3: "Ryan Williams???, Stephan Saalfeld??"
     - time: "11:00 - 13:00"
       type: Discussion
       title: "Directions for Next Gen Data Formats"
@@ -16,22 +22,42 @@ schedule:
     - time: "16:30 - 17:00"
       type:
       title: "Glencoe Update"
-    - time: ""
-      type: Special Topic
+    - type: Special Topic
       title: "Workflows & Applications"
+      videos: yes
+      vid_title1: OMERO Analyses
+      vid_speaker1: "Jean-Marie Burel"
+      vid_title2: Napari
+      vid_speaker2: Nicholas Soforniew
+      vid_title3: QuPath
+      vid_speaker3: "Pete Bankhead"
+      vid_title4: scOMERO
+      vid_speaker4: "Ola Tarkowska & Omer Bayraktar"
+      vid_title5: OMERO & Cell Painting
+      vid_speaker5: "Saul Meisler"
     - time: "17:00 - 19:00"
       type: Discussion
       title: "Integrated Applications and Workflows"
     - time: "19:00 - ???"
-      type: Hangout
-      title:
+      type:
+      title: Hangout
 ---
 
 {% for agenda_item in page.schedule %}
 <div class="row">
-    <div class="medium-2 columns bold">{{ agenda_item.time }}</div>
-    <div class="medium-10 columns">
-        <h4>{{ agenda_item.type }}: {{ agenda_item.title }}</h4>
+    <div class="medium-2 medium-offset-2 columns bold">{% if agenda_item.time %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time }}</div>
+    <div class="medium-8 columns">
+        <h5>{{ agenda_item.type }}{% if agenda_item.type %}:{% endif %} {{ agenda_item.title }}</h5>
+        {% if agenda_item.videos %}
+        <h6>Relevant Video Talks</h6>
+        <ul>
+            {% if agenda_item.vid_title1 %}<li>{{ agenda_item.vid_title1 }} (Speaker(s): {{ agenda_item.vid_speaker1 }})</li>{% endif %}
+            {% if agenda_item.vid_title2 %}<li>{{ agenda_item.vid_title2 }} (Speaker(s): {{ agenda_item.vid_speaker2 }})</li>{% endif %}
+            {% if agenda_item.vid_title3 %}<li>{{ agenda_item.vid_title3 }} (Speaker(s): {{ agenda_item.vid_speaker3 }})</li>{% endif %}
+            {% if agenda_item.vid_title4 %}<li>{{ agenda_item.vid_title4 }} (Speaker(s): {{ agenda_item.vid_speaker4 }})</li>{% endif %}
+            {% if agenda_item.vid_title5 %}<li>{{ agenda_item.vid_title5 }} (Speaker(s): {{ agenda_item.vid_speaker5 }})</li>{% endif %}
+        </ul>
+        {% endif %}
     </div>
 </div>
 <hr class="invisible">
