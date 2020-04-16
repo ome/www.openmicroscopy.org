@@ -354,6 +354,13 @@ section.announcement a.styled-link {
     background-repeat: no-repeat;
     background-size: 1200px, 100%;
     color: #263238; }
+#bg-hero-ome-community-meeting-2020-agenda {
+    background-color: #fff;
+    background-image: url('../img/bg/remote-world.svg'), linear-gradient(180deg, #fff, #546E7A);
+    background-position: center top 10px;
+    background-repeat: no-repeat;
+    background-size: 960px, 100%;
+    color: #263238; }
 
 .marketing-hero-omero-figure {
     background: #CFD8DC url('../img/bg/figures.svg') center center repeat;
