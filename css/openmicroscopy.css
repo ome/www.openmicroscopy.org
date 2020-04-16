@@ -89,6 +89,12 @@ code.highlighter-rouge {
     max-width: 600px;
 }
 
+.headshot {
+    border: 1px solid #CFD8DC;
+    border-radius: 6px;
+    max-width: 225px;
+}
+
 /* ========== brand colors ==========*/
 .ome-blue { color: #1d8dcd; }
 .ome-green { color: #128669; }

@@ -1,0 +1,34 @@
+---
+layout: ome-community-meeting-program-2020
+nav-overview: active
+title: Our Speakers
+subheader: We will publish all talk descriptions soon!
+speakers:
+    - firstname: Jason
+      surname: Swedlow
+      job_title: Co-Founder
+      bio: "Jason Swedlow earned a BA in Chemistry from Brandeis University in 1982. He performed his PhD in Biophysics with Profs D. A. Agard and J. W. Sedat, finishing in 1994. Dr Swedlow was a postdoctoral fellow at UCSF and then Harvard Medical School from 1994 and 1998, supported by a Damon Runyon Walter Winchell Cancer Research Fund Fellowship from 1995 to 1997. In 1998, Dr Swedlow established his own laboratory at the Wellcome Trust Biocentre, University of Dundee, Scotland as a Principal Investigator and Wellcome Trust Career Development Fellow. He was awarded a Wellcome Trust Senior Fellowship in 2002, and named Professor of Quantitative Cell Biology in 2007. His lab focuses on studies of mitotic and interphase chromosome structure and dynamics. He is Co-Director of the Analytical and Quantitative Microscopy Course. He is co-founder of OME (along with Peter Sorger and Ilya Goldberg)."
+      website_name: "Glencoe Software"
+      website_link: "glencoesoftware.com"
+      twitter: "jrswedlow"
+---
+
+{% for speaker in page.speakers %}
+<div class="row">
+    <div class="medium-12 columns">
+        <div class="medium-3 columns">
+            <img alt="photo of {{ speaker.firstname }} {{ speaker.surname }}" src="{{ site.baseurl }}/img/speakers/{{ speaker.firstname | downcase }}_{{ speaker.surname | downcase }}.jpg" class="headshot">
+        </div>
+        <div class="medium-7 columns">
+            <h4 class="margin-bottom">{{ speaker.firstname }} {{ speaker.surname }}{% if speaker.job_title %}, {{ speaker.job_title }}{% endif %}</h4>
+            <p >{{ speaker.bio }}</p>
+        </div>
+        <div class="medium-2 columns">
+            {% if speaker.website_name %}<h5><i class="fa fa-globe"></i> On the web</h5><p><a href="https://www.{{ speaker.website_link }}" target="_blank">{{ speaker.website_name }}</a></p>{% endif %}
+            {% if speaker.twitter %}<h5><i class="fa fa-twitter"></i> On twitter</h5><p><a href="https://www.twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>{% endif %}
+        </div>
+    </div>
+    <hr>
+</div>
+
+{% endfor %}
