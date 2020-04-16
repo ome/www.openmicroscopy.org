@@ -33,12 +33,4 @@ schedule:
       title: Analysis
 ---
 
-{% for agenda_item in page.schedule %}
-<div class="row">
-    <div class="medium-2 medium-offset-2 columns bold">{% if agenda_item.time %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time }}</div>
-    <div class="medium-8 columns">
-        <h5>{{ agenda_item.type }} {% if agenda_item.type %}:{% endif %} {{ agenda_item.title }} {{ agenda_item.title }}</h5>
-    </div>
-</div>
-<hr class="invisible">
-{% endfor %}
+{% include program_agenda.html %}

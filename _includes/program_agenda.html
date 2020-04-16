@@ -1,0 +1,20 @@
+{% for agenda_item in page.schedule %}
+<div class="row">
+    <div class="medium-2 medium-offset-2 columns bold">{% if agenda_item.time %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time }}</div>
+    <div class="medium-8 columns">
+        <h5>{{ agenda_item.type }}{% if agenda_item.type %}:{% endif %} {{ agenda_item.title }}</h5>
+        <p>(More details to follow)</p>
+        {% if agenda_item.videos %}
+        <h6 class="ome-blue"><i class="fa fa-video-camera" style="margin-right: 7px;"></i> Relevant Video Talks:</h6>
+        <ul>
+            {% if agenda_item.vid_title1 %}<li><span class="bold">{{ agenda_item.vid_title1 }}</span> with {{ agenda_item.vid_speaker1 }}</li>{% endif %}
+            {% if agenda_item.vid_title2 %}<li><span class="bold">{{ agenda_item.vid_title2 }}</span> with {{ agenda_item.vid_speaker2 }}</li>{% endif %}
+            {% if agenda_item.vid_title3 %}<li><span class="bold">{{ agenda_item.vid_title3 }}</span> with {{ agenda_item.vid_speaker3 }}</li>{% endif %}
+            {% if agenda_item.vid_title4 %}<li><span class="bold">{{ agenda_item.vid_title4 }}</span> with {{ agenda_item.vid_speaker4 }}</li>{% endif %}
+            {% if agenda_item.vid_title5 %}<li><span class="bold">{{ agenda_item.vid_title5 }}</span> with {{ agenda_item.vid_speaker5 }}</li>{% endif %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+<hr class="invisible">
+{% endfor %}
