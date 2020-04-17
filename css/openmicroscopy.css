@@ -16,6 +16,7 @@ p {
 }
 
 .lowercase { text-transform: lowercase; }
+.center-align { margin: 0 auto; text-align: center; }
 
 a { color: #1d8dcd;
     font-weight: 600; }
@@ -92,7 +93,8 @@ code.highlighter-rouge {
 .headshot {
     border: 1px solid #CFD8DC;
     border-radius: 6px;
-    max-width: 225px;
+    max-width: 190px;
+    padding: 6px;
 }
 
 /* ========== brand colors ==========*/

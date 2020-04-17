@@ -11,12 +11,32 @@ speakers:
       website_name: "Glencoe Software"
       website_link: "glencoesoftware.com"
       twitter: "jrswedlow"
+    - firstname: Sebastien
+      surname: Besson
+      job_title: Senior Software Developer
+      bio: "Sebastien Besson joined the OME team as a developer in march 2012. Originally trained as a physicist, he received his PhD from the Unversite Pierre at Marie Curie in Paris. He then carried out postdoctoral research at the interface between physics and biology at Harvard University. In 2011, Sebastien joined the Danuser lab to convert in-house image analysis into turn-key software packages for the cell biology community. He became part of the main Dundee team in 2015."
+    - firstname: Jean-Marie
+      surname: Burel
+      job_title: Senior Software Architect
+      bio: "Jean-Marie Burel joined the staff of the Swedlow lab in 2003. Since then, he's been contributing to the development of OME. He received his PhD in mathematics from the University of Brest in 2000. His research interests lie in the area of harmonic maps, harmonic morphisms and geometric structure. After his PhD, he worked in a private company as developer then moved (September 2001) to Lund University, Sweden, where he held a post-doctoral research position. Jean-Marie now enjoys the muddy rugby pitches of Scotland."
+    - firstname: Josh
+      surname: Moore
+      job_title: Senior Software Architect
+      bio: "Josh Moore is an American developer living in Walluf, Germany, with his wife and two kids. With a background in machine learning and distributed computing, Josh began work on the OMERO Java server in the Spring of 2005 as part of the Swedlow Lab, after evaluating use of the OME Perl server for the Mitocheck project while in the iBios group at the DKFZ, Heidelberg, Germany. Before that he was a German-language pre-school teacher at a Montessori school in Alabama, of all things. He's a lisp-loving, Aikido-practicing, vegan with interests in RDF, HDF, and various other three letter acronyms."
+    - firstname: Petr
+      surname: Walczysko
+      job_title: QA Software Sepcialist
+      bio: "Petr Walczysko joined the OME project in October 2012 as a software specialist for testing and quality assurance. He studied at Charles University of Prague where he received Master of Science degree in Physics and the University of Freiburg in Germany where he received PhD in Biology. Throughout his PhD studies and his further career as a researcher he was intensively using conventional, confocal and multiphoton fluorescence microscopy applications on biological systems. He was adapting these optical microscopy techniques for particular biological problems, and also worked on the subsequent image analysis of microscopic images in a range of image analysis programmes. He enjoys yoga, reading and chess."
+    - firstname: Frances
+      surname: Wong
+      job_title: Curator
+      bio: "Frances Wong joined the OME team in September 2018 as a curator. She received her PhD in Developmental Biology from the University of Edinburgh. She then carried out post-doctoral research in molecular biology, genetics, genomics, neuroscience and biomedical imaging. She has also worked on atlas-based gene expression databases and created new online scientific resources."
 ---
 
 {% for speaker in page.speakers %}
 <div class="row">
     <div class="medium-12 columns">
-        <div class="medium-3 columns">
+        <div class="medium-3 columns center-align">
             <img alt="photo of {{ speaker.firstname }} {{ speaker.surname }}" src="{{ site.baseurl }}/img/speakers/{{ speaker.firstname | downcase }}_{{ speaker.surname | downcase }}.jpg" class="headshot">
         </div>
         <div class="medium-7 columns">
