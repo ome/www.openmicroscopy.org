@@ -22,7 +22,7 @@ omero:
  majorversion: 5.6
  build: b225
  insight:
-  version: 5.5.9
+  version: 5.5.10
  matlab:
   version: 5.5.3
 
