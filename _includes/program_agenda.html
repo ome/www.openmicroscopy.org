@@ -1,6 +1,7 @@
 {% for agenda_item in page.schedule %}
-<div class="row">
-    <div class="medium-2 medium-offset-2 columns bold">{% if agenda_item.time %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time }}</div>
+<div class="row align-right">
+    {% if agenda_item.videos %}<div class="medium-3 columns"><img alt="OMERO for Scientists" class="user-group-illustration center-align" src="{{ site.baseurl }}/img/icons/user-groups_scientists.svg"></div>{% endif %}
+    {% if agenda_item.time %}<div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time }}</div>{% endif %}
     <div class="medium-8 columns">
         <h5>{{ agenda_item.type }}{% if agenda_item.type %}:{% endif %} {{ agenda_item.title }}</h5>
         <p>{{ agenda_item.details }}</p>
