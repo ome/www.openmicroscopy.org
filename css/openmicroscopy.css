@@ -16,6 +16,7 @@ p {
 }
 
 .lowercase { text-transform: lowercase; }
+.center-align { margin: 0 auto; text-align: center; }
 
 a { color: #1d8dcd;
     font-weight: 600; }
@@ -89,6 +90,13 @@ code.highlighter-rouge {
     max-width: 600px;
 }
 
+.headshot {
+    border: 1px solid #CFD8DC;
+    border-radius: 6px;
+    max-width: 190px;
+    padding: 6px;
+}
+
 /* ========== brand colors ==========*/
 .ome-blue { color: #1d8dcd; }
 .ome-green { color: #128669; }
@@ -143,6 +151,12 @@ h3.subdivider {
 .italic { font-style: italic; }
 .text-shadow-dark { text-shadow: 1px 1px 3px rgba(0,0,0,1); }
 .text-shadow-light { text-shadow: 1px 1px 3px rgba(255,255,255,1); }
+
+.margin-top { margin-top: 20px;}
+.margin-right { margin-right: 20px;}
+.margin-right-half { margin-right: 10px;}
+.margin-bottom { margin-bottom: 20px;}
+.margin-left { margin-left: 20px;}
 
 /* ========== buttons ==========*/
 .button {
@@ -249,7 +263,8 @@ h3.subdivider {
         text-transform: uppercase;
         transition: all 0.35s ease-in-out; }
         .header-subnav li a.is-active {
-            background: rgba(250, 250, 250, 0.15); }
+            background: rgba(250, 250, 250, 0.15);
+            font-weight: bold; }
         .header-subnav li a:hover {
             background: rgba(250, 250, 250, 0.15);
             color: #fff;
@@ -347,6 +362,13 @@ section.announcement a.styled-link {
     background-position: center top 30px;
     background-repeat: no-repeat;
     background-size: 1200px, 100%;
+    color: #263238; }
+#bg-hero-ome-community-meeting-2020-agenda {
+    background-color: #fff;
+    background-image: url('../img/bg/remote-world-v2.svg'), linear-gradient(180deg, #fff, #546E7A);
+    background-position: center top 10px;
+    background-repeat: no-repeat;
+    background-size: 960px, 100%;
     color: #263238; }
 
 .marketing-hero-omero-figure {

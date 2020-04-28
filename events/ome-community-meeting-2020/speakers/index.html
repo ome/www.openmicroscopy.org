@@ -1,0 +1,54 @@
+---
+layout: ome-community-meeting-program-2020
+nav-overview: active
+title: Our Speakers
+subheader: We will publish all talk descriptions soon!
+speakers:
+    - firstname: Jason
+      surname: Swedlow
+      job_title: Co-Founder
+      bio: "Jason Swedlow earned a BA in Chemistry from Brandeis University in 1982. He performed his PhD in Biophysics with Profs D. A. Agard and J. W. Sedat, finishing in 1994. Dr Swedlow was a postdoctoral fellow at UCSF and then Harvard Medical School from 1994 and 1998, supported by a Damon Runyon Walter Winchell Cancer Research Fund Fellowship from 1995 to 1997. In 1998, Dr Swedlow established his own laboratory at the Wellcome Trust Biocentre, University of Dundee, Scotland as a Principal Investigator and Wellcome Trust Career Development Fellow. He was awarded a Wellcome Trust Senior Fellowship in 2002, and named Professor of Quantitative Cell Biology in 2007. His lab focuses on studies of mitotic and interphase chromosome structure and dynamics. He is Co-Director of the Analytical and Quantitative Microscopy Course. He is co-founder of OME (along with Peter Sorger and Ilya Goldberg)."
+      website_name: "Glencoe Software"
+      website_link: "glencoesoftware.com"
+      twitter: "jrswedlow"
+    - firstname: Sebastien
+      surname: Besson
+      job_title: Senior Software Developer
+      bio: "Sebastien Besson joined the OME team as a developer in March 2012. Originally trained as a physicist, he received his PhD from the Unversite Pierre at Marie Curie in Paris. He then carried out postdoctoral research at the interface between physics and biology at Harvard University. In 2011, Sebastien joined the Danuser lab to convert in-house image analysis into turn-key software packages for the cell biology community. He became part of the main Dundee team in 2015."
+    - firstname: Jean-Marie
+      surname: Burel
+      job_title: Senior Software Architect
+      bio: "Jean-Marie Burel joined the staff of the Swedlow lab in 2003. Since then, he's been contributing to the development of OME. He received his PhD in mathematics from the University of Brest in 2000. His research interests lie in the area of harmonic maps, harmonic morphisms and geometric structure. After his PhD, he worked in a private company as developer then moved (September 2001) to Lund University, Sweden, where he held a post-doctoral research position. Jean-Marie now enjoys the muddy rugby pitches of Scotland."
+    - firstname: Josh
+      surname: Moore
+      job_title: Senior Software Architect
+      bio: "Josh Moore is an American developer living in Walluf, Germany, with his wife and two kids. With a background in machine learning and distributed computing, Josh began work on the OMERO Java server in the Spring of 2005 as part of the Swedlow Lab, after evaluating use of the OME Perl server for the Mitocheck project while in the iBios group at the DKFZ, Heidelberg, Germany. Before that he was a German-language pre-school teacher at a Montessori school in Alabama, of all things. He's a lisp-loving, Aikido-practicing, vegan with interests in RDF, HDF, and various other three letter acronyms."
+    - firstname: Petr
+      surname: Walczysko
+      job_title: QA Software Specialist
+      bio: "Petr Walczysko joined the OME project in October 2012 as a software specialist for testing and quality assurance. He studied at Charles University of Prague where he received Master of Science degree in Physics and the University of Freiburg in Germany where he received PhD in Biology. Throughout his PhD studies and his further career as a researcher he was intensively using conventional, confocal and multiphoton fluorescence microscopy applications on biological systems. He was adapting these optical microscopy techniques for particular biological problems, and also worked on the subsequent image analysis of microscopic images in a range of image analysis programs. He enjoys yoga, reading and chess."
+    - firstname: Frances
+      surname: Wong
+      job_title: Curator
+      bio: "Frances Wong joined the OME team in September 2018 as a curator. She received her PhD in Developmental Biology from the University of Edinburgh. She then carried out post-doctoral research in molecular biology, genetics, genomics, neuroscience and biomedical imaging. She has also worked on atlas-based gene expression databases and created new online scientific resources."
+---
+
+{% for speaker in page.speakers %}
+<div class="row">
+    <div class="medium-12 columns">
+        <div class="medium-3 columns center-align">
+            <img alt="photo of {{ speaker.firstname }} {{ speaker.surname }}" src="{{ site.baseurl }}/img/speakers/{{ speaker.firstname | downcase }}_{{ speaker.surname | downcase }}.jpg" class="headshot">
+        </div>
+        <div class="medium-7 columns">
+            <h4 class="margin-bottom">{{ speaker.firstname }} {{ speaker.surname }}{% if speaker.job_title %}, {{ speaker.job_title }}{% endif %}</h4>
+            <p >{{ speaker.bio }}</p>
+        </div>
+        <div class="medium-2 columns">
+            {% if speaker.website_name %}<h5><i class="fa fa-globe"></i> On the web</h5><p><a href="https://www.{{ speaker.website_link }}" target="_blank">{{ speaker.website_name }}</a></p>{% endif %}
+            {% if speaker.twitter %}<h5><i class="fa fa-twitter"></i> On twitter</h5><p><a href="https://www.twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>{% endif %}
+        </div>
+    </div>
+    <hr>
+</div>
+
+{% endfor %}
