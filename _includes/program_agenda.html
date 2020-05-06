@@ -8,11 +8,11 @@
         {% if agenda_item.videos %}
         <h6 class="ome-blue"><i class="fa fa-video-camera margin-right-half"></i> Relevant Video Talks:</h6>
         <ul>
-            {% if agenda_item.vid_title1 %}<li><span class="bold">{{ agenda_item.vid_title1 }}</span> with {{ agenda_item.vid_speaker1 }}</li>{% endif %}
-            {% if agenda_item.vid_title2 %}<li><span class="bold">{{ agenda_item.vid_title2 }}</span> with {{ agenda_item.vid_speaker2 }}</li>{% endif %}
-            {% if agenda_item.vid_title3 %}<li><span class="bold">{{ agenda_item.vid_title3 }}</span> with {{ agenda_item.vid_speaker3 }}</li>{% endif %}
-            {% if agenda_item.vid_title4 %}<li><span class="bold">{{ agenda_item.vid_title4 }}</span> with {{ agenda_item.vid_speaker4 }}</li>{% endif %}
-            {% if agenda_item.vid_title5 %}<li><span class="bold">{{ agenda_item.vid_title5 }}</span> with {{ agenda_item.vid_speaker5 }}</li>{% endif %}
+            {% if agenda_item.vid_title1 %}<li><span class="bold">{{ agenda_item.vid_title1 }}</span> with {{ agenda_item.vid_speaker1 }}{% if agenda_item.vid_aff1 %}, <span class="ome-green italic">{{ agenda_item.vid_aff1 }} {% endif %}</span></li>{% endif %}
+            {% if agenda_item.vid_title2 %}<li><span class="bold">{{ agenda_item.vid_title2 }}</span> with {{ agenda_item.vid_speaker2 }}{% if agenda_item.vid_aff2 %}, <span class="ome-green italic">{{ agenda_item.vid_aff2 }} {% endif %}</span></li>{% endif %}
+            {% if agenda_item.vid_title3 %}<li><span class="bold">{{ agenda_item.vid_title3 }}</span> with {{ agenda_item.vid_speaker3 }}{% if agenda_item.vid_aff3 %}, <span class="ome-green italic">{{ agenda_item.vid_aff3 }} {% endif %}</span></li>{% endif %}
+            {% if agenda_item.vid_title4 %}<li><span class="bold">{{ agenda_item.vid_title4 }}</span> with {{ agenda_item.vid_speaker4 }}{% if agenda_item.vid_aff4 %}, <span class="ome-green italic">{{ agenda_item.vid_aff4 }} {% endif %}</span></li>{% endif %}
+            {% if agenda_item.vid_title5 %}<li><span class="bold">{{ agenda_item.vid_title5 }}</span> with {{ agenda_item.vid_speaker5 }}{% if agenda_item.vid_aff5 %}, <span class="ome-green italic">{{ agenda_item.vid_aff5 }} {% endif %}</span></li>{% endif %}
         </ul>
         {% endif %}
     </div>
