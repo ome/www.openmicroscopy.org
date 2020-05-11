@@ -6,22 +6,34 @@ subheader: Learn more about our speakers here
 speakers:
     - firstname: Jason
       surname: Swedlow
+      aff: The Open Microscopy Environment
+      link: "https://www.openmicroscopy.org/teams/"
     - firstname: Sebastien
       surname: Besson
+      aff: The Open Microscopy Environment
+      link: "https://www.openmicroscopy.org/teams/"
     - firstname: Jean-Marie
       surname: Burel
+      aff: The Open Microscopy Environment
+      link: "https://www.openmicroscopy.org/teams/"
     - firstname: Josh
       surname: Moore
+      aff: The Open Microscopy Environment
+      link: "https://www.openmicroscopy.org/teams/"
     - firstname: Petr
       surname: Walczysko
+      aff: The Open Microscopy Environment
+      link: "https://www.openmicroscopy.org/teams/"
     - firstname: Frances
       surname: Wong
+      aff: The Open Microscopy Environment
+      link: "https://www.openmicroscopy.org/teams/"
 ---
 
 <div class="row">
     <div class="row medium-up-1 large-up-1 text-center consortium-list">
         {% for speaker in page.speakers %}
-        <div class="large-expand columns"><a target="_blank" href="{{ speaker.link }}">{{ speaker.firstname }} {{ speaker.surname }}</a> <span class="institution">{{ speaker.aff }}</span></div>
+        <div class="large-expand columns"><a target="_blank" href="{{ speaker.link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>, <span class="institution">{{ speaker.aff }}</span></div>
         {% endfor %}
     </div>
 </div>
