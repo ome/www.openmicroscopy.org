@@ -4,108 +4,44 @@ nav-overview: active
 title: Community Lightning Talks
 subheader: You can watch the lightning talks here
 speakers:
-    - firstname: Chris
-      surname: Allan
-      aff: Glencoe Software, Inc.
-      link: "https://www.glencoesoftware.com/about/team/"
-    - firstname: Pete
-      surname: Bankhead
-      aff: University of Edinburgh
-      link: "https://www.ed.ac.uk/pathology/people/staff-students/peter-bankhead"
-    - firstname: Omer
-      surname: Bayraktar
-      aff: Wellcome Sanger Centre
-      link: "https://www.sanger.ac.uk/science/groups/bayraktar-group"
-    - firstname: Sebastien
-      surname: Besson
-      aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
-    - firstname: Jean-Marie
-      surname: Burel
-      aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
-    - firstname: JP
-      surname: Cartailler
-      aff: Vanderbilt University
-      link: "https://labnodes.vanderbilt.edu/member/profile/id/9436"
-    - firstname: Graham
-      surname: Johnson
-      aff: Allen Institute of Cell Science
-      link: "https://alleninstitute.org/what-we-do/cell-science/about/team/staff-profiles/graham-johnson/"
-    - firstname: Norio
-      surname: Kobayashi
-      aff: RIKEN
-      link: "https://www.riken.jp/en/research/labs/isc/data_knowl_org/index.html"
-    - firstname: Emma
-      surname: Lundberg
-      aff: SciLifeLab
-      link: "https://www.scilifelab.se/researchers/emma-lundberg/"
-    - firstname: Jian
-      surname: Ma
-      aff: Carnegie Mellon University
-      link: "https://www.cs.cmu.edu/~jianma/"
-    - firstname: Josh
-      surname: Moore
-      aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
-    - firstname: Shuichi
-      surname: Onami
-      aff: RIKEN
-      link: "http://www.qbic.riken.jp/english/research/outline/lab-06.html"
-    - firstname: Federica
-      surname: Paina
-      aff: EMBL
-      link: "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60022940"
-    - firstname: Helen
-      surname: Parkinson
-      aff: EMBL-EBI
-      link: "https://www.ebi.ac.uk/about/people/helen-parkinson"
-    - firstname: Ugis
-      surname: Sarkans
-      aff: EMBL-EBI
-      link: "https://www.ebi.ac.uk/about/people/ugis-sarkans"
-    - firstname: Diane
-      surname: Saunders
-      aff: Vanderbilt University
-      link: "https://medicine.vumc.org/person/diane-saunders-phd"
-    - firstname: Nicholas
-      surname: Soforniew
-      aff: Chan Zuckerberg Initiative
-      link: "https://www.linkedin.com/in/nicholas-sofroniew-398179103"
-    - firstname: Peter
-      surname: Sorger
-      aff: Harvard Medical School
-      link: "https://sysbio.med.harvard.edu/peter-sorger"
     - firstname: Caterina
       surname: Strambio De Castillia
       aff: University of Massachusetts Medical School
-      link: "https://profiles.umassmed.edu/display/132167"
-    - firstname: Jason
-      surname: Swedlow
-      aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
-    - firstname: Ola
-      surname: Tarkowska
-      aff: Wellcome Sanger Centre
-      link: "https://www.sanger.ac.uk/people/directory/aleksandra-ola-tarkowska"
-    - firstname: Sebastien
-      surname: Tosi
-      aff: IRB Barcelona
-      link: "https://www.irbbarcelona.org/en/profile/sebastien-tosi"
-    - firstname: Petr
-      surname: Walczysko
-      aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
-    - firstname: Frances
-      surname: Wong
-      aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
+      link:
+    - firstname: Damir
+      surname: Sudar
+      aff: Quantitative Imaging Systems LLC
+      link:
+    - firstname: Erick
+      surname: Ratamero
+      aff: Research IT, The Jackson Laboratory
+      link:
+    - firstname: Jamie
+      surname: Sherman
+      aff: Allen Institute for Cell Science
+      link:
+    - firstname: Jorge
+      surname: Toledo
+      aff: REDECA / Universidad de Chile
+      link:
+    - firstname: Michelle
+      surname: Itano
+      aff: University of North Carolina, Dept. of Cell Biology & Physiology
+      link:
+    - firstname: Stefanie
+      surname: Weidtkamp-Peters
+      aff: Center for Advanced Imaging, University of Duesseldorf
+      link:
+    - firstname: Stephen
+      surname: Taylor
+      aff: Oxford University
+      link:
 ---
 
 <div class="row">
     <div class="row small-up-1 medium-up-2 text-center consortium-list">
         {% for speaker in page.speakers %}
-        <div class="columns"><a target="_blank" href="{{ speaker.link }}">{{ speaker.firstname }} {{ speaker.surname }}</a> <span class="institution">{{ speaker.aff }}</span></div>
+        <div class="columns">{% if speaker.link %}<a target="_blank" href="{{ speaker.link }}">{% endif %}{{ speaker.firstname }} {{ speaker.surname }}{% if speaker.link %}</a>{% endif %} <span class="institution">{{ speaker.aff }}</span></div>
         {% endfor %}
     </div>
 </div>
