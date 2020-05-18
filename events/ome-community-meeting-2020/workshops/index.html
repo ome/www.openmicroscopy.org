@@ -39,18 +39,33 @@ schedule:
       details_track_b: Details to follow soon.
 ---
 
-{% for agenda_item in page.schedule %}
-<div class="row align-right">
-    <div class="medium-2 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time_track_a }}</div>
-    <div class="medium-4 columns">
-        <h5>{{ agenda_item.title_track_a }}</h5>
-        <p>{{ agenda_item.details_track_a }}</p>
+<div class="row">
+    <div class="small-6 medium-6 columns">
+        <div class="medium-12 columns"><h5 class="text-center ome-blue">Track A</h5></div>
+        <hr class="invisible">
+        {% for agenda_item in page.schedule %}
+        <div class="row align-right">
+            <div class="medium-4 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time_track_a }}</div>
+            <div class="medium-8 columns">
+                <h5>{{ agenda_item.title_track_a }}</h5>
+                <p>{{ agenda_item.details_track_a }}</p>
+            </div>
+        </div>
+        <hr class="invisible">
+        {% endfor %}
     </div>
-    <div class="medium-2 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time_track_b }}</div>
-    <div class="medium-4 columns">
-        <h5>{{ agenda_item.title_track_b }}</h5>
-        <p>{{ agenda_item.details_track_b }}</p>
+    <div class="small-6 medium-6 columns">
+        <div class="medium-12 columns"><h5 class="text-center ome-blue">Track B</h5></div>
+        <hr class="invisible">
+        {% for agenda_item in page.schedule %}
+        <div class="row align-right">
+            <div class="medium-4 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time_track_b }}</div>
+            <div class="medium-8 columns">
+                <h5>{{ agenda_item.title_track_b }}</h5>
+                <p>{{ agenda_item.details_track_b }}</p>
+            </div>
+        </div>
+        <hr class="invisible">
+        {% endfor %}
     </div>
 </div>
-<hr class="invisible">
-{% endfor %}
