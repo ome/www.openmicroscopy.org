@@ -4,7 +4,8 @@
     {% if agenda_item.time %}<div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time }}</div>{% endif %}
     <div class="medium-8 columns">
         <h5>{{ agenda_item.type }}{% if agenda_item.type %}:{% endif %} {{ agenda_item.title }}</h5>
-        <p>{{ agenda_item.details }}</p>
+        {% if agenda_item.details %}<p>{{ agenda_item.details }}</p>{% endif %}
+        {% if agenda_item.speaker %}<p>{{ agenda_item.speaker }}, <span class="ome-green italic">{{ agenda_item.aff }}</span></p>{% endif %}
         {% if agenda_item.videos %}
         <h6 class="ome-blue"><i class="fa fa-video-camera margin-right-half"></i> Relevant Video Talks:</h6>
         <ul>
