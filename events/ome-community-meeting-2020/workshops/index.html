@@ -45,7 +45,7 @@ schedule:
         <hr class="invisible">
         {% for agenda_item in page.schedule %}
         <div class="row align-right">
-            <div class="medium-4 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time_track_a }}</div>
+            <div class="medium-4 columns bold">{% if agenda_item.time_track_a %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_a }}</div>
             <div class="medium-8 columns">
                 <h5>{{ agenda_item.title_track_a }}</h5>
                 <p>{{ agenda_item.details_track_a }}</p>
@@ -59,7 +59,7 @@ schedule:
         <hr class="invisible">
         {% for agenda_item in page.schedule %}
         <div class="row align-right">
-            <div class="medium-4 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time_track_b }}</div>
+            <div class="medium-4 columns bold">{% if agenda_item.time_track_b %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_b }}</div>
             <div class="medium-8 columns">
                 <h5>{{ agenda_item.title_track_b }}</h5>
                 <p>{{ agenda_item.details_track_b }}</p>
