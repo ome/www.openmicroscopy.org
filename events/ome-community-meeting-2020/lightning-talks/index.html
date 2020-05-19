@@ -7,33 +7,39 @@ speakers:
     - firstname: Michelle
       surname: Itano
       aff: University of North Carolina, Dept. of Cell Biology & Physiology
+      title:
       link:
     - firstname: Erick
       surname: Ratamero
       aff: Research IT, The Jackson Laboratory
+      title:
       link:
     - firstname: Jamie
       surname: Sherman
       aff: Allen Institute for Cell Science
+      title:
       link:
     - firstname: Damir
       surname: Sudar
       aff: Quantitative Imaging Systems LLC
+      title:
       link:
     - firstname: Jorge
       surname: Toledo
       aff: REDECA / Universidad de Chile
+      title:
       link:
     - firstname: Stefanie
       surname: Weidtkamp-Peters
       aff: Center for Advanced Imaging, University of Duesseldorf
+      title:
       link:
 ---
 
 <div class="row">
-    <div class="row small-up-1 medium-up-2 text-center consortium-list">
+    <div class="row small-up-1 medium-up-2 consortium-list">
         {% for speaker in page.speakers %}
-        <div class="columns">{% if speaker.link %}<a target="_blank" href="{{ speaker.link }}">{% endif %}{{ speaker.firstname }} {{ speaker.surname }}{% if speaker.link %}</a>{% endif %} <span class="institution">{{ speaker.aff }}</span></div>
+        <div class="columns">{% if speaker.link %}<a target="_blank" href="{{ speaker.link }}">{% endif %}{{ speaker.title }}{% if speaker.link %}</a>{% endif %}<br>{{ speaker.firstname }} {{ speaker.surname }}, <span class="italic ome-green">{{ speaker.aff }}</span></div>
         {% endfor %}
     </div>
 </div>
