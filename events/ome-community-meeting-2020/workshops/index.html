@@ -59,10 +59,12 @@ schedule:
             <div class="medium-3 columns bold">{% if agenda_item.time_track_a %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_a }}</div>
             <div class="medium-9 columns">
                 <h5>{{ agenda_item.title_track_a }}</h5>
+                {% if agenda_item.time_track_a %}
                 <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_a }}">View Description</button>
                 <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_a }}" data-dropdown data-auto-focus="true">
                     <p class="tiny-print">{{ agenda_item.description_a }}</p>
                 </div>
+                {% endif %}
             </div>
         </div>
         <hr class="invisible">
@@ -76,11 +78,13 @@ schedule:
             <div class="medium-3 columns bold">{% if agenda_item.time_track_b %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_b }}</div>
             <div class="medium-9 columns">
                 <h5>{{ agenda_item.title_track_b }}</h5>
+                {% if agenda_item.time_track_b %}
                 <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_b }}">View Description</button>
                 <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_b }}" data-dropdown data-auto-focus="true">
                     <p class="tiny-print">{{ agenda_item.description_b }}</p>
                 </div>
             </div>
+            {% endif %}
         </div>
         <hr class="invisible">
         {% endfor %}
