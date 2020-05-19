@@ -1,0 +1,39 @@
+---
+layout: ome-community-meeting-program-2020
+nav-talks: active
+title: Community Lightning Talks
+subheader: Links to the lightning talks will be available here
+speakers:
+    - firstname: Michelle
+      surname: Itano
+      aff: University of North Carolina, Dept. of Cell Biology & Physiology
+      link:
+    - firstname: Erick
+      surname: Ratamero
+      aff: Research IT, The Jackson Laboratory
+      link:
+    - firstname: Jamie
+      surname: Sherman
+      aff: Allen Institute for Cell Science
+      link:
+    - firstname: Damir
+      surname: Sudar
+      aff: Quantitative Imaging Systems LLC
+      link:
+    - firstname: Jorge
+      surname: Toledo
+      aff: REDECA / Universidad de Chile
+      link:
+    - firstname: Stefanie
+      surname: Weidtkamp-Peters
+      aff: Center for Advanced Imaging, University of Duesseldorf
+      link:
+---
+
+<div class="row">
+    <div class="row small-up-1 medium-up-2 text-center consortium-list">
+        {% for speaker in page.speakers %}
+        <div class="columns">{% if speaker.link %}<a target="_blank" href="{{ speaker.link }}">{% endif %}{{ speaker.firstname }} {{ speaker.surname }}{% if speaker.link %}</a>{% endif %} <span class="institution">{{ speaker.aff }}</span></div>
+        {% endfor %}
+    </div>
+</div>
