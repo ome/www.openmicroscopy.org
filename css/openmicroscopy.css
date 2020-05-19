@@ -184,7 +184,7 @@ h3.subdivider {
     color: #127559;
 }
 
-.button.tiny { font-size: .65rem; }
+.button.tiny { font-size: .75rem; }
 
 /* ========== main navigation ==========*/
 .logo {
@@ -370,6 +370,12 @@ section.announcement a.styled-link {
     background-repeat: no-repeat;
     background-size: 960px, 100%;
     color: #263238; }
+.dropdown-pane {
+    border-color: #CFD8DC;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    font-weight: 600;
+}
 
 .marketing-hero-omero-figure {
     background: #CFD8DC url('../img/bg/figures.svg') center center repeat;
@@ -878,7 +884,7 @@ ul.pagination li a {
     color: #ffffff;
 }
 
-p.tiny-print { font-size: 11px; }
+p.tiny-print { font-size: .8125rem; }
 
 ul.no-list-style {
     list-style: none;

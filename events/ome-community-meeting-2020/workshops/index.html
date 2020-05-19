@@ -6,37 +6,30 @@ subheader: Learn more about using OMERO through our practical workshops
 schedule:
     - time_track_a: "11:00 - 13:00"
       title_track_a: "Introduction to OMERO"
-      details_track_a: Details to follow soon.
+      id_a: 1a
+      description_a: "Basic concepts, import, viewing and management of images and metadata in OMERO will be introduced. Data mining using OMERO.web and its extensions, such as OMERO.parade, will be shown. No previous knowledge about OMERO is assumed."
       time_track_b: "11:00 - 13:00"
       title_track_b: "OMERO Install and DevOps"
-      details_track_b: Details to follow soon.
+      id_b: 1b
+      description_b: "Over the past few years we have updated our OMERO deployment instructions to follow modern deployment practices. These take advantage of automation tools such as Ansible and Docker to ensure you can reliably and reproducibly install and upgrade your OMERO.servers. This workshop will introduce you to some of the resources available, and will include some live demonstrations. This will be followed by time for a general discussion or questions, for instance on deployments such as the IDR."
     - time_track_a: "13:00 - 15:00"
       title_track_a: "Next Gen File Formats"
-      details_track_a: Details to follow soon.
       time_track_b: "13:00 - 14:00"
       title_track_b: "OMERO.figure"
-      details_track_b: Details to follow soon.
     - time_track_a: "16:00 - 18:00"
       title_track_a: "Analysis with IDR"
-      details_track_a: Details to follow soon.
       time_track_b: "15:00 - 17:00"
       title_track_b: "Introduction to OMERO"
-      details_track_b: Details to follow soon.
     - time_track_a: "19:00 - 21:00"
       title_track_a: "Next Gen File Formats"
-      details_track_a: Details to follow soon.
       time_track_b: "17:00 - 18:00"
       title_track_b: "OMERO.figure"
-      details_track_b: Details to follow soon.
     - time_track_a: "21:00 - 23:00"
       title_track_a: "Analysis with IDR"
-      details_track_a: Details to follow soon.
       time_track_b: "19:00 - 21:00"
       title_track_b: "Large Import/Lessons from IDR"
-      details_track_b: Details to follow soon.
     - time_track_b: "21:00 - 23:00"
       title_track_b: "OMERO Install and DevOps"
-      details_track_b: Details to follow soon.
 ---
 
 <div class="row">
@@ -48,7 +41,10 @@ schedule:
             <div class="medium-3 columns bold">{% if agenda_item.time_track_a %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_a }}</div>
             <div class="medium-9 columns">
                 <h5>{{ agenda_item.title_track_a }}</h5>
-                <p>{{ agenda_item.details_track_a }}</p>
+                <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_a }}">View Description</button>
+                <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_a }}" data-dropdown data-auto-focus="true">
+                    <p class="tiny-print">{{ agenda_item.description_a }}</p>
+                </div>
             </div>
         </div>
         <hr class="invisible">
@@ -62,7 +58,10 @@ schedule:
             <div class="medium-3 columns bold">{% if agenda_item.time_track_b %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_b }}</div>
             <div class="medium-9 columns">
                 <h5>{{ agenda_item.title_track_b }}</h5>
-                <p>{{ agenda_item.details_track_b }}</p>
+                <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_b }}">View Description</button>
+                <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_b }}" data-dropdown data-auto-focus="true">
+                    <p class="tiny-print">{{ agenda_item.description_b }}</p>
+                </div>
             </div>
         </div>
         <hr class="invisible">
