@@ -39,7 +39,7 @@ speakers:
 <div class="row">
     <div class="row small-up-1 medium-up-2 consortium-list">
         {% for speaker in page.speakers %}
-        <div class="columns">{% if speaker.link %}<a target="_blank" href="{{ speaker.link }}">{% endif %}<h5>{{ speaker.title }}</h5>{% if speaker.link %}</a>{% endif %}<p>{{ speaker.firstname }} {{ speaker.surname }}, <span class="italic">{{ speaker.aff }}</span></p></div>
+        <div class="columns">{% if speaker.link %}<a target="_blank" href="{{ speaker.link }}">{% endif %}<h5>{% if speaker.link %}<i class="fa fa-link"></i>{% endif %} {{ speaker.title }}</h5>{% if speaker.link %}</a>{% endif %}<p>{{ speaker.firstname }} {{ speaker.surname }}, <span class="italic">{{ speaker.aff }}</span></p></div>
         {% endfor %}
     </div>
 </div>
