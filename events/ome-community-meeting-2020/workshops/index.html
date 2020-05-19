@@ -6,26 +6,32 @@ subheader: Learn more about using OMERO through our practical workshops
 schedule:
     - time_track_a: "11:00 - 13:00"
       title_track_a: "Introduction to OMERO"
+      color_code_a: "#FFEBEE"
       id_a: 1a
       description_a: "Basic concepts, import, viewing and management of images and metadata in OMERO will be introduced. Data mining using OMERO.web and its extensions, such as OMERO.parade, will be shown. No previous knowledge about OMERO is assumed."
       time_track_b: "11:00 - 13:00"
       title_track_b: "OMERO systems installation and configuration"
+      color_code_b: "#E3F2FD"
       id_b: 1b
       description_b: "Over the past few years we have updated our OMERO deployment instructions to follow modern deployment practices. These take advantage of automation tools such as Ansible and Docker to ensure you can reliably and reproducibly install and upgrade your OMERO.servers. This workshop will introduce you to some of the resources available, and will include some live demonstrations. This will be followed by time for a general discussion or questions, for instance on deployments such as the IDR."
     - time_track_a: "13:00 - 15:00"
       title_track_a: "Next Gen File Formats"
+      color_code_a: "#E0F2F1"
       id_a: 2a
       description_a: "From pyramidal OME-TIFFs to Zarr/n5 prototypes, we will walk through several recent and upcoming developments in our search for a next-general file format (NGFF). Demos include ImageJ macros, Bio-Formats command-line tools, an ome-zarr plugin for napari, and an OMERO microservice for publishing Zarr filesets."
       time_track_b: "13:00 - 14:00"
       title_track_b: "OMERO.figure with scripting"
+      color_code_b: "#E8F5E9"
       id_b: 2b
       description_b: "An overview of OMERO.figure, including some advanced features. This will be followed by an introduction to the creation and editing of figures in Python and JavaScript."
     - time_track_a: "16:00 - 18:00"
       title_track_a: "Analysis with IDR"
+      color_code_a: "#ECEFF1"
       id_a: 3a
       description_a: "We will give an overview of the various analysis entry points. We will then focus on analysing data using the Python API. We will show how to set up a Conda environment and how to integrate with 3rd party Python analysis tools such as ilastik."
       time_track_b: "15:00 - 17:00"
       title_track_b: "Introduction to OMERO"
+      color_code_b: "#FFEBEE"
       id_b: 3b
       description_b: "Basic concepts, import, viewing and management of images and metadata in OMERO will be introduced. Data mining using OMERO.web and its extensions, such as OMERO.parade, will be shown. No previous knowledge about OMERO is assumed."
     - time_track_a: "\xA0"
@@ -35,10 +41,12 @@ schedule:
       dirty_hack: yes
       time_track_b: "17:00 - 18:00"
       title_track_b: "OMERO.figure with scripting"
+      color_code_b: "#E8F5E9"
       id_b: 4b
       description_b: "An overview of OMERO.figure, including some advanced features. This will be followed by an introduction to the creation and editing of figures in Python and JavaScript."
     - time_track_a: "19:00 - 21:00"
       title_track_a: "Next Gen File Formats"
+      color_code_a: "#E0F2F1"
       id_a: 4a
       description_a: "From pyramidal OME-TIFFs to Zarr/n5 prototypes, we will walk through several recent and upcoming developments in our search for a next-general file format (NGFF). Demos include ImageJ macros, Bio-Formats command-line tools, an ome-zarr plugin for napari, and an OMERO microservice for publishing Zarr filesets."
       time_track_b: "19:00 - 21:00"
@@ -47,10 +55,12 @@ schedule:
       description_b: "Possibilities for importing large and heterogeneous data into OMERO will be explored. This includes command-line import, in-place import and bulk import."
     - time_track_a: "21:00 - 23:00"
       title_track_a: "Analysis with IDR"
+      color_code_a: "#ECEFF1"
       id_a: 5a
       description_a: "We will give an overview of the various analysis entry points. We will then focus on analysing data using the Python API. We will show how to set up a Conda environment and how to integrate with 3rd party Python analysis tools such as ilastik."
       time_track_b: "21:00 - 23:00"
       title_track_b: "OMERO systems installation and configuration"
+      color_code_b: "#E3F2FD"
       id_b: 6b
       description_b: "Over the past few years we have updated our OMERO deployment instructions to follow modern deployment practices. These take advantage of automation tools such as Ansible and Docker to ensure you can reliably and reproducibly install and upgrade your OMERO.servers. This workshop will introduce you to some of the resources available, and will include some live demonstrations. This will be followed by time for a general discussion or questions, for instance on deployments such as the IDR."
 ---
@@ -67,16 +77,16 @@ schedule:
         {% for agenda_item in page.schedule %}
         <div class="row align-right">
             <div class="medium-3 columns bold">{% if agenda_item.id_a %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_a }}</div>
-            <div class="medium-9 columns">
+            <div class="medium-9 columns color-coded" style="background-color: {{ agenda_item.color_code_a }};">
                 <h5>{{ agenda_item.title_track_a }}</h5>
                 {% if agenda_item.dirty_hack %}
-                <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_a }}" style="visibility: hidden;">View Description</button>
+                <button class="button small" type="button" data-toggle="{{ agenda_item.id_a }}" style="visibility: hidden;">View Description</button>
                 <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_a }}" data-dropdown data-auto-focus="true">
                     <p class="tiny-print">{{ agenda_item.description_a }}</p>
                 </div>
                 {% endif %}
                 {% if agenda_item.id_a %}
-                <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_a }}">View Description</button>
+                <button class="button small" type="button" data-toggle="{{ agenda_item.id_a }}">View Description</button>
                 <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_a }}" data-dropdown data-auto-focus="true">
                     <p class="tiny-print">{{ agenda_item.description_a }}</p>
                 </div>
@@ -92,10 +102,10 @@ schedule:
         {% for agenda_item in page.schedule %}
         <div class="row align-right">
             <div class="medium-3 columns bold">{% if agenda_item.id_b %}<i class="fa fa-clock-o"></i>{% endif %} {{ agenda_item.time_track_b }}</div>
-            <div class="medium-9 columns">
+            <div class="medium-9 columns color-coded" style="background-color: {{ agenda_item.color_code_b }};">
                 <h5>{{ agenda_item.title_track_b }}</h5>
                 {% if agenda_item.time_track_b %}
-                <button class="button small hollow" type="button" data-toggle="{{ agenda_item.id_b }}">View Description</button>
+                <button class="button small" type="button" data-toggle="{{ agenda_item.id_b }}">View Description</button>
                 <div class="dropdown-pane" data-position="bottom" data-alignment="left" id="{{ agenda_item.id_b }}" data-dropdown data-auto-focus="true">
                     <p class="tiny-print">{{ agenda_item.description_b }}</p>
                 </div>
