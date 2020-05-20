@@ -48,6 +48,7 @@
         <p class="text-center"><span class="bold">{{ agenda_item.vid_title3 }}</span><br>{{ agenda_item.vid_speaker3 }}{% if agenda_item.vid_speaker3 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff3 }}</span></p>
         </div>
     </div>
+    {% if agenda_item.vid_link4 %}
     <div class="row align-right">
         {% if agenda_item.vid_link4 %}
         <div class="medium-4 columns">
@@ -74,6 +75,7 @@
         <p class="text-center"><span class="bold">{{ agenda_item.vid_title6 }}</span><br>{{ agenda_item.vid_speaker6 }}{% if agenda_item.vid_speaker6 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff6 }}</span></p>
         </div>
     </div>
+    {% endif %}
 
         {% endif %}
     </div>
