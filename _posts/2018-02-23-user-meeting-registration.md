@@ -4,7 +4,7 @@ title: 2018 OME Annual Users Meeting registration
 intro-blurb: The OME team is pleased to announce that registration for the 2018 OME Annual Users Meeting is now open
 ---
 
-We are pleased to announce that registration for the 2018 OME Annual Users Meeting is now open.
+We are pleased to announce that registration for the 2018 OME Annual Users Meeting is now closed.
 
 The meeting will be held May 30th - June 1st 2018 at the University of Dundee,
 Scotland, UK.
