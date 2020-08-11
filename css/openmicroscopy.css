@@ -719,7 +719,7 @@ p.card-caption, span.card-caption {
         min-height: 45px;
         padding: 0 45px; }
     .omero-feature-container.tall-content > p {
-        min-height: 80px;
+        min-height: 60px;
 }
 
 .tall-caption {
