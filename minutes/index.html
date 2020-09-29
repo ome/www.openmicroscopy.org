@@ -1,0 +1,29 @@
+---
+layout: news
+title: Meeting Minutes
+filename: minutes
+main-blurb: Minutes from the weekly OME community meetings
+meta_description: Keep up-to-date with what's going on in the OME community.
+---
+        <!-- begin News -->
+        <hr class="whitespace">
+        <div id="community-posts" class="row">
+{% for minute in site.minutes %}
+            <div class="small-12 medium-8 medium-offset-2 columns">
+                <h6><i class="fa fa-calendar"></i> {{minute.date | date: "%B %d, %Y"}}</h6>
+                <h2><a href="{{ minute.url | relative_url }}">{{minute.title}}</a></h2>
+                <p class="card-caption">{{minute.intro-blurb}}</p>
+                <div class="row"></div>
+            </div>
+            <hr class="medium-8">
+{% endfor %}
+        </div>
+        <!-- end News -->
+        <hr class="whitespace">
+        <div class="row">
+            <div class="small-12 medium-8 medium-offset-2">
+                <p class="callout primary">FIXME You can find details of earlier releases in the documentation for the product you're interested in</p>
+            </div>
+        </div>
+        <hr class="invisible">
+
