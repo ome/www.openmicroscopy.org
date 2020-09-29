@@ -8,7 +8,8 @@ meta_description: Keep up-to-date with what's going on in the OME community.
         <!-- begin News -->
         <hr class="whitespace">
         <div id="community-posts" class="row">
-{% for minute in site.minutes %}
+{% assign sorted = site.minutes | reverse %}
+{% for minute in sorted %}
             <div class="small-12 medium-8 medium-offset-2 columns">
                 <h6><i class="fa fa-calendar"></i> {{minute.date | date: "%B %d, %Y"}}</h6>
                 <h2><a href="{{ minute.url | relative_url }}">{{minute.title}}</a></h2>
