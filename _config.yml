@@ -12,6 +12,25 @@ plugins:
 paginate: 10
 paginate_path: "/announcements/page:num/"
 
+collections:
+    minutes:
+        output: true
+defaults:
+  - scope:
+      path: ""
+      type: "minutes"
+    values:
+      layout: "minute"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 future: true
 
 bf:
