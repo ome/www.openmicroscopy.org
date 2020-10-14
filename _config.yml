@@ -3,7 +3,8 @@ markdown: kramdown
 
 url: https://ome.github.io
 repository: openmicroscopy/www.openmicroscopy.org
-baseurl: /www.openmicroscopy.org
+baseurl: ''
+# baseurl: /www.openmicroscopy.org
 
 plugins:
   - jekyll-redirect-from
