@@ -1,3 +1,6 @@
 [submodule "_minutes"]
 	path = _minutes
 	url = https://github.com/ome/meeting-minutes
+[submodule "Schemas"]
+	path = Schemas
+	url = https://github.com/ome/schemas
