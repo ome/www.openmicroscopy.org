@@ -9,7 +9,7 @@ script:
   - docker run -it --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build --config _config.yml,_prod.yml
   # Report 4xx status codes except 429 errors (Too Many Requests)
   # typically sent by GitHub while linkchecking the downloads
-  - docker run -it  --rm -v $(pwd)/_site:/site -it jekyll/builder:pages /usr/gem/bin/htmlproofer /site --only_4xx --http-status-ignore "429" --file_ignore '/minutes/'
+  - docker run -it  --rm -v $(pwd)/_site:/site -it jekyll/builder:pages /usr/gem/bin/htmlproofer /site --only_4xx --http-status-ignore "429" --file_ignore '/minutes/' --url-ignore '/https:\/\/www.openmicroscopy.org\/site\/support\/bio-formats5/,/https:\/\/www.openmicroscopy.org\/community/,/https:\/\/www.openmicroscopy.org\/qa2/'
 
 before_deploy:
   - tar -zcvf ${TRAVIS_REPO_SLUG#*/}.tar.gz -C _site ./
