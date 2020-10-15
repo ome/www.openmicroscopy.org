@@ -16,8 +16,8 @@ issue will be back-ported to the 4.4.x line - we will be releasing
 For OMERO, this release includes:
 
 -  Code signing to fix the Java Web Start issues
--  New import scenarios [documentation](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/index.html#data-import-options) including for the new 'in-place' import capability
--  Significant stability improvements to search, possibly requiring [re-indexing](https://www.openmicroscopy.org/site/support/omero5.0/developers/Modules/Search.html?highlight=indexing#re-indexing) if you are having issues
+-  New import scenarios [documentation](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/index.html#data-import-options) including for the new 'in-place' import capability
+-  Significant stability improvements to search, possibly requiring [re-indexing](https://docs.openmicroscopy.org/latest/omero5.0/developers/Modules/Search.html?highlight=indexing#re-indexing) if you are having issues
 -  Correct a serious CLASSPATH issue in OMERO.matlab in older versions of MATLAB 
 -  Bug fixes and improvements in OMERO.insight for groups, user menus, file name settings, metadata, cut/copy/paste operations,
 -  Bug fixes and improvements in OMERO.web including image IDs for Wells, image sorting, and timeouts on upgrade checks.
@@ -51,7 +51,7 @@ pages.
 The software is available from [OMERO archived downloads](https://downloads.openmicroscopy.org/omero/5.0.1/) and [Bio-Formats archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.1/).
 
 For information on upgrading your server, see the [server upgrade
-documentation](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html).
+documentation](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-upgrade.html).
 
 Any problems or comments, please use the OME [forums or mailing
 lists]({{ site.baseurl }}/support/).

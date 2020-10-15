@@ -37,13 +37,13 @@ For OMERO:
 
 Further details are available on the What's New pages:
 
-[Users](https://www.openmicroscopy.org/site/support/omero5.1/users/whatsnew.html), [Sysadmins](https://www.openmicroscopy.org/site/support/omero5.1/sysadmins/whatsnew.html) and [Developers](https://www.openmicroscopy.org/site/support/omero5.1/developers/whatsnew.html).
+[Users](https://docs.openmicroscopy.org/latest/omero5.1/users/whatsnew.html), [Sysadmins](https://docs.openmicroscopy.org/latest/omero5.1/sysadmins/whatsnew.html) and [Developers](https://docs.openmicroscopy.org/latest/omero5.1/developers/whatsnew.html).
 
-External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 [Bio-Formats version history](https://www.openmicroscopy.org/site/support/omero5.1/users/history.html)
+External developers who have not been following the milestone releases should also read the 5.1.0-m1 to 5.1.0-m5 [Bio-Formats version history](https://docs.openmicroscopy.org/latest/omero5.1/users/history.html)
 
 The software is available at [archived downloads](https://downloads.openmicroscopy.org/omero/5.1.0)
 
-Upgrade information is at [server upgrade page](https://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html.
+Upgrade information is at [server upgrade page](https://docs.openmicroscopy.org/latest/omero5.1/sysadmins/server-upgrade.html.
 
 **NOTE: PostgreSQL 9.2 is the new minimum required version. Sysadmins who don't currently meet this will need to upgrade to a later version, 9.3+ is recommended.**
 

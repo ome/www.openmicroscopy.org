@@ -19,11 +19,11 @@ speakers:
     - firstname: Sebastien
       surname: Besson
       aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
+      link: "!SITE_BASEURL!/teams/"
     - firstname: Jean-Marie
       surname: Burel
       aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
+      link: "!SITE_BASEURL!/teams/"
     - firstname: JP
       surname: Cartailler
       aff: Vanderbilt University
@@ -51,7 +51,7 @@ speakers:
     - firstname: Josh
       surname: Moore
       aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
+      link: "!SITE_BASEURL!/teams/"
     - firstname: Shuichi
       surname: Onami
       aff: RIKEN
@@ -91,7 +91,7 @@ speakers:
     - firstname: Jason
       surname: Swedlow
       aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
+      link: "!SITE_BASEURL!/teams/"
     - firstname: Ola
       surname: Tarkowska
       aff: Wellcome Sanger Centre
@@ -103,13 +103,13 @@ speakers:
     - firstname: Frances
       surname: Wong
       aff: The Open Microscopy Environment
-      link: "https://www.openmicroscopy.org/teams/"
+      link: "!SITE_BASEURL!/teams/"
 ---
 
 <div class="row">
     <div class="row small-up-1 medium-up-2 text-center consortium-list">
         {% for speaker in page.speakers %}
-        <div class="columns"><a target="_blank" href="{{ speaker.link }}">{{ speaker.firstname }} {{ speaker.surname }}</a> <span class="institution">{{ speaker.aff }}</span></div>
+        <div class="columns"><a target="_blank" href="{{ speaker.link | replace: '!SITE_BASEURL!', site.baseurl }}">{{ speaker.firstname }} {{ speaker.surname }}</a> <span class="institution">{{ speaker.aff }}</span></div>
         {% endfor %}
     </div>
 </div>

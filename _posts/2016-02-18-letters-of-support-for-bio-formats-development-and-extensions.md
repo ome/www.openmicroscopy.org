@@ -7,7 +7,7 @@ Dear All,
 
 Fresh on the heels of another Bio-Formats release- it's funding time again (when isn't it??).
 
-As many of you know, OME's [Bio-Formats library](https://www.openmicroscopy.org/site/products/bio-formats) is heavily used by the imaging community, and is a great example of what can be achieved when scientists, engineers, software developers work together. The project has become a critical component of many open and commercial software tools. As just one metric of success, Bio-Formats was started >36 Mio times in 2015. That's an average of >100k times each day.
+As many of you know, OME's [Bio-Formats library]({{ site.baseurl }}/bio-formats) is heavily used by the imaging community, and is a great example of what can be achieved when scientists, engineers, software developers work together. The project has become a critical component of many open and commercial software tools. As just one metric of success, Bio-Formats was started >36 Mio times in 2015. That's an average of >100k times each day.
 
 Short version: We're submitting a proposal for future-proofing Bio-Formats and extending the range of metadata OME supports. We need letters of support from the community!!! Please do send directly to Jason before Feb 26!!!
 

@@ -30,7 +30,7 @@ For OMERO users, this release includes:
 - Downloading original files from the command line;
 - Improvements to the way OMERO.matlab handles annotations;
 - Improvements to tagging workflows in the clients;
-- Further work on [code signing](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-webstart-codesigning.html)
+- Further work on [code signing](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-webstart-codesigning.html)
   for webstart and accompanying documentation;
 - Disk space usage reporting for OMERO.web admins;
 - Custom webstart intro page templates;
@@ -60,7 +60,7 @@ The software is available from [OMERO archived downloads](https://downloads.open
 
 
 For information on upgrading your server, see the [server upgrade
-documentation](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html).
+documentation](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-upgrade.html).
 
 
 Any problems or comments, please use the OME [forums or mailing

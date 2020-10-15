@@ -24,7 +24,7 @@ The software is available from
 and
 [Bio-Formats archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.4/)
 
-For information on upgrading your server, see the upgrade guide for system administrators - [server upgrade](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
+For information on upgrading your server, see the upgrade guide for system administrators - [server upgrade](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-upgrade.html)
 
 Note that you need to upgrade your OMERO.server to take advantage of the improved support for .ND2 in Bio-Formats.
 

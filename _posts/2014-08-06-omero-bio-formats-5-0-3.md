@@ -45,7 +45,7 @@ For system administrators, changes include:
 - a large redesign of the Sphinx documentation for system administrators including sections on search and performance configuration and glossary of the server configuration properties
 - several CLI fixes including the -g option for import as, better support for non-ASCII characters
 
-** [Re-indexing](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/search.html) your server may significantly improve the search results.**
+** [Re-indexing](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/search.html) your server may significantly improve the search results.**
 
 Note that the generated Apache 2.2 config contains a Rewrite rule `(RewriteRule ^/?$ /omero/ [R])` which no longer works (404 error), possibly due to changes in the OMERO.web custom prefix auto-configuration. Removing the rule fixes things.
 
@@ -58,6 +58,6 @@ The software is available from
 and
 [Bio-Formats archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.3/)
 
-For information on upgrading your server, see [server upgrade](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
+For information on upgrading your server, see [server upgrade](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-upgrade.html)
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

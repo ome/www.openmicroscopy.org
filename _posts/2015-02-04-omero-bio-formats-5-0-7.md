@@ -30,7 +30,7 @@ and
 [Bio-Formats archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.7/)
 
 
-For information on upgrading your server, see the [upgrade guide](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html) for system administrators.
+For information on upgrading your server, see the [upgrade guide](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-upgrade.html) for system administrators.
 
 For full details of the next major release, see the [5.1 milestone page](https://trac.openmicroscopy.org/ome/milestone/5.1.0)
 

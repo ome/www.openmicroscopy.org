@@ -56,6 +56,6 @@ Other updates include:
 
 The software is available at [archived downloads](https://downloads.openmicroscopy.org/omero/5.1.1)
 
-Upgrade information is at the [server upgrade page](https://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html).
+Upgrade information is at the [server upgrade page](https://docs.openmicroscopy.org/latest/omero5.1/sysadmins/server-upgrade.html).
 
 Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/).

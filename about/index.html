@@ -23,7 +23,7 @@ funding:
       ref: 654248
 consortium:
     - member_name: "Prof Jason Swedlow"
-      member_link: "https://www.openmicroscopy.org/teams/index.html#swedlow-lab"
+      member_link: "!SITE_BASEURL!/teams/index.html#swedlow-lab"
       institution: "Division of Computational Biology, School of Life Sciences, University of Dundee"
     - member_name: "Prof Richard Baldock"
       member_link: "http://www.hgu.mrc.ac.uk/people/r.baldock.html"
@@ -203,7 +203,7 @@ partnerships2:
         <hr>
         <div class="row medium-up-1 large-up-1 text-center consortium-list">
             {% for member in page.consortium %}
-            <div class="large-expand columns"><a target="_blank" href="{{ member.member_link }}">{{ member.member_name }}</a> <span class="institution">{{ member.institution }}</span></div>
+            <div class="large-expand columns"><a target="_blank" href="{{ member.member_link | replace: '!SITE_BASEURL!', site.baseurl }}">{{ member.member_name }}</a> <span class="institution">{{ member.institution }}</span></div>
             {% endfor %}
         </div>
         <!-- end Consortium section -->

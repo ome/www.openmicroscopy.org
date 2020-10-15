@@ -61,17 +61,17 @@ For OMERO:
 - Updated indexing to help improve search performance
 - OMERO.web upgrade to Django 1.6 allowing more flexibility for developing new web apps
 - Initial steps towards supporting MATLAB and Jython scripts
-- CLI plugin allowing access to tags and tag sets from the [command line](https://www.openmicroscopy.org/site/support/omero5.0/users/command-line-interface.html)
+- CLI plugin allowing access to tags and tag sets from the [command line](https://docs.openmicroscopy.org/latest/omero5.0/users/command-line-interface.html)
 - Modulo (FLIM/SPIM) support in OMERO.insight
 - Many bug fixes including thumbnails, plates, tables and LDAP
 - New help guide for installing the plugins needed to use [OMERO with ImageJ](https://help.openmicroscopy.org/imagej.html)
-- 'What's New' summaries for [users](https://www.openmicroscopy.org/site/support/omero5.0/users/whatsnew.html), [sysadmins](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/whatsnew.html) and [developers](https://www.openmicroscopy.org/site/support/omero5.0/developers/whatsnew.html) to help you quickly identify updates
+- 'What's New' summaries for [users](https://docs.openmicroscopy.org/latest/omero5.0/users/whatsnew.html), [sysadmins](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/whatsnew.html) and [developers](https://docs.openmicroscopy.org/latest/omero5.0/developers/whatsnew.html) to help you quickly identify updates
 
 The software is available from [archived
 downloads](https://downloads.openmicroscopy.org/omero/5.0.0).
 
 Upgrade information is available in the [server upgrade
-documentation](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html).
+documentation](https://docs.openmicroscopy.org/latest/omero5.0/sysadmins/server-upgrade.html).
 
 In the near future, the OME team will release updates to several
 applications, including OMERO.searcher, u-track and several others.
