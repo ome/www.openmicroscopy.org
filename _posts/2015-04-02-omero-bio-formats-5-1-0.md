@@ -6,7 +6,7 @@ intro-blurb: The OME team is pleased to announce the release of OMERO & Bio-Form
 
 Today we are releasing OMERO and Bio-Formats 5.1.0. This is a full, production-ready release of OME's new software tools. With this release, the 5.0.x line enters maintenance mode and while we will continue to support it throughout 2015, it will only be updated for major bug fixes and security issues. We will not be releasing any further updates to the 4.4.x line.
 
-The 5.1.0 release updates the Data Model to the [January 2015 schema](https://www.openmicroscopy.org/site/support/ome-model/schemas/january-2015.html), including support for units and new more flexible user-added metadata, improves performance for a number of operations and formats, especially import times for large datasets such as HCS and SPIM, fixes many bugs, and features a substantial code clean-up across the platform and upgrade to OMERO.web.
+The 5.1.0 release updates the Data Model to the [January 2015 schema](https://docs.openmicroscopy.org/latest/ome-model/schemas/january-2015.html), including support for units and new more flexible user-added metadata, improves performance for a number of operations and formats, especially import times for large datasets such as HCS and SPIM, fixes many bugs, and features a substantial code clean-up across the platform and upgrade to OMERO.web.
 
 Bio-Formats 5.1.0 includes substantially improved performance with network file systems, and initial version of a native C++ implementation with its own viewer, improved support for ImageJ, and support for several new file formats; CellH5[1], Perkin Elmer Nuance[2], Amnis FlowSight[3], Veeco AFM, Zeiss .lms, I2I, plus support for writing Vaa3D data[4].
 
