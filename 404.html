@@ -17,14 +17,11 @@ title: 404
             </div>
         </div>
         <div class="row small-12 medium-12 large-12">
-            <div class="column text-center" id="javascript-redirect">
-            </div>
-        </div>
-        <div class="row small-12 medium-12 large-12">
-            <div class="column text-center" id="button-home">
-                <a href="{{ site.baseurl }}/" class="button large">Go Back to the Home Page</a>
+            <div class="column text-center">
+                <p id="button-intro" class="subheader small-12 medium-6 medium-offset-3"></p>
+                <a href="{{ site.baseurl }}/" class="button large" id="button-home">Go Back to the Home Page</a>
                 <hr class="invisible">
-                <h6>If you really, <em>really</em> want to go back to the old website, then go <a href="https://www-legacy.openmicroscopy.org/" target="_blank">here</a>.</h6>
+                <h6 id="legacy-website">If you really, <em>really</em> want to go back to the old website, then go <a href="https://www-legacy.openmicroscopy.org/" target="_blank">here</a>.</h6>
             </div>
         </div>     
         <hr class="whitespace">
@@ -74,19 +71,17 @@ title: 404
                 '/info/(?<link>.*)?': '/site-map'
             };
             var path = document.location.pathname;
-            var elem = document.getElementById('javascript-redirect');
             for (var pattern in redirectMap) {
               var m = RegExp(pattern).exec(path);
             //   console.log(pattern, redirectMap[pattern], m);
               if (m) {
                 var dest = redirectMap[pattern].replace('$link', m.groups.link);
                 // console.log(pattern, path, '➜', dest);
-                elem.appendChild(document.createTextNode("This page has moved to "));
-                var a = document.createElement('a');
-                a.href = dest;
-                a.text = dest;
-                elem.appendChild(a);
-                document.getElementById('button-home').style.visibility = 'hidden';
+                var button = document.getElementById('button-home');
+                button.href = dest;
+                button.text = dest;
+                document.getElementById('button-intro').appendChild(document.createTextNode('This page has moved to'));
+                document.getElementById('legacy-website').style.visibility = 'hidden';
                 break;
               }
             }
