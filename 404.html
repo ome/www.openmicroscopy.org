@@ -17,10 +17,77 @@ title: 404
             </div>
         </div>
         <div class="row small-12 medium-12 large-12">
-            <div class="column text-center">
+            <div class="column text-center" id="javascript-redirect">
+            </div>
+        </div>
+        <div class="row small-12 medium-12 large-12">
+            <div class="column text-center" id="button-home">
                 <a href="{{ site.baseurl }}/" class="button large">Go Back to the Home Page</a>
                 <hr class="invisible">
                 <h6>If you really, <em>really</em> want to go back to the old website, then go <a href="https://www-legacy.openmicroscopy.org/" target="_blank">here</a>.</h6>
             </div>
         </div>     
         <hr class="whitespace">
+
+        <script type="text/javascript">
+            var redirectMap = {
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L62-L69
+                '/omero-blog(?<link>.*)': 'http://blog.openmicroscopy.org',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L72-L93
+                '/site/about/licensing-attribution(?<link>/.*)?': '/licensing',
+                '/site/about/(?<link>.*)': '/about',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L96-L119
+                '/site/products/omero/secvuln/(?<link>.*[^/])/?': '/security/advisories/$link/',
+                '/site/products/(?<link>.*)': '/products',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L122-L145
+                '/site/events(?<link>/.*)?': '/events',
+                '/site/community/(?<link>.*)': '/support',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L151-L170
+                '/site/support/bio-formats/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/bio-formats/$link',
+                '/site/support/bio-formats5/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/bio-formats5/$link',
+                '/site/support/bio-formats5\.3/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/bio-formats5.3/$link',
+                '/site/support/bio-formats5\.4/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/bio-formats5.4/$link',
+                '/site/support/bio-formats5\.5/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/bio-formats5.5/$link',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L172-L195
+                '/site/support/omero/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/omero/$link',
+                '/site/support/omero5/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/omero5/$link',
+                '/site/support/omero5\.0/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/omero5.0/$link',
+                '/site/support/omero5\.1/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/omero5.1/$link',
+                '/site/support/omero5\.2/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/omero5.2/$link',
+                '/site/support/omero5\.3/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/omero5.3/$link',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L197-L218
+                '/site/support/ome-model/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/ome-model/$link',
+                '/site/support/ome-files-cpp/(?<link>.*)': 'https://docs.openmicroscopy.org/latest/ome-files-cpp/$link',
+                '/site/support/contributing/(?<link>.*)': 'https://docs.openmicroscopy.org/contributing/$link',
+                '/site/support/previous(?<link>/.*)?': 'https://docs.openmicroscopy.org',
+                '/site/support/ome-artwork(?<link>/.*)?': '/artwork',
+
+                // https://github.com/ome/prod-playbooks/blob/3027ede41396c49cb8ae4c5dede19a58a718b6e6/www/www-deploy.yml#L235-L278
+                '/info/vulnerabilities/(?<link>.*[^/])/?': '/security/advisories/$link/',
+                '/info/bio-formats(?<link>/.*)?': 'https://docs.openmicroscopy.org/latest/bio-formats/',
+                '/info/(?<link>.*)?': '/site-map'
+            };
+            var path = document.location.pathname;
+            var elem = document.getElementById('javascript-redirect');
+            for (var pattern in redirectMap) {
+              var m = RegExp(pattern).exec(path);
+            //   console.log(pattern, redirectMap[pattern], m);
+              if (m) {
+                var dest = redirectMap[pattern].replace('$link', m.groups.link);
+                // console.log(pattern, path, '➜', dest);
+                elem.appendChild(document.createTextNode("This page has moved to "));
+                var a = document.createElement('a');
+                a.href = dest;
+                a.text = dest;
+                elem.appendChild(a);
+                document.getElementById('button-home').style.visibility = 'hidden';
+                break;
+              }
+            }
+        </script>
