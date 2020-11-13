@@ -1,17 +1,6 @@
 {
     "images": [
         {
-            "Image": "179706",
-            "Name": "plate1_1_013 [Well 92, Field 1 (Spot 92)]",
-            "Study": "idr0002",
-            "X": "1344",
-            "Y": "1024",
-            "Z": "1",
-            "C": "2",
-            "T": "329",
-            "first_version": "0.1"
-        },
-        {
             "Image": "1884807",
             "Name": "Centrin_PCNT_Cep215_20110506_Fri-1545_0_SIR_PRJ.dv",
             "Study": "idr0021",
