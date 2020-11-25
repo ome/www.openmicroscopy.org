@@ -1,6 +1,6 @@
-# OME website
+[![Build Status](https://github.com/ome/www.openmicroscopy.org/workflows/Build/badge.svg)](https://github.com/ome/www.openmicroscopy.org/actions)
 
-[![Build Status](https://travis-ci.org/ome/www.openmicroscopy.org.svg?branch=master)](https://travis-ci.org/ome/www.openmicroscopy.org)
+# OME website
 
 This repository contains the source code for the OME Website hosted at
 https://www.openmicroscopy.org.
