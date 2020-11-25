@@ -4,8 +4,7 @@ import json
 import os
 import sys
 import tarfile
-# Python 2 and 3 compatible so this can be run on the RHEL7 without a
-# virtualenv
+# Python 2 and 3 compatible so this can be run on RHEL7 without a virtualenv
 try:
     from urllib.request import urlopen
 except ImportError:
@@ -29,6 +28,7 @@ def main(version, parent):
                 break
         if release is None:
             print('Failed to find release {}'.format(version))
+            sys.exit(1)
 
     tag = release['tag_name']
 
