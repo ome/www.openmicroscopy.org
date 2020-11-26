@@ -11,7 +11,7 @@ except ImportError:
     from urllib2 import urlopen
 
 
-def main(version, parent):
+def main(version, parent, dry_run):
     # https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#releases
     # No paging, assume no-one will install a really old version
     r = urlopen('https://api.github.com/repos/ome/www.openmicroscopy.org/releases')
@@ -37,6 +37,8 @@ def main(version, parent):
 
     if os.path.exists(dst):
         print('{} already exists, not downloading'.format(dst))
+    elif dry_run:
+        print('Would download {}'.format(dst))
     else:
         www_assets = [a for a in release['assets'] if a['name'] == 'www.openmicroscopy.org.tar.gz']
         assert len(www_assets) == 1, 'Expected one asset named www.openmicroscopy.org.tar.gz'
@@ -50,22 +52,34 @@ def main(version, parent):
 
     if os.path.exists(sym):
         assert os.path.islink(sym), '{} is not a symlink'.format(sym)
-        if os.readlink(sym) == dst:
+        target = os.readlink(sym)
+        if target == dst:
             print('{} already points to {}, no changes made'.format(dst, sym))
             sys.exit(0)
-        print(os.readlink(sym))
-        os.remove(sym)
-    os.symlink(dst, sym)
-    print('Symlinked {} to {}'.format(dst, sym))
+        elif dry_run:
+            print('Would remove symlink {} (target={})'.format(sym, target))
+        else:
+            print(target)
+            # Mutator
+            os.remove(sym)
+    if dry_run:
+        print('Would symlink {} to {}'.format(dst, sym))
+    else:
+        # Mutator
+        os.symlink(dst, sym)
+        print('Symlinked {} to {}'.format(dst, sym))
     sys.exit(0)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    xor = parser.add_mutually_exclusive_group()
+    xor.add_argument('-n','--dry-run', action='store_true', default=True)
+    xor.add_argument('-f','--force', action='store_false', dest="dry_run")
     parser.add_argument(
         '--parentdir', default='/var/www/www.openmicroscopy.org',
         help='Web-server directory for www.openmicroscopy.org')
     parser.add_argument('--version', default='latest',
         help='Release to download')
     args = parser.parse_args()
-    main(args.version, args.parentdir)
+    main(args.version, args.parentdir, args.dry_run)
