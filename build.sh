@@ -10,5 +10,5 @@ docker run --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyl
 docker run --rm -v $(pwd)/_site:/site jekyll/builder:pages /usr/gem/bin/htmlproofer /site --only_4xx --http-status-ignore "429" --file_ignore '/minutes/'
 
 # Test file existence
-test -f _site/Schemas/OME/2016-06/ome.xsd
-test -f _site/minutes/README.md
+test -f _site/Schemas/OME/2016-06/ome.xsd || echo "Missing schemas" && exit 1
+test -f _site/minutes/README.md || echo "Missing minutes" && exit 1
