@@ -34,7 +34,7 @@ defaults:
 future: true
 
 bf:
- version: 6.5.1
+ version: 6.6.0
 
 omero:
  version: 5.6.3
