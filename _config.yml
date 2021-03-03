@@ -43,7 +43,7 @@ omero:
  insight:
   version: 5.5.17
  matlab:
-  version: 5.5.3
+  version: 5.5.4
 
 omecommoncpp:
   version: 5.5.0
