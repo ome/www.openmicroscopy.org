@@ -1,0 +1,61 @@
+---
+layout: security-advisory
+filename: security
+title: 2021-SV2 URL validation on login
+main-blurb: affects OMERO.web versions prior to 5.9.0
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO webclient does not validate URL redirects on login or switching group.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+        <p class="secvul-description">OMERO.web supports redirection to a given URL after performing login or switching the group context. These URLs are not validated, allowing redirection to untrusted sites. OMERO.web 5.9.0 adds URL validation before redirecting. External URLs are not considered valid, unless specified in the <i>omero.web.redirect_allowed_hosts</i> setting.</p>
+        <p class="secvul-description">This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-21377">CVE-2021-21377</a> and
+            <a href="https://github.com/advisories/GHSA-g4rf-pc26-6hmr">GHSA-g4rf-pc26-6hmr</a>.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.web before 5.9.0.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">High severity.</p>
+                <p class="secvul-description"><a href="https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:H/MPR:L/MUI:R/MS:U/MC:H/MI:H/MA:H" target="_blank">CVSS score 6.6 vector AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:H/MPR:L/MUI:R/MS:U/MC:H/MI:H/MA:H</a></p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.web should be upgraded to at least 5.9.0.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+                <div class="small-12 medium-3 columns">
+                    <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
+                </div>
+                <div class="small-12 medium-9 columns">
+                    <p class="secvul-description">Teng Zheng for notifying the OME team of this security issue via <code>security@openmicroscopy.org</code>. </p>
+                </div>
+            </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
