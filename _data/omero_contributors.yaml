@@ -1,17 +1,26 @@
 ---
+- fullname: Johannes Dewender
+  githubname: JonnyJD
+  affiliations:
+    - name: Fraunhofer IBMT
+      url: https://www.ibmt.fraunhofer.de/en.html
 - fullname: Niko Ehrenfeuchter
   githubname: ehrenfeu
   affiliations:
     - name: University of Basel
       url: https://www.unibas.ch
+- fullname: Guillaume Gay
+  githubname: glyg
+  affiliations:
+    - name: CENTURI - Turing Centre for Living Systems
+      url: https://centuri-livingsystems.org/
 - fullname: Alex Herbert
+  githubname: aherbert
   affiliations:
    - name: University of Sussex
      url: https://www.sussex.ac.uk/
-- fullname: Jason Lee
-  affiliations:
-    - name: University of Missouri
-      url: https://www.missouri.edu/
+- fullname: Yohan Jarosz
+  githubname: yjarosz
 - fullname: Leon Kolchinsky
   affiliations:
     - name: Monash University
@@ -21,6 +30,15 @@
   affiliations:
     - name: University of Osnabrück
       url: https://www.uni-osnabrueck.de/en/home.html
+- fullname: Talley Lambert
+  githubname: tlambert03
+  affiliations:
+    - name: Harvard Medical School
+      url: https://hms.harvard.edu/
+- fullname: Jason Lee
+  affiliations:
+    - name: University of Missouri
+      url: https://www.missouri.edu/
 - fullname: Daniel Matthews
   affiliations:
     - name: Nikon Imaging Centre, Kings College London
@@ -42,6 +60,11 @@
   affiliations:
     - name: Université D'Auvergne
       url: http://www.u-clermont1.fr/
+- fullname: Paul Van Schayck
+  githubname: PaulVanSchayck
+  affiliations:
+    - name: Maastricht University
+      url: https://www.maastrichtuniversity.nl
 - fullname: Stephen Welsh
   affiliations:
     - name: Monash University
@@ -50,3 +73,8 @@
   affiliations:
     - name: Stowers Institute
       url: https://www.stowers-institute.org/
+- fullname: Andrey Yudin
+  githubname: andreyyudin
+  affiliations:
+    - name: EMBL-EBI
+      url: https://ebi.ac.uk

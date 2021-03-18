@@ -351,6 +351,7 @@
     - name: National Institute of Standards and Technology
       url: https://www.nist.gov
 - fullname: Paul Van Schayck
+  githubname: PaulVanSchayck
   affiliations:
     - name: Maastricht University
       url: https://www.maastrichtuniversity.nl
