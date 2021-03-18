@@ -1,0 +1,368 @@
+---
+- fullname: Eric Albert
+  affiliations:
+    - name: Stanford University
+      url: https://www.stanford.edu/
+- fullname: Eliana Andreica
+  githubname: dinelia
+  affiliations:
+    - name: Oxford Instruments
+      url: https://imaris.oxinst.com/
+- fullname: Jonathan Armond
+  githubname: jarmond
+  affiliations:
+    - name: University of Warwick
+      url: https://www.warwick.ac.uk/
+- fullname: Aaron Avery
+  affiliations:
+    - name: HealthMyne
+      url: https://www.healthmyne.com
+- fullname: Matthias Baldauf
+  githubname: mbaldauf
+  affiliations:
+    - name: Medical University Innsbruck
+      url: https://www.i-med.ac.at/
+- fullname: Eric Barnhill
+  githubname: ericbarnhill
+  affiliations:
+    - name: Charité Universitätsmedizin Berlin
+      url: https://www.charite.de/en/
+- fullname: Simon Blanchoud
+  affiliations:
+    - name: EPFL - Ecole Polytechnique Federale de Lausanne
+      url: https://www.epfl.ch/
+- fullname: Ghislain Bonamy
+  affiliations:
+    - name: Novartis
+      url: https://www.novartis.com/
+- fullname: Michel Boudinot
+  affiliations:
+    - name: INAF-CNRS - Institut de Neurobiologie Alfred Fessard, Centre National de la Recherche Scientifiqu
+      url: https://www.inaf.cnrs-gif.fr/
+- fullname: Marc Bruce
+  githubname: mabruce
+  affiliations:
+    - name: Microvolution LLC
+      url: https://www.microvolution.com
+- fullname: Gerhard Burger
+  githubname: burgerga
+  affiliations:
+    - name: Leiden University
+      url: https://www.universiteitleiden.nl/en
+- fullname: Thomas Caswell
+  affiliations:
+    - name: Cornell University
+      url: https://www.cornell.edu/
+- fullname: July Chen
+- fullname: Matthew Clapp
+  affiliations:
+    - name: WaveDrom
+      url: https://wavedrom.com
+- fullname: Tony Collins
+  affiliations:
+    - name: McMaster University
+      url: https://www.mcmaster.ca/
+- fullname: Jim Crowe
+  githubname: redcrow
+  affiliations:
+    - name: Mikroscan Technologies, Inc.
+      url: https://www.mikroscan.com/
+- fullname: Stephane Dallongeville
+  githubname: Stephane-D
+  affiliations:
+    - name: Institut Pasteur
+      url: https://www.pasteur.fr/en
+- fullname: Barry DeZonia
+  affiliations:
+    - name: UW-Madison LOCI
+      url: https://loci.wisc.edu/
+- fullname: David Pinto
+  githubname: carandraug
+  affiliations:
+    - name: University of Oxford
+      url: https://micronoxford.com/
+- fullname: Jan Eglinger
+  githubname: imagejan
+  affiliations:
+    - name: Friedrich Miescher Institute for Biomedical Research
+      url: https://www.fmi.ch/
+- fullname: Dmitry Fedorov
+  githubname: dimin
+  affiliations:
+    - name: University of California Santa Barbara
+      url: https://www.ucsb.edu/
+- fullname: Premysl Fiala
+  githubname: PremyslFiala
+  affiliations:
+    - name: Laboratory Imaging
+      url: https://lim.cz
+- fullname: Rachel Finck
+  githubname: rfinck
+  affiliations:
+    - name: Ionpath
+      url: https://www.ionpath.com
+- fullname: Colin Fuller
+  affiliations:
+    - name: Khan Academy
+      url: https://www.khanacademy.org
+- fullname: Zack Galbreath
+  affiliations:
+    - name: Kitware
+      url: https://www.kitware.com/
+- fullname: Shawn Garbett
+  affiliations:
+    - name: Vanderbilt University
+      url: https://www.vanderbilt.edu/
+- fullname: Bram Gerritsen
+  affiliations:
+    - name: Netherlands Cancer Institute
+      url: https://www.nki.nl/
+- fullname: Joan Gibert
+  affiliations:
+    - name: Hospital del Mar- Parc de Salut MAR
+      url: https://www.imim.cat/en_index.html
+- fullname: Nils Gladitz
+  githubname: ngladitz
+  affiliations:
+    - name: Abberior Instruments GmbH
+      url: https://www.abberior-instruments.com/
+- fullname: Aivar Grislis
+  affiliations:
+    - name: UW-Madison LOCI
+      url: https://loci.wisc.edu/
+- fullname: Michael Goelzer
+  affiliations:
+    - name: Leica Microsystems
+      url: https://www.leica-microsystems.com
+- fullname: Alex Gouaillard
+  affiliations:
+    - name: Harvard Medical School
+      url: https://hms.harvard.edu
+- fullname: John Hansen
+  affiliations:
+    - name: University of North Carolina at Chapel Hill
+      url: https://www.unc.edu
+- fullname: Rolf Harkes
+  githubname: rharkes
+  affiliations:
+    - name: Netherlands Cancer Institute
+      url: https://www.nki.nl/
+- fullname: Volker Hartmann
+  affiliations:
+    - name: Karlsruher Institut für Technologie
+      url: https://www.kit.edu/
+- fullname: Stefan Helfrich 
+  githubname: stelfrich
+  affiliations:
+    - name: University of Konstanz
+      url: https://www.uni-konstanz.de/en/
+- fullname: Johan Herz 
+  affiliations:
+    - name: Lambert Instruments
+      url: https://www.lambertinstruments.com/
+- fullname: Bill Hill
+  affiliations:
+    - name: Institute of Genetics & Molecular Medicine, University of Edinburgh
+      url: https://www.ed.ac.uk/mrc-human-genetics-unit
+- fullname: Mark Hiner
+  githubname: hinerm
+  affiliations:
+    - name: UW-Madison LOCI
+      url: https://loci.wisc.edu/
+- fullname: Sebastien Huart
+  affiliations:
+    - name: Institut Curie
+      url: https://www.curie.fr/
+- fullname: Gregory Jefferis
+  affiliations:
+    - name: MRC Laboratory of Molecular Biology
+      url: https://www2.mrc-lmb.cam.ac.uk/
+- fullname: Lee Kamentsky
+  githubname: LeeKamentsky
+  affiliations:
+    - name: Broad Institute
+      url: https://www.broadinstitute.org/
+- fullname: Kristian Kjaergaard
+  affiliations:
+    - name: University of Southern Denmark
+      url: https://www.sdu.dk/en/
+- fullname: Mikhail Kovtun
+  affiliations:
+    - name: Duke University
+      url: https://www.duke.edu/
+- fullname: Lewis Kraft
+  affiliations:
+    - name: Vanderbilt University
+      url: https://www.vanderbilt.edu
+- fullname: Mark Kittisopikul
+  githubname: mkitti
+  affiliations:
+    - name: UTSouthwestern Medical Center
+      url: https://www.utsouthwestern.edu
+- fullname: Gaëtan Lehmann
+  affiliations:
+    - name: INRA Jouy-En-Josas
+      url: https://www.jouy.inra.fr/
+- fullname: Chris Lesiak
+  affiliations:
+    - name: Li-Cor Biosciences
+      url: https://www.licor.com/
+- fullname: Cris Luengo
+  githubname: crisluengo
+  affiliations:
+    - name: Uppsala University
+      url: https://www.uu.se/
+- fullname: Brian Long
+  affiliations:
+    - name: Allen Institute
+      url: httpss://www.alleninstitute.org/
+- fullname: David Mankus
+  githubname: dmankus
+  affiliations:
+    - name: Harvard University Center for Brain Science
+      url: https://hms.harvard.edu/
+- fullname: Glen MacDonald
+  affiliations:
+    - name: University of Washington
+      url: https://www.washington.edu/
+- fullname: Matt McCormick
+  affiliations:
+    - name: Kitware
+      url: https://www.kitware.com
+- fullname: Claire McQuin
+  githubname: mcquin
+  affiliations:
+    - name: Broad Institute
+      url: https://www.broadinstitute.org
+- fullname: Matthieu Moisse
+  affiliations:
+    - name: VIB-KU Leuven
+      url: https://www.kuleuven.be
+- fullname: Jeremy Muhlich
+  githubname: jmuhlich
+  affiliations:
+    - name: Harvard Medical School
+      url: https://hms.harvard.edu/
+- fullname: Rubén Muñoz
+  affiliations:
+    - name: EMBL - European Molecular Biology Laboratory
+      url: https://www.embl.de/
+- fullname: Ian Munro
+  githubname: imunro
+  affiliations:
+    - name: Imperial College London
+      url: https://www.imperial.ac.uk/photonics
+- fullname: Richard Myers
+  affiliations:
+    - name: 3i - Intelligent Imaging Innovation
+      url: https://www.intelligent-imaging.com
+- fullname: Christian Niedworok
+  affiliations:
+    - name: Francis Crick Institute
+      url: https://crick.ac.uk
+- fullname: Martin Offterdinger
+  affiliations:
+    - name: Medical University Innsbruck
+      url: https://www.uibk.ac.at/
+- fullname: Jim Paris
+  affiliations:
+    - name: MIT - Massachusetts Institute of Technology
+      url: https://web.mit.edu/
+- fullname: Nick Perry
+  affiliations:
+    - name: Stanford University
+      url: https://www.stanford.edu/
+    - name: Institut Pasteur
+      url: https://www.pasteur.fr/
+- fullname: Alexander Popiel
+  githubname: popiel
+  affiliations:
+    - name: Allen Institute for Cell Science
+      url: https://www.alleninstitute.org/what-we-do/cell-science/
+- fullname: Ville Rantanen
+  affiliations:
+    - name: University of Helsinki
+      url: https://www.helsinki.fi/en/
+- fullname: Wayne Rasband
+  affiliations:
+    - name: NIH - National Institutes of Health
+      url: https://www.nih.gov/
+- fullname: Patrick Riley
+  affiliations:
+    - name: Research at Google
+      url: https://research.google
+- fullname: Christian Sachs
+  githubname: csachs
+  affiliations:
+    - name: Institute of Bio- and Geosciences, Jülich
+      url: https://www.fz-juelich.de/ibg/ibg-1/EN/Home/home_node.html
+- fullname: Johannes Schindelin
+  githubname: dscho
+  affiliations:
+    - name: UW-Madison LOCI
+      url: https://loci.wisc.edu/
+    - name: Max-Planck Institute of Molecular Cell Biology in Dresden
+      url: https://www.mpi-cbg.de/
+- fullname: Brett Shoelson
+  affiliations:
+    - name: UW-Madison LOCI
+      url: https://loci.wisc.edu/
+    - name: MathWorks
+      url: https://www.mathworks.com/
+- fullname: Sebastien Simard
+  affiliations:
+    - name: Institut Pasteur
+      url: http://www.pasteur.fr/
+- fullname: Christoph Sommer
+  githubname: sommerc
+  affiliations:
+    - name: Institute of Molecular Biotechnology
+      url: https://www.imba.oeaw.ac.at/
+- fullname: Torsten Stöter
+  affiliations:
+    - name: Leibniz Institute for Neurobiology
+      url: https://www.lin-magdeburg.de
+- fullname: Jakub Straszewski
+  affiliations:
+    - name: Department of Biosystems Science &amp; Engineering, ETH Zurich
+      url: https://www.bsse.ethz.ch
+- fullname: Manuel Stritt
+  githubname: mstritt
+  affiliations:
+    - name: Actelion Pharmaceuticals Ltd
+      url: https://www.actelion.com
+- fullname: Bjoern Thiel
+  githubname: bjoernthiel
+  affiliations:
+    - name: Max Planck Institute for Biophysical Chemistry
+      url: https://www.mpibpc.mpg.de/en
+- fullname: Jean-Yves Tinevez
+  githubname: tinevez
+  affiliations:
+    - name: Institut Pasteur
+      url: https://www.pasteur.fr/
+- fullname: Nicholas Trahearn
+  affiliations:
+    - name: The Institute of Cancer Research, London
+      url: https://www.icr.ac.uk/
+- fullname: Antoine Vandecreme
+  githubname: avandecreme
+  affiliations:
+    - name: National Institute of Standards and Technology
+      url: https://www.nist.gov
+- fullname: Paul Van Schayck
+  affiliations:
+    - name: Maastricht University
+      url: https://www.maastrichtuniversity.nl
+- fullname: Stephan Wagner-Conrad
+  affiliations:
+    - name: Carl Zeiss Microscopy GmbH
+      url: https://www.zeiss.de/mikroskopie/home.html
+- fullname:  Sean Warren
+  affiliations:
+    - name: Garvan Institute of Medical Research
+      url: https://www.garvan.org.au
+- fullname:  Thushara Wijeratna
+  affiliations:
+    - name: Allen Institute for Cell Science
+      url: https://www.alleninstitute.org/what-we-do/cell-science/

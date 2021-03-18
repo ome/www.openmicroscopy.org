@@ -1,0 +1,52 @@
+---
+- fullname: Niko Ehrenfeuchter
+  githubname: ehrenfeu
+  affiliations:
+    - name: University of Basel
+      url: https://www.unibas.ch
+- fullname: Alex Herbert
+  affiliations:
+   - name: University of Sussex
+     url: https://www.sussex.ac.uk/
+- fullname: Jason Lee
+  affiliations:
+    - name: University of Missouri
+      url: https://www.missouri.edu/
+- fullname: Leon Kolchinsky
+  affiliations:
+    - name: Monash University
+      url: https://monash.edu/
+- fullname: Susanne Kunis
+  githubname: sukunis
+  affiliations:
+    - name: University of Osnabrück
+      url: https://www.uni-osnabrueck.de/en/home.html
+- fullname: Daniel Matthews
+  affiliations:
+    - name: Nikon Imaging Centre, Kings College London
+      url: https://nic.kcl.ac.uk
+    - name: (formerly Queensland Brain Institute)
+      url: https://qbi.uq.edu.au
+- fullname: Kouchi C. Nakamura
+  githubname: kouichi-c-nakamura
+  affiliations:
+    - name: MRC Brain Network Dynamics Unit, University of Oxford
+      url: https://www.mrcbndu.ox.ac.uk/
+- fullname: David Pinto
+  githubname: carandraug
+  affiliations:
+    - name: Department of Biochemistry, University of Oxford
+      url: https://www.bioch.ox.ac.uk
+- fullname: Pierre Pouchin
+  githubname: ppouchin
+  affiliations:
+    - name: Université D'Auvergne
+      url: http://www.u-clermont1.fr/
+- fullname: Stephen Welsh
+  affiliations:
+    - name: Monash University
+      url: https://www.monash.edu/
+- fullname: Chris Wood
+  affiliations:
+    - name: Stowers Institute
+      url: https://www.stowers-institute.org/
