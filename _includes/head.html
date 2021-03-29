@@ -15,7 +15,7 @@
         </script>
         {% if page.schemadotorg %}
         <script type="application/ld+json">
-          {{ page.schemadotorg | jsonify }}
+          {{ site.data.{{page.schemadotorg}} }}
         </script>
         {% endif %} 
         <meta charset="utf-8" />
