@@ -15,9 +15,9 @@
         </script>
         {% if page.schemadotorg %}
         <script type="application/ld+json">
-          {{ site.data.{{page.schemadotorg}} }}
+          {{ site.data.{{page.schemadotorg}} | jsonify }}
         </script>
-        {% endif %} 
+        {% endif %}
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
