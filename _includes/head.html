@@ -15,9 +15,8 @@
         </script>
         {% if page.schemadotorg %}
         <script type="application/ld+json">
-          {% for element in site.data.{{ page.schemadotorg }} %}
-          {{ element[1] | jsonify }}
-          {% endfor %}
+          {% assign var = page.schemadotorg %}
+          {{ site.data[var] | jsonify}}
         </script>
         {% endif %}
         <meta charset="utf-8" />
