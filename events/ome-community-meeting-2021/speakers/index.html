@@ -1,0 +1,16 @@
+---
+layout: ome-community-meeting-program-2021
+nav-speakers: active
+title: Our Speakers
+subheader: Learn more about our speakers here
+speakers:
+
+---
+
+<div class="row">
+    <div class="row small-up-1 medium-up-2 text-center consortium-list">
+        {% for speaker in page.speakers %}
+        <div class="columns"><a target="_blank" href="{{ speaker.link }}">{{ speaker.firstname }} {{ speaker.surname }}</a> <span class="institution">{{ speaker.aff }}</span></div>
+        {% endfor %}
+    </div>
+</div>
