@@ -1,16 +1,26 @@
 ---
 layout: ome-community-meeting-program-2021
 nav-speakers: active
-title: Our Speakers
-subheader: Learn more about our speakers here
-speakers:
-
+title: Speakers
 ---
 
+<hr class="invisible">
+<div class="row column text-center">
+    <h2>{{ page.title }}</h2>
+    <p class="subheader">Learn more about our speakers here</p>
+</div>
+<hr>
+<hr class="invisible">
+
+
+{% assign events =  site.data.ome2021 | map: 'subEvent' %}
+{% assign subEvents =  events | map: 'subEvent' %}
+{% assign performers =  subEvents | map: 'performer' | uniq %}
+
 <div class="row">
-    <div class="row small-up-1 medium-up-2 text-center consortium-list">
-        {% for speaker in page.speakers %}
-        <div class="columns"><a target="_blank" href="{{ speaker.link }}">{{ speaker.firstname }} {{ speaker.surname }}</a> <span class="institution">{{ speaker.aff }}</span></div>
-        {% endfor %}
-    </div>
+  <div class="row small-up-1 medium-up-2 text-center consortium-list">
+    {% for performer in performers %}
+    <div class="columns"><a target="_blank" href="{{ speaker.link }}">{{ performer.name }}</a> <span class="institution">{{ performer.affiliation.name }}</span></div>
+    {% endfor %}
+  </div>
 </div>

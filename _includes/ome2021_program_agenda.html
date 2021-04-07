@@ -1,3 +1,11 @@
+<hr class="invisible">
+<div class="row column text-center">
+    <h2>{{ event.name }} - {{ event.alternateName}}</h2>
+    <p class="subheader">{{ event.description }}</p>
+</div>
+<hr>
+<hr class="invisible">
+
 <div class="row column text-center">
     <h5>Please Note</h5>
     <p>
@@ -7,122 +15,49 @@
         All times are in UK - British Summer Time (GMT+1).
     </p>
 </div>
+
 <hr class="invisible">
 
-{% for agenda_item in page.schedule %}
 <div class="row align-right">
-    {% if agenda_item.videos %}<div class="medium-3 columns center-align"><img alt="{{ agenda_item.alt }} -" class="user-group-illustration center-align" src="{{ site.baseurl }}/img/icons/agenda-themes_{{ agenda_item.theme }}.svg"></div>{% endif %}
-    {% if agenda_item.time %}<div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ agenda_item.time }}</div>{% endif %}
-    <div class="medium-8 columns">
-        <a name="{{ agenda_item.type | append: agenda_item.title | slugify }}"></a><h5>{{ agenda_item.type }}{% if agenda_item.type %}:{% endif %} {{ agenda_item.title }}</h5>
-        {% if agenda_item.details %}<p>{{ agenda_item.details }}</p>{% endif %}
-        {% if agenda_item.speaker %}<p>{{ agenda_item.speaker }}, <span class="ome-green italic">{{ agenda_item.aff }}</span></p>{% endif %}
-        {% if agenda_item.videos %}
-    <div class="row align-right">
-        <h6 class="ome-blue"><i class="fa fa-video-camera margin-right-half"></i>
-            Video Talks for <a href="#discussion{{ agenda_item.title | slugify }}">Discussion: {{ agenda_item.title }}</a>
-        </h6>
-    <div class="row align-right">
-        {% if agenda_item.vid_link1 %}
-        <div class="medium-4 columns">
-            <div class="flex-video">
-                {% if agenda_item.vid_poster1 %}
-                <video style="background:black" controls
-                    {% if agenda_item.vid_poster1 %} poster="{{ site.baseurl }}{{ agenda_item.vid_poster1 }}" {% endif %} >
-                    <source src="{{ agenda_item.vid_link1 }}" >
-                </video>
-                {% else %}
-                    <iframe width="420" height="315" src="{{ site.baseurl }}/img/icons/placeholder_video.svg" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </div>
-        {% endif %}
-        <p class="text-center"><span class="bold">{{ agenda_item.vid_title1 }}</span><br>{{ agenda_item.vid_speaker1 }}{% if agenda_item.vid_speaker1 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff1 }}</span></p>
-        </div>
-        {% if agenda_item.vid_link2 %}
-        <div class="medium-4 columns">
-            <div class="flex-video">
-                {% if agenda_item.vid_poster2 %}
-                <video style="background:black" controls
-                    {% if agenda_item.vid_poster2 %} poster="{{ site.baseurl }}{{ agenda_item.vid_poster2 }}" {% endif %} >
-                    <source src="{{ agenda_item.vid_link2 }}" >
-                </video>
-                {% else %}
-                    <iframe width="420" height="315" src="{{ site.baseurl }}/img/icons/placeholder_video.svg" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </div>
-        {% endif %}
-        <p class="text-center"><span class="bold">{{ agenda_item.vid_title2 }}</span><br>{{ agenda_item.vid_speaker2 }}{% if agenda_item.vid_speaker2 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff2 }}</span></p>
-        </div>
-        {% if agenda_item.vid_link3 %}
-        <div class="medium-4 columns">
-            <div class="flex-video">
-                {% if agenda_item.vid_poster3 %}
-                <video style="background:black" controls
-                    {% if agenda_item.vid_poster3 %} poster="{{ site.baseurl }}{{ agenda_item.vid_poster3 }}" {% endif %} >
-                    <source src="{{ agenda_item.vid_link3 }}" >
-                </video>
-                {% else %}
-                    <iframe width="420" height="315" src="{{ site.baseurl }}/img/icons/placeholder_video.svg" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </div>
-        {% endif %}
-        <p class="text-center"><span class="bold">{{ agenda_item.vid_title3 }}</span><br>{{ agenda_item.vid_speaker3 }}{% if agenda_item.vid_speaker3 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff3 }}</span></p>
-        </div>
-    </div>
-    {% if agenda_item.vid_link4 %}
-    <div class="row align-right">
-        {% if agenda_item.vid_link4 %}
-        <div class="medium-4 columns">
-            <div class="flex-video">
-                {% if agenda_item.vid_poster4 %}
-                <video style="background:black" controls
-                    {% if agenda_item.vid_poster4 %} poster="{{ site.baseurl }}{{ agenda_item.vid_poster4 }}" {% endif %} >
-                    <source src="{{ agenda_item.vid_link4 }}" >
-                </video>
-                {% else %}
-                    <iframe width="420" height="315" src="{{ site.baseurl }}/img/icons/placeholder_video.svg" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </div>
-        {% endif %}
-        <p class="text-center"><span class="bold">{{ agenda_item.vid_title4 }}</span><br>{{ agenda_item.vid_speaker4 }}{% if agenda_item.vid_speaker4 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff4 }}</span></p>
-        </div>
-        {% if agenda_item.vid_link5 %}
-        <div class="medium-4 columns">
-            <div class="flex-video">
-                {% if agenda_item.vid_poster5 %}
-                <video style="background:black" controls
-                    {% if agenda_item.vid_poster5 %} poster="{{ site.baseurl }}{{ agenda_item.vid_poster5 }}" {% endif %} >
-                    <source src="{{ agenda_item.vid_link5 }}" >
-                </video>
-                {% else %}
-                    <iframe width="420" height="315" src="{{ site.baseurl }}/img/icons/placeholder_video.svg" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </div>
-        {% endif %}
-        <p class="text-center"><span class="bold">{{ agenda_item.vid_title5 }}</span><br>{{ agenda_item.vid_speaker5 }}{% if agenda_item.vid_speaker5 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff5 }}</span></p>
-        </div>
-        {% if agenda_item.vid_link6 %}
-        <div class="medium-4 columns">
-            <div class="flex-video">
-                {% if agenda_item.vid_poster6 %}
-                <video style="background:black" controls
-                    {% if agenda_item.vid_poster6 %} poster="{{ site.baseurl }}{{ agenda_item.vid_poster6 }}" {% endif %} >
-                    <source src="{{ agenda_item.vid_link6 }}" >
-                </video>
-                {% else %}
-                    <iframe width="420" height="315" src="{{ site.baseurl }}/img/icons/placeholder_video.svg" frameborder="0" allowfullscreen></iframe>
-                {% endif %}
-            </div>
-        {% endif %}
-        <p class="text-center"><span class="bold">{{ agenda_item.vid_title6 }}</span><br>{{ agenda_item.vid_speaker6 }}{% if agenda_item.vid_speaker6 %},{% endif %} <span class="ome-green italic">{{ agenda_item.vid_aff6 }}</span></p>
-        </div>
-    </div>
+  {% for subevent in event.subEvent %}
+  <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}</div>
+  <div class="medium-8 columns">
+    <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
+    {% if subevent.description %}<p>{{ subevent.description }}</p>{% endif %}
+    {% if subevent.performer.name %}
+    <p>{{ subevent.performer.name }}, <span class="ome-green italic">{{ subevent.performer.affiliation.name }}</span></p>
+    {% else %}
+    {% for performer in subevent.performer %}<p>{{ performer.name }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span></p>
+    {% endfor %}
     {% endif %}
-
-        {% endif %}
-    </div>
-    </div>
+  </div>
+  {% endfor %}
 </div>
 
-<hr class="invisible">
-{% endfor %}
+
+{% if event.workFeatured %}
+
+<div class="row align-right">
+  <div class="medium-3 columns center-align"><img alt="data modeling -" class="user-group-illustration center-align" src="{{ site.baseurl }}/img/icons/agenda-themes_data-models-and-formats.svg"></div>
+  <div class="medium-8 columns">
+    <div class="row align-right">
+      <h6 class="ome-blue"><i class="fa fa-video-camera margin-right-half"></i>
+            Video Talks for <a href="#discussionnational-transnational-public-image-data-resources">Discussion: National/Transnational Public Image Data Resources</a>
+      </h6>
+      <div class="row align-right">
+      {% for video in event.workFeatured %}
+        <div class="medium-4 columns">
+          <div class="flex-video">
+            <video style="background:black" controls
+                   poster="{{ site.baseurl }}/{{ video.thumbnailUrl }}"  >
+              <source src="{{ video.contentURL }}" >
+            </video>
+          </div>
+          <p class="text-center"><span class="bold">{{ video.name }}</span><br>{{ video.author.name }}, <span class="ome-green italic">{{ video.author.affiliation.name }}</span></p>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
