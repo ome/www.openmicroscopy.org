@@ -1,0 +1,64 @@
+<hr class="invisible">
+<div class="row column text-center">
+    <h2>{{ event.name }} - {{ event.alternateName}}</h2>
+    <p class="subheader">{{ event.description }}</p>
+</div>
+<hr>
+<hr class="invisible">
+
+<div class="row column text-center">
+    <h5>Please Note</h5>
+    <p>
+        This schedule is subject to change and will be updated periodically.<br/>
+        The schedule will include pre-recorded videos organised by topic followed by group discussions.<br/>
+        Please find time to watch the videos <strong>before</strong> the corresponding discussion
+        on each topic.<br/>
+        All times are in UK - British Summer Time (GMT+1).
+    </p>
+</div>
+
+<hr class="invisible">
+
+<div class="row align-right">
+  {% for subevent in event.subEvent %}
+  <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}</div>
+  <div class="medium-8 columns">
+    <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
+    {% if subevent.description %}<p>{{ subevent.description }}</p>{% endif %}
+    {% if subevent.performer.name %}
+    <p>{{ subevent.performer.name }}, <span class="ome-green italic">{{ subevent.performer.affiliation.name }}</span></p>
+    {% else %}
+    {% for performer in subevent.performer %}<p>{{ performer.name }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span></p>
+    {% endfor %}
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+
+{% if event.workFeatured %}
+
+<div class="row align-right">
+  <div class="medium-3 columns center-align"><img alt="data modeling -" class="user-group-illustration center-align" src="{{ site.baseurl }}/img/icons/agenda-themes_data-models-and-formats.svg"></div>
+  <div class="medium-8 columns">
+    <div class="row align-right">
+      <h6 class="ome-blue"><i class="fa fa-video-camera margin-right-half"></i>
+            Video Talks for <a href="#discussionnational-transnational-public-image-data-resources">Discussion: National/Transnational Public Image Data Resources</a>
+      </h6>
+      <div class="row align-right">
+      {% for video in event.workFeatured %}
+        <div class="medium-4 columns">
+          <div class="flex-video">
+            <video style="background:black" controls
+                   poster="{{ site.baseurl }}/{{ video.thumbnailUrl }}"  >
+              <source src="{{ video.contentURL }}" >
+            </video>
+          </div>
+          <p class="text-center"><span class="bold">{{ video.name }}</span><br>{{ video.author.name }}, <span class="ome-green italic">{{ video.author.affiliation.name }}</span></p>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

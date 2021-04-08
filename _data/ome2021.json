@@ -1,0 +1,340 @@
+{
+  "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2021/",
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "location": {
+    "@type": "VirtualLocation",
+    "url": "TBD"
+  },
+  "name": "2021 OME Community meeting",
+  "startDate": "2021-06-08T10:00+01:00",
+  "endDate": "2021-06-11T19:00+01:00",
+  "organizer": [
+    {
+      "@type": "Person",
+      "name": "Sebastien Besson"
+    },
+    {
+      "@type": "Person",
+      "name": "Jean-Marie Burel"
+    },
+    {
+      "@type": "Person",
+      "name": "June Matthew"
+    },
+    {
+      "@type": "Person",
+      "name": "Josh Moore"
+    }
+  ],
+  "subEvent": [
+    {
+      "@type": "Event",
+      "name": "Day 1",
+      "alternateName": "Overview",
+      "url": "/events/ome-community-meeting-2021/day1/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "description": "Welcome, Keynote and Demos",
+      "startDate": "2021-06-08T10:00+01:00",
+      "endDate": "2021-06-08T20:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "TBD",
+          "startDate": "2021-06-08T10:00+01:00",
+          "endDate": "2021-06-08T11:00+01:00",
+          "description": "Keynote",
+          "performer": {
+            "@type": "Person",
+            "name": "TBD",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "TBD"
+            }
+          },
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      }
+        },
+        {
+          "@type": "Event",
+          "name": "Demos",
+          "description": "Keynote",
+          "startDate": "2021-06-08T11:00+01:00",
+          "endDate": "2021-06-08T14:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      }
+        },
+        {
+          "@type": "Event",
+          "name": "TBD",
+          "startDate": "2021-06-08T16:00+01:00",
+          "endDate": "2021-06-08T17:00+01:00",
+          "description": "Keynote",
+          "performer": [
+            {
+              "@type": "Person",
+              "name": "TBD",
+              "affiliation": {
+                "@type": "Organization",
+                "name": "TBD"
+              }
+            }
+          ],
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Demos",
+          "description": "TBD",
+          "startDate": "2021-06-08T17:00+01:00",
+          "endDate": "2021-06-08T20:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Event",
+      "name": "Day 2",
+      "alternateName": "Research Data Management",
+      "url": "/events/ome-community-meeting-2021/day2/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "description": "TBD",
+      "startDate": "2021-06-09T10:00+01:00",
+      "endDate": "2021-06-09T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Discussion",
+          "startDate": "2021-06-09T10:00+01:00",
+          "endDate": "2021-06-09T11:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-09T11:00+01:00",
+          "endDate": "2021-06-09T12:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-09T12:00+01:00",
+          "endDate": "2021-06-09T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Discussion",
+          "startDate": "2021-06-09T16:00+01:00",
+          "endDate": "2021-06-09T17:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-09T17:00+01:00",
+          "endDate": "2021-06-09T18:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-09T18:00+01:00",
+          "endDate": "2021-06-09T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Event",
+      "name": "Day 3",
+      "alternateName": "Public resources",
+      "url": "/events/ome-community-meeting-2021/day3/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "description": "TBD",
+      "startDate": "2021-06-10T10:00+01:00",
+      "endDate": "2021-06-10T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Discussion",
+          "startDate": "2021-06-10T10:00+01:00",
+          "endDate": "2021-06-10T11:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-10T11:00+01:00",
+          "endDate": "2021-06-10T12:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-10T12:00+01:00",
+          "endDate": "2021-06-10T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Discussion",
+          "startDate": "2021-06-10T16:00+01:00",
+          "endDate": "2021-06-10T17:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-10T17:00+01:00",
+          "endDate": "2021-06-10T18:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-10T18:00+01:00",
+          "endDate": "2021-06-10T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2021#day4",
+      "@type": "Event",
+      "name": "Day 4",
+      "alternateName": "Teaching and training",
+      "description": "TBD",
+      "url": "/events/ome-community-meeting-2021/day4/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "startDate": "2021-06-11T10:00+01:00",
+      "endDate": "2021-06-11T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Discussion",
+          "startDate": "2021-06-11T10:00+01:00",
+          "endDate": "2021-06-11T11:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-11T11:00+01:00",
+          "endDate": "2021-06-11T12:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-11T12:00+01:00",
+          "endDate": "2021-06-11T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Discussion",
+          "startDate": "2021-06-11T16:00+01:00",
+          "endDate": "2021-06-11T17:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-11T17:00+01:00",
+          "endDate": "2021-06-11T18:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Workshop",
+          "startDate": "2021-06-11T18:00+01:00",
+          "endDate": "2021-06-11T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}
