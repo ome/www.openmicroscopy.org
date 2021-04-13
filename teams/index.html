@@ -67,7 +67,15 @@ schemadotorg: swedlowlab
                 <div class="column">
                     <a class="team-member" data-open="modal{{ forloop.index }}">
                         <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
-                        <h5>{{ member.givenName }} {{ member.familyName }}</h5>
+                        <h5>{{ member.givenName }} {{ member.familyName }}
+                        {% if member['@id'] %}
+                        <a href="{{ member['@id'] }}">
+                            <img alt="ORCID logo"
+                             src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
+                             width="16" height="16" />
+                        </a>
+                        {% endif %}
+                     </h5>
                         <p class="job-title">{{ member.jobTitle }}</p>
                         <span class="bio-link tiny button hollow">Read Bio</span>
                     </a>
