@@ -71,16 +71,17 @@ schemadotorg: swedlowlab
                             <span class="bio-link tiny button hollow">Read Bio</span>
                         </a>
                         <p class="job-title">{{ member.jobTitle }}
-                        {% if member['@id'] %}
-                        <a href="{{ member['@id'] }}">
+                        {% for sameAs in member.sameAs %}
+                        {% if sameAs contains "orcid.org" %}
+                        <a href="{{ sameAs }}">
                             <img alt="ORCID logo"
                              src="{{ site.baseurl }}/img/logos/3rd-party_orcid.svg"
                              width="16" height="16" />
                         </a>
+                        {% elsif sameAs contains "github.com" %}
+                        <a href="{{ sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
                         {% endif %}
-                        {% if member.identifier %}
-                        <a href="{{ member.identifier }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                        {% endif %}
+                        {% endfor %}
                         </p>
 
 
@@ -130,9 +131,17 @@ schemadotorg: swedlowlab
                 {% for alumni in site.data.swedlowlab.alumni %}
                 <div class="large-expand columns">
                 {{ alumni.name }}
-                {% if alumni.identifier %}
-                <a href="{{ alumni.identifier }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+                {% for sameAs in alumni.sameAs %}
+                {% if sameAs contains "orcid.org" %}
+                <a href="{{ sameAs }}">
+                    <img alt="ORCID logo"
+                     src="{{ site.baseurl }}/img/logos/3rd-party_orcid.svg"
+                     width="16" height="16" />
+                </a>
+                {% elsif sameAs contains "github.com" %}
+                <a href="{{ sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
                 {% endif %}
+                {% endfor %}
                 </div>
                 {% endfor %}
 
