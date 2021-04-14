@@ -65,20 +65,25 @@ schemadotorg: swedlowlab
             <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="team-swedlow">
                 {% for member in site.data.swedlowlab.member %}
                 <div class="column">
-                    <a class="team-member" data-open="modal{{ forloop.index }}">
                         <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
-                        <h5>{{ member.givenName }} {{ member.familyName }}
+                        <h5>{{ member.givenName }} {{ member.familyName }}</h5>
+                        <a class="team-member" data-open="modal{{ forloop.index }}">
+                            <span class="bio-link tiny button hollow">Read Bio</span>
+                        </a>
+                        <p class="job-title">{{ member.jobTitle }}
                         {% if member['@id'] %}
                         <a href="{{ member['@id'] }}">
                             <img alt="ORCID logo"
-                             src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
+                             src="{{ site.baseurl }}/img/logos/3rd-party_orcid.svg"
                              width="16" height="16" />
                         </a>
                         {% endif %}
-                     </h5>
-                        <p class="job-title">{{ member.jobTitle }}</p>
-                        <span class="bio-link tiny button hollow">Read Bio</span>
-                    </a>
+                        {% if member.identifier %}
+                        <a href="{{ member.identifier }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+                        {% endif %}
+                        </p>
+
+
                     <div class="reveal" id="modal{{ forloop.index }}" data-reveal>
                       <h4 class="text-center">{{ member.givenName }} {{ member.familyName }}</h4>
                       <p class="job-title">{{ member.jobTitle }}</p>
