@@ -65,12 +65,26 @@ schemadotorg: swedlowlab
             <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="team-swedlow">
                 {% for member in site.data.swedlowlab.member %}
                 <div class="column">
-                    <a class="team-member" data-open="modal{{ forloop.index }}">
                         <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
                         <h5>{{ member.givenName }} {{ member.familyName }}</h5>
-                        <p class="job-title">{{ member.jobTitle }}</p>
-                        <span class="bio-link tiny button hollow">Read Bio</span>
-                    </a>
+                        <a class="team-member" data-open="modal{{ forloop.index }}">
+                            <span class="bio-link tiny button hollow">Read Bio</span>
+                        </a>
+                        <p class="job-title">{{ member.jobTitle }}
+                        {% for sameAs in member.sameAs %}
+                        {% if sameAs contains "orcid.org" %}
+                        <a href="{{ sameAs }}">
+                            <img alt="ORCID logo"
+                             src="{{ site.baseurl }}/img/logos/3rd-party_orcid.svg"
+                             width="16" height="16" />
+                        </a>
+                        {% elsif sameAs contains "github.com" %}
+                        <a href="{{ sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+                        {% endif %}
+                        {% endfor %}
+                        </p>
+
+
                     <div class="reveal" id="modal{{ forloop.index }}" data-reveal>
                       <h4 class="text-center">{{ member.givenName }} {{ member.familyName }}</h4>
                       <p class="job-title">{{ member.jobTitle }}</p>
@@ -117,9 +131,17 @@ schemadotorg: swedlowlab
                 {% for alumni in site.data.swedlowlab.alumni %}
                 <div class="large-expand columns">
                 {{ alumni.name }}
-                {% if alumni.identifier %}
-                <a href="{{ alumni.identifier }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+                {% for sameAs in alumni.sameAs %}
+                {% if sameAs contains "orcid.org" %}
+                <a href="{{ sameAs }}">
+                    <img alt="ORCID logo"
+                     src="{{ site.baseurl }}/img/logos/3rd-party_orcid.svg"
+                     width="16" height="16" />
+                </a>
+                {% elsif sameAs contains "github.com" %}
+                <a href="{{ sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
                 {% endif %}
+                {% endfor %}
                 </div>
                 {% endfor %}
 
