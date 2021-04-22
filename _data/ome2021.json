@@ -47,8 +47,8 @@
   "subEvent": [
     {
       "@type": "Event",
-      "name": "Day 1",
-      "alternateName": "Overview, Keynote & Demos",
+      "name": "Overview, Keynote & Demos",
+      "alternateName": "Day 1",
       "url": "/events/ome-community-meeting-2021/day1/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "startDate": "2021-06-08T10:00+01:00",
@@ -123,8 +123,8 @@
     },
     {
       "@type": "Event",
-      "name": "Day 2",
-      "alternateName": "Research Data Management",
+      "name": "Research Data Management",
+      "alternateName": "Day 2",
       "url": "/events/ome-community-meeting-2021/day2/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "description": "TBD",
@@ -228,8 +228,8 @@
     },
     {
       "@type": "Event",
-      "name": "Day 3",
-      "alternateName": "Public resources",
+      "name": "Public resources",
+      "alternateName": "Day 3",
       "url": "/events/ome-community-meeting-2021/day3/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "description": "TBD",
@@ -344,8 +344,8 @@
     {
       "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2021#day4",
       "@type": "Event",
-      "name": "Day 4",
-      "alternateName": "Teaching and Training",
+      "alternateName": "Day 4",
+      "name": "Teaching and Training",
       "description": "TBD",
       "url": "/events/ome-community-meeting-2021/day4/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",

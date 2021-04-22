@@ -28,7 +28,7 @@ schemadotorg: ome2021
 
                     <ul class="margin-left">
                     {% for subevent in site.data.ome2021.subEvent %}
-                        <li><a href="{{ site.baseurl }}{{ subevent.url}}">{{ subevent.startDate | date: "%A %B %d" }}: {{ subevent.name }}</a> {{ subevent.alternateName }}</li>
+                        <li><a href="{{ site.baseurl }}{{ subevent.url}}">{{ subevent.alternateName }} - {{ subevent.startDate | date: "%A %B %d" }}: {{ subevent.name }}</a> </li>
                     {% endfor %}
                     </ul>
 
