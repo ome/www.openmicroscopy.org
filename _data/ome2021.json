@@ -48,10 +48,9 @@
     {
       "@type": "Event",
       "name": "Day 1",
-      "alternateName": "Overview",
+      "alternateName": "Overview, Keynote & Demos",
       "url": "/events/ome-community-meeting-2021/day1/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "description": "Welcome, Keynote and Demos",
       "startDate": "2021-06-08T10:00+01:00",
       "endDate": "2021-06-08T20:00+01:00",
       "location": {
@@ -72,40 +71,29 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "TBD",
+          "name": "Overview",
           "startDate": "2021-06-08T10:00+01:00",
           "endDate": "2021-06-08T11:00+01:00",
-          "description": "TBD",
-          "performer": {
-            "@type": "Person",
-            "name": "TBD",
-            "affiliation": {
-              "@type": "Organization",
-              "name": "TBD"
-            }
-          },
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "TBD"
-      }
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
         },
         {
           "@type": "Event",
           "name": "Demos",
-          "description": "Demos",
           "startDate": "2021-06-08T11:00+01:00",
           "endDate": "2021-06-08T14:00+01:00",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "TBD"
-      }
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          }
         },
         {
           "@type": "Event",
           "name": "Keynote",
           "startDate": "2021-06-08T16:00+01:00",
           "endDate": "2021-06-08T17:00+01:00",
-          "description": "TBD",
           "performer": [
             {
               "@type": "Person",
@@ -124,7 +112,6 @@
         {
           "@type": "Event",
           "name": "Demos",
-          "description": "TBD",
           "startDate": "2021-06-08T17:00+01:00",
           "endDate": "2021-06-08T20:00+01:00",
           "location": {
@@ -179,7 +166,7 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Q&A",
+          "name": "Q&A session",
           "startDate": "2021-06-09T10:00+01:00",
           "endDate": "2021-06-09T11:00+01:00",
           "location": {
@@ -209,7 +196,7 @@
         },
         {
           "@type": "Event",
-          "name": "Discussion",
+          "name": "Q&A session",
           "startDate": "2021-06-09T16:00+01:00",
           "endDate": "2021-06-09T17:00+01:00",
           "location": {
@@ -294,7 +281,7 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Discussion",
+          "name": "Q&A session",
           "startDate": "2021-06-10T10:00+01:00",
           "endDate": "2021-06-10T11:00+01:00",
           "location": {
@@ -324,7 +311,7 @@
         },
         {
           "@type": "Event",
-          "name": "Discussion",
+          "name": "Q&A session",
           "startDate": "2021-06-10T16:00+01:00",
           "endDate": "2021-06-10T17:00+01:00",
           "location": {
@@ -417,7 +404,7 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Discussion",
+          "name": "Q&A session",
           "startDate": "2021-06-11T10:00+01:00",
           "endDate": "2021-06-11T11:00+01:00",
           "location": {
@@ -447,7 +434,7 @@
         },
         {
           "@type": "Event",
-          "name": "Discussion",
+          "name": "Q&A session",
           "startDate": "2021-06-11T16:00+01:00",
           "endDate": "2021-06-11T17:00+01:00",
           "location": {
