@@ -13,19 +13,35 @@
   "organizer": [
     {
       "@type": "Person",
-      "name": "Sebastien Besson"
+      "name": "Sébastien Besson",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      }
     },
     {
       "@type": "Person",
-      "name": "Jean-Marie Burel"
+      "name": "Jean-Marie Burel",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      }
+    },
+    {
+        "@type": "Person",
+        "name": "June Matthew",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "University of Dundee"
+        }
     },
     {
       "@type": "Person",
-      "name": "June Matthew"
-    },
-    {
-      "@type": "Person",
-      "name": "Josh Moore"
+      "name": "Josh Moore",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      }
     }
   ],
   "subEvent": [
@@ -42,13 +58,24 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Helen Berman",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "RCSB PDB"
+          },
+          "sameAs": "https://www.rcsb.org/pages/about-us/helen-berman"
+        }
+      ],
       "subEvent": [
         {
           "@type": "Event",
           "name": "TBD",
           "startDate": "2021-06-08T10:00+01:00",
           "endDate": "2021-06-08T11:00+01:00",
-          "description": "Keynote",
+          "description": "TBD",
           "performer": {
             "@type": "Person",
             "name": "TBD",
@@ -65,7 +92,7 @@
         {
           "@type": "Event",
           "name": "Demos",
-          "description": "Keynote",
+          "description": "Demos",
           "startDate": "2021-06-08T11:00+01:00",
           "endDate": "2021-06-08T14:00+01:00",
       "location": {
@@ -75,17 +102,17 @@
         },
         {
           "@type": "Event",
-          "name": "TBD",
+          "name": "Keynote",
           "startDate": "2021-06-08T16:00+01:00",
           "endDate": "2021-06-08T17:00+01:00",
-          "description": "Keynote",
+          "description": "TBD",
           "performer": [
             {
               "@type": "Person",
-              "name": "TBD",
+              "name": "Helen Berman",
               "affiliation": {
                 "@type": "Organization",
-                "name": "TBD"
+                "name": "RCSB PDB"
               }
             }
           ],
@@ -120,10 +147,39 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Andra Waagmeester",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Micelio"
+          },
+          "sameAs": "http://www.micelio.be/people.html"
+        },
+        {
+          "@type": "Person",
+          "name": "Sylvia Le Dévédec",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Universiteit Leiden"
+          },
+          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec"
+        },
+        {
+          "@type": "Person",
+          "name": "Wojtek Goscinski",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Monash University"
+          },
+          "sameAs": "https://research.monash.edu/en/persons/wojtek-goscinski"
+        }
+      ],
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Discussion",
+          "name": "Q&A",
           "startDate": "2021-06-09T10:00+01:00",
           "endDate": "2021-06-09T11:00+01:00",
           "location": {
@@ -196,6 +252,45 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Matthew Hartley",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "EMBL-EBI"
+          },
+          "sameAs": "https://www.ebi.ac.uk/about/people/matthew-hartley"
+        },
+        {
+          "@type": "Person",
+          "name": "Antje Keppler",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "EMBL"
+          },
+          "sameAs": "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595"
+          
+        },
+        {
+          "@type": "Person",
+          "name": "Ardan Patwardhan",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "EMBL-EBI"
+          },
+          "sameAs": "https://www.ebi.ac.uk/about/people/ardan-patwardhan"
+        },
+        {
+          "@type": "Person",
+          "name": "Frances Wong",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        }
+      ],
       "subEvent": [
         {
           "@type": "Event",
@@ -263,7 +358,7 @@
       "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2021#day4",
       "@type": "Event",
       "name": "Day 4",
-      "alternateName": "Teaching and training",
+      "alternateName": "Teaching and Training",
       "description": "TBD",
       "url": "/events/ome-community-meeting-2021/day4/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
@@ -273,6 +368,52 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Stefanie Weidtkamp-Peters",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Heinrich-Heine University Duesseldorf"
+          },
+          "sameAs": "https://www.cai.hhu.de/en/team"
+        },
+        {
+          "@type": "Person",
+          "name": "Evan Sander",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Harvard Medical School"
+          },
+          "sameAs": "https://meded.hms.harvard.edu/people/evan-sanders"
+        },
+        {
+          "@type": "Person",
+          "name": "Luca Lianas",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "CRS4"
+          },
+          "sameAs": "https://www.crs4.it/peopledetails/219/luca-lianas"
+        },
+        {
+          "@type": "Person",
+          "name": "Paul Pfelts",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.dundee.ac.uk/people/paul-felts"
+        },
+        {
+          "@type": "Person",
+          "name": "Beatriz Serrano-Solano",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Freiburg"
+          }
+        }
+      ],
       "subEvent": [
         {
           "@type": "Event",
