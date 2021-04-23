@@ -91,7 +91,8 @@
         },
         {
           "@type": "Event",
-          "name": "Keynote",
+          "name": "Keynote Lecture",
+          "description": "Title TBC",
           "startDate": "2021-06-08T16:00+01:00",
           "endDate": "2021-06-08T17:00+01:00",
           "performer": [
