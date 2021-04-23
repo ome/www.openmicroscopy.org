@@ -47,7 +47,7 @@
   "subEvent": [
     {
       "@type": "Event",
-      "name": "Overview, Keynote & Demos",
+      "name": "Introduction, Keynote & Demos",
       "alternateName": "Day 1",
       "url": "/events/ome-community-meeting-2021/day1/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
@@ -71,7 +71,7 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Overview",
+          "name": "Introduction",
           "startDate": "2021-06-08T10:00+01:00",
           "endDate": "2021-06-08T11:00+01:00",
           "location": {
