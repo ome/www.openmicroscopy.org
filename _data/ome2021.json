@@ -146,6 +146,16 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "organizer": [
+        {
+          "@type": "Person",
+          "name": "Josh Moore",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          }
+        }
+      ],
       "performer": [
         {
           "@type": "Person",
@@ -273,6 +283,16 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "organizer": [
+        {
+          "@type": "Person",
+          "name": "Sébastien Besson",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          }
+        }
+      ],
       "performer": [
         {
           "@type": "Person",
@@ -402,6 +422,16 @@
         "@type": "VirtualLocation",
         "url": "TBD"
       },
+      "organizer": [
+        {
+          "@type": "Person",
+          "name": "Jean-Marie Burel",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          }
+        }
+      ],
       "performer": [
         {
           "@type": "Person",
