@@ -18,7 +18,8 @@
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
-      }
+      },
+      "url": "https://www.openmicroscopy.org/teams/"
     },
     {
       "@type": "Person",
@@ -26,15 +27,17 @@
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
-      }
+      },
+      "url": "https://www.openmicroscopy.org/teams/"
     },
     {
-        "@type": "Person",
-        "name": "June Matthew",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "University of Dundee"
-        }
+      "@type": "Person",
+      "name": "June Matthew",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      },
+      "url": "https://www.openmicroscopy.org/teams/"
     },
     {
       "@type": "Person",
@@ -42,7 +45,8 @@
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
-      }
+      },
+      "url": "https://www.openmicroscopy.org/teams/"
     }
   ],
   "subEvent": [
@@ -153,7 +157,8 @@
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
-          }
+          },
+          "url": "https://www.openmicroscopy.org/teams/"
         }
       ],
       "performer": [
@@ -290,7 +295,8 @@
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
-          }
+          },
+          "url": "https://www.openmicroscopy.org/teams/"
         }
       ],
       "performer": [
@@ -429,7 +435,8 @@
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
-          }
+          },
+          "url": "https://www.openmicroscopy.org/teams/"
         }
       ],
       "performer": [
