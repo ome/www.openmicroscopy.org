@@ -15,12 +15,13 @@
     {
       "@type": "Offer",
       "name": "Registration",
-      "availabilityStarts": "2021-05-03",
+      "availabilityStarts": "2021-05-04",
       "availabilityEnds": "2021-06-03",
       "priceCurrency": "GBP",
       "price": 0,
-      "url": "TBD",
-      "availability": "InStock"
+      "url": "https://docs.google.com/forms/d/1xVwZA9mIHnHv9KCuiMO27ktFmKLUQWRniVf_JIH4RSw",
+      "availability": "InStock",
+      "validFrom": "2021-05-04",
     }
   ],
   "organizer": [
