@@ -18,19 +18,24 @@
 </div>
 
 <hr class="invisible">
+<h5 class="row column text-center">Speakers</h5>
+{% for speaker in event.performer  %}
+<div class="row small-up-1 medium-up-2 text-center consortium-list">
+<a target="_blank" href="{{ speaker.sameAs }}">
+{{ speaker.firstName }} {{ speaker.familyName }}
+</a>
+<span class="institution">{{ speaker.affiliation.name }}</span>
+</div>
+{% endfor %}
+</p>
 
+<h5 class="row column text-center">Schedule</h5>
 <div class="row align-right">
   {% for subevent in event.subEvent %}
   <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}</div>
   <div class="medium-8 columns">
     <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
     {% if subevent.description %}<p>{{ subevent.description }}</p>{% endif %}
-    {% if subevent.performer.name %}
-    <p>{{ subevent.performer.name }}, <span class="ome-green italic">{{ subevent.performer.affiliation.name }}</span></p>
-    {% else %}
-    {% for performer in subevent.performer %}<p>{{ performer.name }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span></p>
-    {% endfor %}
-    {% endif %}
   </div>
   {% endfor %}
 </div>
