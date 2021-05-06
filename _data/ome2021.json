@@ -89,7 +89,9 @@
             "@type": "Organization",
             "name": "RCSB PDB"
           },
-          "sameAs": "https://www.rcsb.org/pages/about-us/helen-berman"
+          "sameAs": [
+            "https://www.rcsb.org/pages/about-us/helen-berman"
+          ]
         }
       ],
       "subEvent": [
@@ -215,7 +217,9 @@
             "@type": "Organization",
             "name": "Monash University"
           },
-          "sameAs": "https://research.monash.edu/en/persons/wojtek-goscinski"
+          "sameAs": [
+            "https://research.monash.edu/en/persons/wojtek-goscinski"
+          ]
         },
         {
           "@type": "Person",
@@ -341,7 +345,9 @@
             "@type": "Organization",
             "name": "EMBL-EBI"
           },
-          "sameAs": "https://www.ebi.ac.uk/about/people/matthew-hartley"
+          "sameAs": [
+            "https://www.ebi.ac.uk/about/people/matthew-hartley"
+          ]
         },
         {
           "@type": "Person",
@@ -351,11 +357,10 @@
             "@type": "Organization",
             "name": "EMBL"
           },
-          "sameAs":
-            [
-                "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595",
-                "https://twitter.com/AntjeKeppler"
-            ]
+          "sameAs": [
+            "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595",
+            "https://twitter.com/AntjeKeppler"
+          ]
         },
         {
           "@type": "Person",
@@ -365,7 +370,9 @@
             "@type": "Organization",
             "name": "EMBL-EBI"
           },
-          "sameAs": "https://www.ebi.ac.uk/about/people/ardan-patwardhan"
+          "sameAs": [
+            "https://www.ebi.ac.uk/about/people/ardan-patwardhan"
+          ]
         },
         {
           "@type": "Person",
@@ -375,7 +382,9 @@
             "@type": "Organization",
             "name": "University of Dundee"
           },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
+          "sameAs": [
+            "https://www.openmicroscopy.org/teams/"
+          ]
         }
       ],
       "subEvent": [
@@ -477,7 +486,9 @@
             "@type": "Organization",
             "name": "University of Dundee"
           },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
+          "sameAs": [
+            "https://www.openmicroscopy.org/teams/"
+          ]
         }
       ],
       "performer": [
@@ -502,7 +513,9 @@
             "@type": "Organization",
             "name": "Harvard Medical School"
           },
-          "sameAs": "https://meded.hms.harvard.edu/people/evan-sanders"
+          "sameAs": [
+            "https://meded.hms.harvard.edu/people/evan-sanders"
+          ]
         },
         {
           "@type": "Person",
@@ -525,7 +538,9 @@
             "@type": "Organization",
             "name": "University of Dundee"
           },
-          "sameAs": "https://www.dundee.ac.uk/people/paul-felts"
+          "sameAs": [
+            "https://www.dundee.ac.uk/people/paul-felts"
+          ]
         },
         {
           "@type": "Person",
