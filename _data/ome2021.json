@@ -21,45 +21,49 @@
       "price": 0,
       "url": "https://j.mp/ome2021-registration",
       "availability": "InStock",
-      "validFrom": "2021-05-04",
+      "validFrom": "2021-05-04"
     }
   ],
   "organizer": [
     {
       "@type": "Person",
-      "name": "Sébastien Besson",
+      "firstName": "Sébastien",
+      "familyName": "Besson",
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
       },
-      "url": "https://www.openmicroscopy.org/teams/"
+      "sameAs": "https://www.openmicroscopy.org/teams/"
     },
     {
       "@type": "Person",
-      "name": "Jean-Marie Burel",
+      "firstName": "Jean-Marie",
+      "familyName": "Burel",
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
       },
-      "url": "https://www.openmicroscopy.org/teams/"
+      "sameAs": "https://www.openmicroscopy.org/teams/"
     },
     {
       "@type": "Person",
-      "name": "June Matthew",
+      "firstName": "June",
+      "familyName": "Matthew",
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
       },
-      "url": "https://www.openmicroscopy.org/teams/"
+      "sameAs": "https://www.openmicroscopy.org/teams/"
     },
     {
       "@type": "Person",
-      "name": "Josh Moore",
+      "firstName": "Josh",
+      "familyName": "Moore",
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
       },
-      "url": "https://www.openmicroscopy.org/teams/"
+      "sameAs": "https://www.openmicroscopy.org/teams/"
     }
   ],
   "subEvent": [
@@ -79,7 +83,8 @@
       "performer": [
         {
           "@type": "Person",
-          "name": "Helen Berman",
+          "firstName": "Helen",
+          "familyName": "Berman",
           "affiliation": {
             "@type": "Organization",
             "name": "RCSB PDB"
@@ -166,18 +171,20 @@
       "organizer": [
         {
           "@type": "Person",
-          "name": "Josh Moore",
+          "firstName": "Josh",
+          "familyName": "Moore",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
           },
-          "url": "https://www.openmicroscopy.org/teams/"
+          "sameAs": "https://www.openmicroscopy.org/teams/"
         }
       ],
       "performer": [
         {
           "@type": "Person",
-          "name": "Andra Waagmeester",
+          "firstName": "Andra",
+          "familyName": "Waagmeester",
           "affiliation": {
             "@type": "Organization",
             "name": "Micelio"
@@ -186,7 +193,8 @@
         },
         {
           "@type": "Person",
-          "name": "Sylvia Le Dévédec",
+          "firstName": "Sylvia",
+          "familyName": "Le Dévédec",
           "affiliation": {
             "@type": "Organization",
             "name": "Leiden University"
@@ -195,7 +203,8 @@
         },
         {
           "@type": "Person",
-          "name": "Wojtek Goscinski",
+          "firstName": "Wojtek",
+          "familyName": "Goscinski",
           "affiliation": {
             "@type": "Organization",
             "name": "Monash University"
@@ -204,7 +213,8 @@
         },
         {
           "@type": "Person",
-          "name": "Elisa May",
+          "firstName": "Elisa",
+          "familyName": "May",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Konstanz"
@@ -304,18 +314,20 @@
       "organizer": [
         {
           "@type": "Person",
-          "name": "Sébastien Besson",
+          "firstName": "Sébastien",
+          "familyName": "Besson",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
           },
-          "url": "https://www.openmicroscopy.org/teams/"
+          "sameAs": "https://www.openmicroscopy.org/teams/"
         }
       ],
       "performer": [
         {
           "@type": "Person",
-          "name": "Matthew Hartley",
+          "firstName": "Matthew",
+          "familyName": "Hartley",
           "affiliation": {
             "@type": "Organization",
             "name": "EMBL-EBI"
@@ -324,7 +336,8 @@
         },
         {
           "@type": "Person",
-          "name": "Antje Keppler",
+          "firstName": "Antje",
+          "familyName": "Keppler",
           "affiliation": {
             "@type": "Organization",
             "name": "EMBL"
@@ -334,7 +347,8 @@
         },
         {
           "@type": "Person",
-          "name": "Ardan Patwardhan",
+          "firstName": "Ardan",
+          "familyName": "Patwardhan",
           "affiliation": {
             "@type": "Organization",
             "name": "EMBL-EBI"
@@ -343,7 +357,8 @@
         },
         {
           "@type": "Person",
-          "name": "Frances Wong",
+          "firstName": "Frances",
+          "familyName": "Wong",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
@@ -444,18 +459,20 @@
       "organizer": [
         {
           "@type": "Person",
-          "name": "Jean-Marie Burel",
+          "firstName": "Jean-Marie",
+          "lastName": "Burel",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
           },
-          "url": "https://www.openmicroscopy.org/teams/"
+          "sameAs": "https://www.openmicroscopy.org/teams/"
         }
       ],
       "performer": [
         {
           "@type": "Person",
-          "name": "Stefanie Weidtkamp-Peters",
+          "firstName": "Stefanie",
+          "familyName": "Weidtkamp-Peters",
           "affiliation": {
             "@type": "Organization",
             "name": "Heinrich-Heine University Duesseldorf"
@@ -464,7 +481,8 @@
         },
         {
           "@type": "Person",
-          "name": "Evan Sanders",
+          "firstName": "Evan Sanders",
+          "familyName": "Sanders",
           "affiliation": {
             "@type": "Organization",
             "name": "Harvard Medical School"
@@ -473,7 +491,8 @@
         },
         {
           "@type": "Person",
-          "name": "Luca Lianas",
+          "firstName": "Luca",
+          "familyName": "Lianas",
           "affiliation": {
             "@type": "Organization",
             "name": "CRS4"
@@ -482,7 +501,8 @@
         },
         {
           "@type": "Person",
-          "name": "Paul Felts",
+          "firstName": "Paul",
+          "familyName": "Felts",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
@@ -491,7 +511,8 @@
         },
         {
           "@type": "Person",
-          "name": "Beatriz Serrano-Solano",
+          "firstName": "Beatriz",
+          "familyName": "Serrano-Solano",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Freiburg"
