@@ -189,8 +189,10 @@
             "@type": "Organization",
             "name": "Micelio"
           },
-          "sameAs": "https://www.micelio.be/people.html",
-          "sameAs": "https://twitter.com/andrawaag"
+          "sameAs": [
+              "https://www.micelio.be/people.html",
+              "https://twitter.com/andrawaag"
+          ]
         },
         {
           "@type": "Person",
@@ -200,8 +202,10 @@
             "@type": "Organization",
             "name": "Leiden University"
           },
-          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec",
-          "sameAs": "https://twitter.com/seledevedec"
+          "sameAs": [
+            "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec",
+            "https://twitter.com/seledevedec"
+          ]
         },
         {
           "@type": "Person",
@@ -221,8 +225,10 @@
             "@type": "Organization",
             "name": "University of Konstanz"
           },
-          "sameAs": "https://www.biologie.uni-konstanz.de/bioimaging-centre/team/prof-dr-elisa-may",
-          "sameAs": "https://twitter.com/ferrandoelisa"
+          "sameAs": [
+            "https://www.biologie.uni-konstanz.de/bioimaging-centre/team/prof-dr-elisa-may",
+            "https://twitter.com/ferrandoelisa"
+          ]
         }
       ],
       "subEvent": [
@@ -345,8 +351,11 @@
             "@type": "Organization",
             "name": "EMBL"
           },
-          "sameAs": "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595",
-          "sameAs": "https://twitter.com/AntjeKeppler"
+          "sameAs":
+            [
+                "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595",
+                "https://twitter.com/AntjeKeppler"
+            ]
         },
         {
           "@type": "Person",
@@ -480,8 +489,10 @@
             "@type": "Organization",
             "name": "Heinrich-Heine University Duesseldorf"
           },
-          "sameAs": "https://www.cai.hhu.de/en/team",
-          "sameAs": "https://twitter.com/SteffiWeidtkamp"
+          "sameAs": [
+            "https://www.cai.hhu.de/en/team",
+            "https://twitter.com/SteffiWeidtkamp"
+          ]
         },
         {
           "@type": "Person",
@@ -501,8 +512,10 @@
             "@type": "Organization",
             "name": "CRS4"
           },
-          "sameAs": "https://www.crs4.it/peopledetails/219/luca-lianas",
-          "sameAs": "https://twitter.com/lucalianas"
+          "sameAs": [
+            "https://www.crs4.it/peopledetails/219/luca-lianas",
+            "https://twitter.com/lucalianas"
+          ]
         },
         {
           "@type": "Person",
@@ -522,8 +535,10 @@
             "@type": "Organization",
             "name": "University of Freiburg"
           },
-          "sameAs": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano",
-          "sameAs": "https://twitter.com/Birthae"
+          "sameAs": [
+            "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano",
+            "https://twitter.com/Birthae"
+          ]
         }
       ],
       "subEvent": [
