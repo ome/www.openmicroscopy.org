@@ -189,7 +189,8 @@
             "@type": "Organization",
             "name": "Micelio"
           },
-          "sameAs": "https://www.micelio.be/people.html"
+          "sameAs": "https://www.micelio.be/people.html",
+          "sameAs": "https://twitter.com/andrawaag"
         },
         {
           "@type": "Person",
@@ -199,7 +200,8 @@
             "@type": "Organization",
             "name": "Leiden University"
           },
-          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec"
+          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec",
+          "sameAs": "https://twitter.com/seledevedec"
         },
         {
           "@type": "Person",
@@ -219,7 +221,8 @@
             "@type": "Organization",
             "name": "University of Konstanz"
           },
-          "sameAs": "https://www.biologie.uni-konstanz.de/bioimaging-centre/team/prof-dr-elisa-may"
+          "sameAs": "https://www.biologie.uni-konstanz.de/bioimaging-centre/team/prof-dr-elisa-may",
+          "sameAs": "https://twitter.com/ferrandoelisa"
         }
       ],
       "subEvent": [
@@ -342,8 +345,8 @@
             "@type": "Organization",
             "name": "EMBL"
           },
-          "sameAs": "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595"
-          
+          "sameAs": "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595",
+          "sameAs": "https://twitter.com/AntjeKeppler"
         },
         {
           "@type": "Person",
@@ -477,7 +480,8 @@
             "@type": "Organization",
             "name": "Heinrich-Heine University Duesseldorf"
           },
-          "sameAs": "https://www.cai.hhu.de/en/team"
+          "sameAs": "https://www.cai.hhu.de/en/team",
+          "sameAs": "https://twitter.com/SteffiWeidtkamp"
         },
         {
           "@type": "Person",
@@ -497,7 +501,8 @@
             "@type": "Organization",
             "name": "CRS4"
           },
-          "sameAs": "https://www.crs4.it/peopledetails/219/luca-lianas"
+          "sameAs": "https://www.crs4.it/peopledetails/219/luca-lianas",
+          "sameAs": "https://twitter.com/lucalianas"
         },
         {
           "@type": "Person",
@@ -517,7 +522,8 @@
             "@type": "Organization",
             "name": "University of Freiburg"
           },
-          "sameAs": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano"
+          "sameAs": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano",
+          "sameAs": "https://twitter.com/Birthae"
         }
       ],
       "subEvent": [
