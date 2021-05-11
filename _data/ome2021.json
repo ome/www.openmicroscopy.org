@@ -27,7 +27,7 @@
   "organizer": [
     {
       "@type": "Person",
-      "firstName": "Sébastien",
+      "givenName": "Sébastien",
       "familyName": "Besson",
       "affiliation": {
         "@type": "Organization",
@@ -37,7 +37,7 @@
     },
     {
       "@type": "Person",
-      "firstName": "Jean-Marie",
+      "givenName": "Jean-Marie",
       "familyName": "Burel",
       "affiliation": {
         "@type": "Organization",
@@ -47,7 +47,7 @@
     },
     {
       "@type": "Person",
-      "firstName": "June",
+      "givenName": "June",
       "familyName": "Matthew",
       "affiliation": {
         "@type": "Organization",
@@ -57,7 +57,7 @@
     },
     {
       "@type": "Person",
-      "firstName": "Josh",
+      "givenName": "Josh",
       "familyName": "Moore",
       "affiliation": {
         "@type": "Organization",
@@ -83,7 +83,7 @@
       "performer": [
         {
           "@type": "Person",
-          "firstName": "Helen",
+          "givenName": "Helen",
           "familyName": "Berman",
           "affiliation": {
             "@type": "Organization",
@@ -171,7 +171,7 @@
       "organizer": [
         {
           "@type": "Person",
-          "firstName": "Josh",
+          "givenName": "Josh",
           "familyName": "Moore",
           "affiliation": {
             "@type": "Organization",
@@ -183,7 +183,7 @@
       "performer": [
         {
           "@type": "Person",
-          "firstName": "Andra",
+          "givenName": "Andra",
           "familyName": "Waagmeester",
           "affiliation": {
             "@type": "Organization",
@@ -193,7 +193,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Sylvia",
+          "givenName": "Sylvia",
           "familyName": "Le Dévédec",
           "affiliation": {
             "@type": "Organization",
@@ -203,7 +203,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Wojtek",
+          "givenName": "Wojtek",
           "familyName": "Goscinski",
           "affiliation": {
             "@type": "Organization",
@@ -213,7 +213,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Elisa",
+          "givenName": "Elisa",
           "familyName": "May",
           "affiliation": {
             "@type": "Organization",
@@ -314,7 +314,7 @@
       "organizer": [
         {
           "@type": "Person",
-          "firstName": "Sébastien",
+          "givenName": "Sébastien",
           "familyName": "Besson",
           "affiliation": {
             "@type": "Organization",
@@ -326,7 +326,7 @@
       "performer": [
         {
           "@type": "Person",
-          "firstName": "Matthew",
+          "givenName": "Matthew",
           "familyName": "Hartley",
           "affiliation": {
             "@type": "Organization",
@@ -336,7 +336,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Antje",
+          "givenName": "Antje",
           "familyName": "Keppler",
           "affiliation": {
             "@type": "Organization",
@@ -347,7 +347,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Ardan",
+          "givenName": "Ardan",
           "familyName": "Patwardhan",
           "affiliation": {
             "@type": "Organization",
@@ -357,7 +357,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Frances",
+          "givenName": "Frances",
           "familyName": "Wong",
           "affiliation": {
             "@type": "Organization",
@@ -459,8 +459,8 @@
       "organizer": [
         {
           "@type": "Person",
-          "firstName": "Jean-Marie",
-          "lastName": "Burel",
+          "givenName": "Jean-Marie",
+          "familyName": "Burel",
           "affiliation": {
             "@type": "Organization",
             "name": "University of Dundee"
@@ -471,7 +471,7 @@
       "performer": [
         {
           "@type": "Person",
-          "firstName": "Stefanie",
+          "givenName": "Stefanie",
           "familyName": "Weidtkamp-Peters",
           "affiliation": {
             "@type": "Organization",
@@ -481,7 +481,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Evan Sanders",
+          "givenName": "Evan Sanders",
           "familyName": "Sanders",
           "affiliation": {
             "@type": "Organization",
@@ -491,7 +491,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Luca",
+          "givenName": "Luca",
           "familyName": "Lianas",
           "affiliation": {
             "@type": "Organization",
@@ -501,7 +501,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Paul",
+          "givenName": "Paul",
           "familyName": "Felts",
           "affiliation": {
             "@type": "Organization",
@@ -511,7 +511,7 @@
         },
         {
           "@type": "Person",
-          "firstName": "Beatriz",
+          "givenName": "Beatriz",
           "familyName": "Serrano-Solano",
           "affiliation": {
             "@type": "Organization",

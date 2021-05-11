@@ -45,7 +45,7 @@ redirect_from:
                     <h5 class="margin-bottom">Keynote Speaker</h5>
                     <p>
                     <a target="_blank" href="{{ keynote.sameAs }}">
-                    {{ keynote.firstName }} {{ keynote.familyName }}
+                    {{ keynote.givenName }} {{ keynote.familyName }}
                     </a>
                     <span class="institution">{{ keynote.affiliation.name }}</span>
                     </p>
@@ -54,7 +54,7 @@ redirect_from:
                     <p>
                     {% for speaker in speakers %}
                     <a target="_blank" href="{{ speaker.sameAs }}">
-                    {{ speaker.firstName }} {{ speaker.familyName }}
+                    {{ speaker.givenName }} {{ speaker.familyName }}
                     </a>
                     <span class="institution">{{ speaker.affiliation.name }}</span></br>
                     {% endfor %}
@@ -68,7 +68,7 @@ redirect_from:
                     <p>
                     {% for organizer in organizers %}
                     <a target="_blank" href="{{ organizer.sameAs }}">
-                    {{ organizer.firstName }} {{ organizer.familyName }}
+                    {{ organizer.givenName }} {{ organizer.familyName }}
                     </a></br>
                     {% endfor %}
                     </p>
