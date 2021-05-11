@@ -22,7 +22,7 @@
 {% for speaker in event.performer  %}
 <div class="row small-up-1 medium-up-2 text-center consortium-list">
 <a target="_blank" href="{{ speaker.sameAs }}">
-{{ speaker.firstName }} {{ speaker.familyName }}
+{{ speaker.givenName }} {{ speaker.familyName }}
 </a>
 <span class="institution">{{ speaker.affiliation.name }}</span>
 </div>
