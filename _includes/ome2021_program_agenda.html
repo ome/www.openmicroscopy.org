@@ -46,8 +46,8 @@
   <div class="medium-8 columns">
     <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
     <p>
-    {% if subevent.description %}{{ subevent.description }}{% endif %}
-    {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span>{% endfor %}
+    {% if subevent.description %}{{ subevent.description }}<br/>{% endif %}
+    {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
     </p>
   </div>
   {% endfor %}

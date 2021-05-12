@@ -95,62 +95,95 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Introduction",
+          "name": "Session 1",
+          "description": "This session is aimed at our
+          community attending from Europe, Africa or America.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T10:00+01:00",
-          "endDate": "2021-06-08T11:00+01:00",
+          "startDate": "2021-06-09T10:00+01:00",
+          "endDate": "2021-06-09T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Demos",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T11:00+01:00",
-          "endDate": "2021-06-08T14:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Keynote Lecture",
-          "description": "Title TBC",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T16:00+01:00",
-          "endDate": "2021-06-08T17:00+01:00",
-          "performer": [
+          },
+          "subEvent": [
             {
-              "@type": "Person",
-              "name": "Helen Berman",
-              "affiliation": {
-                "@type": "Organization",
-                "name": "RCSB PDB"
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T10:00+01:00",
+              "endDate": "2021-06-08T11:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T11:00+01:00",
+              "endDate": "2021-06-08T14:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
               }
             }
-          ],
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
+          ]
         },
         {
           "@type": "Event",
-          "name": "Demos",
+          "name": "Session 2",
+          "description": "This session is aimed at our
+          community attending from Europe, Africa or America.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T17:00+01:00",
-          "endDate": "2021-06-08T20:00+01:00",
+          "startDate": "2021-06-09T10:00+01:00",
+          "endDate": "2021-06-09T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Keynote Lecture",
+              "description": "Title TBC",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T16:00+01:00",
+              "endDate": "2021-06-08T17:00+01:00",
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Helen",
+                  "familyName": "Berman",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "RCSB PDB"
+                  }
+                }
+              ],
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T17:00+01:00",
+              "endDate": "2021-06-08T20:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            }
+          ]
         }
       ]
     },
@@ -318,8 +351,8 @@
           community attending from Europe, Africa or America.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-09T10:00+01:00",
-          "endDate": "2021-06-09T13:00+01:00",
+          "startDate": "2021-06-09T16:00+01:00",
+          "endDate": "2021-06-09T19:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
@@ -473,75 +506,199 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Q&A session",
+          "name": "Session 1",
+          "description": "This session is aimed at our
+          community attending from Europe, Africa or America.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-10T10:00+01:00",
-          "endDate": "2021-06-10T11:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-10T11:00+01:00",
-          "endDate": "2021-06-10T12:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-10T12:00+01:00",
           "endDate": "2021-06-10T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T10:00+01:00",
+              "endDate": "2021-06-10T10:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Sébastien",
+                  "familyName": "Besson",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T10:10+01:00",
+              "endDate": "2021-06-10T10:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "IDR Workshop",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T11:00+01:00",
+              "endDate": "2021-06-10T12:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Petr",
+                  "familyName": "Walczysko",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T12:30+01:00",
+              "endDate": "2021-06-10T13:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            }
+          ]
         },
         {
           "@type": "Event",
-          "name": "Q&A session",
+          "name": "Session 2 (repeat of session 1)",
+          "description": "The second session is aimed at our
+          community attending from Europe, Africa or America.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-10T16:00+01:00",
-          "endDate": "2021-06-10T17:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-10T17:00+01:00",
-          "endDate": "2021-06-10T18:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-10T18:00+01:00",
           "endDate": "2021-06-10T19:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T16:00+01:00",
+              "endDate": "2021-06-10T16:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Sébastien",
+                  "familyName": "Besson",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T16:10+01:00",
+              "endDate": "2021-06-10T16:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "IDR Workshop",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T17:00+01:00",
+              "endDate": "2021-06-10T18:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Petr",
+                  "familyName": "Walczysko",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T18:30+01:00",
+              "endDate": "2021-06-10T19:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            }
+          ]
         }
       ]
     },
@@ -627,75 +784,179 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Q&A session",
+          "name": "Session 1",
+          "description": "The first session is aimed at our community
+          attending from Oceania, Asia, Europe or Africa.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-11T10:00+01:00",
-          "endDate": "2021-06-11T11:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-11T11:00+01:00",
-          "endDate": "2021-06-11T12:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-11T12:00+01:00",
           "endDate": "2021-06-11T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T09:00+01:00",
+              "endDate": "2021-06-11T09:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T10:00+01:00",
+              "endDate": "2021-06-11T11:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "OMERO trainers Workshop",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T11:00+01:00",
+              "endDate": "2021-06-11T12:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Petr",
+                  "familyName": "Walczysko",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T12:30+01:00",
+              "endDate": "2021-06-11T13:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            }
+          ]
         },
         {
           "@type": "Event",
-          "name": "Q&A session",
+          "name": "Session 2 (repeat of session 1)",
+          "description": "The first session is aimed at our community
+          attending from Oceania, Asia, Europe or Africa.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-11T16:00+01:00",
-          "endDate": "2021-06-11T17:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-11T17:00+01:00",
-          "endDate": "2021-06-11T18:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Workshop",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-11T18:00+01:00",
           "endDate": "2021-06-11T19:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T16:00+01:00",
+              "endDate": "2021-06-11T16:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T16:10+01:00",
+              "endDate": "2021-06-11T16:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "OMERO trainers Workshop",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T17:00+01:00",
+              "endDate": "2021-06-11T18:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Petr",
+                  "familyName": "Walczysko",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T18:30+01:00",
+              "endDate": "2021-06-11T19:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            }
+          ]
         }
       ]
     }
