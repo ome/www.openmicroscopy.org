@@ -225,11 +225,35 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Q&A session",
+          "name": "Introduction",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-09T10:00+01:00",
-          "endDate": "2021-06-09T11:00+01:00",
+          "endDate": "2021-06-09T10:10+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "givenName": "Josh",
+              "familyName": "Moore",
+              "affiliation": {
+                "@type": "Organization",
+                "name": "University of Dundee"
+              },
+              "sameAs": "https://www.openmicroscopy.org/teams/"
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Q&A session",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-09T10:10+01:00",
+          "endDate": "2021-06-09T10:55+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
@@ -237,22 +261,34 @@
         },
         {
           "@type": "Event",
-          "name": "Workshop",
+          "name": "OMERO.figure workshop",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-09T11:00+01:00",
-          "endDate": "2021-06-09T12:00+01:00",
+          "endDate": "2021-06-09T12:20+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "givenName": "William",
+              "familyName": "Moore",
+              "affiliation": {
+                "@type": "Organization",
+                "name": "University of Dundee"
+              },
+              "sameAs": "https://www.openmicroscopy.org/teams/"
+            }
+          ]
         },
         {
           "@type": "Event",
-          "name": "Workshop",
+          "name": "Break-out sessions",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-09T12:00+01:00",
+          "startDate": "2021-06-09T12:30+01:00",
           "endDate": "2021-06-09T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
@@ -261,11 +297,35 @@
         },
         {
           "@type": "Event",
-          "name": "Q&A session",
+          "name": "Introduction",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-09T16:00+01:00",
-          "endDate": "2021-06-09T17:00+01:00",
+          "endDate": "2021-06-09T16:10+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "givenName": "Josh",
+              "familyName": "Moore",
+              "affiliation": {
+                "@type": "Organization",
+                "name": "University of Dundee"
+              },
+              "sameAs": "https://www.openmicroscopy.org/teams/"
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Q&A session",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-09T16:10+01:00",
+          "endDate": "2021-06-09T16:55+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
@@ -277,18 +337,30 @@
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
           "startDate": "2021-06-09T17:00+01:00",
-          "endDate": "2021-06-09T18:00+01:00",
+          "endDate": "2021-06-09T18:20+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
-          }
+          },
+          "performer": [
+            {
+              "@type": "Person",
+              "givenName": "William",
+              "familyName": "Moore",
+              "affiliation": {
+                "@type": "Organization",
+                "name": "University of Dundee"
+              },
+              "sameAs": "https://www.openmicroscopy.org/teams/"
+            }
+          ]
         },
         {
           "@type": "Event",
-          "name": "Workshop",
+          "name": "Break-out sessions",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-09T18:00+01:00",
+          "startDate": "2021-06-09T18:30+01:00",
           "endDate": "2021-06-09T19:00+01:00",
           "location": {
             "@type": "VirtualLocation",
