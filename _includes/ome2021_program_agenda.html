@@ -10,15 +10,11 @@
     <h5>Please Note</h5>
     <p>
         This schedule is subject to change and will be updated periodically.<br/>
-        The schedule will include pre-recorded videos organised by topic followed by group discussions.<br/>
-        Please find time to watch the videos <strong>before</strong> the corresponding discussion
-        on each topic.<br/>
-        All times are in UK - British Summer Time (GMT+1).
+        The schedule will include pre-recorded videos organised by topic followed by group discussions.
     </p>
 </div>
 
-<hr class="invisible">
-<h5 class="row column text-center">Speakers</h5>
+<h4 class="row column text-center">Speakers</h4>
 {% for speaker in event.performer  %}
 <div class="row small-up-1 medium-up-2 text-center consortium-list">
 <a target="_blank" href="{{ speaker.sameAs }}">
@@ -29,18 +25,34 @@
 {% endfor %}
 </p>
 
-<h5 class="row column text-center">Schedule</h5>
+<div class="row column text-center">
+<h4>Schedule</h4>
+<p>
+    The content will repeated over two sessions to accomodate our
+    community across timezones.<br/>
+    Please find time to watch the videos <strong>before</strong> the corresponding discussion
+    on each topic.<br/>
+    All times are in UK - British Summer Time (GMT+1).
+</p>
+</div> 
+{% for session in event.subEvent %}
+<div class="row column text-center">
+<h5>{{ session.name }}</h5>
+<p>{{ session.description }}</p>
+</div> 
 <div class="row align-right">
-  {% for subevent in event.subEvent %}
+  {% for subevent in session.subEvent %}
   <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}</div>
   <div class="medium-8 columns">
     <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
-    {% if subevent.description %}<p>{{ subevent.description }}</p>{% endif %}
-    {% for performer in subevent.performer %}<p>{{ performer.givenName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span></p>{% endfor %}
+    <p>
+    {% if subevent.description %}{{ subevent.description }}{% endif %}
+    {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span>{% endfor %}
+    </p>
   </div>
   {% endfor %}
 </div>
-
+{% endfor %}
 
 {% if event.workFeatured %}
 
