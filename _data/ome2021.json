@@ -87,7 +87,7 @@
           "familyName": "Berman",
           "affiliation": {
             "@type": "Organization",
-            "name": "RCSB PDB"
+            "name": "Rutgers"
           },
           "sameAs": "https://www.rcsb.org/pages/about-us/helen-berman"
         }
@@ -162,7 +162,7 @@
                   "familyName": "Berman",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "RCSB PDB"
+                    "name": "Rutgers"
                   }
                 }
               ],
