@@ -18,7 +18,7 @@
 {% for speaker in event.performer  %}
 <div class="row small-up-1 medium-up-2 text-center consortium-list">
 <a target="_blank" href="{{ speaker.sameAs }}">
-{{ speaker.givenName }} {{ speaker.familyName }}
+{{ speaker.givenName }} {{ speaker.additionalName }} {{ speaker.familyName }}
 </a>
 <span class="institution">{{ speaker.affiliation.name }}</span>
 </div>
@@ -47,7 +47,7 @@
     <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
     <p>
     {% if subevent.description %}{{ subevent.description }}<br/>{% endif %}
-    {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
+    {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.additionalName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
     </p>
   </div>
   {% endfor %}
