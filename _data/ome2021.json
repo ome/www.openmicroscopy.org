@@ -503,6 +503,26 @@
             "name": "University of Dundee"
           },
           "sameAs": "https://www.openmicroscopy.org/teams/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Nils",
+          "familyName": "Gehlenborg",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Harvard Medical School"
+          },
+          "sameAs": "https://dbmi.hms.harvard.edu/people/nils-gehlenborg"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Katy",
+          "familyName": "Börner",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Indiana University"
+          },
+          "sameAs": "https://ils.indiana.edu/contact/profile/?profile_id=2"
         }
       ],
       "subEvent": [
