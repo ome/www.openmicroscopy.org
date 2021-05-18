@@ -729,7 +729,7 @@
       "@type": "Event",
       "alternateName": "Day 4",
       "name": "Teaching and Training",
-      "description": "TBD",
+      "description": "The Teaching and Training day aims to cover the use of open platforms like OMERO for teaching and how to train users or evaluate your favourite software/algorithms using platforms presented in Day 3 -- public resources, <br/> and how to take advantage of resources during Day 2 -- RDM.",
       "url": "/events/ome-community-meeting-2021/day4/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
