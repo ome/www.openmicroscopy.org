@@ -438,7 +438,7 @@
     },
     {
       "@type": "Event",
-      "name": "Public resources",
+      "name": "Public Resources",
       "alternateName": "Day 3",
       "url": "/events/ome-community-meeting-2021/day3/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
