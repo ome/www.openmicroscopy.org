@@ -196,7 +196,7 @@
       "url": "/events/ome-community-meeting-2021/day2/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
-      "description": "The Research Data Management (RDM) day aims to cover (and perhaps answer) a range of pre-publication struggles, from structuring FAIR meta-/data through the search for insights and sharing those with others, all in preparation for day 3 -- public resources.",
+      "description": "The Research Data Management (RDM) day aims to cover (and perhaps answer) a range of pre-publication struggles, from structuring FAIR meta-/data through the search for insights and sharing those with others, all in preparation for day 3 -- Public Resources.",
       "startDate": "2021-06-09T10:00+01:00",
       "endDate": "2021-06-09T19:00+01:00",
       "location": {
@@ -443,7 +443,7 @@
       "url": "/events/ome-community-meeting-2021/day3/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
-      "description": "TBD",
+      "description": "The Public Resources day will explore several repositories providing access to published reference datasets composed of (but not limited to) images.",
       "startDate": "2021-06-10T10:00+01:00",
       "endDate": "2021-06-10T19:00+01:00",
       "location": {
@@ -729,7 +729,7 @@
       "@type": "Event",
       "alternateName": "Day 4",
       "name": "Teaching and Training",
-      "description": "The Teaching and Training day aims to cover the use of open platforms like OMERO for teaching and how to train users or evaluate your favourite software/algorithms using platforms presented in Day 3 -- public resources, <br/> and how to take advantage of resources during Day 2 -- RDM.",
+      "description": "The Teaching and Training day aims to cover the use of open platforms like OMERO for teaching and how to train users or evaluate your favourite software/algorithms using platforms presented in Day 3 -- Public Resources, and how to take advantage of resources during Day 2 -- Research Data Management.",
       "url": "/events/ome-community-meeting-2021/day4/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
