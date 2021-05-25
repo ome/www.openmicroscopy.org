@@ -299,6 +299,7 @@
             {
               "@type": "Event",
               "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider RDM topics",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T10:10+01:00",
@@ -335,6 +336,7 @@
             {
               "@type": "Event",
               "name": "Break-out sessions",
+              "description": "Including OMERO.figure for beginners, scripting OMERO.figure, and RDM round-table",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T12:30+01:00",
@@ -387,6 +389,7 @@
             {
               "@type": "Event",
               "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider RDM topics",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T16:10+01:00",
@@ -423,6 +426,7 @@
             {
               "@type": "Event",
               "name": "Break-out sessions",
+              "description": "Including OMERO.figure for beginners, scripting OMERO.figure, and RDM round-table",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T18:30+01:00",
