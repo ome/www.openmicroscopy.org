@@ -864,7 +864,7 @@
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T11:00+01:00",
-              "endDate": "2021-06-11T12:20+01:00",
+              "endDate": "2021-06-11T12:30+01:00",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
@@ -884,10 +884,10 @@
             },
             {
               "@type": "Event",
-              "name": "Break-out sessions",
+              "name": "Concluding remarks",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-11T12:30+01:00",
+              "startDate": "2021-06-11T12:40+01:00",
               "endDate": "2021-06-11T13:00+01:00",
               "location": {
                 "@type": "VirtualLocation",
@@ -952,7 +952,7 @@
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T17:00+01:00",
-              "endDate": "2021-06-11T18:20+01:00",
+              "endDate": "2021-06-11T18:30+01:00",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
@@ -972,10 +972,10 @@
             },
             {
               "@type": "Event",
-              "name": "Break-out sessions",
+              "name": "Concluding remarks",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-11T18:30+01:00",
+              "startDate": "2021-06-11T18:40+01:00",
               "endDate": "2021-06-11T19:00+01:00",
               "location": {
                 "@type": "VirtualLocation",
