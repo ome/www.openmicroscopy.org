@@ -93,6 +93,17 @@
           "sameAs": "https://www.rcsb.org/pages/about-us/helen-berman"
         }
       ],
+      "workFeatured": [
+        {
+          "@type": "VideoObject",
+          "name": "OME 2021 Day 1 - Demo Introductions",
+          "uploadDate": "2021-05-28",
+          "description": "Introduction to the demos of Day 1",
+          "thumbnailUrl": "/img/video/idr_update.png",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_"
+        }
+      ],
       "subEvent": [
         {
           "@type": "Event",
