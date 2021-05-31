@@ -586,7 +586,7 @@
             {
               "@type": "Event",
               "name": "IDR Workshop",
-              "description": "This session will first explore metadata associated to IDR data using the Web Interface. Then, we will demonstrate how to retrieve data and metadata using the APIs.",
+              "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-10T11:00+01:00",
@@ -687,7 +687,7 @@
             {
               "@type": "Event",
               "name": "IDR Workshop",
-              "description": "This session will first explore metadata associated to IDR data using the Web Interface. Then, we will demonstrate how to retrieve data and metadata using the APIs.",
+              "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-10T17:00+01:00",
