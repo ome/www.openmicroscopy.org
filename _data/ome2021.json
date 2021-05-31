@@ -321,7 +321,8 @@
             },
             {
               "@type": "Event",
-              "name": "OMERO.figure workshop",
+              "name": "OMERO.figure Workshop",
+              "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T11:00+01:00",
@@ -411,7 +412,8 @@
             },
             {
               "@type": "Event",
-              "name": "OMERO.figure workshop",
+              "name": "OMERO.figure Workshop",
+              "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T17:00+01:00",
@@ -594,6 +596,7 @@
             {
               "@type": "Event",
               "name": "IDR Workshop",
+              "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-10T11:00+01:00",
@@ -694,6 +697,7 @@
             {
               "@type": "Event",
               "name": "IDR Workshop",
+              "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-10T17:00+01:00",
@@ -876,6 +880,7 @@
             {
               "@type": "Event",
               "name": "OMERO trainers Workshop",
+              "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T11:00+01:00",
@@ -965,6 +970,7 @@
             {
               "@type": "Event",
               "name": "OMERO trainers Workshop",
+              "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T17:00+01:00",
