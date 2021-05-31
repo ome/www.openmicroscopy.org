@@ -960,7 +960,7 @@
             {
               "@type": "Event",
               "name": "OMERO trainers Workshop",
-              "description": "This session will introduce the materials available for running a successful OME workshop, lead you through steps necessary for replicating an OME Team training setups and discuss possible imrpovements and modifications of such setups.",
+              "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T17:00+01:00",
