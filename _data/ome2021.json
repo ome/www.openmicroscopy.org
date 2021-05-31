@@ -99,8 +99,8 @@
           "name": "Demo Introductions",
           "uploadDate": "2021-05-28",
           "description": "Introduction to the demos of Day 1",
-          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_"
+          "contentUrl": "https://youtu.be/DIR7yCFoh0A",
+          "embedUrl": "https://www.youtube.com/embed/DIR7yCFoh0A"
         }
       ],
       "subEvent": [
@@ -273,16 +273,16 @@
           "name": "Invited Talks",
           "uploadDate": "2021-05-31",
           "description": "Invited Talks for the Day 2 (Research Data Management) of OME 2021",
-          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1"
+          "contentUrl": "https://youtu.be/0FXAzJUZM84",
+          "embedUrl": "https://www.youtube.com/embed/0FXAzJUZM84"
         },
         {
           "@type": "VideoObject",
           "name": "Flash Talks",
           "uploadDate": "2021-05-28",
           "description": "Flash Talks for the Day 2 (Research Data Management) of OME 2021",
-          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3"
+          "contentUrl": "https://youtu.be/9zGjpX6FU1w",
+          "embedUrl": "https://www.youtube.com/embed/9zGjpX6FU1w"
         }
       ],
       "subEvent": [
