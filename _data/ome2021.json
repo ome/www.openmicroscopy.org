@@ -311,7 +311,8 @@
             },
             {
               "@type": "Event",
-              "name": "OMERO.figure workshop",
+              "name": "OMERO.figure Workshop",
+              "description": "We will show how figures can quickly be created using OMERO.figure.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T11:00+01:00",
@@ -401,7 +402,8 @@
             },
             {
               "@type": "Event",
-              "name": "OMERO.figure workshop",
+              "name": "OMERO.figure Workshop",
+              "description": "We will show how figures can quickly be created using OMERO.figure.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T17:00+01:00",
@@ -584,6 +586,7 @@
             {
               "@type": "Event",
               "name": "IDR Workshop",
+              "description": "We will first explore metadata associated to IDR data using the Web Interface. Then, we will demonstrate how to retrieve data and metadata using the APIs.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-10T11:00+01:00",
@@ -684,6 +687,7 @@
             {
               "@type": "Event",
               "name": "IDR Workshop",
+              "description": "We will first explore metadata associated to IDR data using the Web Interface. Then, we will demonstrate how to retrieve data and metadata using the APIs.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-10T17:00+01:00",
@@ -866,6 +870,7 @@
             {
               "@type": "Event",
               "name": "OMERO trainers Workshop",
+              "description": "This session will introduce the materials available for running a successful OME workshop and discuss possible setups.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T11:00+01:00",
@@ -955,6 +960,7 @@
             {
               "@type": "Event",
               "name": "OMERO trainers Workshop",
+              "description": "This session will introduce the materials available for running a successful OME workshop and discuss possible setups.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T17:00+01:00",
