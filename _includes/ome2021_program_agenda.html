@@ -26,12 +26,27 @@
 </p>
 
 <div class="row column text-center">
+<h4>Video Talks</h4>
+<p>Please find time to watch the videos <strong>before</strong> the corresponding discussion on each topic.</p>
+<div class="medium-8 columns">
+<div class="row align-right">
+{% for workFeatured in event.workFeatured %}
+<div class="medium-6 columns">
+<div class="flex-video">
+  <iframe width="420" height="315" src="{{ workFeatured.embedUrl }}" frameborder="0" allowfullscreen></iframe>
+</div>
+<p class="text-center"><span class="bold"> {{ workFeatured.name }}</span></p>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+
+<div class="row column text-center">
 <h4>Schedule</h4>
 <p>
     The content will repeated over two sessions to accomodate our
     community across timezones.<br/>
-    Please find time to watch the videos <strong>before</strong> the corresponding discussion
-    on each topic.<br/>
     All times are in UK - British Summer Time (GMT+1).
 </p>
 </div> 
@@ -53,30 +68,3 @@
   {% endfor %}
 </div>
 {% endfor %}
-
-{% if event.workFeatured %}
-
-<div class="row align-right">
-  <div class="medium-3 columns center-align"><img alt="data modeling -" class="user-group-illustration center-align" src="{{ site.baseurl }}/img/icons/agenda-themes_data-models-and-formats.svg"></div>
-  <div class="medium-8 columns">
-    <div class="row align-right">
-      <h6 class="ome-blue"><i class="fa fa-video-camera margin-right-half"></i>
-            Video Talks for <a href="#discussionnational-transnational-public-image-data-resources">Discussion: National/Transnational Public Image Data Resources</a>
-      </h6>
-      <div class="row align-right">
-      {% for video in event.workFeatured %}
-        <div class="medium-4 columns">
-          <div class="flex-video">
-            <video style="background:black" controls
-                   poster="{{ site.baseurl }}/{{ video.thumbnailUrl }}"  >
-              <source src="{{ video.contentURL }}" >
-            </video>
-          </div>
-          <p class="text-center"><span class="bold">{{ video.name }}</span><br>{{ video.author.name }}, <span class="ome-green italic">{{ video.author.affiliation.name }}</span></p>
-        </div>
-      {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
-{% endif %}
