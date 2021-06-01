@@ -140,7 +140,63 @@
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
-              }
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Ralph",
+                      "familyName": "Palmisano",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "(OICE) Friedrich-Alexander University"
+                      },
+                      "sameAs": "https://www.oice.uni-erlangen.de/staff/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Benjamin",
+                      "familyName": "Schmid",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "(OICE) Friedrich-Alexander University"
+                      },
+                      "sameAs": "https://www.oice.uni-erlangen.de/staff/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Connector between OMERO and the BigDataViewer",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Claire",
+                      "familyName": "Stoffel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "EPFL Lausanne"
+                      },
+                      "sameAs": "https://people.epfl.ch/claire.stoffel"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -193,7 +249,86 @@
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
-              }
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "Micro-Meta App: an interactive software tool to facilitate the collection of 
+microscopy metadata based on community-driven specifications",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Caterina",
+                      "familyName": "Strambio De Castillia",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Massachusetts Medical School"
+                      },
+                      "sameAs": "https://www.umassmed.edu/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Alex",
+                      "familyName": "Rigano",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Massachusetts Medical School"
+                      },
+                      "sameAs": "https://www.umassmed.edu/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Tissue Registration and Exploration Visualization User Interfaces",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Katy",
+                      "familyName": "Börner",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "SICE, Indiana University"
+                      },
+                      "sameAs": "https://info.sice.indiana.edu/~katy/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO admin at JAX",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Dave",
+                      "familyName": "Mellert",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "The Jackson Laboratory, Research IT"
+                      },
+                      "sameAs": "https://www.jax.org/"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
