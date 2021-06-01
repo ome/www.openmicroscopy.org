@@ -100,7 +100,8 @@
           "uploadDate": "2021-05-28",
           "description": "Introduction to the demos of Day 1",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
+          "thumbnailUrl": "https://img.youtube.com/vi/DIR7yCFoh0A/0.jpg"
         }
       ],
       "subEvent": [
@@ -274,7 +275,8 @@
           "uploadDate": "2021-05-31",
           "description": "Invited Talks for the Day 2 (Research Data Management) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
+          "thumbnailUrl": "https://img.youtube.com/vi/0FXAzJUZM84/0.jpg"
         },
         {
           "@type": "VideoObject",
@@ -282,7 +284,8 @@
           "uploadDate": "2021-05-31",
           "description": "Flash Talks for the Day 2 (Research Data Management) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
+          "thumbnailUrl": "https://img.youtube.com/vi/9zGjpX6FU1w/0.jpg"
         }
       ],
       "subEvent": [
@@ -566,7 +569,8 @@
           "uploadDate": "2021-06-01",
           "description": "Invited Talks for the Day 3 (Public Resources) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50VW5ro76lGY_Nqcj9Tv6Ax",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50VW5ro76lGY_Nqcj9Tv6Ax"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50VW5ro76lGY_Nqcj9Tv6Ax",
+          "thumbnailUrl": "https://img.youtube.com/vi/tow9gMrzK20/0.jpg"
         },
         {
           "@type": "VideoObject",
@@ -574,7 +578,8 @@
           "uploadDate": "2021-06-01",
           "description": "Flash Talks for the Day 3 (Public Resources) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH5061MAH3BOYUJY5NlPNncC6",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH5061MAH3BOYUJY5NlPNncC6"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH5061MAH3BOYUJY5NlPNncC6",
+          "thumbnailUrl": "https://img.youtube.com/vi/ThRltPriOio/0.jpg"
         }
       ],
       "subEvent": [
@@ -868,7 +873,8 @@
           "uploadDate": "2021-06-02",
           "description": "Invited Talks for the Day 4 (Teaching and Training) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo",
+          "thumbnailUrl": "https://img.youtube.com/vi/ygsxFcNAYNc/0.jpg"
         },
         {
           "@type": "VideoObject",
@@ -876,7 +882,8 @@
           "uploadDate": "2021-06-02",
           "description": "Flash Talks for the Day 4 (Teaching and Training) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW"
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW",
+          "thumbnailUrl": "https://img.youtube.com/vi/q665dd-guvI/0.jpg"
         }
       ],
       "subEvent": [
