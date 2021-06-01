@@ -861,6 +861,24 @@
           "sameAs": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano"
         }
       ],
+      "workFeatured": [
+        {
+          "@type": "VideoObject",
+          "name": "Invited Talks",
+          "uploadDate": "2021-06-02",
+          "description": "Invited Talks for the Day 4 (Teaching and Training) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Flash Talks",
+          "uploadDate": "2021-06-02",
+          "description": "Flash Talks for the Day 4 (Teaching and Training) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW"
+        }
+      ],
       "subEvent": [
         {
           "@type": "Event",
