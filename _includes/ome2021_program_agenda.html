@@ -64,7 +64,21 @@
     {% if subevent.description %}{{ subevent.description }}<br/>{% endif %}
     {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.additionalName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
     </p>
-  </div>
+    <ul text-align="left">
+    {% for evt in subevent.subEvent %}
+      <li>
+      <h5>{{ evt.name }}</h5>
+      <p>
+      {% if evt.description %}{{ evt.description }}<br/>{% endif %}
+      {% for performer in evt.performer %}{{ performer.givenName }} {{ performer.additionalName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
+      </p>
+    </li>
+    {% endfor %}
+    </ul>
+    </div>
+
+
+
   {% endfor %}
 </div>
 {% endfor %}
