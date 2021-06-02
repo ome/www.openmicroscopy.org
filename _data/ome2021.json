@@ -224,6 +224,30 @@
                       "sameAs": "https://www.openmicroscopy.org/teams/"
                     }
                   ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing ROI data: investigating the next OMERO.parade",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "",
+                  "endDate": "",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Will",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
                 }
               ]
             }
@@ -370,6 +394,30 @@ microscopy metadata based on community-driven specifications",
                       "affiliation": {
                         "@type": "Organization",
                         "name": "The Jackson Laboratory, Research IT"
+                      },
+                      "sameAs": "https://www.jax.org/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "",
+                  "endDate": "",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Erin",
+                      "familyName": "Diel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
                       },
                       "sameAs": "https://www.jax.org/"
                     }
