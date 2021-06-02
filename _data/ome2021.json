@@ -74,7 +74,7 @@
       "url": "/events/ome-community-meeting-2021/day1/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
-      "startDate": "2021-06-08T10:00+01:00",
+      "startDate": "2021-06-08T10:30+01:00",
       "endDate": "2021-06-08T19:00+01:00",
       "location": {
         "@type": "VirtualLocation",
@@ -112,7 +112,7 @@
           attending from Oceania, Asia, Europe or Africa.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T10:00+01:00",
+          "startDate": "2021-06-08T10:30+01:00",
           "endDate": "2021-06-08T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
@@ -121,10 +121,10 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Introduction",
+              "name": "Welcome and house keeping",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T10:00+01:00",
+              "startDate": "2021-06-08T10:30+01:00",
               "endDate": "2021-06-08T11:00+01:00",
               "location": {
                 "@type": "VirtualLocation",
@@ -133,7 +133,7 @@
             },
             {
               "@type": "Event",
-              "name": "Demos",
+              "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-08T11:00+01:00",
@@ -232,17 +232,29 @@
         {
           "@type": "Event",
           "name": "Session 2",
-          "description": "This session is aimed at our community
-          attending from Europe, Africa or America.",
+          "description": "This live Keynote lecture will be recorded for members of our community who cannot attend due to time differences.", 
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T16:00+01:00",
+          "startDate": "2021-06-08T15:00+01:00",
           "endDate": "2021-06-08T19:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
           },
           "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Welcome and house keeping",
+              "description": "Repeat from session 1",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T15:00+01:00",
+              "endDate": "2021-06-08T15:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
             {
               "@type": "Event",
               "name": "Keynote Lecture",
@@ -270,7 +282,7 @@
             },
             {
               "@type": "Event",
-              "name": "Demos",
+              "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-08T17:00+01:00",
