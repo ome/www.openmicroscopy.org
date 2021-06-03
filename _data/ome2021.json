@@ -96,6 +96,15 @@
       "workFeatured": [
         {
           "@type": "VideoObject",
+          "name": "Community Meeting Introductions",
+          "uploadDate": "2021-06-03",
+          "description": "Introduction to the OME 2021 Community Meeting",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50iXx_0ERRt0URhnx14fMJ0",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50iXx_0ERRt0URhnx14fMJ0",
+          "thumbnailUrl": "https://img.youtube.com/vi/yznVQ2FI4lk/0.jpg"
+        },
+        {
+          "@type": "VideoObject",
           "name": "Demo Introductions",
           "uploadDate": "2021-05-28",
           "description": "Introduction to the demos of Day 1",
