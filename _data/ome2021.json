@@ -96,7 +96,16 @@
       "workFeatured": [
         {
           "@type": "VideoObject",
-          "name": "Demo Introductions",
+          "name": "Community Meeting Introductions (3 videos, playlist length: 16min)",
+          "uploadDate": "2021-06-03",
+          "description": "Introduction to the OME 2021 Community Meeting",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50iXx_0ERRt0URhnx14fMJ0",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50iXx_0ERRt0URhnx14fMJ0",
+          "thumbnailUrl": "https://img.youtube.com/vi/yznVQ2FI4lk/0.jpg"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Demo Introductions (2 videos, playlist length: 7min)",
           "uploadDate": "2021-05-28",
           "description": "Introduction to the demos of Day 1",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
@@ -149,7 +158,7 @@
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T13:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -183,7 +192,7 @@
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T13:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -207,7 +216,7 @@
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T13:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -231,7 +240,7 @@
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T13:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -323,7 +332,7 @@ microscopy metadata based on community-driven specifications",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T19:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -357,7 +366,7 @@ microscopy metadata based on community-driven specifications",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T19:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -381,7 +390,7 @@ microscopy metadata based on community-driven specifications",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T19:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -405,7 +414,7 @@ microscopy metadata based on community-driven specifications",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T19:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -500,7 +509,7 @@ microscopy metadata based on community-driven specifications",
       "workFeatured": [
         {
           "@type": "VideoObject",
-          "name": "Invited Talks",
+          "name": "Invited Talks (4 videos, playlist length: 50min)",
           "uploadDate": "2021-05-31",
           "description": "Invited Talks for the Day 2 (Research Data Management) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
@@ -509,7 +518,7 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "VideoObject",
-          "name": "Flash Talks",
+          "name": "Flash Talks (9 talks, playlist length: 26min)",
           "uploadDate": "2021-05-31",
           "description": "Flash Talks for the Day 2 (Research Data Management) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
@@ -794,7 +803,7 @@ microscopy metadata based on community-driven specifications",
       "workFeatured": [
         {
           "@type": "VideoObject",
-          "name": "Invited Talks",
+          "name": "Invited Talks (5 videos, playlist length: 57min)",
           "uploadDate": "2021-06-01",
           "description": "Invited Talks for the Day 3 (Public Resources) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50VW5ro76lGY_Nqcj9Tv6Ax",
@@ -803,7 +812,7 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "VideoObject",
-          "name": "Flash Talks",
+          "name": "Flash Talks (4 videos, playlist length: 10min)",
           "uploadDate": "2021-06-01",
           "description": "Flash Talks for the Day 3 (Public Resources) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH5061MAH3BOYUJY5NlPNncC6",
@@ -1098,7 +1107,7 @@ microscopy metadata based on community-driven specifications",
       "workFeatured": [
         {
           "@type": "VideoObject",
-          "name": "Invited Talks",
+          "name": "Invited Talks (5 videos, playlist length: 1h2min)",
           "uploadDate": "2021-06-02",
           "description": "Invited Talks for the Day 4 (Teaching and Training) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo",
@@ -1107,7 +1116,7 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "VideoObject",
-          "name": "Flash Talks",
+          "name": "Flash Talks (6 videos, playlist length: 17min)",
           "uploadDate": "2021-06-02",
           "description": "Flash Talks for the Day 4 (Teaching and Training) of OME 2021",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW",
