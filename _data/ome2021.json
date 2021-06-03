@@ -121,7 +121,7 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Welcome and house keeping",
+              "name": "Welcome and Housekeeping",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-08T10:30+01:00",
@@ -268,7 +268,7 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Welcome and house keeping",
+              "name": "Welcome and Housekeeping",
               "description": "Repeat from session 1",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
