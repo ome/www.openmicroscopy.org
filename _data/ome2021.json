@@ -148,8 +148,8 @@
                   "name": "3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -182,8 +182,8 @@
                   "name": "Connector between OMERO and the BigDataViewer",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -206,8 +206,8 @@
                   "name": "OMERO for beginners",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -230,8 +230,8 @@
                   "name": "Visualizing ROI data: investigating the next OMERO.parade",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -322,8 +322,8 @@
 microscopy metadata based on community-driven specifications",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -356,8 +356,8 @@ microscopy metadata based on community-driven specifications",
                   "name": "Tissue Registration and Exploration Visualization User Interfaces",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -380,8 +380,8 @@ microscopy metadata based on community-driven specifications",
                   "name": "OMERO admin at JAX",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -404,8 +404,8 @@ microscopy metadata based on community-driven specifications",
                   "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "",
-                  "endDate": "",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
