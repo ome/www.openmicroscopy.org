@@ -69,7 +69,7 @@ redirect_from:
                     {% for organizer in organizers %}
                     <a target="_blank" href="{{ organizer.sameAs }}">
                     {{ organizer.givenName }} {{ organizer.familyName }}
-                    </a></br>
+                    </a><span class="institution">{{ organizer.affiliation.name }}</span></br>
                     {% endfor %}
                     </p>
                 </div>
