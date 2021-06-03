@@ -1056,7 +1056,7 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "Person",
-          "givenName": "Evan Sanders",
+          "givenName": "Evan",
           "familyName": "Sanders",
           "affiliation": {
             "@type": "Organization",
