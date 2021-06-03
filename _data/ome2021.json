@@ -74,7 +74,7 @@
       "url": "/events/ome-community-meeting-2021/day1/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
-      "startDate": "2021-06-08T10:00+01:00",
+      "startDate": "2021-06-08T10:30+01:00",
       "endDate": "2021-06-08T19:00+01:00",
       "location": {
         "@type": "VirtualLocation",
@@ -112,7 +112,7 @@
           attending from Oceania, Asia, Europe or Africa.",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T10:00+01:00",
+          "startDate": "2021-06-08T10:30+01:00",
           "endDate": "2021-06-08T13:00+01:00",
           "location": {
             "@type": "VirtualLocation",
@@ -121,10 +121,10 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Introduction",
+              "name": "Welcome and Housekeeping",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T10:00+01:00",
+              "startDate": "2021-06-08T10:30+01:00",
               "endDate": "2021-06-08T11:00+01:00",
               "location": {
                 "@type": "VirtualLocation",
@@ -133,7 +133,7 @@
             },
             {
               "@type": "Event",
-              "name": "Demos",
+              "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-08T11:00+01:00",
@@ -148,6 +148,8 @@
                   "name": "3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -180,6 +182,8 @@
                   "name": "Connector between OMERO and the BigDataViewer",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -202,6 +206,8 @@
                   "name": "OMERO for beginners",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -218,6 +224,30 @@
                       "sameAs": "https://www.openmicroscopy.org/teams/"
                     }
                   ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing ROI data: investigating the next OMERO.parade",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T11:00+01:00",
+                  "endDate": "2021-06-08T11:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Will",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
                 }
               ]
             }
@@ -226,17 +256,29 @@
         {
           "@type": "Event",
           "name": "Session 2",
-          "description": "This session is aimed at our community
-          attending from Europe, Africa or America.",
+          "description": "This live Keynote lecture will be recorded for members of our community who cannot attend due to time differences.", 
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-08T16:00+01:00",
+          "startDate": "2021-06-08T15:30+01:00",
           "endDate": "2021-06-08T19:00+01:00",
           "location": {
             "@type": "VirtualLocation",
             "url": "TBD"
           },
           "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Welcome and Housekeeping",
+              "description": "Repeat from session 1",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T15:30+01:00",
+              "endDate": "2021-06-08T16:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
             {
               "@type": "Event",
               "name": "Keynote Lecture",
@@ -264,7 +306,7 @@
             },
             {
               "@type": "Event",
-              "name": "Demos",
+              "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-08T17:00+01:00",
@@ -280,6 +322,8 @@
 microscopy metadata based on community-driven specifications",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -312,6 +356,8 @@ microscopy metadata based on community-driven specifications",
                   "name": "Tissue Registration and Exploration Visualization User Interfaces",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -334,6 +380,8 @@ microscopy metadata based on community-driven specifications",
                   "name": "OMERO admin at JAX",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -346,6 +394,30 @@ microscopy metadata based on community-driven specifications",
                       "affiliation": {
                         "@type": "Organization",
                         "name": "The Jackson Laboratory, Research IT"
+                      },
+                      "sameAs": "https://www.jax.org/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:00+01:00",
+                  "endDate": "2021-06-08T17:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Erin",
+                      "familyName": "Diel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
                       },
                       "sameAs": "https://www.jax.org/"
                     }
@@ -984,7 +1056,7 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "Person",
-          "givenName": "Evan Sanders",
+          "givenName": "Evan",
           "familyName": "Sanders",
           "affiliation": {
             "@type": "Organization",
