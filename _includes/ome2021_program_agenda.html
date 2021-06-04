@@ -59,7 +59,12 @@
   {% for subevent in session.subEvent %}
   <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}</div>
   <div class="medium-8 columns">
-    <a name="{{ subevent.name }}"></a><h5>{{ subevent.name }}</h5>
+    <a name="{{ subevent.name }}"></a>
+    <h5>
+        {% unless subevent.location.url == "TBD"%}<a href="{{ subevent.location.url}}">{% endunless %}
+            {{ subevent.name }}
+        {% unless subevent.location.url == "TBD"%}(external) </a>{% endunless %}
+    </h5>
     <p>
     {% if subevent.description %}{{ subevent.description }}<br/>{% endif %}
     {% for performer in subevent.performer %}{{ performer.givenName }} {{ performer.additionalName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
