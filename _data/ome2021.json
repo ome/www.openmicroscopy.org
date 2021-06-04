@@ -280,45 +280,6 @@
             },
             {
               "@type": "Event",
-              "name": "Live Demos",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T12:45+01:00",
-              "endDate": "2021-06-08T13:15+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "ImJoy and ImageJ.JS",
-                  "description": "Room A",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T12:45+01:00",
-                  "endDate": "2021-06-08T13:15+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Wei",
-                      "familyName": "Ouyang",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "SciLifeLab | KTH"
-                      },
-                      "sameAs": "https://cellprofiling.org/people_members.html"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
               "name": "Gather in the Imagesc Island beach bar",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
@@ -455,6 +416,31 @@ microscopy metadata based on community-driven specifications",
                     }
                   ]
                 },
+                {
+                  "@type": "Event",
+                  "name": "ImJoy and ImageJ.JS",
+                  "description": "Room C",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:15+01:00",
+                  "endDate": "2021-06-08T17:45+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Wei",
+                      "familyName": "Ouyang",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "SciLifeLab | KTH"
+                      },
+                      "sameAs": "https://cellprofiling.org/people_members.html"
+                    }
+                  ]
+                }
               ]
             },
             {
