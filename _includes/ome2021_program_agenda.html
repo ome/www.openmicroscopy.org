@@ -23,7 +23,12 @@
 </p>
 </div>
 
+{% assign thesize = event.performer.size %}
+{% if thesize > 1 %}
 <h4 class="row column text-center">Speakers</h4>
+{% else %}
+<h4 class="row column text-center">Keynote Speaker</h4>
+{% endif %}
 {% for speaker in event.performer  %}
 <div class="row small-up-1 medium-up-2 text-center consortium-list">
 <a target="_blank" href="{{ speaker.sameAs }}">
