@@ -105,7 +105,7 @@
         },
         {
           "@type": "VideoObject",
-          "name": "Demo Introductions (2 videos, playlist length: 7min)",
+          "name": "Demo Introductions (4 videos, playlist length: 10min)",
           "uploadDate": "2021-05-28",
           "description": "Introduction to the demos of Day 1",
           "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
@@ -145,8 +145,8 @@
               "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T11:00+01:00",
-              "endDate": "2021-06-08T13:00+01:00",
+              "startDate": "2021-06-08T11:15+01:00",
+              "endDate": "2021-06-08T11:45+01:00",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
@@ -155,10 +155,11 @@
                 {
                   "@type": "Event",
                   "name": "3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
+                  "description": "Room A",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T13:00+01:00",
+                  "startDate": "2021-06-08T11:15+01:00",
+                  "endDate": "2021-06-08T11:45+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -189,10 +190,11 @@
                 {
                   "@type": "Event",
                   "name": "Connector between OMERO and the BigDataViewer",
+                  "description": "Room B",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T13:00+01:00",
+                  "startDate": "2021-06-08T11:15+01:00",
+                  "endDate": "2021-06-08T11:45+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -209,14 +211,29 @@
                       "sameAs": "https://people.epfl.ch/claire.stoffel"
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T12:00+01:00",
+              "endDate": "2021-06-08T12:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
                 {
                   "@type": "Event",
                   "name": "OMERO for beginners",
+                  "description": "Room A",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T13:00+01:00",
+                  "startDate": "2021-06-08T12:00+01:00",
+                  "endDate": "2021-06-08T12:30+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -237,10 +254,11 @@
                 {
                   "@type": "Event",
                   "name": "Visualizing ROI data: investigating the next OMERO.parade",
+                  "description": "Room B",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T11:00+01:00",
-                  "endDate": "2021-06-08T13:00+01:00",
+                  "startDate": "2021-06-08T12:00+01:00",
+                  "endDate": "2021-06-08T12:30+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -258,14 +276,14 @@
                     }
                   ]
                 }
-              ]
+              ]  
             },
             {
               "@type": "Event",
               "name": "Gather in the Imagesc Island beach bar",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T13:00+01:00",
+              "startDate": "2021-06-08T12:30+01:00",
               "endDate": "2021-06-08T14:00+01:00",
               "location": {
                 "@type": "VirtualLocation",
@@ -330,8 +348,8 @@
               "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T17:00+01:00",
-              "endDate": "2021-06-08T19:00+01:00",
+              "startDate": "2021-06-08T17:15+01:00",
+              "endDate": "2021-06-08T17:45+01:00",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
@@ -341,10 +359,11 @@
                   "@type": "Event",
                   "name": "Micro-Meta App: an interactive software tool to facilitate the collection of 
 microscopy metadata based on community-driven specifications",
+                  "description": "Room A",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T19:00+01:00",
+                  "startDate": "2021-06-08T17:15+01:00",
+                  "endDate": "2021-06-08T17:45+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -375,10 +394,11 @@ microscopy metadata based on community-driven specifications",
                 {
                   "@type": "Event",
                   "name": "Tissue Registration and Exploration Visualization User Interfaces",
+                  "description": "Room B",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T19:00+01:00",
+                  "startDate": "2021-06-08T17:15+01:00",
+                  "endDate": "2021-06-08T17:45+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -398,11 +418,51 @@ microscopy metadata based on community-driven specifications",
                 },
                 {
                   "@type": "Event",
-                  "name": "OMERO admin at JAX",
+                  "name": "ImJoy and ImageJ.JS",
+                  "description": "Room C",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T19:00+01:00",
+                  "startDate": "2021-06-08T17:15+01:00",
+                  "endDate": "2021-06-08T17:45+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Wei",
+                      "familyName": "Ouyang",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "SciLifeLab | KTH"
+                      },
+                      "sameAs": "https://cellprofiling.org/people_members.html"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T18:00+01:00",
+              "endDate": "2021-06-08T18:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO admin at JAX",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:00+01:00",
+                  "endDate": "2021-06-08T18:30+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -423,10 +483,11 @@ microscopy metadata based on community-driven specifications",
                 {
                   "@type": "Event",
                   "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
+                  "description": "Room B",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T17:00+01:00",
-                  "endDate": "2021-06-08T19:00+01:00",
+                  "startDate": "2021-06-08T18:00+01:00",
+                  "endDate": "2021-06-08T18:30+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -448,10 +509,75 @@ microscopy metadata based on community-driven specifications",
             },
             {
               "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
+              "name": "Live Demos",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-08T19:00+01:00",
+              "startDate": "2021-06-08T18:45+01:00",
+              "endDate": "2021-06-08T19:15+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO for beginners",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:45+01:00",
+                  "endDate": "2021-06-08T19:15+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing ROI data: investigating the next OMERO.parade",
+                  "description": "Room B",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:45+01:00",
+                  "endDate": "2021-06-08T19:15+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Will",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "description": "Open until late...",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T19:15+01:00",
               "endDate": "2021-06-08T20:00+01:00",
               "location": {
                 "@type": "VirtualLocation",
