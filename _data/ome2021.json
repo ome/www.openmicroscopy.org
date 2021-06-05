@@ -415,31 +415,6 @@ microscopy metadata based on community-driven specifications",
                       "sameAs": "https://info.sice.indiana.edu/~katy/"
                     }
                   ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "ImJoy and ImageJ.JS",
-                  "description": "Room C",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-08T17:15+01:00",
-                  "endDate": "2021-06-08T17:45+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Wei",
-                      "familyName": "Ouyang",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "SciLifeLab | KTH"
-                      },
-                      "sameAs": "https://cellprofiling.org/people_members.html"
-                    }
-                  ]
                 }
               ]
             },
