@@ -72,9 +72,9 @@
   <div class="medium-8 columns">
     <a name="{{ subevent.name }}"></a>
     <h5>
-        {% unless subevent.location.url == "TBD"%}<a href="{{ subevent.location.url}}">{% endunless %}
+        {% unless subevent.location.url == "TBD"%}<a href="{{ subevent.location.url}}" target="_blank">{% endunless %}
             {{ subevent.name }}
-        {% unless subevent.location.url == "TBD"%}(external) </a>{% endunless %}
+        {% unless subevent.location.url == "TBD"%}(opens a new page) </a>{% endunless %}
     </h5>
     <p>
     {% if subevent.description %}{{ subevent.description }}<br/>{% endif %}
