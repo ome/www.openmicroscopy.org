@@ -63,7 +63,11 @@
 </div> 
 <div class="row align-right">
   {% for subevent in session.subEvent %}
-  <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i> {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}</div>
+  <div class="medium-2 medium-offset-2 columns bold"><i class="fa fa-clock-o"></i>
+      <a href="https://www.timeanddate.com/worldclock/fixedtime.html?p1=3903&iso={{ subevent.startDate | date: "%Y-%m-%dT%H:%M:%S" }}">
+      {{ subevent.startDate | date: "%H:%M" }} - {{ subevent.endDate | date: "%H:%M" }}
+      </a>
+  </div>
   <div class="medium-8 columns">
     <a name="{{ subevent.name }}"></a>
     <h5>
