@@ -439,6 +439,15 @@ microscopy metadata based on community-driven specifications",
                     "@type": "VirtualLocation",
                     "url": "TBD"
                   },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "Demo Session - Visualizing tiled image segmentation and classification in OMERO Plus and PathViewer",
+                    "uploadDate": "2021-06-08",
+                    "description": "Demo (31min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=H3e-Pg5MtUQ",
+                    "embedUrl": "https://www.youtube.com/embed/H3e-Pg5MtUQ",
+                    "thumbnailUrl": "https://img.youtube.com/vi/H3e-Pg5MtUQ/0.jpg"
+                  },
                   "performer": [
                     {
                       "@type": "Person",
@@ -760,6 +769,15 @@ microscopy metadata based on community-driven specifications",
                 "@type": "VirtualLocation",
                 "url": "TBD"
               },
+              "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Will Moore | OMERO.figure workshop",
+                    "uploadDate": "2021-06-09",
+                    "description": "Demo (60min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=E0Fgw1uUAXA",
+                    "embedUrl": "https://www.youtube.com/embed/E0Fgw1uUAXA",
+                    "thumbnailUrl": "https://img.youtube.com/vi/E0Fgw1uUAXA/0.jpg"
+                  },
               "performer": [
                 {
                   "@type": "Person",
