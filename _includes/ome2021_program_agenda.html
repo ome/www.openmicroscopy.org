@@ -91,6 +91,11 @@
     </li>
     {% endfor %}
     </ul>
+    {% if subevent.workFeatured %}
+    <div class="flex-video">
+      <iframe width="560" height="315" src="{{ subevent.workFeatured.embedUrl }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
     </div>
 
 
