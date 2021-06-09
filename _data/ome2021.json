@@ -164,6 +164,15 @@
                     "@type": "VirtualLocation",
                     "url": "TBD"
                   },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Benjamin Schmid | 3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
+                    "uploadDate": "2021-06-09",
+                    "description": "Demo (30min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=dBrRvyFXHq0",
+                    "embedUrl": "https://www.youtube.com/embed/dBrRvyFXHq0",
+                    "thumbnailUrl": "https://img.youtube.com/vi/dBrRvyFXHq0/0.jpg"
+                  },
                   "performer": [
                     {
                       "@type": "Person",
@@ -198,6 +207,15 @@
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Claire Stoffel | Connector between OMERO and the BigDataViewer",
+                    "uploadDate": "2021-06-09",
+                    "description": "Demo (26min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=s8dtyJ3334M",
+                    "embedUrl": "https://www.youtube.com/embed/s8dtyJ3334M",
+                    "thumbnailUrl": "https://img.youtube.com/vi/s8dtyJ3334M/0.jpg"
                   },
                   "performer": [
                     {
@@ -262,6 +280,15 @@
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Will Moore | Visualizing ROI data: investigating the next OMERO.parade",
+                    "uploadDate": "2021-06-08",
+                    "description": "Demo (34min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=XvbHczzePSo",
+                    "embedUrl": "https://www.youtube.com/embed/XvbHczzePSo",
+                    "thumbnailUrl": "https://img.youtube.com/vi/XvbHczzePSo/0.jpg"
                   },
                   "performer": [
                     {
@@ -341,6 +368,15 @@
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
+              },
+              "workFeatured": {
+                "@type": "VideoObject",
+                "name": "Evolution of the Protein Data Bank as a Community Resource",
+                "uploadDate": "2021-06-09",
+                "description": "Keynote Lecture (45min)",
+                "contentUrl": "https://www.youtube.com/watch?v=Q_CawFtLbi8",
+                "embedUrl": "https://www.youtube.com/embed/Q_CawFtLbi8",
+                "thumbnailUrl": "https://img.youtube.com/vi/Q_CawFtLbi8/0.jpg"
               }
             },
             {
@@ -393,7 +429,7 @@ microscopy metadata based on community-driven specifications",
                 },
                 {
                   "@type": "Event",
-                  "name": "Tissue Registration and Exploration Visualization User Interfaces",
+                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
                   "description": "Room B",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
@@ -406,13 +442,13 @@ microscopy metadata based on community-driven specifications",
                   "performer": [
                     {
                       "@type": "Person",
-                      "givenName": "Katy",
-                      "familyName": "Börner",
+                      "givenName": "Erin",
+                      "familyName": "Diel",
                       "affiliation": {
                         "@type": "Organization",
-                        "name": "SICE, Indiana University"
+                        "name": "Glencoe Software"
                       },
-                      "sameAs": "https://info.sice.indiana.edu/~katy/"
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
                     }
                   ]
                 }
@@ -441,6 +477,15 @@ microscopy metadata based on community-driven specifications",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Dave Mellert | OMERO admin at JAX",
+                    "uploadDate": "2021-06-08",
+                    "description": "Demo (31min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=IqLjSuJJER0",
+                    "embedUrl": "https://www.youtube.com/embed/IqLjSuJJER0",
+                    "thumbnailUrl": "https://img.youtube.com/vi/IqLjSuJJER0/0.jpg"
                   },
                   "performer": [
                     {
@@ -476,7 +521,7 @@ microscopy metadata based on community-driven specifications",
                         "@type": "Organization",
                         "name": "Glencoe Software"
                       },
-                      "sameAs": "https://www.jax.org/"
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
                     }
                   ]
                 }
