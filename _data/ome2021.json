@@ -1333,31 +1333,6 @@ microscopy metadata based on community-driven specifications",
               "subEvent": [
                 {
                   "@type": "Event",
-                  "name": "Public Resources round-table",
-                  "description": "Continued discussion on Public Resources topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-10T11:00+01:00",
-                  "endDate": "2021-06-10T12:20+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Sébastien",
-                      "familyName": "Besson",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
                   "name": "IDR Workshop",
                   "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
@@ -1390,30 +1365,15 @@ microscopy metadata based on community-driven specifications",
                       "sameAs": "https://www.openmicroscopy.org/teams/"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-10T12:30+01:00",
-              "endDate": "2021-06-10T13:00+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
+                },
                 {
                   "@type": "Event",
                   "name": "Public Resources round-table",
                   "description": "Continued discussion on Public Resources topics.",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-10T12:30+01:00",
-                  "endDate": "2021-06-10T13:00+01:00",
+                  "startDate": "2021-06-10T11:00+01:00",
+                  "endDate": "2021-06-10T12:20+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -1430,7 +1390,22 @@ microscopy metadata based on community-driven specifications",
                       "sameAs": "https://www.openmicroscopy.org/teams/"
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T12:30+01:00",
+              "endDate": "2021-06-10T13:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
                 {
                   "@type": "Event",
                   "name": "IDR submission",
@@ -1473,6 +1448,31 @@ microscopy metadata based on community-driven specifications",
                       "@type": "Person",
                       "givenName": "Jean-Marie",
                       "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Public Resources round-table",
+                  "description": "Continued discussion on Public Resources topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T12:30+01:00",
+                  "endDate": "2021-06-10T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Sébastien",
+                      "familyName": "Besson",
                       "affiliation": {
                         "@type": "Organization",
                         "name": "University of Dundee"
@@ -1587,31 +1587,6 @@ microscopy metadata based on community-driven specifications",
               "subEvent": [
                 {
                   "@type": "Event",
-                  "name": "Public Resources round-table",
-                  "description": "Continued discussion on Public Resources topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-10T17:00+01:00",
-                  "endDate": "2021-06-10T18:20+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Sébastien",
-                      "familyName": "Besson",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
                   "name": "IDR Workshop",
                   "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
@@ -1644,30 +1619,15 @@ microscopy metadata based on community-driven specifications",
                       "sameAs": "https://www.openmicroscopy.org/teams/"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-10T18:30+01:00",
-              "endDate": "2021-06-10T19:00+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
+                },
                 {
                   "@type": "Event",
                   "name": "Public Resources round-table",
                   "description": "Continued discussion on Public Resources topics.",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-10T18:30+01:00",
-                  "endDate": "2021-06-10T19:00+01:00",
+                  "startDate": "2021-06-10T17:00+01:00",
+                  "endDate": "2021-06-10T18:20+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
@@ -1684,7 +1644,22 @@ microscopy metadata based on community-driven specifications",
                       "sameAs": "https://www.openmicroscopy.org/teams/"
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T18:30+01:00",
+              "endDate": "2021-06-10T19:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
                 {
                   "@type": "Event",
                   "name": "IDR submission",
@@ -1727,6 +1702,31 @@ microscopy metadata based on community-driven specifications",
                       "@type": "Person",
                       "givenName": "Jean-Marie",
                       "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Public Resources round-table",
+                  "description": "Continued discussion on Public Resources topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T18:30+01:00",
+                  "endDate": "2021-06-10T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Sébastien",
+                      "familyName": "Besson",
                       "affiliation": {
                         "@type": "Organization",
                         "name": "University of Dundee"
