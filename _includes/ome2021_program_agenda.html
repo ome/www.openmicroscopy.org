@@ -83,17 +83,17 @@
     <ul text-align="left">
     {% for evt in subevent.subEvent %}
       <li>
-      <h5>{{ evt.name }}</h5>
-      <p>
-      {% if evt.description %}{{ evt.description }}<br/>{% endif %}
-      {% for performer in evt.performer %}{{ performer.givenName }} {{ performer.additionalName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
-      </p>
-      {% if evt.workFeatured %}
-      <div class="flex-video">
-      <iframe width="560" height="315" src="{{ evt.workFeatured.embedUrl }}" frameborder="0" allowfullscreen></iframe>
-    </div>
-    {% endif %}
-    </li>
+        <h5>{{ evt.name }}</h5>
+        <p>
+        {% if evt.description %}{{ evt.description }}<br/>{% endif %}
+        {% for performer in evt.performer %}{{ performer.givenName }} {{ performer.additionalName }} {{ performer.familyName }}, <span class="ome-green italic">{{ performer.affiliation.name }}</span><br/>{% endfor %}
+        </p>
+        {% if evt.workFeatured %}
+        <div class="flex-video">
+          <iframe width="560" height="315" src="{{ evt.workFeatured.embedUrl }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        {% endif %}
+      </li>
     {% endfor %}
     </ul>
     {% if subevent.workFeatured %}
