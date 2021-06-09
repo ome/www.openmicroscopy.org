@@ -1930,8 +1930,7 @@ microscopy metadata based on community-driven specifications",
             },
             {
               "@type": "Event",
-              "name": "OMERO trainers Workshop",
-              "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
+              "name": "Break-out sessions",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-11T11:00+01:00",
@@ -1940,16 +1939,79 @@ microscopy metadata based on community-driven specifications",
                 "@type": "VirtualLocation",
                 "url": "TBD"
               },
-              "performer": [
+              "subEvent": [
                 {
-                  "@type": "Person",
-                  "givenName": "Petr",
-                  "familyName": "Walczysko",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
+                  "@type": "Event",
+                  "name": "OMERO trainers Workshop",
+                  "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
                   },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Formats",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "David",
+                      "familyName": "Gault",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Connector between OMERO and the BigDataViewer",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Claire",
+                      "familyName": "Stoffel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "EPFL Lausanne"
+                      },
+                      "sameAs": "https://people.epfl.ch/claire.stoffel"
+                    }
+                  ]
                 }
               ]
             },
@@ -2032,26 +2094,74 @@ microscopy metadata based on community-driven specifications",
             },
             {
               "@type": "Event",
-              "name": "OMERO trainers Workshop",
-              "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
+              "name": "Break-out sessions",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-11T17:00+01:00",
-              "endDate": "2021-06-11T18:30+01:00",
+              "startDate": "2021-06-11T11:00+01:00",
+              "endDate": "2021-06-11T12:30+01:00",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
               },
-              "performer": [
+              "subEvent": [
                 {
-                  "@type": "Person",
-                  "givenName": "Petr",
-                  "familyName": "Walczysko",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
+                  "@type": "Event",
+                  "name": "OMERO trainers Workshop",
+                  "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible imrpovements and modifications of such setups.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T17:00+01:00",
+                  "endDate": "2021-06-11T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
                   },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Formats",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "David",
+                      "familyName": "Gault",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Melissa",
+                      "familyName": "Linkert",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
+                      },
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
+                    }
+                  ]
                 }
               ]
             },
