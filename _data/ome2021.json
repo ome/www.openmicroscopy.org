@@ -429,7 +429,7 @@ microscopy metadata based on community-driven specifications",
                 },
                 {
                   "@type": "Event",
-                  "name": "Tissue Registration and Exploration Visualization User Interfaces",
+                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
                   "description": "Room B",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
@@ -442,13 +442,13 @@ microscopy metadata based on community-driven specifications",
                   "performer": [
                     {
                       "@type": "Person",
-                      "givenName": "Katy",
-                      "familyName": "Börner",
+                      "givenName": "Erin",
+                      "familyName": "Diel",
                       "affiliation": {
                         "@type": "Organization",
-                        "name": "SICE, Indiana University"
+                        "name": "Glencoe Software"
                       },
-                      "sameAs": "https://info.sice.indiana.edu/~katy/"
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
                     }
                   ]
                 }
@@ -521,7 +521,7 @@ microscopy metadata based on community-driven specifications",
                         "@type": "Organization",
                         "name": "Glencoe Software"
                       },
-                      "sameAs": "https://www.jax.org/"
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
                     }
                   ]
                 }
