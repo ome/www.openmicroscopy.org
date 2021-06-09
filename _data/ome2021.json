@@ -750,8 +750,8 @@ microscopy metadata based on community-driven specifications",
             },
             {
               "@type": "Event",
-              "name": "OMERO.figure Workshop",
-              "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
+              "name": "Break-out sessions",
+              "description": "Workshop and round-table",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2021-06-09T11:00+01:00",
@@ -760,17 +760,57 @@ microscopy metadata based on community-driven specifications",
                 "@type": "VirtualLocation",
                 "url": "TBD"
               },
-              "performer": [
+              "subEvent": [
                 {
-                  "@type": "Person",
-                  "givenName": "William",
-                  "familyName": "Moore",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
+                  "@type": "Event",
+                  "name": "OMERO.figure Workshop",
+                  "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T11:00+01:00",
+                  "endDate": "2021-06-09T12:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
                   },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
-                }
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "RDM round-table",
+                  "description": "Continued discussion around RDM topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T11:00+01:00",
+                  "endDate": "2021-06-09T12:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Josh",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
               ]
             },
             {
@@ -784,7 +824,84 @@ microscopy metadata based on community-driven specifications",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
-              }
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "RDM round-table",
+                  "description": "Continued discussion around RDM topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T12:30+01:00",
+                  "endDate": "2021-06-09T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Josh",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO.figure for beginners",
+                  "description": "Introduction to OMERO.figure",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T12:30+01:00",
+                  "endDate": "2021-06-09T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Scripting OMERO.figure",
+                  "description": "Advanced OMERO.figure workshop.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T12:30+01:00",
+                  "endDate": "2021-06-09T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "@type": "Event",
