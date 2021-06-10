@@ -2132,11 +2132,35 @@ microscopy metadata based on community-driven specifications",
                 },
                 {
                   "@type": "Event",
+                  "name": "Teaching and Training round-table",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T17:00+01:00",
+                  "endDate": "2021-06-11T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
                   "name": "Formats",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-11T11:00+01:00",
-                  "endDate": "2021-06-11T12:30+01:00",
+                  "startDate": "2021-06-11T17:00+01:00",
+                  "endDate": "2021-06-11T18:30+01:00",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
