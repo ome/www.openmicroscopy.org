@@ -1967,7 +1967,7 @@ microscopy metadata based on community-driven specifications",
                 },
                 {
                   "@type": "Event",
-                  "name": "Formats",
+                  "name": "Teaching and Training round-table",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-11T11:00+01:00",
@@ -1979,8 +1979,8 @@ microscopy metadata based on community-driven specifications",
                   "performer": [
                     {
                       "@type": "Person",
-                      "givenName": "David",
-                      "familyName": "Gault",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
                       "affiliation": {
                         "@type": "Organization",
                         "name": "University of Dundee"
@@ -1992,6 +1992,7 @@ microscopy metadata based on community-driven specifications",
                 {
                   "@type": "Event",
                   "name": "Connector between OMERO and the BigDataViewer",
+                  "description": "Repeat from Day 1",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2021-06-11T11:00+01:00",
