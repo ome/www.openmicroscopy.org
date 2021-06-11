@@ -2098,8 +2098,8 @@ microscopy metadata based on community-driven specifications",
               "name": "Break-out sessions",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-11T11:00+01:00",
-              "endDate": "2021-06-11T12:30+01:00",
+              "startDate": "2021-06-11T17:00+01:00",
+              "endDate": "2021-06-11T18:30+01:00",
               "location": {
                 "@type": "VirtualLocation",
                 "url": "TBD"
