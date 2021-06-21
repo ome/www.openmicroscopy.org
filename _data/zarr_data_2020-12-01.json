@@ -1,0 +1,59 @@
+{
+    "plates": [
+        {
+            "id": "2551",
+            "image_id": "1229801",
+            "name": "JL_120731_S6A",
+            "study": "idr0001",
+            "wells": "96",
+            "fields": "6",
+            "acquisitions": "6",
+            "dimensions": "1376x1040x16x2x1",
+            "first_version": "0.1"
+        },
+        {
+            "id": "422",
+            "image_id": "179693",
+            "name": "plate1_1_013",
+            "study": "idr0002",
+            "wells": "96",
+            "fields": "1",
+            "acquisitions": "1",
+            "dimensions": "1344x1024x1x2x329",
+            "first_version": "0.1"
+        },
+        {
+            "id": "1751",
+            "image_id": "692149",
+            "name": "P101",
+            "study": "idr0004",
+            "wells": "69",
+            "fields": "1",
+            "acquisitions": "1",
+            "dimensions": "672x510x10x2x1",
+            "first_version": "0.1"
+        },
+        {
+            "id": "5966",
+            "image_id": "3230447",
+            "name": "41744_illum_corrected",
+            "study": "idr0033",
+            "wells": "384",
+            "fields": "9",
+            "acquisitions": "1",
+            "dimensions": "1080x1080x1x5x1",
+            "first_version": "0.1"
+        },
+        {
+            "id": "7825",
+            "image_id": "10567921",
+            "name": "ESP0025722",
+            "study": "idr0094",
+            "wells": "96",
+            "fields": "9",
+            "acquisitions": "1",
+            "dimensions": "1080x1080x1x1x1",
+            "first_version": "0.1"
+        }
+    ]
+}
