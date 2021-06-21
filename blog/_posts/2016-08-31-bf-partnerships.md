@@ -32,7 +32,7 @@ fully assumed by a non-profit, grant-funded organization like OME.
 In response, the user community has raised their concerns to ZEISS and a
 partnership has been established with
 [Glencoe Software](
-http://glencoesoftware.com/2016-08-30-glencoe-software-zeiss-partner-open-source-file-reader-whole-slide.html)
+http://glencoesoftware.com/pressreleases/2016-08-30-glencoe-software-zeiss-partner-open-source-file-reader-whole-slide.html)
 to add a Java-based JPEG-XR decoder to Bio-Formats. Thanks to extensive,
 fruitful discussions with ZEISS all outputs of this partnership are publicly
 available and all source code licensed identically to other OME projects. Some
@@ -40,7 +40,6 @@ public examples of this ongoing work are:
 
 * [JPEG-XR Trello card targeting Bio-Formats 5.3.x](https://trello.com/c/OHKk0BiI/3-jpeg-xr)
 * [GitHub fork of jxrlib where work on Java bindings is ongoing](https://github.com/glencoesoftware/jxrlib)
-* [Builds of the jxrlib fork](https://ci.openmicroscopy.org/view/Third-Party/job/JXRLIB-build/)
 
 In addition to being a powerful example of how commercial partners can work
 together, its philosophical implications should not be understated. In

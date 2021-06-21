@@ -98,7 +98,7 @@ practical implementation and utility, and thus their full adoption:
 
 Various attempts at dynamic or self-describing data models have been proposed
 ([Swedlow et al., 2003](http://www.sciencemag.org/content/300/5616/100.long);
-[Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47);
+[Goldberg et al., 2005](https://doi.org/10.1186/gb-2005-6-5-r47));
 [Millard et al.,
 2011](http://www.nature.com/nmeth/journal/v8/n6/full/nmeth.1600.html)) but in
 practice, we have found that either a revised specification is necessary or

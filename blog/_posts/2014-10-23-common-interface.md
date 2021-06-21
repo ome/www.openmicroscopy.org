@@ -29,7 +29,7 @@ example, a patient’s name to generate a valid file. In OME, we began
 defining the elements and components of biological imaging systems,
 illumination devices, objective lenses, detectors, etc. We referred to this
 specification as the OME Data Model (see
-[Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47)). For each
+[Goldberg et al., 2005](https://doi.org/10.1186/gb-2005-6-5-r47)). For each
 element of an imaging system, it provides a definition, and, critically, a
 specific statement of the relationship of that element to others, e.g.
 numerical aperture is a property of an objective, which is part of an imaging
@@ -96,7 +96,7 @@ common denominator where basic metadata can be reliably stored. For more
 application-specific metadata, the OME Data Model provides a variety of ways
 for extending the specification with custom annotations of various types. Full
 details are provided in the original paper describing how the model works
-([Goldberg et al., 2005](http://genomebiology.com/content/6/5/R47)) and in the
+([Goldberg et al., 2005](https://doi.org/10.1186/gb-2005-6-5-r47)) and in the
 [Data Model specification pages](http://www.openmicroscopy.org/site/support/ome-model/).
 These custom annotations provide an enormous flexibility but also mean that
 custom versions of an OME-compliant specification can be generated. We

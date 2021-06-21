@@ -26,7 +26,7 @@ desktop  client or adding an OMERO interface to existing code.
 The source is available from [https://github.com/imperial-photonics/omeUiUtils](https://github.com/imperial-photonics/omeUiUtils).
 
 A ready-to-use .jar file compatible with OMERO 5.2.x  can be also  downloaded
-from [https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/](https://bintray.com/imperial-photonics/omeUiUtils/omeUiUtils/_latestVersion).
+from Bintray.
 
 For instructions on how to integrate with Maven/Gradle, refer to the
 [Bintray user documentation](https://bintray.com/docs/usermanual/formats/formats_mavenrepositories.html#_working_with_maven).

@@ -37,7 +37,7 @@ Due to vulnerabilities affecting Java plugins, security experts frequently recom
 
 ## What does it mean for desktop developers/administrators?
 
-To deploy Java Web Start, one first needs to get familiar with [Deployment Rule Sets](https://blogs.oracle.com/java-platform-group/entry/introducing_deployment_rule_sets).
+To deploy Java Web Start, one first needs to get familiar with [Deployment Rule Sets](https://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/deployment_rules.html).
 Administrators can then create a list of known-safe applications and manage compatibility between
 different versions of Java on the system.
 Each browser will have their own set of dialogs and control mechanisms.
