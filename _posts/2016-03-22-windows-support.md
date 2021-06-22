@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Windows support update
-categories: tech-issues future-plans deployment
+tags: tech-issues future-plans deployment
+categories: blog
 ---
 
 The OME team has always been committed to building specifications and software

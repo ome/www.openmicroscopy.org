@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Affine Transformations of ROI Shapes
-categories: data-model future-plans
+tags: data-model future-plans
+categories: blog
 ---
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=MML_HTMLorMML">

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: OMERO status update
-categories: future-plans community
+tags: future-plans community
+categories: blog
 ---
 
 This is a quick update on the status of various versions of OMERO, and some

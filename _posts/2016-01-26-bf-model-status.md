@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Bio-Formats and OME Data Model Development Status
-categories: file-formats data-model future-plans
+tags: file-formats data-model future-plans
+categories: blog
 ---
 
 This is an update about what we are working on in the Bio-Formats codebase for

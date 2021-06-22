@@ -1,7 +1,8 @@
 ---
 layout: post
 title: OMEROImageChooser
-categories: community tools
+tags: community tools
+categories: blog
 ---
 
 *This is the first of what will hopefully be a series of posts about tools

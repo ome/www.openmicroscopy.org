@@ -1,7 +1,8 @@
 ---
 layout: post
 title: On being a Partner or “Send Us The Data”
-categories: file-formats community
+tags: file-formats community
+categories: blog
 ---
 
 In our first two posts we looked at the principles of building standards in a

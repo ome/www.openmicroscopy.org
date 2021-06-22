@@ -1,7 +1,8 @@
 ---
 layout: post
 title: OME 2016 Users Meeting
-categories: community
+tags: community
+categories: blog
 ---
 
 For those of you who couldn’t make it to Dundee for OME 2016, or maybe just

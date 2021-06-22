@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The OME Approach to a Common Interface
-categories: file-formats data-model
+tags: file-formats data-model
+categories: blog
 ---
 
 ## Introduction

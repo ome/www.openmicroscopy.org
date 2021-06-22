@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Initial release of OMERO.downloader
-categories: tools
+tags: tools
+categories: blog
 ---
 
 # Introducing OMERO.downloader

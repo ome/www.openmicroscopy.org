@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The slow death of Java Web Start
-categories: tech-issues future-plans
+tags: tech-issues future-plans
+categories: blog
 ---
 
 For the past few years, we have supported the distribution of the OMERO Java desktop clients as Java Web Start Applications. This feature was requested by several institutions and we are aware that some continue to use it.

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Latest Java security issue
-categories: tech-issues
+tags: tech-issues
+categories: blog
 ---
 
 A user [reported last week](https://www.openmicroscopy.org/community/viewtopic.php?f=5&t=7856) that

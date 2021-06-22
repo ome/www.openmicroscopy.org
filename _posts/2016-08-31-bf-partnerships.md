@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Building open collaborations for the sustainable support of proprietary file formats
-categories: file-formats community
+tags: file-formats community
+categories: blog
 ---
 
 The challenges and cost associated with the development and maintenance of

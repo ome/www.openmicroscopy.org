@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Supporting complex formats - what we will and won't do, and what you can do to help
-categories: file-formats community
+tags: file-formats community
+categories: blog
 ---
 
 You may have noticed that a few months ago, we received an email asking us

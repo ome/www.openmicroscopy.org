@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Upcoming support for ROI Folders
-categories: data-model future-plans
+tags: data-model future-plans
+categories: blog
 ---
 
 For several months the OME team has been working on what will soon be

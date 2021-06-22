@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Decoupling
-categories: future-plans community
+tags: future-plans community
+categories: blog
 ---
 
 We are in the process of getting rid of submodules and separating our code into

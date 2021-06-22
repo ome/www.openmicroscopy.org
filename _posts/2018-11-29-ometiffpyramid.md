@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Update on the OME-TIFF pyramidal format
-categories: file-formats community
+tags: file-formats community
+categories: blog
 ---
 
 
