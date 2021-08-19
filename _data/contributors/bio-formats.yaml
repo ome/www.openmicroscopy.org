@@ -269,6 +269,9 @@
     - name: MIT - Massachusetts Institute of Technology
       url: https://web.mit.edu/
 - fullname: Ilya Parmon
+  affiliations:
+    - name: Laboratory Imaging s.r.o
+      url: https://www.lim.cz/
 - fullname: Nick Perry
   affiliations:
     - name: Stanford University
