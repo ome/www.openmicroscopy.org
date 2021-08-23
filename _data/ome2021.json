@@ -1,0 +1,2231 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.openmicroscopy.org/events/ome-community-meeting-2021/",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "VirtualLocation",
+    "url": "TBD"
+  },
+  "name": "OME 2021 Community Meeting",
+  "startDate": "2021-06-08T10:00+01:00",
+  "endDate": "2021-06-11T19:00+01:00",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Registration",
+      "availabilityStarts": "2021-05-04",
+      "availabilityEnds": "2021-06-03",
+      "priceCurrency": "GBP",
+      "price": 0,
+      "url": "https://j.mp/ome2021-registration",
+      "availability": "InStock",
+      "validFrom": "2021-05-04"
+    }
+  ],
+  "organizer": [
+    {
+      "@type": "Person",
+      "givenName": "Sébastien",
+      "familyName": "Besson",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      },
+      "sameAs": "https://www.openmicroscopy.org/teams/"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Jean-Marie",
+      "familyName": "Burel",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      },
+      "sameAs": "https://www.openmicroscopy.org/teams/"
+    },
+    {
+      "@type": "Person",
+      "givenName": "June",
+      "familyName": "Matthew",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      },
+      "sameAs": "https://www.openmicroscopy.org/teams/"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Josh",
+      "familyName": "Moore",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Dundee"
+      },
+      "sameAs": "https://www.openmicroscopy.org/teams/"
+    }
+  ],
+  "subEvent": [
+    {
+      "@type": "Event",
+      "name": "Introduction, Keynote & Demos",
+      "alternateName": "Day 1",
+      "url": "/events/ome-community-meeting-2021/day1/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "startDate": "2021-06-08T10:30+01:00",
+      "endDate": "2021-06-08T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "performer": [
+        {
+          "@type": "Person",
+          "givenName": "Helen",
+          "additionalName": "M",
+          "familyName": "Berman",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Rutgers, The State University of New Jersey"
+          },
+          "sameAs": "https://www.rcsb.org/pages/about-us/helen-berman"
+        }
+      ],
+      "workFeatured": [
+        {
+          "@type": "VideoObject",
+          "name": "Community Meeting Introductions (5 videos, playlist length: 20min)",
+          "uploadDate": "2021-06-03",
+          "description": "Introduction to the OME 2021 Community Meeting",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50iXx_0ERRt0URhnx14fMJ0",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50iXx_0ERRt0URhnx14fMJ0",
+          "thumbnailUrl": "https://img.youtube.com/vi/yznVQ2FI4lk/0.jpg"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Demo Introductions (5 videos, playlist length: 17min)",
+          "uploadDate": "2021-05-28",
+          "description": "Introduction to the demos of Day 1",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51ACy8QhTYc4ppaoICJQDU_",
+          "thumbnailUrl": "https://img.youtube.com/vi/DIR7yCFoh0A/0.jpg"
+        }
+      ],
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Session 1",
+          "description": "This session is aimed at our community
+          attending from Oceania, Asia, Europe or Africa.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-08T10:30+01:00",
+          "endDate": "2021-06-08T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Welcome and Housekeeping",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T10:30+01:00",
+              "endDate": "2021-06-08T11:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T11:15+01:00",
+              "endDate": "2021-06-08T11:45+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T11:15+01:00",
+                  "endDate": "2021-06-08T11:45+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Benjamin Schmid | 3Dscript and OMERO: Animating your spatio-temporal data in a jiffy!",
+                    "uploadDate": "2021-06-09",
+                    "description": "Demo (30min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=dBrRvyFXHq0",
+                    "embedUrl": "https://www.youtube.com/embed/dBrRvyFXHq0",
+                    "thumbnailUrl": "https://img.youtube.com/vi/dBrRvyFXHq0/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Ralph",
+                      "familyName": "Palmisano",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "(OICE) Friedrich-Alexander University"
+                      },
+                      "sameAs": "https://www.oice.uni-erlangen.de/staff/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Benjamin",
+                      "familyName": "Schmid",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "(OICE) Friedrich-Alexander University"
+                      },
+                      "sameAs": "https://www.oice.uni-erlangen.de/staff/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Connector between OMERO and the BigDataViewer",
+                  "description": "Room B",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T11:15+01:00",
+                  "endDate": "2021-06-08T11:45+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Claire Stoffel | Connector between OMERO and the BigDataViewer",
+                    "uploadDate": "2021-06-09",
+                    "description": "Demo (21min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=Mjx9c_5FwhI",
+                    "embedUrl": "https://www.youtube.com/embed/Mjx9c_5FwhI",
+                    "thumbnailUrl": "https://img.youtube.com/vi/Mjx9c_5FwhI/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Claire",
+                      "familyName": "Stoffel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "EPFL Lausanne"
+                      },
+                      "sameAs": "https://people.epfl.ch/claire.stoffel"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T12:00+01:00",
+              "endDate": "2021-06-08T12:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO for beginners",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T12:00+01:00",
+                  "endDate": "2021-06-08T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing ROI data: investigating the next OMERO.parade",
+                  "description": "Room B",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T12:00+01:00",
+                  "endDate": "2021-06-08T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Will Moore | Visualizing ROI data: investigating the next OMERO.parade",
+                    "uploadDate": "2021-06-08",
+                    "description": "Demo (34min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=XvbHczzePSo",
+                    "embedUrl": "https://www.youtube.com/embed/XvbHczzePSo",
+                    "thumbnailUrl": "https://img.youtube.com/vi/XvbHczzePSo/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Will",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]  
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T12:30+01:00",
+              "endDate": "2021-06-08T14:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Session 2",
+          "description": "This live Keynote lecture will be recorded for members of our community who cannot attend due to time differences.", 
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-08T15:30+01:00",
+          "endDate": "2021-06-08T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Welcome and Housekeeping",
+              "description": "Repeat from session 1",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T15:30+01:00",
+              "endDate": "2021-06-08T16:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Keynote Lecture",
+              "description": "Evolution of the Protein Data Bank as a Community Resource",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T16:00+01:00",
+              "endDate": "2021-06-08T17:00+01:00",
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Helen",
+                  "additionalName": "M",
+                  "familyName": "Berman",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Rutgers, The State University of New Jersey"
+                  }
+                }
+              ],
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "workFeatured": {
+                "@type": "VideoObject",
+                "name": "Evolution of the Protein Data Bank as a Community Resource",
+                "uploadDate": "2021-06-09",
+                "description": "Keynote Lecture (45min)",
+                "contentUrl": "https://www.youtube.com/watch?v=Q_CawFtLbi8",
+                "embedUrl": "https://www.youtube.com/embed/Q_CawFtLbi8",
+                "thumbnailUrl": "https://img.youtube.com/vi/Q_CawFtLbi8/0.jpg"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T17:15+01:00",
+              "endDate": "2021-06-08T17:45+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "Micro-Meta App: an interactive software tool to facilitate the collection of 
+microscopy metadata based on community-driven specifications",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:15+01:00",
+                  "endDate": "2021-06-08T17:45+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "2021 OME Community Meeting Micro Meta App live demo",
+                    "uploadDate": "2021-07-27",
+                    "description": "Demo (23min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=dbyzpePijqM",
+                    "embedUrl": "https://www.youtube.com/embed/dbyzpePijqM",
+                    "thumbnailUrl": "https://img.youtube.com/vi/dbyzpePijqM/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Caterina",
+                      "familyName": "Strambio De Castillia",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Massachusetts Medical School"
+                      },
+                      "sameAs": "https://www.umassmed.edu/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Alex",
+                      "familyName": "Rigano",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Massachusetts Medical School"
+                      },
+                      "sameAs": "https://www.umassmed.edu/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
+                  "description": "Room B",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T17:15+01:00",
+                  "endDate": "2021-06-08T17:45+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "Demo Session - Visualizing tiled image segmentation and classification in OMERO Plus and PathViewer",
+                    "uploadDate": "2021-06-08",
+                    "description": "Demo (31min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=H3e-Pg5MtUQ",
+                    "embedUrl": "https://www.youtube.com/embed/H3e-Pg5MtUQ",
+                    "thumbnailUrl": "https://img.youtube.com/vi/H3e-Pg5MtUQ/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Erin",
+                      "familyName": "Diel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
+                      },
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T18:00+01:00",
+              "endDate": "2021-06-08T18:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO admin at JAX",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:00+01:00",
+                  "endDate": "2021-06-08T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Dave Mellert | OMERO admin at JAX",
+                    "uploadDate": "2021-06-08",
+                    "description": "Demo (31min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=IqLjSuJJER0",
+                    "embedUrl": "https://www.youtube.com/embed/IqLjSuJJER0",
+                    "thumbnailUrl": "https://img.youtube.com/vi/IqLjSuJJER0/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Dave",
+                      "familyName": "Mellert",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "The Jackson Laboratory, Research IT"
+                      },
+                      "sameAs": "https://www.jax.org/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
+                  "description": "Room B",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:00+01:00",
+                  "endDate": "2021-06-08T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Erin",
+                      "familyName": "Diel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
+                      },
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Live Demos",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T18:45+01:00",
+              "endDate": "2021-06-08T19:15+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO for beginners",
+                  "description": "Room A",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:45+01:00",
+                  "endDate": "2021-06-08T19:15+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Visualizing ROI data: investigating the next OMERO.parade",
+                  "description": "Room B",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-08T18:45+01:00",
+                  "endDate": "2021-06-08T19:15+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Will",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "description": "Open until late...",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-08T19:15+01:00",
+              "endDate": "2021-06-08T20:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Event",
+      "name": "Research Data Management",
+      "alternateName": "Day 2",
+      "url": "/events/ome-community-meeting-2021/day2/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "description": "The Research Data Management (RDM) day aims to cover (and perhaps answer) a range of pre-publication struggles, from structuring FAIR meta-/data through the search for insights and sharing those with others, all in preparation for day 3 -- Public Resources.",
+      "startDate": "2021-06-09T10:00+01:00",
+      "endDate": "2021-06-09T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "organizer": [
+        {
+          "@type": "Person",
+          "givenName": "Josh",
+          "familyName": "Moore",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        }
+      ],
+      "performer": [
+        {
+          "@type": "Person",
+          "givenName": "Andra",
+          "familyName": "Waagmeester",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Micelio"
+          },
+          "sameAs": "https://www.micelio.be/people.html"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Sylvia",
+          "familyName": "Le Dévédec",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Leiden University"
+          },
+          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Wojtek",
+          "familyName": "Goscinski",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Monash University"
+          },
+          "sameAs": "https://research.monash.edu/en/persons/wojtek-goscinski"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Elisa",
+          "familyName": "May",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Konstanz"
+          },
+          "sameAs": "https://www.biologie.uni-konstanz.de/bioimaging-centre/team/prof-dr-elisa-may"
+        }
+      ],
+      "workFeatured": [
+        {
+          "@type": "VideoObject",
+          "name": "Invited Talks (4 videos, playlist length: 50min)",
+          "uploadDate": "2021-05-31",
+          "description": "Invited Talks for the Day 2 (Research Data Management) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
+          "thumbnailUrl": "https://img.youtube.com/vi/0FXAzJUZM84/0.jpg"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Flash Talks (9 talks, playlist length: 26min)",
+          "uploadDate": "2021-05-31",
+          "description": "Flash Talks for the Day 2 (Research Data Management) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
+          "thumbnailUrl": "https://img.youtube.com/vi/9zGjpX6FU1w/0.jpg"
+        }
+      ],
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Session 1",
+          "description": "This session is aimed at our community
+          attending from Oceania, Asia, Europe or Africa.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-09T10:00+01:00",
+          "endDate": "2021-06-09T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T10:00+01:00",
+              "endDate": "2021-06-09T10:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Josh",
+                  "familyName": "Moore",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider RDM topics",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T10:10+01:00",
+              "endDate": "2021-06-09T10:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Workshop and round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T11:00+01:00",
+              "endDate": "2021-06-09T12:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO.figure Workshop",
+                  "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T11:00+01:00",
+                  "endDate": "2021-06-09T12:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "OME2021 | Will Moore | OMERO.figure workshop",
+                    "uploadDate": "2021-06-09",
+                    "description": "Demo (60min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=E0Fgw1uUAXA",
+                    "embedUrl": "https://www.youtube.com/embed/E0Fgw1uUAXA",
+                    "thumbnailUrl": "https://img.youtube.com/vi/E0Fgw1uUAXA/0.jpg"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "RDM round-table",
+                  "description": "Continued discussion around RDM topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T11:00+01:00",
+                  "endDate": "2021-06-09T12:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Josh",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Including OMERO.figure for beginners, scripting OMERO.figure, and RDM round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T12:30+01:00",
+              "endDate": "2021-06-09T13:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "RDM round-table",
+                  "description": "Continued discussion around RDM topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T12:30+01:00",
+                  "endDate": "2021-06-09T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Josh",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO.figure for beginners",
+                  "description": "Introduction to OMERO.figure",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T12:30+01:00",
+                  "endDate": "2021-06-09T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Scripting OMERO.figure",
+                  "description": "Advanced OMERO.figure workshop.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T12:30+01:00",
+                  "endDate": "2021-06-09T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T13:00+01:00",
+              "endDate": "2021-06-09T14:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Session 2 (repeat of Session 1)",
+          "description": "This session is aimed at our community
+          attending from Europe, Africa or America.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-09T16:00+01:00",
+          "endDate": "2021-06-09T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T16:00+01:00",
+              "endDate": "2021-06-09T16:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Josh",
+                  "familyName": "Moore",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider RDM topics",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T16:10+01:00",
+              "endDate": "2021-06-09T16:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Workshop and round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T17:00+01:00",
+              "endDate": "2021-06-09T18:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "RDM round-table",
+                  "description": "Continued discussion around RDM topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T17:00+01:00",
+                  "endDate": "2021-06-09T18:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Josh",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO.figure Workshop",
+                  "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T17:00+01:00",
+                  "endDate": "2021-06-09T18:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Including OMERO.figure for beginners, scripting OMERO.figure, and RDM round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T18:30+01:00",
+              "endDate": "2021-06-09T19:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "RDM round-table",
+                  "description": "Continued discussion around RDM topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T18:30+01:00",
+                  "endDate": "2021-06-09T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Josh",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO.figure for beginners",
+                  "description": "Introduction to OMERO.figure",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T18:30+01:00",
+                  "endDate": "2021-06-09T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Scripting OMERO.figure",
+                  "description": "Advanced OMERO.figure workshop.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-09T18:30+01:00",
+                  "endDate": "2021-06-09T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-09T19:00+01:00",
+              "endDate": "2021-06-09T20:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Event",
+      "name": "Public Resources",
+      "alternateName": "Day 3",
+      "url": "/events/ome-community-meeting-2021/day3/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "description": "The Public Resources day will explore several repositories providing access to published reference datasets composed of (but not limited to) images.",
+      "startDate": "2021-06-10T10:00+01:00",
+      "endDate": "2021-06-10T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "organizer": [
+        {
+          "@type": "Person",
+          "givenName": "Sébastien",
+          "familyName": "Besson",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        }
+      ],
+      "performer": [
+        {
+          "@type": "Person",
+          "givenName": "Matthew",
+          "familyName": "Hartley",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "EMBL-EBI"
+          },
+          "sameAs": "https://www.ebi.ac.uk/about/people/matthew-hartley"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Antje",
+          "familyName": "Keppler",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Euro-BioImaging ERIC"
+          },
+          "sameAs": "https://www.embl.de/research/units/cbb/imaging-infrastructure-strategy-development/members/index.php?s_personId=CP-60003595"
+          
+        },
+        {
+          "@type": "Person",
+          "givenName": "Ardan",
+          "familyName": "Patwardhan",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "EMBL-EBI"
+          },
+          "sameAs": "https://www.ebi.ac.uk/about/people/ardan-patwardhan"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Frances",
+          "familyName": "Wong",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Nils",
+          "familyName": "Gehlenborg",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Harvard Medical School"
+          },
+          "sameAs": "https://dbmi.hms.harvard.edu/people/nils-gehlenborg"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Katy",
+          "familyName": "Börner",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Indiana University"
+          },
+          "sameAs": "https://ils.indiana.edu/contact/profile/?profile_id=2"
+        }
+      ],
+      "workFeatured": [
+        {
+          "@type": "VideoObject",
+          "name": "Invited Talks (5 videos, playlist length: 57min)",
+          "uploadDate": "2021-06-01",
+          "description": "Invited Talks for the Day 3 (Public Resources) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50VW5ro76lGY_Nqcj9Tv6Ax",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50VW5ro76lGY_Nqcj9Tv6Ax",
+          "thumbnailUrl": "https://img.youtube.com/vi/tow9gMrzK20/0.jpg"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Flash Talks (4 videos, playlist length: 10min)",
+          "uploadDate": "2021-06-01",
+          "description": "Flash Talks for the Day 3 (Public Resources) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH5061MAH3BOYUJY5NlPNncC6",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH5061MAH3BOYUJY5NlPNncC6",
+          "thumbnailUrl": "https://img.youtube.com/vi/ThRltPriOio/0.jpg"
+        }
+      ],
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Session 1",
+          "description": "This session is aimed at our community
+          attending from Oceania, Asia, Europe or Africa.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-10T10:00+01:00",
+          "endDate": "2021-06-10T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T10:00+01:00",
+              "endDate": "2021-06-10T10:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Sébastien",
+                  "familyName": "Besson",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider Public Resources topics",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T10:10+01:00",
+              "endDate": "2021-06-10T10:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Workshop and round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T11:00+01:00",
+              "endDate": "2021-06-10T12:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "IDR Workshop",
+                  "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T11:00+01:00",
+                  "endDate": "2021-06-10T12:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Public Resources round-table",
+                  "description": "Continued discussion on Public Resources topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T11:00+01:00",
+                  "endDate": "2021-06-10T12:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Sébastien",
+                      "familyName": "Besson",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T12:30+01:00",
+              "endDate": "2021-06-10T13:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "IDR submission",
+                  "description": "Submitting data.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T12:30+01:00",
+                  "endDate": "2021-06-10T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Frances",
+                      "familyName": "Wong",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "IDR analysis",
+                  "description": "Running analysis against IDR data.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T12:30+01:00",
+                  "endDate": "2021-06-10T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Public Resources round-table",
+                  "description": "Continued discussion on Public Resources topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T12:30+01:00",
+                  "endDate": "2021-06-10T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Sébastien",
+                      "familyName": "Besson",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Global BioImaging",
+                  "description": "Introductions to Global BioImaging and its activities.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T12:30+01:00",
+                  "endDate": "2021-06-10T13:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Antje",
+                      "familyName": "Keppler",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Euro-BioImaging ERIC"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T13:00+01:00",
+              "endDate": "2021-06-10T14:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Session 2 (repeat of session 1)",
+          "description": "This session is aimed at our community
+          attending from Europe, Africa or America.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-10T16:00+01:00",
+          "endDate": "2021-06-10T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T16:00+01:00",
+              "endDate": "2021-06-10T16:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Sébastien",
+                  "familyName": "Besson",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider Public Resources topics",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T16:10+01:00",
+              "endDate": "2021-06-10T16:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Workshop and round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T17:00+01:00",
+              "endDate": "2021-06-10T18:20+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "IDR Workshop",
+                  "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T17:00+01:00",
+                  "endDate": "2021-06-10T18:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Public Resources round-table",
+                  "description": "Continued discussion on Public Resources topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T17:00+01:00",
+                  "endDate": "2021-06-10T18:20+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Sébastien",
+                      "familyName": "Besson",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T18:30+01:00",
+              "endDate": "2021-06-10T19:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "IDR submission",
+                  "description": "Submitting data.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T18:30+01:00",
+                  "endDate": "2021-06-10T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Frances",
+                      "familyName": "Wong",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "IDR analysis",
+                  "description": "Running analysis against IDR data.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T18:30+01:00",
+                  "endDate": "2021-06-10T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Public Resources round-table",
+                  "description": "Continued discussion on Public Resources topics.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T18:30+01:00",
+                  "endDate": "2021-06-10T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Sébastien",
+                      "familyName": "Besson",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Global BioImaging",
+                  "description": "Introductions to Global BioImaging and its activities.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-10T18:30+01:00",
+                  "endDate": "2021-06-10T19:00+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Antje",
+                      "familyName": "Keppler",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Euro-BioImaging ERIC"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-10T19:00+01:00",
+              "endDate": "2021-06-10T20:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2021#day4",
+      "@type": "Event",
+      "alternateName": "Day 4",
+      "name": "Teaching and Training",
+      "description": "The Teaching and Training day aims to cover the use of open platforms like OMERO for teaching and how to train users or evaluate your favourite software/algorithms using platforms presented in Day 3 -- Public Resources, and how to take advantage of resources during Day 2 -- Research Data Management.",
+      "url": "/events/ome-community-meeting-2021/day4/",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "startDate": "2021-06-11T10:00+01:00",
+      "endDate": "2021-06-11T19:00+01:00",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "TBD"
+      },
+      "organizer": [
+        {
+          "@type": "Person",
+          "givenName": "Jean-Marie",
+          "familyName": "Burel",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        }
+      ],
+      "performer": [
+        {
+          "@type": "Person",
+          "givenName": "Stefanie",
+          "familyName": "Weidtkamp-Peters",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Heinrich-Heine University Duesseldorf"
+          },
+          "sameAs": "https://www.cai.hhu.de/en/team"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Evan",
+          "familyName": "Sanders",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Harvard Medical School"
+          },
+          "sameAs": "https://meded.hms.harvard.edu/people/evan-sanders"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Luca",
+          "familyName": "Lianas",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "CRS4"
+          },
+          "sameAs": "https://www.crs4.it/peopledetails/219/luca-lianas"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Paul",
+          "familyName": "Felts",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.dundee.ac.uk/people/paul-felts"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Beatriz",
+          "familyName": "Serrano-Solano",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Freiburg"
+          },
+          "sameAs": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano"
+        }
+      ],
+      "workFeatured": [
+        {
+          "@type": "VideoObject",
+          "name": "Invited Talks (5 videos, playlist length: 1h2min)",
+          "uploadDate": "2021-06-02",
+          "description": "Invited Talks for the Day 4 (Teaching and Training) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH51Bf0u2S6RwnmiKGnrzQGfo",
+          "thumbnailUrl": "https://img.youtube.com/vi/ygsxFcNAYNc/0.jpg"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Flash Talks (6 videos, playlist length: 17min)",
+          "uploadDate": "2021-06-02",
+          "description": "Flash Talks for the Day 4 (Teaching and Training) of OME 2021",
+          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW",
+          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH52_EU7C2wog6wFbezqY6ocW",
+          "thumbnailUrl": "https://img.youtube.com/vi/q665dd-guvI/0.jpg"
+        }
+      ],
+      "subEvent": [
+        {
+          "@type": "Event",
+          "name": "Session 1",
+          "description": "This session is aimed at our community
+          attending from Oceania, Asia, Europe or Africa.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-11T10:00+01:00",
+          "endDate": "2021-06-11T13:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T10:00+01:00",
+              "endDate": "2021-06-11T10:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider Teaching and Training topics",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T10:10+01:00",
+              "endDate": "2021-06-11T10:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T11:00+01:00",
+              "endDate": "2021-06-11T12:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO trainers Workshop",
+                  "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible improvements and modifications of such setups.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Teaching and Training round-table",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Connector between OMERO and the BigDataViewer",
+                  "description": "Repeat from Day 1",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T11:00+01:00",
+                  "endDate": "2021-06-11T12:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Claire",
+                      "familyName": "Stoffel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "EPFL Lausanne"
+                      },
+                      "sameAs": "https://people.epfl.ch/claire.stoffel"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Concluding remarks",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T12:40+01:00",
+              "endDate": "2021-06-11T13:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T13:00+01:00",
+              "endDate": "2021-06-11T14:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Session 2 (repeat of session 1)",
+          "description": "This session is aimed at our community
+          attending from Europe, Africa or America.",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2021-06-11T16:00+01:00",
+          "endDate": "2021-06-11T19:00+01:00",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Introduction",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T16:00+01:00",
+              "endDate": "2021-06-11T16:10+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Q&A session",
+              "description": "Discussion of invited talks, flash talks, and wider Teaching and Training topics",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T16:10+01:00",
+              "endDate": "2021-06-11T16:55+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Break-out sessions",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T17:00+01:00",
+              "endDate": "2021-06-11T18:30+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO trainers Workshop",
+                  "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible improvements and modifications of such setups.",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T17:00+01:00",
+                  "endDate": "2021-06-11T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Teaching and Training round-table",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T17:00+01:00",
+                  "endDate": "2021-06-11T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Jean-Marie",
+                      "familyName": "Burel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Formats",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2021-06-11T17:00+01:00",
+                  "endDate": "2021-06-11T18:30+01:00",
+                  "location": {
+                    "@type": "VirtualLocation",
+                    "url": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "David",
+                      "familyName": "Gault",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Melissa",
+                      "familyName": "Linkert",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
+                      },
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Concluding remarks",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T18:40+01:00",
+              "endDate": "2021-06-11T19:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Gather in the Imagesc Island beach bar",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2021-06-11T19:00+01:00",
+              "endDate": "2021-06-11T20:00+01:00",
+              "location": {
+                "@type": "VirtualLocation",
+                "url": "https://j.mp/imagesc-island"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
