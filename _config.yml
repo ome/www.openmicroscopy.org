@@ -34,14 +34,14 @@ defaults:
 future: true
 
 bf:
- version: 6.6.1
+ version: 6.7.0
 
 omero:
  version: 5.6.3
  majorversion: 5.6
  build: b228
  insight:
-  version: 5.5.19
+  version: 5.6.1
  matlab:
   version: 5.5.4
 

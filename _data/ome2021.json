@@ -212,10 +212,10 @@
                     "@type": "VideoObject",
                     "name": "OME2021 | Claire Stoffel | Connector between OMERO and the BigDataViewer",
                     "uploadDate": "2021-06-09",
-                    "description": "Demo (26min)",
-                    "contentUrl": "https://www.youtube.com/watch?v=s8dtyJ3334M",
-                    "embedUrl": "https://www.youtube.com/embed/s8dtyJ3334M",
-                    "thumbnailUrl": "https://img.youtube.com/vi/s8dtyJ3334M/0.jpg"
+                    "description": "Demo (21min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=Mjx9c_5FwhI",
+                    "embedUrl": "https://www.youtube.com/embed/Mjx9c_5FwhI",
+                    "thumbnailUrl": "https://img.youtube.com/vi/Mjx9c_5FwhI/0.jpg"
                   },
                   "performer": [
                     {
@@ -403,6 +403,15 @@ microscopy metadata based on community-driven specifications",
                   "location": {
                     "@type": "VirtualLocation",
                     "url": "TBD"
+                  },
+                  "workFeatured": {
+                    "@type": "VideoObject",
+                    "name": "2021 OME Community Meeting Micro Meta App live demo",
+                    "uploadDate": "2021-07-27",
+                    "description": "Demo (23min)",
+                    "contentUrl": "https://www.youtube.com/watch?v=dbyzpePijqM",
+                    "embedUrl": "https://www.youtube.com/embed/dbyzpePijqM",
+                    "thumbnailUrl": "https://img.youtube.com/vi/dbyzpePijqM/0.jpg"
                   },
                   "performer": [
                     {
