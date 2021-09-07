@@ -82,7 +82,7 @@ image data from these different modalities. A discussion of super-resolution
 data storage (e.g. [this thread on the ome-devel mailing list](http://lists.openmicroscopy.org.uk/pipermail/ome-devel/2015-October/003471.html))
 has helped drive this, as has our ongoing work on publishing large image
 datasets on the BBSRC-funded [Image Data Resource (IDR)](http://idr.openmicroscopy.org)[^1]) and participation in several
-ongoing data-focussed projects (e.g. [MULTIMOT](http://multimot.org/) and
+ongoing data-focussed projects (e.g. [MULTIMOT](https://cordis.europa.eu/project/id/634107) and
 [CORBEL](https://www.elixir-europe.org/news/corbel-sets-out-establish-common-infrastructure-biomedical-research)).
 We have already built defined tools for metadata import into the IDR (see the
 [code repository](https://github.com/openmicroscopy/idr-metadata)) and will
