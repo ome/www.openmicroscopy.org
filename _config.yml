@@ -17,15 +17,16 @@ collections:
         output: true
 defaults:
   - scope:
-      path: ""
+      path: "_minutes"
       type: "minutes"
     values:
       layout: "minute"
   - scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
+      permalink: /:year/:month/:day/:title.html
   - scope:
       path: ""
     values:
