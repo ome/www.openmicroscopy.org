@@ -356,6 +356,8 @@ section.announcement a.styled-link {
 #bg-image-docs { background-image: url('../img/bg/docs.jpg'); }
 #bg-image-explore { background-image: url('../img/bg/explore.jpg'); }
 #bg-image-social { background-image: url('../img/bg/social.jpg'); }
+#bg-image-blog { background-image: url('../img/bg/blog.jpg'); }
+#bg-image-minutes { background-image: url('../img/bg/minutes.jpg'); }
 
 #bg-hero-ome-community-meeting-2020 {
     background-image: url('../img/bg/remote-world.svg'), linear-gradient(180deg, #fff, #546E7A);
