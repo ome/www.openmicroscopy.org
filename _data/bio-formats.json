@@ -1,0 +1,344 @@
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "bio-formats": "Bio-Formats",
+    "contributor": [
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#EricAlbert",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dinelia",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#jarmond",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#AaronAvery",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mbaldauf",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ericbarnhill",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SimonBlanchoud",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GhislainBonamy",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MichelBoudinot",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mabruce",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#burgerga",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ThomasCaswell",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JulyChen",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MatthewClapp",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#TonyCollins",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#redcrow",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#Stephane-D",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BarryDeZonia",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#carandraug",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#imagejan",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dimin",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PremyslFiala",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#rfinck",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ColinFuller",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ZackGalbreath",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ShawnGarbett",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BramGerritsen",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JoanGibert",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ngladitz",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#AivarGrislis",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MichaelGoelzer",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#AlexGouaillard",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JohnHansen",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#rharkes",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#VolkerHartmann",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#stelfrich",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JohanHerz",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BillHill",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#hinerm",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SebastienHuart",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GregoryJefferis",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#LeeKamentsky",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#KristianKjaergaard",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MikhailKovtun",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#LewisKraft",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mkitti",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GaëtanLehmann",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ChrisLesiak",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#crisluengo",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BrianLong",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dmankus",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GlenMacDonald",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MattMcCormick",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mcquin",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MatthieuMoisse",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#jmuhlich",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#RubénMuñoz",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#imunro",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#RichardMyers",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ChristianNiedworok",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MartinOffterdinger",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JimParis",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#Parm0n",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#NickPerry",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#popiel",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#VilleRantanen",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#WayneRasband",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PatrickRiley",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#csachs",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dscho",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BrettShoelson",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SebastienSimard",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#sommerc",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#TorstenStöter",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JakubStraszewski",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mstritt",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#bjoernthiel",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tinevez",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#NicholasTrahearn",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#avandecreme",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PaulVanSchayck",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#StephanWagner-Conrad",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SeanWarren",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ThusharaWijeratna",
+            "@type": "Person"
+        }
+    ],
+    "url": "https://www.openmicroscopy.org/bio-formats"
+}

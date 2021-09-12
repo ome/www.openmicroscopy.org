@@ -1,0 +1,76 @@
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "contributor": [
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JonnyJD",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ehrenfeu",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#glyg",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#aherbert",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#yjarosz",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#LeonKolchinsky",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#sukunis",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tlambert03",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JasonLee",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#DanielMatthews",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#kouichi-c-nakamura",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#carandraug",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ppouchin",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PaulVanSchayck",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#StephenWelsh",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ChrisWood",
+            "@type": "Person"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#andreyyudin",
+            "@type": "Person"
+        }
+    ],
+    "name": "OMERO",
+    "url": "https://www.openmicroscopy.org/omero"
+}
