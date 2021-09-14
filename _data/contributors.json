@@ -147,23 +147,9 @@
                     "url": "https://www.mrcbndu.ox.ac.uk/"
                 }
             ],
-            "familyName": "C. Nakamura",
+            "familyName": "Nakamura",
             "givenName": "Kouchi",
             "sameAs": "https://github.com/kouichi-c-nakamura"
-        },
-        {
-            "@id": "https://www.openmicroscopy.org/contributors#carandraug",
-            "@type": "Person",
-            "affiliation": [
-                {
-                    "@type": "Organization",
-                    "name": "Department of Biochemistry, University of Oxford",
-                    "url": "https://www.bioch.ox.ac.uk"
-                }
-            ],
-            "familyName": "Pinto",
-            "givenName": "David",
-            "sameAs": "https://github.com/carandraug"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#ppouchin",
@@ -632,7 +618,7 @@
             "givenName": "Aivar"
         },
         {
-            "@id": "https://www.openmicroscopy.org/contributors#MichaelGoelzer",
+            "@id": "https://www.openmicroscopy.org/contributors#michaelgoelzer",
             "@type": "Person",
             "affiliation": [
                 {
@@ -642,7 +628,8 @@
                 }
             ],
             "familyName": "Goelzer",
-            "givenName": "Michael"
+            "givenName": "Michael",
+            "sameAs": "https://github.com/michaelgoelzer"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#AlexGouaillard",
@@ -925,7 +912,7 @@
             "givenName": "Glen"
         },
         {
-            "@id": "https://www.openmicroscopy.org/contributors#MattMcCormick",
+            "@id": "https://www.openmicroscopy.org/contributors#thewtex",
             "@type": "Person",
             "affiliation": [
                 {
@@ -935,7 +922,8 @@
                 }
             ],
             "familyName": "McCormick",
-            "givenName": "Matt"
+            "givenName": "Matt",
+            "sameAs": "https://github.com/thewtex"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#mcquin",
@@ -1343,7 +1331,7 @@
             "givenName": "Stephan"
         },
         {
-            "@id": "https://www.openmicroscopy.org/contributors#SeanWarren",
+            "@id": "https://www.openmicroscopy.org/contributors#seanwarren",
             "@type": "Person",
             "affiliation": [
                 {
@@ -1353,7 +1341,8 @@
                 }
             ],
             "familyName": "Warren",
-            "givenName": "Sean"
+            "givenName": "Sean",
+            "sameAs": "https://github.com/seanwarren"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#ThusharaWijeratna",
