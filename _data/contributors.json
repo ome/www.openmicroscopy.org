@@ -1356,6 +1356,19 @@
             ],
             "familyName": "Wijeratna",
             "givenName": "Thushara"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#lldelisle",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "EPFL",
+                    "url": "https://www.epfl.ch/"
+                }
+            ],
+            "familyName": "Delisle",
+            "givenName": "Lucille"
         }
     ]
 }

@@ -52,6 +52,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#andreyyudin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#lldelisle"
         }
     ],
     "name": "OMERO",
