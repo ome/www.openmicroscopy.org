@@ -1,0 +1,62 @@
+---
+layout: security-advisory
+filename: security
+title: 2021-SV3 XSS vectors
+main-blurb: affects OMERO.web versions prior to 5.11.0, OMERO.figure versions prior to 4.4.1
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Inconsistent input sanitization leads to XSS vectors.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+        <p class="secvul-description">A variety of templates do not perform proper sanitization through HTML escaping.
+Due to the lack of sanitization and use of jQuery.html(), there are a whole host of XSS possibilities with specially crafted input to a variety of fields.
+</i> setting.</p>
+        <p class="secvul-description">This vulnerability is identified as <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-41132">CVE-2021-41132</a> and
+            <a href="https://github.com/advisories/GHSA-g67g-hvc3-xmvf">GHSA-g67g-hvc3-xmvf</a>.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.web before 5.11.0 and OMERO.figure before 4.4.1.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Low severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">All OMERO.web deployments should be upgraded to at least 5.11.0. All OMERO.figure deployments should be upgraded to at least 4.4.1.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+                <div class="small-12 medium-3 columns">
+                    <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
+                </div>
+                <div class="small-12 medium-9 columns">
+                    <p class="secvul-description">Lachlan Horsey, Security Engineer at Griffith Cybersec team for notifying the OME team of this security issue via <code>security@openmicroscopy.org</code>. </p>
+                </div>
+            </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
