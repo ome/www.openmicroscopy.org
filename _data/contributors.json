@@ -1368,7 +1368,15 @@
                 }
             ],
             "familyName": "Delisle",
-            "givenName": "Lucille"
+            "givenName": "Lucille",
+            "sameAs": "https://github.com/lldelisle"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#nordri",
+            "@type": "Person",
+            "familyName": "Diaz",
+            "givenName": "Federico",
+            "sameAs": "https://github.com/nordri"
         }
     ]
 }
