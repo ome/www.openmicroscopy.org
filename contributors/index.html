@@ -2,7 +2,13 @@
 layout: default
 title: Contributors
 meta_description: A listing of individuals and groups who have made contributions to OME software.
+schemadotorg: contributors
 ---
+
+{% assign omero_contributors = site.data.omero.contributor | map: "@id" %}
+{% assign bf_contributors = site.data.bio-formats.contributor | map: "@id" %}
+{% assign contributors = site.data.contributors["@graph"] | uniq | sort: 'familyName' %}
+
         <div class="callout large primary" id="bg-image-contributors">
             <div class="row column text-center">
                 <h1>Contributors</h1>
@@ -29,16 +35,18 @@ meta_description: A listing of individuals and groups who have made contribution
         </div>
         <hr>
         <div class="row medium-up-2 large-up-3 contributors-list">
-            {% for contributor in site.data.contributors.omero %}
+            {% for contributor in contributors %}
+            {% if omero_contributors contains contributor["@id"] %}
             <div class="large-expand columns">
-            {{ contributor.fullname }}
-            {% if contributor.githubname %}
-            <a href="https://github.com/{{ contributor.githubname }}/" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+            {{ contributor.givenName }} {{ contributor.additionalName }} {{ contributor.familyName }}
+            {% if contributor.sameAs %}
+            <a href="{{ contributor.sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
             {% endif %}
-            {% for affiliation in contributor.affiliations %}
+            {% for affiliation in contributor.affiliation %}
             <a href="{{ affiliation.url }}" target="_blank">{{ affiliation.name }}</a>
             {% endfor %}
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         <!-- end OMERO Contributors -->
@@ -53,16 +61,18 @@ meta_description: A listing of individuals and groups who have made contribution
         </div>
         <hr>
         <div class="row medium-up-2 large-up-3 contributors-list">
-            {% for contributor in site.data.contributors.bio-formats %}
+            {% for contributor in contributors %}
+            {% if bf_contributors contains contributor["@id"] %}
             <div class="large-expand columns">
-            {{ contributor.fullname }}
-            {% if contributor.githubname %}
-            <a href="https://github.com/{{ contributor.githubname }}/" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
+            {{ contributor.givenName }} {{ contributor.additionalName }} {{ contributor.familyName }}
+            {% if contributor.sameAs %}
+            <a href="{{ contributor.sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
             {% endif %}
-            {% for affiliation in contributor.affiliations %}
+            {% for affiliation in contributor.affiliation %}
             <a href="{{ affiliation.url }}" target="_blank">{{ affiliation.name }}</a>
             {% endfor %}
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         <!-- end BF Contributors -->
