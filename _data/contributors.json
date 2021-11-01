@@ -307,7 +307,7 @@
             "affiliation": [
                 {
                     "@type": "Organization",
-                    "name": "EPFL - Ecole Polytechnique Federale de Lausanne",
+                    "name": "EPFL - Ecole Polytechnique Fédérale de Lausanne",
                     "url": "https://www.epfl.ch/"
                 }
             ],
@@ -333,7 +333,7 @@
             "affiliation": [
                 {
                     "@type": "Organization",
-                    "name": "INAF-CNRS - Institut de Neurobiologie Alfred Fessard, Centre National de la Recherche Scientifiqu",
+                    "name": "INAF-CNRS - Institut de Neurobiologie Alfred Fessard, Centre National de la Recherche Scientifique",
                     "url": "https://www.inaf.cnrs-gif.fr/"
                 }
             ],
