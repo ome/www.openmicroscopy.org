@@ -55,6 +55,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#lldelisle"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#jmuhlich"
         }
     ],
     "name": "OMERO",
