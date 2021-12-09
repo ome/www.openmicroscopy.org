@@ -1,7 +1,7 @@
 name: OME  Website
 markdown: kramdown
 
-url: https://ome.github.io
+url: ''
 repository: openmicroscopy/www.openmicroscopy.org
 baseurl: /www.openmicroscopy.org
 
@@ -17,15 +17,16 @@ collections:
         output: true
 defaults:
   - scope:
-      path: ""
+      path: "_minutes"
       type: "minutes"
     values:
       layout: "minute"
   - scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
+      permalink: /:year/:month/:day/:title.html
   - scope:
       path: ""
     values:
@@ -41,7 +42,7 @@ omero:
  majorversion: 5.6
  build: b228
  insight:
-  version: 5.5.17
+  version: 5.6.2
  matlab:
   version: 5.5.4
 

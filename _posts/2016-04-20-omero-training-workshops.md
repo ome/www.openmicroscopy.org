@@ -22,7 +22,7 @@ digital pathology data.
 In this one-day course, we will show users how to import, organise,
 view, search, annotate, and publish imaging data using
 OMERO. Additionally, we will briefly introduce how to use a variety of
-analysis tools like ImageJ, Icy, CellProfiler, Matlab, etc. with
+analysis tools like ImageJ, Icy, CellProfiler, MATLAB, etc. with
 OMERO. Please note that this event is also relevant to Facility
 Managers wanting to train users.
 

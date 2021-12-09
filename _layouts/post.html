@@ -2,7 +2,11 @@
 layout: default
 ---
         <!-- begin Post -->
+        {% if page.categories contains "blog" %}
+        <div class="callout large primary" id="bg-image-blog">
+        {% else %}
         <div class="callout large primary" id="bg-image-announcements">
+        {% endif %}
             <div class="row column text-center">
                 <h1>{{page.title}}</h1>
                 <p>{{page.intro-blurb}}</p>
@@ -10,7 +14,11 @@ layout: default
         </div>
         <hr class="invisible">        
         <div class="text-center">
+            {% if page.categories contains "blog" %}
+            <a id="back-to-top" href="{{ site.baseurl }}/blog/"><i class="fa fa-arrow-left"></i> back to Blog</a>
+            {% else %}
             <a id="back-to-top" href="{{ site.baseurl }}/announcements/"><i class="fa fa-arrow-left"></i> back to Announcements</a>
+            {% endif %}
         </div>
         <hr class="invisible">        
         <div class="row">

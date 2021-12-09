@@ -13,6 +13,12 @@
   gtag('config', '{{ site.ga_token }}');
 
         </script>
+        {% if page.schemadotorg %}
+        <script type="application/ld+json">
+          {% assign var = page.schemadotorg %}
+          {{ site.data[var] | jsonify}}
+        </script>
+        {% endif %}
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

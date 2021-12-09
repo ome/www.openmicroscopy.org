@@ -1,0 +1,1382 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JonnyJD",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Fraunhofer IBMT",
+                    "url": "https://www.ibmt.fraunhofer.de/en.html"
+                }
+            ],
+            "familyName": "Dewender",
+            "givenName": "Johannes",
+            "sameAs": "https://github.com/JonnyJD"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ehrenfeu",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Basel",
+                    "url": "https://www.unibas.ch"
+                }
+            ],
+            "familyName": "Ehrenfeuchter",
+            "givenName": "Niko",
+            "sameAs": "https://github.com/ehrenfeu"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#glyg",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "CENTURI - Turing Centre for Living Systems",
+                    "url": "https://centuri-livingsystems.org/"
+                }
+            ],
+            "familyName": "Gay",
+            "givenName": "Guillaume",
+            "sameAs": "https://github.com/glyg"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#aherbert",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Sussex",
+                    "url": "https://www.sussex.ac.uk/"
+                }
+            ],
+            "familyName": "Herbert",
+            "givenName": "Alex",
+            "sameAs": "https://github.com/aherbert"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#yjarosz",
+            "@type": "Person",
+            "affiliation": [],
+            "familyName": "Jarosz",
+            "givenName": "Yohan",
+            "sameAs": "https://github.com/yjarosz"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#LeonKolchinsky",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Monash University",
+                    "url": "https://monash.edu/"
+                }
+            ],
+            "familyName": "Kolchinsky",
+            "givenName": "Leon"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#sukunis",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Osnabrück",
+                    "url": "https://www.uni-osnabrueck.de/en/home.html"
+                }
+            ],
+            "familyName": "Kunis",
+            "givenName": "Susanne",
+            "sameAs": "https://github.com/sukunis"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tlambert03",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Harvard Medical School",
+                    "url": "https://hms.harvard.edu/"
+                }
+            ],
+            "familyName": "Lambert",
+            "givenName": "Talley",
+            "sameAs": "https://github.com/tlambert03"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JasonLee",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Missouri",
+                    "url": "https://www.missouri.edu/"
+                }
+            ],
+            "familyName": "Lee",
+            "givenName": "Jason"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#DanielMatthews",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Nikon Imaging Centre, Kings College London",
+                    "url": "https://nic.kcl.ac.uk"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "(formerly Queensland Brain Institute)",
+                    "url": "https://qbi.uq.edu.au"
+                }
+            ],
+            "familyName": "Matthews",
+            "givenName": "Daniel"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#kouichi-c-nakamura",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "MRC Brain Network Dynamics Unit, University of Oxford",
+                    "url": "https://www.mrcbndu.ox.ac.uk/"
+                }
+            ],
+            "familyName": "Nakamura",
+            "givenName": "Kouchi",
+            "sameAs": "https://github.com/kouichi-c-nakamura"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ppouchin",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Université D'Auvergne",
+                    "url": "http://www.u-clermont1.fr/"
+                }
+            ],
+            "familyName": "Pouchin",
+            "givenName": "Pierre",
+            "sameAs": "https://github.com/ppouchin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PaulVanSchayck",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Maastricht University",
+                    "url": "https://www.maastrichtuniversity.nl"
+                }
+            ],
+            "familyName": "Van Schayck",
+            "givenName": "Paul",
+            "sameAs": "https://github.com/PaulVanSchayck"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#StephenWelsh",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Monash University",
+                    "url": "https://www.monash.edu/"
+                }
+            ],
+            "familyName": "Welsh",
+            "givenName": "Stephen"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ChrisWood",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Stowers Institute",
+                    "url": "https://www.stowers-institute.org/"
+                }
+            ],
+            "familyName": "Wood",
+            "givenName": "Chris"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#andreyyudin",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "EMBL-EBI",
+                    "url": "https://ebi.ac.uk"
+                }
+            ],
+            "familyName": "Yudin",
+            "givenName": "Andrey",
+            "sameAs": "https://github.com/andreyyudin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#EricAlbert",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Stanford University",
+                    "url": "https://www.stanford.edu/"
+                }
+            ],
+            "familyName": "Albert",
+            "givenName": "Eric"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dinelia",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Oxford Instruments",
+                    "url": "https://imaris.oxinst.com/"
+                }
+            ],
+            "familyName": "Andreica",
+            "givenName": "Eliana",
+            "sameAs": "https://github.com/dinelia"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#jarmond",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Warwick",
+                    "url": "https://www.warwick.ac.uk/"
+                }
+            ],
+            "familyName": "Armond",
+            "givenName": "Jonathan",
+            "sameAs": "https://github.com/jarmond"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#AaronAvery",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "HealthMyne",
+                    "url": "https://www.healthmyne.com"
+                }
+            ],
+            "familyName": "Avery",
+            "givenName": "Aaron"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mbaldauf",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Medical University Innsbruck",
+                    "url": "https://www.i-med.ac.at/"
+                }
+            ],
+            "familyName": "Baldauf",
+            "givenName": "Matthias",
+            "sameAs": "https://github.com/mbaldauf"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ericbarnhill",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Charité Universitätsmedizin Berlin",
+                    "url": "https://www.charite.de/en/"
+                }
+            ],
+            "familyName": "Barnhill",
+            "givenName": "Eric",
+            "sameAs": "https://github.com/ericbarnhill"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SimonBlanchoud",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "EPFL - Ecole Polytechnique Fédérale de Lausanne",
+                    "url": "https://www.epfl.ch/"
+                }
+            ],
+            "familyName": "Blanchoud",
+            "givenName": "Simon"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GhislainBonamy",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Novartis",
+                    "url": "https://www.novartis.com/"
+                }
+            ],
+            "familyName": "Bonamy",
+            "givenName": "Ghislain"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MichelBoudinot",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "INAF-CNRS - Institut de Neurobiologie Alfred Fessard, Centre National de la Recherche Scientifique",
+                    "url": "https://www.inaf.cnrs-gif.fr/"
+                }
+            ],
+            "familyName": "Boudinot",
+            "givenName": "Michel"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mabruce",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Microvolution LLC",
+                    "url": "https://www.microvolution.com"
+                }
+            ],
+            "familyName": "Bruce",
+            "givenName": "Marc",
+            "sameAs": "https://github.com/mabruce"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#burgerga",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Leiden University",
+                    "url": "https://www.universiteitleiden.nl/en"
+                }
+            ],
+            "familyName": "Burger",
+            "givenName": "Gerhard",
+            "sameAs": "https://github.com/burgerga"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ThomasCaswell",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Cornell University",
+                    "url": "https://www.cornell.edu/"
+                }
+            ],
+            "familyName": "Caswell",
+            "givenName": "Thomas"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JulyChen",
+            "@type": "Person",
+            "affiliation": [],
+            "familyName": "Chen",
+            "givenName": "July"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MatthewClapp",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "WaveDrom",
+                    "url": "https://wavedrom.com"
+                }
+            ],
+            "familyName": "Clapp",
+            "givenName": "Matthew"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#TonyCollins",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "McMaster University",
+                    "url": "https://www.mcmaster.ca/"
+                }
+            ],
+            "familyName": "Collins",
+            "givenName": "Tony"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#redcrow",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Mikroscan Technologies, Inc.",
+                    "url": "https://www.mikroscan.com/"
+                }
+            ],
+            "familyName": "Crowe",
+            "givenName": "Jim",
+            "sameAs": "https://github.com/redcrow"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#Stephane-D",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institut Pasteur",
+                    "url": "https://www.pasteur.fr/en"
+                }
+            ],
+            "familyName": "Dallongeville",
+            "givenName": "Stephane",
+            "sameAs": "https://github.com/Stephane-D"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BarryDeZonia",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "UW-Madison LOCI",
+                    "url": "https://loci.wisc.edu/"
+                }
+            ],
+            "familyName": "DeZonia",
+            "givenName": "Barry"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#carandraug",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Oxford",
+                    "url": "https://micronoxford.com/"
+                }
+            ],
+            "familyName": "Pinto",
+            "givenName": "David",
+            "sameAs": "https://github.com/carandraug"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#imagejan",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Friedrich Miescher Institute for Biomedical Research",
+                    "url": "https://www.fmi.ch/"
+                }
+            ],
+            "familyName": "Eglinger",
+            "givenName": "Jan",
+            "sameAs": "https://github.com/imagejan"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dimin",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of California Santa Barbara",
+                    "url": "https://www.ucsb.edu/"
+                }
+            ],
+            "familyName": "Fedorov",
+            "givenName": "Dmitry",
+            "sameAs": "https://github.com/dimin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PremyslFiala",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Laboratory Imaging",
+                    "url": "https://lim.cz"
+                }
+            ],
+            "familyName": "Fiala",
+            "givenName": "Premysl",
+            "sameAs": "https://github.com/PremyslFiala"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#rfinck",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Ionpath",
+                    "url": "https://www.ionpath.com"
+                }
+            ],
+            "familyName": "Finck",
+            "givenName": "Rachel",
+            "sameAs": "https://github.com/rfinck"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ColinFuller",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Khan Academy",
+                    "url": "https://www.khanacademy.org"
+                }
+            ],
+            "familyName": "Fuller",
+            "givenName": "Colin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ZackGalbreath",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Kitware",
+                    "url": "https://www.kitware.com/"
+                }
+            ],
+            "familyName": "Galbreath",
+            "givenName": "Zack"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ShawnGarbett",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Vanderbilt University",
+                    "url": "https://www.vanderbilt.edu/"
+                }
+            ],
+            "familyName": "Garbett",
+            "givenName": "Shawn"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BramGerritsen",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Netherlands Cancer Institute",
+                    "url": "https://www.nki.nl/"
+                }
+            ],
+            "familyName": "Gerritsen",
+            "givenName": "Bram"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JoanGibert",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Hospital del Mar- Parc de Salut MAR",
+                    "url": "https://www.imim.cat/en_index.html"
+                }
+            ],
+            "familyName": "Gibert",
+            "givenName": "Joan"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ngladitz",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Abberior Instruments GmbH",
+                    "url": "https://www.abberior-instruments.com/"
+                }
+            ],
+            "familyName": "Gladitz",
+            "givenName": "Nils",
+            "sameAs": "https://github.com/ngladitz"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#AivarGrislis",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "UW-Madison LOCI",
+                    "url": "https://loci.wisc.edu/"
+                }
+            ],
+            "familyName": "Grislis",
+            "givenName": "Aivar"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#michaelgoelzer",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Leica Microsystems",
+                    "url": "https://www.leica-microsystems.com"
+                }
+            ],
+            "familyName": "Goelzer",
+            "givenName": "Michael",
+            "sameAs": "https://github.com/michaelgoelzer"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#AlexGouaillard",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Harvard Medical School",
+                    "url": "https://hms.harvard.edu"
+                }
+            ],
+            "familyName": "Gouaillard",
+            "givenName": "Alex"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JohnHansen",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of North Carolina at Chapel Hill",
+                    "url": "https://www.unc.edu"
+                }
+            ],
+            "familyName": "Hansen",
+            "givenName": "John"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#rharkes",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Netherlands Cancer Institute",
+                    "url": "https://www.nki.nl/"
+                }
+            ],
+            "familyName": "Harkes",
+            "givenName": "Rolf",
+            "sameAs": "https://github.com/rharkes"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#VolkerHartmann",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Karlsruher Institut für Technologie",
+                    "url": "https://www.kit.edu/"
+                }
+            ],
+            "familyName": "Hartmann",
+            "givenName": "Volker"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#stelfrich",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Konstanz",
+                    "url": "https://www.uni-konstanz.de/en/"
+                }
+            ],
+            "familyName": "Helfrich",
+            "givenName": "Stefan",
+            "sameAs": "https://github.com/stelfrich"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JohanHerz",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Lambert Instruments",
+                    "url": "https://www.lambertinstruments.com/"
+                }
+            ],
+            "familyName": "Herz",
+            "givenName": "Johan"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BillHill",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institute of Genetics & Molecular Medicine, University of Edinburgh",
+                    "url": "https://www.ed.ac.uk/mrc-human-genetics-unit"
+                }
+            ],
+            "familyName": "Hill",
+            "givenName": "Bill"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#hinerm",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "UW-Madison LOCI",
+                    "url": "https://loci.wisc.edu/"
+                }
+            ],
+            "familyName": "Hiner",
+            "givenName": "Mark",
+            "sameAs": "https://github.com/hinerm"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SebastienHuart",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institut Curie",
+                    "url": "https://www.curie.fr/"
+                }
+            ],
+            "familyName": "Huart",
+            "givenName": "Sebastien"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GregoryJefferis",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "MRC Laboratory of Molecular Biology",
+                    "url": "https://www2.mrc-lmb.cam.ac.uk/"
+                }
+            ],
+            "familyName": "Jefferis",
+            "givenName": "Gregory"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#LeeKamentsky",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Broad Institute",
+                    "url": "https://www.broadinstitute.org/"
+                }
+            ],
+            "familyName": "Kamentsky",
+            "givenName": "Lee",
+            "sameAs": "https://github.com/LeeKamentsky"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#KristianKjaergaard",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Southern Denmark",
+                    "url": "https://www.sdu.dk/en/"
+                }
+            ],
+            "familyName": "Kjaergaard",
+            "givenName": "Kristian"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MikhailKovtun",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Duke University",
+                    "url": "https://www.duke.edu/"
+                }
+            ],
+            "familyName": "Kovtun",
+            "givenName": "Mikhail"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#LewisKraft",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Vanderbilt University",
+                    "url": "https://www.vanderbilt.edu"
+                }
+            ],
+            "familyName": "Kraft",
+            "givenName": "Lewis"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mkitti",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "UTSouthwestern Medical Center",
+                    "url": "https://www.utsouthwestern.edu"
+                }
+            ],
+            "familyName": "Kittisopikul",
+            "givenName": "Mark",
+            "sameAs": "https://github.com/mkitti"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GaëtanLehmann",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "INRA Jouy-En-Josas",
+                    "url": "https://www.jouy.inra.fr/"
+                }
+            ],
+            "familyName": "Lehmann",
+            "givenName": "Gaëtan"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ChrisLesiak",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Li-Cor Biosciences",
+                    "url": "https://www.licor.com/"
+                }
+            ],
+            "familyName": "Lesiak",
+            "givenName": "Chris"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#crisluengo",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Uppsala University",
+                    "url": "https://www.uu.se/"
+                }
+            ],
+            "familyName": "Luengo",
+            "givenName": "Cris",
+            "sameAs": "https://github.com/crisluengo"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BrianLong",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Allen Institute",
+                    "url": "httpss://www.alleninstitute.org/"
+                }
+            ],
+            "familyName": "Long",
+            "givenName": "Brian"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dmankus",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Harvard University Center for Brain Science",
+                    "url": "https://hms.harvard.edu/"
+                }
+            ],
+            "familyName": "Mankus",
+            "givenName": "David",
+            "sameAs": "https://github.com/dmankus"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#GlenMacDonald",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Washington",
+                    "url": "https://www.washington.edu/"
+                }
+            ],
+            "familyName": "MacDonald",
+            "givenName": "Glen"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#thewtex",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Kitware",
+                    "url": "https://www.kitware.com"
+                }
+            ],
+            "familyName": "McCormick",
+            "givenName": "Matt",
+            "sameAs": "https://github.com/thewtex"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mcquin",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Broad Institute",
+                    "url": "https://www.broadinstitute.org"
+                }
+            ],
+            "familyName": "McQuin",
+            "givenName": "Claire",
+            "sameAs": "https://github.com/mcquin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MatthieuMoisse",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "VIB-KU Leuven",
+                    "url": "https://www.kuleuven.be"
+                }
+            ],
+            "familyName": "Moisse",
+            "givenName": "Matthieu"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#jmuhlich",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Harvard Medical School",
+                    "url": "https://hms.harvard.edu/"
+                }
+            ],
+            "familyName": "Muhlich",
+            "givenName": "Jeremy",
+            "sameAs": "https://github.com/jmuhlich"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#RubénMuñoz",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "EMBL - European Molecular Biology Laboratory",
+                    "url": "https://www.embl.de/"
+                }
+            ],
+            "familyName": "Muñoz",
+            "givenName": "Rubén"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#imunro",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Imperial College London",
+                    "url": "https://www.imperial.ac.uk/photonics"
+                }
+            ],
+            "familyName": "Munro",
+            "givenName": "Ian",
+            "sameAs": "https://github.com/imunro"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#RichardMyers",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "3i - Intelligent Imaging Innovation",
+                    "url": "https://www.intelligent-imaging.com"
+                }
+            ],
+            "familyName": "Myers",
+            "givenName": "Richard"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ChristianNiedworok",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Francis Crick Institute",
+                    "url": "https://crick.ac.uk"
+                }
+            ],
+            "familyName": "Niedworok",
+            "givenName": "Christian"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#MartinOffterdinger",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Medical University Innsbruck",
+                    "url": "https://www.uibk.ac.at/"
+                }
+            ],
+            "familyName": "Offterdinger",
+            "givenName": "Martin"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JimParis",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "MIT - Massachusetts Institute of Technology",
+                    "url": "https://web.mit.edu/"
+                }
+            ],
+            "familyName": "Paris",
+            "givenName": "Jim"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#Parm0n",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Laboratory Imaging s.r.o",
+                    "url": "https://www.lim.cz/"
+                }
+            ],
+            "familyName": "Parmon",
+            "givenName": "Ilya",
+            "sameAs": "https://github.com/Parm0n"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#NickPerry",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Stanford University",
+                    "url": "https://www.stanford.edu/"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Institut Pasteur",
+                    "url": "https://www.pasteur.fr/"
+                }
+            ],
+            "familyName": "Perry",
+            "givenName": "Nick"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#popiel",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Allen Institute for Cell Science",
+                    "url": "https://www.alleninstitute.org/what-we-do/cell-science/"
+                }
+            ],
+            "familyName": "Popiel",
+            "givenName": "Alexander",
+            "sameAs": "https://github.com/popiel"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#VilleRantanen",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Helsinki",
+                    "url": "https://www.helsinki.fi/en/"
+                }
+            ],
+            "familyName": "Rantanen",
+            "givenName": "Ville"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#WayneRasband",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "NIH - National Institutes of Health",
+                    "url": "https://www.nih.gov/"
+                }
+            ],
+            "familyName": "Rasband",
+            "givenName": "Wayne"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PatrickRiley",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Research at Google",
+                    "url": "https://research.google"
+                }
+            ],
+            "familyName": "Riley",
+            "givenName": "Patrick"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#csachs",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institute of Bio- and Geosciences, Jülich",
+                    "url": "https://www.fz-juelich.de/ibg/ibg-1/EN/Home/home_node.html"
+                }
+            ],
+            "familyName": "Sachs",
+            "givenName": "Christian",
+            "sameAs": "https://github.com/csachs"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#dscho",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "UW-Madison LOCI",
+                    "url": "https://loci.wisc.edu/"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Max-Planck Institute of Molecular Cell Biology in Dresden",
+                    "url": "https://www.mpi-cbg.de/"
+                }
+            ],
+            "familyName": "Schindelin",
+            "givenName": "Johannes",
+            "sameAs": "https://github.com/dscho"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#BrettShoelson",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "UW-Madison LOCI",
+                    "url": "https://loci.wisc.edu/"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "MathWorks",
+                    "url": "https://www.mathworks.com/"
+                }
+            ],
+            "familyName": "Shoelson",
+            "givenName": "Brett"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#SebastienSimard",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institut Pasteur",
+                    "url": "http://www.pasteur.fr/"
+                }
+            ],
+            "familyName": "Simard",
+            "givenName": "Sebastien"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#sommerc",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institute of Molecular Biotechnology",
+                    "url": "https://www.imba.oeaw.ac.at/"
+                }
+            ],
+            "familyName": "Sommer",
+            "givenName": "Christoph",
+            "sameAs": "https://github.com/sommerc"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#TorstenStöter",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Leibniz Institute for Neurobiology",
+                    "url": "https://www.lin-magdeburg.de"
+                }
+            ],
+            "familyName": "Stöter",
+            "givenName": "Torsten"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#JakubStraszewski",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Department of Biosystems Science &amp; Engineering, ETH Zurich",
+                    "url": "https://www.bsse.ethz.ch"
+                }
+            ],
+            "familyName": "Straszewski",
+            "givenName": "Jakub"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#mstritt",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Actelion Pharmaceuticals Ltd",
+                    "url": "https://www.actelion.com"
+                }
+            ],
+            "familyName": "Stritt",
+            "givenName": "Manuel",
+            "sameAs": "https://github.com/mstritt"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#bjoernthiel",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Max Planck Institute for Biophysical Chemistry",
+                    "url": "https://www.mpibpc.mpg.de/en"
+                }
+            ],
+            "familyName": "Thiel",
+            "givenName": "Bjoern",
+            "sameAs": "https://github.com/bjoernthiel"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tinevez",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Institut Pasteur",
+                    "url": "https://www.pasteur.fr/"
+                }
+            ],
+            "familyName": "Tinevez",
+            "givenName": "Jean-Yves",
+            "sameAs": "https://github.com/tinevez"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#NicholasTrahearn",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "The Institute of Cancer Research, London",
+                    "url": "https://www.icr.ac.uk/"
+                }
+            ],
+            "familyName": "Trahearn",
+            "givenName": "Nicholas"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#avandecreme",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "National Institute of Standards and Technology",
+                    "url": "https://www.nist.gov"
+                }
+            ],
+            "familyName": "Vandecreme",
+            "givenName": "Antoine",
+            "sameAs": "https://github.com/avandecreme"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#PaulVanSchayck",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Maastricht University",
+                    "url": "https://www.maastrichtuniversity.nl"
+                }
+            ],
+            "familyName": "Van Schayck",
+            "givenName": "Paul",
+            "sameAs": "https://github.com/PaulVanSchayck"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#StephanWagner-Conrad",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Carl Zeiss Microscopy GmbH",
+                    "url": "https://www.zeiss.de/mikroskopie/home.html"
+                }
+            ],
+            "familyName": "Wagner-Conrad",
+            "givenName": "Stephan"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#seanwarren",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Garvan Institute of Medical Research",
+                    "url": "https://www.garvan.org.au"
+                }
+            ],
+            "familyName": "Warren",
+            "givenName": "Sean",
+            "sameAs": "https://github.com/seanwarren"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ThusharaWijeratna",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Allen Institute for Cell Science",
+                    "url": "https://www.alleninstitute.org/what-we-do/cell-science/"
+                }
+            ],
+            "familyName": "Wijeratna",
+            "givenName": "Thushara"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#lldelisle",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "EPFL",
+                    "url": "https://www.epfl.ch/"
+                }
+            ],
+            "familyName": "Delisle",
+            "givenName": "Lucille",
+            "sameAs": "https://github.com/lldelisle"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#nordri",
+            "@type": "Person",
+            "familyName": "Diaz",
+            "givenName": "Federico",
+            "sameAs": "https://github.com/nordri"
+        }
+    ]
+}

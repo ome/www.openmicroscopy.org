@@ -1,0 +1,79 @@
+---
+layout: ome-community-meeting-program-2021
+nav-overview: active
+title: OME 2021 Community Meeting
+schemadotorg: ome2021
+redirect_from:
+  - /events/ome-community-meeting-2021/speakers/
+---
+
+{% assign organizers = site.data.ome2021.organizer | uniq | sort: 'familyName' %}
+{% assign keynote = site.data.ome2021.subEvent[0].performer[0] %}
+{% assign day2speakers =  site.data.ome2021.subEvent[1] | map: 'performer' %}
+{% assign day3speakers =  site.data.ome2021.subEvent[2] | map: 'performer' %}
+{% assign day4speakers =  site.data.ome2021.subEvent[3] | map: 'performer' %}
+{% assign speakers =  day2speakers | concat: day3speakers | concat: day4speakers | uniq | sort: 'familyName'  %}
+
+<div class="row column text-center">
+    <hr class="whitespace">
+    <h5>Please Note</h5>
+    <p>
+        This schedule is subject to change and will be updated periodically.
+    </p>
+</div>
+
+<div class="row">
+    <div class="small-12 columns">
+        <div class="card card-support">
+            <div class="card-section">
+                <div class="medium-3 columns margin-bottom">
+                    <img class="headshot" alt="OME logo" src="{{ site.baseurl }}/img/logos/ome.svg">
+                </div>
+                <div class="medium-9 columns">
+                    <h4 class="margin-bottom">OME 2021 Community Meeting</h4>
+                    <p class="card-caption">Dear OME Community Members</p>
+                    <p class="card-caption">As last year, we will hold the OME 2021 Community Meeting in a virtual format due to the ongoing COVID-19 pandemic.  We aim to provide inspirational, guiding content from several speakers and hold discussion sessions for meeting participants to outline the current status and future directions for the topics addressed on each day of the meeting</p>
+                    <p class="card-caption">We have 4 days dedicated to related but separate topics:</p>
+
+                    <ul class="margin-left">
+                    {% for subevent in site.data.ome2021.subEvent %}
+                        <li><a href="{{ site.baseurl }}{{ subevent.url}}">{{ subevent.alternateName }} - {{ subevent.startDate | date: "%A %B %d" }}: {{ subevent.name }}</a> </li>
+                    {% endfor %}
+                    </ul>
+
+
+                    <h5 class="margin-bottom">Keynote Speaker</h5>
+                    <p>
+                    <a target="_blank" href="{{ keynote.sameAs }}">
+                    {{ keynote.givenName }} {{ keynote.additionalName }} {{ keynote.familyName }}
+                    </a>
+                    <span class="institution">{{ keynote.affiliation.name }}</span>
+                    </p>
+
+                    <h5 class="margin-bottom">Invited Speakers</h5>
+                    <p>
+                    {% for speaker in speakers %}
+                    <a target="_blank" href="{{ speaker.sameAs }}">
+                    {{ speaker.givenName }} {{ speaker.familyName }}
+                    </a>
+                    <span class="institution">{{ speaker.affiliation.name }}</span></br>
+                    {% endfor %}
+                    </p>
+
+                    <p class="card-caption margin-top">We hope that this structure can accommodate the schedules of different members of the community. We’ll continue to post updates here, on <a href="https://twitter.com/openmicroscopy" target="_blank">Twitter (@openmicroscopy)</a>, and the <a href="https://forum.image.sc/" target="_blank">image.sc forum</a>.</p>
+
+                    <p class="card-caption margin-top">We look forward to “meeting” you all soon and appreciate your continued support during these challenging times.</p>
+
+                    <h4 class="margin-bottom">Organizers</h4>
+                    <p>
+                    {% for organizer in organizers %}
+                    <a target="_blank" href="{{ organizer.sameAs }}">
+                    {{ organizer.givenName }} {{ organizer.familyName }}
+                    </a><span class="institution">{{ organizer.affiliation.name }}</span></br>
+                    {% endfor %}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
