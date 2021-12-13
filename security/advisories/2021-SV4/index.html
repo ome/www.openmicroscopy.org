@@ -11,7 +11,8 @@ main-blurb: affects all versions of the loci_tools.jar library
                 <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
             </div>
             <div class="small-12 medium-9 columns">
-                <p class="secvul-description">log4j library packaged in loci_tools is vulnerable to remote execution.</p>
+                <p class="secvul-description">log4j library packaged in deprecated loci_tools
+                is vulnerable to remote execution.</p>
             </div>
         </div>
         <div class="secvul-row row">
@@ -19,8 +20,9 @@ main-blurb: affects all versions of the loci_tools.jar library
                 <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
             </div>
             <div class="small-12 medium-9 columns">
-        <p class="secvul-description">The loci_tools jar contains an embedded version of the logging library log4j.
-           A major vulnerability in log4j has been found: "Apache Log4j2 &lt;=2.14.1 JNDI features used
+        <p class="secvul-description">The deprecated loci_tools jar contains an embedded version
+           of the logging library log4j. A major vulnerability in log4j has been found:
+           "Apache Log4j2 &lt;=2.14.1 JNDI features used
            in configuration, log messages, and parameters do not protect
            against attacker controlled LDAP and other JNDI related endpoints.
            An attacker who can control log messages or log message parameters
