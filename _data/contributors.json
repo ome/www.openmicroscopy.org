@@ -1377,6 +1377,20 @@
             "familyName": "Diaz",
             "givenName": "Federico",
             "sameAs": "https://github.com/nordri"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#petebankhead",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "The University of Edinburgh",
+                    "url": "https://www.ed.ac.uk"
+                }
+            ],
+            "familyName": "Bankhead",
+            "givenName": "Peter",
+            "sameAs": "https://github.com/petebankhead"
         }
     ]
 }
