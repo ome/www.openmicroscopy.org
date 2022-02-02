@@ -1391,6 +1391,13 @@
             "familyName": "Bankhead",
             "givenName": "Peter",
             "sameAs": "https://github.com/petebankhead"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#macunha1",
+            "@type": "Person",
+            "familyName": "Cunha",
+            "givenName": "Matheus",
+            "sameAs": "https://github.com/macunha1"
         }
     ]
 }
