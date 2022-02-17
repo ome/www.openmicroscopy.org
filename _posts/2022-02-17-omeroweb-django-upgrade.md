@@ -16,12 +16,12 @@ core OMERO.web is quite limited.
 
 Running a version of any software that the authors consider unsupported is
 risky; if any bugs of either class are found they will not be fixed upstream.
-However, we are not currently aware of any security or data loss bugs in th
+However, we are not currently aware of any security or data loss bugs in the
 latest available versions of Django 1.11.x that affect OMERO.web.
 
 For the future safety of the community as well as enhanced developer
 ergonomics we need to upgrade Django.  This was first attempted, targetting
-Django 2.2, during the summer of 2020 [^2].  Unfortunately, that work neve
+Django 2.2, during the summer of 2020 [^2].  Unfortunately, that work never
 came to fruition and Django 2.2.x leaves Long Term Support in just a few
 months (April 2022).  Consequently, we have reactivated the work [^3] and plan
 to upgrade to Django 3.2.x this Spring.
@@ -37,7 +37,7 @@ make a release of their plugin as soon as possible.
 
 Plugin developers are encouraged to review the release notes, in particular
 the *Backwards incompatible* and *Features deprecated* for all major Django
-versions since 1.11.x to ensure they can be complaint with the new APIs.  They
+versions since 1.11.x to ensure they can be compliant with the new APIs.  They
 are as follows:
 
 * [Django 2.0 release notes](https://docs.djangoproject.com/en/4.0/releases/2.0/)
@@ -50,7 +50,7 @@ are as follows:
 The OME team will be publishing a migration guide along with the release
 candidate to draw the attention of plugin developers to specific OMERO.web
 idioms and design patterns that __will__ change in this new major version.
-For those developers wishing to observe this process in real time may do so by
+Those developers wishing to observe this process in real time may do so by
 watching the progress on the upgrade PR [^3] or the overhauling GitHub project [^4].
 
 Every attempt has been made to make the absolute minimum number of changes
