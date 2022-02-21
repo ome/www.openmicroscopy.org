@@ -1391,6 +1391,41 @@
             "familyName": "Bankhead",
             "givenName": "Peter",
             "sameAs": "https://github.com/petebankhead"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#constanzewendlandt",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Leica Microsystems",
+                    "url": "https://www.leica-microsystems.com/"
+                }
+            ],
+            "familyName": "Wendlandt",
+            "givenName": "Constanze",
+            "sameAs": "https://github.com/XLEFReaderForBioformats"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#zachmarin",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Yale University",
+                    "url": "https://www.yale.edu/"
+                }
+            ],
+            "familyName": "Connerty-Marin",
+            "givenName": "Zachary",
+            "sameAs": "https://github.com/zacsimile"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#robertocalabrese",
+            "@type": "Person",
+            "familyName": "Calabrese",
+            "givenName": "Roberto",
+            "sameAs": "https://github.com/rokalax"
         }
     ]
 }

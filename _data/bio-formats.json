@@ -39,6 +39,9 @@
             "@id": "https://www.openmicroscopy.org/contributors#burgerga"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#robertocalabrese"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#ThomasCaswell"
         },
         {
@@ -162,6 +165,9 @@
             "@id": "https://www.openmicroscopy.org/contributors#GlenMacDonald"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#zachmarin"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#thewtex"
         },
         {
@@ -253,6 +259,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#seanwarren"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#constanzewendlandt"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#ThusharaWijeratna"
