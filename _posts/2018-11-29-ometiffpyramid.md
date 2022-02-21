@@ -40,7 +40,7 @@ The OME team has reviewed several approaches for representing multi-resolution
 pyramidal levels in TIFF files. In the end, the solution we chose offered the
 maximum compatibility with existing reference tools while remaining
 unambiguous and compliant with the
-[official TIFF specification](https://www.adobe.io/open/standards/TIFF.html).
+[official TIFF specification](https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml).
 
 
 # Reading and writing OME-TIFF pyramids
