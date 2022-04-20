@@ -389,6 +389,20 @@
             "givenName": "July"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#NicoChiaruttini",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "EPFL",
+                    "url": "https://www.epfl.ch/"
+                }
+            ],
+            "familyName": "Chiaruttini",
+            "givenName": "Nicolas",
+            "sameAs": "https://github.com/NicoKiaru"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#MatthewClapp",
             "@type": "Person",
             "affiliation": [
