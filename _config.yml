@@ -38,9 +38,9 @@ bf:
  version: 6.10.0
 
 omero:
- version: 5.6.4
+ version: 5.6.5
  majorversion: 5.6
- build: b232
+ build: b233
  insight:
   version: 5.7.1
  matlab:
