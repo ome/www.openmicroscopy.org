@@ -15,17 +15,6 @@
     },
     {
       "@type": "Person",
-      "givenName": "Sebastien",
-      "familyName": "Besson",
-      "jobTitle": "Senior Software Developer",
-      "description": "Sebastien Besson joined the OME team as a developer in March 2012. Originally trained as a physicist, he received his PhD from the Unversite Pierre at Marie Curie in Paris. He then carried out postdoctoral research at the interface between physics and biology at Harvard University. In 2011, Sebastien joined the Danuser lab to convert in-house image analysis into turn-key software packages for the cell biology community. He became part of the main Dundee team in 2015.",
-      "sameAs": [
-        "https://orcid.org/0000-0001-8783-1429",
-        "https://github.com/sbesson"
-      ]
-    },
-    {
-      "@type": "Person",
       "givenName": "Jean-Marie",
       "familyName": "Burel",
       "jobTitle": "Senior Software Architect",
@@ -110,6 +99,14 @@
       "@type": "Person",
       "name": "Chris Allan",
       "sameAs": "https://github.com/chris-allan"
+    },
+    {
+      "@type": "Person",
+      "name": "Sébastien Besson",
+      "sameAs": [
+        "https://orcid.org/0000-0001-8783-1429",
+        "https://github.com/sbesson"
+      ]
     },
     {
       "@type": "Person",
