@@ -4,7 +4,7 @@
 set -e
 set -u
 
-docker pull
+docker pull jekyll/builder:pages
 docker run --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build --config _config.yml,_prod.yml
 # Report 4xx status codes except 429 errors (Too Many Requests)
 # typically sent by GitHub while linkchecking the downloads
