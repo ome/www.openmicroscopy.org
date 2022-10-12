@@ -1447,6 +1447,27 @@
             "familyName": "Calabrese",
             "givenName": "Roberto",
             "sameAs": "https://github.com/rokalax"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tfarago",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Karlsruhe Institute of Technology",
+                    "url": "www.ips.kit.edu"
+                }
+            ],
+            "familyName": "Farago",
+            "givenName": "Tomas",
+            "sameAs": "https://github.com/tfarago"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#wimpomp",
+            "@type": "Person",
+            "familyName": "Pomp",
+            "givenName": "Willem",
+            "sameAs": "https://github.com/wimpomp"
         }
     ]
 }
