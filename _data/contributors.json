@@ -1465,8 +1465,15 @@
         {
             "@id": "https://www.openmicroscopy.org/contributors#wimpomp",
             "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "The Netherlands Cancer Institute",
+                    "url": "https://www.nki.nl/"
+                }
+            ],
             "familyName": "Pomp",
-            "givenName": "Willem",
+            "givenName": "Wim",
             "sameAs": "https://github.com/wimpomp"
         }
     ]
