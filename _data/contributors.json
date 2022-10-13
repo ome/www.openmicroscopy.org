@@ -1455,7 +1455,7 @@
                 {
                     "@type": "Organization",
                     "name": "Karlsruhe Institute of Technology",
-                    "url": "www.ips.kit.edu"
+                    "url": "https://www.ips.kit.edu"
                 }
             ],
             "familyName": "Farago",
