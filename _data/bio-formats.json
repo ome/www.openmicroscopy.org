@@ -72,6 +72,9 @@
             "@id": "https://www.openmicroscopy.org/contributors#imagejan"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#tfarago"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#dimin"
         },
         {
@@ -205,6 +208,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#NickPerry"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#wimpomp"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#popiel"
