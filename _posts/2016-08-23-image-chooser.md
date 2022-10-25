@@ -30,7 +30,7 @@ A ready-to-use .jar file compatible with OMERO 5.2.x  can be also  downloaded
 from Bintray.
 
 For instructions on how to integrate with Maven/Gradle, refer to the
-[Bintray user documentation](https://bintray.com/docs/usermanual/formats/formats_mavenrepositories.html#_working_with_maven).
+[user documentation](https://help.sonatype.com/repomanager3/using-nexus-repository/repository-manager-concepts/an-example---maven-repository-format).
 
 There are a number of options available, depending what feedback is needed
 from the user. The screenshots below illustrate some of these.
