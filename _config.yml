@@ -40,7 +40,6 @@ bf:
 omero:
  version: 5.6.6
  majorversion: 5.6
- build: b236
  insight:
   version: 5.7.2
  matlab:
