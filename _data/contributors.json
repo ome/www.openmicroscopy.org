@@ -1475,6 +1475,20 @@
             "familyName": "Pomp",
             "givenName": "Wim",
             "sameAs": "https://github.com/wimpomp"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#shaquillelouisa",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Lambert Instruments",
+                    "url": "https://www.lambertinstruments.com/"
+                }
+            ],
+            "familyName": "Louisa",
+            "givenName": "Shaquille",
+            "sameAs": "https://github.com/ShaquilleLouisa-LambertInstruments"
         }
     ]
 }
