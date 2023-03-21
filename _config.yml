@@ -41,7 +41,7 @@ omero:
  version: 5.6.7
  majorversion: 5.6
  insight:
-  version: 5.8.0
+  version: 5.8.1
  matlab:
   version: 5.5.6
 
