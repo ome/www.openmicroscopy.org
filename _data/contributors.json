@@ -1489,6 +1489,41 @@
             "familyName": "Louisa",
             "givenName": "Shaquille",
             "sameAs": "https://github.com/ShaquilleLouisa-LambertInstruments"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#alexvirodov",
+            "@type": "Person",
+            "familyName": "Virodov",
+            "givenName": "Alexandr",
+            "sameAs": "https://github.com/alex-virodov"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#phaub",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "DIP Systems",
+                    "url": "https://dipsystems.de/"
+                }
+            ],
+            "familyName": "Haub",
+            "givenName": "Peter",
+            "sameAs": "https://github.com/iwbh15"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tboissonnet",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University",
+                    "url": "https://www.cai.hhu.de/"
+                }
+            ],
+            "familyName": "Boissonnet",
+            "givenName": "Tom",
+            "sameAs": "https://github.com/Tom-TBT"
         }
     ]
 }
