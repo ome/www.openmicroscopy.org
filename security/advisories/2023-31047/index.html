@@ -1,0 +1,81 @@
+---
+layout: security-advisory
+filename: security
+title: CVE-2023-31047 ("Django file upload validation") Assessment
+main-blurb: Affects OMERO.web 5.17.0 - 5.19.0
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Django security release 3.2.19 is incompatible with latest OMERO.web</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    Django has just issued a <a href="https://www.djangoproject.com/weblog/2023/may/03/security-releases/">
+                    series of security releases</a> and encouraged their users to upgrade as soon as possible.
+                    Unfortunately, the security fix includes some backwards incompatible changes which make OMERO.web versions
+                    5.17.0 to the current 5.19.0 unable to start with Django 3.2.19.
+                </p>
+                <p class="secvul-description">
+                    The OME team in Dundee as well as Glencoe Software have evaluated the impact of the security issue.
+                    We can say with confidence that OMERO.web is not vulnerable as it does not include custom validation
+                    that would be bypassed in Django 3.2.18 and earlier.
+                </p>
+                <p class="secvul-description">   
+                    At the time of writing of this message, there is no security concern associated with running OMERO.web
+                    with Django 3.2.18. We are actively working on an imminent release of OMERO.web which will restore
+                    compatibility with the Django 3.2 LTS line and allow consumers to upgrade to Django 3.2.19.
+                </p>
+                <p class="secvul-description">
+                    For these reasons, we recommend OMERO users do not yet upgrade to the recommended Django releases.
+                    We will announce our plans for an updated release of OMERO.web in the near future.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.web 5.17.0 - 5.19.0</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Low severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    All users should continue to use Django 3.2.18.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    A compatible version of OMERO.web will be released imminently.
+                </p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
