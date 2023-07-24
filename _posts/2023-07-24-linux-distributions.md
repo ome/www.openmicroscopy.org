@@ -56,7 +56,7 @@ The OME team will no longer install new deployments on CentOS 7/RHEL 7 and will 
 ## How should I upgrade?
 
 OME will provide installation instructions and will test the installation on two selected platforms
-i.e. Rocky 9  and Ubuntu 22.04 LTS.
+i.e. Rocky 9 and Ubuntu 22.04 LTS.
 
 CentOS 7/RHEL 7 end of life will impact other resources in your institution. First and foremost, you should reach out to your IT department or provider and clarify their policies and supported operating systems.
 
