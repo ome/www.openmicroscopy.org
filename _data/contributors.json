@@ -1524,6 +1524,20 @@
             "familyName": "Boissonnet",
             "givenName": "Tom",
             "sameAs": "https://github.com/Tom-TBT"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#rdornier",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Swiss Federal Institute of Technology Lausanne",
+                    "url": "https://www.epfl.ch/"
+                }
+            ],
+            "familyName": "Dornier",
+            "givenName": "Rémy",
+            "sameAs": "https://github.com/Rdornier"
         }
     ]
 }
