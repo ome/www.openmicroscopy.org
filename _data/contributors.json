@@ -1538,6 +1538,13 @@
             "familyName": "Dornier",
             "givenName": "Rémy",
             "sameAs": "https://github.com/Rdornier"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#cgdogan",
+            "@type": "Person",
+            "familyName": "Dogan",
+            "givenName": "Can Gokhan",
+            "sameAs": "https://github.com/CGDogan"
         }
     ]
 }
