@@ -49,7 +49,7 @@ omecommoncpp:
   version: 5.5.0
 
 omemodel:
-  version: 6.0.0
+  version: 6.0.1
 
 omeqtwidgets:
  version: 5.4.3
