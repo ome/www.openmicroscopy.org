@@ -48,9 +48,6 @@ omero:
 omecommoncpp:
   version: 5.5.0
 
-omemodel:
-  version: 6.0.0
-
 omeqtwidgets:
  version: 5.4.3
 
