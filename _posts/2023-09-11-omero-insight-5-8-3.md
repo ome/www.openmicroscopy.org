@@ -4,7 +4,7 @@ title: Release of OMERO.insight 5.8.3
 intro-blurb: The OME team is pleased to announce the release of OMERO.insight 5.8.3
 ---
 
-Today, we are releasing OMERO.insight 5.8.2. This version uses Bio-Formats 7.0.0.
+Today, we are releasing OMERO.insight 5.8.3. This version uses Bio-Formats 7.0.0.
 It also fixes several bugs and improves the ImageJ plugin.
 
 See [Changelog](https://github.com/ome/omero-insight/blob/v5.8.3/CHANGELOG.md) for more details.
