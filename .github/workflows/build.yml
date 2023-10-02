@@ -43,6 +43,6 @@ jobs:
           name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-          files: 
+          files: |
             - ${{ github.event.repository.name }}.tar.gz
             - SHASUMS
