@@ -19,7 +19,7 @@ jobs:
       - name: Create website archive
         run: tar -zcvf ${{ github.event.repository.name }}.tar.gz -C _site ./
       - name: Upload website archive as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }}.tar.gz
           path: ${{ github.event.repository.name }}.tar.gz
