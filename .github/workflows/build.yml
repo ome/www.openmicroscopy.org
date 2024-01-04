@@ -44,5 +44,5 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            - ${{ github.event.repository.name }}.tar.gz
-            - SHASUMS
+            ${{ github.event.repository.name }}.tar.gz
+            SHASUMS
