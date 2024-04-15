@@ -27,8 +27,8 @@
   "organizer": [
     {
       "@type": "Person",
-      "givenName": "Jason Swedlow",
-      "familyName": "Burel",
+      "givenName": "Jason",
+      "familyName": "Swedlow",
       "affiliation": {
         "@type": "Organization",
         "name": "University of Dundee"
@@ -608,546 +608,6 @@ microscopy metadata based on community-driven specifications",
     },
     {
       "@type": "Event",
-      "name": "Research Data Management",
-      "alternateName": "Day 2",
-      "url": "/events/ome-community-meeting-2021/day2/",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "description": "The Research Data Management (RDM) day aims to cover (and perhaps answer) a range of pre-publication struggles, from structuring FAIR meta-/data through the search for insights and sharing those with others, all in preparation for day 3 -- Public Resources.",
-      "startDate": "2021-06-09T10:00+01:00",
-      "endDate": "2021-06-09T19:00+01:00",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "TBD"
-      },
-      "organizer": [
-        {
-          "@type": "Person",
-          "givenName": "Josh",
-          "familyName": "Moore",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Dundee"
-          },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "givenName": "Andra",
-          "familyName": "Waagmeester",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Micelio"
-          },
-          "sameAs": "https://www.micelio.be"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Sylvia",
-          "familyName": "Le Dévédec",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Leiden University"
-          },
-          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Wojtek",
-          "familyName": "Goscinski",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Monash University"
-          },
-          "sameAs": "https://research.monash.edu/en/persons/wojtek-goscinski"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Elisa",
-          "familyName": "May",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Konstanz"
-          },
-          "sameAs": "https://www.dkfz.de/en/forschung/zentrale_einrichtungen/core-facility-head-office.html"
-        }
-      ],
-      "workFeatured": [
-        {
-          "@type": "VideoObject",
-          "name": "Invited Talks (4 videos, playlist length: 50min)",
-          "uploadDate": "2021-05-31",
-          "description": "Invited Talks for the Day 2 (Research Data Management) of OME 2021",
-          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50rFFYMX-KJpKWoB6Jii3H1",
-          "thumbnailUrl": "https://img.youtube.com/vi/0FXAzJUZM84/0.jpg"
-        },
-        {
-          "@type": "VideoObject",
-          "name": "Flash Talks (9 talks, playlist length: 26min)",
-          "uploadDate": "2021-05-31",
-          "description": "Flash Talks for the Day 2 (Research Data Management) of OME 2021",
-          "contentUrl": "https://www.youtube.com/playlist?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
-          "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL-oOCWFUMH50Huf6SzsGQRgLsM1SJfZe3",
-          "thumbnailUrl": "https://img.youtube.com/vi/9zGjpX6FU1w/0.jpg"
-        }
-      ],
-      "subEvent": [
-        {
-          "@type": "Event",
-          "name": "Session 1",
-          "description": "This session is aimed at our community
-          attending from Oceania, Asia, Europe or Africa.",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-09T10:00+01:00",
-          "endDate": "2021-06-09T13:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          },
-          "subEvent": [
-            {
-              "@type": "Event",
-              "name": "Introduction",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T10:00+01:00",
-              "endDate": "2021-06-09T10:10+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "Josh",
-                  "familyName": "Moore",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
-                  },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Q&A session",
-              "description": "Discussion of invited talks, flash talks, and wider RDM topics",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T10:10+01:00",
-              "endDate": "2021-06-09T10:55+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              }
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Workshop and round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T11:00+01:00",
-              "endDate": "2021-06-09T12:20+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "OMERO.figure Workshop",
-                  "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T11:00+01:00",
-                  "endDate": "2021-06-09T12:20+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "workFeatured": {
-                    "@type": "VideoObject",
-                    "name": "OME2021 | Will Moore | OMERO.figure workshop",
-                    "uploadDate": "2021-06-09",
-                    "description": "Demo (60min)",
-                    "contentUrl": "https://www.youtube.com/watch?v=E0Fgw1uUAXA",
-                    "embedUrl": "https://www.youtube.com/embed/E0Fgw1uUAXA",
-                    "thumbnailUrl": "https://img.youtube.com/vi/E0Fgw1uUAXA/0.jpg"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "William",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "RDM round-table",
-                  "description": "Continued discussion around RDM topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T11:00+01:00",
-                  "endDate": "2021-06-09T12:20+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Josh",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Including OMERO.figure for beginners, scripting OMERO.figure, and RDM round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T12:30+01:00",
-              "endDate": "2021-06-09T13:00+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "RDM round-table",
-                  "description": "Continued discussion around RDM topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T12:30+01:00",
-                  "endDate": "2021-06-09T13:00+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Josh",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "OMERO.figure for beginners",
-                  "description": "Introduction to OMERO.figure",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T12:30+01:00",
-                  "endDate": "2021-06-09T13:00+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Scripting OMERO.figure",
-                  "description": "Advanced OMERO.figure workshop.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T12:30+01:00",
-                  "endDate": "2021-06-09T13:00+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "William",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T13:00+01:00",
-              "endDate": "2021-06-09T14:00+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "https://j.mp/imagesc-island"
-              }
-            }
-          ]
-        },
-        {
-          "@type": "Event",
-          "name": "Session 2 (repeat of Session 1)",
-          "description": "This session is aimed at our community
-          attending from Europe, Africa or America.",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2021-06-09T16:00+01:00",
-          "endDate": "2021-06-09T19:00+01:00",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "TBD"
-          },
-          "subEvent": [
-            {
-              "@type": "Event",
-              "name": "Introduction",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T16:00+01:00",
-              "endDate": "2021-06-09T16:10+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "Josh",
-                  "familyName": "Moore",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
-                  },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Q&A session",
-              "description": "Discussion of invited talks, flash talks, and wider RDM topics",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T16:10+01:00",
-              "endDate": "2021-06-09T16:55+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              }
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Workshop and round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T17:00+01:00",
-              "endDate": "2021-06-09T18:20+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "RDM round-table",
-                  "description": "Continued discussion around RDM topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T17:00+01:00",
-                  "endDate": "2021-06-09T18:20+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Josh",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "OMERO.figure Workshop",
-                  "description": "This session will show how figures can quickly be created using OMERO.figure. New workflows showing a more advanced work with ROIs in OMERO.figure will also be presented.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T17:00+01:00",
-                  "endDate": "2021-06-09T18:20+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "William",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Including OMERO.figure for beginners, scripting OMERO.figure, and RDM round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T18:30+01:00",
-              "endDate": "2021-06-09T19:00+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "RDM round-table",
-                  "description": "Continued discussion around RDM topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T18:30+01:00",
-                  "endDate": "2021-06-09T19:00+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Josh",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "OMERO.figure for beginners",
-                  "description": "Introduction to OMERO.figure",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T18:30+01:00",
-                  "endDate": "2021-06-09T19:00+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Scripting OMERO.figure",
-                  "description": "Advanced OMERO.figure workshop.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2021-06-09T18:30+01:00",
-                  "endDate": "2021-06-09T19:00+01:00",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "url": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "William",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2021-06-09T19:00+01:00",
-              "endDate": "2021-06-09T20:00+01:00",
-              "location": {
-                "@type": "VirtualLocation",
-                "url": "https://j.mp/imagesc-island"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "@type": "Event",
       "name": "Public Resources",
       "alternateName": "Day 3",
       "url": "/events/ome-community-meeting-2021/day3/",
@@ -1181,7 +641,7 @@ microscopy metadata based on community-driven specifications",
             "@type": "Organization",
             "name": "Riken BDR"
           },
-          "sameAs": "https://dbmi.hms.harvard.edu/people/nils-gehlenborg"
+          "sameAs": "https://www.bdr.riken.jp/en/research/labs/onami-s/index.html"
         },
         {
           "@type": "Person",
@@ -1193,16 +653,146 @@ microscopy metadata based on community-driven specifications",
           },
           "sameAs": "https://www.openmicroscopy.org/teams/"
         },
-
+        {
+          "@type": "Person",
+          "givenName": "Jason",
+          "familyName": "Swedlow",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Jean-Marie",
+          "familyName": "Burel",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Petr",
+          "familyName": "Walczysko",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Dundee"
+          },
+          "sameAs": "https://www.openmicroscopy.org/teams/"
+        },
         {
           "@type": "Person",
           "givenName": "Katy",
-          "familyName": "Börner",
+          "familyName": "Wolstencroft",
           "affiliation": {
             "@type": "Organization",
-            "name": "Indiana University"
+            "name": "Leiden University"
           },
-          "sameAs": "https://ils.indiana.edu/contact/profile/?profile_id=2"
+          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/katy-wolstencroft#tab-1"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Eric",
+          "familyName": "Perlman",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "The Jackson Laboratory, Research IT"
+          },
+          "sameAs": "https://www.jax.org"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Erick",
+          "familyName": "Ratamero",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "The Jackson Laboratory, Research IT"
+          },
+          "sameAs": "https://www.jax.org"
+        },
+        
+        {
+          "@type": "Person",
+          "givenName": "Joshua",
+          "familyName": "Moore",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "German BioImaging"
+          },
+          "sameAs": "https://www.nfdi.de/consortia-nfdi4bioimage/?lang=en"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Norman",
+          "familyName": "Rzepka",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Scalable minds"
+          },
+          "sameAs": "https://scalableminds.com/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "John",
+          "familyName": "Bogovic",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Janelia Research Campus"
+          },
+          "sameAs": "https://www.janelia.org/people/john-bogovic"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Virginie",
+          "familyName": "Uhlmann",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "EMBL-EBI"
+          },
+          "sameAs": "https://www.ebi.ac.uk/research/uhlmann/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Chris",
+          "familyName": "Alan",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Glencoe Software"
+          },
+          "sameAs": "https://www.glencoesoftware.com/about/team/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Emil",
+          "familyName": "Rozbicki",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Glencoe Software"
+          },
+          "sameAs": "https://www.glencoesoftware.com/about/team/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Erin",
+          "familyName": "Diel",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Glencoe Software"
+          },
+          "sameAs": "https://www.glencoesoftware.com/about/team/"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Guillaume",
+          "familyName": "Gay",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Aix Marseille University"
+          },
+          "sameAs": "https://centuri-livingsystems.org/g-gay/"
         }
       ],
       "workFeatured": [
@@ -1766,6 +1356,16 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "Person",
+          "givenName": "Tom",
+          "familyName": "Boissonnet",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Heinrich-Heine University Duesseldorf"
+          },
+          "sameAs": "https://www.cai.hhu.de/en/team"
+        },
+        {
+          "@type": "Person",
           "givenName": "Evan",
           "familyName": "Sanders",
           "affiliation": {
@@ -1773,26 +1373,6 @@ microscopy metadata based on community-driven specifications",
             "name": "Harvard Medical School"
           },
           "sameAs": "https://meded.hms.harvard.edu/people/evan-sanders"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Luca",
-          "familyName": "Lianas",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "CRS4"
-          },
-          "sameAs": "https://www.crs4.it/peopledetails/219/luca-lianas"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Paul",
-          "familyName": "Felts",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Dundee"
-          },
-          "sameAs": "https://orcid.org/0000-0003-0762-4580"
         },
         {
           "@type": "Person",
