@@ -63,14 +63,14 @@
       "performer": [
         {
           "@type": "Person",
-          "givenName": "Helen",
-          "additionalName": "M",
-          "familyName": "Berman",
+          "givenName": "TBD",
+          "additionalName": "",
+          "familyName": "",
           "affiliation": {
             "@type": "Organization",
-            "name": "Rutgers, The State University of New Jersey"
+            "name": ""
           },
-          "sameAs": "https://www.rcsb.org/pages/about-us/helen-berman"
+          "sameAs": ""
         }
       ],
       "workFeatured": [
@@ -336,9 +336,9 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Helen",
-                  "additionalName": "M",
-                  "familyName": "Berman",
+                  "givenName": "TBD",
+                  "additionalName": "",
+                  "familyName": "",
                   "affiliation": {
                     "@type": "Organization",
                     "name": "Rutgers, The State University of New Jersey"
@@ -713,7 +713,7 @@ microscopy metadata based on community-driven specifications",
           },
           "sameAs": "https://www.jax.org"
         },
-        
+
         {
           "@type": "Person",
           "givenName": "Joshua",
