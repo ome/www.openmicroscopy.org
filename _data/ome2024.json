@@ -757,7 +757,7 @@ microscopy metadata based on community-driven specifications",
         {
           "@type": "Person",
           "givenName": "Chris",
-          "familyName": "Alan",
+          "familyName": "Allan",
           "affiliation": {
             "@type": "Organization",
             "name": "Glencoe Software"
