@@ -1363,26 +1363,6 @@ microscopy metadata based on community-driven specifications",
             "name": "Heinrich-Heine University Duesseldorf"
           },
           "sameAs": "https://www.cai.hhu.de/en/team"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Evan",
-          "familyName": "Sanders",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Harvard Medical School"
-          },
-          "sameAs": "https://meded.hms.harvard.edu/people/evan-sanders"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Beatriz",
-          "familyName": "Serrano-Solano",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Freiburg"
-          },
-          "sameAs": "https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano"
         }
       ],
       "workFeatured": [
