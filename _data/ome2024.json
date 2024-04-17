@@ -659,7 +659,7 @@ microscopy metadata based on community-driven specifications",
           "familyName": "Perlman",
           "affiliation": {
             "@type": "Organization",
-            "name": "The Jackson Laboratory, Research IT"
+            "name": "The Jackson Laboratory"
           },
           "sameAs": "https://www.jax.org"
         },
@@ -669,7 +669,7 @@ microscopy metadata based on community-driven specifications",
           "familyName": "Ratamero",
           "affiliation": {
             "@type": "Organization",
-            "name": "The Jackson Laboratory, Research IT"
+            "name": "The Jackson Laboratory"
           },
           "sameAs": "https://www.jax.org"
         },
