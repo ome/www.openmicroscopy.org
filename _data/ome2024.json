@@ -726,26 +726,6 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "Person",
-          "givenName": "Norman",
-          "familyName": "Rzepka",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Scalable minds"
-          },
-          "sameAs": "https://scalableminds.com/"
-        },
-        {
-          "@type": "Person",
-          "givenName": "John",
-          "familyName": "Bogovic",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Janelia Research Campus"
-          },
-          "sameAs": "https://www.janelia.org/people/john-bogovic"
-        },
-        {
-          "@type": "Person",
           "givenName": "Virginie",
           "familyName": "Uhlmann",
           "affiliation": {
