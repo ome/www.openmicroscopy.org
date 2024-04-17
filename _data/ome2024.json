@@ -1252,16 +1252,6 @@ microscopy metadata based on community-driven specifications",
             "name": "Heinrich-Heine University Duesseldorf"
           },
           "sameAs": "https://www.cai.hhu.de/en/team"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Tom",
-          "familyName": "Boissonnet",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Heinrich-Heine University Duesseldorf"
-          },
-          "sameAs": "https://www.cai.hhu.de/en/team"
         }
       ],
       "workFeatured": [
