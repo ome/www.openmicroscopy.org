@@ -639,7 +639,7 @@ microscopy metadata based on community-driven specifications",
           "familyName": "Onami",
           "affiliation": {
             "@type": "Organization",
-            "name": "Riken BDR"
+            "name": "RIKEN BDR"
           },
           "sameAs": "https://www.bdr.riken.jp/en/research/labs/onami-s/index.html"
         },
