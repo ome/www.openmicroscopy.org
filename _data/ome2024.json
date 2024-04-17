@@ -645,46 +645,6 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "Person",
-          "givenName": "Frances",
-          "familyName": "Wong",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Dundee"
-          },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Jason",
-          "familyName": "Swedlow",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Dundee"
-          },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Jean-Marie",
-          "familyName": "Burel",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Dundee"
-          },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Petr",
-          "familyName": "Walczysko",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "University of Dundee"
-          },
-          "sameAs": "https://www.openmicroscopy.org/teams/"
-        },
-        {
-          "@type": "Person",
           "givenName": "Katy",
           "familyName": "Wolstencroft",
           "affiliation": {
@@ -713,17 +673,6 @@ microscopy metadata based on community-driven specifications",
           },
           "sameAs": "https://www.jax.org"
         },
-
-        {
-          "@type": "Person",
-          "givenName": "Joshua",
-          "familyName": "Moore",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "German BioImaging"
-          },
-          "sameAs": "https://www.nfdi.de/consortia-nfdi4bioimage/?lang=en"
-        },
         {
           "@type": "Person",
           "givenName": "Virginie",
@@ -736,43 +685,13 @@ microscopy metadata based on community-driven specifications",
         },
         {
           "@type": "Person",
-          "givenName": "Chris",
-          "familyName": "Allan",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Glencoe Software"
-          },
-          "sameAs": "https://www.glencoesoftware.com/about/team/"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Emil",
-          "familyName": "Rozbicki",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Glencoe Software"
-          },
-          "sameAs": "https://www.glencoesoftware.com/about/team/"
-        },
-        {
-          "@type": "Person",
-          "givenName": "Erin",
-          "familyName": "Diel",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "Glencoe Software"
-          },
-          "sameAs": "https://www.glencoesoftware.com/about/team/"
-        },
-        {
-          "@type": "Person",
           "givenName": "Guillaume",
           "familyName": "Gay",
           "affiliation": {
             "@type": "Organization",
-            "name": "Aix Marseille University"
+            "name": "LIRMM Montpellier"
           },
-          "sameAs": "https://centuri-livingsystems.org/g-gay/"
+          "sameAs": "https://www.lirmm.fr/lirmm-en/"
         }
       ],
       "workFeatured": [
