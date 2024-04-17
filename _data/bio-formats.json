@@ -24,6 +24,9 @@
             "@id": "https://www.openmicroscopy.org/contributors#ericbarnhill"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#tblackmore"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#SimonBlanchoud"
         },
         {
@@ -241,6 +244,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#csachs"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#edscanlon"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#dscho"
