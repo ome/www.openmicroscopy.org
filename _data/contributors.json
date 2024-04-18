@@ -1545,6 +1545,34 @@
             "familyName": "Dogan",
             "givenName": "Can Gokhan",
             "sameAs": "https://github.com/CGDogan"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tblackmore",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Walter and Eliza Hall Institute of Medical Research",
+                    "url": "https://www.wehi.edu.au/"
+                }
+            ],
+            "familyName": "Blackmore",
+            "givenName": "Tim",
+            "sameAs": "https://github.com/TBlackmore"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#edscanlon",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Proscia",
+                    "url": "https://proscia.com/"
+                }
+            ],
+            "familyName": "Scanlon",
+            "givenName": "Edward",
+            "sameAs": "https://github.com/ed-scanlon"
         }
     ]
 }
