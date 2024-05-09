@@ -244,10 +244,52 @@
                   "sameAs": "https://www.cai.hhu.de/en/team"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "",
+          "description": "",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
             {
               "@type": "Event",
               "name": "Coffee",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T08:30+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "Session 2",
+          "description": "The Growing OMERO Community", 
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T15:30+01:00",
+          "endDate": "2024-05-29T19:00+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
@@ -255,7 +297,19 @@
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              }
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
             },
             {
               "@type": "Event",
@@ -283,11 +337,74 @@
             },
             {
               "@type": "Event",
-              "name": "Lunch",
+              "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
               "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "",
+          "description": "",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Lunch",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T08:30+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -297,7 +414,7 @@
         },
         {
           "@type": "Event",
-          "name": "Session 2",
+          "name": "Session 3",
           "description": " The Growing OME-NGFF Community", 
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
@@ -331,6 +448,195 @@
                   "sameAs": "https://www.cai.hhu.de/en/team"
                 }
               ]
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Coffee",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T08:30+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "",
+          "description": "",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Lightning talks by members of the community",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T08:30+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "",
+          "description": "",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Poster Session/Reception",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T08:30+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "",
+          "description": "",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Dinner",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T08:30+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
             }
           ]
         }
@@ -338,12 +644,12 @@
     },
     {
       "@type": "Event",
-      "name": "Public Resources",
-      "alternateName": "Day 3",
+      "name": "Day 2, May 30",
+      "alternateName": "Day 2",
       "room": "/events/ome-community-meeting-2024/day3/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
-      "description": "The Public Resources day will explore several repositories providing access to published reference datasets composed of (but not limited to) images.",
+      "description": "Training on OMERO and Workshops.",
       "startDate": "2024-06-10T10:00+01:00",
       "endDate": "2024-06-10T19:00+01:00",
       "location": {
@@ -427,13 +733,12 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Session 1",
-          "description": "This session is aimed at our community
-          attending from Oceania, Asia, Europe or Africa.",
+          "name": "",
+          "description": "",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2024-06-10T10:00+01:00",
-          "endDate": "2024-06-10T13:00+01:00",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
           "location": {
             "@type": "Location",
             "room": "TBD"
@@ -441,11 +746,11 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Introduction",
+              "name": "Meeting Open and Welcome",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T10:00+01:00",
-              "endDate": "2024-06-10T10:10+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -453,8 +758,8 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Sébastien",
-                  "familyName": "Besson",
+                  "givenName": "Jason",
+                  "familyName": "Swedlow",
                   "affiliation": {
                     "@type": "Organization",
                     "name": "University of Dundee"
@@ -465,241 +770,11 @@
             },
             {
               "@type": "Event",
-              "name": "Q&A session",
-              "description": "Discussion of invited talks, flash talks, and wider Public Resources topics",
+              "name": "OMERO Training toolbox",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T10:10+01:00",
-              "endDate": "2024-06-10T10:55+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              }
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Workshop and round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T11:00+01:00",
-              "endDate": "2024-06-10T12:20+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "IDR Workshop",
-                  "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T11:00+01:00",
-                  "endDate": "2024-06-10T12:20+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Jean-Marie",
-                      "familyName": "Burel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    },
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Public Resources round-table",
-                  "description": "Continued discussion on Public Resources topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T11:00+01:00",
-                  "endDate": "2024-06-10T12:20+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Sébastien",
-                      "familyName": "Besson",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T12:30+01:00",
-              "endDate": "2024-06-10T13:00+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "IDR submission",
-                  "description": "Submitting data.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T12:30+01:00",
-                  "endDate": "2024-06-10T13:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Frances",
-                      "familyName": "Wong",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "IDR analysis",
-                  "description": "Running analysis against IDR data.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T12:30+01:00",
-                  "endDate": "2024-06-10T13:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Jean-Marie",
-                      "familyName": "Burel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Public Resources round-table",
-                  "description": "Continued discussion on Public Resources topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T12:30+01:00",
-                  "endDate": "2024-06-10T13:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Sébastien",
-                      "familyName": "Besson",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Global BioImaging",
-                  "description": "Introductions to Global BioImaging and its activities.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T12:30+01:00",
-                  "endDate": "2024-06-10T13:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Antje",
-                      "familyName": "Keppler",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "Euro-BioImaging ERIC"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T13:00+01:00",
-              "endDate": "2024-06-10T14:00+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "https://j.mp/imagesc-island"
-              }
-            }
-          ]
-        },
-        {
-          "@type": "Event",
-          "name": "Session 2 (repeat of session 1)",
-          "description": "This session is aimed at our community
-          attending from Europe, Africa or America.",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2024-06-10T16:00+01:00",
-          "endDate": "2024-06-10T19:00+01:00",
-          "location": {
-            "@type": "Location",
-            "room": "TBD"
-          },
-          "subEvent": [
-            {
-              "@type": "Event",
-              "name": "Introduction",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T16:00+01:00",
-              "endDate": "2024-06-10T16:10+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -707,11 +782,11 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Sébastien",
-                  "familyName": "Besson",
+                  "givenName": "TBD",
+                  "familyName": "",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "University of Dundee"
+                    "name": "OME and GerBI"
                   },
                   "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
@@ -719,12 +794,35 @@
             },
             {
               "@type": "Event",
-              "name": "Q&A session",
-              "description": "Discussion of invited talks, flash talks, and wider Public Resources topics",
+              "name": "Lightning talks by members of the community",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T16:10+01:00",
-              "endDate": "2024-06-10T16:55+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "TBD",
+                  "familyName": "",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Various speakers"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Coffee",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -732,203 +830,74 @@
             },
             {
               "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Workshop and round-table",
+              "name": "Workshops #1",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T17:00+01:00",
-              "endDate": "2024-06-10T18:20+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "IDR Workshop",
-                  "description": "Introduction to the IDR ecosystem will be shown on concrete examples of IDR studies. Images and metadata mining and comparison workflows will be presented. The first, hands-on section will show the cross-studies searches using OMERO.web. The second section will expand on these possiblities showing complex metadata mining and plotting as well as image reanalysis in Jupyter notebooks.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T17:00+01:00",
-                  "endDate": "2024-06-10T18:20+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Jean-Marie",
-                      "familyName": "Burel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    },
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Public Resources round-table",
-                  "description": "Continued discussion on Public Resources topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T17:00+01:00",
-                  "endDate": "2024-06-10T18:20+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Sébastien",
-                      "familyName": "Besson",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                }
-              ]
+              }
             },
             {
               "@type": "Event",
-              "name": "Break-out sessions",
-              "description": "Including IDR submission, IDR analysis and Public Resources round-table",
+              "name": "Lunch and Posters",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T18:30+01:00",
-              "endDate": "2024-06-10T19:00+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "IDR submission",
-                  "description": "Submitting data.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T18:30+01:00",
-                  "endDate": "2024-06-10T19:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Frances",
-                      "familyName": "Wong",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "IDR analysis",
-                  "description": "Running analysis against IDR data.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T18:30+01:00",
-                  "endDate": "2024-06-10T19:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Jean-Marie",
-                      "familyName": "Burel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Public Resources round-table",
-                  "description": "Continued discussion on Public Resources topics.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T18:30+01:00",
-                  "endDate": "2024-06-10T19:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Sébastien",
-                      "familyName": "Besson",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Global BioImaging",
-                  "description": "Introductions to Global BioImaging and its activities.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-10T18:30+01:00",
-                  "endDate": "2024-06-10T19:00+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Antje",
-                      "familyName": "Keppler",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "Euro-BioImaging ERIC"
-                      }
-                    }
-                  ]
-                }
-              ]
+              }
             },
             {
               "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
+              "name": "Workshops #2",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-10T19:00+01:00",
-              "endDate": "2024-06-10T20:00+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
-                "room": "https://j.mp/imagesc-island"
+                "room": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Coffee",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Workshops #3",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "Dinner",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
               }
             }
           ]
@@ -936,12 +905,12 @@
       ]
     },
     {
-      "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2024#day4",
+      "@id": "https://www.openmicroscopy.org/events/ome-community-meeting-2024#day3",
       "@type": "Event",
-      "alternateName": "Day 4",
-      "name": "Teaching and Training",
-      "description": "The Teaching and Training day aims to cover the use of open platforms like OMERO for teaching and how to train users or evaluate your favourite software/algorithms using platforms presented in Day 3 -- Public Resources, and how to take advantage of resources during Day 2 -- Research Data Management.",
-      "room": "/events/ome-community-meeting-2024/day4/",
+      "name": "Day 3, May 31",
+      "alternateName": "Day 3",
+      "description": "Developer Unmeeting.",
+      "room": "/events/ome-community-meeting-2024/day3/",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "startDate": "2024-06-11T10:00+01:00",
@@ -967,13 +936,12 @@
       "subEvent": [
         {
           "@type": "Event",
-          "name": "Session 1",
-          "description": "This session is aimed at our community
-          attending from Oceania, Asia, Europe or Africa.",
+          "name": "",
+          "description": "",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2024-06-11T10:00+01:00",
-          "endDate": "2024-06-11T13:00+01:00",
+          "startDate": "2024-05-29T10:30+01:00",
+          "endDate": "2024-05-29T13:00+01:00",
           "location": {
             "@type": "Location",
             "room": "TBD"
@@ -981,36 +949,11 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Introduction",
+              "name": "Developer Unmeeting",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T10:00+01:00",
-              "endDate": "2024-06-11T10:10+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "Jean-Marie",
-                  "familyName": "Burel",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
-                  },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Q&A session",
-              "description": "Discussion of invited talks, flash talks, and wider Teaching and Training topics",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T10:10+01:00",
-              "endDate": "2024-06-11T10:55+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -1018,99 +961,11 @@
             },
             {
               "@type": "Event",
-              "name": "Break-out sessions",
+              "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T11:00+01:00",
-              "endDate": "2024-06-11T12:30+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "OMERO trainers Workshop",
-                  "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible improvements and modifications of such setups.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-11T11:00+01:00",
-                  "endDate": "2024-06-11T12:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Teaching and Training round-table",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-11T11:00+01:00",
-                  "endDate": "2024-06-11T12:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Jean-Marie",
-                      "familyName": "Burel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Connector between OMERO and the BigDataViewer",
-                  "description": "Repeat from Day 1",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-11T11:00+01:00",
-                  "endDate": "2024-06-11T12:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Claire",
-                      "familyName": "Stoffel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "EPFL Lausanne"
-                      },
-                      "sameAs": "https://people.epfl.ch/claire.stoffel"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Concluding remarks",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T12:40+01:00",
-              "endDate": "2024-06-11T13:00+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -1118,64 +973,11 @@
             },
             {
               "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
+              "name": "Developer Unmeeting",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T13:00+01:00",
-              "endDate": "2024-06-11T14:00+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "https://j.mp/imagesc-island"
-              }
-            }
-          ]
-        },
-        {
-          "@type": "Event",
-          "name": "Session 2 (repeat of session 1)",
-          "description": "This session is aimed at our community
-          attending from Europe, Africa or America.",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2024-06-11T16:00+01:00",
-          "endDate": "2024-06-11T19:00+01:00",
-          "location": {
-            "@type": "Location",
-            "room": "TBD"
-          },
-          "subEvent": [
-            {
-              "@type": "Event",
-              "name": "Introduction",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T16:00+01:00",
-              "endDate": "2024-06-11T16:10+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "Jean-Marie",
-                  "familyName": "Burel",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
-                  },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Q&A session",
-              "description": "Discussion of invited talks, flash talks, and wider Teaching and Training topics",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T16:10+01:00",
-              "endDate": "2024-06-11T16:55+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -1183,123 +985,14 @@
             },
             {
               "@type": "Event",
-              "name": "Break-out sessions",
+              "name": "Lunch",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T17:00+01:00",
-              "endDate": "2024-06-11T18:30+01:00",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "OMERO trainers Workshop",
-                  "description": "This session will introduce the materials available for running a successful OME workshop, lead you through the steps necessary for replicating OME Team training setups and discuss possible improvements and modifications of such setups.",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-11T17:00+01:00",
-                  "endDate": "2024-06-11T18:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Teaching and Training round-table",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-11T17:00+01:00",
-                  "endDate": "2024-06-11T18:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Jean-Marie",
-                      "familyName": "Burel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Formats",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-06-11T17:00+01:00",
-                  "endDate": "2024-06-11T18:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "David",
-                      "familyName": "Gault",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    },
-                    {
-                      "@type": "Person",
-                      "givenName": "Melissa",
-                      "familyName": "Linkert",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "Glencoe Software"
-                      },
-                      "sameAs": "https://www.glencoesoftware.com/about/team/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Concluding remarks",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T18:40+01:00",
-              "endDate": "2024-06-11T19:00+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              }
-            },
-            {
-              "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-06-11T19:00+01:00",
-              "endDate": "2024-06-11T20:00+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "https://j.mp/imagesc-island"
               }
             }
           ]
