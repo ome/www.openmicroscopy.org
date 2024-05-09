@@ -42,6 +42,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "startDate": "2024-05-29T10:30+01:00",
+      "description": "BioImage Data Resources and Community.",
       "endDate": "2024-05-29T19:00+01:00",
       "location": {
         "@type": "Location",
@@ -92,7 +93,6 @@
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -151,11 +151,11 @@
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Open image data at scale: from molecules to organisms",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T09:25+01:00",
+              "endDate": "2024-05-29T09:50+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -163,23 +163,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Matthew",
+                  "familyName": "Hartley",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "EMBL-EBI"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.ebi.ac.uk/about/people/matthew-hartley"
                 }
               ]
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "SSBD update and RIKEN Open Life Science Platform",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T09:50+01:00",
+              "endDate": "2024-05-29T10:15+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -187,23 +187,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Shuichi",
+                  "familyName": "Onami",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "RIKEN BDR"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.bdr.riken.jp/en/research/labs/onami-s/index.html"
                 }
               ]
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "A Distributed, FAIR Infrastructure for Bioimaging in the Netherlands",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T10:15+01:00",
+              "endDate": "2024-05-29T10:40+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -211,23 +211,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Katy",
+                  "familyName": "Wolstencroft",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "Leiden University"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/katy-wolstencroft#tab-1"
                 }
               ]
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Image Data Integration and Publication at Scale: Update on The IDR",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T10:40+01:00",
+              "endDate": "2024-05-29T11:05+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -235,13 +235,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Frances",
+                  "familyName": "Wong and the OME Team",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "University of Dundee"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
               ]
             }
@@ -265,8 +265,8 @@
               "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T08:30+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T11:05+01:00",
+              "endDate": "2024-05-29T11:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -292,8 +292,8 @@
               "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T11:30+01:00",
+              "endDate": "2024-05-29T11:55+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -301,23 +301,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Guillaume",
+                  "familyName": "Gay",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "LIRMM Montpellier"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.lirmm.fr/lirmm-en/"
                 }
               ]
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Making our data FAIR: the pixels access problem",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T11:55+01:00",
+              "endDate": "2024-05-29T12:20+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -325,23 +325,33 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Eric",
+                  "familyName": "Perlman",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "The Jackson Laboratory"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.jax.org"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Erick",
+                  "familyName": "Ratamero",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "The Jackson Laboratory"
+                  },
+                  "sameAs": "https://www.jax.org"
                 }
               ]
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "OMERO server updates",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T12:20+01:00",
+              "endDate": "2024-05-29T12:45+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -349,23 +359,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "",
+                  "familyName": "",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "OME/Glencoe Team"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": ""
                 }
               ]
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "OMERO.web Updates",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T12:45+01:00",
+              "endDate": "2024-05-29T13:10+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -373,13 +383,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "",
+                  "familyName": "",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "OME/Glencoe Team"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": ""
                 }
               ]
             }
@@ -403,8 +413,8 @@
               "name": "Lunch",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T08:30+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T13:10+01:00",
+              "endDate": "2024-05-29T14:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -427,11 +437,11 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Update on OME-NGFF",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T14:00+01:00",
+              "endDate": "2024-05-29T14:25+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -439,13 +449,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Josh",
+                  "familyName": "Moore",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "German BioImaging"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://gerbi-gmb.de/"
                 }
               ]
             },
@@ -454,8 +464,8 @@
               "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T14:25+01:00",
+              "endDate": "2024-05-29T14:50+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -463,13 +473,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Norman",
+                  "familyName": "Rzepka",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "Scalable Minds"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://scalableminds.com/"
                 }
               ]
             },
@@ -478,32 +488,20 @@
               "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T14:50+01:00",
+              "endDate": "2024-05-29T15:15+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
-                  },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
-                }
-              ]
+              }
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Fractal etc.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T15:15+01:00",
+              "endDate": "2024-05-29T15:40+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -511,13 +509,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "Virginie",
+                  "familyName": "Uhlmann",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "EMBL-EBI"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": "https://www.ebi.ac.uk/research/uhlmann/"
                 }
               ]
             },
@@ -526,8 +524,8 @@
               "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T08:30+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T15:40+01:00",
+              "endDate": "2024-05-29T16:10+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -535,11 +533,11 @@
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Bio-Formats/bioformats2raw updates",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T16:10+01:00",
+              "endDate": "2024-05-29T16:35+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -547,13 +545,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "Stefanie",
-                  "familyName": "Weidtkamp-Peters",
+                  "givenName": "",
+                  "familyName": "",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Heinrich-Heine University Duesseldorf"
+                    "name": "OME/Glencoe Team"
                   },
-                  "sameAs": "https://www.cai.hhu.de/en/team"
+                  "sameAs": ""
                 }
               ]
             }
@@ -565,8 +563,8 @@
           "description": "",
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2024-05-29T10:30+01:00",
-          "endDate": "2024-05-29T13:00+01:00",
+          "startDate": "2024-05-29T16:35+01:00",
+          "endDate": "2024-05-29T17:30+01:00",
           "location": {
             "@type": "Location",
             "room": "TBD"
@@ -577,8 +575,8 @@
               "name": "Lightning talks by members of the community",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T08:30+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T16:35+01:00",
+              "endDate": "2024-05-29T17:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -604,8 +602,8 @@
               "name": "Poster Session/Reception",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T08:30+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T17:30+01:00",
+              "endDate": "2024-05-29T18:45+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -631,8 +629,7 @@
               "name": "Dinner",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T08:30+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T19:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -750,7 +747,7 @@
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:15+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -773,8 +770,8 @@
               "name": "OMERO Training toolbox",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T09:15+01:00",
+              "endDate": "2024-05-29T09:40+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -797,8 +794,8 @@
               "name": "Lightning talks by members of the community",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T09:40+01:00",
+              "endDate": "2024-05-29T11:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -821,8 +818,8 @@
               "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T11:00+01:00",
+              "endDate": "2024-05-29T11:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -833,8 +830,8 @@
               "name": "Workshops #1",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T11:30+01:00",
+              "endDate": "2024-05-29T13:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -845,8 +842,8 @@
               "name": "Lunch and Posters",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T13:00+01:00",
+              "endDate": "2024-05-29T14:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -857,8 +854,8 @@
               "name": "Workshops #2",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T14:00+01:00",
+              "endDate": "2024-05-29T15:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -869,8 +866,8 @@
               "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T15:30+01:00",
+              "endDate": "2024-05-29T16:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -881,8 +878,8 @@
               "name": "Workshops #3",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T16:00+01:00",
+              "endDate": "2024-05-29T17:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -893,8 +890,7 @@
               "name": "Dinner",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T18:00+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -953,7 +949,7 @@
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T10:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -964,8 +960,8 @@
               "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T10:30+01:00",
+              "endDate": "2024-05-29T10:50+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -976,8 +972,8 @@
               "name": "Developer Unmeeting",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T10:50+01:00",
+              "endDate": "2024-05-29T12:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -988,8 +984,8 @@
               "name": "Lunch",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:00+01:00",
+              "startDate": "2024-05-29T12:30+01:00",
+              "endDate": "2024-05-29T13:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
