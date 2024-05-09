@@ -223,6 +223,66 @@
             },
             {
               "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Coffee",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              }
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:25+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Stefanie",
+                  "familyName": "Weidtkamp-Peters",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
               "name": "Lunch",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
@@ -271,222 +331,6 @@
                   "sameAs": "https://www.cai.hhu.de/en/team"
                 }
               ]
-            },
-            {
-              "@type": "Event",
-              "name": "Live Demos",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T17:15+01:00",
-              "endDate": "2024-05-29T17:45+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "Micro-Meta App: an interactive software tool to facilitate the collection of 
-microscopy metadata based on community-driven specifications",
-                  "description": "Room A",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-05-29T17:15+01:00",
-                  "endDate": "2024-05-29T17:45+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Caterina",
-                      "familyName": "Strambio De Castillia",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Massachusetts Medical School"
-                      },
-                      "sameAs": "https://www.umassmed.edu/"
-                    },
-                    {
-                      "@type": "Person",
-                      "givenName": "Alex",
-                      "familyName": "Rigano",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Massachusetts Medical School"
-                      },
-                      "sameAs": "https://www.umassmed.edu/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
-                  "description": "Room B",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-05-29T17:15+01:00",
-                  "endDate": "2024-05-29T17:45+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Erin",
-                      "familyName": "Diel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "Glencoe Software"
-                      },
-                      "sameAs": "https://www.glencoesoftware.com/about/team/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Live Demos",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T18:00+01:00",
-              "endDate": "2024-05-29T18:30+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "OMERO admin at JAX",
-                  "description": "Room A",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-05-29T18:00+01:00",
-                  "endDate": "2024-05-29T18:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Dave",
-                      "familyName": "Mellert",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "The Jackson Laboratory, Research IT"
-                      },
-                      "sameAs": "https://www.jax.org/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Visualizing object segmentation and classification for tiled images in PathViewer using OME-Zarr, omero-ms and OMERO.tables",
-                  "description": "Room B",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-05-29T18:00+01:00",
-                  "endDate": "2024-05-29T18:30+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Erin",
-                      "familyName": "Diel",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "Glencoe Software"
-                      },
-                      "sameAs": "https://www.glencoesoftware.com/about/team/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Live Demos",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T18:45+01:00",
-              "endDate": "2024-05-29T19:15+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "subEvent": [
-                {
-                  "@type": "Event",
-                  "name": "OMERO for beginners",
-                  "description": "Room A",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-05-29T18:45+01:00",
-                  "endDate": "2024-05-29T19:15+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                },
-                {
-                  "@type": "Event",
-                  "name": "Visualizing ROI data: investigating the next OMERO.parade",
-                  "description": "Room B",
-                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                  "eventStatus": "https://schema.org/EventScheduled",
-                  "startDate": "2024-05-29T18:45+01:00",
-                  "endDate": "2024-05-29T19:15+01:00",
-                  "location": {
-                    "@type": "Location",
-                    "room": "TBD"
-                  },
-                  "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Will",
-                      "familyName": "Moore",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "Gather in the Imagesc Island beach bar",
-              "description": "Open until late...",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T19:15+01:00",
-              "endDate": "2024-05-29T20:00+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "https://j.mp/imagesc-island"
-              }
             }
           ]
         }
