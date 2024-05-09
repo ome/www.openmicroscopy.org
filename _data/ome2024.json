@@ -718,6 +718,16 @@
         },
         {
           "@type": "Person",
+          "givenName": "Norman",
+          "familyName": "Rzepka",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Scalable Minds"
+          },
+          "sameAs": "https://scalableminds.com/"
+        },
+        {
+          "@type": "Person",
           "givenName": "Guillaume",
           "familyName": "Gay",
           "affiliation": {
