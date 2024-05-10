@@ -371,7 +371,7 @@
             },
             {
               "@type": "Event",
-              "name": "OMERO.web Updates",
+              "name": "OMERO.web updates",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T12:45+01:00",
