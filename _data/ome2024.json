@@ -360,7 +360,7 @@
                 {
                   "@type": "Person",
                   "givenName": "",
-                  "familyName": "",
+                  "familyName": "TBD",
                   "affiliation": {
                     "@type": "Organization",
                     "name": "OME/Glencoe Team"
@@ -384,7 +384,7 @@
                 {
                   "@type": "Person",
                   "givenName": "",
-                  "familyName": "",
+                  "familyName": "TBD",
                   "affiliation": {
                     "@type": "Organization",
                     "name": "OME/Glencoe Team"
@@ -497,7 +497,7 @@
             },
             {
               "@type": "Event",
-              "name": "Fractal etc.",
+              "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T15:15+01:00",
@@ -546,7 +546,7 @@
                 {
                   "@type": "Person",
                   "givenName": "",
-                  "familyName": "",
+                  "familyName": "TBD",
                   "affiliation": {
                     "@type": "Organization",
                     "name": "OME/Glencoe Team"
