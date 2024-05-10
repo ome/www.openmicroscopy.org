@@ -509,18 +509,6 @@
               "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T14:50+01:00",
-              "endDate": "2024-05-29T15:15+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              }
-            },
-            {
-              "@type": "Event",
-              "name": "TBD",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T15:15+01:00",
               "endDate": "2024-05-29T15:40+01:00",
               "location": {
