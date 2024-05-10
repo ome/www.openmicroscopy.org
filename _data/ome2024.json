@@ -93,6 +93,7 @@
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
+              "endDate": "2024-05-29T09:15+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -130,8 +131,8 @@
               "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:25+01:00",
+              "startDate": "2024-05-29T09:15+01:00",
+              "endDate": "2024-05-29T09:40+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -154,8 +155,8 @@
               "name": "Open image data at scale: from molecules to organisms",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:25+01:00",
-              "endDate": "2024-05-29T09:50+01:00",
+              "startDate": "2024-05-29T09:40+01:00",
+              "endDate": "2024-05-29T10:05+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -178,8 +179,8 @@
               "name": "SSBD update and RIKEN Open Life Science Platform",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:50+01:00",
-              "endDate": "2024-05-29T10:15+01:00",
+              "startDate": "2024-05-29T10:05+01:00",
+              "endDate": "2024-05-29T10:30+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -202,8 +203,8 @@
               "name": "A Distributed, FAIR Infrastructure for Bioimaging in the Netherlands",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T10:15+01:00",
-              "endDate": "2024-05-29T10:40+01:00",
+              "startDate": "2024-05-29T10:30+01:00",
+              "endDate": "2024-05-29T10:55+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -226,8 +227,8 @@
               "name": "Image Data Integration and Publication at Scale: Update on The IDR",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T10:40+01:00",
-              "endDate": "2024-05-29T11:05+01:00",
+              "startDate": "2024-05-29T10:55+01:00",
+              "endDate": "2024-05-29T11:20+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -265,8 +266,8 @@
               "name": "Coffee",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T11:05+01:00",
-              "endDate": "2024-05-29T11:30+01:00",
+              "startDate": "2024-05-29T11:20+01:00",
+              "endDate": "2024-05-29T11:45+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -292,8 +293,8 @@
               "name": "TBD",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T11:30+01:00",
-              "endDate": "2024-05-29T11:55+01:00",
+              "startDate": "2024-05-29T11:45+01:00",
+              "endDate": "2024-05-29T12:10+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -316,8 +317,8 @@
               "name": "Making our data FAIR: the pixels access problem",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T11:55+01:00",
-              "endDate": "2024-05-29T12:20+01:00",
+              "startDate": "2024-05-29T12:10+01:00",
+              "endDate": "2024-05-29T12:35+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -350,31 +351,7 @@
               "name": "OMERO server updates",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T12:20+01:00",
-              "endDate": "2024-05-29T12:45+01:00",
-              "location": {
-                "@type": "Location",
-                "room": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "",
-                  "familyName": "TBD",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "OME/Glencoe Team"
-                  },
-                  "sameAs": ""
-                }
-              ]
-            },
-            {
-              "@type": "Event",
-              "name": "OMERO.web updates",
-              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-              "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T12:45+01:00",
+              "startDate": "2024-05-29T12:35+01:00",
               "endDate": "2024-05-29T13:10+01:00",
               "location": {
                 "@type": "Location",
@@ -383,13 +360,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "",
-                  "familyName": "TBD",
+                  "givenName": "Jason",
+                  "familyName": "Swedlow",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "OME/Glencoe Team"
+                    "name": "University of Dundee"
                   },
-                  "sameAs": ""
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Erin",
+                  "familyName": "Diel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Glencoe Software"
+                  },
+                  "sameAs": "https://www.glencoesoftware.com/about/team/"
                 }
               ]
             }
@@ -461,11 +448,45 @@
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Bio-Formats/bioformats2raw updates",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T14:25+01:00",
               "endDate": "2024-05-29T14:50+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jason",
+                  "familyName": "Swedlow",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "David",
+                  "familyName": "Gault",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "TBD",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T14:50+01:00",
+              "endDate": "2024-05-29T15:15+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -530,10 +551,25 @@
                 "@type": "Location",
                 "room": "TBD"
               }
-            },
+            }
+          ]
+        },
+        {
+          "@type": "Event",
+          "name": "",
+          "description": "",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "startDate": "2024-05-29T16:35+01:00",
+          "endDate": "2024-05-29T17:30+01:00",
+          "location": {
+            "@type": "Location",
+            "room": "TBD"
+          },
+          "subEvent": [
             {
               "@type": "Event",
-              "name": "Bio-Formats/bioformats2raw updates",
+              "name": "Metadata Matters 2024",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T16:10+01:00",
@@ -545,13 +581,13 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "",
-                  "familyName": "TBD",
+                  "givenName": "Josh",
+                  "familyName": "Moore",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "OME/Glencoe Team"
+                    "name": "German BioImaging"
                   },
-                  "sameAs": ""
+                  "sameAs": "https://gerbi-gmb.de/"
                 }
               ]
             }
@@ -793,7 +829,7 @@
                   "familyName": "",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "OME and GerBI"
+                    "name": "OME and German BioImaging"
                   },
                   "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
