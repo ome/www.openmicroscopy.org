@@ -348,7 +348,7 @@
             },
             {
               "@type": "Event",
-              "name": "OMERO server updates",
+              "name": "Update on OMERO and Ecosystem",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T12:35+01:00",
