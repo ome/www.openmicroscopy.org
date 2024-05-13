@@ -243,6 +243,16 @@
                     "name": "University of Dundee"
                   },
                   "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "William",
+                  "familyName": "Moore",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
               ]
             }
@@ -506,7 +516,7 @@
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Towards FAIR and scalable bioimage analysis workflows using OME-Zarr",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T15:15+01:00",
@@ -522,9 +532,9 @@
                   "familyName": "Uhlmann",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "EMBL-EBI"
+                    "name": "University of Zurich"
                   },
-                  "sameAs": "https://www.ebi.ac.uk/research/uhlmann/"
+                  "sameAs": "https://www.biovisioncenter.uzh.ch/en/team/virginie.html"
                 }
               ]
             },
@@ -736,9 +746,9 @@
           "familyName": "Uhlmann",
           "affiliation": {
             "@type": "Organization",
-            "name": "EMBL-EBI"
+            "name": "University of Zurich"
           },
-          "sameAs": "https://www.ebi.ac.uk/research/uhlmann/"
+          "sameAs": "https://www.biovisioncenter.uzh.ch/en/team/virginie.html"
         },
         {
           "@type": "Person",
