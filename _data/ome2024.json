@@ -522,9 +522,9 @@
                   "familyName": "Uhlmann",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "EMBL-EBI"
+                    "name": "University of Zurich"
                   },
-                  "sameAs": "https://www.ebi.ac.uk/research/uhlmann/"
+                  "sameAs": "https://www.biovisioncenter.uzh.ch/en/team/virginie.html"
                 }
               ]
             },
