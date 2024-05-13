@@ -128,7 +128,7 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "An update: OMERO in an evolving RDM landscape",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:15+01:00",
