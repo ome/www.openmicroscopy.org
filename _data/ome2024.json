@@ -243,6 +243,16 @@
                     "name": "University of Dundee"
                   },
                   "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "William",
+                  "familyName": "Moore",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
               ]
             }
