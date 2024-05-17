@@ -300,7 +300,7 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Integrated bioimage data management architecture at France BioImaging",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T11:45+01:00",
