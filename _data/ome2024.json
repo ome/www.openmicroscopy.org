@@ -614,7 +614,19 @@
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              }
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Various",
+                  "familyName": "Speakers",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "OME Community"
+                  },
+                  "sameAs": ""
+                }
+              ]
             }
           ]
         },
