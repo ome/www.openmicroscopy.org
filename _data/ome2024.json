@@ -787,11 +787,35 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Meeting Open and Welcome",
+              "name": "Coffee and Arrival",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
-              "endDate": "2024-05-29T09:15+01:00",
+              "endDate": "2024-05-29T09:30+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Jason",
+                  "familyName": "Swedlow",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Meeting Open and Welcome",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T09:30+01:00",
+              "endDate": "2024-05-29T09:45+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -814,8 +838,8 @@
               "name": "OMERO Training toolbox",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:15+01:00",
-              "endDate": "2024-05-29T09:40+01:00",
+              "startDate": "2024-05-29T09:45+01:00",
+              "endDate": "2024-05-29T10:10+01:00",
               "location": {
                 "@type": "Location",
                 "room": "TBD"
@@ -823,11 +847,23 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "TBD",
-                  "familyName": "",
+                  "givenName": "Petr",
+                  "additionalName": "",
+                  "familyName": "Walczysko",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "OME and German BioImaging"
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "additionalName": "",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
                   },
                   "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
@@ -835,10 +871,35 @@
             },
             {
               "@type": "Event",
-              "name": "Lightning talks by members of the community",
+              "name": "OMERO @ TIM",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
-              "startDate": "2024-05-29T09:40+01:00",
+              "startDate": "2024-05-29T10:10+01:00",
+              "endDate": "2024-05-29T10:35+01:00",
+              "location": {
+                "@type": "Location",
+                "room": "TBD"
+              },
+              "performer": [
+                {
+                  "@type": "Person",
+                  "givenName": "Tom",
+                  "additionalName": "",
+                  "familyName": "Boissonnet",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "Heinrich-Heine University Duesseldorf"
+                  },
+                  "sameAs": "https://www.cai.hhu.de/en/team"
+                }
+              ]
+            },
+            {
+              "@type": "Event",
+              "name": "Dundee/UGM Collaboration; Using and Abusing Demo OMERO",
+              "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+              "eventStatus": "https://schema.org/EventScheduled",
+              "startDate": "2024-05-29T10:35+01:00",
               "endDate": "2024-05-29T11:00+01:00",
               "location": {
                 "@type": "Location",
@@ -847,11 +908,33 @@
               "performer": [
                 {
                   "@type": "Person",
-                  "givenName": "TBD",
-                  "familyName": "",
+                  "givenName": "Jason",
+                  "familyName": "Swedlow",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Various speakers"
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Petr",
+                  "additionalName": "",
+                  "familyName": "Walczysko",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
+                  },
+                  "sameAs": "https://www.openmicroscopy.org/teams/"
+                },
+                {
+                  "@type": "Person",
+                  "givenName": "Jean-Marie",
+                  "additionalName": "",
+                  "familyName": "Burel",
+                  "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Dundee"
                   },
                   "sameAs": "https://www.openmicroscopy.org/teams/"
                 }
@@ -1082,7 +1165,7 @@
               "subEvent": [
                 {
                   "@type": "Event",
-                  "name": "How to organise data for analysis",
+                  "name": "How to organise data for analysis for Fiji, Python and Deep Learning",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2024-05-29T16:35+01:00",
