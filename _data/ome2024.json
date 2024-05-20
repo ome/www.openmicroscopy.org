@@ -807,19 +807,7 @@
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              },
-              "performer": [
-                {
-                  "@type": "Person",
-                  "givenName": "Jason",
-                  "familyName": "Swedlow",
-                  "affiliation": {
-                    "@type": "Organization",
-                    "name": "University of Dundee"
-                  },
-                  "sameAs": "https://www.openmicroscopy.org/teams/"
-                }
-              ]
+              }
             },
             {
               "@type": "Event",
@@ -966,7 +954,7 @@
             },
             {
               "@type": "Event",
-              "name": "Workshops #1",
+              "name": "Workshops #1: Run in 3 parallel sessions.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T11:30+01:00",
@@ -1066,7 +1054,7 @@
             },
             {
               "@type": "Event",
-              "name": "Workshops #2",
+              "name": "Workshops #2: Run in 3 parallel sessions.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T14:00+01:00",
@@ -1165,7 +1153,7 @@
             },
             {
               "@type": "Event",
-              "name": "Workshops #3",
+              "name": "Workshops #3: Run in 3 parallel sessions.",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T16:00+01:00",
