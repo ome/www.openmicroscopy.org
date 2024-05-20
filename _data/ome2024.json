@@ -89,7 +89,7 @@
             },
             {
               "@type": "Event",
-              "name": "Welcome",
+              "name": "Meeting Open and Welcome",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:00+01:00",
@@ -811,7 +811,7 @@
             },
             {
               "@type": "Event",
-              "name": "Meeting Open and Welcome",
+              "name": "Welcome",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T09:30+01:00",
