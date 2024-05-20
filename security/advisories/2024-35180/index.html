@@ -1,0 +1,64 @@
+---
+layout: security-advisory
+filename: security
+title: CVE-2024-35180 ("JSONP callback")
+main-blurb: Affects OMERO.web <=5.25.0
+---
+        <!-- begin SecVul -->
+        <hr class="whitespace">
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Check that the JSONP callback is a valid function</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    There is currently no escaping or validation of the <code>callback</code> parameter that can be passed to various OMERO.web endpoints that have JSONP enabled. One such endpoint is <code>/webclient/imgData/...</code>. As we only really use these endpoints with <a href="https://learn.jquery.com/ajax/working-with-jsonp/">jQuery's own callback name generation</a> it is quite difficult or even impossible to exploit this in vanilla OMERO.web. However, these metadata endpoints are likely to be used by many plugins.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.web <=5.25.0</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Moderate severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    None.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    All OMERO.web deployments should be upgraded to at least 5.26.0.
+                </p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
