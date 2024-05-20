@@ -492,7 +492,7 @@
             },
             {
               "@type": "Event",
-              "name": "TBD",
+              "name": "Interoperability for large images with OME-Zarr and WEBKNOSSOS",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T14:50+01:00",
@@ -879,7 +879,83 @@
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              }
+              },
+
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "OMERO Train the trainers",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "additionalName": "",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO Plus",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  },
+                  "performer": [
+                  {
+                    "@type": "Person",
+                    "givenName": "Erin",
+                    "additionalName": "",
+                    "familyName": "Diel",
+                    "affiliation": {
+                      "@type": "Organization",
+                      "name": "Glencoe Software"
+                    },
+                    "sameAs": "https://www.glencoesoftware.com/about/team/"
+                  },
+                  {
+                    "@type": "Person",
+                    "givenName": "Maadhav",
+                    "additionalName": "",
+                    "familyName": "Kothari",
+                    "affiliation": {
+                      "@type": "Organization",
+                      "name": "Glencoe Software"
+                    },
+                    "sameAs": "https://www.glencoesoftware.com/about/team/"
+                  }
+                ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Ad hoc Demos, Meetings",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  }
+                }
+              ]
             },
             {
               "@type": "Event",
@@ -903,7 +979,82 @@
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              }
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "Web for Developers",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "William",
+                      "additionalName": "",
+                      "familyName": "Moore",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "OMERO Plus Advanced",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Erin",
+                      "additionalName": "",
+                      "familyName": "Diel",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
+                      },
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
+                    },
+                    {
+                      "@type": "Person",
+                      "givenName": "Maadhav",
+                      "additionalName": "",
+                      "familyName": "Kothari",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Glencoe Software"
+                      },
+                      "sameAs": "https://www.glencoesoftware.com/about/team/"
+                    }
+                ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Ad hoc Demos, Meetings",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  }
+                }
+              ]
             },
             {
               "@type": "Event",
@@ -927,7 +1078,70 @@
               "location": {
                 "@type": "Location",
                 "room": "TBD"
-              }
+              },
+              "subEvent": [
+                {
+                  "@type": "Event",
+                  "name": "How to organise data for analysis",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  },
+                  "performer": [
+                    {
+                      "@type": "Person",
+                      "givenName": "Tom",
+                      "additionalName": "",
+                      "familyName": "Boissonnet",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "Heinrich-Heine University Duesseldorf"
+                      },
+                      "sameAs": "https://www.cai.hhu.de/en/team"
+                    }
+                  ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Viewing and analysing with 3rd party tools: Zarr Data",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  },
+                  "performer": [
+                  {
+                    "@type": "Person",
+                    "givenName": "Josh",
+                    "familyName": "Moore",
+                    "affiliation": {
+                      "@type": "Organization",
+                      "name": "German BioImaging"
+                    },
+                    "sameAs": "https://gerbi-gmb.de/"
+                  }
+                ]
+                },
+                {
+                  "@type": "Event",
+                  "name": "Ad hoc Demos, Meetings",
+                  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "startDate": "2024-05-29T16:35+01:00",
+                  "endDate": "2024-05-29T17:30+01:00",
+                  "location": {
+                    "@type": "Location",
+                    "room": "TBD"
+                  }
+                }
+              ]
             },
             {
               "@type": "Event",
