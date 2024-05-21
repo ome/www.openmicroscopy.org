@@ -992,7 +992,7 @@
                 },
                 {
                   "@type": "Event",
-                  "name": "OMERO Plus",
+                  "name": "Collaborative data analysis workflows using OMERO",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2024-05-29T16:35+01:00",
@@ -1091,7 +1091,7 @@
                 },
                 {
                   "@type": "Event",
-                  "name": "OMERO Plus Advanced",
+                  "name": "Collaborative data analysis workflows using OMERO – Advanced",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2024-05-29T16:35+01:00",
