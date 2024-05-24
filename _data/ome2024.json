@@ -316,9 +316,9 @@
                   "familyName": "Gay",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "LIRMM Montpellier"
+                    "name": "France BioImaging, Montpellier"
                   },
-                  "sameAs": "https://www.lirmm.fr/lirmm-en/"
+                  "sameAs": "https://france-bioimaging.org/node/montpellier/"
                 }
               ]
             },
@@ -778,9 +778,9 @@
           "familyName": "Gay",
           "affiliation": {
             "@type": "Organization",
-            "name": "LIRMM Montpellier"
+            "name": "France BioImaging, Montpellier"
           },
-          "sameAs": "https://www.lirmm.fr/lirmm-en/"
+          "sameAs": "https://france-bioimaging.org/node/montpellier/"
         }
       ],
       "subEvent": [
