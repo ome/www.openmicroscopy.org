@@ -1153,7 +1153,7 @@
             },
             {
               "@type": "Event",
-              "name": "Tea/Coffee Break in Dlhousie GAllery",
+              "name": "Tea/Coffee Break in Dalhousie Gallery",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T15:30+01:00",
