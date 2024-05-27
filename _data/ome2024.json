@@ -645,7 +645,7 @@
           "subEvent": [
             {
               "@type": "Event",
-              "name": "Poster Session/Reception",
+              "name": "Poster Session/Reception - The Street",
               "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled",
               "startDate": "2024-05-29T17:30+01:00",
