@@ -979,7 +979,7 @@
               "subEvent": [
                 {
                   "@type": "Event",
-                  "name": "OMERO Train the trainers - Workshop Room 1",
+                  "name": "Viewing and analysing with 3rd party tools: Zarr Data - Workshop Room 1",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2024-05-29T16:35+01:00",
@@ -989,18 +989,17 @@
                     "room": "TBD"
                   },
                   "performer": [
-                    {
-                      "@type": "Person",
-                      "givenName": "Petr",
-                      "additionalName": "",
-                      "familyName": "Walczysko",
-                      "affiliation": {
-                        "@type": "Organization",
-                        "name": "University of Dundee"
-                      },
-                      "sameAs": "https://www.openmicroscopy.org/teams/"
-                    }
-                  ]
+                  {
+                    "@type": "Person",
+                    "givenName": "Josh",
+                    "familyName": "Moore",
+                    "affiliation": {
+                      "@type": "Organization",
+                      "name": "German BioImaging"
+                    },
+                    "sameAs": "https://gerbi-gmb.de/"
+                  }
+                ]
                 },
                 {
                   "@type": "Event",
@@ -1202,7 +1201,7 @@
                 },
                 {
                   "@type": "Event",
-                  "name": "Viewing and analysing with 3rd party tools: Zarr Data - Workshop Room 2",
+                  "name": "OMERO Train the trainers - Workshop Room 2",
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                   "eventStatus": "https://schema.org/EventScheduled",
                   "startDate": "2024-05-29T16:35+01:00",
@@ -1212,17 +1211,18 @@
                     "room": "TBD"
                   },
                   "performer": [
-                  {
-                    "@type": "Person",
-                    "givenName": "Josh",
-                    "familyName": "Moore",
-                    "affiliation": {
-                      "@type": "Organization",
-                      "name": "German BioImaging"
-                    },
-                    "sameAs": "https://gerbi-gmb.de/"
-                  }
-                ]
+                    {
+                      "@type": "Person",
+                      "givenName": "Petr",
+                      "additionalName": "",
+                      "familyName": "Walczysko",
+                      "affiliation": {
+                        "@type": "Organization",
+                        "name": "University of Dundee"
+                      },
+                      "sameAs": "https://www.openmicroscopy.org/teams/"
+                    }
+                  ]
                 },
                 {
                   "@type": "Event",
