@@ -12,7 +12,7 @@ meta_description: Get the latest on any security advisories for OME products.
         <div id="secvuln-reporting" class="row">
             <div class="column small-12">
                 <h2>Security Advisories</h2>
-                <p>See our archive of <a href="{{ site.baseurl }}/security/advisories/">past security advisories</a>. There are no vulnerabilities listed for OMERO version 5.6.1 onward.</p>
+                <p>See our archive of <a href="{{ site.baseurl }}/security/advisories/">past security advisories</a>.
                 <h2>How to Report a Security Vulnerability</h2>
                 <p>If you discover a security vulnerability or would like to report a security issue privately and securely, please email us at <code>security@openmicroscopy.org</code>. You can use GPG keys to communicate with us securely. If you do, please upload your GPG public key or supply it to us in some other way, so that we can reply securely too:</p>
                 <div class="callout primary small-12 medium-5">
@@ -23,10 +23,19 @@ meta_description: Get the latest on any security advisories for OME products.
                     </ul>
                 </div>
                 <p>OME takes its responsibility to help keep our users’ data secure very seriously. We strongly encourage people to report any security issues to our private security mailing list.</p>
-                <h2>Our Process</h2>
+                <h2 id="secvuln-bounty">Bug Bounties / Vulnerability Reward Program (VRP)</h2>
+                <p>OME enjoys a close relationship with and supports independent assessment of its products by the security research community. <a href="https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure">Responsible disclosure</a> is a key part of this relationship. However, as a predominantly academically funded project OME <strong>does not</strong> operate a <em>Bug Bounty</em> or <em>Vulnerability Reward Program (VRP)</em> at this time.</p>
+                <h2 id="secvuln-process">Our Process</h2>
                 <p>Emails sent to us are read and acknowledged with a non-automated response. For issues that are complicated and require significant attention, we will open an investigation and keep you informed of our progress.</p>
                 <p>Details will only be released to the public once we have a fix in place.</p>
                 <p>Please note that the security mailing list should only be used for reporting undisclosed security vulnerabilities in OME products and managing the process of fixing such vulnerabilities. We cannot accept bug reports or other queries at this address. All mail sent to this address that does not relate to a security problem will be ignored.</p>
+                <p>Furthermore, as a public open source project emails related to common or low-risk findings will be ignored. Here are some examples:
+                <ul>
+                    <li>Missing DMARC or other SPAM mitigation DNS records</li>
+                    <li>Clickjacking on static websites such as <code>www.openmicroscopy.org</code></li>
+                    <li>Example documentation containing perceived sensitive information</li>
+                    <li>Information disclosure of public information like GitHub usernames/contributions on <code>ci.openmicroscopy.org</code></li>
+                </ul></p>
                 <p>For bug reports and other issues, please use our public mailing lists and forums.</p>
             </div>
         </div>
