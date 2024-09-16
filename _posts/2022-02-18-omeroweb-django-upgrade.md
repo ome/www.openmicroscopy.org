@@ -51,18 +51,17 @@ The OME team will be publishing a migration guide along with the release
 candidate to draw the attention of plugin developers to specific OMERO.web
 idioms and design patterns that __will__ change in this new major version.
 Those developers wishing to observe this process in real time may do so by
-watching the progress on the upgrade PR [^3] or the overhauling GitHub project [^4].
+watching the progress on the upgrade PR [^3].
 
 Every attempt has been made to make the absolute minimum number of changes
 required to maintain OMERO.web functionality and leave potential Django
 infrastructure modernisation to other follow up PRs.
 
 __NOTE:__ The supported Python versions for Django 3.2.x are currently 3.6,
-3.7, 3.8, 3.9, and 3.10 [^5].  At this time for changes to include Python 3.10
+3.7, 3.8, 3.9, and 3.10 [^4].  At this time for changes to include Python 3.10
 support are not planned.
 
 [^1]: [https://www.djangoproject.com/download/#supported-versions](https://www.djangoproject.com/download/#supported-versions)
 [^2]: [https://github.com/ome/omero-web/pull/200](https://github.com/ome/omero-web/pull/200)
 [^3]: [https://github.com/ome/omero-web/pull/356](https://github.com/ome/omero-web/pull/356)
-[^4]: [https://github.com/orgs/ome/projects/21](https://github.com/orgs/ome/projects/21)
-[^5]: [https://docs.djangoproject.com/en/4.0/releases/3.2/#python-compatibility](https://docs.djangoproject.com/en/4.0/releases/3.2/#python-compatibility)
+[^4]: [https://docs.djangoproject.com/en/4.0/releases/3.2/#python-compatibility](https://docs.djangoproject.com/en/4.0/releases/3.2/#python-compatibility)
