@@ -18,9 +18,7 @@ A recent security vulnerability in Java
 - [https://access.redhat.com/security/cve/CVE-2015-4000](https://access.redhat.com/security/cve/CVE-2015-4000)
 
 prompted Oracle to release critical patches for the JDK in versions 6u101,
-7u85, and 8u51:
-
-[http://www.oracle.com/technetwork/java/javase/8all-relnotes-2226344.html](http://www.oracle.com/technetwork/java/javase/8all-relnotes-2226344.html)
+7u85, and 8u51.
 
 Among the changes in the new JDKs, support has been dropped for some SSL
 ciphers which OMERO uses, via the Ice library. This prevents Java clients
