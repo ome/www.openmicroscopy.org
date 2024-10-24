@@ -166,6 +166,20 @@
             "sameAs": "https://github.com/ppouchin"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#ChenQian",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "University of Gothenburg",
+                    "url": "https://www.gu.se"
+                }
+            ],
+            "familyName": "Qian",
+            "givenName": "Chen",
+            "sameAs": "https://github.com/cqian89"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#PaulVanSchayck",
             "@type": "Person",
             "affiliation": [
