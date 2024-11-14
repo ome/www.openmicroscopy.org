@@ -218,7 +218,7 @@
                     "@type": "Organization",
                     "name": "Leiden University"
                   },
-                  "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/katy-wolstencroft#tab-1"
+                  "sameAs": "https://liacs.leidenuniv.nl/~wolstencroftkj/"
                 }
               ]
             },
@@ -730,7 +730,7 @@
             "@type": "Organization",
             "name": "Leiden University"
           },
-          "sameAs": "https://www.universiteitleiden.nl/en/staffmembers/katy-wolstencroft#tab-1"
+          "sameAs": "https://liacs.leidenuniv.nl/~wolstencroftkj/"
         },
         {
           "@type": "Person",
