@@ -84,6 +84,9 @@
             "@id": "https://www.openmicroscopy.org/contributors#tfarago"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#tferr"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#dimin"
         },
         {
@@ -271,6 +274,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#mstritt"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#marcobitplane"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#bjoernthiel"

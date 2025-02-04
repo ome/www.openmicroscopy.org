@@ -1587,6 +1587,34 @@
             "familyName": "Scanlon",
             "givenName": "Edward",
             "sameAs": "https://github.com/ed-scanlon"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#tferr",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Janelia Research Campus",
+                    "url": "https://www.janelia.org/"
+                }
+            ],
+            "familyName": "Ferreira",
+            "givenName": "Tiago",
+            "sameAs": "https://github.com/tferr"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#marcobitplane",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Oxford Instruments",
+                    "url": "https://oxinst.com/"
+                }
+            ],
+            "familyName": "Stucchi",
+            "givenName": "Marco",
+            "sameAs": "https://github.com/marcobitplane"
         }
     ]
 }
