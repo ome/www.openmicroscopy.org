@@ -26,16 +26,6 @@
     },
     {
       "@type": "Person",
-      "givenName": "David",
-      "familyName": "Gault",
-      "jobTitle": "Software Developer",
-      "description": "David Gault joined the OME team in August 2015 as a software developer. David lives and works from Belfast N.Ireland where he graduated with a Masters in Computer Science from Queens University Belfast. Since then he has worked as a developer across many different industries including the Office team at Microsoft, investment banking, scientific image acquisition and cloud based streaming for TV and media. In his spare time he likes to research and tinker with projects in areas such as augmented reality and natural human interfaces.",
-      "sameAs": [
-        "https://github.com/dgault"
-      ]
-    },
-    {
-      "@type": "Person",
       "givenName": "Dominik",
       "familyName": "Lindner",
       "jobTitle": "Software Developer",
@@ -47,20 +37,11 @@
     },
     {
       "@type": "Person",
-      "givenName": "June",
-      "familyName": "Matthew",
-      "jobTitle": "Project Co-ordinator",
-      "description": "June Matthew joined the OME team at Dundee University in November 2013."
-    },
-    {
-      "@type": "Person",
-      "givenName": "Josh",
-      "familyName": "Moore",
-      "jobTitle": "Senior Software Architect",
-      "description": "Josh Moore is an American developer living in Walluf, Germany, with his wife and two kids. With a background in machine learning and distributed computing, Josh began work on the OMERO Java server in the Spring of 2005 as part of the Swedlow Lab, after evaluating use of the OME Perl server for the Mitocheck project while in the iBios group at the DKFZ, Heidelberg, Germany. Before that he was a German-language pre-school teacher at a Montessori school in Alabama, of all things. He's a lisp-loving, Aikido-practicing, vegan with interests in RDF, HDF, and various other three letter acronyms.",
+      "givenName": "Khaled",
+      "familyName": "Mohamed",
+      "jobTitle": "Software Developer",
       "sameAs": [
-        "https://orcid.org/0000-0003-4028-811x",
-        "https://github.com/joshmoore"
+        "https://github.com/khaledk2"
       ]
     },
     {
@@ -139,6 +120,11 @@
     },
     {
       "@type": "Person",
+      "name": "David Gault",
+      "sameAs": "https://github.com/dgault"
+    },
+    {
+      "@type": "Person",
       "name": "Kelli Griffis"
     },
     {
@@ -189,6 +175,15 @@
     },
     {
       "@type": "Person",
+      "name": "June Matthew"
+    },
+    {
+      "@type": "Person",
+      "name": "Josh Moore",
+      "sameAs": "https://github.com/joshmoore"
+    },
+    {
+      "@type": "Person",
       "name": "Andrew Patterson",
       "sameAs": "https://github.com/qidane"
     },
@@ -208,7 +203,7 @@
     },
     {
       "@type": "Person",
-      "name": "Aleksandra Tarkowska",
+      "name": "Aleksandra Tarkowska"
     },
     {
       "@type": "Person",
