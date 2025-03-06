@@ -40,8 +40,10 @@
       "givenName": "Khaled",
       "familyName": "Mohamed",
       "jobTitle": "Software Developer",
+      "description": "Khaled Mohamed joined the OME team in May 2021 as a research software engineer. He received his PhD in production Engineering (Computer Aided Engineering). The PhD research was conducted at the University of Wisconsin-Madison, WI, USA, and the degree was awarded by Mansoura University, Egypt. Khaled has expertise in software development and data-driven platform, process modelling, and system integration. He has worked in various domains of software development and data management at four different UK universities across five different departments. Khaled developed the OMERO searchengine, enhanced system deployment processes and worked on modernizing legacy systems",
       "sameAs": [
-        "https://github.com/khaledk2"
+        "https://github.com/khaledk2",
+        "https://orcid.org/0000-0003-1480-8695"
       ]
     },
     {
