@@ -219,28 +219,13 @@ partnerships2:
         </div>
         <!-- end Funding section -->
 
-        <!-- begin Consortium section -->
-        <hr class="whitespace">
-        <div id="consortium" class="row column">
-            <div class="small-12 columns text-center">
-                <h2>The OME Consortium</h2>
-                <h5 class="subheader">The members of the OME consortium are as follows:</h5>
-            </div>
-        </div>
-        <hr>
-        <div class="row medium-up-1 large-up-1 text-center consortium-list">
-            {% for member in page.consortium %}
-            <div class="large-expand columns"><a target="_blank" href="{{ member.member_link }}">{{ member.member_name }}</a> <span class="institution">{{ member.institution }}</span></div>
-            {% endfor %}
-        </div>
-        <!-- end Consortium section -->
 
-        <!-- begin Growing the Consortium section -->
+        <!-- begin Growing the Community section -->
         <hr class="whitespace">
         <div class="row column">
             <div class="small-12 columns text-center">
-                <h2>Growing the OME Consortium</h2>
-                <h5 class="subheader">The OME Consortium welcomes research groups undertaking development of OME tools or integrations to get more involved.</h5>
+                <h2>Growing the OME Community</h2>
+                <h5 class="subheader">The OME Community welcomes research groups undertaking development of OME tools or integrations to get more involved.</h5>
             </div>
         </div>
         <hr>
@@ -250,20 +235,20 @@ partnerships2:
             <div class="column"><a target="_blank" href="{{ group.group1_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group1_name }}</div></div></a></div>
             {% endfor %}
             <hr class="invisible">
-            <h5 class="text-center">Places that publish image data with OMERO and Bio-Formats:</h5>
+            <h5 class="text-center">Resources that publish image data with OMERO and Bio-Formats:</h5>
             {% for group in page.partnerships2 %}
             <div class="column"><a target="_blank" href="{{ group.group2_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group2_name }}</div></div></a></div>
             {% endfor %}
         </div>
         <hr class="whitespace">
-        <!-- end Growing the Consortium section -->
+        <!-- end Growing the Community section -->
 
         <!-- begin Community Standards section -->
         <hr class="whitespace">
         <div id="standards" class="row column">
             <div class="small-12 columns text-center">
                 <h2>Community Standards</h2>
-                <h5 class="subheader">The OME Consortium participates in community-driven standardization processes wherever possible.</h5>
+                <h5 class="subheader">OME participates in community-driven standardization processes wherever possible.</h5>
             </div>
         </div>
         <hr>
