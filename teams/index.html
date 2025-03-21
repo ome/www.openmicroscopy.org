@@ -2,31 +2,7 @@
 layout: default
 title: Teams
 meta_description: Meet the team members who make up OME, developed as a joint project between research-active teams in universities and institutes across Europe and the United States.
-development_teams:
-    - team_name: Glencoe Software
-      link: "https://www.glencoesoftware.com/about/team/"
-    - team_name: Baldock Lab
-      link: "https://www.ed.ac.uk/mrc-human-genetics-unit"
-    - team_name: Bertrand Lab
-      link: "https://www.mri.cnrs.fr/en/"
-    - team_name: Brazma Lab
-      link: "https://www.ebi.ac.uk/research/brazma"
-    - team_name: Carazo-Salas Lab
-      link: "https://research-information.bris.ac.uk/en/persons/rafael-e-carazo-salas"
-    - team_name: Danuser Lab
-      link: "https://www.utsouthwestern.edu/labs/danuser/"
-    - team_name: Davis Lab
-      link: "https://ilandavis.com"
-    - team_name: Eliceiri Lab
-      link: "https://loci.wisc.edu"
-    - team_name: French Lab
-      link: "http://www.imperial.ac.uk/photonics"
-    - team_name: Murphy Lab
-      link: "http://murphylab.web.cmu.edu"
-    - team_name: Shorte Lab
-      link: "https://research.pasteur.fr/en/team/photonic-bioimaging-utechs-pbi/"
-    - team_name: Zanetti Lab
-      link: "http://www.crs4.it/research/visual-and-data-intensive-computing/"
+
 schemadotorg: swedlowlab
 ---
         <!-- begin MapBox -->
@@ -153,25 +129,6 @@ schemadotorg: swedlowlab
             </div>
         </div>
         <!-- end GerBI -->
-
-        <!-- begin Development teams -->
-        <hr class="whitespace">
-        <div class="row">
-            <div class="small-12 columns text-center">
-                <h2>Development Teams</h2>
-                <p class="subheader">Other teams are also working on developing or integrating OME tools.</p>
-            </div>
-        </div>
-        <hr class="medium-10">
-        <div class="row small-12 medium-8">
-            <div id="partnerships" class="row small-up-2 medium-up-3 large-up-4">
-                {% for devteam in page.development_teams %}
-                <div class="column"><a target="_blank" href="{{ devteam.link }}"><div class="card-consortium card"><div class="card-section"><i class="fa fa-flask"></i> {{ devteam.team_name }}</div></div></a></div>
-                {% endfor %}
-            </div>
-        </div>
-        <hr class="whitespace">
-        <!-- end  Development teams -->
 
          <!-- begin Former team members -->
             <hr class="whitespace">

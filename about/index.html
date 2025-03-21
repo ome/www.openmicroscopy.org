@@ -37,71 +37,22 @@ funding:
     - grant_name: "European Commission (“EOSC-Life”)"
       grant_link: "https://cordis.europa.eu/project/id/824087"
       ref: H2020-INFRAEOSC-2018-2
-consortium:
-    - member_name: "Prof Jason Swedlow"
-      member_link: "https://www.openmicroscopy.org/teams/index.html#swedlow-lab"
-      institution: "Division of Computational Biology, School of Life Sciences, University of Dundee"
-    - member_name: "Prof Richard Baldock"
-      member_link: "http://www.hgu.mrc.ac.uk/people/r.baldock.html"
-      institution: "MRC Human Genetics Unit, Edinburgh"
-    - member_name: "Prof Rafael Carazo Salas"
-      member_link: "https://research-information.bris.ac.uk/en/persons/rafael-e-carazo-salas"
-      institution: "University of Cambridge"
-    - member_name: "Dr Alvis Brazma"
-      member_link: "https://www.ebi.ac.uk/research/brazma"
-      institution: "European Bioinformatics Institute, Cambridge"
-    - member_name: "Dr Edouard Bertrand Montpellier"
-      member_link: "https://www.mri.cnrs.fr/index.php"
-      institution: "ROI Imaging Montpellier"
-    - member_name: "Prof Gaudenz Danuser"
-      member_link: "http://profiles.utsouthwestern.edu/profile/139751/gaudenz-danuser.html"
-      institution: "UT Southwestern"
-    - member_name: "Dr Ilan Davis"
-      member_link: "https://ilandavis.com"
-      institution: "University of Oxford"
-    - member_name: "Mr Kevin Eliceiri"
-      member_link: "https://loci.wisc.edu"
-      institution: "University of Wisconsin-Madison"
-    - member_name: "Prof Paul French"
-      member_link: "http://www.imperial.ac.uk/photonics"
-      institution: "Imperial College London"
-    - member_name: "Dr Robert Murphy"
-      member_link: "http://murphylab.web.cmu.edu"
-      institution: "Carnegie Mellon University"
-    - member_name: "Dr Spencer Shorte"
-      member_link: "https://research.pasteur.fr/en/team/photonic-bioimaging-utechs-pbi/"
-      institution: "Institut Pasteur"
-    - member_name: "Dr Gianluigi Zanetti"
-      member_link: "http://www.crs4.it/research/visual-and-data-intensive-computing/"
-      institution: "CRS4, Sardinia"
 partnerships1:
     - group1_name: "KNIME"
       group1_link: "http://knime.org/"
     - group1_name: "Fiji"
       group1_link: "http://fiji.sc/"
-    - group1_name: "Endrov"
-      group1_link: "http://endrov.net/"
     - group1_name: "Icy"
       group1_link: "http://icy.bioimageanalysis.org/"
-    - group1_name: "XuvTools"
-      group1_link: "http://www.xuvtools.org/"
     - group1_name: "CellProfiler"
       group1_link: "http://www.cellprofiler.org/"
     - group1_name: "Bisque"
       group1_link: "http://www.bioimage.ucsb.edu/bisque"
-    - group1_name: "FARSIGHT"
-      group1_link: "http://www.farsight-toolkit.org/"
     - group1_name: "i3dcore"
       group1_link: "https://cbia.fi.muni.cz/software/i3d-library.html"
-    - group1_name: "PerkinElmer’s Columbus&reg;"
-      group1_link: "http://www.perkinelmer.com/pages/020/cellularimaging/products/columbus.xhtml"
     - group1_name: "Bitplane’s Imaris"
       group1_link: "http://www.bitplane.com/"
 partnerships2:
-    - group2_name: "JCB DataViewer"
-      group2_link: "http://jcb-dataviewer.rupress.org/"
-    - group2_name: "Stowers Data Repository"
-      group2_link: "http://srdr.stowers.org/"
     - group2_name: "The Cell: An Image Library"
       group2_link: "http://cellimagelibrary.org/"
     - group2_name: "LINCS"
@@ -112,8 +63,6 @@ partnerships2:
       group2_link: "https://www.ebi.ac.uk/pdbe"
     - group2_name: "MoveinCell"
       group2_link: "http://movincell.org/"
-    - group2_name: "Griffith University: Microscopy Library Public Collections"
-      group2_link: "http://omero.rcs.griffith.edu.au/webtest/searchmetacatalogue/"
     - group2_name: "Electron Microscopy Public Image Archive (EMPIAR)"
       group2_link: "https://www.ebi.ac.uk/empiar/"
 ---
@@ -194,8 +143,8 @@ partnerships2:
             </div>
             <div class="medium-4 columns">
                 <h3><img src="{{ site.baseurl }}/img/logos/ome-files-logomark.svg" alt="OME Files logo" class="logomark" /></h3>
-                <h4>OME Files</h4>
-                <p>A reference implementation that reads and writes OME-TIFF, an open file format that combines the popular, broadly supported TIFF format for storing binary pixel data, with an OME-based XML metadata header.</p>
+                <h4>OME-Files</h4>
+                <p>OME-TIFF combines the popular, broadly supported TIFF format with an OME-based XML metadata header. OME-Zarr is a cloud-optimized format designed to address scalability issues with large imaging datasets.</p>
             </div>
         </div>
         <div class="row column">
@@ -219,28 +168,13 @@ partnerships2:
         </div>
         <!-- end Funding section -->
 
-        <!-- begin Consortium section -->
-        <hr class="whitespace">
-        <div id="consortium" class="row column">
-            <div class="small-12 columns text-center">
-                <h2>The OME Consortium</h2>
-                <h5 class="subheader">The members of the OME consortium are as follows:</h5>
-            </div>
-        </div>
-        <hr>
-        <div class="row medium-up-1 large-up-1 text-center consortium-list">
-            {% for member in page.consortium %}
-            <div class="large-expand columns"><a target="_blank" href="{{ member.member_link }}">{{ member.member_name }}</a> <span class="institution">{{ member.institution }}</span></div>
-            {% endfor %}
-        </div>
-        <!-- end Consortium section -->
 
-        <!-- begin Growing the Consortium section -->
+        <!-- begin Growing the Community section -->
         <hr class="whitespace">
         <div class="row column">
             <div class="small-12 columns text-center">
-                <h2>Growing the OME Consortium</h2>
-                <h5 class="subheader">The OME Consortium welcomes research groups undertaking development of OME tools or integrations to get more involved.</h5>
+                <h2>Growing the OME Community</h2>
+                <h5 class="subheader">The OME Community welcomes research groups undertaking development of OME tools or integrations to get more involved.</h5>
             </div>
         </div>
         <hr>
@@ -250,20 +184,20 @@ partnerships2:
             <div class="column"><a target="_blank" href="{{ group.group1_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group1_name }}</div></div></a></div>
             {% endfor %}
             <hr class="invisible">
-            <h5 class="text-center">Places that publish image data with OMERO and Bio-Formats:</h5>
+            <h5 class="text-center">Resources that publish image data with OMERO and Bio-Formats:</h5>
             {% for group in page.partnerships2 %}
             <div class="column"><a target="_blank" href="{{ group.group2_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group2_name }}</div></div></a></div>
             {% endfor %}
         </div>
         <hr class="whitespace">
-        <!-- end Growing the Consortium section -->
+        <!-- end Growing the Community section -->
 
         <!-- begin Community Standards section -->
         <hr class="whitespace">
         <div id="standards" class="row column">
             <div class="small-12 columns text-center">
                 <h2>Community Standards</h2>
-                <h5 class="subheader">The OME Consortium participates in community-driven standardization processes wherever possible.</h5>
+                <h5 class="subheader">OME participates in community-driven standardization processes wherever possible.</h5>
             </div>
         </div>
         <hr>
