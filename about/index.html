@@ -2,6 +2,14 @@
 layout: default
 title: About Us
 meta_description: OME produces open tools to support data management for microscopy. Learn more here.
+funding:
+    - grant_name: "Wellcome Bioimaging Technology Award"
+      grant_link: "https://wellcome.org/grant-funding/people-and-projects/grants-awarded/next-generation-data-formats-21st-century-biology"
+      ref: 313803/Z/24/Z
+    - grant_name: "UKRI Digital Research Infrastructure"
+      grant_link: "https://www.ukri.org/what-we-do/creating-world-class-research-and-innovation-infrastructure/digital-research-infrastructure/"
+      ref: UKRI304
+
 former_funding:
     - grant_name: "BBSRC BBR Award"
       grant_link: "http://www.bbsrc.ac.uk/research/grants/grants/AwardDetails.aspx?FundingReference=BB/L024233/1"
@@ -21,7 +29,6 @@ former_funding:
     - grant_name: "Horizon 2020: CORBEL"
       grant_link: "http://cordis.europa.eu/project/rcn/197885_en.html"
       ref: 654248
-funding:
     - grant_name: "Wellcome Trust Biomedical Resource Grant"
       grant_link: "https://wellcome.org/grant-funding/people-and-projects/grants-awarded/the-image-data-resource-making-biological-imaging-data-fair"
       ref: 212962/Z/18/Z
@@ -163,6 +170,18 @@ partnerships2:
         <hr>
         <div class="row medium-up-1 large-up-1 text-center consortium-list">
         {% for grant in page.funding %}
+            <div class="large-expand columns"><a target="_blank" href="{{ grant.grant_link }}">{{ grant.grant_name }}</a> <span class="institution">(Ref: {{ grant.ref }})</span></div>
+        {% endfor %}
+        </div>
+        <hr class="whitespace">
+        <div class="row column">
+            <div class="small-12 columns text-center">
+                <h2>Previous Awards</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="row medium-up-1 large-up-1 text-center consortium-list">
+        {% for grant in page.former_funding %}
             <div class="large-expand columns"><a target="_blank" href="{{ grant.grant_link }}">{{ grant.grant_name }}</a> <span class="institution">(Ref: {{ grant.ref }})</span></div>
         {% endfor %}
         </div>
