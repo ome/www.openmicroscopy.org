@@ -203,10 +203,19 @@ partnerships2:
             <div class="column"><a target="_blank" href="{{ group.group1_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group1_name }}</div></div></a></div>
             {% endfor %}
             <hr class="invisible">
-            <h5 class="text-center">Resources that publish image data with OMERO and Bio-Formats:</h5>
-            {% for group in page.partnerships2 %}
-            <div class="column"><a target="_blank" href="{{ group.group2_link }}"><div class="card-consortium card"><div class="card-section">{{ group.group2_name }}</div></div></a></div>
-            {% endfor %}
+            <h5 class="text-center">Public Data Resources Using OME Tools:</h5>
+        </div>
+        <div class="row">
+          <div class="medium-6 columns">
+              <h3><img src="{{ site.baseurl }}/img/logos/idr-logomark.svg" alt="IDR logo" class="logomark" /></h3>
+              <h4>IDR</h4>
+              <p>The <a href="https://idr.openmicroscopy.org/">Image Data Resource (IDR)</a> is a public repository of image datasets from published scientific studies, where the community can submit, search and access high-quality bio-image data.</p>
+          </div>
+          <div class="medium-6 columns">
+              <h3><img src="{{ site.baseurl }}/img/logos/ssbd-logo.png" alt="SSBD logo" class="logomark" style="margin-left: -16px"/></h3>
+              <h4>SSBD</h4>
+              <p>The <a href="https://ssbd.riken.jp/database/">Systems Science of Biological Dynamics database (SSBD:database)</a> provides a rich set of open resources for analyzing quantitative data and microscopy images of biological objects, such as single-molecule, cell, gene expression nuclei, etc. Quantitative biological data and microscopy image are collected from a variety of species, sources and methods.</p>
+          </div>
         </div>
         <hr class="whitespace">
         <!-- end Growing the Community section -->
