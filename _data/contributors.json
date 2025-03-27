@@ -1615,6 +1615,20 @@
             "familyName": "Stucchi",
             "givenName": "Marco",
             "sameAs": "https://github.com/marcobitplane"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#multimeric",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Walter and Eliza Hall Institute",
+                    "url": "https://www.wehi.edu.au/"
+                }
+            ],
+            "familyName": "Milton",
+            "givenName": "Michael",
+            "sameAs": "https://github.com/multimeric"
         }
     ]
 }
