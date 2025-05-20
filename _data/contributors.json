@@ -1629,6 +1629,20 @@
             "familyName": "Milton",
             "givenName": "Michael",
             "sameAs": "https://github.com/multimeric"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#ptahmose",
+            "@type": "Person",
+            "familyName": "Bohl",
+            "givenName": "Jürgen",
+            "sameAs": "https://github.com/ptahmose"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#foxmja",
+            "@type": "Person",
+            "familyName": "Fox",
+            "givenName": "Michael",
+            "sameAs": "https://github.com/foxmja"
         }
     ]
 }
