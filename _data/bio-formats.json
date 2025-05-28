@@ -30,6 +30,9 @@
             "@id": "https://www.openmicroscopy.org/contributors#SimonBlanchoud"
         },
         {
+            "@id": "https://www.openmicroscopy.org/contributors#ptahmose"
+        },
+        {
             "@id": "https://www.openmicroscopy.org/contributors#tboissonnet"
         },
         {
@@ -94,6 +97,9 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#rfinck"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#foxmja"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#ColinFuller"
