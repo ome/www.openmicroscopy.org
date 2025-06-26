@@ -38,7 +38,7 @@ bf:
  version: 8.2.0
 
 omero:
- version: 5.6.15
+ version: 5.6.16
  majorversion: 5.6
  insight:
   version: 5.8.6
