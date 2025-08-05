@@ -271,8 +271,7 @@
                 }
             ],
             "familyName": "Armond",
-            "givenName": "Jonathan",
-            "sameAs": "https://github.com/jarmond"
+            "givenName": "Jonathan"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#AaronAvery",
