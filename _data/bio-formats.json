@@ -313,6 +313,12 @@
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#ThusharaWijeratna"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#odinsbane"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#nicolapapp"
         }
     ],
     "name": "Bio-Formats",

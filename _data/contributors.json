@@ -271,8 +271,7 @@
                 }
             ],
             "familyName": "Armond",
-            "givenName": "Jonathan",
-            "sameAs": "https://github.com/jarmond"
+            "givenName": "Jonathan"
         },
         {
             "@id": "https://www.openmicroscopy.org/contributors#AaronAvery",
@@ -1643,6 +1642,27 @@
             "familyName": "Fox",
             "givenName": "Michael",
             "sameAs": "https://github.com/foxmja"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#odinsbane",
+            "@type": "Person",
+            "familyName": "Smith",
+            "givenName": "Matthew",
+            "sameAs": "https://github.com/odinsbane"
+        },
+        {
+            "@id": "https://www.openmicroscopy.org/contributors#nicolapapp",
+            "@type": "Person",
+            "familyName": "Papp",
+            "givenName": "Nicola",
+            "sameAs": "https://github.com/nicolapapp",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Intelligent Imaging Innovations",
+                    "url": "https://www.intelligent-imaging.com/"
+                }
+            ]
         }
     ]
 }
