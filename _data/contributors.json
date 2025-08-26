@@ -219,6 +219,19 @@
             "familyName": "Wood",
             "givenName": "Chris"
         },
+                {
+            "@id": "https://www.openmicroscopy.org/contributors#ChrisWood",
+            "@type": "Person",
+            "affiliation": [
+                {
+                    "@type": "Organization",
+                    "name": "Newcastle University",
+                    "url": "https://www.ncl.ac.uk/"
+                }
+            ],
+            "familyName": "Youd",
+            "givenName": "Christopher"
+        },
         {
             "@id": "https://www.openmicroscopy.org/contributors#andreyyudin",
             "@type": "Person",
