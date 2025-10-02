@@ -54,10 +54,20 @@
         "https://orcid.org/0000-0003-1273-2412",
         "https://github.com/jo-mueller"
       ]
+    },
+    {
+      "@type": "Person",
+      "givenName": "Tiago",
+      "familyName": "Lubiana",
+      "jobTitle": "Software Developer",
+      "description": "Tiago Lubiana joined German BioImaging in September 2025 as a software developer to contribute to the OME ecosystem. He earned his PhD in Bioinformatics from the University of São Paulo, Brazil, in 2024, where he focused on biocuration in the context of the Human Cell Atlas. His expertise includes linked open data and bio-data modelling in community initiatives such as the Cell Ontology and Wikidata. He also enjoys creating web apps that support the life sciences. When not working, Tiago values family time, nature walks, and learning about plants.",
+      "sameAs": [
+        "https://orcid.org/0000-0003-2473-2313",
+        "https://github.com/lubianat"
+      ]
     }
   ],
-  "alumni": [
-  ],
+  "alumni": [],
   "memberOf": [
     {
       "@type": "Organization",
