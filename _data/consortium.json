@@ -1,0 +1,385 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Consortium",
+  "name": "OME Consortium",
+  "url": "https://www.openmicroscopy.org/teams",
+  "member": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Dundee",
+      "logo": "uod.jpg",
+      "address": {
+            "@type": "PostalAddress",
+            "description": "School of Life Sciences",
+            "addressLocality": "Seattle",
+            "addressRegion": "WA",
+            "addressCountry": "United Kingdom"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "University of Dundee"
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Jean-Marie",
+          "familyName": "Burel",
+          "jobTitle": "Senior Software Architect",
+          "description": "Jean-Marie Burel joined the staff of the Swedlow lab in 2003. Since then, he's been contributing to the development of OME. He received his PhD in mathematics from the University of Brest in 2000. His research interests lie in the area of harmonic maps, harmonic morphisms and geometric structure. After his PhD, he worked in a private company as developer then moved (September 2001) to Lund University, Sweden, where he held a post-doctoral research position. Jean-Marie now enjoys the muddy rugby pitches of Scotland.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-1789-1861",
+            "https://github.com/jburel"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Dominik",
+          "familyName": "Lindner",
+          "jobTitle": "Software Developer",
+          "description": "Dominik Lindner joined the team in Dundee as a Software Developer in February 2014. After studying Bioinformatics at the University of Applied Sciences Weihenstephan, Freising, he worked at different places as Java Software Developer with a bit of Linux system administration. His projects mostly had a bioinformatics background (analysis of multiple sequence alignments, DNA sequence optimization) with a short side trip into the world of logistics/warehousing. In his spare time he enjoys exploring Scotland's countryside on foot, on the bicycle or on the motorbike; respectively when the days are short and the weather's bad, trying to set up the ultimate Linux system.",
+          "sameAs": [
+            "https://orcid.org/0000-0001-8038-1250",
+            "https://github.com/dominikl"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Khaled",
+          "familyName": "Mohamed",
+          "jobTitle": "Software Developer",
+          "description": "Khaled Mohamed joined the OME team in May 2021 as a research software engineer. He received his PhD in production Engineering (Computer Aided Engineering). The PhD research was conducted at the University of Wisconsin-Madison, WI, USA, and the degree was awarded by Mansoura University, Egypt. Khaled has expertise in software development and data-driven platform, process modelling, and system integration. He has worked in various domains of software development and data management at four different UK universities across five different departments. Khaled developed the OMERO searchengine, enhanced system deployment processes and worked on modernizing legacy systems",
+          "sameAs": [
+            "https://github.com/khaledk2",
+            "https://orcid.org/0000-0003-1480-8695"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Will",
+          "familyName": "Moore",
+          "jobTitle": "Software Developer",
+          "description": "Will Moore came to Dundee as a cell biologist to do his PhD and then joined Jason's lab as a post-doc in 2003. Having got interested in the OME project from a user's point of view, he decided on a change of scene and left the lab to do an MSc in Applied Computing at Dundee University's School of Computing. He returned to the Swedlow lab for his MSc project. His goal was to make it easier for biologists to record their experimental metadata in a digital form. This was the start of the OMERO.editor development, which continued when he joined the lab as a developer in October 2007. His other interests include mountaineering, sailing and motorbiking.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-7264-8338",
+            "https://github.com/will-moore"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Petr",
+          "familyName": "Walczysko",
+          "jobTitle": "QA Software Specialist",
+          "description": "Petr Walczysko joined the OME project in October 2012 as a software specialist for testing and quality assurance. He studied at Charles University of Prague where he received Master of Science degree in Physics and the University of Freiburg in Germany where he received PhD in Biology. Throughout his PhD studies and his further career as a researcher he was intensively using conventional, confocal and multiphoton fluorescence microscopy applications on biological systems. He was adapting these optical microscopy techniques for particular biological problems, and also worked on the subsequent image analysis of microscopic images in a range of image analysis programs. He enjoys yoga, reading and chess.",
+          "sameAs": "https://github.com/pwalczysko"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Frances",
+          "familyName": "Wong",
+          "jobTitle": "Curator",
+          "description": "Frances Wong joined the OME team in September 2018 as a curator. She received her PhD in Developmental Biology from the University of Edinburgh. She then carried out post-doctoral research in molecular biology, genetics, genomics, neuroscience and biomedical imaging. She has also worked on atlas-based gene expression databases and created new online scientific resources.",
+          "sameAs": [
+            "https://orcid.org/0000-0001-7397-8251",
+            "https://github.com/francesw"
+          ]
+        }
+      ],
+      "alumni": [
+        {
+          "@type": "Person",
+          "name": "Jason Swedlow",
+          "givenName": "Jason",
+          "familyName": "Swedlow",
+          "jobTitle": "Co-Founder",
+          "description": "Jason Swedlow earned a BA in Chemistry from Brandeis University in 1982. He performed his PhD in Biophysics with Profs D. A. Agard and J. W. Sedat, finishing in 1994. Dr Swedlow was a postdoctoral fellow at UCSF and then Harvard Medical School from 1994 and 1998, supported by a Damon Runyon Walter Winchell Cancer Research Fund Fellowship from 1995 to 1997. In 1998, Dr Swedlow established his own laboratory at the Wellcome Trust Biocentre, University of Dundee, Scotland as a Principal Investigator and Wellcome Trust Career Development Fellow. He was awarded a Wellcome Trust Senior Fellowship in 2002, and named Professor of Quantitative Cell Biology in 2007. His lab focuses on studies of mitotic and interphase chromosome structure and dynamics. He is Co-Director of the Analytical and Quantitative Microscopy Course. He is co-founder of OME (along with Peter Sorger and Ilya Goldberg).",
+          "sameAs": [
+            "https://orcid.org/0000-0002-2198-1958",
+            "https://github.com/jrswedlow"
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "Chris Allan",
+          "sameAs": "https://github.com/chris-allan"
+        },
+        {
+          "@type": "Person",
+          "name": "Sébastien Besson",
+          "sameAs": [
+            "https://orcid.org/0000-0001-8783-1429",
+            "https://github.com/sbesson"
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "Colin Blackburn",
+          "sameAs": "https://github.com/ximenesuk"
+        },
+        {
+          "@type": "Person",
+          "name": "Mark Carroll",
+          "sameAs": "https://github.com/mtbc"
+        },
+        {
+          "@type": "Person",
+          "name": "Andrea Falconi",
+          "sameAs": "https://github.com/c0c0n3"
+        },
+        {
+          "@type": "Person",
+          "name": "Gus Ferguson",
+          "sameAs": "https://github.com/gusferguson"
+        },
+        {
+          "@type": "Person",
+          "name": "Helen Flynn",
+          "sameAs": "https://github.com/hflynn"
+        },
+        {
+          "@type": "Person",
+          "name": "Stefan Frank"
+        },
+        {
+          "@type": "Person",
+          "name": "David Gault",
+          "sameAs": "https://github.com/dgault"
+        },
+        {
+          "@type": "Person",
+          "name": "Kelli Griffis"
+        },
+        {
+          "@type": "Person",
+          "name": "Emma Hill"
+        },
+        {
+          "@type": "Person",
+          "name": "Kenny Gillen",
+          "sameAs": "https://github.com/kennethgillen"
+        },
+        {
+          "@type": "Person",
+          "name": "Riad Gozim",
+          "sameAs": "https://github.com/rgozim"
+        },
+        {
+          "@type": "Person",
+          "name": "Roger Leigh",
+          "sameAs": "https://github.com/rleigh-codelibre"
+        },
+        {
+          "@type": "Person",
+          "name": "Simone Leo",
+          "sameAs": "https://github.com/simleo"
+        },
+        {
+          "@type": "Person",
+          "name": "Simon Li",
+          "sameAs": "https://github.com/manics"
+        },
+        {
+          "@type": "Person",
+          "name": "Scott Littlewood",
+          "sameAs": "https://github.com/scottlittlewood"
+        },
+        {
+          "@type": "Person",
+          "name": "Brian Loranger"
+        },
+        {
+          "@type": "Person",
+          "name": "Scott Loynton"
+        },
+        {
+          "@type": "Person",
+          "name": "Donald MacDonald"
+        },
+        {
+          "@type": "Person",
+          "name": "June Matthew"
+        },
+        {
+          "@type": "Person",
+          "name": "Josh Moore",
+          "sameAs": "https://github.com/joshmoore"
+        },
+        {
+          "@type": "Person",
+          "name": "Andrew Patterson",
+          "sameAs": "https://github.com/qidane"
+        },
+        {
+          "@type": "Person",
+          "name": "Blazej Pindelski",
+          "sameAs": "https://github.com/bpindelski"
+        },
+        {
+          "@type": "Person",
+          "name": "Balaji Ramalingam",
+          "sameAs": "https://github.com/bramalingam"
+        },
+        {
+          "@type": "Person",
+          "name": "Gabriella Rustici"
+        },
+        {
+          "@type": "Person",
+          "name": "Aleksandra Tarkowska",
+          "sameAs": "https://github.com/atarkowska"
+        },
+        {
+          "@type": "Person",
+          "name": "Joyce Walsh"
+        },
+        {
+          "@type": "Person",
+          "name": "Harald Waxenegger",
+          "sameAs": "https://github.com/waxenegger"
+        },
+        {
+          "@type": "Person",
+          "name": "Simon Wells",
+          "sameAs": "https://github.com/siwells"
+        },
+        {
+          "@type": "Person",
+          "name": "Eleanor Williams",
+          "sameAs": "https://github.com/eleanorwilliams"
+        },
+        {
+          "@type": "Person",
+          "name": "Wilma Woudenberg"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "German BioImaging e.V",
+      "logo": "gerbi.png",
+      "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cosntance",
+            "addressCountry": "Germany"
+      },
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Stefanie",
+          "familyName": "Weidtkamp-Peters",
+          "jobTitle": "Chairperson",
+          "description": "Stefanie studied biology at the University of Würzburg. She finished her PhD under the supervision of PD Dr. Peter Hemmerich at the Fritz-Lipmann Institute of Age Research in Jena in 2007. From 2007 to 2011 she worked as a postdoctoral research fellow in the Molecular Physical Chemistry Department at Heinrich Heine University Düsseldorf, headed by Prof. Claus Seidel. She started building up the Center for Advanced Imaging (CAi) at the Heinrich Heine University of Düsseldorf (HHU) in 2011. CAi is the central imaging core facility of HHU and offers access to light and electron microscope systems, as well as support in image data management and image analysis by providing a local OMERO instance to all CAi users. Since 2021 Stefanie is the chair of board of German BioImaging e.V. – Society for Microscopy and Image Analysis and since 2023 she is the spokesperson of NFDI4BIOIMAGE, a consortium within the framework of NFDI, the national German research data infrastructure initiative. In her free time, she enjoys sailing.",
+          "sameAs": [
+            "https://orcid.org/0000-0001-7734-3771"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Janina",
+          "familyName": "Hanne",
+          "jobTitle": "Managing director",
+          "description": "Janina Hanne studied Molecular Biotechnologies in Heidelberg and did her PhD with Hans-Georg Kräusslich and Stefan Hell. After working for Abberior Instruments as Sales Manager and later Scientific Relations Manager she joined GerBI-GMB 2021. Janina takes pleasure in coordinating efforts that support and uplift the community. She enjoys gardening and being active in the forest next door on bike or foot.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-5332-3589"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Josh",
+          "familyName": "Moore",
+          "jobTitle": "Senior RDM Officer",
+          "description": "Josh Moore is an American developer living in Walluf, Germany, with his wife and two kids. With a background in machine learning and distributed computing, Josh began work on the OMERO Java server in the Spring of 2005 as part of the Swedlow Lab, after evaluating use of the OME Perl server for the Mitocheck project while in the iBios group at the DKFZ, Heidelberg, Germany. Before that he was a German-language pre-school teacher at a Montessori school in Alabama, of all things. He's a lisp-loving, Aikido-practicing, vegan with interests in RDF, HDF, and various other three letter acronyms.",
+          "sameAs": [
+            "https://orcid.org/0000-0003-4028-811x",
+            "https://github.com/joshmoore"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Tom",
+          "familyName": "Boissonnet",
+          "jobTitle": "Software Developer",
+          "description": "Tom Boissonnet completed his PhD at EMBL Rome in 2021, focusing on electrophysiological recordings of mouse retinal ganglion cells in vivo. During this time, he developed computational and data analysis skills and organized a programming club to share his passion for coding. In 2022, he joined the Center for Advanced Imaging at Heinrich Heine University, where he took over the administration of the local OMERO server and now supports facility users with their data management. He appreciates a clear night sky, especially when it coincides with his holidays, as it allows him to take pictures of stellar objects with his telescope.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-3328-9467",
+            "https://github.com/Tom-TBT"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Johannes",
+          "familyName": "Soltwedel",
+          "jobTitle": "Software Developer",
+          "description": "Johannes Soltwedel is a physicist by training and found his way into bio-image world and the life sciences through his PhD at the department for radio-oncology at the Center for Proton Therapy at the University Hospital Dresden, Germany. Then and during his subsequent position as bio-image analyst at Physics of Life (TU Dresden, Germany) he learned the intricacies of propper bio-image analysis, software development and the value of good research data management throughout a multitude of different collaborative projects. He is currently living in Dresden with his family and enjoys an ever-growing house plant collection, everything related to tinkering and 3d-printing as well as a good hike.",
+          "sameAs": [
+            "https://orcid.org/0000-0003-1273-2412",
+            "https://github.com/jo-mueller"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Tiago",
+          "familyName": "Lubiana",
+          "jobTitle": "Software Developer",
+          "description": "Tiago Lubiana joined German BioImaging in September 2025 as a software developer to contribute to the OME ecosystem. He earned his PhD in Bioinformatics from the University of São Paulo, Brazil, in 2024, where he focused on biocuration in the context of the Human Cell Atlas. His expertise includes linked open data and bio-data modelling in community initiatives such as the Cell Ontology and Wikidata. He also enjoys creating web apps that support the life sciences. When not working, Tiago values family time, nature walks, and learning about plants.",
+          "sameAs": [
+            "https://orcid.org/0000-0003-2473-2313",
+            "https://github.com/lubianat"
+          ]
+        }
+      ],
+      "alumni": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "BioImage Archive",
+      "logo": "bia.png",
+      "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hinxton",
+            "addressCountry": "UK"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "EMBL-EBI"
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Matthew",
+          "familyName": "Hartley",
+          "jobTitle": "Team Leader",
+          "description": "Matthew is the lead for EMBL-EBI’s big biological imaging data resources. These support both deposition of biological images associated with peer reviewed publications, and reuse of existing imaging data. Matthew has a first degree in Physics and PhD in Computational Neuroscience. Prior to joining EBI, Matthew led the Informatics team at the John Innes Centre, a research institute focussing on plant and microbial sciences. Matthew's background is in image analysis, numerical and statistical modelling and scientific data infrastructure. He enjoys reading, running and spending time with his family.",
+          "sameAs": [
+            "https://orcid.org/0000-0001-6178-2884",
+            "https://github.com/mrmh2"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Kola",
+          "familyName": "Babalola",
+          "jobTitle": "Software Developer",
+          "description": "Kola Babalola is a software developer at the BioImage Archive, where he focuses on backend pipelines for managing images and their associated metadata. His work includes developing pipelines to convert diverse image formats to OME-Zarr, staging data to S3 storage, and integrating browser-based viewers for visualisation of image data."
+        },
+        {
+          "@type": "Person",
+          "givenName": "Liviu",
+          "familyName": "Anita",
+          "jobTitle": "Software Developer",
+          "description": "Liviu Anita is a software developer in the BioImage Archive, working on web backend components and infrastructure. In his free time he enjoys running and electronics.",
+          "sameAs": [
+            "https://github.com/liviuba"
+          ]
+        }
+      ],
+      "alumni": []
+    }
+  ]
+}

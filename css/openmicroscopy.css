@@ -762,11 +762,11 @@ p.card-caption, span.card-caption {
 
 a.pmid::before { content: "PMID: "; }
 
-#team-swedlow > div.column {
+div[id$="-team-members"] > div.column {
     border: 1px solid transparent;
     padding-top: 15px;
 }
-#team-swedlow > div.column:hover {
+div[id$="-team-members"] > div.column:hover {
     background-color: #eceff1;
     border-color: #eceff1;
 }
