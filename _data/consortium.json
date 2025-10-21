@@ -7,7 +7,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Dundee",
+      "name": "University of Dundee",
+      "alternateName": "dundee",
       "logo": "uod.jpg",
       "address": {
             "@type": "PostalAddress",
@@ -259,6 +260,7 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "German BioImaging e.V",
+      "alternateName": "gerbi",
       "logo": "gerbi.png",
       "address": {
             "@type": "PostalAddress",
@@ -337,6 +339,7 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "BioImage Archive",
+      "alternateName": "bia",
       "logo": "bia.png",
       "address": {
             "@type": "PostalAddress",
@@ -385,7 +388,8 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Bio Vision Center",
-      "logo": "bvc.png",
+      "alternateName": "bvc",
+      "logo": "bvc.jpg",
       "address": {
             "@type": "PostalAddress",
             "addressLocality": "Zürich",

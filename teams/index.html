@@ -24,11 +24,11 @@ schemadotorg: consortium
 
         <div id="starting-point"/>{% for team in site.data.consortium.member %}
 
-        <!-- begin {{ team.name }} -->
+        <!-- begin {{ team.alternateName }} -->
 
         <hr class="whitespace">
-        <div id="{{ team.name }}-team" class="row">
-            <h2 class="text-center">{{ team.name }}</h2>
+        <div id="{{ team.alternateName }}-team" class="row">
+            <h2 class="text-center">{{ team.alternateName }}</h2>
             <div class="row small-12 medium-12 large-12">
                 <div class="small-6 small-offset-3 medium-2 medium-offset-4 columns"><img src="{{ site.baseurl }}/img/logos/{{ team.logo }}" alt="{{ team.name }} logo"></div>
                 <hr class="invisible show-for-small-only">
@@ -43,12 +43,12 @@ schemadotorg: consortium
         </div>
         <hr class="medium-10">
         <div class="row medium-12">
-            <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="{{ team.name }}-team-members">
+            <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="{{ team.alternateName }}-team-members">
                 {% for member in team.member %}
                 <div class="column">
                         <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
                         <h5>{{ member.givenName }} {{ member.familyName }}</h5>
-                        <a class="team-member" data-open="modal-{{ team.name }}-{{ forloop.index }}">
+                        <a class="team-member" data-open="modal-{{ team.alternateName }}-{{ forloop.index }}">
                             <span class="bio-link tiny button hollow">Read Bio</span>
                         </a>
                         <p class="job-title">{{ member.jobTitle }}
@@ -66,7 +66,7 @@ schemadotorg: consortium
                         </p>
 
 
-                      <div class="reveal" id="modal-{{ team.name }}-{{ forloop.index }}" data-reveal>
+                      <div class="reveal" id="modal-{{ team.alternateName }}-{{ forloop.index }}" data-reveal>
                       <h4 class="text-center">{{ member.givenName }} {{ member.familyName }}</h4>
                       <p class="job-title">{{ member.jobTitle }}</p>
                       <hr>
@@ -79,7 +79,7 @@ schemadotorg: consortium
                 {% endfor %}
             </div>
         </div>
-        <!-- end {{ team.name }} -->
+        <!-- end {{ team.alternateName }} -->
 
         {% endfor %}
 
