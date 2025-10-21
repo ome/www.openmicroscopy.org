@@ -380,6 +380,56 @@
         }
       ],
       "alumni": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Bio Vision Center",
+      "logo": "bvc.png",
+      "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Zürich",
+            "addressCountry": "CH"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "University of Zürich"
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Virginie",
+          "familyName": "Uhlmann",
+          "jobTitle": "Director",
+          "description": "Virginie Uhlmann studied Bioengineering at EPFL (Lausanne, Switzerland) and continued there  with a PhD in Electrical Engineering under the supervision of Prof Michael Unser, which she completed in 2017. She was appointed Research Group Leader at the European Bioinformatics Institute (Cambridge, UK) in 2018 and established her independant research group focusing on the development of aproaches to quantify, describe, and model objects observed in microscopy image data. In 2024, she moved to the University of Zurich (Zurich, Switzerland) where she continues her research activities and leads the BioVisionCenter, a newly-created structure that develops open-source tools leveraging OME-Zarr for the processing of complex bioimage datasets. Her main research interest is quantitative bioimage analysis, with a focus in approximation theory, machine learning, computational geometry, and statistical shape analysis. Aside from research, she is passionate about building bioimage analysis capacity, connecting together the various scientific communities interested in bioimaging, and spending time with her two birds.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-2859-9241"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Joel",
+          "familyName": "Lüthi",
+          "jobTitle": "Head of R&D",
+          "description": "Joel Lüthi completed his PhD in Systems Biology at the University of Zurich in 2022 with a focus on 3D image analysis in cardiac differentiation models. He learned to struggle with TB-scale datasets and how to perform image analysis on them. Motivated by that, he started working on workflow management and image visualisation tools. After his PhD, he started the Fractal project for bioimage analysis using OME-Zarrs, first at the Friedrich Miescher Institute for Biomedical Research and continuing in summer 2023 at the BioVisionCenter of the University of Zurich. He is based a bit outside of Zurich and enjoys biking everywhere, no matter the weather.",
+          "sameAs": [
+            "https://orcid.org/0000-0003-3023-170X"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Lorenzo",
+          "familyName": "Cerrone",
+          "jobTitle": "Research Software Engineer",
+          "description": "Lorenzo Cerrone earned his PhD in Physics from the University of Heidelberg in 2023, where he specialized in developing deep learning methods for image analysis. During his doctoral research, he created PlantSeg, a widely adopted tool for cell instance segmentation, which ignited his passion for building powerful yet user-friendly open-source software. He is now a Research Software Engineer at the BioVisionCenter in Zurich, where he develops Python tools for scalable image analysis workflows with OME-Zarr as part of the Fractal framework. Outside of work, Lorenzo enjoys exploring his two main passions: cooking and spending time with his dog.",
+          "sameAs": [
+            "https://orcid.org/0000-0001-7337-2313"
+          ]
+        }
+      ],
+      "alumni": []
     }
   ]
 }
