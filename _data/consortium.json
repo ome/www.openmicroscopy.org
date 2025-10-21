@@ -340,7 +340,7 @@
       "@type": "Organization",
       "name": "BioImage Archive",
       "alternateName": "bia",
-      "logo": "bia.png",
+      "logo": "bia.jpg",
       "address": {
             "@type": "PostalAddress",
             "addressLocality": "Hinxton",
