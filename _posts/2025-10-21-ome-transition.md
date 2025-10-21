@@ -54,3 +54,5 @@ directions. The work ahead is full of promise, and I look forward to watching
 OME’s future successes from a different perspective.
 
 Jason Swedlow
+
+*This post is available on [image.sc](https://forum.image.sc/t/ome-transition-update/117191) for comments.*
