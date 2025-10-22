@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Teams
-meta_description: Meet the team members who make up OME, developed as a joint project between research-active teams in universities and institutes across Europe and the United States.
+meta_description: Meet the team members who make up OME, developed as a joint project between research-active teams in universities and institutes globally.
 
-schemadotorg: swedlowlab
+schemadotorg: consortium
 ---
         <!-- begin MapBox -->
         <header class="marketing-hero" id="bg-image-teams">
@@ -16,34 +16,39 @@ schemadotorg: swedlowlab
                         across Europe and the United States.
                     </p>
                     <br>
-                    <a href="{{ site.baseurl }}/teams/index.html#swedlow-lab" class="large button sites-button hide-for-small-only btn-red">Meet the Teams</a>
+                    <a href="{{ site.baseurl }}/teams/index.html#starting-point" class="large button sites-button hide-for-small-only btn-red">Meet the Teams</a>
                 </div>
             </div>
         </header>
         <!-- end MapBox -->
 
-        <!-- begin Swedlow Lab -->
+        <div id="starting-point"/>{% for team in site.data.consortium.member %}
+
+        <!-- begin {{ team.alternateName }} -->
+
         <hr class="whitespace">
-        <div id="swedlow-lab" class="row">
-            <h2 class="text-center">Swedlow Lab</h2>
+        <div id="{{ team.alternateName }}-team" class="row">
+            <h2 class="text-center">{{ team.name }}</h2>
             <div class="row small-12 medium-12 large-12">
-                <div class="small-6 small-offset-3 medium-2 medium-offset-4 columns"><img src="{{ site.baseurl }}/img/logos/uod.jpg" alt="University of Dundee logo"></div>
+                <div class="small-6 small-offset-3 medium-2 medium-offset-4 columns"><img src="{{ site.baseurl }}/img/logos/{{ team.logo }}" alt="{{ team.name }} logo"></div>
                 <hr class="invisible show-for-small-only">
-                <div class="small-10 medium-6 columns"><h6>Professor Jason Swedlow
-                <br>Division of Computational Biology
-                <br>School of Life Sciences
-                <br>University of Dundee
-                <br>United Kingdom</h6></div>
+                <div class="small-10 medium-6 columns"><h6>
+                        {% if team.memberOf %}{{ team.memberOf.name }}<br>{% endif %}
+                        {% for address in team.address limit: 1 %}
+                        {{ address.addressLocality }}<br>
+                        {{ address.addressCountry }}<br>
+                        {% endfor %}
+                    </h6></div>
             </div>
         </div>
         <hr class="medium-10">
         <div class="row medium-12">
-            <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="team-swedlow">
-                {% for member in site.data.swedlowlab.member %}
+            <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="{{ team.alternateName }}-team-members">
+                {% for member in team.member %}
                 <div class="column">
                         <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
                         <h5>{{ member.givenName }} {{ member.familyName }}</h5>
-                        <a class="team-member" data-open="modal-swedlow-{{ forloop.index }}">
+                        <a class="team-member" data-open="modal-{{ team.alternateName }}-{{ forloop.index }}">
                             <span class="bio-link tiny button hollow">Read Bio</span>
                         </a>
                         <p class="job-title">{{ member.jobTitle }}
@@ -61,7 +66,7 @@ schemadotorg: swedlowlab
                         </p>
 
 
-                    <div class="reveal" id="modal-swedlow-{{ forloop.index }}" data-reveal>
+                      <div class="reveal" id="modal-{{ team.alternateName }}-{{ forloop.index }}" data-reveal>
                       <h4 class="text-center">{{ member.givenName }} {{ member.familyName }}</h4>
                       <p class="job-title">{{ member.jobTitle }}</p>
                       <hr>
@@ -74,72 +79,22 @@ schemadotorg: swedlowlab
                 {% endfor %}
             </div>
         </div>
-        <!-- end Swedlow Lab -->
+        <!-- end {{ team.alternateName }} -->
 
-        <!-- begin GerBI -->
-        <hr class="whitespace">
-        <div id="gerbi" class="row">
-            <h2 class="text-center">German BioImaging e.V.</h2>
-            <div class="row small-12 medium-12 large-12">
-                <div class="small-6 small-offset-3 medium-2 medium-offset-4 columns"><img src="{{ site.baseurl }}/img/logos/gerbi.png" alt="German BioImaging logo"></div>
-                <hr class="invisible show-for-small-only">
-                <div class="small-10 medium-6 columns"><h6>Gesellschaft für Mikroskopie und Bildanalyse
-                <br><a href="https://gerbi-gmb.de/">https://gerbi-gmb.de/</a>
-                <br><a href="https://ror.org/05tpnw772">https://ror.org/05tpnw772</a>
-                <br>Konstanz
-                <br>Germany</h6></div>
-            </div>
-        </div>
-        <hr class="medium-10">
-        <div class="row medium-12">
-            <div class="row small-up-2 medium-up-3 large-up-6 text-center" id="team-gerbi">
-                {% for member in site.data.gerbi.member %}
-                <div class="column">
-                        <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
-                        <h5>{{ member.givenName }} {{ member.familyName }}</h5>
-                        <a class="team-member" data-open="modal-gerbi-{{ forloop.index }}">
-                            <span class="bio-link tiny button hollow">Read Bio</span>
-                        </a>
-                        <p class="job-title">{{ member.jobTitle }}
-                        {% for sameAs in member.sameAs %}
-                        {% if sameAs contains "orcid.org" %}
-                        <a href="{{ sameAs }}">
-                            <img alt="ORCID logo"
-                             src="{{ site.baseurl }}/img/logos/3rd-party_orcid.svg"
-                             width="16" height="16" />
-                        </a>
-                        {% elsif sameAs contains "github.com" %}
-                        <a href="{{ sameAs }}" target="_blank"><img src="{{ site.baseurl }}/img/logos/3rd-party-GitHub-Mark-32px.png" width="16" height="16" alt="GitHub Logo" /></a>
-                        {% endif %}
-                        {% endfor %}
-                        </p>
+        {% endfor %}
 
-
-                    <div class="reveal" id="modal-gerbi-{{ forloop.index }}" data-reveal>
-                      <h4 class="text-center">{{ member.givenName }} {{ member.familyName }}</h4>
-                      <p class="job-title">{{ member.jobTitle }}</p>
-                      <hr>
-                      <p>{{ member.description }}</p>
-                      <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        <!-- end GerBI -->
-
+        {% for team in site.data.consortium.member %}
+        {% if team.alumni.size != 0 %}
          <!-- begin Former team members -->
             <hr class="whitespace">
             <div class="row text-center">
                 <div class="small-12 columns">
-                    <h3>Former members of the OME team in Dundee</h3>
+                    <h3>Former members of the {{ team.name }} team</h3>
                 </div>
             </div>
             <hr>
             <div class="row medium-up-2 large-up-3 contributors-list">
-                {% for alumni in site.data.swedlowlab.alumni %}
+                {% for alumni in team.alumni %}
                 <div class="large-expand columns">
                 {{ alumni.name }}
                 {% for sameAs in alumni.sameAs %}
@@ -159,5 +114,7 @@ schemadotorg: swedlowlab
             </div>
             <hr class="whitespace">
             <!-- end Former OME Team Members -->
+          {% endif %}
+        {% endfor %}
 
         <hr class="whitespace">
