@@ -9,18 +9,18 @@
       "@type": "Organization",
       "name": "University of Dundee",
       "alternateName": "dundee",
+      "sameAs": "https://www.dundee.ac.uk",
       "logo": "uod.jpg",
       "address": {
             "@type": "PostalAddress",
-            "description": "School of Life Sciences",
-            "addressLocality": "Seattle",
-            "addressRegion": "WA",
+            "addressLocality": "Dundee",
+            "addressRegion": "Scotland",
             "addressCountry": "United Kingdom"
       },
       "memberOf": [
         {
           "@type": "Organization",
-          "name": "University of Dundee"
+          "name": "School of Life Sciences"
         }
       ],
       "member": [
@@ -261,12 +261,19 @@
       "@type": "Organization",
       "name": "German BioImaging e.V",
       "alternateName": "gerbi",
+      "sameAs": "https://www.gerbi-gmb.de",
       "logo": "gerbi.png",
       "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Cosntance",
+            "addressLocality": "Constance",
             "addressCountry": "Germany"
       },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Research Data Management"
+        }
+      ],
       "member": [
         {
           "@type": "Person",
@@ -340,7 +347,8 @@
       "@type": "Organization",
       "name": "BioImage Archive",
       "alternateName": "bia",
-      "logo": "bia.jpg",
+      "logo": "bia.png",
+      "sameAs": "https://www.ebi.ac.uk/bioimage-archive/",
       "address": {
             "@type": "PostalAddress",
             "addressLocality": "Hinxton",
@@ -390,6 +398,7 @@
       "name": "Bio Vision Center",
       "alternateName": "bvc",
       "logo": "bvc.jpg",
+      "sameAs": "https://www.biovisioncenter.uzh.ch/en.html",
       "address": {
             "@type": "PostalAddress",
             "addressLocality": "Zürich",
