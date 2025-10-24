@@ -277,16 +277,6 @@
       "member": [
         {
           "@type": "Person",
-          "givenName": "Stefanie",
-          "familyName": "Weidtkamp-Peters",
-          "jobTitle": "Chairperson",
-          "description": "Stefanie studied biology at the University of Würzburg. She finished her PhD under the supervision of PD Dr. Peter Hemmerich at the Fritz-Lipmann Institute of Age Research in Jena in 2007. From 2007 to 2011 she worked as a postdoctoral research fellow in the Molecular Physical Chemistry Department at Heinrich Heine University Düsseldorf, headed by Prof. Claus Seidel. She started building up the Center for Advanced Imaging (CAi) at the Heinrich Heine University of Düsseldorf (HHU) in 2011. CAi is the central imaging core facility of HHU and offers access to light and electron microscope systems, as well as support in image data management and image analysis by providing a local OMERO instance to all CAi users. Since 2021 Stefanie is the chair of board of German BioImaging e.V. – Society for Microscopy and Image Analysis and since 2023 she is the spokesperson of NFDI4BIOIMAGE, a consortium within the framework of NFDI, the national German research data infrastructure initiative. In her free time, she enjoys sailing.",
-          "sameAs": [
-            "https://orcid.org/0000-0001-7734-3771"
-          ]
-        },
-        {
-          "@type": "Person",
           "givenName": "Janina",
           "familyName": "Hanne",
           "jobTitle": "Managing director",
@@ -299,22 +289,11 @@
           "@type": "Person",
           "givenName": "Josh",
           "familyName": "Moore",
-          "jobTitle": "Senior RDM Officer",
+          "jobTitle": "Technical Director",
           "description": "Josh Moore is an American developer living in Walluf, Germany, with his wife and two kids. With a background in machine learning and distributed computing, Josh began work on the OMERO Java server in the Spring of 2005 as part of the Swedlow Lab, after evaluating use of the OME Perl server for the Mitocheck project while in the iBios group at the DKFZ, Heidelberg, Germany. Before that he was a German-language pre-school teacher at a Montessori school in Alabama, of all things. He's a lisp-loving, Aikido-practicing, vegan with interests in RDF, HDF, and various other three letter acronyms.",
           "sameAs": [
             "https://orcid.org/0000-0003-4028-811x",
             "https://github.com/joshmoore"
-          ]
-        },
-        {
-          "@type": "Person",
-          "givenName": "Tom",
-          "familyName": "Boissonnet",
-          "jobTitle": "Software Developer",
-          "description": "Tom Boissonnet completed his PhD at EMBL Rome in 2021, focusing on electrophysiological recordings of mouse retinal ganglion cells in vivo. During this time, he developed computational and data analysis skills and organized a programming club to share his passion for coding. In 2022, he joined the Center for Advanced Imaging at Heinrich Heine University, where he took over the administration of the local OMERO server and now supports facility users with their data management. He appreciates a clear night sky, especially when it coincides with his holidays, as it allows him to take pictures of stellar objects with his telescope.",
-          "sameAs": [
-            "https://orcid.org/0000-0002-3328-9467",
-            "https://github.com/Tom-TBT"
           ]
         },
         {
@@ -339,6 +318,49 @@
             "https://github.com/lubianat"
           ]
         }
+      ],
+      "alumni": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Center for Advanced Imaging",
+      "alternateName": "cai",
+      "sameAs": "https://www.cai.hhu.de/",
+      "logo": "cai.jpg",
+      "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Düsseldorf",
+            "addressCountry": "Germany"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Heinrich-Heine-Universität Düsseldorf"
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Stefanie",
+          "familyName": "Weidtkamp-Peters",
+          "jobTitle": "Managing Director and Chair of GerBI",
+          "description": "Stefanie studied biology at the University of Würzburg. She finished her PhD under the supervision of PD Dr. Peter Hemmerich at the Fritz-Lipmann Institute of Age Research in Jena in 2007. From 2007 to 2011 she worked as a postdoctoral research fellow in the Molecular Physical Chemistry Department at Heinrich Heine University Düsseldorf, headed by Prof. Claus Seidel. She started building up the Center for Advanced Imaging (CAi) at the Heinrich Heine University of Düsseldorf (HHU) in 2011. CAi is the central imaging core facility of HHU and offers access to light and electron microscope systems, as well as support in image data management and image analysis by providing a local OMERO instance to all CAi users. Since 2021 Stefanie is the chair of board of German BioImaging e.V. – Society for Microscopy and Image Analysis and since 2023 she is the spokesperson of NFDI4BIOIMAGE, a consortium within the framework of NFDI, the national German research data infrastructure initiative. In her free time, she enjoys sailing.",
+          "sameAs": [
+            "https://orcid.org/0000-0001-7734-3771"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Tom",
+          "familyName": "Boissonnet",
+          "jobTitle": "Software Developer",
+          "description": "Tom Boissonnet completed his PhD at EMBL Rome in 2021, focusing on electrophysiological recordings of mouse retinal ganglion cells in vivo. During this time, he developed computational and data analysis skills and organized a programming club to share his passion for coding. In 2022, he joined the Center for Advanced Imaging at Heinrich Heine University, where he took over the administration of the local OMERO server and now supports facility users with their data management. He appreciates a clear night sky, especially when it coincides with his holidays, as it allows him to take pictures of stellar objects with his telescope.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-3328-9467",
+            "https://github.com/Tom-TBT"
+          ]
+        },
       ],
       "alumni": []
     },
