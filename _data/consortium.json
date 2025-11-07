@@ -400,16 +400,6 @@
           "familyName": "Babalola",
           "jobTitle": "Software Developer",
           "description": "Kola Babalola is a software developer at the BioImage Archive, where he focuses on backend pipelines for managing images and their associated metadata. His work includes developing pipelines to convert diverse image formats to OME-Zarr, staging data to S3 storage, and integrating browser-based viewers for visualisation of image data."
-        },
-        {
-          "@type": "Person",
-          "givenName": "Liviu",
-          "familyName": "Anita",
-          "jobTitle": "Software Developer",
-          "description": "Liviu Anita is a software developer in the BioImage Archive, working on web backend components and infrastructure. In his free time he enjoys running and electronics.",
-          "sameAs": [
-            "https://github.com/liviuba"
-          ]
         }
       ],
       "alumni": []
