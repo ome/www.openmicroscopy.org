@@ -1,0 +1,55 @@
+---
+layout: security-advisory
+filename: security
+title: GHSA-j4gv-6x9v-v23g ("jquery-form library may be vulnerable to XSS attack")
+main-blurb: Affects OMERO.web <=5.29.2
+---
+        <!-- begin SecVul -->
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">jquery-form library may be vulnerable to XSS attack</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    OMERO.web uses the jquery-form library throughout to handle form submission and response processing.
+                    Due to some unpatched potential vulnerabilities in jquery-form, OMERO.web 5.29.2 and earlier may be
+                    susceptible to XSS attacks.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.web <=5.29.2</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Low severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    All OMERO.web deployments should be upgraded to at least 5.29.3.
+                </p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
