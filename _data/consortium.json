@@ -328,6 +328,17 @@
             "https://orcid.org/0000-0002-1296-7310",
             "https://github.com/clbarnes"
           ]
+        },
+		{
+          "@type" : "Person",
+          "description" : "Damien Goutte-Gattat is a former cell biologist and biocurator turned into a software developer. After completing his PhD in Grenoble, France, in 2011, he moved successively to Bordeaux (still France) and London, UK, where he enjoyed doing a lot of imaging on Drosophila tissues. In 2021, he stepped away from being a wet lab scientist and instead became a biocurator for FlyBase.org, the model organism database for fruit flies, where in addition to his biocuration duties he inadvertently became heavily involved in the development of several ontology-related tools such as the Ontology Development Kit, Protégé, or SSSOM. In December 2025 he joined German BioImaging to combine his interests for microscopy, free software, and metadata management. He is a digital privacy advocate, and is a frequent speaker at London Crypto-Parties.",
+          "familyName" : "Goutte-Gattat",
+          "givenName" : "Damien",
+          "jobTitle" : "Software Developer",
+          "sameAs" : [
+            "https://orcid.org/0000-0002-6095-8718",
+            "https://github.com/gouttegd"
+          ]
         }
       ],
       "alumni": []
