@@ -317,6 +317,28 @@
             "https://orcid.org/0000-0003-2473-2313",
             "https://github.com/lubianat"
           ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Chris",
+          "familyName": "Barnes",
+          "jobTitle": "Software Developer",
+          "description": "Chris Barnes is a research software engineer with a background in neuroscience, systems biology, and connectomics from the University of Cambridge, MRC Cognition and Brain Sciences Unit, MRC Laboratory of Molecular Biology, and HHMI Janelia Research Campus. He joined German BioImaging in November 2025 to further the OME-Zarr metadata specification and its implementations, particularly in Python and Rust. He is currently based in Cambridge, UK, where he also competes in disc sports, plays tabletop RPGs, and listens to heavy metal music.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-1296-7310",
+            "https://github.com/clbarnes"
+          ]
+        },
+		{
+          "@type" : "Person",
+          "description" : "Damien Goutte-Gattat is a former cell biologist and biocurator turned into a software developer. After completing his PhD in Grenoble, France, in 2011, he moved successively to Bordeaux (still France) and London, UK, where he enjoyed doing a lot of imaging on Drosophila tissues. In 2021, he stepped away from being a wet lab scientist and instead became a biocurator for FlyBase.org, the model organism database for fruit flies, where in addition to his biocuration duties he inadvertently became heavily involved in the development of several ontology-related tools such as the Ontology Development Kit, Protégé, or SSSOM. In December 2025 he joined German BioImaging to combine his interests for microscopy, free software, and metadata management. He is a digital privacy advocate, and is a frequent speaker at London Crypto-Parties.",
+          "familyName" : "Goutte-Gattat",
+          "givenName" : "Damien",
+          "jobTitle" : "Software Developer",
+          "sameAs" : [
+            "https://orcid.org/0000-0002-6095-8718",
+            "https://github.com/gouttegd"
+          ]
         }
       ],
       "alumni": []
@@ -360,7 +382,7 @@
             "https://orcid.org/0000-0002-3328-9467",
             "https://github.com/Tom-TBT"
           ]
-        },
+        }
       ],
       "alumni": []
     },
