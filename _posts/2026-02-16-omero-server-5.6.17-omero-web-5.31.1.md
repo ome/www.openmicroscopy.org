@@ -9,7 +9,7 @@ bugfixes to the UI and backend improvements.
 
 ### OMERO.server 5.6.17
 
-This bug-fix release of OMERO.server which includes:
+This bug-fix release of OMERO.server includes:
 
 -   an upgrade of Bio-Formats from 8.2.0 to 8.4.0. The new version will invalidate previous Bio-Formats
     cache files. Please refer to the
