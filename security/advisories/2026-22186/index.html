@@ -1,0 +1,71 @@
+---
+layout: security-advisory
+filename: security
+title: CVE-2026-22186 ("Bio-Formats <= 8.3.0 XXE in Leica XLEF Metadata Parser")
+main-blurb: Affects Bio-Formats <= 8.4.0
+---
+        <!-- begin SecVul -->
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Bio-Formats up to 8.4.0 contains an XML External Entity (XXE) vulnerability.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    Bio-Formats up to 8.4.0 contains an XML External Entity (XXE) vulnerability. The issue is caused by an insecurely configured DocumentBuilderFactory that allows external entity resolution and external DTD loading when parsing user-supplied XML metadata.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Bio-Formats <= 8.4.0</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">Moderate severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-lightbulb-o"></i> Workaround</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    N/A
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    Bio-Formats should be upgraded to at least 8.5.0.
+                </p>
+            </div>
+        </div>
+                <div class="secvul-row row">
+                <div class="small-12 medium-3 columns">
+                    <h3 class="secvul-heading"><i class="fa fa-star"></i> Thanks</h3>
+                </div>
+                <div class="small-12 medium-9 columns">
+                    <p class="secvul-description">Beatriz Fresno Naumova for notifying the OME team of this security issue via <code>security@openmicroscopy.org</code>. </p>
+                </div>
+            </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
