@@ -69,7 +69,7 @@ formats. These are scheduled to be Becker & Hickl SPC and Princeton
 Instruments SPE. We are currently working on the readers for these and would
 greatly appreciate sample files if you have any to help us with testing (you
 can submit files via our
-[QA system](http://qa.openmicroscopy.org.uk/qa/upload/) or get in touch on our
+[QA system](https://zenodo.org/communities/bio-formats) or get in touch on our
 [mailing lists](https://www.openmicroscopy.org/site/community/mailing-lists)
 for details on how to submit larger files).
 
