@@ -16,7 +16,7 @@ the Java Development Kit (JDK) into separate distributions.
 With the release of Java 25 in September 2025, there are now four Java LTS
 releases more recent than Java 8: Java 11, Java 17, Java 21 and Java 25.
 The OpenJDK 8 builds will remain supported on some distributions like
-Azul Zulu and Eclipse Temurin until 2030, but other vendor distributsions
+Azul Zulu and Eclipse Temurin until 2030, but other vendor distributions
 like RedHat or Oracle have dropped or are in the process of dropping support
 for OpenJDK 8 and 11. We are seeing an increasing number of libraries &
 applications dropping support for Java 8.
