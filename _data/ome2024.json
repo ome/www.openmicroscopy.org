@@ -216,9 +216,9 @@
                   "familyName": "Wolstencroft",
                   "affiliation": {
                     "@type": "Organization",
-                    "name": "Leiden University"
+                    "name": "Amsterdam UMC"
                   },
-                  "sameAs": "https://liacs.leidenuniv.nl/~wolstencroftkj/"
+                  "sameAs": "https://www.amsterdamumc.org/en/research/researchers/katy-wolstencroft"
                 }
               ]
             },
@@ -728,9 +728,9 @@
           "familyName": "Wolstencroft",
           "affiliation": {
             "@type": "Organization",
-            "name": "Leiden University"
+            "name": "Amsterdam UMC"
           },
-          "sameAs": "https://liacs.leidenuniv.nl/~wolstencroftkj/"
+          "sameAs": "https://www.amsterdamumc.org/en/research/researchers/katy-wolstencroft"
         },
         {
           "@type": "Person",

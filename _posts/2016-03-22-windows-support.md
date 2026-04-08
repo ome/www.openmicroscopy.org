@@ -28,7 +28,7 @@ reasons for this decision are outlined below.
 
 ## Ever-increasing technical challenges
 
-Our Continuous Integration (CI) system uses [Travis](https://travis-ci.org/)
+Our Continuous Integration (CI) system uses [GitHub Actions](https://github.com/features/actions)
 and allows the OME Consortium’s work to be built and tested on a per-commit
 basis. One of the challenges of running OME’s CI system is including tests for
 the numerous products we release, across  several operating systems with
