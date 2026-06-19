@@ -1,0 +1,32 @@
+---
+title: Governance
+filename: governance
+main-blurb: Governance documents for the OME Consortium
+---
+
+        <!-- begin Post -->
+        <div class="callout large primary" id="bg-image-announcements">
+            <div class="row column text-center">
+                <h1>{{page.title}}</h1>
+                <p>{{page.intro-blurb}}</p>
+            </div>
+        </div>
+        <hr class="invisible">        
+        <div class="text-center">
+            <a id="back-to-top" href="{{ site.baseurl }}/about/"><i class="fa fa-arrow-left"></i> back to About</a>
+        </div>
+
+        <hr class="whitespace">
+
+        <div id="gov-docs" class="row">
+{% assign sorted = site.governance | reverse %}
+{% for gov in sorted %}
+  {% unless gov.name contains "readme" %}
+            <div class="small-12 medium-8 medium-offset-2 columns">
+                <h2><a href="{{ gov.url | relative_url }}">{{gov.title}}</a></h2>
+                <h6>{{gov.description}}</h6>
+                <div class="row"></div>
+            </div>
+            <hr class="medium-8">
+  {% endunless %}
+{% endfor %}
