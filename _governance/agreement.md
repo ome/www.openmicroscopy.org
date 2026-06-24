@@ -1,7 +1,0 @@
----
-title: Agreement
----
-
-# Test
-
-foo
