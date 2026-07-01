@@ -6,4 +6,4 @@
 	url = https://github.com/ome/schemas
 [submodule "_governance"]
 	path = _governance
-	url = https://github.com/joshmoore/ome-governance
+	url = https://github.com/ome/governance.git
