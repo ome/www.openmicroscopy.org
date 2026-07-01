@@ -1,0 +1,50 @@
+---
+title: Governance
+filename: governance
+main-blurb: Governance documents for the OME Consortium
+---
+
+        <!-- begin Post -->
+        <div class="callout large primary" id="bg-image-announcements">
+            <div class="row column text-center">
+                <h1>{{page.title}}</h1>
+                <p>{{page.intro-blurb}}</p>
+            </div>
+        </div>
+        <hr class="invisible">
+        <div class="text-center">
+            <a id="back-to-top" href="{{ site.baseurl }}/about/"><i class="fa fa-arrow-left"></i> back to About</a>
+        </div>
+
+        <hr class="invisible">
+
+        <div id="gov-docs" class="row">
+            <hr class="whitespace">
+            <div class="small-12 medium-8 medium-offset-2 columns">
+                Governance is organized as a simple hierarchy. At the top, the
+                <a href="participation-agreement/">Participation Agreement</a>
+                defines the overall expectations for collaborators across the
+                community. The OME Management Group (OMG), described by the
+                <a href="charter"/>charter</a> and <a href="management-group">roster</a>,
+                provides lightweight oversight and coordination across OME
+                Registered Projects (ORPs), which are listed in the
+                <a href="projects">Project Roster</a>. Each project then
+                defines its own scope and participants via an ORP Charter
+                and ORP Roster, starting from a shared template. This
+                layered approach keeps governance simple at the top while
+                allowing more structure where it is needed in practice.
+            </div>
+            <hr class="whitespace">
+            <hr class="medium-8">
+        </div>
+{% assign sorted = site.governance %}
+{% for gov in sorted %}
+  {% unless gov.name contains "readme" %}
+            <div class="small-12 medium-8 medium-offset-2 columns">
+                <h2><a href="{{ gov.url | relative_url }}">{{gov.title}}</a></h2>
+                <h6>{{gov.description}}</h6>
+                <div class="row"></div>
+            </div>
+            <hr class="medium-8">
+  {% endunless %}
+{% endfor %}

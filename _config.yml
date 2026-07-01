@@ -15,7 +15,14 @@ paginate_path: "/announcements/page:num/"
 collections:
     minutes:
         output: true
+    governance:
+        output: true
 defaults:
+  - scope:
+      path: "_governance"
+      type: "governance"
+    values:
+      layout: "governance"
   - scope:
       path: "_minutes"
       type: "minutes"
