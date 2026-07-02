@@ -17,6 +17,11 @@ All content is released under
 
 ## Building
 
+First make sure you have submodules (governance pages) checked out:
+
+    $ git submodule init
+    $ git submodule update
+
 You can build and serve the pages using Jekyll and Docker with:
 
     $ ./docker_startup.sh
