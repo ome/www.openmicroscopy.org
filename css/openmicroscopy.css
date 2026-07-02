@@ -282,6 +282,7 @@ h3.subdivider {
     font-weight: 500;
     text-rendering: optimizeLegibility;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .menu-subnav li a:hover, .menu-subnav li a.is-active {
