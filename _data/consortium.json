@@ -477,6 +477,88 @@
         }
       ],
       "alumni": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Glencoe Software",
+      "alternateName": "glencoe",
+      "logo": "glencoe-software.svg",
+      "sameAs": "https://www.glencoesoftware.com/",
+      "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Washington",
+            "addressCountry": "USA"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": ""
+        }
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Erin",
+          "familyName": "Diel",
+          "jobTitle": "Co-President",
+          "description": "",
+          "sameAs": [
+            "https://orcid.org/0000-0003-2526-3512"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Emil",
+          "familyName": "Rozbicki",
+          "jobTitle": "Co-President",
+          "description": "",
+          "sameAs": [
+            ""
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Chris",
+          "familyName": "Allan",
+          "jobTitle": "VP Software Engineering",
+          "description": "",
+          "sameAs": [
+            "https://orcid.org/0000-0002-8151-4059"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Sébastien",
+          "familyName": "Besson",
+          "jobTitle": "Senior Software Developer",
+          "description": "",
+          "sameAs": [
+            "https://orcid.org/0000-0001-8783-1429"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Melissa",
+          "familyName": "Linkert",
+          "jobTitle": "Senior Software Developer",
+          "description": "",
+          "sameAs": [
+            ""
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Andreas",
+          "familyName": "Knab",
+          "jobTitle": "Senior Software Developer",
+          "description": "",
+          "sameAs": [
+            ""
+          ]
+        }
+      ],
+      "alumni": []
     }
   ]
 }
