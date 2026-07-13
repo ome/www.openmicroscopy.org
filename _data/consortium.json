@@ -490,12 +490,6 @@
             "addressLocality": "Washington",
             "addressCountry": "USA"
       },
-      "memberOf": [
-        {
-          "@type": "Organization",
-          "name": ""
-        }
-      ],
       "member": [
         {
           "@type": "Person",
