@@ -477,6 +477,82 @@
         }
       ],
       "alumni": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Glencoe Software",
+      "alternateName": "glencoe",
+      "logo": "glencoe-software.svg",
+      "sameAs": "https://www.glencoesoftware.com/",
+      "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Washington",
+            "addressCountry": "USA"
+      },
+      "member": [
+        {
+          "@type": "Person",
+          "givenName": "Erin",
+          "familyName": "Diel",
+          "jobTitle": "Co-President",
+          "description": "Erin Diel joined Glencoe Software in July 2020 as an Applications Specialist. She then served as Glencoe’s Head of Product for 3 years before being named as Co-President with Emil. She is a neuroscientist with an interest in microscopy, neuroanatomy and auditory processing. She received a PhD in Biochemistry from Harvard University in 2018 then remained at Harvard to work as an Imaging Specialist in the Harvard Center for Biological Imaging and teach “The Musical Brain: How the Brain Processes Sound and Creates Music.” Although originally from Kansas City, she has enjoyed living and running in Boston since 2012 with her wife and their cats.",
+          "sameAs": [
+            "https://orcid.org/0000-0003-2526-3512"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Emil",
+          "familyName": "Rozbicki",
+          "jobTitle": "Co-President",
+          "description": "Emil Rozbicki joined Glencoe Software in October 2013 as an Applications Specialist. He then worked as Glencoe’s Head of Applications for almost 5 years before being named as Co-President with Erin. Emil is a physicist interested in computational physics, biophysics and bioengineering. He received MSc in theoretical solid state physics from Wroclaw University of Technology in 2007 and PhD in experimental solid state physics from University of St Andrews in 2011. He worked as postdoctoral fellow in C. J. Weijer group in Dundee, where he designed and built the first light-sheet microscopy setup in the UK. In his free time he enjoys cooking, photography, and long walks with his wife and daughters Maya and Iga.",
+          "sameAs": [
+            ""
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Chris",
+          "familyName": "Allan",
+          "jobTitle": "VP Software Engineering",
+          "description": "Chris Allan is a Canadian-born software developer and systems administrator from Vancouver, British Columbia who joined the Swedlow lab in early 2003. His early contributions were the initial implementation of mass-storage infrastructure and network groundwork to support the University of Dundee’s Light Microscopy Facility (LMF), but he now spends most of his time working on the OMERO.server project. Chris gained most of his systems administration and software development expertise as a high school student working in the commercial sector doing security, systems and network consulting for local companies and as a contractor/employee in the GT Trust high-security solutions team of GT Group Telecom Services (now a division of Bell Canada). His software interests lie in the fields of distributed computing, secure programming practices and encryption. When not with a head down in Java, C++ or Applied Cryptography he can be seen playing the most Canadian of games, ice hockey, with various teams in Dundee including Hockey For All.",
+          "sameAs": [
+            "https://orcid.org/0000-0002-8151-4059"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Sébastien",
+          "familyName": "Besson",
+          "jobTitle": "Senior Software Developer",
+          "description": "Sébastien Besson joined Glencoe Software in September 2022 as a software developer. After receiving his PhD in Physics from the Université Pierre at Marie Curie in 2007 and a postdoctoral fellowship in biophysics at Harvard University with Dr Dumais, he worked as a software developer with the Danuser lab to package in-house analysis software for the cell biology community. In 2012, he moved to the UK to join the OME team where he spent a decade building essential open-source infrastructure for the bioimaging community including OME-TIFF, Bio-Formats, OMERO and the Image Data Resource (IDR).",
+          "sameAs": [
+            "https://orcid.org/0000-0001-8783-1429"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Melissa",
+          "familyName": "Linkert",
+          "jobTitle": "Senior Software Developer",
+          "description": "Melissa Linkert is a programmer living in the Wisconsin area. She works on the Bio-Formats package, as well as the OME plugins for ImageJ. She previously worked as part of LOCI on the Bio-Formats project.",
+          "sameAs": [
+            ""
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Andreas",
+          "familyName": "Knab",
+          "jobTitle": "Senior Software Developer",
+          "description": "Andreas Knab has been working as a software developer for over 25 years, including more than seven at Glencoe Software. He received his MS degree in computer science from James Madison University, Virginia, in 1999. Since then, he has worked on a number of educational data management projects, including an open source digital image database used in art history programs at numerous universities. After living 16 years in the United States and 18 months in Barcelona, he and his wife currently reside in his native Germany.",
+          "sameAs": [
+            ""
+          ]
+        }
+      ],
+      "alumni": []
     }
   ]
 }
