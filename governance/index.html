@@ -39,16 +39,18 @@ main-blurb: Governance documents for the OME Consortium
             </div>
             <hr class="whitespace">
             <hr style="width: 100%;">
-{% assign sorted = site.governance %}
-{% for gov in sorted %}
-  {% unless gov.name contains "readme" %}
+{% for gov in site.governance %}
+  {% assign path_parts = gov.relative_path | split: '/' %}
+  {% if path_parts.size == 3 %}
+    {% unless gov.name contains "readme" %}
             <div class="small-12 medium-8 columns">
                 <h2><a href="{{ gov.url | relative_url }}">{{gov.title}}</a></h2>
                 <h6>{{gov.description}}</h6>
                 <div class="row"></div>
             </div>
             <hr style="width: 100%;">
-  {% endunless %}
+    {% endunless %}
+  {% endif %}
 {% endfor %}
             <hr class="whitespace">
         </div>
