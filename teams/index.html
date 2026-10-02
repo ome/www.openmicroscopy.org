@@ -49,7 +49,7 @@ schemadotorg: consortium
                 {% for member in team.member %}
                 <div class="column">
                         <img class="thumbnail" alt="photo of {{ member.givenName }} {{ member.familyName }}" src="{{ site.baseurl }}/img/team/{{ member.givenName | downcase }}_{{ member.familyName | downcase }}.jpg">
-                        <h5>{{ member.givenName }} {{ member.familyName }}</h5>
+                        <h5>{{ member.givenName | replace: "_", " "}} {{ member.familyName  | replace: "_", " "}}</h5>
                         <a class="team-member" data-open="modal-{{ team.alternateName }}-{{ forloop.index }}">
                             <span class="bio-link tiny button hollow">Read Bio</span>
                         </a>
