@@ -37,6 +37,16 @@
         },
         {
           "@type": "Person",
+          "givenName": "Anna Beatriz",
+          "familyName": "De Souza Perotto",
+          "jobTitle": "PhD student",
+          "description": "Anna Beatriz is a PhD student at the University of Dundee as part of the AGILE Marie Skłodowska-Curie Doctoral Network, focusing on integrating spatiotemporal image analysis results into OMERO, a scalable and FAIR data management platform for biological imaging. She holds a degree in Communications Network Engineering from the University of Brasília and a Master's in HealthTech from the University of Strasbourg, where her thesis addressed volume stitching and slice uncertainty correction for Oblique Plane Microscopy. Her research interests include image analysis, machine learning, and the development of computational tools to support life science research. Her personal interests include reading, running and candle making.",
+          "sameAs": [
+            "https://github.com/biaperotto"
+          ]
+        },
+        {
+          "@type": "Person",
           "givenName": "Dominik",
           "familyName": "Lindner",
           "jobTitle": "Software Developer",
