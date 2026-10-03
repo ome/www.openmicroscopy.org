@@ -20,7 +20,7 @@
       "memberOf": [
         {
           "@type": "Organization",
-          "name": "School of Life Sciences"
+          "name": "Faculty of Life Sciences"
         }
       ],
       "member": [
@@ -28,11 +28,21 @@
           "@type": "Person",
           "givenName": "Jean-Marie",
           "familyName": "Burel",
-          "jobTitle": "Senior Software Architect",
-          "description": "Jean-Marie Burel joined the staff of the Swedlow lab in 2003. Since then, he's been contributing to the development of OME. He received his PhD in mathematics from the University of Brest in 2000. His research interests lie in the area of harmonic maps, harmonic morphisms and geometric structure. After his PhD, he worked in a private company as developer then moved (September 2001) to Lund University, Sweden, where he held a post-doctoral research position. Jean-Marie now enjoys the muddy rugby pitches of Scotland.",
+          "jobTitle": "Team Leader/Senior Software Architect",
+          "description": "Jean-Marie Burel joined the staff of the Swedlow lab in 2003. Since then, he's been contributing to the development of OME. He received his PhD in mathematics from the University of Brest in 2000. His research interests lie in the area of harmonic maps, harmonic morphisms and geometric structure. After his PhD, he worked in a private company as developer then moved (September 2001) to Lund University, Sweden, where he held a post-doctoral research position. Jean-Marie now enjoys running up the hills.",
           "sameAs": [
             "https://orcid.org/0000-0002-1789-1861",
             "https://github.com/jburel"
+          ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Anna_Beatriz",
+          "familyName": "De_Souza_Perotto",
+          "jobTitle": "PhD student",
+          "description": "Anna Beatriz is a PhD student at the University of Dundee as part of the AGILE Marie Skłodowska-Curie Doctoral Network, focusing on integrating spatiotemporal image analysis results into OMERO, a scalable and FAIR data management platform for biological imaging. She holds a degree in Communications Network Engineering from the University of Brasília and a Master's in HealthTech from the University of Strasbourg, where her thesis addressed volume stitching and slice uncertainty correction for Oblique Plane Microscopy. Her research interests include image analysis, machine learning, and the development of computational tools to support life science research. Her personal interests include reading, running and candle making.",
+          "sameAs": [
+            "https://github.com/biaperotto"
           ]
         },
         {
@@ -74,7 +84,10 @@
           "familyName": "Walczysko",
           "jobTitle": "QA Software Specialist",
           "description": "Petr Walczysko joined the OME project in October 2012 as a software specialist for testing and quality assurance. He studied at Charles University of Prague where he received Master of Science degree in Physics and the University of Freiburg in Germany where he received PhD in Biology. Throughout his PhD studies and his further career as a researcher he was intensively using conventional, confocal and multiphoton fluorescence microscopy applications on biological systems. He was adapting these optical microscopy techniques for particular biological problems, and also worked on the subsequent image analysis of microscopic images in a range of image analysis programs. He enjoys yoga, reading and chess.",
-          "sameAs": "https://github.com/pwalczysko"
+          "sameAs": [
+            "https://orcid.org/0000-0003-0302-8247",
+            "https://github.com/pwalczysko"
+          ]
         },
         {
           "@type": "Person",
