@@ -99,6 +99,17 @@
             "https://orcid.org/0000-0001-7397-8251",
             "https://github.com/francesw"
           ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Sanat",
+          "familyName": "Chitnis",
+          "jobTitle": "PhD student (Associated)",
+          "description": "Sanat Chitnis works as a Doctoral Researcher at the Institute of Genetics, Reproduction and Development (iGReD) based in Université Clermont Auvergne at Clermont-Ferrand, France. He is part of the Marie Skłodowska-Curie Actions (MSCA) Doctoral Network called AGILE. His PhD project focuses on integrating Next Generation File Formats (NGFFs) like OME-Zarr into a 3D bioimage segmentation software called Biom3D. He will also be improving Biom3D’s interoperability with OMERO, a scalable and FAIR data management platform for biological imaging, with Imaris and with the FRACTAL web platform. He is most passionate about software development for biologists. His other research interests include 5D microscopy and image analysis. His hobbies include guitar, music, film, sports and fitness.",
+          "sameAs": [
+            "https://orcid.org/0009-0006-3278-9001",
+            "https://github.com/SanatC-07"
+          ]
         }
       ],
       "alumni": [
