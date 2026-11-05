@@ -1,0 +1,63 @@
+---
+layout: security-advisory
+filename: security
+title: GHSA-pc58-q9c8-wh7j ("XSS vulnerability when removing user")
+main-blurb: Affects OMERO.web <=5.33.2
+---
+        <!-- begin SecVul -->
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-th-list"></i> Synopsis</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">XSS vulnerability when removing user</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-history"></i> Background</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    When an administrator attempts to remove a user from their only group,
+                    the action fails with an error message that contains the user's first
+                    and last name. Those values are not HTML encoded, so they provide a vector
+                    for executing code within the administrator's browser session. Possible
+                    actions include creating additional administrator accounts with known
+                    usernames and passwords.
+
+                    For a successful exploit, a user must already have an account in OMERO
+                    and change their first and last names for the account to the desired
+                    malicious code. They also must be member of only a single group and then
+                    get an existing administrator to attempt to remove them from that group.
+                </p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-archive"></i> Affected Packages</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">OMERO.web <=5.33.2</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-exclamation-triangle"></i> Impact</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">High severity.</p>
+            </div>
+        </div>
+        <div class="secvul-row row">
+            <div class="small-12 medium-3 columns">
+                <h3 class="secvul-heading"><i class="fa fa-check"></i> Resolution</h3>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <p class="secvul-description">
+                    All OMERO.web deployments should be upgraded to at least 5.33.3.
+                </p>
+            </div>
+        </div>
+        <!-- end SecVul -->
+        <hr class="whitespace">
