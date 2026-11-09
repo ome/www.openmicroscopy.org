@@ -499,6 +499,17 @@
           "sameAs": [
             "https://orcid.org/0000-0001-7337-2313"
           ]
+        },
+        {
+          "@type": "Person",
+          "givenName": "Genevieve",
+          "familyName": "Laprade",
+          "jobTitle": "PhD student",
+          "description": "Genevieve is a PhD candidate at the University of Zürich and a part of the MSCA AGILE program. Her project focuses on integrating image analysis algorithms for 3D segmentation and timelapse tracking of plant cell images (stored as OME-Zarr datasets) into the Fractal platform. She received her Master of Science in Physiology from McGill University with a thesis entitled \"Benchmarking Single-Image Super-Resolution Microscopy Approaches\". Her research interests lie at the intersection between physiology and computer science, with an emphasis on image analysis and data standardization. She currently serves as the co-chair of the BioImaging North America Image Analysis Working Group. In addition to imaging science, her hobbies include baking, birdwatching, and gymnastics.",
+          "sameAs": [
+            "https://orcid.org/0009-0007-4516-6978",
+            "https://github.com/glaprade"
+          ]
         }
       ],
       "alumni": []
